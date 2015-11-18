@@ -1,0 +1,516 @@
+/* FÃ¤rg tema */
+
+ .colortext{
+color:#35383b;
+}
+
+footer a {
+  display: inline;
+  border-bottom: 2px solid #d1cfcf;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  color: black;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #000;
+}
+
+.contentlinks.linkblue {
+  padding-right: 5px;
+  padding-left: 1px;
+  color: #35383b;
+}
+.contentlinks.linkblue:hover {
+  background-color: transparent;
+  color: #35383b;
+}
+
+
+footer i.or-social-icon-bg { 
+   color: #35383b !important;
+   font-style:normal
+}
+
+footer i.or-social-icon-fg { 
+   color: #faf9f8 !important;
+   font-style:normal;
+}
+ 
+ 
+.leftnavicon {
+   color:#877D77 !important;
+}
+
+/* BakgrundsfÃ¤rg fÃ¶r temat */
+
+
+.submit.bg-color, .or-colorbg, .or-forms input[type="submit"] {
+    background-color: #35383B;
+}
+
+.or-formicon {
+  background-color: #857672;
+}
+
+.or-colorborder {   
+   border-color: #d1cfcf);
+}   
+
+
+/* Text fÃ¤rg fÃ¶r temat */
+h1.heading, 
+.or-colortext {
+  color: #35383b;
+}   
+
+
+/* BakgrundsfÃ¤rg fÃ¶r brÃ¶dsmulsraden */
+.or-breadcrumps-container{
+   background-color: #ecebe6;
+}
+
+/* FÃ¤rg fÃ¶r rubriker i nyhetslistning */
+.rubriknyhetsruta,
+.rubriknyhetsruta span {   
+  color: #35383b;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #d1cfcf);
+    outline: 0px none;
+    box-shadow: none;
+}
+
+/* Kommentarsrutor */
+li.or-comment.or-colorborder {
+  border-color: rgba(133, 118, 114, 0.49) rgba(133, 118, 114, 0.49) #857672;
+  background-color: rgba(255, 255, 255, 0.78);
+}   
+
+/* RamfÃ¤rg fÃ¶r actionrutan */
+.or-action-link.or-colorborder {
+  border-color: #d1cfcf);
+}
+
+.or-action-content span.fa {   
+   background-color: #35383b;   
+}
+
+.or-action-content span.fa:after {
+   border-left-color: #35383b;
+}
+
+
+/* FÃ¤rger fÃ¶r processverktyg */
+
+.sol_process_flow_container {
+    border-color: #35383b;
+}
+
+ul.sol_steps.clearfix {
+   color: #AEDEEF;
+}
+.sol_step {
+    box-shadow: 0px 0px 1px 0px #35383b inset;
+}
+
+li.sol_step:hover {
+    background-color: #F3F3F3;
+    color: #35383B;
+}
+
+li.sol_step.active {
+    background-color: #35383B;
+    box-shadow: 1px 8px 0px 0px #35383B inset, 0px 0px 3px 0px #000 inset;
+    border-top: 6px solid #656565;
+}
+
+
+
+li.sol_step.active:hover {
+color:#fff;
+}
+
+.sol_process_flow_outer > div{
+   border-color: #AEDEEF rgba(0, 152, 219, 0.34) rgba(0, 152, 219, 0.34);
+   color: #35383b;
+}
+
+/* Kalender */
+.or-date-month-name,
+.or-week-row.or-day-row,
+.or-calendar-text-active, 
+.or-calendar-text-active-event,
+.or-calendar-columns.or-week-column,
+.or-calendar-filter-container{
+   background-color: #35383b;
+}
+
+
+.or-month-container,
+.or-calendar-text-active, 
+.or-calendar-text-active-event,
+.or-calendar-filter-container {  
+  border-color: #d1cfcf;
+}
+
+.or-week-text:hover a {
+    color: #35383b;
+}
+
+
+/* Plusbox */
+.or-plus-box-header.or-colorborder {
+  border-color: #d1cfcf;
+}
+
+
+.or-plus-box-header.or-colorborder {
+  border-color: #d1cfcf;
+}
+
+.or-plus-box-header.or-plus-box-active {
+   background-color: #35383b;
+}
+
+h4.plusboxxrubrik.or-plus-box-active {
+   color:white;
+}
+
+.or-collpase-button.or-colorbg.or-plus-box-active {
+  background-color: rgba(255,255,255,0.25);
+}
+
+
+.or-plus-box-header.or-colorborder {
+  border-color: #d1cfcf;
+}
+
+.or-plus-box-header.or-plus-box-active {
+  background-color: #35383b;
+}
+
+/* Plusbox program */
+.or-plus-box-program:hover .plusboxxrubrik {
+  color: #35383b;
+}
+
+.or-wrapper-click.or-plus-box-header.or-colorborder.or-plus-box-active p.normal {
+    color: #FFF;
+}
+
+.or-plus-box-program .or-collpase-button {
+    background-color: #D1CFCF!important;
+}
+
+.or-plus-box-program .or-collpase-button.or-plus-box-active {
+    background-color: #D1CFCF!important;
+}
+
+.or-programpoang {
+    border-color: #35383b;
+    color:  #35383b;
+}
+
+.or-plus-box-program .or-icon-plus {
+    color: #35383b;
+}
+
+
+
+/* Kontakta oss fristÃ¥ende */
+
+.or-contact-bar.or-colorborder {
+  border-right: 2px solid #d1cfcf;
+  border-bottom: 2px solid #d1cfcf;
+  border-left: 2px solid #d1cfcf;
+}
+
+.or-contact-left-column-container.or-colorbg {  
+  background-color: #d1cfcf;
+}
+
+.or-contacticon i {
+  color: #35383b;
+}
+
+/* action */
+.or-arrow-left::after {
+    border-color: rgba(136, 183, 213, 0) rgba(136, 183, 213, 0) rgba(136, 183, 213, 0) #35383B;
+}
+
+.calltoactionwrapper:hover > .or-ctatext {
+  color: #35383b;
+  text-decoration: none;
+  border-bottom: 2px solid #35383b;
+}
+
+.or-action-content:hover a {
+  color: #35383b;
+}
+
+.or-action-content:hover .or-action-text{
+  color: #35383b;
+  text-decoration:underline;
+}
+
+.or-action-link:hover {
+    box-shadow: 0px 0px 6px 0px #E7E7E7;
+}
+ 
+ 
+ /* actions */
+ 
+ .or-action-link {
+    border-color: #d1cfcf;
+}
+ 
+ 
+ 
+/* Hover plusboxar */
+.or-wrapper-click.or-plus-box-header.or-colorborder:hover .plusboxxrubrik{
+	color: #35383b;
+}
+
+.or-wrapper-click.or-plus-box-header.or-colorborder.or-plus-box-active .plusboxxrubrik {
+  color: #fff;
+}
+
+/* puffar */
+.or-puff-bild-trans-text > div:nth-child(1) {
+    background-color: rgba(53, 56, 59, 0.8);
+}
+
+.or-puff-bild-text h4{
+color: #35383b;
+}
+
+.or-stor-bild-text-tv > div:nth-child(2) h2 {
+    color: #35383b;
+}
+
+.extra {
+    background-color: #35383b;
+}
+
+.poem span {
+    background-color: #35383b;
+}
+
+.topp-storbild-textblock {
+    background-color: #fff;
+}
+
+.or-stor-bild-text {
+    background-color: #fff;
+}
+
+.or-stor-text-actions {
+    background-color: #FFF;
+}
+
+.or-stor-bild-text-2 {
+    background-color: #fff;
+}
+
+.or-puff-program p.normal {
+    color: #35383b;
+}
+
+.or-stor-bild-text-actions {
+    background-color: #FFF;
+}
+
+
+.or-puff-program:hover {
+    box-shadow: 0px 0px 6px 0px #E7E7E7;
+}
+/*slut puffar */
+
+
+.sv-table-portlet tbody tr:nth-child(2n) {
+    border-bottom-color: rgba(133, 118, 114, 0.2);
+    background-color: #F9F9F9;
+}
+
+/* tabell */
+
+@media (max-width: 768px) {
+.st-head-row {
+  background-color: #35383b;
+}
+}
+
+.sv-table-portlet thead tr {
+    background-color: #35383b;
+}
+
+/* rubrik logo */
+.or-header-topptext h2 {
+ color: #35383b;
+}
+
+/* blogg commennt */
+
+.or-blogginfo-blocks:hover .or-comment-expander-text {
+	color: #35383b;
+}
+
+.or-month-container .or-month-arrow:hover {
+    color: #35383b;
+}
+
+.sv-table-portlet th {
+    background-color: #35383b;
+}
+
+.sitevision-ui-bootstrap .ui-menu .ui-menu-item a.ui-state-focus,.sitevision-ui-bootstrap .ui-menu .ui-menu-item a.ui-state-active,.sitevision-ui-bootstrap .ui-menu .ui-menu-item a.ui-widget-content{font-weight:400;margin:0;color:#fff;background:#35383b;background-color:#35383b;background-repeat:repeat-x;background-image:-webkit-linear-gradient(top,#35383b,#35383b);background-image:-moz-linear-gradient(top,#35383b,#35383b);background-image:-o-linear-gradient(top,#35383b,#35383b);background-image:linear-gradient(to bottom,#35383b,#35383b);text-shadow:0 0px 0 rgba(0,0,0,0.0);border-color:#08c #0088Cc #0077b3;border-color:rgba(0,0,0,0.0) rgba(0,0,0,0.0) rgba(0,0,0,0.0);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#35383b',endColorstr='#35383b',GradientType=0);filter:progid:DXImageTransform.Microsoft.gradient(enabled=false)}
+
+
+
+/* blogg */
+
+.or-blog-wrapper {
+ border-color: #35383b;
+}
+
+
+/* steg fÃ¶r steg program */
+.or-school-advantages-header {
+    border-bottom: 8px solid #D1CFCF;
+    border-right: 1px solid #D1CFCF;
+    border-top: 1px solid #D1CFCF;
+    border-left: 1px solid #D1CFCF;
+}
+
+.advantages-arrow-down {
+    background-color: #D1CFCF;
+}
+
+/* topprubrik programsida*/
+.or-stor-bild-text-tv > div:nth-child(2) h1, .or-program-heading-container h1 {
+    color: #35383b;
+}
+
+/*mm menu */
+.mm-header .mm-title a {
+    color: #35383b;
+}
+
+body .mm-menu.mm-vertical .mm-list li.mm-opened.mm-selected > a, body .mm-menu.mm-vertical .mm-list li.mm-opened.mm-selected > a.mm-subopen {
+    background-color: #35383b;
+}
+
+.mm-menu.mm-vertical .mm-list > li.mm-selected > a:not(.mm-subopen), .mm-menu.mm-vertical .mm-list > li.mm-selected > a.mm-subopen {
+    background: none repeat scroll 0% 0% #35383b;
+}
+
+.mm-menu.mm-vertical .mm-list > li.mm-selected > a:not(.mm-subopen), .mm-menu.mm-vertical .mm-list > li.mm-selected > a.mm-subopen a:hover {
+    background-color: #35383b;
+}
+
+.mm-list > li > a:hover {
+    background-color: #efefef;
+}
+
+body .mm-menu.mm-vertical .mm-list li.mm-opened > a:hover {
+    color: #000;
+    background-color: #F3F3F3;
+}
+
+body .mm-menu.mm-vertical .mm-list li.mm-opened.mm-selected > a, body .mm-menu.mm-vertical .mm-list li.mm-opened.mm-selected > a.mm-subopen {
+    background-color: #35383b;
+}
+
+
+.sv-searchform-portlet .submit:hover {
+    background-color: #000;
+}
+
+.or-social-badge {
+ background-color: #35383b;
+}
+
+/*faktabox */
+
+.or-facts-block {
+    border-color: #35383B;
+    background-color: #FFF;
+    border-radius: 2px;
+}
+
+.or-facts-block h4, h3, h2 {
+    color: #35383B;
+}
+
+.or-docs-box-heading {
+    background-color: #35383B;
+}
+
+
+
+
+/* SÃ¶ksida */
+.sol-facetter p {
+    color: #35383b;
+}
+
+li#sol-selected-facet {
+    background-color: #35383b;
+}
+
+li.sol-selected-facet:hover {
+    background-color: #35383b;
+    border-bottom-color: #35383b;
+}
+
+.or-show-hiden-facet-items:hover {
+    background-color: #35383b !important;
+    border-bottom: 0px dotted #EDEDED !important;
+    color: #fff;
+}
+
+.sol-sok-ruta input.normal:last-child {
+    background-color: #35383b;
+}
+.sol-sok-ruta input.normal:last-child:hover {
+    background-color: #000;
+    cursor: pointer;
+}
+
+li.sol-selected-facet:hover {
+    background-color: #717171!important;
+    border-bottom-color: #717171!important;
+}
+
+
+.or-show-hiden-facet-items {
+    background-color: #35383B;
+    color: #fff;
+}
+
+.or-show-hiden-facet-items {
+    background-color: rgba(133, 118, 114, 0.2);
+    color: #35383B;
+    border-bottom: 0px !important;
+}
+
+.or-hidden-facet-items-selected {
+    transition: all 500ms ease 0s;
+    background-color: #717171 !important;
+    border-bottom: 0px none !important;
+    color: rgb(255, 255, 255);
+}
+
+.pagination .current {
+    background-color: #35383B;
+}
+
+
+#or-paging-id a:hover {
+ background-color: #A2A0A0;
+ color: #FFF;
+}
