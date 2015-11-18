@@ -1,0 +1,498 @@
+/* FÃ¤rg tema */
+
+ .colortext{
+color:#F28C00;
+}
+
+footer a {
+  display: inline;
+  border-bottom: 2px solid #FCE0B9;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  color: black;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #000;
+}
+
+.contentlinks.linkblue {
+  padding-right: 5px;
+  padding-left: 1px;
+  color: #F28C00;
+}
+.contentlinks.linkblue:hover {
+  background-color: transparent;
+  color: #35383b;
+}
+
+
+footer i.or-social-icon-bg { 
+   color: #35383b !important;
+   font-style:normal
+}
+
+footer i.or-social-icon-fg { 
+   color: #faf9f8 !important;
+   font-style:normal;
+}
+ 
+ 
+.leftnavicon {
+   color:#877D77 !important;
+}
+
+/* BakgrundsfÃ¤rg fÃ¶r temat */
+.submit.bg-color, /* FÃ¤rg fÃ¶r sÃ¶kknapp   */
+.or-colorbg,
+.or-forms input[type="submit"] {
+   background-color: #F28C00;
+}
+
+.or-forms input[type="submit"] {
+  border-top-color: #f28c00;
+  border-bottom-color: #d06b02;
+  background-color: #f28c00;
+}
+
+.or-forms input:hover[type="submit"] {
+  border-top-color: #f0a030;
+  border-bottom-color: #db8814;
+  background-color: #db840b;
+}
+
+.or-forms input:active[type="submit"] {
+  border-top-color: #d17b02;
+  border-bottom-color: #f28c00;
+  background-color: #f28c00;
+}
+
+.or-formicon {
+  background-color:#F28C00;
+}
+
+.or-colorborder {   
+   border-color: #FCE0B9);
+}   
+
+
+/* Text fÃ¤rg fÃ¶r temat */
+h1.heading, 
+.or-colortext {
+  color: #F28C00;
+}   
+
+
+/* BakgrundsfÃ¤rg fÃ¶r brÃ¶dsmulsraden */
+.or-breadcrumps-container{
+   background-color: #ecebe6;
+}
+
+/* FÃ¤rg fÃ¶r rubriker i nyhetslistning */
+.rubriknyhetsruta,
+.rubriknyhetsruta span {   
+  color: #F28C00;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #FCE0B9);
+    outline: 0px none;
+    box-shadow: none;
+}
+
+/* Kommentarsrutor */
+li.or-comment.or-colorborder {
+  border-color: rgba(133, 118, 114, 0.49) rgba(133, 118, 114, 0.49) #857672;
+  background-color: rgba(255, 255, 255, 0.78);
+}   
+
+/* RamfÃ¤rg fÃ¶r actionrutan */
+.or-action-link.or-colorborder {
+  border-color: #FCE0B9);
+}
+
+.or-action-content span.fa {   
+   background-color: #F28C00;   
+}
+
+.or-action-content span.fa:after {
+   border-left-color: #F28C00;
+}
+
+
+/* FÃ¤rger fÃ¶r processverktyg */
+
+.sol_process_flow_container {
+    border-color: #F28C00;
+}
+
+ul.sol_steps.clearfix {
+   color: #AEDEEF;
+}
+.sol_step {
+    box-shadow: 0px 0px 1px 0px #F28C00 inset;
+}
+
+li.sol_step:hover {
+    background-color: #fef0dd;
+    color: #35383b;
+}
+
+li.sol_step.active {
+    background-color: #F28C00;
+    box-shadow: 1px 8px 0px 0px #F28C00 inset, 0px 0px 3px 0px #B76F0B inset;
+    border-top: 6px solid #F2B767;
+}
+
+li.sol_step.active:hover {
+color:#fff;
+}
+
+li.sol_step.active:hover {
+#fff;
+}
+
+.sol_process_flow_outer > div{
+   border-color: #AEDEEF rgba(0, 152, 219, 0.34) rgba(0, 152, 219, 0.34);
+   color: #F28C00;
+}
+
+/* Kalender */
+.or-date-month-name,
+.or-week-row.or-day-row,
+.or-calendar-text-active, 
+.or-calendar-text-active-event,
+.or-calendar-columns.or-week-column,
+.or-calendar-filter-container{
+   background-color: #F28C00;
+}
+
+
+.or-month-container,
+.or-calendar-text-active, 
+.or-calendar-text-active-event,
+.or-calendar-filter-container {  
+  border-color: #FCE0B9;
+}
+
+.or-week-text:hover a {
+    color: #F28C00;
+}
+
+
+/* Plusbox */
+.or-plus-box-header.or-colorborder {
+  border-color: #FCE0B9;
+}
+
+
+.or-plus-box-header.or-colorborder {
+  border-color: #FCE0B9;
+}
+
+.or-plus-box-header.or-plus-box-active {
+   background-color: #F28C00;
+}
+
+h4.plusboxxrubrik.or-plus-box-active {
+   color:white;
+}
+
+.or-collpase-button.or-colorbg.or-plus-box-active {
+  background-color: rgba(255,255,255,0.25);
+}
+
+
+.or-plus-box-header.or-colorborder {
+  border-color: #FCE0B9;
+}
+
+.or-plus-box-header.or-plus-box-active {
+  background-color: #F28C00;
+}
+
+/* Plusbox program */
+.or-plus-box-program:hover .plusboxxrubrik {
+  color: #F28C00;
+}
+
+.or-wrapper-click.or-plus-box-header.or-colorborder.or-plus-box-active p.normal {
+    color: #FFF;
+}
+
+.or-plus-box-program .or-collpase-button {
+    background-color: #FBEDDA;
+}
+
+.or-programpoang {
+    border-color: #F28C00;
+    color: #F28C00;
+}
+
+.or-plus-box-program .or-collpase-button.or-plus-box-active {
+    background-color: #FBEDDA !important;
+}
+
+.or-plus-box-program .or-icon-plus {
+    color: #F28C00;
+}
+
+
+
+/* Kontakta oss fristÃ¥ende */
+
+.or-contact-bar.or-colorborder {
+  border-right: 2px solid #FCE0B9;
+  border-bottom: 2px solid #FCE0B9;
+  border-left: 2px solid #FCE0B9;
+}
+
+.or-contact-left-column-container.or-colorbg {  
+  background-color: #FCE0B9;
+}
+
+.or-contacticon i {
+  color: #F28C00;
+}
+
+/* action */
+.calltoactionwrapper:hover > .or-ctatext {
+  color: #F28C00;
+  text-decoration: none;
+  border-bottom: 2px solid #F28C00;
+}
+
+.or-action-content:hover a {
+  color: #F28C00;
+}
+
+.or-action-content:hover .or-action-text{
+  color: #F28C00;
+  text-decoration:underline;
+}
+ 
+ /* actions */
+ 
+ .or-action-link {
+    border-color: #FCE0B9;
+}
+ 
+.or-arrow-left::after {
+    border-color: rgba(136, 183, 213, 0) rgba(136, 183, 213, 0) rgba(136, 183, 213, 0) #F28C00;
+}
+
+.or-action-link-small:hover a {
+ color: #FCE0B9;
+}
+ 
+/* Hover plusboxar */
+.or-wrapper-click.or-plus-box-header.or-colorborder:hover .plusboxxrubrik{
+	color: #F28C00;
+}
+
+.or-wrapper-click.or-plus-box-header.or-colorborder.or-plus-box-active .plusboxxrubrik {
+  color: #fff;
+}
+
+/* puffar */
+.or-puff-bild-trans-text > div:nth-child(1) {
+    background-color: rgba(225, 137, 17, 0.81);
+}
+
+.or-puff-bild-text h4{
+color: #F28C00;
+}
+
+.or-stor-bild-text-tv > div:nth-child(2) h2 {
+    color: #F28C00;
+}
+
+.extra {
+    background-color: #F28C00;
+}
+
+.poem span {
+    background-color: #F28C00;
+}
+
+.topp-storbild-textblock {
+    background-color: #fff;
+}
+
+.or-stor-bild-text {
+    background-color: #fff;
+}
+
+.or-stor-text-actions {
+    background-color: #FCE0B9;
+}
+
+.or-stor-bild-text-2 {
+    background-color: #fff;
+}
+
+.or-puff-program p.normal {
+    color: #F28C00;
+}
+
+.or-stor-bild-text-actions {
+    background-color: #FFF;
+}
+
+/*slut puffar */
+
+
+.sv-table-portlet tbody tr:nth-child(2n) {
+    border-bottom-color: rgba(133, 118, 114, 0.2);
+    background-color: #fef0dd;
+}
+
+/* tabell */
+
+@media (max-width: 768px) {
+.st-head-row {
+  background-color: #F28C00;
+}
+}
+
+.sv-table-portlet thead tr {
+    background-color: #F28C00;
+}
+
+/* rubrik logo */
+.or-header-topptext h2 {
+ color: #F28C00;
+}
+
+/* blogg commennt */
+.or-blogginfo-blocks:hover .or-comment-expander-text {
+	color: #F28C00;
+}
+
+.or-month-container .or-month-arrow:hover {
+    color: #F28C00;
+}
+
+.sv-table-portlet th {
+    background-color: #F28C00;
+}
+
+.sitevision-ui-bootstrap .ui-menu .ui-menu-item a.ui-state-focus,.sitevision-ui-bootstrap .ui-menu .ui-menu-item a.ui-state-active,.sitevision-ui-bootstrap .ui-menu .ui-menu-item a.ui-widget-content{font-weight:400;margin:0;color:#fff;background:#F28C00;background-color:#F28C00;background-repeat:repeat-x;background-image:-webkit-linear-gradient(top,#F28C00,#F28C00);background-image:-moz-linear-gradient(top,#F28C00,#F28C00);background-image:-o-linear-gradient(top,#F28C00,#F28C00);background-image:linear-gradient(to bottom,#F28C00,#F28C00);text-shadow:0 0px 0 rgba(0,0,0,0.0);border-color:#08c #0088Cc #0077b3;border-color:rgba(0,0,0,0.0) rgba(0,0,0,0.0) rgba(0,0,0,0.0);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#F28C00',endColorstr='#F28C00',GradientType=0);filter:progid:DXImageTransform.Microsoft.gradient(enabled=false)}
+
+
+
+/* blogg */
+
+.or-blog-wrapper {
+ border-color: #F28C00;
+}
+
+
+/* steg fÃ¶r steg program */
+.or-school-advantages-header {
+    border-bottom: 8px solid #FBEDDA;
+    border-right: 1px solid #FBEDDA;
+    border-top: 1px solid #FBEDDA;
+    border-left: 1px solid #FBEDDA;
+}
+
+.advantages-arrow-down {
+    background-color: #FBEDDA;
+}
+
+/* topprubrik programsida*/
+.or-stor-bild-text-tv > div:nth-child(2) h1, .or-program-heading-container h1 {
+    color: #F28C00;
+}
+
+
+/*mm menu */
+.mm-header .mm-title a {
+    color: #F28C00;
+}
+
+body .mm-menu.mm-vertical .mm-list li.mm-opened.mm-selected > a, body .mm-menu.mm-vertical .mm-list li.mm-opened.mm-selected > a.mm-subopen {
+    background-color: #F28C00;
+}
+
+.mm-menu.mm-vertical .mm-list > li.mm-selected > a:not(.mm-subopen), .mm-menu.mm-vertical .mm-list > li.mm-selected > a.mm-subopen {
+    background: none repeat scroll 0% 0% #F28C00;
+}
+
+.mm-menu.mm-vertical .mm-list > li.mm-selected > a:not(.mm-subopen), .mm-menu.mm-vertical .mm-list > li.mm-selected > a.mm-subopen a:hover {
+    background-color: #F28C00;
+}
+
+.mm-list > li > a:hover {
+    background-color: #FFF8ED;
+}
+
+body .mm-menu.mm-vertical .mm-list li.mm-opened.mm-selected > a, body .mm-menu.mm-vertical .mm-list li.mm-opened.mm-selected > a.mm-subopen {
+    background-color: #F28C00;
+}
+
+
+.sv-searchform-portlet .submit:hover {
+    background-color: #D57800;
+}
+
+.or-social-badge {
+ background-color: #F28C00;
+}
+
+.or-facts-block h4, h3, h2 {
+    color: #F28C00;
+}
+
+
+/* SÃ¶ksida */
+.sol-facetter p {
+    color: #F28C00;
+}
+
+li#sol-selected-facet {
+    background-color: #F28C00;
+}
+
+li.sol-selected-facet:hover {
+    background-color: rgba(0, 152, 189, 0.5);
+    border-bottom-color: rgba(0, 152, 189, 0.5);
+}
+
+.or-show-hiden-facet-items:hover {
+ background-color: #F3A63C !important;
+ border-bottom: 2px dotted #F3A63C !important;
+ color: #fff;
+}
+
+.sol-sok-ruta input.normal:last-child {
+    background-color: #F28C00;
+}
+.sol-sok-ruta input.normal:last-child:hover {
+    background-color: #D57800;
+    cursor: pointer;
+}
+
+li.sol-selected-facet:hover {
+    background-color: #F6A93F !important;
+    border-bottom-color: #F6A93F !important;
+    color: #fff !important;
+}
+
+
+.or-hidden-facet-items-selected {
+ transition: all 500ms ease 0s;
+ background-color: #F28C00 !important;
+ border-bottom-color: #F28C00 !important;
+ color: #fff;
+}
+
+.pagination .current {
+    background-color: #F28C00;
+}
+
+#or-paging-id a:hover {
+    background-color: #f8d4a1;
+}
