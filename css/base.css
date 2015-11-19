@@ -5899,39 +5899,46 @@ box-shadow: rgba(255, 255, 255, 1)0px -33px 0px -11px inset;
 
 /* Tabeller */
 
-.sv-table-portlet table {
+.sv-table-portlet table,
+.sv-programtabell table {
   width: 100%;
   border-collapse: collapse;
 }
 
-.sv-table-portlet caption {
+.sv-table-portlet caption,
+.sv-programtabell caption {
     display: table-caption !important;
     margin-bottom: 15px;
 }
 
-.sv-table-portlet thead tr {
+.sv-table-portlet thead tr,
+.sv-programtabell thead tr {
   background-color: #e83c23;
 }
 
-.sv-table-portlet th {  
+.sv-table-portlet th,  
+.sv-programtabell th {  
   padding: 10px 10px 11px;
   border-right: 1px solid rgb(255, 255, 255);
   border-right: 1px solid rgba(255, 255, 255, 0.45);
   background-color: #E83C23;
 }
 
-.sv-table-portlet td {
+.sv-table-portlet td,
+.sv-programtabell td {
    padding: 8px 10px;
    border-right: 1px solid rgb(133, 118, 114);
    border-right: 1px solid rgba(133, 118, 114, 0.09);  
 }
 
-.sv-table-portlet tr td:first-child {
+.sv-table-portlet tr td:first-child ,
+.sv-programtabell tr td:first-child {
 border-left: 1px solid rgb(133, 118, 114);
   border-left: 1px solid rgba(133, 118, 114, 0);
 }
 
-.sv-table-portlet th span.normal {  
+.sv-table-portlet th span.normal,  
+.sv-programtabell th span.normal {  
   color: white;
   font-family: 'Leaguespartan webfont', sans-serif;
   font-size: 12px;
@@ -5941,30 +5948,96 @@ border-left: 1px solid rgb(133, 118, 114);
   text-transform: none;  
 }   
 
+.sv-table-portlet tbody tr, 
+.sv-table-portlet tbody tr {
+border-bottom: 1px solid rgb(133, 118, 114);
+border-bottom: 1px solid rgba(133, 118, 114, 0.15);
+}
+
+.sv-table-portlet tbody tr:nth-child(odd),
+.sv-programtabell tbody tr:nth-child(odd) {
+   background-color: white;
+   
+}
+
+.sv-table-portlet tbody tr:nth-child(even),
+.sv-programtabell tbody tr:nth-child(even) {
+	border-bottom-color: rgb(133, 118, 114);
+  border-bottom-color: rgba(133, 118, 114, 0.2);
+  background-color: #fdf4e7;
+}
+
+
+/* Tabeller SV4 */
+
+.sv-programtabell table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.sv-programtabell caption {
+    display: table-caption !important;
+    margin-bottom: 15px;
+}
+
+.sv-programtabell thead tr {
+  background-color: #e83c23;
+}
+
+.sv-programtabell th {  
+  padding: 10px 10px 11px;
+  border-right: 1px solid rgb(255, 255, 255);
+  border-right: 1px solid rgba(255, 255, 255, 0.45);
+  background-color: #E83C23;
+}
+
+.sv-programtabell td {
+   padding: 8px 10px;
+   border-right: 1px solid rgb(133, 118, 114);
+   border-right: 1px solid rgba(133, 118, 114, 0.09);  
+}
+
+.sv-programtabell tr td:first-child {
+border-left: 1px solid rgb(133, 118, 114);
+  border-left: 1px solid rgba(133, 118, 114, 0);
+}
+
+.sv-programtabell th span.normal {  
+  color: white;
+  font-family: 'Leaguespartan webfont', sans-serif;
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  text-transform: none;  
+}   
+
+.sv-programtabell tbody tr {
+  border-bottom: 1px solid rgb(133, 118, 114);
+  border-bottom: 1px solid rgba(133, 118, 114, 0.15);
+}
+
+.sv-programtabell tbody tr:nth-child(odd) {
+   background-color: white;   
+}
+
+.sv-programtabell tbody tr:nth-child(even) {
+  border-bottom-color: rgb(133, 118, 114);
+  border-bottom-color: rgba(133, 118, 114, 0.2);
+  background-color: #fdf4e7;
+}
+
+
+
+
 .or-plus-box-content .normal{
-   font-size: 16px;
+  font-size: 16px;
   line-height: 24px;
 }
 
 .or-plus-box-content .normal a:link{
    font-size: 16px;
   line-height: 24px;
-}
-
-.sv-table-portlet tbody tr {
-border-bottom: 1px solid rgb(133, 118, 114);
-border-bottom: 1px solid rgba(133, 118, 114, 0.15);
-}
-
-.sv-table-portlet tbody tr:nth-child(odd) {
-   background-color: white;
-   
-}
-
-.sv-table-portlet tbody tr:nth-child(even) {
-	border-bottom-color: rgb(133, 118, 114);
-  border-bottom-color: rgba(133, 118, 114, 0.2);
-  background-color: #fdf4e7;
 }
 
 
@@ -7412,7 +7485,8 @@ color: #35383B;
 
 /* Plusbox program tabell*/
 
-.or-plus-box-program.or-plus-box-content.sv-table-portlet {
+.or-plus-box-program.or-plus-box-content.sv-table-portlet,
+.or-plus-box-program.or-plus-box-content.sv-programtabell {
   padding: 0px;
 }
 
@@ -7426,14 +7500,18 @@ color: #35383B;
 }
 
 .or-plus-box-program.or-plus-box-content.sv-table-portlet tr td:first-child,
-.or-plus-box-program.or-plus-box-content.sv-table-portlet tr th:first-child {
+.or-plus-box-program.or-plus-box-content.sv-table-portlet tr th:first-child,
+.or-plus-box-program.or-plus-box-content.sv-programtabell tr td:first-child,
+.or-plus-box-program.or-plus-box-content.sv-programtabell tr th:first-child  {
   border: none;
   padding-left: 20px;  
   width: 75%;
 }
 
 .or-plus-box-program.or-plus-box-content.sv-table-portlet tr td:last-child,
-.or-plus-box-program.or-plus-box-content.sv-table-portlet tr th:last-child {
+.or-plus-box-program.or-plus-box-content.sv-table-portlet tr th:last-child,
+.or-plus-box-program.or-plus-box-content.sv-programtabell tr td:last-child,
+.or-plus-box-program.or-plus-box-content.sv-programtabell tr th:last-child  {
   border: none;
   padding-right: 55px;
 }
