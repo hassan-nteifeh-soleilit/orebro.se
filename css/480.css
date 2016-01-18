@@ -1,7 +1,7 @@
 @media all and (max-width: 480px)
 {
 	
-	/* frÃ¥n base */
+	/* från base */
 
 .searchform {
     padding: 8px 40px 8px 12px;
@@ -401,10 +401,6 @@ a.or-action-text, .or-action-text a:hover {
     line-height: 24px;
 }
 
-.or-stor-bild-text-actions {
-    margin-top: 0px;
-}
-
 .topp-storbild-textblock {
     background-color: #E5EEF0;
     padding-right: 15px;
@@ -447,7 +443,7 @@ a.or-action-text, .or-action-text a:hover {
     padding: 5px 8px 7px;
 }
 
-/* sÃ¶k */
+/* sök */
 
 .sol-search-hits > div {
     margin-left: 12px;
@@ -726,7 +722,7 @@ display:none;
 
 
 .or-instagram-block {
-    margin-top: 35px;
+    margin-top: 35px;    
 }
 
 .or-instagram-container.or-instagram-container-subpage {
@@ -750,10 +746,24 @@ margin-top: -35px;
     padding-bottom: 0px;
 }
 
-
 .or-instagram-block {
     margin-top: 0;
 }
+
+/* ny tabell */
+
+.pagecontent .sv-linklist-portlet table.sv-programtabell td p, .sv-blog-portlet table.sv-programtabell td p, .sv-archive-portlet table.sv-programtabell td p, .sv-text-portlet table.sv-programtabell td p {
+    font-size: 14px;
+}
+
+.sv-linklist-portlet table.sv-programtabell td p a, .sv-blog-portlet table.sv-programtabell td p a, .sv-archive-portlet table.sv-programtabell td p a, .sv-text-portlet table.sv-programtabell td p a {
+    font-size: 14px;
+}
+
+.sv-linklist-portlet table.sv-programtabell td p a, .sv-blog-portlet table.sv-programtabell td p a, .sv-archive-portlet table.sv-programtabell td p a, .sv-text-portlet table.sv-programtabell td p a:hover {
+    font-size: 14px;
+}
+
 
 
 
@@ -771,7 +781,7 @@ margin-top: -35px;
 width:100%;
 }
 
-/* Steg fÃ¶r Steg puff */
+/* Steg för Steg puff */
 .sv-fixed-fluid-grid sv-grid-utanxmellanrum .or-school-advantages-container .sv-row row-fluid .sv-column-4 .sv-column-4 .or-school-col{
   padding-right:0px !important;
   padding-left: 0px !important;  
@@ -865,6 +875,47 @@ width: 100%;
     padding-left: 7px;
 }
 
+/* processteg */
+.sol-accordion-heading {
+ background-color: #e83c23;
+ color: #fff;
+ border-top: 3px solid #F4F3F1;
+ margin: 0 0 5px;
+ padding: 5px 35px 5px 7px;
+ display: block;
+ cursor: pointer;
+ font-size: 12px;
+ border-radius: 2px;
+}
+
+.sol-accordion-heading:after {
+    content: "\f067";
+    font-family: FontAwesome;
+    padding-right: 6px;
+    color: #35383b;
+    position: absolute;
+    right: 35px;
+    font-size: 20px;
+}
+
+.sol-accordion-heading.sol-tab-active:after{
+    content: "\f068";
+    font-family: FontAwesome;
+    padding-right: 6px;
+    color: #fff;
+    position: absolute;
+    right: 35px;
+    font-size: 20px;
+}
+
+.sol-accordion-heading.sol-tab-active{
+    background-color: #e83c23;
+    color: #fff;
+    border: 2px solid #e83c23;
+}
+
+.sol-tab-button-container {
+    display: none;
+}
+
 } /* End media break */
-
-
