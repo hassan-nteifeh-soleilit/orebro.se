@@ -1,6 +1,6 @@
 @media all and (max-width: 767px)
 {
-	/* frÃ¥n base */
+	/* från base */
 	
   .stacktable.large-only { display: none; }
   .stacktable.small-only { display: table; }
@@ -226,7 +226,7 @@
    float: none;
   }
 
-/* frÃ¥n base slut */
+/* från base slut */
 	
 	
    .or-col-logo-header {
@@ -454,7 +454,7 @@ line-height: 24px;
 
 
 
-/* sÃ¶k */
+/* sök */
 
 
 .sol-sok-ruta input.ui-autocomplete-input {
@@ -677,7 +677,7 @@ p.or-close-text {
   left: 16px;
 }
 
-/* sociala flÃ¶det */
+/* sociala flödet */
 
 .or-instagram-container {
   min-height: 240px;
@@ -868,7 +868,7 @@ width:65%;
 }
 /* end */
 
-/*Steg fÃ¶r Steg puff*/
+/*Steg för Steg puff*/
 .or-school-advantages-container {
 
   border-right: 0px;
