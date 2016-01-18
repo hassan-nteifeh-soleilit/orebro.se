@@ -1,4 +1,4 @@
-/* FÃ¤rg tema */
+/* Färg tema */
 
  .colortext{
 color:#6F9333;
@@ -44,13 +44,13 @@ footer i.or-social-icon-fg {
    color:#877D77 !important;
 }
 
-/* BakgrundsfÃ¤rg fÃ¶r temat */
+/* Bakgrundsfärg för temat */
 .or-formicon {
   background-color: #857672;
 }
 
-/* BakgrundsfÃ¤rg fÃ¶r temat */
-.submit.bg-color, /* FÃ¤rg fÃ¶r sÃ¶kknapp   */
+/* Bakgrundsfärg för temat */
+.submit.bg-color, /* Färg för sökknapp   */
 .or-colorbg,
 .or-forms input[type="submit"] {
    background-color: #6F9333;
@@ -65,19 +65,19 @@ footer i.or-social-icon-fg {
 }   
 
 
-/* Text fÃ¤rg fÃ¶r temat */
+/* Text färg för temat */
 h1.heading, 
 .or-colortext {
   color: #6F9333;
 }   
 
 
-/* BakgrundsfÃ¤rg fÃ¶r brÃ¶dsmulsraden */
+/* Bakgrundsfärg för brödsmulsraden */
 .or-breadcrumps-container{
    background-color: #ecebe6;
 }
 
-/* FÃ¤rg fÃ¶r rubriker i nyhetslistning */
+/* Färg för rubriker i nyhetslistning */
 .rubriknyhetsruta,
 .rubriknyhetsruta span {   
   color: #6F9333;
@@ -95,7 +95,7 @@ li.or-comment.or-colorborder {
   background-color: rgba(255, 255, 255, 0.78);
 }   
 
-/* RamfÃ¤rg fÃ¶r actionrutan */
+/* Ramfärg för actionrutan */
 .or-action-link.or-colorborder {
   border-color: #dbe7c4);
 }
@@ -109,7 +109,7 @@ li.or-comment.or-colorborder {
 }
 
 
-/* FÃ¤rger fÃ¶r processverktyg */
+/* Färger för processverktyg */
 
 
 .sol_process_flow_container {
@@ -244,7 +244,7 @@ h4.plusboxxrubrik.or-plus-box-active {
 
 
 
-/* Kontakta oss fristÃ¥ende */
+/* Kontakta oss fristående */
 
 .or-contact-bar.or-colorborder {
   border-right: 2px solid #dbe7c4;
@@ -334,11 +334,6 @@ color: #6F9333;
 /*slut puffar */
 
 
-.sv-table-portlet tbody tr:nth-child(2n) {
-    border-bottom-color: rgba(133, 118, 114, 0.2);
-    background-color: #EAF2DC;
-}
-
 /* tabell */
 
 @media (max-width: 768px) {
@@ -347,9 +342,36 @@ color: #6F9333;
 }
 }
 
+.sv-table-portlet tbody tr:nth-child(2n) {
+    border-bottom-color: rgba(133, 118, 114, 0.2);
+    background-color: #EAF2DC;
+}
+
 .sv-table-portlet thead tr {
     background-color: #6F9333;
 }
+
+.sv-table-portlet th {
+    background-color: #6F9333;
+}
+
+/* ny tabell */
+.sv-table-portlet tbody tr:nth-child(2n), .sv-text-portlet table.sv-programtabell tbody tr:nth-child(2n) {
+    background-color: #EAF2DC;
+}
+
+.sv-table-portlet th, .sv-text-portlet table.sv-programtabell th {
+    padding: 10px 10px 11px;
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: #6F9333;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.sv-table-portlet th, .sv-text-portlet table.sv-programtabell th p{
+   color: #fff;
+   font-weight: 700;
+}
+
 
 /* rubrik logo */
 .or-header-topptext h2 {
@@ -365,13 +387,7 @@ color: #6F9333;
     color: #6F9333;
 }
 
-.sv-table-portlet th {
-    background-color: #6F9333;
-}
-
 .sitevision-ui-bootstrap .ui-menu .ui-menu-item a.ui-state-focus,.sitevision-ui-bootstrap .ui-menu .ui-menu-item a.ui-state-active,.sitevision-ui-bootstrap .ui-menu .ui-menu-item a.ui-widget-content{font-weight:400;margin:0;color:#fff;background:#6F9333;background-color:#6F9333;background-repeat:repeat-x;background-image:-webkit-linear-gradient(top,#6F9333,#6F9333);background-image:-moz-linear-gradient(top,#6F9333,#6F9333);background-image:-o-linear-gradient(top,#6F9333,#6F9333);background-image:linear-gradient(to bottom,#6F9333,#6F9333);text-shadow:0 0px 0 rgba(0,0,0,0.0);border-color:#08c #0088Cc #0077b3;border-color:rgba(0,0,0,0.0) rgba(0,0,0,0.0) rgba(0,0,0,0.0);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#6F9333',endColorstr='#6F9333',GradientType=0);filter:progid:DXImageTransform.Microsoft.gradient(enabled=false)}
-
-
 
 /* blogg */
 
@@ -389,7 +405,7 @@ color: #6F9333;
     color: #6F9333;
 }
 
-/* Steg fÃ¶r steg program*/
+/* Steg för steg program*/
 .or-school-advantages-header {
     border-bottom: 8px solid #DCEDBB;
     border-right: 1px solid #DCEDBB;
@@ -443,7 +459,7 @@ body .mm-menu.mm-vertical .mm-list li.mm-opened.mm-selected > a, body .mm-menu.m
 
 
 
-/* SÃ¶ksida */
+/* Söksida */
 .sol-facetter p {
     color: #6F9333;
 }
@@ -498,4 +514,32 @@ li.sol-selected-facet:hover {
     background-color: #E1E8C7;
 }
 
+/*nya processteg */
+.sol-tab-button {
+ border: 1px solid rgba(192, 218, 146, 0.35);
+}
+
+.sol-tab-button.sol-tab-active {
+ background: #60930F;
+ border-top: 5px solid #C0DA92;
+}
+
+.sol-accordion-heading.sol-tab-active {
+ background-color: #60930F;
+ border: 2px solid #60930F;
+}
+
+.sol-accordion-heading {
+ border: 2px solid rgba(192, 218, 146, 0.6);
+ background-color:#fff;
+ color:#35383b;
+}
+
+.sol-tabs-decoration-content{
+ background-color: #fff;
+ border-top: 5px solid rgba(192, 218, 146, 0.35);
+ border-left: 1px solid rgba(192, 218, 146, 0.35);
+ border-right: 1px solid rgba(192, 218, 146, 0.35);
+ border-bottom: 1px solid rgba(192, 218, 146, 0.35);
+}
 
