@@ -908,16 +908,10 @@ ol {
     height: 60px;
     float: left;
     border-radius: 30px;
-    -moz-border-radius:30px;
-    -webkit-border-radius:30px;
-    background-position: 50% 50%;
-    background-size: 27px auto;
-    background-repeat: no-repeat;
-    border: 0px none;    
-    cursor: pointer;    
-    /*font-size: 29px; */
-    font-size: 35px; 
-    font-weight: 600;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;    
+    border: 0px none;
+    cursor: pointer;        
     color: white;
     text-align: center;
 }
@@ -3398,7 +3392,7 @@ Additional
 }
    
 
-/* FormulÃ¤r inputfÃ¤lt */
+/* Formulär inputfält */
 
 /* Grund */
 
@@ -3579,7 +3573,7 @@ li.or-comment {
    float: left;
 }
 
-/* TillÃ¤gg */
+/* Tillägg */
 .or-float-right {
   float:right;
 }
@@ -3622,7 +3616,7 @@ li.or-comment {
 }
 
 
-/*Font awsome tillÃ¤gg */
+/*Font awsome tillägg */
 .fa-rotate-45 {
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
@@ -3835,7 +3829,7 @@ or-news-list-image-container img {
 }
 
 
-/* BrÃ¶dsmulor */
+/* Brödsmulor */
 
 .floatlistitems {
   margin-right: 9px;
@@ -3868,7 +3862,7 @@ or-news-list-image-container img {
 }
 
 
-/* Action lÃ¤nk ruta */
+/* Action länk ruta */
 
 .or-action-link {
     width: 100%;
@@ -3879,8 +3873,8 @@ or-news-list-image-container img {
     border-color: rgb(133, 118, 114);
     border-color: rgba(133, 118, 114, 0.4);
     border-radius: 1px;
-      -moz-border-radius: 1px;
- -webkit-border-radius:  1px;
+    -moz-border-radius: 1px;
+    -webkit-border-radius:  1px;
     background-color: #FFF;
     transition: all 500ms ease 0s;
     text-decoration: none;
@@ -3994,7 +3988,7 @@ filter: alpha(opacity=90);
 }
 
 
-/* LÃ¤nkruta */
+/* Länkruta */
 
 .or-docs-box-heading {
     padding-top: 10px;
@@ -4165,7 +4159,7 @@ h4.or-h1-facts-block + p {
 
 
 
-/* HÃ¶germeny v2 */
+/* Högermeny v2 */
 
 div.or-left-nav-menu table{
   border-spacing: 0;
@@ -4461,21 +4455,20 @@ body .mm-menu.mm-vertical .mm-list li.mm-opened > a:hover, body .mm-menu.mm-vert
 }
 
 .mm-menu.mm-vertical .mm-list > li.mm-opened > a.mm-subopen:after {
-	transition: all 0s ease 0s;
+   transition: all 0s ease 0s;
    font-family: FontAwesome;
    font-weight: normal;
    font-style: normal;
-   margin:0px 0px 0px 10px;
-    /*content: 'ï¨';*/
-    content: '\f068';
-    transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    -s-transform: rotate(0deg);
-    right: 30px;
-    top: 14px;
-    color: #857672;
+   margin:0px 0px 0px 10px;    
+   content: '\f068';
+   transform: rotate(0deg);
+   -webkit-transform: rotate(0deg);
+   -moz-transform: rotate(0deg);
+   -o-transform: rotate(0deg);
+   -s-transform: rotate(0deg);
+   right: 30px;
+   top: 14px;
+   color: #857672;
 }
 
 .mm-menu.mm-vertical .mm-list > li > a.mm-subopen:after {
@@ -4483,23 +4476,19 @@ body .mm-menu.mm-vertical .mm-list li.mm-opened > a:hover, body .mm-menu.mm-vert
 	right:30px;
 	left:auto;
 	bottom: auto;
-	/*width:28px;*/
-	/*height:28px;*/
 	border:none;
-			transform: rotate(0deg);
+	transform: rotate(0deg);
 	-webkit-transform: rotate(0deg);
 	-moz-transform: rotate(0deg);
 	-o-transform: rotate(0deg);
 	-ms-transform: rotate(0deg);
-
-   /*content: 'ï§';*/
-   content: '\f067';
-   font-family: FontAwesome;
-   font-weight: normal;
-   font-style: normal;
-   margin:0px 0px 0px 10px;
-   text-decoration:none;
-   color: #857672;
+	content: '\f067';
+	font-family: FontAwesome;
+	font-weight: normal;
+	font-style: normal;
+	margin:0px 0px 0px 10px;
+	text-decoration:none;
+	color: #857672;
 }
 
 
@@ -4781,7 +4770,7 @@ div.sol_process_flow_container > div > div > div {
 }
 
 /**************************
-SÃ¶k
+Sök
 **************************/
 .or-no-search-hits{
    float: left;   
@@ -4845,7 +4834,7 @@ SÃ¶k
    position: relative;
 }
 
-/* sÃ¶krutan */
+/* sökrutan */
 .sol-sok-ruta input.ui-autocomplete-input {
   position: relative;
   padding-top: 0px;
@@ -4890,10 +4879,10 @@ border-color: rgb(232, 60, 35);
 }
 
 
-/* SÃ¶kknapp */
+/* Sökknapp */
 .sol-sok-ruta input.normal:last-child {
     right: 12px;    
-    bottom: 3px;
+    bottom: -3px;
     width: 46px;
     height: 46px;
     border-radius: 30px;
@@ -4925,7 +4914,7 @@ form#or-search-form::after {
     width: 20px;
     height: 24px;
 }*/
-/* SÃ¶ktrÃ¤ffar */
+/* Sökträffar */
 .sol-sok-ruta ol.sv-search-result li.sv-search-hit {
   margin-bottom: 20px;
   padding: 15px 20px 6px 5px;
@@ -5336,7 +5325,7 @@ div.sol-search-icon-wrapper > img {
  margin-top: 0em;
 }
 
-/* ArkivlÃ¤nks action */
+/* Arkivlänks action */
 
 .or-ctaicon {  
  position: absolute;
@@ -5491,7 +5480,7 @@ color: rgba(53, 56, 59, 0.85);
   width: 88%;
 }
 
-/* TODO: NÃ¤r vill man ha indrag pÃ¥ rubriken?
+/* TODO: När vill man ha indrag på rubriken?
 .bloggcontent h1.heading{
 	margin-left: 6%;
 }
@@ -5593,7 +5582,7 @@ color: rgba(53, 56, 59, 0.85);
 	-khtml-opacity: 0.9;
 }
 
- /* Filarkiv som innehÃ¥ll */
+ /* Filarkiv som innehåll */
  
 .or-plus-box-content.or-file-list-in-plus-box {
   padding: initial;
@@ -5601,7 +5590,7 @@ color: rgba(53, 56, 59, 0.85);
 }
 
 
-/* Kontakta oss fristÃ¥ende */
+/* Kontakta oss fristående */
 .contact-right-sidebar{
 	margin-top:10px;
 }
@@ -5773,7 +5762,7 @@ text-transform: uppercase;
   display: none;
 }
 
-/* VISA kontakt-och-tyck-till I EDITOR LÃ„GE */
+/* VISA kontakt-och-tyck-till I EDITOR LÄGE */
 /*.sv-editing-mode .kontakt-och-tyck-till{
    display: block;   
 }
@@ -5899,8 +5888,44 @@ box-shadow: rgba(255, 255, 255, 1)0px -33px 0px -11px inset;
 
 /* Tabeller */
 
+/* nya tabell */
+.pagecontent .sv-linklist-portlet table.sv-programtabell th p, 
+.sv-blog-portlet table.sv-programtabell th p, 
+.sv-archive-portlet table.sv-programtabell th p, 
+.sv-text-portlet table.sv-programtabell th p{
+  font-weight: 700;
+  font-family: 'Leaguespartan webfont', sans-serif;
+  font-size: 12px;
+  line-height: 1.2em;
+  color: #fff;
+}
+
+.pagecontent .sv-linklist-portlet table.sv-programtabell td p, 
+.sv-blog-portlet table.sv-programtabell td p, 
+.sv-archive-portlet table.sv-programtabell td p, 
+.sv-text-portlet table.sv-programtabell td p {
+    font-size: 15px;
+    line-height: 1.2em;
+}
+
+.pagecontent .sv-linklist-portlet table.sv-programtabell td p, 
+.sv-blog-portlet table.sv-programtabell td p, 
+.sv-archive-portlet table.sv-programtabell td p, 
+.sv-text-portlet table.sv-programtabell td p a{
+    font-size: 15px;
+    line-height: 1.2em;
+}
+
+.pagecontent .sv-linklist-portlet table.sv-programtabell td p, 
+.sv-blog-portlet table.sv-programtabell td p, 
+.sv-archive-portlet table.sv-programtabell td p, 
+.sv-text-portlet table.sv-programtabell td p a:hover{
+    font-size: 15px;
+    line-height: 1.2em;
+}
+
 .sv-table-portlet table,
-.sv-programtabell table {
+.sv-text-portlet table.sv-programtabell {
   width: 100%;
   border-collapse: collapse;
 }
@@ -5912,33 +5937,33 @@ box-shadow: rgba(255, 255, 255, 1)0px -33px 0px -11px inset;
 }
 
 .sv-table-portlet thead tr,
-.sv-programtabell thead tr {
+.sv-text-portlet table.sv-programtabell thead tr {
   background-color: #e83c23;
 }
 
-.sv-table-portlet th,  
-.sv-programtabell th {  
-  padding: 10px 10px 11px;
-  border-right: 1px solid rgb(255, 255, 255);
-  border-right: 1px solid rgba(255, 255, 255, 0.45);
-  background-color: #E83C23;
+.sv-table-portlet th, .sv-text-portlet table.sv-programtabell th {
+    padding: 10px 10px 11px;
+	border-right: 1px solid rgb(255, 255, 255);	
+    border-right: 1px solid rgba(255, 255, 255, 0.25);	
+    background-color: #E83C23;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
 }
 
 .sv-table-portlet td,
-.sv-programtabell td {
+.sv-text-portlet table.sv-programtabell td {
    padding: 8px 10px;
    border-right: 1px solid rgb(133, 118, 114);
    border-right: 1px solid rgba(133, 118, 114, 0.09);  
 }
 
 .sv-table-portlet tr td:first-child ,
-.sv-programtabell tr td:first-child {
+.sv-text-portlet table.sv-programtabell tr td:first-child {
 border-left: 1px solid rgb(133, 118, 114);
   border-left: 1px solid rgba(133, 118, 114, 0);
 }
 
 .sv-table-portlet th span.normal,  
-.sv-programtabell th span.normal {  
+.sv-text-portlet table.sv-programtabell th span.normal {  
   color: white;
   font-family: 'Leaguespartan webfont', sans-serif;
   font-size: 12px;
@@ -5949,97 +5974,31 @@ border-left: 1px solid rgb(133, 118, 114);
 }   
 
 .sv-table-portlet tbody tr, 
-.sv-table-portlet tbody tr {
+.sv-text-portlet table.sv-programtabell tbody tr {
 border-bottom: 1px solid rgb(133, 118, 114);
 border-bottom: 1px solid rgba(133, 118, 114, 0.15);
 }
 
 .sv-table-portlet tbody tr:nth-child(odd),
-.sv-programtabell tbody tr:nth-child(odd) {
+.sv-text-portlet table.sv-programtabell tbody tr:nth-child(odd) {
    background-color: white;
    
 }
 
 .sv-table-portlet tbody tr:nth-child(even),
-.sv-programtabell tbody tr:nth-child(even) {
-	border-bottom-color: rgb(133, 118, 114);
-  border-bottom-color: rgba(133, 118, 114, 0.2);
-  background-color: #fdf4e7;
-}
-
-
-/* Tabeller SV4 */
-
-.sv-programtabell table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-.sv-programtabell caption {
-    display: table-caption !important;
-    margin-bottom: 15px;
-}
-
-.sv-programtabell thead tr {
-  background-color: #e83c23;
-}
-
-.sv-programtabell th {  
-  padding: 10px 10px 11px;
-  border-right: 1px solid rgb(255, 255, 255);
-  border-right: 1px solid rgba(255, 255, 255, 0.45);
-  background-color: #E83C23;
-}
-
-.sv-programtabell td {
-   padding: 8px 10px;
-   border-right: 1px solid rgb(133, 118, 114);
-   border-right: 1px solid rgba(133, 118, 114, 0.09);  
-}
-
-.sv-programtabell tr td:first-child {
-border-left: 1px solid rgb(133, 118, 114);
-  border-left: 1px solid rgba(133, 118, 114, 0);
-}
-
-.sv-programtabell th span.normal {  
-  color: white;
-  font-family: 'Leaguespartan webfont', sans-serif;
-  font-size: 12px;
-  line-height: 15px;
-  font-weight: 800;
-  letter-spacing: 0.02em;
-  text-transform: none;  
-}   
-
-.sv-programtabell tbody tr {
-  border-bottom: 1px solid rgb(133, 118, 114);
-  border-bottom: 1px solid rgba(133, 118, 114, 0.15);
-}
-
-.sv-programtabell tbody tr:nth-child(odd) {
-   background-color: white;   
-}
-
-.sv-programtabell tbody tr:nth-child(even) {
+.sv-text-portlet table.sv-programtabell tbody tr:nth-child(even) {
   border-bottom-color: rgb(133, 118, 114);
   border-bottom-color: rgba(133, 118, 114, 0.2);
   background-color: #fdf4e7;
 }
 
+/* Plusboxar */
 
-
-
-.or-plus-box-content .normal{
-  font-size: 16px;
-  line-height: 24px;
-}
-
+.or-plus-box-content .normal,
 .or-plus-box-content .normal a:link{
-   font-size: 16px;
-  line-height: 24px;
+	font-size: 16px;
+	line-height: 24px;
 }
-
 
 /* Stackable table */
 
@@ -6052,18 +6011,12 @@ margin-top: 15px;
 .st-key { width: 49%; text-align: right; padding-right: 1%; }
 .st-val { width: 49%; padding-left: 1%; text-align:left}
 
-
-
-/* RESPONSIVE EXAMPLE */
+/* RESPONSIVE TABLE */
 
 .stacktable.large-only { display: table; }
 .stacktable.small-only { display: none; }
 
-
-
-
-/* TEST */
-
+/* Gamla pilen för actions */
 .ctaiconright {
   position: absolute;
   top: 0px;
@@ -6079,7 +6032,7 @@ margin-top: 15px;
    
  /* PUFFAR */
  
- /* SV CSS MÃ…STE SKRIVAS Ã–VER */
+ /* SV CSS MÅSTE SKRIVAS ÖVER */
  .or-puff-img{
     width: inherit;
     height: 100%;
@@ -6140,7 +6093,7 @@ width: 60%;
     display: inline-block;
     position: relative;
     background-color: #E5EEF0;
-    margin-top: 15px;
+    margin-top: 20px;
     margin-bottom: 30px;
     
 }
@@ -6149,7 +6102,7 @@ width: 60%;
   float: left;
   width: 60%;
   height: 400px;
-  background-position: 50% -68px;
+  background-position: 50% 0px;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -6166,12 +6119,12 @@ width: 60%;
 }
 
 .or-topp-school-text{
-position: absolute;   left: 25px;   bottom: 25px;   width: 60%;
+position: absolute;   left: 25px;   bottom: 25px;   width: 80%;
 }
 
 .or-stor-bild-text-actions > div:nth-child(2) {
   width: 40%;
-  padding: 30px 20px 20px 30px;
+  padding: 45px 20px 20px 30px;
   float: left;
 } 
 
@@ -6370,7 +6323,7 @@ position: absolute;   left: 25px;   bottom: 25px;   width: 60%;
   padding-top: 3px;
 }
    
-/* PUFF TEXT BILD LÃ„NKLISTA*/
+/* PUFF TEXT BILD LÄNKLISTA*/
 .or-puff-text-bild-lanklista {
   width: 31%;  
   display: inline-block;
@@ -6508,7 +6461,7 @@ text-decoration: underline;
 
 
 
-/* PUFF ICON BILD LÃ„NKLISTA*/
+/* PUFF ICON BILD LÄNKLISTA*/
 .or-puff-text-icon-lanklista .ikonxbla{
     font-size: 65px;
 }
@@ -6583,7 +6536,8 @@ text-decoration: underline;
 
 .or-puff-bild-text h4{
 	color: #E83C23;
-	font-size: 18px;
+   font-size: 16px;
+   line-height: 1.3em;
 }
 
 .or-puff-bild-text p{
@@ -6691,7 +6645,7 @@ text-decoration: underline;
     color: #fff;
 }
 
-/* DEKORATION LÃ„NKLISTA */
+/* DEKORATION LÄNKLISTA */
 .or-lanklista {
     border-bottom: 2px dotted #ECEBE6;
     margin-left: 20px;
@@ -6753,7 +6707,7 @@ text-decoration: underline;
 	margin-bottom: 35px; 
 }
 
-/* TEST FÃ–R ACTION */
+/* TEST FÖR ACTION */
 .or-action-content a:link {
   box-shadow: none;
 }
@@ -6818,7 +6772,7 @@ filter: alpha(opacity=90);
   display: inherit !important;
 }
 
-/* HADDE DU NYTTA AV */
+/* HADE DU NYTTA AV */
 .or-rotate-45{
    -webkit-transform: rotate(45deg);
    -ms-transform: rotate(45deg);
@@ -6919,7 +6873,7 @@ label.or-fieldlabelhelpus{
 }
 
 
-/* SÃ¶k mobil */
+/* Sök mobil */
 
 .or-search {
    z-index:1;
@@ -6983,7 +6937,7 @@ label.or-fieldlabelhelpus{
    display: none;
 }*/
 
-/* lÃ¤nkad lista */
+/* länkad lista */
 
 .or-links-list ul {
   margin:0px;
@@ -7059,7 +7013,7 @@ label.or-fieldlabelhelpus{
 }
 
 
-/* AmbassadÃ¶rer */
+/* Ambassadörer */
 
 .or-quote-image {
   position: relative;
@@ -7127,7 +7081,7 @@ text-decoration: underline;
 color: #35383B;
 }
 
-.or-puff-program > div:nth-child(1) {
+.or-puff-program > div.sv-layout {
     position: absolute;
     left: 0px;
     right: 0px;
@@ -7144,7 +7098,7 @@ color: #35383B;
     text-align: left;
 }
 
-.or-puff-program > div:nth-child(2){ 
+.or-puff-program > div.sv-image-portlet{ 
   max-width: 100%;
   vertical-align: middle;
   margin-bottom: initial;
@@ -7451,7 +7405,7 @@ color: #35383B;
 
 
 /* Program inriktningar */
-/* se Ã¤ven program puff */
+/* se även program puff */
 .or-inriktning {
   padding-top: 9px;
   display: block;  
@@ -7501,8 +7455,8 @@ color: #35383B;
 
 .or-plus-box-program.or-plus-box-content.sv-table-portlet tr td:first-child,
 .or-plus-box-program.or-plus-box-content.sv-table-portlet tr th:first-child,
-.or-plus-box-program.or-plus-box-content.sv-programtabell tr td:first-child,
-.or-plus-box-program.or-plus-box-content.sv-programtabell tr th:first-child  {
+.or-plus-box-program.or-plus-box-content .sv-text-portlet table.sv-programtabell tr td:first-child,
+.or-plus-box-program.or-plus-box-content .sv-text-portlet table.sv-programtabell tr th:first-child  {
   border: none;
   padding-left: 20px;  
   width: 75%;
@@ -7510,8 +7464,8 @@ color: #35383B;
 
 .or-plus-box-program.or-plus-box-content.sv-table-portlet tr td:last-child,
 .or-plus-box-program.or-plus-box-content.sv-table-portlet tr th:last-child,
-.or-plus-box-program.or-plus-box-content.sv-programtabell tr td:last-child,
-.or-plus-box-program.or-plus-box-content.sv-programtabell tr th:last-child  {
+.or-plus-box-program.or-plus-box-content .sv-text-portlet table.sv-programtabell tr td:last-child,
+.or-plus-box-program.or-plus-box-content .sv-text-portlet .sv-text-portlet table.sv-programtabell tr th:last-child  {
   border: none;
   padding-right: 55px;
 }
@@ -7565,7 +7519,7 @@ color: #35383B;
   width: 37px;
   height: 100%;
   top: 0px;  
-  background-color:#dcedbb; /*TODO default temafÃ¤rg */
+  background-color:#dcedbb; /*TODO default temafärg */
 }
 
 
@@ -7574,7 +7528,7 @@ color: #35383B;
 }
 
 .or-plus-box-program .or-collpase-button.or-plus-box-active {
-   background-color: #dcedbb!important;    /*TODO default temafÃ¤rg */ 
+   background-color: #dcedbb!important;    /*TODO default temafärg */ 
 }
 
 .or-plus-box-program:hover .plusboxxrubrik {
@@ -7592,12 +7546,6 @@ color: #35383B;
   border-right: 1px solid rgba(163, 163, 163, 0.3);
   border-bottom: 1px solid rgba(163, 163, 163, 0.3);
   border-left: 1px solid rgba(163, 163, 163, 0.3);
-}
-
-.or-icon-area {
-  display: table;
-  height: 100%;
-  width: 100%;
 }
 
 .or-icon-plus {
@@ -7687,7 +7635,7 @@ color: #35383B;
     margin-top: 0px;
 }
 
-/*Steg fÃ¶r steg puff*/
+/*Steg för steg puff*/
 .or-school-advantages-container {
     background-color: white;
     margin-bottom: 20px;
@@ -8277,7 +8225,7 @@ box-shadow: 0px -48px 0px -30px rgba(174, 222, 239, 0.65) inset;
     background-color: white;
 }
 
-/* Ikoner pÃ¥ delaknapparna */
+/* Ikoner på delaknapparna */
 
 .sharebutton--icon-facebook {            
    	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAAHdbkFIAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIpSURBVGhD7ZpPSsQwFMYHl67cegNBUFCMegFXgpuhHXEzR5gbjCcQN+Iks/AG6jF04xFExCsIIsKYhFdtM69pm6ad6eQ9+CF5fXn5+vXPtNjeYSxmNqoXsHhykh7PFfRkZMbpgU7ULjBZRMHu2d1GepwpMPdA5zKD2gUY9QuKaLjBYLqjdlwFul2S3yDijzBXB1ojsSqAufYaLJkA890blIEaNN4gEt/qCjev8jTWBnAa6MC2KwobsEhcY9sS8jsbgdUomlOgWIEGZaAG9SEB3RXAYvGlLjQzsFobzgJgPR3yah9hNWWoLIBF/EX+HcLaOo76U6ZyADovj+oOGM88ZqBzLPg6BNYbrg0S0F0BviABJIAEkAAS0G0BLOZi72Ky+f8ezW+xOhvOAo7P+Rb8GP6Fy6+iswBYMxOtCZAPpm+wpg6spiydFDBkA9GHtXWoHPAANaWpLADWREM+st9jc2x4FSBf1z6wOTacjl/wJyEJIAEkwCskgASQABKwaMgALBkSZACWDAkyAEuGBBmAJZuHvx4MxDa8z+RGnX+ClaV9AyJxBftXGKtowGdvPF6D/cvE/ilflzs8kmfHZYIcPyE9vNKqAea7fDraONoYZACW9ErBVx62YLG4QXt6ZMkN4M9oT48srwHyZikN+EF7eoTuAViyKcgAMoAMIANgf+eCDAjBAPlM8J58WmPi8qmND9o1YAkhA7BkSJABWDIkyAAsGRKBGyBmvxwMVQhQ9nrSAAAAAElFTkSuQmCC');                 
@@ -8311,6 +8259,7 @@ box-shadow: 0px -48px 0px -30px rgba(174, 222, 239, 0.65) inset;
     left: 15px;
 }
 
+.or-search-button-wrapper .fa-search,
 #or-id-search-icon {
     font-size: 35px;
     color: white;
@@ -8320,4 +8269,163 @@ box-shadow: 0px -48px 0px -30px rgba(174, 222, 239, 0.65) inset;
    cursor: default;
 }
 
+/* nya tabs */
+.sol-js-tabs-container {
+ width: 100%;
+ margin-bottom:25px;
+ }
 
+.sol-tab-button-container .sol-tab-button {
+ cursor: pointer;
+ display: table-cell;
+ padding: 10px 20px;
+ text-align: center;
+ background: #fff;
+ font-family: "leaguespartan webfont",sans-serif;
+ font-size: 11px;
+ line-height: 1.2em;
+}
+
+.sol-tab-button {
+ border: 1px solid rgba(255, 0, 0, 0.12);
+}
+
+.sol-tab-button.sol-tab-active {
+ background: #e83c23;
+ color: #fff;
+ border-top: 5px solid #cf311a;
+ border-left: 0px;
+ border-right: 0px;
+ border-bottom: 0px;
+}
+
+.sol-tabs-decoration-content {
+ background-color: #fff;
+ padding: 12px;
+ border-top: 5px solid #e83c23;
+ border-left: 1px solid rgba(232, 60, 35, 0.2);
+ border-right: 1px solid rgba(232, 60, 35, 0.2);
+ border-bottom: 1px solid rgba(232,60,35,0.20);
+}
+
+.sol-js-tabs-container .sv-responsive .sv-image-portlet img{
+    max-width: 100%;
+    height: auto;
+    width:auto;
+}
+
+.sol-tabs-decoration-content .or-facts-block{
+    width: 90%;
+    margin-left: auto;
+    padding-top: 30px;
+    padding-left: 35px;
+    margin-right: auto;
+}
+
+.sol-tab-button-container {
+display:table;
+width:100%;
+}
+
+.sol-js-tabs-container ul {
+padding:0;
+margin:0;
+}
+
+.sol-accordion-heading {
+display:none;
+}
+
+/********** OBS tar bort "facetten" Alla i sök *********/
+.or-total-count {
+    display: none;
+}
+
+/* Action med fontAwesome pil */
+
+.or-action-right-icon {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 50px;
+  height: 100%;  
+}
+
+.or-icon-content {
+  display: table-cell;  
+  text-align: center;
+  vertical-align: middle;  
+  padding-top: 1px;
+}
+
+.or-icon-area {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.or-action-right-icon .or-icon-content .fa {
+    font-size: 19px;
+    color: #303539;
+}
+
+/* Dela funktion på startsidor utan support bar */
+.or-startpage-extra .or-stor-text-actions > div:nth-child(2) {
+   padding-top:25px;
+}  
+
+.or-startpage-extra .or-tool-area {    
+    width: 75px;    
+    padding: 5px;
+    background-color: white;
+    white-space: nowrap;
+    float: right;
+    border-bottom-left-radius: 3px;
+    box-shadow: inset 1px -1px 2px rgba(0, 0, 0, 0.24);
+
+} 
+
+.or-startpage-extra .or-tool-area a i {                
+    margin-left: 5px;
+    margin-right: 10px;
+    font-size: 17px;
+}
+
+.or-startpage-extra .or-tool-area a {
+   font-family: "leaguespartan webfont",sans-serif;
+   font-style: normal;
+   font-size: 10px;
+   color: #35383B;
+   line-height: 16px;
+   display: inline-block;
+   font-weight: 800;
+   letter-spacing: 0.06em;
+   text-transform: uppercase;
+}
+
+.or-startpage-extra .or-share {
+    float: right;
+    position: relative;
+    z-index: 10;
+}
+
+.or-startpage-extra .or-share .or-addthis-container {
+    background-color: white;
+    clear: both;
+    padding: 3px;
+    position: absolute;
+    width: 147px;
+    right: 0;
+    top: 30px;
+
+}
+
+#Delaknappar {
+   margin-top: 30px;
+}
+
+.or-startpage-extra .pagecontent {
+   position: relative;
+   top: -50px;
+}
