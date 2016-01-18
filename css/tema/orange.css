@@ -1,4 +1,4 @@
-/* FÃ¤rg tema */
+/* Färg tema */
 
  .colortext{
 color:#F28C00;
@@ -44,8 +44,8 @@ footer i.or-social-icon-fg {
    color:#877D77 !important;
 }
 
-/* BakgrundsfÃ¤rg fÃ¶r temat */
-.submit.bg-color, /* FÃ¤rg fÃ¶r sÃ¶kknapp   */
+/* Bakgrundsfärg för temat */
+.submit.bg-color, /* Färg för sökknapp   */
 .or-colorbg,
 .or-forms input[type="submit"] {
    background-color: #F28C00;
@@ -78,19 +78,19 @@ footer i.or-social-icon-fg {
 }   
 
 
-/* Text fÃ¤rg fÃ¶r temat */
+/* Text färg för temat */
 h1.heading, 
 .or-colortext {
   color: #F28C00;
 }   
 
 
-/* BakgrundsfÃ¤rg fÃ¶r brÃ¶dsmulsraden */
+/* Bakgrundsfärg för brödsmulsraden */
 .or-breadcrumps-container{
    background-color: #ecebe6;
 }
 
-/* FÃ¤rg fÃ¶r rubriker i nyhetslistning */
+/* Färg för rubriker i nyhetslistning */
 .rubriknyhetsruta,
 .rubriknyhetsruta span {   
   color: #F28C00;
@@ -108,7 +108,7 @@ li.or-comment.or-colorborder {
   background-color: rgba(255, 255, 255, 0.78);
 }   
 
-/* RamfÃ¤rg fÃ¶r actionrutan */
+/* Ramfärg för actionrutan */
 .or-action-link.or-colorborder {
   border-color: #FCE0B9);
 }
@@ -122,7 +122,7 @@ li.or-comment.or-colorborder {
 }
 
 
-/* FÃ¤rger fÃ¶r processverktyg */
+/* Färger för processverktyg */
 
 .sol_process_flow_container {
     border-color: #F28C00;
@@ -241,7 +241,7 @@ h4.plusboxxrubrik.or-plus-box-active {
 
 
 
-/* Kontakta oss fristÃ¥ende */
+/* Kontakta oss fristående */
 
 .or-contact-bar.or-colorborder {
   border-right: 2px solid #FCE0B9;
@@ -343,12 +343,6 @@ color: #F28C00;
 
 /*slut puffar */
 
-
-.sv-table-portlet tbody tr:nth-child(2n) {
-    border-bottom-color: rgba(133, 118, 114, 0.2);
-    background-color: #fef0dd;
-}
-
 /* tabell */
 
 @media (max-width: 768px) {
@@ -357,9 +351,36 @@ color: #F28C00;
 }
 }
 
+.sv-table-portlet tbody tr:nth-child(2n) {
+    border-bottom-color: rgba(133, 118, 114, 0.2);
+    background-color: #fef0dd;
+}
+
+.sv-table-portlet th {
+    background-color: #F28C00;
+}
+
 .sv-table-portlet thead tr {
     background-color: #F28C00;
 }
+
+/* ny tabell */
+.sv-table-portlet tbody tr:nth-child(2n), .sv-text-portlet table.sv-programtabell tbody tr:nth-child(2n) {
+    background-color: #fef0dd;
+}
+
+.sv-table-portlet th, .sv-text-portlet table.sv-programtabell th {
+    padding: 10px 10px 11px;
+    border-right: 1px solid rgba(255, 255, 255, 0.25);
+    background-color: #F28C00;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.sv-table-portlet th, .sv-text-portlet table.sv-programtabell th p{
+   color: #fff;
+   font-weight: 700;
+}
+
 
 /* rubrik logo */
 .or-header-topptext h2 {
@@ -375,10 +396,6 @@ color: #F28C00;
     color: #F28C00;
 }
 
-.sv-table-portlet th {
-    background-color: #F28C00;
-}
-
 .sitevision-ui-bootstrap .ui-menu .ui-menu-item a.ui-state-focus,.sitevision-ui-bootstrap .ui-menu .ui-menu-item a.ui-state-active,.sitevision-ui-bootstrap .ui-menu .ui-menu-item a.ui-widget-content{font-weight:400;margin:0;color:#fff;background:#F28C00;background-color:#F28C00;background-repeat:repeat-x;background-image:-webkit-linear-gradient(top,#F28C00,#F28C00);background-image:-moz-linear-gradient(top,#F28C00,#F28C00);background-image:-o-linear-gradient(top,#F28C00,#F28C00);background-image:linear-gradient(to bottom,#F28C00,#F28C00);text-shadow:0 0px 0 rgba(0,0,0,0.0);border-color:#08c #0088Cc #0077b3;border-color:rgba(0,0,0,0.0) rgba(0,0,0,0.0) rgba(0,0,0,0.0);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#F28C00',endColorstr='#F28C00',GradientType=0);filter:progid:DXImageTransform.Microsoft.gradient(enabled=false)}
 
 
@@ -390,7 +407,7 @@ color: #F28C00;
 }
 
 
-/* steg fÃ¶r steg program */
+/* steg för steg program */
 .or-school-advantages-header {
     border-bottom: 8px solid #FBEDDA;
     border-right: 1px solid #FBEDDA;
@@ -447,7 +464,7 @@ body .mm-menu.mm-vertical .mm-list li.mm-opened.mm-selected > a, body .mm-menu.m
 }
 
 
-/* SÃ¶ksida */
+/* Söksida */
 .sol-facetter p {
     color: #F28C00;
 }
@@ -495,4 +512,33 @@ li.sol-selected-facet:hover {
 
 #or-paging-id a:hover {
     background-color: #f8d4a1;
+}
+
+/*nya processteg */
+.sol-tab-button {
+border: 1px solid rgba(246, 217, 177, 0.5);
+}
+
+.sol-tab-button.sol-tab-active {
+ background: #F28C00;
+ border-top: 5px solid #f3cd98;
+}
+
+.sol-accordion-heading.sol-tab-active {
+ background-color: #F28C00;
+ border: 2px solid #F28C00;
+}
+
+.sol-accordion-heading {
+ border: 2px solid rgba(246, 217, 177, 0.5);
+ background-color:#fff;
+ color:#35383b;
+}
+
+.sol-tabs-decoration-content{
+ background-color: #fff;
+ border-top: 5px solid rgba(246, 217, 177, 0.5);
+ border-left: 1px solid rgba(246, 217, 177, 0.5);
+ border-right: 1px solid rgba(246, 217, 177, 0.5);
+ border-bottom: 1px solid rgba(246, 217, 177, 0.5);
 }
