@@ -198,14 +198,14 @@ footer{
 }
 
 /***** ZY *******/
-/* TA BORT HÃ–GERMENY */
+/* TA BORT HÖGERMENY */
 .or-left-nav-menu,
 .or-left-nav-menu-heading
 {
   display: none;
 }
 
-/* ALLA LÃ„NKAR UNDERSTRUKNA */
+/* ALLA LÄNKAR UNDERSTRUKNA */
  a,
 .kontaktaxossxxxbrodtext a:link,
 .normal a:link, .or-contentlinks a, a.normal:link
@@ -350,7 +350,7 @@ footer{
    color: #000;
 }
 
-/* BILDSPEL SPELA FÃ–RSTABILDEN */
+/* BILDSPEL SPELA FÖRSTABILDEN */
 /*
 li.bx-clone,
 ul.bxslider li:nth-child(2)
@@ -389,7 +389,7 @@ ul.bxslider
   display: none;
 }
 
-/* LÃ„NKBOX SKRIVS INTE UT */
+/* LÄNKBOX SKRIVS INTE UT */
 .or-links-box-content,
 .or-links-box-heading
 {
