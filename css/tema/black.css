@@ -1,4 +1,4 @@
-/* FÃ¤rg tema */
+/* Färg tema */
 
  .colortext{
 color:#35383b;
@@ -44,7 +44,7 @@ footer i.or-social-icon-fg {
    color:#877D77 !important;
 }
 
-/* BakgrundsfÃ¤rg fÃ¶r temat */
+/* Bakgrundsfärg för temat */
 
 
 .submit.bg-color, .or-colorbg, .or-forms input[type="submit"] {
@@ -60,19 +60,19 @@ footer i.or-social-icon-fg {
 }   
 
 
-/* Text fÃ¤rg fÃ¶r temat */
+/* Text färg för temat */
 h1.heading, 
 .or-colortext {
   color: #35383b;
 }   
 
 
-/* BakgrundsfÃ¤rg fÃ¶r brÃ¶dsmulsraden */
+/* Bakgrundsfärg för brödsmulsraden */
 .or-breadcrumps-container{
    background-color: #ecebe6;
 }
 
-/* FÃ¤rg fÃ¶r rubriker i nyhetslistning */
+/* Färg för rubriker i nyhetslistning */
 .rubriknyhetsruta,
 .rubriknyhetsruta span {   
   color: #35383b;
@@ -90,7 +90,7 @@ li.or-comment.or-colorborder {
   background-color: rgba(255, 255, 255, 0.78);
 }   
 
-/* RamfÃ¤rg fÃ¶r actionrutan */
+/* Ramfärg för actionrutan */
 .or-action-link.or-colorborder {
   border-color: #d1cfcf);
 }
@@ -104,7 +104,7 @@ li.or-comment.or-colorborder {
 }
 
 
-/* FÃ¤rger fÃ¶r processverktyg */
+/* Färger för processverktyg */
 
 .sol_process_flow_container {
     border-color: #35383b;
@@ -221,7 +221,7 @@ h4.plusboxxrubrik.or-plus-box-active {
 
 
 
-/* Kontakta oss fristÃ¥ende */
+/* Kontakta oss fristående */
 
 .or-contact-bar.or-colorborder {
   border-right: 2px solid #d1cfcf;
@@ -331,22 +331,42 @@ color: #35383b;
 /*slut puffar */
 
 
+/* tabell */
+
+@media (max-width: 768px) {
+   .st-head-row {
+     background-color: #35383b;
+   }
+}
+
 .sv-table-portlet tbody tr:nth-child(2n) {
     border-bottom-color: rgba(133, 118, 114, 0.2);
     background-color: #F9F9F9;
 }
 
-/* tabell */
-
-@media (max-width: 768px) {
-.st-head-row {
-  background-color: #35383b;
-}
-}
 
 .sv-table-portlet thead tr {
     background-color: #35383b;
 }
+
+/* ny tabell */
+.sv-table-portlet tbody tr:nth-child(2n), .sv-text-portlet table.sv-programtabell tbody tr:nth-child(2n) {
+    background-color: #F2F2F2;
+}
+
+.sv-table-portlet th, .sv-text-portlet table.sv-programtabell th {
+    padding: 10px 10px 11px;
+    border-right: 1px solid rgba(255, 255, 255, 0.25);
+    background-color: #35383b;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.sv-table-portlet th, .sv-text-portlet table.sv-programtabell th p{
+   color: #fff;
+   font-weight: 700;
+}
+
+
 
 /* rubrik logo */
 .or-header-topptext h2 {
@@ -378,7 +398,7 @@ color: #35383b;
 }
 
 
-/* steg fÃ¶r steg program */
+/* steg för steg program */
 .or-school-advantages-header {
     border-bottom: 8px solid #D1CFCF;
     border-right: 1px solid #D1CFCF;
@@ -453,7 +473,7 @@ body .mm-menu.mm-vertical .mm-list li.mm-opened.mm-selected > a, body .mm-menu.m
 
 
 
-/* SÃ¶ksida */
+/* Söksida */
 .sol-facetter p {
     color: #35383b;
 }
@@ -513,4 +533,38 @@ li.sol-selected-facet:hover {
 #or-paging-id a:hover {
  background-color: #A2A0A0;
  color: #FFF;
+}
+
+/*nya processteg */
+.sol-tab-button {
+ border: 1px solid #e4e4e4;
+}
+
+.sol-tab-button.sol-tab-active {
+ background: #35383b;
+ border-top: 5px solid #606060;
+}
+
+.sol-accordion-heading {
+    background-color: #fff;
+    color: #35383B;
+    border:2px solid #e4e4e4;
+}
+
+.sol-accordion-heading.sol-tab-active{
+    background-color: #4D4A49;
+    color: #fff;
+    border: 2px solid #4D4A49;
+}
+
+.sol-accordion-heading.sol-tab-active:after{
+    color: #fff;
+}
+
+.sol-tabs-decoration-content{
+ background-color: #fff;
+ border-top: 5px solid #e4e4e4;
+ border-left: 1px solid #e4e4e4;
+ border-right: 1px solid #e4e4e4;
+ border-bottom: 1px solid #e4e4e4;
 }
