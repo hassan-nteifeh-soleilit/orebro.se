@@ -191,6 +191,11 @@ line-height: 24px;
     margin-top: 25px;
 }
 
+.or-facetter{
+   float:left;
+   width:100%;
+}
+
 .or-quote-image.or-qoute-image-right {
     float: left;
 }
@@ -210,7 +215,7 @@ line-height: 24px;
 }
 
 
-/* Social flÃ¶det */
+/* Social flödet */
 
 .sv-clearfix.or-facebook-container.or-wrapper-click {
     width: 98%;
@@ -236,7 +241,7 @@ line-height: 24px;
 
 
 
-/* Steg fÃ¶r Steg puff */
+/* Steg för Steg puff */
 .or-school-advantages-container {
 width:100%;
 }
