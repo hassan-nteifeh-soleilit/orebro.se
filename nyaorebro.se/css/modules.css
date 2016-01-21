@@ -1,3 +1,49 @@
+/* Sökfältet */
+/* input fältet */
+form.or-search-field input {
+  width: 75%;
+  height: 50px;
+  padding: 8px 70px 8px 12px;
+  margin-bottom: 10px;
+  float: left;  
+  line-height: 1.428571429;
+  border: 1px solid #cccccc;
+  border-style: solid;
+  border-width: 1px;
+   border-color: rgb(133, 118, 114); /* fallback */
+  border-color: rgba(133, 118, 114, 0.2);
+  border-radius: 2px;
+    -moz-border-radius:2px;
+  -webkit-border-radius:2px;
+  vertical-align: middle;
+  background-color: #ffffff; 
+  font-size: 17px;
+  font-weight: 300;
+  color: #717171;
+  -webkit-appearance: none;
+}
+
+form.search-field button{
+    position: relative;
+    -webkit-appearance: none;
+    left: -28px;
+    top: -5px;
+    width: 60px;
+    height: 60px;
+    float: left;
+    border-radius: 30px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;    
+    border: 0px none;
+    cursor: pointer;        
+    color: white;
+    text-align: center;
+}
+
+form.search-field button:hover {
+}
+
+
 /* Liten kalender info ruta */
 .or-calender-date {
   position: relative;
