@@ -1,0 +1,23 @@
+@media all and (max-width: 1280px)
+{
+
+
+.main-content{
+	padding-left: 15px;
+	padding-right: 15px;
+
+}
+
+.footer-container{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.or-social-badge {
+  right: 0px;
+}
+
+
+
+
+}

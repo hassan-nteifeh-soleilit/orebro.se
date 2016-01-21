@@ -1,0 +1,190 @@
+/*
+---------------------------------------------------------
+MENY
+--------------------------------------------------------- */
+
+.sv-editing-mode .or-tree {
+   margin-top: 30px;
+}
+
+.or-tree > .or-depth-1 > li,
+.or-tree .or-depth-1 > li > span {
+   display: block;
+}
+
+.or-tree .or-title {
+    background: #f4f3f1;
+}
+
+.or-tree .or-title a{
+    font-size: 16px;
+    color: #0098bd;
+    line-height: 20px;
+    font-weight: bold;
+    font-family: "leaguespartan webfont",sans-serif;
+    padding-top: 18px;
+    padding-bottom: 6px;
+    text-align: left;
+}
+
+.or-tree ul {
+   display: none;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;   
+   -webkit-transform: translateZ(0);
+}
+
+.or-tree li.or-parent {
+    position: relative;
+}
+
+.or-tree li:not(.or-expanded) {
+    border-bottom-width: 2px;
+    border-bottom-style: dotted;
+    border-bottom-color: rgba(133, 118, 114, 0.2);      
+}
+.or-tree > li > a {
+   font-family: "Open Sans",sans-serif;   
+   color: #35383B;
+   font-size: 14px;
+   line-height: 16px;
+   font-weight: 400;
+}
+
+.or-tree > ul, .or-expanded > ul {
+  display: block;
+}
+
+.or-tree .or-current {
+  background:blue;
+}
+
+.or-tree {
+  /*display: none;*/
+  position: fixed !important;
+  top: 0;
+  right: -440px;
+  bottom: 0;  
+  z-index: 9998;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+  min-height: 100%;      
+  width: 440px;    
+  overflow-y: auto;
+  overflow-x: hidden;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.4);
+}
+
+.or-tree {  
+  background: #fff;
+}
+
+  /*  
+.or-menu-visible .or-tree {
+  
+  overflow-y: auto;
+  overflow-x: hidden;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.4);
+  
+}
+*/
+.or-tree a {
+   display: block;
+   font-family: "Open Sans",sans-serif;      
+   padding: 11px 5px 17px 25px;   
+   text-decoration: none;
+   text-transform: none !important;   
+   color: #35383B;
+   font-size: 14px;
+   line-height: 16px;      
+}
+
+.or-tree .or-toggle-panel {
+   float: right;
+   width: 44px;
+   height: 44px;
+   background: none;
+   border: none;
+   font-weight: normal;
+   outline: none;
+   position: absolute;
+   right: 0;
+   padding: .7em;      
+   cursor: pointer;
+}
+
+.or-tree button:active {
+   background: #777;
+   padding: 0;
+}
+
+
+.or-tree .or-toggle-panel:before {
+   font-family: FontAwesome;   
+   font-size: 26px;
+   content: '\f067';   
+   color: #857672;
+   -webkit-transition: all 300ms ease;
+   -moz-transition: all 300ms ease;
+   -ms-transition: all 300ms ease;
+   -o-transition: all 300ms ease;
+   transition: all 300ms ease;
+}
+
+
+.or-tree .or-expanded > .or-toggle-panel:before {
+   -moz-transform: rotate(90deg);
+   -webkit-transform: rotate(90deg);
+   -o-transform: rotate(90deg);
+   -ms-transform: rotate(90deg);
+   transform: rotate(90deg);
+}
+
+
+.or-tree .or-expanded > button:before,
+.or-tree .or-expanded > .or-toggle-panel:before {
+   content: '\f068';
+}
+
+.or-tree .or-expanded > a {
+   font-weight: bold;
+}
+
+.or-tree ul.or-depth-1 {   
+}
+
+.or-tree .or-depth-1 > li > a {
+   
+}
+
+
+.or-tree .or-depth-1 > li {
+    
+}
+
+.or-tree .or-depth-2 > li {
+   
+}
+
+.or-tree .or-depth-2 {
+   
+}
+
+.or-tree .or-depth-3 {
+   
+}
+
+.or-tree .or-depth-3 > li > a {
+   
+}
+
+.or-tree .or-depth-4 > li > a {
+   font-size: 13px;
+   padding: 11px 10px 11px 40px;
+}
+
+.or-tree .or-depth-5 > li > a {
+   font-size: 12px;
+   padding: 8px 10px 8px 60px;
+}

@@ -1,0 +1,446 @@
+/* Färg tema */
+
+ .colortext{
+color:#E83C23;
+}
+
+footer a {
+  display: inline;
+  border-bottom: 2px solid #dbe7c4;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  color: black;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #000;
+}
+
+.contentlinks.linkblue {
+  padding-right: 5px;
+  padding-left: 1px;
+  color: #E83C23;
+}
+.contentlinks.linkblue:hover {
+  background-color: transparent;
+  color: #35383b;
+}
+
+
+footer i.or-social-icon-bg { 
+   color: #35383b !important;
+   font-style:normal
+}
+
+footer i.or-social-icon-fg { 
+   color: #faf9f8 !important;
+   font-style:normal;
+}
+ 
+ 
+.leftnavicon {
+   color:#877D77 !important;
+}
+
+/* Bakgrundsfärg för temat */
+.or-formicon {
+  background-color: #857672;
+}
+
+/* Bakgrundsfärg för temat */
+.submit.bg-color, /* Färg för sökknapp   */
+.or-colorbg,
+.or-forms input[type="submit"] {
+   background-color: #E83C23;
+}
+
+.or-forms input[type="submit"] {
+   background-color: #35383b;
+}
+
+.or-colorborder {   
+   border-color: #dbe7c4);
+}   
+
+
+/* Text färg för temat */
+h1.heading, 
+.or-colortext {
+  color: #E83C23;
+}   
+
+
+/* Bakgrundsfärg för brödsmulsraden */
+.or-breadcrumps-container{
+   background-color: #ecebe6;
+}
+
+/* Färg för rubriker i nyhetslistning */
+.rubriknyhetsruta,
+.rubriknyhetsruta span {   
+  color: #E83C23;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #dbe7c4);
+    outline: 0px none;
+    box-shadow: none;
+}
+
+/* Kommentarsrutor */
+li.or-comment.or-colorborder {
+  border-color: rgba(133, 118, 114, 0.49) rgba(133, 118, 114, 0.49) #857672;
+  background-color: rgba(255, 255, 255, 0.78);
+}   
+
+/* Ramfärg för actionrutan */
+.or-action-link.or-colorborder {
+  border-color: #dbe7c4);
+}
+
+.or-action-content span.fa {   
+   background-color: #E83C23;   
+}
+
+.or-action-content span.fa:after {
+   border-left-color: #E83C23;
+}
+
+
+/* Färger för processverktyg */
+
+
+.sol_process_flow_container {
+    border-left-color: rgba(232, 60, 35, 0.2);
+	border-right-color: rgba(232, 60, 35, 0.2);
+	border-bottom-color: rgba(232, 60, 35, 0.2);
+	border-top-color: #E83C23;
+}
+
+ul.sol_steps.clearfix {
+   color: #AEDEEF;
+}
+.sol_step {
+    box-shadow: 0px 0px 1px 0px rgba(232, 60, 35, 0.45) inset;
+}
+
+li.sol_step:hover {
+    background-color: rgba(245, 209, 148, 0.3);
+    color: #35383b;
+}
+
+li.sol_step.active {
+    background-color: #E83C23;
+    box-shadow: 1px 8px 0px 0px #E83C23 inset, 0px 0px 3px 0px rgba(0, 0, 0, 0.25) inset;
+    border-top: 6px solid #CF311A;
+}
+li.sol_step.active:hover {
+color: #fff;
+}
+
+.sol_process_flow_outer > div{
+   border-color: #AEDEEF rgba(0, 152, 219, 0.34) rgba(0, 152, 219, 0.34);
+   color: #E83C23;
+}
+
+/* Kalender */
+.or-date-month-name,
+.or-week-row.or-day-row,
+.or-calendar-text-active, 
+.or-calendar-text-active-event,
+.or-calendar-columns.or-week-column,
+.or-calendar-filter-container{
+   background-color: #E83C23;
+}
+
+
+.or-week-text:hover a {
+    color: #E83C23;
+}
+
+
+/* Plusbox */
+.or-plus-box-header.or-colorborder {
+  border-color: #dbe7c4;
+}
+
+
+.or-plus-box-header.or-colorborder {
+  border-color: #dbe7c4;
+}
+
+.or-plus-box-header.or-plus-box-active {
+   background-color: #E83C23;
+}
+
+h4.plusboxxrubrik.or-plus-box-active {
+   color:white;
+}
+
+.or-collpase-button.or-colorbg.or-plus-box-active {
+  background-color: rgba(255,255,255,0.25)!important;
+}
+
+
+.or-plus-box-header.or-colorborder {
+  border-color: rgba(232, 60, 35, 0.2);
+}
+
+.or-plus-box-header.or-plus-box-active {
+  background-color: #E83C23;
+}
+
+.or-programpoang {
+    border-color: #DCEDBB;
+    color:  #E83C23;
+}
+
+
+/* Plusbox program */
+.or-plus-box-program.or-plus-box-active {
+  background-color: #FFF;
+}
+
+.or-plus-box-program.or-plus-box-active h4.plusboxxrubrik {
+   color:#fff;
+}
+
+.or-plus-box-program:hover .plusboxxrubrik {
+  color: #60930f;
+}
+
+.or-plus-box-program.or-plus-box-header.or-plus-box-active {
+    background-color: #E83C23;
+}
+
+.or-wrapper-click.or-plus-box-header.or-colorborder.or-plus-box-active p.normal {
+    color: #FFF;
+}
+
+.or-plus-box-program .or-icon-plus {
+    color: #FFF;
+}
+
+.or-plus-box-program .or-collpase-button {
+    background-color: #E83C23;
+}
+
+
+
+/* Hover plusboxar */
+.or-plus-box-header:hover .plusboxxrubrik{
+	color: #E83C23;
+}
+
+
+.or-plus-box-header.or-plus-box-active .plusboxxrubrik {
+  color: #fff;
+}
+
+
+
+
+
+/* Kontakta oss fristående */
+
+.or-contact-bar.or-colorborder {
+	border-right: 2px solid #EFDFCB;
+	border-bottom: 2px solid #EFDFCB;
+	border-left: 2px solid #EFDFCB;
+}
+
+.or-contact-left-column-container.or-colorbg {
+  backhround-color: #f3d3a8; 
+  background-color: rgba(242, 140, 0, 0.3);
+}
+
+.or-contacticon i {
+  color: #F28C00;
+}
+
+/* action */
+.calltoactionwrapper:hover > .or-ctatext {
+  color: #E83C23;
+  text-decoration: none;
+  border-bottom: 2px solid #E83C23;
+}
+
+.or-action-content:hover a {
+  color: #E83C23;
+}
+
+.or-action-content:hover .or-action-text{
+  color: #E83C23;
+  text-decoration:underline;
+}
+
+.or-action-link-small:hover a {
+ color: #E83C23;
+}
+ 
+ /* actions */
+ 
+ .or-action-link {
+    border-color: rgba(232, 60, 35, 0.2);
+}
+
+.or-arrow-left::after {
+    border-color: rgba(136, 183, 213, 0) rgba(136, 183, 213, 0) rgba(136, 183, 213, 0) #E83C23;
+}
+ 
+/* puffar */
+.or-puff-bild-trans-text > div:nth-child(1) {
+    background-color: rgba(232, 60, 35, 0.8);
+}
+
+.or-stor-bild-text-actions { 
+   background-color: #FFF;
+}
+
+.or-puff-bild-text h4{
+color: #E83C23;
+}
+
+.or-stor-bild-text-tv > div:nth-child(2) h2 {
+    color: #E83C23;
+}
+
+.extra {
+    background-color: #E83C23;
+}
+
+.poem span {
+    background-color: #E83C23;
+}
+
+.topp-storbild-textblock {
+    background-color: #FFF;
+}
+
+.or-stor-bild-text {
+    background-color: #FFF;
+}
+
+.or-stor-text-actions {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.or-stor-bild-text-2 {
+    background-color: #FFF;
+}
+
+/*slut puffar */
+
+
+/* tabell */
+
+@media (max-width: 768px) {
+.st-head-row {
+  background-color: #E83C23;
+}
+}
+
+.sv-table-portlet thead tr {
+    background-color: #E83C23;
+}
+
+/* rubrik logo */
+.or-header-topptext h2 {
+ color: #E83C23;
+}
+
+/* blogg commennt */
+.or-blogginfo-blocks:hover .or-comment-expander-text {
+	color: #E83C23;
+}
+
+.or-month-container .or-month-arrow:hover {
+    color: #E83C23;
+}
+
+.sv-table-portlet th {
+    background-color: #E83C23;
+}
+
+.sitevision-ui-bootstrap .ui-menu .ui-menu-item a.ui-state-focus,.sitevision-ui-bootstrap .ui-menu .ui-menu-item a.ui-state-active,.sitevision-ui-bootstrap .ui-menu .ui-menu-item a.ui-widget-content{font-weight:400;margin:0;color:#fff;background:#E83C23;background-color:#E83C23;background-repeat:repeat-x;background-image:-webkit-linear-gradient(top,#E83C23,#E83C23);background-image:-moz-linear-gradient(top,#E83C23,#E83C23);background-image:-o-linear-gradient(top,#E83C23,#E83C23);background-image:linear-gradient(to bottom,#E83C23,#E83C23);text-shadow:0 0px 0 rgba(0,0,0,0.0);border-color:#08c #0088Cc #0077b3;border-color:rgba(0,0,0,0.0) rgba(0,0,0,0.0) rgba(0,0,0,0.0);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#E83C23',endColorstr='#E83C23',GradientType=0);filter:progid:DXImageTransform.Microsoft.gradient(enabled=false)}
+
+
+
+/* blogg */
+
+.or-blog-wrapper {
+    border-color: #E83C23;
+}
+
+/* Steg för steg program*/
+.or-school-advantages-header {
+    border-bottom: 8px solid #DCEDBB;
+    border-right: 1px solid #DCEDBB;
+    border-top: 1px solid #DCEDBB;
+    border-left: 1px solid #DCEDBB;
+}
+
+.advantages-arrow-down {
+    background-color:  #DCEDBB ;
+}
+
+/* topprubrik programsida*/
+.or-stor-bild-text-tv > div:nth-child(2) h1, .or-program-heading-container h1 {
+    color: #E83C23;
+}
+
+
+/* Söksida */
+.sol-facetter p {
+    color: #E83C23;
+}
+
+li#sol-selected-facet {
+    background-color: #E83C23;
+}
+
+li.sol-selected-facet:hover {
+    background-color: rgba(0, 152, 189, 0.5);
+    border-bottom-color: rgba(0, 152, 189, 0.5);
+}
+
+.or-show-hiden-facet-items:hover {
+ background-color: #7FA245 !important;
+ border-bottom: 2px dotted #7FA245 !important;
+ color: #fff;
+}
+
+.sol-sok-ruta input.normal:last-child {
+    background-color: #E83C23;
+}
+
+li.sol-selected-facet:hover {
+    background-color: #8CB051 !important;
+    border-bottom-color: #8CB051 !important;
+    color: #fff !important;
+}
+
+.or-hidden-facet-items-selected {
+    transition: all 500ms ease 0s;
+    background-color: #E1E8C7 !important;
+    border-bottom-color: #E1E8C7 !important;
+}
+
+.or-hidden-facet-items-selected {
+ transition: all 500ms ease 0s;
+ background-color: #E83C23 !important;
+ border-bottom-color: #E83C23 !important;
+ color: #fff;
+}
+
+.pagination .current {
+    background-color: #60930F ;
+}
+
+#or-paging-id a:hover {
+    background-color: #E1E8C7;
+}
+
+

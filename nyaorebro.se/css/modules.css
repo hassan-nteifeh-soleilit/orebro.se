@@ -1,0 +1,391 @@
+/* Liten kalender info ruta */
+.or-calender-date {
+  position: relative;
+  bottom: auto;
+  z-index: 12;
+  width: 47px;
+  margin-top: 20px;
+  margin-right: 9px;
+  margin-left: 15px;
+  float: left;
+  border: 2px solid #f0eded;
+  border-radius: 3px 3px 2px 2px;
+  background-color: white;
+  box-shadow: none;
+}
+.or-calender-date.or-calender-date-small {
+  width: 53px;
+  margin-top: 15px;
+  margin-right: 20px;
+  margin-left: 0px;
+  float: none;
+  box-shadow: none;
+  text-align: center;
+}
+
+.or-date-month-name {
+  position: relative;
+  width: 100%;
+  height: 22px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  background-color: #e83c23;
+  font-family: futura-pt, sans-serif;
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.or-date-day {
+  position: relative;
+  display: block;
+  width: 90%;
+  margin: 1px auto;
+  float: none;
+  font-family: futura-pt, sans-serif;
+  font-size: 17px;
+  line-height: 19px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.or-date-day-name {
+  position: relative;
+  display: inline-block;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 3px;
+  float: none;
+  border-top: 1px dotted rgba(133, 118, 114, 0.2);
+  font-size: 11px;
+  line-height: 11px;
+  text-align: center;
+}
+
+/* Kalender faktaruta */
+
+.or-facts-row-calender {
+ padding-top: 6px;
+ padding-bottom: 10px;
+ border-bottom: 1px solid #ecebe6;
+}
+
+.or-facts-column-one {
+ width: 25%; 
+ text-align: left;
+}
+
+.or-facts-column-two {
+ width: 75%;
+ line-height: 20px;
+}
+
+.or-facts-column-two p.normal,
+.or-facts-column-one p.normal {
+  margin: auto;
+}
+
+.or-facts-column-two p.normal {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.or-facts-column-two p.normal a{
+  font-size: 13px;
+}
+
+.or-facts-column-one strong {
+  font-size: 14px;
+}
+
+/* Kalender listning */
+
+.or-calender-list-calender {
+   float:left;
+}
+
+.or-calender-list-info {
+  width: 80%;
+  float: left;
+}
+
+.or-calender-list-type{
+  margin-top: 5px;
+  padding-top: 7px;
+  border-top: 2px dotted rgba(133, 118, 114, 0.2);
+}
+
+.or-calender-list-type-text{
+  width: 100%;
+  margin-bottom: 3px;
+  font-size: 13px;
+}
+
+.or-news-list-container:hover .or-calender-list-info{
+  text-decoration: underline;
+}
+
+
+/* Kalender */
+
+.or-month-container {
+  position: relative;
+  width: 50%;
+  margin-top: 20px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  border-style: solid;
+  border-width: 2px 2px 0px;
+  border-color: #ffcdc7;
+  border-top-left-radius: 1px;
+  border-top-right-radius: 1px;
+  background-color: white;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  color: #857672;
+  font-weight: 400;
+  text-align: center;
+}
+.or-month-container:hover {
+  color: #e83c23;
+}
+
+.or-calendar-filter-container {
+  width: 80%;
+  margin-bottom: 40px;
+  float: left;
+  border: 1px solid #ffcdc7;
+  border-radius: 1px;
+  background-color: #e83c23;
+}
+
+/* Rubrik rad */
+.or-week-row.or-day-row {
+  background-color: #e83c23;
+  color: white;
+}
+
+/* Kalender rad */
+.or-week-row {
+  background-color: white;
+}
+
+/* Kalender kolumn*/
+.or-calendar-columns {
+  position: relative;
+  width: 12.5%;
+  min-height: 43px;
+  padding-top: 11px;
+  float: left;
+  border-right: 1px solid rgba(133, 118, 114, 0.1);
+  border-bottom: 1px solid rgba(133, 118, 114, 0.1);
+  background-color: transparent;
+  font-family: futura-pt, sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+/* Kalender veckonummer kolumn*/
+.or-calendar-columns.or-week-column {
+  border-right-color: rgba(255, 255, 255, 0.34);
+  border-bottom-color: rgba(255, 255, 255, 0.34);
+  background-color: #e83c23;
+  color: white;
+}
+
+.or-week-text:hover {
+  background-color: rgba(255, 255, 255, 0.78);
+  color: #e83c23;
+}
+
+.or-week-text:hover a {
+  color: red;
+}
+
+.or-week-text {
+  display: inline-block;
+  width: 29px;
+  height: 29px;
+  border-radius: 15px;
+  background-color: transparent;
+  font-size: 13px;
+  font-weight: bold;
+  color: white;
+  padding-top: 3px;
+  text-align: center;
+  position: relative;
+}
+
+.or-week-text a {
+    font-size: 12px;
+    font-weight: bold;
+    color: #FFF;
+    position: absolute;
+    left: 50%;
+    width: 25px;
+    margin-left: -12px;
+    top: 56%;
+    margin-top: -11px;
+    letter-spacing: -0.03em;
+}
+
+/* Kalender dagnummer kolumn*/
+.or-calendar-columns.or-day-columns {
+ border-right-color: rgba(255, 255, 255, 0.34);
+}
+
+.or-calendar-text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 26px;
+  height: 26px;
+  margin-top: -11px;
+  margin-left: -13px;
+  border-radius: 13px;
+  background-color: white;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  line-height: 26px;
+  letter-spacing: -0.06em;
+}
+
+/* Dagens datum */
+.or-calendar-text-active,
+.or-calendar-text-active-event {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 34px;
+  height: 34px;
+  margin-top: -17px;
+  margin-left: -18px;
+  padding-top: 2px;
+  border: 2px solid #f0c3bb;
+  border-radius: 20px;
+  background-color: #e83c23;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+  color: white;
+  font-size: 14px;
+  line-height: 27px;
+  font-weight: 700;
+}
+
+.or-calendar-text-active-event:hover{
+  background-color: #f28c00;
+}
+
+/* Dag med händelse */
+.or-calendar-text-event {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 26px;
+  height: 26px;
+  margin-top: -13px;
+  margin-left: -13px;
+  border-radius: 13px;
+  background-color: rgba(133, 118, 114, 0.65);
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+
+}
+
+.or-calendar-text-event a,
+.or-calendar-text-active-event a {
+  color: white;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 700;
+  margin-left: -2px;
+}
+
+
+.or-calendar-text-event:hover {
+  background-color: #35383b;
+  color: white;
+}
+
+.or-month-text, .or-month-text a {
+  margin-right: 6px;
+  margin-left: 6px;
+  color: #857672;
+}
+
+
+
+.or-month-text,
+.or-month-text a {
+  display: inline-block;
+  margin-right: 14px;
+  margin-left: 8px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.or-month-container .or-month-arrow {
+   font-size: 16px;
+   color: #857672;   
+}
+
+.or-month-container .or-month-arrow:hover {
+   color: #E83C23;   
+}
+
+
+/* Test med filtypsikoner via css */
+/*
+
+a[href$='.pdf'] {
+background:transparent url(../images/pdf.png) center left no-repeat;
+display:inline-block;
+padding-left:20px;
+line-height:15px;
+}
+
+a[href$='.xls'], a[href$='.csv'], a[href$='.xlw'], a[href$='.xlt'] {
+background:transparent url(../images/excel.png) center left no-repeat;
+display:inline-block;
+padding-left:20px;
+line-height:15px;
+}
+
+a[href$='.doc']:before, a[href$='.rtf']:before, a[href$='.wps']:before, a[href$='.txt']:before {
+background:transparent url(/images/18.758f01f014bc6929dc61ef2/1425396121313/Word-grey-word-text.svg) center left no-repeat;
+display:inline-block;
+padding-left:20px;
+line-height:15px;
+}
+
+a[href$='.doc']:before, a[href$='.rtf']:before, a[href$='.wps']:before, a[href$='.txt']:before {
+font-family: 'FontAwesome';
+content: "\f1c2";
+color: #444;
+}
+
+
+
+
+a[title*='word'] {
+margin-left:15px;
+}
+*/  
+
+ 
+/* mailto: links */
+/*
+a[href^="mailto:"] {
+background:transparent url(../images/mailto.png) center left no-repeat;
+display:inline-block;
+padding-left:20px;
+line-height:15px;
+}
+*/
+
+
