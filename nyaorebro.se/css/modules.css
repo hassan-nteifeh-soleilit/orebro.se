@@ -23,7 +23,7 @@ form.or-search-field input {
   -webkit-appearance: none;
 }
 
-form.search-field button{
+form.or-search-field button{
     position: relative;
     -webkit-appearance: none;
     left: -28px;
