@@ -1,0 +1,18 @@
+{
+  "name": "nyaorebro.se",
+  "version": "1.0.0",
+  "description": "Lokal testserver",
+  "main": "init.js",  
+  "scripts": {
+    "test": "vows --spec --isolate",
+    "start": "node server.js",
+    "predeploy": "echo im about to deploy",
+    "postdeploy": "echo ive deployed"    
+  },
+  "private": true,
+  "author": "Mikael Edberger",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
