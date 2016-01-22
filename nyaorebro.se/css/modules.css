@@ -1,4 +1,12 @@
-/* Sökfältet */
+/* Sökfält */
+
+form.or-search-field {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    margin-top: 5px;
+}
+
 form.or-search-field input {
   width: 75%;
   height: 50px;
@@ -39,7 +47,15 @@ form.or-search-field button{
     text-align: center;
 }
 
-form.search-field button:hover {
+.or-search-button-wrapper {
+    position: absolute;
+    bottom: 12px;
+    left: 15px;
+}
+
+.or-search-button-wrapper .fa-search, #or-id-search-icon {
+    font-size: 35px;
+    color: white;
 }
 
 
