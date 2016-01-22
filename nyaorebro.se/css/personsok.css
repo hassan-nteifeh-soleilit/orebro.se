@@ -1,0 +1,85 @@
+/* classer för personsökens olika resultatfält */
+.department
+{
+	display:block;
+}
+
+.tel
+{
+	display:block;
+}
+
+.cell
+{
+	display:block;
+}
+
+.email
+{
+	display:block;
+}
+
+.adr
+{
+	display:block;
+	margin-top:1.5em;
+}
+
+.postAddress
+{
+	display:block;
+}
+
+.fax
+{
+	display:block;
+}
+
+.orgLevels
+{
+	display:block;
+	margin-top:.75em;
+}
+
+.sokresultat
+{
+	float:left;
+	width:38em;
+}
+
+.resultatlista_ul
+{
+	list-style:none;
+	margin:0;
+	overflow:hidden;
+	padding:0;
+	width:37.8em;
+}
+
+.resultatlista_li
+{
+	clear:both;
+	float:left;
+	margin-left:0;
+	padding:.5em;
+	width:36.8em;
+}
+
+.vcard
+{
+	margin-bottom:1em;
+}
+
+.merinfo
+{
+	color:#036;
+	cursor:pointer;
+	margin-top:0!important;
+	text-decoration:underline;
+}
+
+.vcardlink
+{
+	float:right;
+	position:relative;
+}
