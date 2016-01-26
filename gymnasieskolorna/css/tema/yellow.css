@@ -654,3 +654,21 @@ color: #35383B;
 .sol-accordion-heading.sol-tab-active:after{
     color: #35383b;
 }
+
+/* Ny action */
+.or-ny-action:hover .or-action-text a
+{
+	color:#857672;
+}
+
+.or-ny-action span.fa
+{
+	background-color:#fff484;
+	color:#000;
+}
+
+.or-ny-action span.fa::after
+{
+	border-color:rgba(136,183,213,0) rgba(136,183,213,0) rgba(136,183,213,0) #fff484;
+}
+/* Slut ny action */

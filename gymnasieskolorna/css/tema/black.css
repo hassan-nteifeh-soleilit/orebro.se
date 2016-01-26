@@ -568,3 +568,21 @@ li.sol-selected-facet:hover {
  border-right: 1px solid #e4e4e4;
  border-bottom: 1px solid #e4e4e4;
 }
+
+/* Ny action */
+.or-ny-action:hover .or-action-text a
+{
+	color:#857672;
+}
+
+.or-ny-action span.fa
+{
+	background-color:#35383b;
+	color:#fff;
+}
+
+.or-ny-action span.fa::after
+{
+	border-color:rgba(136,183,213,0) rgba(136,183,213,0) rgba(136,183,213,0) #35383b;
+}
+/* Slut ny action */
