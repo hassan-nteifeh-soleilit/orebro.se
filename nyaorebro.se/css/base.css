@@ -1,4 +1,28 @@
 /* Grunddesign */
+
+/*
+@font-face {
+  font-family: 'Leaguespartan webfont';
+  src: url('/download/18.639484fa14f307c14ae567c/LeagueSpartan-Bold-webfont.eot') format('embedded-opentype'),
+		url('/download/18.639484fa14f307c14ae55fe/LeagueSpartan-Bold-webfont.woff2') format('undefined'), 
+		url('/download/18.639484fa14f307c14ae5679/LeagueSpartan-Bold-webfont.woff') format('woff'),
+		url('/download/18.639484fa14f307c14ae5678/LeagueSpartan-Bold-webfont.ttf') format('truetype');	
+  font-weight: 800;
+  font-style: normal;
+}
+*/
+
+@font-face {
+  font-family: 'LeagueSpartan-Bold';
+  src: url('/download/18.720a5aaf1524e3420a8502/LeagueSpartan-Bold.eot?#iefix') format('embedded-opentype'), 
+		url('/download/18.720a5aaf1524e3420a8503/LeagueSpartan-Bold.otf') format('opentype'), 
+		url('/download/18.720a5aaf1524e3420a8506/LeagueSpartan-Bold.woff') format('woff'), 
+		url('/download/18.720a5aaf1524e3420a8505/LeagueSpartan-Bold.ttf') format('truetype'), 
+		url('/images/18.720a5aaf1524e3420a8504/LeagueSpartan-Bold.svg#LeagueSpartan-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 header
 {
 	background:#FFF;
@@ -40,6 +64,31 @@ header .or-logo
 	margin-top:5px;
 	max-height:75px;
 }
+
+/* Kolumner i toppheader */
+/* Andvänds istället för SV responsive layout i GYW */
+/*
+.or-col-logo-header {
+  display: inline-block;
+  width: 35%;
+  float: left;
+}
+
+
+.or-col-search-header {
+  display: inline-block;
+  width: 45%;
+  margin-right: 10%;
+  padding-right: 20px;
+  float: right;
+}
+
+.or-col-menu-header {      
+  position: absolute;
+  right: 15px;    
+}
+*/
+
 
 .or-tool-area
 {
@@ -98,6 +147,7 @@ header .or-logo
 	font-size:20px;
 }
 
+
 section.or-breadcrumbs-area
 {
 	background:#fff;
@@ -109,6 +159,7 @@ section.or-breadcrumbs-area
 	width:1350px;
 }
 
+/* Pilavdelare på sida */
 .or-arrow-box
 {
 	background:#EFEFEF;
@@ -130,6 +181,7 @@ section.or-breadcrumbs-area
 	top:100%;
 	width:0;
 }
+
 
 section.or-article-main .or-content-padding
 {

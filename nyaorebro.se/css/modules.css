@@ -484,3 +484,94 @@ or-action-link
 	width:48px;
 }
 
+
+/* Relaterade länkar/dokument */
+.or-teaser-box {
+    margin-bottom: 40px;
+    box-shadow: #dadada 0px 0px 3px 0px;
+    float: left;
+    margin-right: 2%;
+}
+
+.or-teaser-box.or-related-links {
+    width: 48%;
+    margin-top: 25px;
+}
+
+
+.or-teaser-box .or-title {
+    background: #e83c23;
+    padding: 2px 15px 8px;
+}
+
+.or-teaser-box.or-related-links .or-title {
+    background: #857672;
+}
+
+.or-teaser-box .or-title span {
+    color: #ffffff;
+    font-family: 'LeagueSpartan-Bold';
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+
+.or-teaser-box .or-title i {
+    font-size: 30px;
+    padding-right: 10px;
+	color: #FFF;
+}
+
+.or-teaser-box.or-related-links .or-text-content {
+    padding: 8px 15px;
+}
+
+.or-teaser-box .or-text-content {
+    background: #ffffff;
+    padding: 15px 20px;
+    clear: both;
+}
+
+
+.or-teaser-box.or-related-links .or-text-content .or-teaser-list li {
+    padding: 9px 0px 4px;
+}
+
+.or-teaser-box .or-text-content .or-teaser-list li {
+    border-bottom: 2px dotted #dad6d4;
+    padding: 10px 0px;
+}
+
+
+.or-teaser-box.or-related-links .or-text-content .teaser-list li a {
+    position: relative;
+}
+
+.or-teaser-box .or-text-content .or-teaser-list li a {
+    display: block;
+}
+
+.or-teaser-box .or-text-content .or-teaser-list li a i {
+    color: #857672;
+    font-size: 22px;
+    text-align: center;
+    line-height: 20px;
+}
+
+
+.or-teaser-box.or-related-links .or-text-content .or-teaser-list li a .or-link-name {
+    position: absolute;
+    top: 50%;
+    margin-top: -13px;
+    margin-left: 20px;
+    transition: all 100ms ease;
+    background: linear-gradient(to bottom, #e3f4fb, #afddf3) bottom repeat-x;
+    background-size: 25%;
+    background-color: transparent;
+}
+
+.or-teaser-box.or-related-links .or-text-content .or-teaser-list li a .or-link-name:hover {
+    box-shadow: rgba(174, 222, 239, 0.65) 0px -48px 0px -30px inset;
+    color: #35383b;
+}           

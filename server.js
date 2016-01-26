@@ -1,9 +1,13 @@
 var express = require('express');
+var cors = require('cors')
  
-var server = express();
-server.use(express.static(__dirname + '/nyaorebro.se'));
+var app = express();
+
+app.use(cors());
+
+app.use(express.static(__dirname + '/nyaorebro.se'));
  
 var port = 10001;
-server.listen(port, function() {
+app.listen(port, function() {
     console.log('server listening on port ' + port);
 });
