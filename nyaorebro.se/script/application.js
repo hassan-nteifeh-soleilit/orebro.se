@@ -33,9 +33,7 @@
          $(this).find(".or-contact-bar-icon i").toggleClass('fa-rotate-45');
       });
      
-        
-      /* Ikoner i dokumentlistningsrutorna */
-      $(".or-docs-box-content a").each(function( index ) {
+      var iconDecorator =  function( index ) {
       
          var title = $( this ).attr("title").replace('(','').replace(')','');
          var iconCss, sizeStr;
@@ -54,7 +52,52 @@
             $(this).next().text( sizeStr );
          }
       
-      });
+      } 
+	  
+	  /*
+	  $('.or-text-content a > img').each(function() {
+		$(this).parent().after(this);
+	  })
+	  */
+	  var iconDecorator2 =  function( index ) {
+      
+         var title = $( this ).attr("title").replace('(','').replace(')','');
+         var icon, sizeStr;
+         
+		 $(this)
+         try {
+            if(title && title.length>0) {
+               var titleSplit = title.split(',');                              
+               icon = titleSplit[0];                        
+               sizeStr = titleSplit[1].replace(' ','');                                 
+            }            
+         } catch(err) {}
+         
+         
+         if(sizeStr){
+			switch (icon) {
+				case 'doc':
+					icon = 'word';
+					break;
+				case 'pdf':
+					icon = 'pdf';		
+					break;
+				case 'xls':
+					icon = 'excel';
+					break;
+				default:
+					icon = '';				 
+			}
+			var content = '<i class="fa fa-file-'+ icon +'-o"><span>'+ sizeStr +'</span></i>'         
+			$(this).prepend(content);   
+            $(this).next().text( '' );
+         }
+      
+      } 
+		
+      /* Ikoner i dokumentlistningsrutorna */
+      $(".or-docs-box-content a").each(iconDecorator);
+	  $(".or-related-links .or-text-content a").each(iconDecorator2);
    
              
       /* Responsiva tabeller */  

@@ -544,11 +544,15 @@ or-action-link
 }
 
 
-.or-teaser-box.or-related-links .or-text-content .teaser-list li a {
+.or-teaser-box.or-related-links .or-text-content .or-teaser-list li a {
     position: relative;
 }
 
 .or-teaser-box .or-text-content .or-teaser-list li a {
+    display: block;
+}
+
+.or-teaser-box .or-text-content .or-teaser-list li a i:before {
     display: block;
 }
 
@@ -559,6 +563,9 @@ or-action-link
     line-height: 20px;
 }
 
+.or-teaser-box .or-text-content .or-teaser-list li a i span {
+    font-size: 10px;
+}
 
 .or-teaser-box.or-related-links .or-text-content .or-teaser-list li a .or-link-name {
     position: absolute;
