@@ -1,5 +1,5 @@
 # orebro.se
-repo for webb-related code
+Repo för webb-relaterat material
 
 
 ## Hur man kommer igång med utveckling mot det lokala repot
