@@ -1,28 +1,5 @@
 /* Grunddesign */
 
-/*
-@font-face {
-  font-family: 'Leaguespartan webfont';
-  src: url('/download/18.639484fa14f307c14ae567c/LeagueSpartan-Bold-webfont.eot') format('embedded-opentype'),
-		url('/download/18.639484fa14f307c14ae55fe/LeagueSpartan-Bold-webfont.woff2') format('undefined'), 
-		url('/download/18.639484fa14f307c14ae5679/LeagueSpartan-Bold-webfont.woff') format('woff'),
-		url('/download/18.639484fa14f307c14ae5678/LeagueSpartan-Bold-webfont.ttf') format('truetype');	
-  font-weight: 800;
-  font-style: normal;
-}
-*/
-
-@font-face {
-  font-family: 'LeagueSpartan-Bold';
-  src: url('/download/18.720a5aaf1524e3420a8502/LeagueSpartan-Bold.eot?#iefix') format('embedded-opentype'), 
-		url('/download/18.720a5aaf1524e3420a8503/LeagueSpartan-Bold.otf') format('opentype'), 
-		url('/download/18.720a5aaf1524e3420a8506/LeagueSpartan-Bold.woff') format('woff'), 
-		url('/download/18.720a5aaf1524e3420a8505/LeagueSpartan-Bold.ttf') format('truetype'), 
-		url('/images/18.720a5aaf1524e3420a8504/LeagueSpartan-Bold.svg#LeagueSpartan-Bold') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
 header
 {
 	background:#FFF;
