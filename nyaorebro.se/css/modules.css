@@ -847,8 +847,8 @@ label.or-fieldlabelhelpus
 }
 
 .sol-sok-ruta input.normal:last-child {
-    right: 12px;
-    bottom: -3px;
+    right: 0px;
+    bottom: 0px;
     width: 46px;
     height: 46px;
     border-radius: 30px;
