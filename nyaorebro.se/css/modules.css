@@ -895,6 +895,11 @@ span.sol-hit-count {
     display: inline;
     float: none;
 }
+.or-search-link a:hover {
+    box-shadow: 0px -20px 0px 11px rgb(174, 222, 239) inset;
+    box-shadow: 0px -20px 0px 11px rgba(174, 222, 239, 0.65) inset;
+    color: #000;
+}
 
 .or-search-content {
     width: 80%;
@@ -956,9 +961,40 @@ span.sol-hit-count {
     font-weight: 300;
     cursor: pointer;
 }
+.sol-facetter ul > li:hover > a {
+    border-bottom: 2px solid #35383b;
+    transition: all 500ms ease;
+}
+
 .or-show-hiden-facet-items {
     background-color: rgb(133, 118, 114);
     background-color: rgba(133, 118, 114, 0.2);
+}
+.or-show-hiden-facet-items:hover {
+    background-color: #f28c00 !important;
+    border-bottom-color: #f28c00 !important;
+    border-bottom: 2px dotted #ededed !important;
+}
+.or-show-hiden-facet-items:hover > .sol-icon-more-facet {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+}
+.sol-icon-more-facet {
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-attachment: scroll;
+    background-color: transparent;
+    float: right;
+    width: 16px;
+    height: 16px;
+    opacity: 0.85;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
+    filter: alpha(opacity=85);
+    -moz-opacity: 0.85;
+    -khtml-opacity: 0.85;
+    margin-top: -1px;
 }
 
 .or-wrapper-click {
