@@ -871,6 +871,12 @@ span.sol-hit-count {
     float: right;
 }
 
+.or-search-link {
+    width: 100%;
+    display: block;
+    float: left;
+    margin-bottom: 10px;
+}
 .or-search-link a {
     box-shadow: 0px -16px 0px -12px rgb(174, 222, 239) inset;
     box-shadow: 0px -16px 0px -12px rgba(174, 222, 239, 0.65) inset;
@@ -885,6 +891,15 @@ span.sol-hit-count {
     float: none;
 }
 
+.or-search-content {
+    width: 80%;
+    display: block;
+    float: left;
+}
+.sol-search-hits > div {
+    margin-left: 17px;
+    width: 85%;
+}
 .sol-search-hits > div > p {
     padding-bottom: 10px;
     float: left;
@@ -897,6 +912,11 @@ span.sol-hit-count {
     font-weight: 400;
 }
 
+.or-search-infotext {
+    width: 100%;
+    display: block;
+    float: left;
+}
 .or-search-infotext p {
     font-size: 12px;
     font-weight: 100;
