@@ -830,6 +830,11 @@ label.or-fieldlabelhelpus
 }
 
 /* Sökresultat */
+#or-search-form {
+    position: relative;
+    margin-top: 20px;
+}
+
 .sol-sok-ruta input {
     width: 95%;
     height: 40px;
