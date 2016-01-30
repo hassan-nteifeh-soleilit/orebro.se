@@ -841,6 +841,23 @@ label.or-fieldlabelhelpus
     -webkit-appearance: none;
 }
 
+.sol-sok-ruta input.normal:last-child {
+    right: 12px;
+    bottom: -3px;
+    width: 46px;
+    height: 46px;
+    border-radius: 30px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    position: absolute;
+    float: right;
+    border: 0px none;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+}
+
 .or-hit-count {
     margin-top: 16px;
     margin-bottom: 15px;
@@ -885,6 +902,15 @@ span.sol-hit-count {
     font-weight: 100;
 }
 
+.sol-facetter ul {
+    margin-top: -6px;
+    margin-bottom: 10px;
+    padding: 0px;
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.90);
+}
 .sol-facetter ul > li {
     padding-top: 7px;
     padding: 8px 15px 5px 10px;
