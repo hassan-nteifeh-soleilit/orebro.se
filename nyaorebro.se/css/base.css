@@ -248,7 +248,7 @@ font-size: 14px;
 letter-spacing: 0.04em;
 }
 
-body section.or-nav-content-section .subheading h2
+body section.or-nav-content-section.subheading h2
 {
 text-align: center;
 text-transform: uppercase;
@@ -263,6 +263,8 @@ text-transform: uppercase;
 font-size: 14px;
 letter-spacing: 0.04em;
 }
+
+
 
 
 
