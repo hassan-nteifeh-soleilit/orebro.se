@@ -1059,3 +1059,12 @@ span.sol-hit-count {
 form.or-search-field button {
     background-color: red;
 }
+
+.or-tool-area a i {
+    color: #e83c23;
+    display: block;
+    float: left;
+    margin-bottom: 4px;
+    text-align: center;
+    width: 100%;
+}
