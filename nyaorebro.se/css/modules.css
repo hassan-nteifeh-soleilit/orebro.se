@@ -574,10 +574,13 @@ or-action-link
     clear: both;
 }
 
-.or-teaser-list ul {
-	margin: 0px 0 0 0;	
+.or-teaser-list ul{
+	margin: 0px;	
 }
 
+.or-teaser-box .or-teaser-list ul{
+	margin: 0px;	
+}
 
 .or-teaser-box.or-related-links .or-text-content .or-teaser-list li {
     padding: 9px 0px 4px;
