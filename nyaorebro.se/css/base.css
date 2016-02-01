@@ -236,7 +236,16 @@ section.or-nav-content-section h2
 {
 text-align: center;
 text-transform: uppercase;
-font-size: 18px;
+font-size: 14px;
+letter-spacing: 0.04em;
+}
+
+section.or-nav-content-section .subheading h2
+{
+text-align: center;
+text-transform: uppercase;
+font-size: 14px;
+letter-spacing: 0.04em;
 }
 
 
