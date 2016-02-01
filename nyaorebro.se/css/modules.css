@@ -520,6 +520,12 @@ or-action-link
     margin-left: 2%;
     margin-right: 2%;
     margin-bottom: 30px;
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.06);
+}
+
+.or-puff-bild-text p{
+    font-size: 15px;
+    font-weight: 100;
 }
 
 .or-puff-bild-text p{
@@ -535,9 +541,9 @@ or-action-link
     margin-right: 2%;
 }
 
-.or-teaser-box.or-related-links {
-    width: 48%;
-    margin-top: 25px;
+.or-teaser-box.or-related-links h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 
