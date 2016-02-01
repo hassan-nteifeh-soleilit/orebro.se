@@ -546,6 +546,11 @@ or-action-link
     margin-bottom: 0px;
 }
 
+body .or-wrapper-click.or-teaser-box.or-related-links h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 
 .or-teaser-box .or-title {
     background: #e83c23;
