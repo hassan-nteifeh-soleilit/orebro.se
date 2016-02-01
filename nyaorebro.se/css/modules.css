@@ -516,6 +516,10 @@ or-action-link
 /* fordjupad information */
 .or-puff-bild-text{
 	width: 30%;
+    float: left;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    margin-bottom: 30px;
 }
 
 
@@ -584,6 +588,10 @@ or-action-link
     padding: 10px 0px;
     margin-bottom: 0px;
     text-indent: 0px;
+}
+
+.or-teaser-box .or-text-content .or-teaser-list li:last-child {
+    border-bottom: 0px dotted #dad6d4;
 }
 
 .or-teaser-box .or-text-content .or-teaser-list li:before {
