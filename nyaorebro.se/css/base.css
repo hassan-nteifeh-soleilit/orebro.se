@@ -255,6 +255,9 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li
 {
 	margin-bottom:25px;
 	padding:0;
+	float: left;
+	width: 30%;
+	margin-right: 1%;
 }
 
 section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a
@@ -279,15 +282,7 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-t
 	top:-2px;
 }
 
-ul.or-nav-list li
-{
-	display:inline-block;
-	float:left;
-	margin-bottom:30px;
-	padding-left:15px;
-	padding-right:15px;
-	width:50%;
-}
+
 
 ul.or-nav-list li .or-list-wrapper
 {
