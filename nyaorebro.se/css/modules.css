@@ -530,7 +530,7 @@ or-action-link
 
 .or-teaser-box .or-title {
     background: #e83c23;
-    padding: 2px 15px 8px;
+    padding: 6px 15px 6px;
 }
 
 .or-teaser-box.or-related-links .or-title {
@@ -553,13 +553,17 @@ or-action-link
 }
 
 .or-teaser-box.or-related-links .or-text-content {
-    padding: 8px 15px;
+    padding: 0px 15px;
 }
 
 .or-teaser-box .or-text-content {
     background: #ffffff;
     padding: 15px 20px;
     clear: both;
+}
+
+.or-teaser-box.or-related-links .or-text-content .or-teaser-list ul {
+	margin-top: 0px;	
 }
 
 
@@ -576,12 +580,8 @@ or-action-link
 
 .or-teaser-box .or-text-content .or-teaser-list li:before {
     content: "";
-    font-family: FontAwesome;
-    color: red;
-    padding-right: 10px;
-    font-size: 10px;
-    top: -2px;
-    position: relative;
+    padding-right: 0px;
+    font-size: 0px;
 }
 
 .or-teaser-box.or-related-links .or-text-content .or-teaser-list li a {
@@ -621,7 +621,7 @@ or-action-link
 .or-teaser-box.or-related-links .or-text-content .or-teaser-list li a .or-link-name:hover {
     box-shadow: rgba(174, 222, 239, 0.65) 0px -48px 0px -30px inset;
     color: #35383b;
-}           
+}        
 
 
 /* Hade du nytta av innehållet */
