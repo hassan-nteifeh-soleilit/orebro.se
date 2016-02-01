@@ -3,7 +3,7 @@
 header
 {
 	background:#FFF;
-	height:105px;
+	min-height:90px;
 	margin-bottom:5px;
 	padding:12px 0 6px;
 }
@@ -41,6 +41,7 @@ header .or-logo
 	margin-top:5px;
 	max-height:75px;
 	margin-right: 8px;
+	margin-left: -12px;
 }
 
 .or-header-topptext h2{
@@ -341,13 +342,14 @@ nav.or-breadcrumbs
 nav.or-breadcrumbs li
 {
 	float:left;
+	padding-top: 3px;
 }
 
 nav.or-breadcrumbs li a
 {
 	color:#e83c23;
 	float:left;
-	font-size:11px;
+	font-size:13px;
 	font-weight:600;
 	padding:2px 0;
 }
@@ -412,8 +414,8 @@ nav.or-breadcrumbs li:last-child a:after
 
 
 /* content */
-.or-article-main h1{
-	margin-top:10px;
+.sv-use-margins .heading, .sv-use-margins .or-article-main h1{
+	margin-top:20px;
 }
 
 .or-article-main ul{
@@ -435,6 +437,12 @@ nav.or-breadcrumbs li:last-child a:after
     font-size: 10px;
     top: -2px;
     position: relative;
+}
+
+@media (min-width: 1200px){
+.container {
+    width: 1080px;
+}
 }
 
 @media max-width 992px {

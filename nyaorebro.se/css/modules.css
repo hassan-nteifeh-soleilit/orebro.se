@@ -30,7 +30,6 @@ form.or-search-field input {
   font-size: 17px;
   font-weight: 300;
   color: #717171;
-  background-color: #E83C23;
   -webkit-appearance: none;
 }
 
@@ -50,6 +49,7 @@ form.or-search-field button{
     cursor: pointer;        
     color: white;
     text-align: center;
+    background-color: #E83C23;
 }
 
 .or-search-button-wrapper {
