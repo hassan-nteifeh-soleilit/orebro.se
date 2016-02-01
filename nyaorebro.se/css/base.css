@@ -17,7 +17,6 @@ header .or-wider
 .or-grid-12-col.or-wider
 {
 	max-width:1350px;
-	width:1350px;
 }
 
 ul
@@ -438,6 +437,11 @@ nav.or-breadcrumbs li:last-child a:after
     top: -2px;
     position: relative;
 }
+
+.or-content-container {
+    width: 1080px;
+}
+
 
 @media (min-width: 1200px){
 .or-content-container {
