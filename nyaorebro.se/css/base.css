@@ -40,14 +40,23 @@ header .or-logo
 	float:left;
 	margin-top:5px;
 	max-height:75px;
+	margin-right: 8px;
 }
 
 .or-header-topptext h2{
-	color:#e83c23;
+	color: #E83C23;
+	margin-bottom: 4px;
+	display: inline-block;
+	font-size: 19px;
+
 }
 
 .or-header-bottomtext h4{
-	color:#8C817C;
+	color: #8C817C;
+	display: inline-block;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 17px;
 }
 
 /* Kolumner i toppheader */
