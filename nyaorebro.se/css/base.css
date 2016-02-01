@@ -23,7 +23,7 @@ header .or-wider
 ul
 {
 	list-style-type:none;
-	margin:0;
+	margin:0 0 0 15px;
 	padding:0;
 }
 
@@ -145,6 +145,7 @@ header .or-logo
 section.or-breadcrumbs-area
 {
 	background:#fff;
+	min-height: 30px;
 }
 
 .or-breadcrumbs-area .or-wider
