@@ -30,6 +30,7 @@ form.or-search-field input {
   font-size: 17px;
   font-weight: 300;
   color: #717171;
+  background-color: #E83C23;
   -webkit-appearance: none;
 }
 
@@ -62,6 +63,17 @@ form.or-search-field button{
     color: white;
 }
 
+/* menyknapp*/
+
+.or-menu-button-container .fa{
+	color:#E83C23;
+}
+
+.or-menu-text{
+	text-transform: uppercase;
+    padding: 0px;
+    font-size: 12px;
+}
 
 /* Liten kalender info ruta */
 .or-calender-date {

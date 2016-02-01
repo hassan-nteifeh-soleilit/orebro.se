@@ -412,9 +412,12 @@ nav.or-breadcrumbs li:last-child a:after
 
 
 /* content */
+.or-article-main h1{
+	margin-top:10px;
+}
 
 .or-article-main ul{
-	margin:0px;
+	margin:8px 0 0 0;
 	list-style-type: none;
 }
 
