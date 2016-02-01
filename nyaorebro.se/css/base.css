@@ -23,7 +23,7 @@ header .or-wider
 ul
 {
 	list-style-type:none;
-	margin:0 0 0 15px;
+	margin:0;
 	padding:0;
 }
 
@@ -408,6 +408,27 @@ nav.or-breadcrumbs li:last-child a:after
 	margin-bottom:33px;
 	text-align:center;
 	text-transform:uppercase;
+}
+
+
+/* content */
+
+.or-article-main ul{
+	margin:0 0 0 15px;
+}
+
+.or-article-main ul li{
+	margin-bottom: 10px;
+}
+
+.or-article-main li:before {
+    content: "\f111";
+    font-family: FontAwesome;
+    color: #857672;
+    padding-right: 10px;
+    font-size: 10px;
+    top: -2px;
+    position: relative;
 }
 
 @media max-width 992px {
