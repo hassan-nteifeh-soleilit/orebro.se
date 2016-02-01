@@ -415,6 +415,7 @@ nav.or-breadcrumbs li:last-child a:after
 
 .or-article-main ul{
 	margin:0px;
+	list-style-type: none;
 }
 
 .or-article-main ul li{
