@@ -231,6 +231,17 @@ section.or-nav-content-section
 	padding-top:40px;
 }
 
+section.or-nav-content-section p
+{
+text-align: center;
+}
+
+section.or-nav-content-section .normal p
+{
+text-align: center;
+}
+
+
 section.or-nav-content-section .or-area-heading h3
 {
 	font-size:15px;
