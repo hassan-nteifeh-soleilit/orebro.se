@@ -8,9 +8,8 @@ form.or-search-field {
 }
 
 form.or-search-field input {
-  width: 75%;
-  height: 50px;
-  padding: 8px 70px 8px 12px;
+  width: 65%;
+  padding: 10px 55px 10px 12px;
   margin-bottom: 10px;
   float: left;  
   line-height: 1.428571429;
