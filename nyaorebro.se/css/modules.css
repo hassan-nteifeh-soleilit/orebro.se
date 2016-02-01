@@ -540,6 +540,7 @@ or-action-link
     float: left;
     margin-right: 2%;
     width: 48%;
+    margin-top: 30px;
 }
 
 .or-teaser-box.or-related-links h3{
@@ -555,8 +556,10 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3{
 
 .or-teaser-box .or-title {
     background: #e83c23;
-    padding: 6px 15px 6px;
+    padding: 8px 15px 2px;
     min-height: 26px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
 }
 
 .or-teaser-box.or-related-links .or-title {
@@ -569,6 +572,7 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3{
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 0.05em;
+    
 }
 
 
@@ -577,8 +581,9 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3{
     padding-right: 10px;
 	color: #FFF;
 	position: relative;
-    top: 3px;
+    top: 2px;
     margin-top: -8px;
+    opacity: 0.7;
 }
 
 .or-teaser-box.or-related-links .or-text-content {
@@ -591,10 +596,6 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3{
     clear: both;
 }
 
-.or-teaser-list ul{
-	margin: 0px;	
-}
-
 .or-teaser-box .or-teaser-list ul{
 	padding: 9px 0px 12px;
 }
@@ -602,7 +603,10 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3{
 .or-teaser-box.or-related-links .or-text-content .or-teaser-list li {
     padding: 9px 0px 4px;
     margin-bottom: 0px;
-    margin-top: 7px;	
+    margin-top: 7px;
+    position: relative;
+    min-height: 40px;
+    padding-left: 30px;
 
 }
 
@@ -623,10 +627,6 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3{
     font-size: 0px;
 }
 
-.or-teaser-box.or-related-links .or-text-content .or-teaser-list li a {
-    position: relative;
-}
-
 .or-teaser-box .or-text-content .or-teaser-list li a {
     display: block;
 }
@@ -640,6 +640,8 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3{
     font-size: 22px;
     text-align: center;
     line-height: 20px;
+    position: absolute;
+    left: 0;
 }
 
 .or-teaser-box .or-text-content .or-teaser-list li a i span {
