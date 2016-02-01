@@ -235,7 +235,8 @@ section.or-nav-content-section
 section.or-nav-content-section h2
 {
 text-align: center;
-color: aqua;
+text-transform: uppercase;
+font-size: 18px;
 }
 
 
