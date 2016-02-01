@@ -264,6 +264,13 @@ font-size: 14px;
 letter-spacing: 0.04em;
 }
 
+body section.or-nav-content-section .or-grid-12-col.or-wider h2{
+	margin-top: 0px;
+}
+
+body section.or-nav-content-section.or-grid-12-col.or-wider h2{
+	margin-top: 0px;
+}
 
 
 
