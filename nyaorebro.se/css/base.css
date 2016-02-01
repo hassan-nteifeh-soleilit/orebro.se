@@ -246,6 +246,11 @@ section.or-nav-content-section .normal
 text-align: center;
 }
 
+section.or-nav-content-section h2
+{
+text-align: center;
+}
+
 
 section.or-nav-content-section .or-area-heading h3
 {
