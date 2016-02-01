@@ -414,11 +414,13 @@ nav.or-breadcrumbs li:last-child a:after
 /* content */
 
 .or-article-main ul{
-	margin:0 0 0 15px;
+	margin:0px;
 }
 
 .or-article-main ul li{
 	margin-bottom: 10px;
+    text-indent: -20px;
+    padding-left: 22px;
 }
 
 .or-article-main li:before {
