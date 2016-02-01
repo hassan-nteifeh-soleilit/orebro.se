@@ -42,6 +42,14 @@ header .or-logo
 	max-height:75px;
 }
 
+.or-header-topptext h2{
+	color:#e83c23;
+}
+
+.or-header-bottomtext h4{
+	color:#8C817C;
+}
+
 /* Kolumner i toppheader */
 /* Andvänds istället för SV responsive layout i GYW */
 /*
