@@ -1055,3 +1055,7 @@ span.sol-hit-count {
 
 
 /* test anders */
+
+form.or-search-field button {
+    background-color: antiquewhite;
+}
