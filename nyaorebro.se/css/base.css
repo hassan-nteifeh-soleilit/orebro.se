@@ -438,7 +438,11 @@ nav.or-breadcrumbs li:last-child a:after
     position: relative;
 }
 
-.or-content-container {
+section.or-article-main .or-content-container {
+    width: 1080px;
+}
+
+section.or-article-main.or-content-container {
     width: 1080px;
 }
 
