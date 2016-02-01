@@ -570,8 +570,19 @@ or-action-link
 .or-teaser-box .or-text-content .or-teaser-list li {
     border-bottom: 2px dotted #dad6d4;
     padding: 10px 0px;
+    margin-bottom: 0px;
+    text-indent: 0px;
 }
 
+.or-teaser-box .or-text-content .or-teaser-list li:before {
+    content: "";
+    font-family: FontAwesome;
+    color: red;
+    padding-right: 10px;
+    font-size: 10px;
+    top: -2px;
+    position: relative;
+}
 
 .or-teaser-box.or-related-links .or-text-content .or-teaser-list li a {
     position: relative;
