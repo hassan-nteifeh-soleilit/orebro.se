@@ -440,7 +440,7 @@ nav.or-breadcrumbs li:last-child a:after
 }
 
 @media (min-width: 1200px){
-.container {
+.or-grid-12-col {
     width: 1080px;
 }
 }

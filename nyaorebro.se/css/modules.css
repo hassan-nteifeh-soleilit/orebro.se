@@ -69,6 +69,14 @@ form.or-search-field button{
 	color:#E83C23;
 }
 
+.or-menu-button-container .fa :before{
+	color:#fff;
+}
+
+.or-menu-button-container .fa:before{
+	color:#fff;
+}
+
 .or-menu-text{
 	text-transform: uppercase;
     padding: 0px;
