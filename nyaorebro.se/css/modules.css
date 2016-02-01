@@ -550,6 +550,8 @@ or-action-link
     font-size: 30px;
     padding-right: 10px;
 	color: #FFF;
+	position: relative;
+    top: 3px;
 }
 
 .or-teaser-box.or-related-links .or-text-content {
@@ -563,7 +565,7 @@ or-action-link
 }
 
 .or-teaser-box.or-related-links .or-text-content .or-teaser-list ul {
-	margin-top: 0px;	
+	margin: 0px 0 0 0;	
 }
 
 
