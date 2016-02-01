@@ -231,24 +231,11 @@ section.or-nav-content-section
 	padding-top:40px;
 }
 
-section.or-nav-content-section p
-{
-text-align: center;
-}
-
-section.or-nav-content-section .normal p
-{
-text-align: center;
-}
-
-section.or-nav-content-section .normal
-{
-text-align: center;
-}
 
 section.or-nav-content-section h2
 {
 text-align: center;
+color: aqua;
 }
 
 
