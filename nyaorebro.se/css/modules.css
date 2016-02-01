@@ -580,12 +580,13 @@ or-action-link
 
 .or-teaser-box .or-teaser-list ul{
 	padding: 9px 0px 12px;
-    margin-bottom: 0px;
-    margin-top: 7px;	
 }
 
 .or-teaser-box.or-related-links .or-text-content .or-teaser-list li {
     padding: 9px 0px 4px;
+    margin-bottom: 0px;
+    margin-top: 7px;	
+
 }
 
 .or-teaser-box .or-text-content .or-teaser-list li {
