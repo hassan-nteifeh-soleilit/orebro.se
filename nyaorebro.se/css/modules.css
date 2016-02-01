@@ -66,7 +66,11 @@ form.or-search-field button{
 /* menyknapp*/
 
 .or-menu-button-container .fa{
-	color:#E83C23;
+	background: #E83C23;
+    border-radius: 40px;
+    width: 60px;
+    height: 60px;
+    margin-top: 3px;
 }
 
 .or-menu-button-container .fa :before{
@@ -75,6 +79,8 @@ form.or-search-field button{
 
 .or-menu-button-container .fa:before{
 	color:#fff;
+	position: relative;
+    top: -4px;
 }
 
 .or-menu-text{

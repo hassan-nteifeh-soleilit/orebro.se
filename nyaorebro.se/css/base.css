@@ -439,11 +439,7 @@ nav.or-breadcrumbs li:last-child a:after
     position: relative;
 }
 
-@media (min-width: 1200px){
-.or-grid-12-col {
-    width: 1080px;
-}
-}
+
 
 @media max-width 992px {
 	section.or-article-main .or-content-padding
