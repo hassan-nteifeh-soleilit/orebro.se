@@ -531,6 +531,7 @@ or-action-link
 .or-teaser-box .or-title {
     background: #e83c23;
     padding: 6px 15px 6px;
+    min-height: 26px;
 }
 
 .or-teaser-box.or-related-links .or-title {
@@ -547,7 +548,7 @@ or-action-link
 
 
 .or-teaser-box .or-title i {
-    font-size: 30px;
+    font-size: 20px;
     padding-right: 10px;
 	color: #FFF;
 	position: relative;
