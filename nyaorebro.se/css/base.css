@@ -182,6 +182,7 @@ section.or-article-main .or-content-padding
 {
 	padding-left:10%;
 	padding-right:10%;
+	max-width: 800px;
 }
 
 section.or-article-main .or-on-page-links
@@ -438,20 +439,6 @@ nav.or-breadcrumbs li:last-child a:after
     position: relative;
 }
 
-section.or-article-main .or-content-container {
-    width: 1080px;
-}
-
-section.or-article-main.or-content-container {
-    width: 1080px;
-}
-
-
-@media (min-width: 1200px){
-.or-content-container {
-    width: 1080px;
-}
-}
 
 
 @media max-width 992px {
