@@ -5,7 +5,7 @@ header
 	background:#FFF;
 	min-height:90px;
 	margin-bottom:5px;
-	padding:12px 0 6px;
+	padding:10px 15px 5px;
 }
 
 header .or-wider
@@ -151,7 +151,6 @@ section.or-breadcrumbs-area
 .or-breadcrumbs-area .or-wider
 {
 	position:relative;
-	width:1350px;
 }
 
 /* Pilavdelare på sida */
