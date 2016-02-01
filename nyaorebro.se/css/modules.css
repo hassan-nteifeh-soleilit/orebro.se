@@ -539,6 +539,7 @@ or-action-link
     box-shadow: #dadada 0px 0px 3px 0px;
     float: left;
     margin-right: 2%;
+    width: 48%;
 }
 
 .or-teaser-box.or-related-links h3{
@@ -577,6 +578,7 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3{
 	color: #FFF;
 	position: relative;
     top: 3px;
+    margin-top: -8px;
 }
 
 .or-teaser-box.or-related-links .or-text-content {
