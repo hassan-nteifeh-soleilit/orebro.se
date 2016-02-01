@@ -579,7 +579,9 @@ or-action-link
 }
 
 .or-teaser-box .or-teaser-list ul{
-	margin: 0px;	
+	padding: 9px 0px 12px;
+    margin-bottom: 0px;
+    margin-top: 7px;	
 }
 
 .or-teaser-box.or-related-links .or-text-content .or-teaser-list li {
