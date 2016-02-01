@@ -445,6 +445,19 @@ nav.or-breadcrumbs li:last-child a:after
     position: relative;
 }
 
+/* Avdelare content */
+
+.or-divider-heading {
+    text-align: center;
+    letter-spacing: 0.06em;
+    border-bottom: 2px dotted #dad6d4;
+    border-top: 2px dotted #dad6d4;
+    padding-bottom: 13px;
+    padding-top: 13px;
+    width: 97%;
+    margin: 15px auto 20px;
+}
+
 
 
 @media max-width 992px {

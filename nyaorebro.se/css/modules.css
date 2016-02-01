@@ -513,15 +513,19 @@ or-action-link
 	width:48px;
 }
 
-/* fordjupad information */
+/* Puff */
 .or-puff-bild-text{
-	width: 30%;
+    width: 29.3333%;
     float: left;
-    margin-left: 1.5%;
-    margin-right: 1.5%;
+    margin-left: 2%;
+    margin-right: 2%;
     margin-bottom: 30px;
 }
 
+.or-puff-bild-text p{
+    font-size: 15px;
+    font-weight: 100;
+}
 
 /* Relaterade länkar/dokument */
 .or-teaser-box {
