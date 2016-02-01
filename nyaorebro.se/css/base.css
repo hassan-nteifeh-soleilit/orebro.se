@@ -439,6 +439,11 @@ nav.or-breadcrumbs li:last-child a:after
     position: relative;
 }
 
+@media (min-width: 1200px){
+.or-content-container {
+    width: 1080px;
+}
+}
 
 
 @media max-width 992px {
