@@ -533,13 +533,19 @@ or-action-link
     font-weight: 100;
 }
 
-.or-puff-bild-text .subheading3 h3{
+.or-puff-bild-text h3{
 	color: aqua;
 }
 
-.or-puff-bild-text .subheading3 h3{
+body .or-wrapper-click.or-puff-bild-text h3{
 	color: red;
 }
+
+body .or-puff-bild-text h3{
+	color: fuchsia;
+}
+
+
 
 /* Relaterade länkar/dokument */
 .or-teaser-box {
