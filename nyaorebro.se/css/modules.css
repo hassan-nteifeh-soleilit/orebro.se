@@ -674,6 +674,15 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3{
 
 /* Hade du nytta av innehållet */
 
+.kontakta-ruta{
+	background-color: rgb(255, 255, 255);
+	padding: 20px;
+	border-radius: 3px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+
 .or-findwrapper
 {
 	display:block;
@@ -683,21 +692,25 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3{
 	width:100%;
 }
 
-.or-sharetext
-{
-	color:#35383B;
-	display:inline-block;
-	float:left;
-	font-family:"Open Sans",sans-serif;
-	font-size:15px;
-	font-weight:400;
-	letter-spacing:.08em;
-	margin-bottom:4px;
-	margin-right:15px;
-	margin-top:5px;
-	text-align:left;
-	text-transform:uppercase;
-	width:auto;
+.or-sharetext {
+    color: #35383B;
+    display: inline-block;
+    float: left;
+    font-family: "leaguespartan webfont",sans-serif;
+    font-size: 12px;
+    letter-spacing: .08em;
+    margin-bottom: 4px;
+    margin-right: 15px;
+    margin-top: 15px;
+    text-align: left;
+    text-transform: uppercase;
+    width: auto;
+}
+
+body .or-update-date{
+	font-weight: 100;
+    margin-bottom: 4px;
+    display: inline-block;
 }
 
 .or-thumbup
@@ -719,6 +732,7 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3{
 	padding-top:3px;
 	text-align:center;
 	transition:all 500ms ease;
+	margin-top: 8px;
 }
 
 .or-thumbup:hover,.or-thumbup.selected
@@ -1140,14 +1154,3 @@ span.sol-hit-count {
 .or-total-link {
     margin: 10px 0;
 }
-
-
-/* tyck till om innehållet */
-
-.kontakta-ruta{
-background-color: rgb(255, 255, 255);
-padding: 20px;
-border-radius: 3px;
-margin-top: 22px;
-}
-
