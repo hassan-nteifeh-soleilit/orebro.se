@@ -224,6 +224,8 @@ section.or-top-img-area
 	max-width:1400px;
 	padding:0;
 	position:relative;
+	background-color: aquamarine;
+	height: 450px;
 }
 
 section.or-nav-content-section
