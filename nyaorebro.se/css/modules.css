@@ -727,12 +727,13 @@ body .or-update-date{
 	float:none;
 	font-weight:600;
 	margin-right:21px;
-	min-width:59px;
+	min-width: 50px;
 	padding-bottom:3px;
 	padding-top:3px;
 	text-align:center;
 	transition:all 500ms ease;
 	margin-top: 8px;
+	font-size: 12px;
 }
 
 .or-thumbup:hover,.or-thumbup.selected
@@ -1153,4 +1154,11 @@ span.sol-hit-count {
 }
 .or-total-link {
     margin: 10px 0;
+}
+
+
+/* footer */
+
+.or-adress-and-links strong {
+	font-family: "leaguespartan webfont",sans-serif;
 }
