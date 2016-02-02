@@ -528,9 +528,17 @@ or-action-link
     font-weight: 100;
 }
 
-.or-puff-bild-text p{
+.or-puff-bild-text h3{
     font-size: 15px;
     font-weight: 100;
+}
+
+.or-puff-bild-text .subheading3 h3{
+	color: aqua;
+}
+
+.or-puff-bild-text .subheading3 h3{
+	color: red;
 }
 
 /* Relaterade länkar/dokument */
