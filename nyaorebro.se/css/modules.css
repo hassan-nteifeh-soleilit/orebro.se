@@ -1142,3 +1142,12 @@ span.sol-hit-count {
 }
 
 
+/* tyck till om innehållet */
+
+.kontakta-ruta{
+background-color: rgb(255, 255, 255);
+padding: 20px;
+border-radius: 3px;
+margin-top: 22px;
+}
+
