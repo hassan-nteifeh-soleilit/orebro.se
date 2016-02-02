@@ -228,6 +228,12 @@ section.or-top-img-area
 	height: 450px;
 }
 
+.or-top-img-text-area{
+	position: absolute;
+	left: 20px;
+	bottom:20px;
+}
+
 section.or-nav-content-section
 {
 	background-color:#fff;
