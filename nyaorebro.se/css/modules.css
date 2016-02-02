@@ -560,7 +560,7 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3{
 
 .or-teaser-box .or-title {
     background: #e83c23;
-    padding: 8px 15px 2px;
+    padding: 6px 15px 3px;
     min-height: 26px;
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
@@ -572,10 +572,10 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3{
 
 .or-teaser-box .or-title span {
     color: #ffffff;
-    font-family: 'LeagueSpartan-Bold';
-    font-size: 12px;
+    font-family: "leaguespartan webfont",sans-serif;
+    font-size: 11px;
     text-transform: uppercase;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.06em;
     
 }
 
