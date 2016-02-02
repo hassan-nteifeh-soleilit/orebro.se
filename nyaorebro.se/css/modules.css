@@ -1163,10 +1163,12 @@ span.sol-hit-count {
 	font-family: "leaguespartan webfont",sans-serif;
 	font-size: 15px;
 	margin-top: 10px;
+	display: inline-block;
 }
 
-or-footer-adress strong{
+.or-footer-adress strong{
 	font-family: "leaguespartan webfont",sans-serif;
 	font-size: 15px;
 	margin-top: 10px;
+	display: inline-block;
 }
