@@ -229,9 +229,9 @@ section.or-top-img-area
 	height: 450px;
 }
 
-body section.or-top-img-area h1
+body section.or-top-img-area .or-article-main h1
 {
-	color: aqua;
+	color: #E83C23;
 	margin-top: 0px;
 }
 
