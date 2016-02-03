@@ -99,7 +99,7 @@
 		
       /* Ikoner i dokumentlistningsrutorna */
       $(".or-docs-box-content a").each(iconDecorator);
-	  $(".or-related-links .or-text-content a").each(iconDecorator2);
+	  $(".or-related-documents .or-text-content a").each(iconDecorator2);
    
              
       /* Responsiva tabeller */  
