@@ -241,6 +241,7 @@ body section.or-top-img-area h1
 	bottom:20px;
 	padding: 20px 20px;
     border-radius: 2px;
+    max-width: 50%;
 }
 
 section.or-nav-content-section
