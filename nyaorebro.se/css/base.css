@@ -229,6 +229,11 @@ section.or-top-img-area
 	height: 450px;
 }
 
+body section.or-top-img-area h1
+{
+	color: aqua;
+}
+
 .or-top-img-text-area{
 	position: absolute;
 	left: 20px;
