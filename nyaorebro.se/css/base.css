@@ -234,6 +234,14 @@ body section.or-top-img-area .or-article-main h1
 	margin-top: 0px;
 }
 
+body section.or-top-img-area .sv-use-margins .or-article-main h1
+{
+	color: #E83C23;
+	margin-top: 0px;
+}
+
+
+
 .or-top-img-text-area{
 	position: absolute;
 	left: 20px;
