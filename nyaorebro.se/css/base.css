@@ -232,12 +232,15 @@ section.or-top-img-area
 body section.or-top-img-area h1
 {
 	color: aqua;
+	margin-top: 0px;
 }
 
 .or-top-img-text-area{
 	position: absolute;
 	left: 20px;
 	bottom:20px;
+	padding: 20px 20px;
+    border-radius: 2px;
 }
 
 section.or-nav-content-section
