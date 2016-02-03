@@ -35,11 +35,12 @@
      
       var iconDecorator =  function( index ) {
       
-         var title = $( this ).attr("title").replace('(','').replace(')','');
+         var title = $( this ).attr("title");
          var iconCss, sizeStr;
          
          try {
             if(title && title.length>0) {
+			   title= title.replace('(','').replace(')','');	
                var titleSplit = title.split(',');                              
                iconCss = titleSplit[0];                        
                sizeStr = '(' + titleSplit[1].replace(' ','')+')';                                 
@@ -61,12 +62,13 @@
 	  */
 	  var iconDecorator2 =  function( index ) {
       
-         var title = $( this ).attr("title").replace('(','').replace(')','');
+         var title = $( this ).attr("title");
          var icon, sizeStr;
          
-		 $(this)
+		
          try {
             if(title && title.length>0) {
+			   title = title.replace('(','').replace(')','');	
                var titleSplit = title.split(',');                              
                icon = titleSplit[0];                        
                sizeStr = titleSplit[1].replace(' ','');                                 
