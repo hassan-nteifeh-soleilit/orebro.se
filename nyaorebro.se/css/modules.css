@@ -714,6 +714,8 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3{
 	margin-bottom: 40px;
 	float: left;
 	width: 100%;
+	width: auto;
+    display: block;
 }
 
 

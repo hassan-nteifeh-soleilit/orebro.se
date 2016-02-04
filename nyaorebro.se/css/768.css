@@ -35,6 +35,42 @@ section.or-breadcrumbs-area {
 } /* end 767 */
 
 
+@media all and (max-width: 680px){
+	
+
+/* navigering */	
+ul.or-nav-list li .or-list-wrapper p {
+    display: none;
+}
+
+ul.or-nav-list li .or-list-wrapper {
+    border: 5px solid #fff;
+    border-radius: 3px;
+    box-shadow: 0 0 5px #C7C7C7;
+    float: none;
+    min-height: auto;
+    width: auto;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-bottom: 20px;
+    display: block;
+}
+
+ul.or-nav-list li .or-list-wrapper .or-title {
+    border-bottom: 0px dotted transparent;
+    color: #35383b;
+    padding-bottom: 0px;
+}
+
+section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-title {
+    font-size: 12px;
+}
+	
+	
+}	
+	
+	
+
 
 @media all and (max-width: 767px){
 
@@ -872,7 +908,7 @@ width:65%;
     width: 80%;
 }
 
-
+/*
 
 .nav-footer-container {
     position: fixed;
