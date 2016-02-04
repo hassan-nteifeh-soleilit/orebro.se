@@ -187,7 +187,7 @@ section.or-article-main .or-content-padding
 {
 	padding-left:10%;
 	padding-right:10%;
-	max-width: 800px;
+	max-width: 700px;
 }
 
 section.or-article-main .or-on-page-links
@@ -272,24 +272,17 @@ section.or-nav-content-section .or-area-heading h3
 	text-transform:uppercase;
 }
 
-section.nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li:nth-child(odd)
-{
-	padding:0 10px 0 0;
-}
-
-section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li:nth-child(even)
-{
-	padding:0 0 0 10px;
-}
 
 section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li
 {
+	/*
 	margin-bottom:25px;
 	padding:0;
 	float: left;
 	width: 28%;
     margin-right: 2.5%;
     margin-left: 2.5%;
+    */
 }
 
 section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a
@@ -318,14 +311,15 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-t
 
 ul.or-nav-list li .or-list-wrapper
 {
-	background:#fff;
 	border:5px solid #fff;
 	border-radius:3px;
 	box-shadow: 0 0 5px #C7C7C7;
 	float:left;
 	min-height:140px;
-	padding:15px 10px 10px 15px;
-	width:100%;
+	width: 27.333%;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
 }
 
 ul.or-nav-list li .or-list-wrapper:hover .or-title

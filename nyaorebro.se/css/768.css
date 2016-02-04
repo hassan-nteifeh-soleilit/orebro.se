@@ -1,6 +1,48 @@
-@media all and (max-width: 767px)
-{
-	/* från base */
+@media all and (max-width: 767px){
+
+/*header*/
+header {
+    display: none;
+}
+
+/*brödsmulor*/
+section.or-breadcrumbs-area {
+    display: none;
+}
+
+/* puffar */
+.or-puff-bild-text {
+    width: 45.3333%;
+}
+
+
+
+
+} /* end 767 */
+
+
+
+@media all and (max-width: 767px){
+
+/*brödsmulor*/
+
+section.or-breadcrumbs-area {
+    display: none;
+}
+
+
+
+
+} /* end 767 */
+	
+	
+	
+	
+	
+	
+	
+	
+	/* från base
 	
   .stacktable.large-only { display: none; }
   .stacktable.small-only { display: table; }
@@ -28,6 +70,9 @@
     height:7%;
   }
 */
+
+
+/*
   #mm-blocker {
      height:93% !important;
   }
@@ -225,9 +270,14 @@
    display: block;
    float: none;
   }
+  
+  
+  */
 
 /* från base slut */
-	
+
+
+/*	
 	
    .or-col-logo-header {
        width: 100%;
@@ -312,12 +362,14 @@ h2.subheading {
 
 
 
-
+*/
 
 
 
 
 /* table */
+
+/*
 
 .st-key {
   text-align: left;
@@ -350,10 +402,12 @@ h2.subheading {
   padding: 5px 10px 5px;
 }
 
-
+*/
 
 
 /*puffar*/
+
+/*
 
 .or-puff-program {
     width: 92%;
@@ -452,11 +506,12 @@ line-height: 24px;
 }
 
 
+*/
 
 
 /* sök */
 
-
+/*
 .sol-sok-ruta input.ui-autocomplete-input {
   position: relative;
   padding-top: 0px;
@@ -489,10 +544,14 @@ line-height: 24px;
     margin-bottom: 0px!important;
 }
 
+*/
+
 
 /* kontakt toppen */
 
 
+
+/*
 
 .lyssna{
 	
@@ -530,7 +589,11 @@ p.or-close-text {
 }
 
 
+*/
+
 /* process */
+
+/*
 .sol_step {
   width: 50%;
   min-height: 45px;
@@ -542,6 +605,9 @@ p.or-close-text {
 	
 
 /* mobilmeny */
+
+/*
+
 .or-mobile-menu-bar {
 	display: block;
 	
@@ -561,6 +627,9 @@ p.or-close-text {
     padding-bottom: 10px;
 }
 */
+
+
+/*
 .phone-nav-column.search-column {
     width: 24%;
     padding-bottom: 5px;
@@ -597,6 +666,9 @@ p.or-close-text {
 }
 
 /*puff */
+
+/*
+
 .or-puff-text-bild-lanklista {
 	  margin-bottom: 25px;
 }
@@ -613,6 +685,8 @@ p.or-close-text {
 } 
 
 /* skolwebbar */
+
+/*
 .or-school-heading {
     position: absolute;
     left: 5%;
@@ -679,12 +753,17 @@ p.or-close-text {
 
 /* sociala flödet */
 
+/*
+
 .or-instagram-container {
   min-height: 240px;
 }
 
 
 /* Programtabell visas som vanlig tabell */
+
+/*
+
 .or-plus-box-program .stacktable.large-only { display: table; }
 .or-plus-box-program .stacktable.small-only { display: none; }
 
@@ -708,6 +787,8 @@ p.or-close-text {
  min-height: 300px;
 }
 /*programsida*/
+
+/*
 
 .or-stor-bild-text-tv > div:nth-child(2) h1, .or-program-heading-container h1 {
     font-size: 4vmin;
@@ -746,6 +827,8 @@ width:65%;
 }
 
 /* kampanjmall */
+/*
+
 .or-puff-instagram {
  width: 28%;
 }

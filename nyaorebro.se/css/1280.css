@@ -1,6 +1,7 @@
-@media all and (max-width: 1280px)
-{
 
+
+
+@media (min-width: 1280px) {
 
 .main-content{
 	padding-left: 15px;
@@ -17,25 +18,19 @@
   right: 0px;
 }
 
-}
+}  /* end 1280 */
 
 
-@media all and (max-width: 1350px)
-{
-{
-section.or-article-main .or-content-padding
-    padding-left: 10%;
-    padding-right: 10%;
-    max-width: 920px;
-}
+
+
+@media (min-width: 1350px) {
+
+section.or-article-main .or-content-padding {
+    max-width: 800px;
 }
 
-@media all and (max-width: 1550px)
-{
-{
-section.or-article-main .or-content-padding
-    padding-left: 10%;
-    padding-right: 10%;
-    max-width: 1000px;
+.sv-use-margins .normal {
+    font-size: 19px;
 }
-}
+
+}  /* end 1350 */
