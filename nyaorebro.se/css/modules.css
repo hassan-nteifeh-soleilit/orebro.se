@@ -612,21 +612,19 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3{
 }
 
 .or-teaser-box.or-related-links .or-text-content .or-teaser-list li {
-    padding: 9px 0px 4px;
+    padding: 9px 0px 4px 0px;
     margin-bottom: 0px;
     margin-top: 7px;
     position: relative;
     min-height: 32px;
-    padding-left: 0px;
 }
 
 .or-teaser-box.or-related-documents .or-text-content .or-teaser-list li {
-    padding: 9px 0px 4px;
+    padding: 9px 0px 4px 40px;
     margin-bottom: 0px;
     margin-top: 7px;
     position: relative;
     min-height: 32px;
-    padding-left: 30px;
 }
 
 
@@ -672,7 +670,6 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3{
 }
 
 .or-teaser-box.or-related-links .or-text-content .or-teaser-list li a .or-link-name {
-    position: absolute;
     top: 50%;
     margin-top: -13px;
     margin-left: 20px;
@@ -680,6 +677,7 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3{
     background-size: 25%;
     background-color: transparent;
     box-shadow: 0px -16px 0px -11px rgba(174, 222, 239, 0.65) inset;
+    margin-right: 4px;
 }
 
 .or-teaser-box.or-related-links .or-text-content .or-teaser-list li a .or-link-name:hover {
