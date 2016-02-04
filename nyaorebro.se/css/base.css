@@ -294,7 +294,7 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li
 
 section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a
 {
-	background:#faf9f8;
+	background:#FAFAFA;
 	padding:12px 10px 0 15px;
 }
 
@@ -321,7 +321,7 @@ ul.or-nav-list li .or-list-wrapper
 	background:#fff;
 	border:5px solid #fff;
 	border-radius:3px;
-	box-shadow:0 0 4px #D8D1D1;
+	box-shadow: 0 0 5px #C7C7C7;
 	float:left;
 	min-height:140px;
 	padding:15px 10px 10px 15px;
