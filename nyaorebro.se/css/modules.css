@@ -656,7 +656,7 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3{
 .or-teaser-box .or-text-content .or-teaser-list li a i {
     color: #857672;
     font-size: 18px;
-    text-align: center;
+    text-align: left;
     line-height: 16px;
     position: absolute;
     left: 0;
