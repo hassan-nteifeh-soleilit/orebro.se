@@ -44,7 +44,7 @@ ul.or-nav-list li .or-list-wrapper p {
 }
 
 ul.or-nav-list li .or-list-wrapper {
-    border: 5px solid #fff;
+    border: 3px solid #fff;
     border-radius: 3px;
     box-shadow: 0 0 5px #C7C7C7;
     float: none;
@@ -64,6 +64,20 @@ ul.or-nav-list li .or-list-wrapper .or-title {
 
 section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-title {
     font-size: 12px;
+    margin-bottom: 0px;
+}
+
+section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a {
+    padding: 8px 6px 7px 9px;
+}
+
+section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-title:before {
+    color: #f28c00;
+}
+
+section.or-nav-content-section {
+    padding-left: 8px;
+    padding-right: 8px;
 }
 	
 	
