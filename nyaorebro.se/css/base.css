@@ -373,6 +373,7 @@ nav.or-breadcrumbs li a
 	font-size:13px;
 	font-weight:600;
 	padding:2px 0;
+	letter-spacing: -0.02em;
 }
 
 nav.or-breadcrumbs li a:hover

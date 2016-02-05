@@ -4,15 +4,36 @@
 /*base*/
 
 h1, .heading {
-    font-size: 24px;
+    font-size: 22px;
 }
 
 h2, .portlet-section-header, .portlet-menu-caption, .sv-portlet-table-caption, .subheading {
-    font-size: 17px;
+    font-size: 16px;
 }
 
 h3, .portlet-section-subheader, .subheading3 {
-    font-size: 14px;
+    font-size: 13px;
+}
+
+.normal {
+    font-size: 15px;
+    line-height: 1.5em;
+}
+
+.normal a:link {
+    font-size: 15px;
+    line-height: 1.5em;
+}
+
+.ingress {
+    font-size: 18px;
+    line-height: 1.5em;
+}
+
+ul li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 1.2em;
 }
 
 /*header*/
@@ -31,6 +52,11 @@ section.or-breadcrumbs-area {
 }
 
 /*mobil navigering */
+
+body section.or-nav-content-section .or-grid-12-col.or-wider h2 {
+    font-size: 12px;
+}
+
 .nav-footer-container {
     position: fixed;
     left: 0px;
@@ -67,7 +93,7 @@ ul.or-nav-list li .or-list-wrapper {
     width: auto;
     margin-right: 1%;
     margin-left: 1%;
-    margin-bottom: 20px;
+    margin-bottom: 13px;
     display: block;
 }
 
@@ -78,12 +104,12 @@ ul.or-nav-list li .or-list-wrapper .or-title {
 }
 
 section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-title {
-    font-size: 12px;
+    font-size: 11px;
     margin-bottom: 0px;
 }
 
 section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a {
-    padding: 8px 6px 7px 9px;
+    padding: 6px 6px 6px 9px;
 }
 
 section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-title:before {
