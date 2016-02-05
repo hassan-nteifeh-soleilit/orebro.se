@@ -322,6 +322,21 @@ ul.or-nav-list li .or-list-wrapper
     margin-bottom: 20px;
 }
 
+/* single list */
+
+ul.or-nav-list li .or-list-wrapper.or-single
+{
+	min-height: auto;
+}
+
+section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li .or-list-wrapper.or-single .or-title
+{
+	border-bottom: 0px dotted #dad6d4;
+    margin-bottom: 0px;
+}
+
+
+
 ul.or-nav-list li .or-list-wrapper:hover .or-title
 {
 	color:#f28c00;

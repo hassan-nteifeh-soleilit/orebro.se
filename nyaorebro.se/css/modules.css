@@ -1011,6 +1011,7 @@ label.or-fieldlabelhelpus
 #or-search-form {
     position: relative;
     margin-top: 20px;
+	margin-left: 15px;
 }
 
 .sol-sok-ruta input {
@@ -1060,7 +1061,7 @@ span.sol-hit-count {
     width: 100%;
     display: block;
     float: left;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 .or-search-link a {
     box-shadow: 0px -16px 0px -12px rgb(174, 222, 239) inset;
@@ -1102,10 +1103,20 @@ span.sol-hit-count {
     font-weight: 400;
 }
 
+.sol-search-hits > div > p em{
+    font-style: normal;
+}
+
+.sol-search-hits .or-search-infotext p{
+	font-size: 13px;
+}
+
 .or-search-infotext {
     width: 100%;
     display: block;
     float: left;
+    margin-top: -15px;
+    margin-bottom: 15px;
 }
 .or-search-infotext p {
     font-size: 12px;
@@ -1133,27 +1144,68 @@ span.sol-hit-count {
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
     margin-bottom: 0px !important;
+    list-style: none;
 }
 
+
+.sol-facetter .sol-selected-facet{
+	background: #e83c23;
+	color: #FFF;
+	border-bottom: 2px solid transparent;
+}
+
+.sol-facetter .sol-selected-facet:hover{
+	background: #e83c23;
+	color: #FFF;
+	border-bottom: 2px solid transparent;
+}
+
+.sol-facetter .sol-selected-facet:hover a{
+	border-bottom: 0px solid transparent;
+}
+
+
+.sol-facetter .sol-selected-facet a {
+	color: #FFF;
+	border-bottom: 0px solid #35383b;
+	font-weight: 300;
+}
+
+.sol-facetter .sol-selected-facet a:hover {
+	color: #FFF;
+	border-bottom: 0px solid #35383b;
+}
+
+
+
 .sol-facetter ul > li > a {
-    font-size: 14px;
+    font-size: 14px!important;
     text-decoration: none;
     font-weight: 300;
     cursor: pointer;
+    box-shadow: rgba(255, 255, 255, 0)0px -16px 0px -11px inset!important;
 }
 .sol-facetter ul > li:hover > a {
     border-bottom: 2px solid #35383b;
     transition: all 500ms ease;
 }
 
-.or-show-hiden-facet-items {
+
+.sol-facetter .subheading3{
+	font-size: 15px;
+	margin-bottom: 15px!important;
+}
+
+.sol-facetter .or-show-hiden-facet-items {
     background-color: rgb(133, 118, 114);
     background-color: rgba(133, 118, 114, 0.2);
+    border-bottom: 2px dotted transparent;
 }
 .or-show-hiden-facet-items:hover {
-    background-color: #f28c00 !important;
-    border-bottom-color: #f28c00 !important;
-    border-bottom: 2px dotted #ededed !important;
+    background-color: #7D7D7D !important;
+    border-bottom-color: #7D7D7D !important;
+    border-bottom: 2px dotted #7D7D7D !important;
+    color: #fff;
 }
 .or-show-hiden-facet-items:hover > .sol-icon-more-facet {
     -webkit-transform: rotate(0deg);
@@ -1212,6 +1264,7 @@ span.sol-hit-count {
     color: #fff;
     padding: 5px 12px;
     font-size: 13px;
+    background: none repeat scroll 0 0 #e83c23;
 }
 
 #or-paging-id .next {
