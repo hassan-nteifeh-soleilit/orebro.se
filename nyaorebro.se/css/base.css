@@ -152,6 +152,7 @@ section.or-breadcrumbs-area
 {
 	background:#fff;
 	min-height: 30px;
+	padding-left: 20px;
 }
 
 .or-breadcrumbs-area .or-wider
@@ -333,6 +334,7 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li .or-lis
 {
 	border-bottom: 0px dotted #dad6d4;
     margin-bottom: 0px;
+    font-size: 13px;
 }
 
 
@@ -383,7 +385,6 @@ nav.or-breadcrumbs li
 
 nav.or-breadcrumbs li a
 {
-	color:#e83c23;
 	float:left;
 	font-size:13px;
 	font-weight:600;
@@ -393,8 +394,11 @@ nav.or-breadcrumbs li a
 
 nav.or-breadcrumbs li a:hover
 {
-	color:#35383b;
+	color: #E83C23;
+	text-decoration: underline;
 }
+
+
 
 nav.or-breadcrumbs li a:after
 {
@@ -405,10 +409,6 @@ nav.or-breadcrumbs li a:after
 	text-decoration:none;
 }
 
-nav.or-breadcrumbs li:first-child a
-{
-	color:#e83c23;
-}
 
 nav.or-breadcrumbs li:first-child a:before
 {
@@ -418,15 +418,6 @@ nav.or-breadcrumbs li:first-child a:before
 	padding-right:10px;
 }
 
-nav.or-breadcrumbs li:first-child a:hover
-{
-	color:#35383b;
-}
-
-nav.or-breadcrumbs li:last-child a
-{
-	color:#35383b;
-}
 
 nav.or-breadcrumbs li:last-child a:after
 {
