@@ -1035,10 +1035,12 @@ label.or-fieldlabelhelpus
     position: absolute;
     float: right;
     border: 0px none;
-    font-size: 25px;
+    font-size: 24px;
     font-weight: 600;
     color: white;
     text-align: center;
+    background-color: #E83C23;
+    padding-right: 10px;
 }
 
 .or-hit-count {
