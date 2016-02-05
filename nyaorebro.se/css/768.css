@@ -4,15 +4,15 @@
 /*base*/
 
 h1, .heading {
-    font-size: 22px;
+    font-size: 20px;
 }
 
 h2, .portlet-section-header, .portlet-menu-caption, .sv-portlet-table-caption, .subheading {
-    font-size: 16px;
+    font-size: 15px;
 }
 
 h3, .portlet-section-subheader, .subheading3 {
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .normal {
@@ -26,7 +26,7 @@ h3, .portlet-section-subheader, .subheading3 {
 }
 
 .ingress {
-    font-size: 18px;
+    font-size: 17px;
     line-height: 1.5em;
 }
 
@@ -70,6 +70,11 @@ body section.or-nav-content-section .or-grid-12-col.or-wider h2 {
     padding-bottom: 10px;
 }
 
+section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-title:before {
+    top: 0px;
+    padding-right: 7px;
+}
+
 
 
 
@@ -109,7 +114,7 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-t
 }
 
 section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a {
-    padding: 6px 6px 6px 9px;
+    padding: 6px 6px 6px 7px;
 }
 
 section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-title:before {

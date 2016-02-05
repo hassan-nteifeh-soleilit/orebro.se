@@ -2,6 +2,45 @@
 /* 2. Liten kalender info ruta */
 /* 3. Kalender faktaruta */
 
+/*cookie*/
+
+.cookieAlert {
+    background-color: #35383B;
+    margin-top: -11px;
+    padding: 4px 0px;
+    text-align: center;
+}
+
+.cookieAlert .normal {
+    color: #FFF;
+    font-size: 11px;
+    text-align: center;
+    line-height: 1.25em;
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.cookieAlert .normal a {
+    color: #FFF;
+    font-size: 11px;
+    text-align: center;
+    box-shadow: 0px -14px 0px -11px rgba(174, 222, 239, 0.65) inset;
+}
+
+#cookieClose {
+    background-color: #FFF;
+    color: #35383B;
+    display: inline-block;
+    padding: 4px 13px;
+    margin: 2px 7px;
+    border-radius: 1px;
+    font-weight: 700;
+    border-bottom: 3px solid #C8C5C5;
+    box-shadow: 0px -16px 0px -11px rgba(174, 222, 239, 0) inset;
+}
+
+
+
 /* Sökfält */
 
 form.or-search-field {
