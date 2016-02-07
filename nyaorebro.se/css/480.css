@@ -15,6 +15,11 @@
     margin-right: 3%;
 }
 
+section.or-article-main .or-content-padding {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 
 
 
@@ -468,7 +473,7 @@ a.or-action-text, .or-action-text a:hover {
 
 /* sök */
 
-/*
+
 
 .sol-search-hits > div {
     margin-left: 12px;
