@@ -13,11 +13,6 @@ header
 	padding:10px 15px 5px;
 }
 
-.sv-grid-a1080xostaplad.sv-fluid-grid, .sv-grid-a1080xostaplad.sv-fixed-fluid-grid {
-    max-width: 1325px;
-    width: 100%;
-}
-
 header .or-wider
 {
 	max-width:1350px;
@@ -43,6 +38,7 @@ ul li
 	line-height:1.2em;
 }
 
+<<<<<<< HEAD
 /* type fonts */
 h2 a{
     display: inline;
@@ -90,6 +86,8 @@ h3 a:before{
 
 
 
+=======
+>>>>>>> origin/master
 header .or-logo
 {
 	display:inline-block;
@@ -532,8 +530,14 @@ nav.or-breadcrumbs li:last-child a:after
 }
 
 /* Klass för att dölja element */
-.or-hidden {
-	display:none;
+.or-visuallyhidden {
+   margin: -1px;
+   padding: 0;
+   width: 1px;
+   height: 1px;
+   overflow: hidden;
+   clip: rect(0 0 0 0);   
+   position: absolute;
 }
 
 @media max-width 992px {

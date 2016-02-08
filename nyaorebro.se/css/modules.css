@@ -1246,6 +1246,13 @@ span.sol-hit-count {
     font-size: 18px;
     vertical-align: middle;
 }
+.sol-icon-more-facet-selected:after {
+    content: "\F068";
+    font-family: FontAwesome;
+    font-style: initial;
+    font-size: 18px;
+    vertical-align: middle;
+}
 
 .or-wrapper-click {
     cursor: pointer;
