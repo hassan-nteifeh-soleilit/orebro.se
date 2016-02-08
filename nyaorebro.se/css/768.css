@@ -48,7 +48,9 @@ header {
 }
 
 .phone-nav-column .or-logo{
-	height: 50px;
+	height: 38px;
+	position: relative;
+	top:2px;
 }
 
 .phone-nav-text{
@@ -65,6 +67,15 @@ header {
 
 .phone-nav-column.search-column .fa.fa-search{
 	font-size: 24px;
+}
+
+.phone-nav-column.search-column.or-colorbg{
+	background-color: #E83C23;
+	color: #fff;
+}
+
+.phone-nav-column.search-column.or-colorbg .fa{
+	color: #fff;
 }
 
 /*brödsmulor*/
@@ -92,8 +103,7 @@ body section.or-nav-content-section .or-grid-12-col.or-wider h2 {
     width: 100%;
     background-color: #f8f8f7;
     box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.25);
-    height: 55px;
-    padding-bottom: 10px;
+    height: 51px;
 }
 
 section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-title:before {
@@ -1054,7 +1064,6 @@ width:65%;
     padding-bottom: 5px;
     border-right-style: none;
     border-left-style: none;
-    height: 55px;
     float: left;
     border-left: 1px solid #E8E8E8;
 }
@@ -1067,7 +1076,6 @@ width:65%;
     border-left: 2px solid rgba(255, 255, 255, 0.09);
     text-align: center;
     text-decoration: none;
-    height: 55px;
     float: right;
 }
 
