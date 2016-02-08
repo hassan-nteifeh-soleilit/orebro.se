@@ -13,6 +13,10 @@ header
 	padding:10px 15px 5px;
 }
 
+.or-header-text{
+	display: inline-block;
+}
+
 header .or-wider
 {
 	max-width:1350px;
@@ -22,6 +26,11 @@ header .or-wider
 .or-grid-12-col.or-wider
 {
 	max-width:1350px;
+}
+
+.or-grid-12-col-unstacked.sv-fluid-grid, .or-grid-12-col-unstacked.sv-fixed-fluid-grid {
+    max-width: 1350px;
+    width: 100%;
 }
 
 ul
