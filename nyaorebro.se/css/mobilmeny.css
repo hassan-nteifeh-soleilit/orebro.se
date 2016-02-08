@@ -158,8 +158,12 @@ MENY
    content: '\f068';
 }
 
+.or-current.or-parent.or-expanded{
+	background-color: #fff;
+}
+
 .or-tree .or-expanded > a {
-    background-color: #EE8171;
+    background-color: rgba(232, 60, 35, 0.7);
 }
 
 .or-tree ul.or-depth-1 {   
@@ -168,13 +172,16 @@ MENY
 .or-tree .or-depth-1 > li > a {
     font-family: "open sans",sans-serif;
     color: #35383b;
+    font-weight: 100;
+    font-size: 15px;
 }
 
 
 .or-tree .or-depth-1 > li {
     position: relative;
-    background-color: #FFEFC0;
+    background-color: #FFFFFF;
     font-family: "open sans",sans-serif;
+    border-bottom: 1px solid #EAEAEA;
 }
 
 .or-tree .or-depth-2 > li {
