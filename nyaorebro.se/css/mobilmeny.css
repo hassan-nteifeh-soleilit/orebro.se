@@ -2,6 +2,8 @@
 ---------------------------------------------------------
 MENY
 --------------------------------------------------------- */
+.or-expanded
+{}
 
 .sv-editing-mode .or-tree {
    margin-top: 30px;
@@ -111,13 +113,14 @@ MENY
     outline: none;
     position: absolute;
     right: 5px;
-    bottom: 50%;
+    margin-top: 6px;
     margin-bottom: -13px;
     padding: 0em;
     cursor: pointer;
     background-color: transparent;
     text-align: center;
     border-radius: 18px;
+    z-index: 10;
 }
 
 .or-tree button:active {
@@ -156,19 +159,22 @@ MENY
 }
 
 .or-tree .or-expanded > a {
-   font-weight: bold;
+    background-color: #EE8171;
 }
 
 .or-tree ul.or-depth-1 {   
 }
 
 .or-tree .or-depth-1 > li > a {
-   
+    font-family: "open sans",sans-serif;
+    color: #35383b;
 }
 
 
 .or-tree .or-depth-1 > li {
-    
+    position: relative;
+    background-color: #FFEFC0;
+    font-family: "open sans",sans-serif;
 }
 
 .or-tree .or-depth-2 > li {

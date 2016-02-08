@@ -13,8 +13,11 @@ header
 	padding:10px 15px 5px;
 }
 
-.or-header-text{
-	display: inline-block;
+.or-header-text {
+    display: inline-block;
+    position: relative;
+    top: -12px;
+    left: 4px;
 }
 
 header .or-wider
