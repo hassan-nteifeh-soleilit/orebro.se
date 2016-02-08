@@ -50,13 +50,42 @@ h2 a{
     padding-bottom: 0px;
     padding-left: 1px;
     background-color: transparent;
-    box-shadow: rgba(174, 222, 239, 0.65)0px -16px 0px -11px inset;
+    box-shadow: rgba(174, 222, 239, 0.65)0px -15px 0px -11px inset;
     transition: all 100ms ease;
 }
 
 h2 a:hover{
     box-shadow: rgba(174, 222, 239, 0.65) 0px -60px 0px -30px inset;
 }
+
+h3 a{
+	display: inline;
+    padding-right: 1px;
+    padding-bottom: 0px;
+    padding-left: 1px;
+    background-color: transparent;
+    box-shadow: rgba(174, 222, 239, 0.65)0px -14px 0px -10px inset;
+    transition: all 100ms ease;
+    position: relative;
+    margin-left: 10px;
+}
+
+h3 a:hover{
+	box-shadow: rgba(174, 222, 239, 0.65) 0px -60px 0px -30px inset;
+}
+
+h3 a:before{
+	content: "\f061";
+    font-family: FontAwesome;
+    padding-right: 6px;
+    color: #857672;
+    position: relative;
+    top: 3px;
+    left: -18px;
+    position: absolute;
+}
+
+
 
 
 
