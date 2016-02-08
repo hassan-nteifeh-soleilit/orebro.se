@@ -823,6 +823,10 @@ body .or-update-date{
 	background-color:#60930f;
 }
 
+#id-or-help-us-no:hover{
+		background-color: #E83C23;
+}
+
 .or-thumbup.or-thumbdown
 {
 	display:inline-block;

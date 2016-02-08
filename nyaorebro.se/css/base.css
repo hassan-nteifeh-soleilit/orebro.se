@@ -383,19 +383,18 @@ nav.or-breadcrumbs li
 	padding-top: 3px;
 }
 
-nav.or-breadcrumbs li a
-{
-	float:left;
-	font-size:13px;
-	font-weight:600;
-	padding:2px 0;
-	letter-spacing: -0.02em;
+nav.or-breadcrumbs li a {
+    float: left;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 4px 0;
+    font-family: "leaguespartan webfont",sans-serif;
+    color: #8C817C;
 }
 
 nav.or-breadcrumbs li a:hover
 {
 	color: #E83C23;
-	text-decoration: underline;
 }
 
 
