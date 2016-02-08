@@ -16,12 +16,12 @@ h3, .portlet-section-subheader, .subheading3 {
 }
 
 .normal {
-    font-size: 15px;
+    font-size: 16px;
     line-height: 1.5em;
 }
 
 .normal a:link {
-    font-size: 15px;
+    font-size: 16px;
     line-height: 1.5em;
 }
 
@@ -32,9 +32,15 @@ h3, .portlet-section-subheader, .subheading3 {
 
 ul li {
     font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 1.2em;
 }
+
+section.or-article-main .or-content-padding {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 
 /*header*/
 header {
