@@ -78,6 +78,12 @@ header {
 	color: #fff;
 }
 
+/* cookie */
+#cookieClose {
+    padding: 2px 11px;
+    font-size: 10px;
+}
+
 /*brödsmulor*/
 section.or-breadcrumbs-area {
     display: none;
@@ -132,7 +138,7 @@ ul.or-nav-list li .or-list-wrapper {
     border-radius: 3px;
     box-shadow: 0 0 5px #C7C7C7;
     float: none;
-    min-height: auto;
+    min-height: 0px;
     width: auto;
     margin-right: 1%;
     margin-left: 1%;
@@ -1066,6 +1072,7 @@ width:65%;
     border-left-style: none;
     float: left;
     border-left: 1px solid #E8E8E8;
+    height: 41px;
 }
 
 .phone-nav-column {
