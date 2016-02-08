@@ -12,7 +12,7 @@ h2, .portlet-section-header, .portlet-menu-caption, .sv-portlet-table-caption, .
 }
 
 h3, .portlet-section-subheader, .subheading3 {
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .normal {
@@ -26,7 +26,7 @@ h3, .portlet-section-subheader, .subheading3 {
 }
 
 .ingress {
-    font-size: 17px;
+    font-size: 18px;
     line-height: 1.5em;
 }
 

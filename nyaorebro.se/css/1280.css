@@ -39,9 +39,13 @@ section.or-article-main .or-content-padding {
     font-size: 19px;
 }
 
-
 ul li {
     font-size: 19px;
+}
+
+.ingress {
+    font-size: 23px;
+    line-height: 1.5em;
 }
 
 /* puffar */
@@ -67,6 +71,12 @@ section.or-article-main .or-content-padding {
 .sv-use-margins .normal a{
     font-size: 21px;
 }
+
+.ingress {
+    font-size: 25px;
+    line-height: 1.5em;
+}
+
 
 /* puffar */
 
