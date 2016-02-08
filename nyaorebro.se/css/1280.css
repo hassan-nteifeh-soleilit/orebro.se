@@ -44,6 +44,13 @@ ul li {
     font-size: 19px;
 }
 
+/* puffar */
+
+body .or-wrapper-click.or-puff-bild-text h3 {
+    font-size: 18px;
+}
+
+
 }  /* end 1350 */
 
 
@@ -60,6 +67,13 @@ section.or-article-main .or-content-padding {
 .sv-use-margins .normal a{
     font-size: 21px;
 }
+
+/* puffar */
+
+body .or-wrapper-click.or-puff-bild-text h3 {
+    font-size: 20px;
+}
+
 
 
 ul li {

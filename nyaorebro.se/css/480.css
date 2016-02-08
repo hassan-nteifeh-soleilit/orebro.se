@@ -8,6 +8,11 @@
     width: 100%;
 }
 
+.or-teaser-box.or-related-links .or-text-content .or-teaser-list li {
+    padding: 9px 0px 0px 0px;
+}
+
+
 /* puffar */
 .or-puff-bild-text {
     width: 94%;
