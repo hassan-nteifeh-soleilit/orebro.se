@@ -20,13 +20,14 @@ MENY
 
 .or-tree .or-title a{
     font-size: 16px;
-    color: #0098bd;
+    color: #fff;
     line-height: 20px;
     font-weight: bold;
     font-family: "leaguespartan webfont",sans-serif;
     padding-top: 18px;
     padding-bottom: 6px;
     text-align: left;
+    background-color: #fff;
 }
 
 .or-tree ul {
@@ -42,10 +43,6 @@ MENY
 }
 
 .or-tree li:not(.or-expanded) {
-    border-bottom-width: 2px;
-    border-bottom-style: solid;
-    border-bottom-color: rgba(255, 255, 255, 0.25);
-    background-color:aqua;
 }    
 
 .or-tree > li > a {
@@ -98,17 +95,19 @@ MENY
     font-family: "leaguespartan webfont",sans-serif;
     padding: 14px 5px 14px 25px;
     text-decoration: none;
-    color: #FFFFFF;
+    color: #fff;
     font-size: 13px;
     line-height: 15px;
     letter-spacing: 0.02em;
+    background-color: #e83c23;
+    border-bottom: 2px solid #EF6F5D;
 }
 
 .or-tree .or-toggle-panel {
     width: 26px;
     height: 26px;
     background: none;
-    border: 2px solid rgba(255, 255, 255, 0.4);
+    border: 2px solid #fff;
     font-weight: normal;
     outline: none;
     position: absolute;
@@ -133,7 +132,7 @@ MENY
     font-family: FontAwesome;
     font-size: 13px;
     content: '\f067';
-    color: #FFFFFF;
+    color: #fff;
     position: absolute;
     -webkit-transition: all 300ms ease;
     -moz-transition: all 300ms ease;
@@ -169,7 +168,6 @@ MENY
 }
 
 .or-tree .or-expanded > a {
-    background-color: #ef7664;
 }
 
 .or-tree ul.or-depth-1 {   
@@ -180,6 +178,8 @@ MENY
     color: #35383b;
     font-weight: 100;
     font-size: 15px;
+    background-color: #fff;
+    border-bottom: 1px solid #FBFBFB;
 }
 
 .or-tree .or-depth-1 > li {
@@ -194,13 +194,28 @@ MENY
     font-weight: normal;
 }
 
+.or-tree .or-depth-1 .or-toggle-panel{
+	border: 2px solid #F8C8C1;
+}
 
-.or-tree .or-depth-2 > li {
-   
+.or-tree .or-depth-1 .or-toggle-panel:before{
+	color: #e83c23;
+}
+
+.or-tree .or-depth-2 > li a{
+	font-family: "open sans",sans-serif;
+    color: #35383b;
+    font-weight: 100;
+    font-size: 15px;
+    background-color: #fff;
+
 }
 
 .or-tree .or-depth-2 {
-   
+   	font-family: "open sans",sans-serif;
+    color: #35383b;
+    font-weight: 100;
+    font-size: 15px;
 }
 
 .or-tree .or-depth-3 {
