@@ -1331,3 +1331,8 @@ span.sol-hit-count {
 	margin-top: 10px;
 	display: inline-block;
 }
+
+/* Mobil navigation */
+.or-mobile-menu-bar {
+	display:none;  
+}
