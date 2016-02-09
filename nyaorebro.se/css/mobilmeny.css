@@ -182,6 +182,18 @@ MENY
     font-size: 15px;
 }
 
+.or-tree .or-depth-1 > li {
+    position: relative;
+    background-color: #FFFFFF;
+    font-family: "open sans",sans-serif;
+    border-bottom: 1px solid #EAEAEA;
+}
+
+.or-tree .or-depth-1 .or-current a{
+    background-color: #f8f8f8;
+    font-weight: normal;
+}
+
 
 .or-tree .or-depth-2 > li {
    
