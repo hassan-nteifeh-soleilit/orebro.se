@@ -33,34 +33,13 @@
          $(this).find(".or-contact-bar-icon i").toggleClass('fa-rotate-45');
       });
      
-      var iconDecorator =  function( index ) {
-      
-         var title = $( this ).attr("title");
-         var iconCss, sizeStr;
-         
-         try {
-            if(title && title.length>0) {
-			   title= title.replace('(','').replace(')','');	
-               var titleSplit = title.split(',');                              
-               iconCss = titleSplit[0];                        
-               sizeStr = '(' + titleSplit[1].replace(' ','')+')';                                 
-            }            
-         } catch(err) {}
-         
-         var content = '<div class="fileiconcontainer"><div class="iconfile' + iconCss + '"></div></div>'         
-         $(this).before(content);   
-         if(sizeStr){
-            $(this).next().text( sizeStr );
-         }
-      
-      } 
-	  
+  
 	  /*
 	  $('.or-text-content a > img').each(function() {
 		$(this).parent().after(this);
 	  })
 	  */
-	  var iconDecorator2 =  function( index ) {
+	  var iconDecorator =  function( index ) {
       
          var title = $( this ).attr("title");
          var icon, sizeStr;
@@ -97,14 +76,17 @@
       
       } 
 		
-      /* Ikoner i dokumentlistningsrutorna */
-      $(".or-docs-box-content a").each(iconDecorator);
-	  $(".or-related-documents .or-text-content a").each(iconDecorator2);
+      /* Ikoner i dokumentlistningsrutorna */      
+	  $(".or-related-documents .or-text-content a").each(iconDecorator);
    
              
       /* Responsiva tabeller */  
       $(".sv-table-portlet table").stacktable({myClass:'stacktable small-only'});
       
+	  /* Expandera meny items */
+	  $(".or-tree .or-toggle-panel").click(function(){
+		  $(this).parent().toggleClass("or-expanded");		  
+	  });
            
   });
   

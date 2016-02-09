@@ -1,8 +1,39 @@
 @media all and (max-width: 480px)
 {
 	
-	/* från base */
+/* dokument-box */
+.or-teaser-box {
+    margin-bottom: 5px;
+    margin-right: 0%;
+    width: 100%;
+}
 
+.or-teaser-box.or-related-links .or-text-content .or-teaser-list li {
+    padding: 9px 0px 0px 0px;
+}
+
+
+/* puffar */
+.or-puff-bild-text {
+    width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+section.or-article-main .or-content-padding {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+
+} /* end 480px */	
+
+
+
+	/* från base */
+/*
 .searchform {
     padding: 8px 40px 8px 12px;
 }
@@ -363,6 +394,8 @@ a.or-action-text, .or-action-text a:hover {
 }
 
 /*  puffar */
+
+/*
 .or-topp-school-text {
     width: 85%;
 }
@@ -445,6 +478,8 @@ a.or-action-text, .or-action-text a:hover {
 
 /* sök */
 
+
+
 .sol-search-hits > div {
     margin-left: 12px;
     width: 77%;
@@ -469,6 +504,8 @@ a.or-action-text, .or-action-text a:hover {
 
 
 /* kontakt toppen */
+
+/*
 .or-helpus p, h2{
 	text-align: left;
 	padding-left: 0px;
@@ -485,12 +522,16 @@ a.or-action-text, .or-action-text a:hover {
 
 
 /* process */
+
+/*
 .sol_step {
   width: 100%;
   min-height: 45px;
 }
 
 /* faktablock */
+
+/*
 .or-h1-facts-block {
     font-family: "leaguespartan webfont",sans-serif;
     font-style: normal;
@@ -502,6 +543,7 @@ a.or-action-text, .or-action-text a:hover {
 
 
 /* plussbox */
+/*
 .plusboxxrubrik {
     font-size: 11px;
     line-height: 15px;
@@ -553,6 +595,7 @@ a.or-action-text, .or-action-text a:hover {
 
 
 /* relaterade filer */
+/*
 .iconfile {
     position: relative;
     width: 38px;
@@ -627,6 +670,7 @@ a.ingressnyhetsruta, .ingressnyhetsruta a {
 
 
 /* puffar */
+/*
 .or-puff-text-bild-lanklista,
 .or-puff-text-icon-lanklista,
 .or-puff-bild-text,
@@ -635,6 +679,7 @@ a.ingressnyhetsruta, .ingressnyhetsruta a {
 }
 
 /* Skola */
+/*
 .or-stor-bild-wide-text .poem span {
     font-size: 25px;
     margin-bottom: 10px;
@@ -750,7 +795,7 @@ margin-top: -35px;
     margin-top: 0;
 }
 
-/* ny tabell */
+/* ny tabell
 
 .pagecontent .sv-linklist-portlet table.sv-programtabell td p, .sv-blog-portlet table.sv-programtabell td p, .sv-archive-portlet table.sv-programtabell td p, .sv-text-portlet table.sv-programtabell td p {
     font-size: 14px;
@@ -782,6 +827,8 @@ width:100%;
 }
 
 /* Steg för Steg puff */
+
+/*
 .sv-fixed-fluid-grid sv-grid-utanxmellanrum .or-school-advantages-container .sv-row row-fluid .sv-column-4 .sv-column-4 .or-school-col{
   padding-right:0px !important;
   padding-left: 0px !important;  
@@ -817,6 +864,8 @@ padding: 0 10px;
 
 
 /* krismeddeladne */
+
+/*
 
 .or-alert-message-wrapper {
  margin-left: 0px;
@@ -876,6 +925,8 @@ width: 100%;
 }
 
 /* processteg */
+
+/*
 .sol-accordion-heading {
  background-color: #e83c23;
  color: #fff;

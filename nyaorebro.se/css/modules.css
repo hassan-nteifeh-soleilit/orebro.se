@@ -2,6 +2,54 @@
 /* 2. Liten kalender info ruta */
 /* 3. Kalender faktaruta */
 
+/*cookie*/
+
+.cookieAlert {
+    background-color: #35383B;
+    margin-top: -11px;
+    padding: 4px 0px;
+    text-align: center;
+}
+
+.cookieAlert .normal {
+    color: #FFF;
+    font-size: 11px;
+    text-align: center;
+    line-height: 1.25em;
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.cookieAlert .normal a {
+    color: #FFF;
+    font-size: 11px;
+    text-align: center;
+    box-shadow: 0px -14px 0px -11px rgba(174, 222, 239, 0.65) inset;
+}
+
+.cookieAlert .normal a:link {
+    color: #FFF;
+    font-size: 11px;
+    text-align: center;
+    box-shadow: 0px -14px 0px -11px rgba(174, 222, 239, 0.65) inset;
+}
+
+#cookieClose {
+    background-color: #FFF;
+    color: #35383B;
+    display: inline-block;
+    padding: 4px 13px;
+    margin: 2px 7px;
+    border-radius: 1px;
+    font-weight: 700;
+    border-bottom: 3px solid #C8C5C5;
+    box-shadow: 0px -16px 0px -11px rgba(174, 222, 239, 0) inset;
+    font-size: 11px;
+	text-align: center;
+}
+
+
+
 /* Sökfält */
 
 form.or-search-field {
@@ -38,7 +86,7 @@ form.or-search-field button{
     position: relative;
     -webkit-appearance: none;
     left: -28px;
-    top: -5px;
+    top: -8px;
     width: 60px;
     height: 60px;
     float: left;
@@ -559,7 +607,7 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3{
 
 
 .or-teaser-box .or-title {
-    background: aqua;
+    background: #857672;
     padding: 6px 15px 3px;
     min-height: 26px;
     border-top-left-radius: 2px;
@@ -590,9 +638,16 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3{
 }
 
 .or-teaser-box.or-related-links .or-text-content {
+    padding: 0px 10px 0px 0px;
+    margin-top: -9px;
+}
+
+.or-teaser-box.or-related-documents .or-text-content {
     padding: 0px 15px;
     margin-top: -9px;
 }
+
+
 
 .or-teaser-box .or-text-content {
     background: #ffffff;
@@ -605,14 +660,21 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3{
 }
 
 .or-teaser-box.or-related-links .or-text-content .or-teaser-list li {
-    padding: 9px 0px 4px;
+    padding: 9px 0px 4px 0px;
     margin-bottom: 0px;
     margin-top: 7px;
     position: relative;
     min-height: 32px;
-    padding-left: 30px;
-
 }
+
+.or-teaser-box.or-related-documents .or-text-content .or-teaser-list li {
+    padding: 9px 0px 4px 25px;
+    margin-bottom: 0px;
+    margin-top: 7px;
+    position: relative;
+    min-height: 32px;
+}
+
 
 .or-teaser-box .or-text-content .or-teaser-list li {
     border-bottom: 2px dotted #dad6d4;
@@ -642,7 +704,7 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3{
 .or-teaser-box .or-text-content .or-teaser-list li a i {
     color: #857672;
     font-size: 18px;
-    text-align: center;
+    text-align: left;
     line-height: 16px;
     position: absolute;
     left: 0;
@@ -656,7 +718,6 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3{
 }
 
 .or-teaser-box.or-related-links .or-text-content .or-teaser-list li a .or-link-name {
-    position: absolute;
     top: 50%;
     margin-top: -13px;
     margin-left: 20px;
@@ -664,26 +725,45 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3{
     background-size: 25%;
     background-color: transparent;
     box-shadow: 0px -16px 0px -11px rgba(174, 222, 239, 0.65) inset;
+    margin-right: 4px;
 }
 
 .or-teaser-box.or-related-links .or-text-content .or-teaser-list li a .or-link-name:hover {
     box-shadow: rgba(174, 222, 239, 0.65) 0px -48px 0px -30px inset;
     color: #35383b;
-}        
+} 
+
+.or-teaser-box.or-related-documents .or-text-content .or-teaser-list li a .or-link-name {
+    top: 50%;
+    margin-top: -13px;
+    margin-left: 20px;
+    transition: all 100ms ease;
+    background-size: 25%;
+    background-color: transparent;
+    box-shadow: 0px -16px 0px -11px rgba(174, 222, 239, 0.65) inset;
+    margin-right: 4px;
+}
+
+.or-teaser-box.or-related-documents .or-text-content .or-teaser-list li a .or-link-name:hover {
+    box-shadow: rgba(174, 222, 239, 0.65) 0px -48px 0px -30px inset;
+    color: #35383b;
+} 
+
+       
 
 
 /* Hade du nytta av innehållet */
 
-.kontakta-ruta{
-	background-color: rgb(255, 255, 255);
-	padding: 20px;
-	border-radius: 3px;
-	margin-top: 30px;
-	margin-bottom: 40px;
-	float: left;
-	width: 100%;
+.kontakta-ruta {
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 3px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    float: none;
+    clear: both;
+    display: block;
 }
-
 
 .or-findwrapper
 {
@@ -741,6 +821,10 @@ body .or-update-date{
 .or-thumbup:hover,.or-thumbup.selected
 {
 	background-color:#60930f;
+}
+
+#id-or-help-us-no:hover{
+		background-color: #E83C23;
 }
 
 .or-thumbup.or-thumbdown
@@ -938,6 +1022,7 @@ label.or-fieldlabelhelpus
 #or-search-form {
     position: relative;
     margin-top: 20px;
+	margin-left: 15px;
 }
 
 .sol-sok-ruta input {
@@ -962,10 +1047,12 @@ label.or-fieldlabelhelpus
     position: absolute;
     float: right;
     border: 0px none;
-    font-size: 25px;
+    font-size: 24px;
     font-weight: 600;
     color: white;
     text-align: center;
+    background-color: #E83C23;
+    padding-right: 10px;
 }
 
 .or-hit-count {
@@ -985,7 +1072,7 @@ span.sol-hit-count {
     width: 100%;
     display: block;
     float: left;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 .or-search-link a {
     box-shadow: 0px -16px 0px -12px rgb(174, 222, 239) inset;
@@ -1011,6 +1098,9 @@ span.sol-hit-count {
     display: block;
     float: left;
 }
+.sol-search-hits .sol-search-icon-wrapper {
+    width: 5%;
+}
 .sol-search-hits > div {
     margin-left: 17px;
     width: 85%;
@@ -1026,11 +1116,29 @@ span.sol-hit-count {
     line-height: 24px;
     font-weight: 400;
 }
+.sol-search-icon-wrapper {
+    margin-right: 10px;
+    margin-top: 0.5em;
+    float: left;
+    clear: both;
+    width: 100%;
+    display: block;
+}
+
+.sol-search-hits > div > p em{
+    font-style: normal;
+}
+
+.sol-search-hits .or-search-infotext p{
+	font-size: 13px;
+}
 
 .or-search-infotext {
     width: 100%;
     display: block;
     float: left;
+    margin-top: -15px;
+    margin-bottom: 15px;
 }
 .or-search-infotext p {
     font-size: 12px;
@@ -1058,27 +1166,68 @@ span.sol-hit-count {
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
     margin-bottom: 0px !important;
+    list-style: none;
 }
 
+
+.sol-facetter .sol-selected-facet{
+	background: #e83c23;
+	color: #FFF;
+	border-bottom: 2px solid transparent;
+}
+
+.sol-facetter .sol-selected-facet:hover{
+	background: #e83c23;
+	color: #FFF;
+	border-bottom: 2px solid transparent;
+}
+
+.sol-facetter .sol-selected-facet:hover a{
+	border-bottom: 0px solid transparent;
+}
+
+
+.sol-facetter .sol-selected-facet a {
+	color: #FFF;
+	border-bottom: 0px solid #35383b;
+	font-weight: 300;
+}
+
+.sol-facetter .sol-selected-facet a:hover {
+	color: #FFF;
+	border-bottom: 0px solid #35383b;
+}
+
+
+
 .sol-facetter ul > li > a {
-    font-size: 14px;
+    font-size: 14px!important;
     text-decoration: none;
     font-weight: 300;
     cursor: pointer;
+    box-shadow: rgba(255, 255, 255, 0)0px -16px 0px -11px inset!important;
 }
 .sol-facetter ul > li:hover > a {
     border-bottom: 2px solid #35383b;
     transition: all 500ms ease;
 }
 
-.or-show-hiden-facet-items {
+
+.sol-facetter .subheading3{
+	font-size: 15px;
+	margin-bottom: 15px!important;
+}
+
+.sol-facetter .or-show-hiden-facet-items {
     background-color: rgb(133, 118, 114);
     background-color: rgba(133, 118, 114, 0.2);
+    border-bottom: 2px dotted transparent;
 }
 .or-show-hiden-facet-items:hover {
-    background-color: #f28c00 !important;
-    border-bottom-color: #f28c00 !important;
-    border-bottom: 2px dotted #ededed !important;
+    background-color: #7D7D7D !important;
+    border-bottom-color: #7D7D7D !important;
+    border-bottom: 2px dotted #7D7D7D !important;
+    color: #fff;
 }
 .or-show-hiden-facet-items:hover > .sol-icon-more-facet {
     -webkit-transform: rotate(0deg);
@@ -1103,6 +1252,13 @@ span.sol-hit-count {
 }	
 .sol-icon-more-facet:after {
     content: "\F067";
+    font-family: FontAwesome;
+    font-style: initial;
+    font-size: 18px;
+    vertical-align: middle;
+}
+.sol-icon-more-facet-selected:after {
+    content: "\F068";
     font-family: FontAwesome;
     font-style: initial;
     font-size: 18px;
@@ -1137,6 +1293,7 @@ span.sol-hit-count {
     color: #fff;
     padding: 5px 12px;
     font-size: 13px;
+    background: none repeat scroll 0 0 #e83c23;
 }
 
 #or-paging-id .next {

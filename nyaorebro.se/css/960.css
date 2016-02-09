@@ -1,4 +1,13 @@
 @media (max-width: 991px) {
+  
+  section.or-article-main .or-content-padding {
+    padding-left: 0px;
+    padding-right: 0px;
+    max-width: 700px;
+}
+
+/*
+
    .or-col-logo-header {
      width: 41%;
    }
@@ -136,10 +145,11 @@
   border: 1px solid #ffcdc7;
   border-radius: 1px;
   background-color: #e83c23;
-}
-
+}*/
 
 /* puffar */
+
+/*
 .or-puff-text-bild-lanklista {
 	  margin-bottom: 25px;
 }
@@ -171,7 +181,8 @@
 .or-puff-program > div:nth-child(1) {
  background-color: rgb(255, 255, 255);
 }
-
+ 
+ */
 
 .or-search-link a{
 box-shadow: 0px -16px 0px -12px rgba(174, 222, 239, 0.0) inset;
@@ -214,9 +225,11 @@ line-height: 24px;
   margin-bottom: 25px;
 }
 
+*/
 
 /* Social flödet */
 
+/*
 .sv-clearfix.or-facebook-container.or-wrapper-click {
     width: 98%;
     margin-left: 1%;
@@ -242,6 +255,8 @@ line-height: 24px;
 
 
 /* Steg för Steg puff */
+
+/*
 .or-school-advantages-container {
 width:100%;
 }
@@ -253,7 +268,7 @@ width:100%;
 
 /* kampanjmall */
 
-
+/*
 .or-puff-instagram p.normal {
  font-size: 13px;
 }

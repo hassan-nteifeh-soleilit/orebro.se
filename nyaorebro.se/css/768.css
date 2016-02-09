@@ -1,6 +1,214 @@
-@media all and (max-width: 767px)
+@media all and (max-width: 767px){
+
+
+/*base*/
+
+h1, .heading {
+    font-size: 20px;
+}
+
+h2, .portlet-section-header, .portlet-menu-caption, .sv-portlet-table-caption, .subheading {
+    font-size: 16px;
+}
+
+h3, .portlet-section-subheader, .subheading3 {
+    font-size: 14px;
+}
+
+.normal {
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+.normal a:link {
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+.ingress {
+    font-size: 18px;
+    line-height: 1.5em;
+}
+
+ul li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.2em;
+}
+
+section.or-article-main .or-content-padding {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+/*header*/
+header {
+    display: none;
+}
+
+.phone-nav-column .or-logo{
+	height: 38px;
+	position: relative;
+	top:2px;
+}
+
+.phone-nav-text{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 9px;
+}
+
+.phone-nav-column.search-column .fa {
+	color: #e83c23;
+	margin-bottom: 5px;
+	font-size: 24px;
+}
+
+.phone-nav-column.search-column .fa.fa-search{
+	font-size: 24px;
+}
+
+.phone-nav-column.search-column.or-colorbg{
+	background-color: #E83C23;
+	color: #fff;
+}
+
+.phone-nav-column.search-column.or-colorbg .fa{
+	color: #fff;
+}
+
+/* cookie */
+#cookieClose {
+    padding: 2px 11px;
+    font-size: 10px;
+}
+
+/*brödsmulor*/
+section.or-breadcrumbs-area {
+    display: none;
+}
+
+/* puffar */
+.or-puff-bild-text {
+    width: 45.3333%;
+}
+
+/*mobil navigering */
+
+body section.or-nav-content-section .or-grid-12-col.or-wider h2 {
+    font-size: 12px;
+}
+
+.nav-footer-container {
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    z-index: 9999;
+    width: 100%;
+    background-color: #f8f8f7;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.25);
+    height: 51px;
+}
+
+section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-title:before {
+    top: 0px;
+    padding-right: 7px;
+}
+
+
+
+
+
+
+} /* end 767 */
+
+
+@media all and (max-width: 680px){
+	
+
+/* navigering */	
+ul.or-nav-list li .or-list-wrapper p {
+    display: none;
+}
+
+ul.or-nav-list li .or-list-wrapper {
+    border: 3px solid #fff;
+    border-radius: 3px;
+    box-shadow: 0 0 5px #C7C7C7;
+    float: none;
+    min-height: 0px;
+    width: auto;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-bottom: 13px;
+    display: block;
+}
+
+ul.or-nav-list li .or-list-wrapper .or-title {
+    border-bottom: 0px dotted transparent;
+    color: #e83c23;
+    padding-bottom: 0px;
+}
+
+section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li .or-list-wrapper.or-single .or-title
 {
-	/* från base */
+	color: #35383b;
+	font-weight: 600;
+    font-family: "open sans",sans-serif;
+    font-size: 12px;
+}
+
+
+section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-title {
+    font-size: 11px;
+    margin-bottom: 0px;
+}
+
+section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li .or-single a .or-title {
+    font-size: 1px;
+    margin-bottom: 0px;
+}
+
+section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a {
+    padding: 6px 6px 6px 7px;
+}
+
+ 
+section.or-nav-content-section {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+	
+	
+}	
+	
+	
+
+
+@media all and (max-width: 767px){
+
+/*brödsmulor*/
+
+section.or-breadcrumbs-area {
+    display: none;
+}
+
+
+
+
+
+} /* end 767 */
+	
+	
+	
+	
+	
+	
+	
+	
+	/* från base
 	
   .stacktable.large-only { display: none; }
   .stacktable.small-only { display: table; }
@@ -28,6 +236,9 @@
     height:7%;
   }
 */
+
+
+/*
   #mm-blocker {
      height:93% !important;
   }
@@ -225,9 +436,14 @@
    display: block;
    float: none;
   }
+  
+  
+  */
 
 /* från base slut */
-	
+
+
+/*	
 	
    .or-col-logo-header {
        width: 100%;
@@ -312,12 +528,14 @@ h2.subheading {
 
 
 
-
+*/
 
 
 
 
 /* table */
+
+/*
 
 .st-key {
   text-align: left;
@@ -350,10 +568,12 @@ h2.subheading {
   padding: 5px 10px 5px;
 }
 
-
+*/
 
 
 /*puffar*/
+
+/*
 
 .or-puff-program {
     width: 92%;
@@ -452,11 +672,12 @@ line-height: 24px;
 }
 
 
+*/
 
 
 /* sök */
 
-
+/*
 .sol-sok-ruta input.ui-autocomplete-input {
   position: relative;
   padding-top: 0px;
@@ -489,10 +710,14 @@ line-height: 24px;
     margin-bottom: 0px!important;
 }
 
+*/
+
 
 /* kontakt toppen */
 
 
+
+/*
 
 .lyssna{
 	
@@ -530,7 +755,11 @@ p.or-close-text {
 }
 
 
+*/
+
 /* process */
+
+/*
 .sol_step {
   width: 50%;
   min-height: 45px;
@@ -542,6 +771,9 @@ p.or-close-text {
 	
 
 /* mobilmeny */
+
+/*
+
 .or-mobile-menu-bar {
 	display: block;
 	
@@ -561,6 +793,9 @@ p.or-close-text {
     padding-bottom: 10px;
 }
 */
+
+
+/*
 .phone-nav-column.search-column {
     width: 24%;
     padding-bottom: 5px;
@@ -597,6 +832,9 @@ p.or-close-text {
 }
 
 /*puff */
+
+/*
+
 .or-puff-text-bild-lanklista {
 	  margin-bottom: 25px;
 }
@@ -613,6 +851,8 @@ p.or-close-text {
 } 
 
 /* skolwebbar */
+
+/*
 .or-school-heading {
     position: absolute;
     left: 5%;
@@ -679,12 +919,17 @@ p.or-close-text {
 
 /* sociala flödet */
 
+/*
+
 .or-instagram-container {
   min-height: 240px;
 }
 
 
 /* Programtabell visas som vanlig tabell */
+
+/*
+
 .or-plus-box-program .stacktable.large-only { display: table; }
 .or-plus-box-program .stacktable.small-only { display: none; }
 
@@ -708,6 +953,8 @@ p.or-close-text {
  min-height: 300px;
 }
 /*programsida*/
+
+/*
 
 .or-stor-bild-text-tv > div:nth-child(2) h1, .or-program-heading-container h1 {
     font-size: 4vmin;
@@ -746,6 +993,8 @@ width:65%;
 }
 
 /* kampanjmall */
+/*
+
 .or-puff-instagram {
  width: 28%;
 }
@@ -775,7 +1024,7 @@ width:65%;
     width: 80%;
 }
 
-
+/*
 
 .nav-footer-container {
     position: fixed;
@@ -821,18 +1070,19 @@ width:65%;
     padding-bottom: 5px;
     border-right-style: none;
     border-left-style: none;
-    height: 55px;
+    float: left;
+    border-left: 1px solid #E8E8E8;
+    height: 41px;
 }
 
 .phone-nav-column {
-    width: 52%;
+    width: 25%;
     padding-top: 5px;
     padding-bottom: 7px;
     border-right: 2px solid rgba(255, 255, 255, 0.09);
     border-left: 2px solid rgba(255, 255, 255, 0.09);
     text-align: center;
     text-decoration: none;
-    height: 55px;
     float: right;
 }
 

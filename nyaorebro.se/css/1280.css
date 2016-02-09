@@ -1,6 +1,7 @@
-@media all and (max-width: 1280px)
-{
 
+
+
+@media (min-width: 1280px) {
 
 .main-content{
 	padding-left: 15px;
@@ -17,25 +18,77 @@
   right: 0px;
 }
 
+
+
+}  /* end 1280 */
+
+
+
+
+@media (min-width: 1350px) {
+
+section.or-article-main .or-content-padding {
+    max-width: 800px;
+}
+
+.sv-use-margins .normal {
+    font-size: 19px;
+}
+
+.sv-use-margins .normal a{
+    font-size: 19px;
+}
+
+ul li {
+    font-size: 19px;
+}
+
+.ingress {
+    font-size: 23px;
+    line-height: 1.5em;
+}
+
+/* puffar */
+
+body .or-wrapper-click.or-puff-bild-text h3 {
+    font-size: 18px;
 }
 
 
-@media all and (max-width: 1350px)
-{
-{
-section.or-article-main .or-content-padding
-    padding-left: 10%;
-    padding-right: 10%;
+}  /* end 1350 */
+
+
+@media (min-width: 1550px) {
+
+section.or-article-main .or-content-padding {
     max-width: 900px;
 }
+
+.sv-use-margins .normal {
+    font-size: 21px;
 }
 
-@media all and (max-width: 1550px)
-{
-{
-section.or-article-main .or-content-padding
-    padding-left: 10%;
-    padding-right: 10%;
-    max-width: 1000px;
+.sv-use-margins .normal a{
+    font-size: 21px;
 }
+
+.ingress {
+    font-size: 25px;
+    line-height: 1.5em;
 }
+
+
+/* puffar */
+
+body .or-wrapper-click.or-puff-bild-text h3 {
+    font-size: 20px;
+}
+
+
+
+ul li {
+    font-size: 21px;
+}
+
+
+}  /* end 1350 */
