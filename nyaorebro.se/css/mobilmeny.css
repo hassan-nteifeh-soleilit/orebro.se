@@ -167,6 +167,12 @@ MENY
 	background-color: #F27360;
 }
 
+.or-tree .or-current a {
+    background-color: #B92E18;
+    font-weight: normal;
+    border-bottom: 2px solid #B92E18;
+}
+
 .or-tree ul.or-depth-1 {   
 }
 
