@@ -167,6 +167,15 @@ MENY
     font-weight: bold;
 }
 
+.or-tree .or-depth-1 > li .or-toggle-panel{
+	border: 2px solid rgba(155, 155, 155, 0.4);
+}
+
+.or-tree .or-depth-1 > li .or-toggle-panel:before{
+	color: #e83c23;
+}
+
+
 .or-tree .or-depth-2 > li {
    
 }
