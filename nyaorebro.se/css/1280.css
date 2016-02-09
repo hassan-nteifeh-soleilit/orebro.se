@@ -1,4 +1,8 @@
-
+@media (min-width: 768px) {
+	.nav-footer-container{
+	display: none;
+}
+}
 
 
 @media (min-width: 1280px) {
@@ -17,6 +21,10 @@
 .or-social-badge {
   right: 0px;
 }
+
+
+
+	
 
 
 

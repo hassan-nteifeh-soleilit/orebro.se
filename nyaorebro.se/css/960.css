@@ -6,6 +6,18 @@
     max-width: 700px;
 }
 
+}
+
+
+@media (min-width: 991px) {
+	.footer-container{
+	padding-left: 40px;
+	padding-right: 40px;
+}
+}
+
+
+
 /*
 
    .or-col-logo-header {

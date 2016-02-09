@@ -1318,6 +1318,52 @@ span.sol-hit-count {
 
 /* footer */
 
+.or-social-media{
+	margin-left: 0px;
+}
+
+.or-social-section {
+    background-color: #35383B;
+    color: #fff;
+}
+
+.or-social-section > div{
+	position: relative;
+    padding: 10px 0 19px 0px;
+
+}
+
+.or-footer-logos{
+	position: absolute;
+	background-color: #fff;
+	right: 10px;
+	bottom: 0px;
+}
+
+.or-social-media{
+	
+}
+
+.or-folj-oss{
+	font-family: "leaguespartan webfont",sans-serif;
+	display: inline-block;
+	float: left;
+	margin-left: 10px;
+
+}
+
+.or-social-icon{
+	float: left;
+	color: #fff;
+}
+
+.or-social-icon i {
+    float: left;
+    color: #fff;
+    font-size: 21px;
+    margin: 13px 7px 0px 8px;
+}
+
 .or-adress-and-links strong {
 	font-family: "leaguespartan webfont",sans-serif;
 	font-size: 15px;

@@ -26,6 +26,13 @@ section.or-article-main .or-content-padding {
 }
 
 
+/*footer*/
+
+.or-footer-logos{
+	display: none;
+}
+
+
 
 
 } /* end 480px */	

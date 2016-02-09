@@ -97,6 +97,7 @@ MENY
     letter-spacing: 0.02em;
     background-color: #e83c23;
     border-bottom: 2px solid #EF6F5D;
+    padding-left: 15px;
 }
 
 .or-tree .or-toggle-panel {
@@ -183,6 +184,8 @@ MENY
     font-size: 15px;
     background-color: #fff;
     border-bottom: 1px solid #EAEAEA;
+    padding-left: 20px;
+
 }
 
 .or-tree .or-depth-1 > li {
@@ -213,7 +216,12 @@ MENY
     font-size: 15px;
     background-color: #fff;
     border-bottom: 1px solid #EAEAEA;
+	padding-left: 30px;
 
+
+}
+
+.or-tree .or-depth-2 > li{
 }
 
 .or-tree .or-depth-2 {
@@ -230,11 +238,16 @@ MENY
 }
 
 .or-tree .or-depth-3 {
-   
+
+}
+
+.or-tree .or-depth-3 li{
+
 }
 
 .or-tree .or-depth-3 > li > a {
-   
+    padding-left: 38px;
+
 }
 
 .or-tree .or-depth-4 > li > a {
