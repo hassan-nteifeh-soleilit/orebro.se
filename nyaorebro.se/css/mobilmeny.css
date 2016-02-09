@@ -57,8 +57,8 @@ MENY
 }
 
 .or-tree .or-current {
-  background:blue;
 }
+
 
 .or-tree {
   /*display: none;*/
@@ -148,7 +148,7 @@ MENY
 }
 
 .or-tree .or-expanded > a {
-   font-weight: bold;
+    background-color: #ef7664;
 }
 
 .or-tree ul.or-depth-1 {   
@@ -158,9 +158,13 @@ MENY
    
 }
 
-
 .or-tree .or-depth-1 > li {
     
+}
+
+.or-tree .or-depth-1 .or-current a{
+    background-color: #f8f8f8;
+    font-weight: bold;
 }
 
 .or-tree .or-depth-2 > li {
