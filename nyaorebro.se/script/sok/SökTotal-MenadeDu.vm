@@ -1,0 +1,17 @@
+#set ($suggestion = $searchResult.suggestions.get(0)) ## Only using first/best suggestion...
+#set ($currentPage = $portletContextUtil.currentPage)
+#set ($queryParameter = $propertyUtil.getString($portlet, 'queryParameter'))
+#set ($didYouMeanClass = $propertyUtil.getNestedString($portlet, 'didYouMeanFont', 'selectorText'))
+
+#set ($didYouMeanRenderer = $sitevisionUtils.linkRenderer)
+$didYouMeanRenderer.setTarget($currentPage)
+$didYouMeanRenderer.addTargetParameter($queryParameter, $suggestion.name)
+$didYouMeanRenderer.setText($suggestion.name)
+#if ($suggestion.count > 0)
+   #set ($expectedHitCount = '' + $suggestion.count)
+   $didYouMeanRenderer.setTitle($expectedHitCount)
+#end
+
+<p class="or-did-you-mean $didYouMeanClass">
+   $propertyUtil.getString($bundle, 'didYouMeanText') $didYouMeanRenderer.render()
+</p>
