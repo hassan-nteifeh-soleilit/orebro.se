@@ -1,0 +1,256 @@
+##
+## Utility API
+#set ($propertyUtil = $sitevisionUtils.propertyUtil)
+#set ($outputUtil = $sitevisionUtils.outputUtil)
+#set ($portletContextUtil = $sitevisionUtils.portletContextUtil)
+#set ($resourceLocatorUtil = $sitevisionUtils.resourceLocatorUtil)
+#set ($scriptUtil = $sitevisionUtils.scriptUtil)
+#set ($endecUtil = $sitevisionUtils.endecUtil)
+
+##
+## Portlet properties
+#set ($bundle = $propertyUtil.getNode($portlet, 'bundle'))
+#set ($headingNode = $propertyUtil.getNode($portlet, 'searchHitHeadingFont'))
+#set ($headingClass = $propertyUtil.getString($headingNode, 'selectorText'))
+#set ($excerptClass = $propertyUtil.getNestedString($portlet, 'searchHitExcerptFont', 'selectorText'))
+#set ($infoClass = $propertyUtil.getNestedString($portlet, 'searchHitInfoFont', 'selectorText'))
+#set ($excerptLength = $propertyUtil.getInt($portlet, 'searchHitExcerptLength', 250))
+#set ($showSearchHitInfo = $propertyUtil.getBoolean($portlet, 'showSearchHitInfo'))
+#set ($showSearchHitPath = $propertyUtil.getBoolean($portlet, 'showSearchHitPath'))
+#set ($headingField = $propertyUtil.getString($portlet, 'headingField'))
+
+##
+## Index field names
+#set ($displayField = $propertyUtil.getString($portlet, $headingField))
+#set ($urlField = $propertyUtil.getString($portlet, 'urlField'))
+#set ($uriField = $propertyUtil.getString($portlet, 'uriField'))
+#set ($siteField = $propertyUtil.getString($portlet, 'siteField'))
+#set ($summaryField = $propertyUtil.getString($portlet, 'summaryField'))
+#set ($lastUpdatedField = $propertyUtil.getString($portlet, 'lastPublishedField'))
+#set ($sizeField = $propertyUtil.getString($portlet, 'sizeField'))
+#set ($mimtypeField = $propertyUtil.getString($portlet, 'mimetypeField'))
+
+#set ($thisSiteId = $resourceLocatorUtil.site.identifier)
+#if ($thisSiteId.endsWith('_site'))
+   #set ($idEnd = $thisSiteId.length() - 5)
+   #set ($thisSiteId = $thisSiteId.substring(0, $idEnd))
+#end
+
+## Init background coloring and left padding for list item
+#if ($propertyUtil.getBoolean($portlet, 'useSearchHitBackgroundColor'))
+   #set ($colorNode = $propertyUtil.getNode($portlet, 'searchHitBackgroundColor'))
+   #set ($flipColors = "true")
+   #set ($oddColor = "; background-color:${propertyUtil.getString($colorNode, 'htmlHexValue')}")
+   #set ($bgColor = $oddColor)
+   #set ($itemLeftPadding = '0.5em')
+#else
+   #set ($bgColor = '')
+   #set ($itemLeftPadding = '0')
+#end
+
+## Init count start
+#set ($hitCountStart = $propertyUtil.getInt($portlet, 'startAtHit', 0))
+#set ($displayHitNumbering = $propertyUtil.getBoolean($portlet, 'showSearchHitNumbering', false))
+#set ($listStart = $hitCountStart + 1)
+#if ($docTypeUtil)
+   #set ($startIsValid = !$docTypeUtil.isXhtmlStrict())
+#else
+   #set ($docTypeUtil = $sitevisionUtils.docTypeUtil)
+   #set ($startIsValid = !$docTypeUtil.isXhtmlStrict())
+#end
+
+## Init link+icon renderers and counter class
+#set ($linkRenderer = $sitevisionUtils.linkRenderer)
+#set ($linkRendererClass = $headingClass)
+#set ($counterClass = $headingClass)
+#set ($renderIcons = $propertyUtil.getBoolean($portlet, 'showFileIcons', false))
+#if ($renderIcons)
+   #set ($iconRenderer = $sitevisionUtils.fileIconRenderer)
+   $iconRenderer.clearUseSmallIcons()
+   #set ($renderIcons = $iconRenderer.loadDefaultIconByFileExtension('default'))
+   #if ($renderIcons)
+      $iconRenderer.setFontClass('sv-noborder-vamiddle')
+      $linkRenderer.clearUseResourceDecorationSettings()
+      #set ($linkRendererClass = $linkRendererClass + ' sv-vamiddle sv-column-12')
+      #set ($counterClass = $counterClass + ' sv-vamiddle')
+   #end
+#end
+
+## don generate external site icons and open in new window
+$linkRenderer.setUseLinkDecorationSettings(false)
+$linkRenderer.setOpenNewWindow(false)
+
+$linkRenderer.setFontClass($linkRendererClass)
+
+#set ($datePattern = $scriptUtil.getFormatPattern(${portletContextUtil.currentLocale}))
+#set ($itemSpacing = '0.5em')
+
+##
+## NOTE! This div is potentially updated via AJAX by the pagination script
+#set ($isAjaxPagingResult = $propertyUtil.getBoolean($portlet, 'isRenderingAjaxPagingResult'))
+#if (!$isAjaxPagingResult)
+<div class="$hitsDivClass sitevision-ui-smooth">
+#end
+
+
+<!--h1 class="visuallyhidden">Sökresultat</h1-->
+
+<div class="or-hit-rendering sv-column-8" style="float:left;">
+##
+## Render hits
+<ol#if($startIsValid) start="$listStart"#end class="sv-search-result sv-column-12" style="margin-left:0; padding-left:0; margin-top:0.7em; list-style-type:none">
+   #foreach ($hit in $searchResult.hits)
+   <li class="sv-search-hit ui-corner-all sol-search-hits" style="margin-left:0; padding-left:${itemLeftPadding}; padding-top:0.5em; padding-bottom:0.5em${bgColor}">
+      ##
+      ## Heading
+      ## Fetch title and set for heding if tile exists
+      #set ($hitHeading = $scriptUtil.getNonNull($hit.getField('metadata.rubrik')))
+      #if($hitHeading)
+        #set ($sitenamn = $hit.getField('metadata.sitenamn'))
+        #if(!$hitHeading.contains($sitenamn))
+            #set ($hitHeading = $hitHeading + ' - ' + $sitenamn)
+        #end    
+      #else
+        #set ($hitHeading = $scriptUtil.getNonNull($hit.getField($displayField)))
+      #end
+      
+      #if ($hitHeading)   
+      <div class="sv-notopmargin or-search-hit-rubrik">
+         #if ($displayHitNumbering)
+            #set ($counter = $hitCountStart + $velocityCount)
+         #end
+         #set ($target = $scriptUtil.getNonNull($hit.getField($urlField)))
+         #if ($target)
+            #if ($thisSiteId == $hit.getField($siteField))
+               #set ($target = $scriptUtil.getNonNull($hit.getField($uriField), $target))
+            #end
+            $linkRenderer.setStringTarget($target)
+            $linkRenderer.setOnclick($hit.clickTrackingCallback)
+            $linkRenderer.setText($hitHeading)
+            
+            #if ($hit.getField($mimtypeField) != 'text/html')
+                $linkRenderer.setOpenNewWindow(true)
+            #end
+            
+            <div class="or-search-link">            
+            $linkRenderer.render()   
+            </div>
+      </div>  
+            #if ($hit.getField($mimtypeField) != 'text/html') 
+      <div class="sol-search-icon-wrapper">       
+                #if ($renderIcons)
+                    $scriptUtil.swallow($iconRenderer.loadIconByContentType($hit.getField($mimtypeField)))
+                    $iconRenderer.render()
+                #end
+                #if ($hit.getLongField($sizeField))
+                    #set ($longSize = $hit.getLongField($sizeField))
+                    #set ($humanSize = $scriptUtil.getHumanPresentableSize($longSize))
+        <p class="sol-doc-size" style="margin-top:${itemSpacing}">$humanSize</p>  
+                #end
+      </div> 
+            #end
+            
+            #if ($displayHitNumbering)
+               <span class="$counterClass">${counter}.</span>
+            #end
+##            $linkRenderer.render()
+         #else
+            #if ($displayHitNumbering)
+               <span class="$counterClass">${counter}.</span>
+            #end
+            $outputUtil.getEscapedHtmlText($hitHeading, $headingNode)
+         #end
+      #end
+
+      ##
+      ## Summary (could be highlighted)
+      #set ($summaryFieldValue = $scriptUtil.getNonNull(${hit.getHighlightedField($summaryField, $excerptLength)}))
+      #if ($summaryFieldValue)  
+      
+      ## Filter out non ascii characters and replace them,"special characters" that comes from font awesome pictures in the searchresult 
+      #set ($summaryFieldValue = $summaryFieldValue.replaceAll('&#\d{4,};',""))
+      
+       <div class="or-search-content">         
+         <p class="$excerptClass sv-column-11" style="margin-top:${itemSpacing}">$summaryFieldValue</p>  
+       </div>         
+      #end
+## Set date field and text
+      #set ($infoText = '')
+      #if ($showSearchHitInfo)
+         #if ($hit.getDateField($lastUpdatedField))
+            #set ($modifiedDate = $hit.getDateField($lastUpdatedField))
+            ## Format the date format
+            #set ($infoText = '<b>Senast uppdaterad:</b>' + ' ' + $scriptUtil.getDateAsString('d MMM yyyy', $modifiedDate))
+         #end
+          
+## Dont show size
+##         #if ($hit.getLongField($sizeField))
+##            #set ($longSize = $hit.getLongField($sizeField))
+##            #set ($humanSize = $scriptUtil.getHumanPresentableSize($longSize))
+##            #if ($infoText != '')
+##               #set ($infoText = $infoText + ' &bull; ' + $propertyUtil.getString($bundle, 'sizeText') + ' ' + $humanSize)
+##            #else
+##               #set ($infoText = $propertyUtil.getString($bundle, 'sizeText') + ' ' + $humanSize)
+##            #end
+##            <p class="sol-doc-size" style="margin-top:${itemSpacing}">$humanSize</p>  
+##         #end
+         
+      #end
+
+
+      #set ($pathText = '')
+      #if ($showSearchHitPath)
+         #if ($hit.node)
+            #if ($pathLinkRenderer)
+               ## Do nothing, renderer and path class already created!
+            #else
+               #set ($pathLinkRenderer = $sitevisionUtils.linkRenderer)
+               $pathLinkRenderer.forceUseCrossSiteTargetChecking()
+               $pathLinkRenderer.clearUseLinkDecorationSettings()
+               #set ($pathClass = $propertyUtil.getNestedString($portlet, 'searchHitPathFont', 'selectorText'))
+            #end
+            #set ($pathText = $outputUtil.renderWebPathNodes($hit.node, $pathLinkRenderer, ' / '))
+         #end
+      #end
+
+      #if ($infoText != '' && $pathText != '')
+         <div style="margin-top:${itemSpacing}">
+            <span class="$pathClass">$pathText</span><br />
+            <span class="$infoClass sv-column-12">$infoText</span>
+         </div>
+      #elseif ($infoText != '')
+         <div class="or-search-infotext">        
+            <p class="$infoClass sv-column-12" style="margin-top:${itemSpacing}">$infoText</p> 
+         </div>          
+      #elseif ($pathText != '')
+        <div class="or-search-pathtext">  
+            <p class="$pathClass" style="margin-top:${itemSpacing}">$pathText</p>
+        </div>         
+      #end
+   </li>
+   #if ($flipColors)
+      #if ($bgColor == '')
+        #set ($bgColor = $oddColor)
+      #else
+        #set ($bgColor = '')
+      #end
+   #end
+#end
+##</div>
+</ol>
+</div>  ##Slut vänster kolumn
+
+<div class="sol-facetter sv-column-4" style="float:right; padding:0 0.7em">
+
+##
+## Render facets and custom sorting
+#if ($propertyUtil.getBoolean($portlet, 'hasFacetsToRender') || $propertyUtil.getBoolean($portlet, 'hasCustomSortsToRender'))
+   #set ($facetsAndSortingTemplate = $propertyUtil.getNestedString($portlet, 'templates', 'facetsTemplate'))
+   $velocityEvaluator.evaluate($facetsAndSortingTemplate)
+#end
+</div>
+
+
+#if (!$isAjaxPagingResult)
+</div>
+#end
