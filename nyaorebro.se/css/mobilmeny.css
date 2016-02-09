@@ -191,7 +191,7 @@ MENY
 
 .or-tree .or-depth-1 .or-current a{
     background-color: #f8f8f8;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 .or-tree .or-depth-2 > li {
