@@ -158,14 +158,10 @@ MENY
    transform: rotate(180deg);
 }
 
-.or-current.or-parent.or-expanded .or-toggle-panel:before{
-	    margin-top: -7px;
-}
 
-
-.or-tree .or-expanded > button:before,
-.or-tree .or-expanded > .or-toggle-panel:before {
-   content: '\f068';
+.or-tree .or-expanded > button:before, .or-tree .or-expanded > .or-toggle-panel:before {
+    content: '\f068';
+    top: 15px;
 }
 
 .or-current.or-parent.or-expanded{
