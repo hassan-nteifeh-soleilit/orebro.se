@@ -338,101 +338,90 @@
    color: #E83C23;   
 }
 
-/* Nya Actions */
-.or-ny-action span.fa
-{
-	background-color:#E83C23;
-	color:#FFF;
-	display:inline-block;
-	font-size:22px;
-	height:100%;
-	left:0;
-	line-height:48px;
-	margin-right:20px;
-	min-height:47px;
-	position:absolute;
-	text-align:center;
-	top:0;
-	vertical-align:middle;
-	width:48px;
-	z-index:999;
+/* Ny action */
+.or-ny-action span.fa {
+ background-color: #E83C23;
+ color: white;
+ position: absolute;
+ display: inline-block;
+ font-size: 22px;
+ margin-right: 20px;
+ width: 48px;
+ min-height: 44px;
+ line-height: 48px;
+ text-align: center;
+ vertical-align: middle;
+ height: 100%;
+ z-index: 999;
+ top: 0;
+ left: 0;
 }
 
-.or-ny-action span.fa::after
-{
-	-moz-border-bottom-colors:none;
-	-moz-border-left-colors:none;
-	-moz-border-right-colors:none;
-	-moz-border-top-colors:none;
-	border-color:rgba(136,183,213,0) rgba(136,183,213,0) rgba(136,183,213,0) #E83C23;
-	border-image:none;
-	border-style:solid;
-	border-width:12px;
-	content:" ";
-	height:0;
-	left:100%;
-	margin-top:-13px;
-	pointer-events:none;
-	position:absolute;
-	top:50%;
-	width:0;
+.or-ny-action span.fa::after {
+    left: 100%;
+    top: 53%;
+    border-style: solid;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    content: " ";
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(136, 183, 213, 0) rgba(136, 183, 213, 0) rgba(136, 183, 213, 0) #E83C23;
+    border-width: 12px;
+    margin-top: -13px;
 }
 
-.or-ny-action .or-action-text
-{
-	color:#35383b;
-	display:inline-block;
-	float:none;
-	font-family:"leaguespartan webfont",sans-serif;
-	font-size:12px;
-	font-style:normal;
-	font-weight:800;
-	letter-spacing:.06em;
-	line-height:16px;
-	padding-bottom:15px;
-	padding-left:70px;
-	text-transform:uppercase;
+.or-ny-action .or-action-text {
+ font-family: "leaguespartan webfont",sans-serif;
+ font-weight: normal;
+ font-style: normal;
+ font-size: 12px;
+ color: #35383b;
+ line-height: 16px;
+ display: inline-block;
+ padding-left: 70px;
+ padding-bottom: 14px;
+ padding-top: 14px;
+ font-weight: 800;
+ letter-spacing: 0.06em;
+ text-transform: uppercase;
+ float: none;
 }
 
-.or-ny-action .normal .or-action-text a:link
-{
-	box-shadow:none;
-	color:#35383B;
-	font-family:"leaguespartan webfont",sans-serif;
-	font-size:12px;
-	font-style:normal;
-	font-weight:800;
-	line-height:20px;
-	text-decoration:none;
+.or-ny-action .normal .or-action-text a:link {
+    font-family: "leaguespartan webfont",sans-serif;
+    font-style: normal;
+    color: #35383B;
+    text-decoration: none;
+    line-height: 20px;
+    font-size: 12px;
+    font-weight: 800;
+    box-shadow: none;
 }
 
-.or-ny-action .sv-use-margins .normal
-{
-	margin-bottom:0;
+.or-ny-action .sv-use-margins .normal {
+    margin-bottom: 0px;
 }
 
-.or-ny-action:hover .or-action-text a
-{
-	color:#E83C23;
-	text-decoration:underline;
+.or-ny-action{
+position: relative;
+background:#fff;
+margin-bottom: 10px;
 }
 
-.or-ny-action
-{
-	background:#fff;
-	margin-bottom:10px;
-	position:relative;
+.or-ny-action:hover{
+    box-shadow: 0px 0px 6px 0px #E7E7E7;
 }
 
-.or-ny-action:hover
-{
-	box-shadow:0 0 6px 0 #E7E7E7;
+.or-new-action-text {
+    border: 1px solid rgba(133, 118, 114, 0.25);
 }
 
-.or-new-action-text
-{
-	border:1px solid rgba(133,118,114,0.25);
+.or-ny-action:hover .or-action-text a:link{
+text-decoration:underline;
 }
-
-
-

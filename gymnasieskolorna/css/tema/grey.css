@@ -587,19 +587,21 @@ li.sol-selected-facet:hover {
 }
 
 /* Ny action */
-.or-ny-action:hover .or-action-text a
-{
+.or-ny-action:hover .normal .or-action-text a:link{
 	color:#35383b;   
 }
 
-.or-ny-action span.fa
-{
+.or-ny-action:hover .or-action-text a{
+   color:#35383b;
+   text-decoration:underline;
+}
+
+.or-ny-action span.fa{
 	background-color:#857672;
 	color:#fff;
 }
 
-.or-ny-action span.fa::after
-{
+.or-ny-action span.fa::after{
 	border-color:rgba(136,183,213,0) rgba(136,183,213,0) rgba(136,183,213,0) #857672;
 }
 /* Slut Ny action */

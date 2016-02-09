@@ -544,24 +544,25 @@ border: 1px solid rgba(246, 217, 177, 0.5);
 }
 
 /* Ny action */
-.or-new-action-text
-{
+.or-new-action-text{
 	border:1px solid #FCE0B9;
 }
 
-.or-ny-action:hover .or-action-text a
-{
+.or-ny-action:hover .normal .or-action-text a:link{
 	color:#F28C00;
 }
 
-.or-ny-action span.fa
-{
+.or-ny-action:hover .or-action-text a{
+    color:#F28C00;
+    text-decoration:underline;
+}
+
+.or-ny-action span.fa{
 	background-color:#F28C00;
 	color:#fff;
 }
 
-.or-ny-action span.fa::after
-{
+.or-ny-action span.fa::after{
 	border-color:rgba(136,183,213,0) rgba(136,183,213,0) rgba(136,183,213,0) #F28C00;
 }
 /* Slut ny action */

@@ -544,24 +544,25 @@ li.sol-selected-facet:hover {
 }
 
 /* Ny action */
-.or-new-action-text
-{
-	border:1px solid #dbe7c4;
+.or-new-action-text {
+    border: 1px solid #dbe7c4;
 }
 
-.or-ny-action:hover .or-action-text a
-{
+.or-ny-action:hover .normal .or-action-text a:link{
 	color:#6F9333;
 }
 
-.or-ny-action span.fa
-{
-	background-color:#6F9333;
+.or-ny-action:hover .or-action-text a{
+	color:#6F9333;
+    text-decoration: underline;
+}
+
+.or-ny-action span.fa{
+	background-color: #6F9333;
 	color:#fff;
 }
 
-.or-ny-action span.fa::after
-{
-	border-color:rgba(136,183,213,0) rgba(136,183,213,0) rgba(136,183,213,0) #6F9333;
+.or-ny-action span.fa::after {
+	border-color: rgba(136, 183, 213, 0) rgba(136, 183, 213, 0) rgba(136, 183, 213, 0) #6F9333;
 }
 /* Slut ny action */

@@ -603,25 +603,27 @@ li.sol-selected-facet:hover {
  border-bottom: 1px solid #f1ddec;
 }
 
+
 /* Ny action */
-.or-new-action-text
-{
+.or-new-action-text{
 	border:1px solid #f1dde;
 }
 
-.or-ny-action:hover .or-action-text a
-{
+.or-ny-action:hover .normal .or-action-text a:link{
 	color:#D196C1;
 }
 
-.or-ny-action span.fa
-{
+.or-ny-action:hover .or-action-text a{
+	color:#D196C1;
+	text-decoration:underline;
+}
+
+.or-ny-action span.fa{
 	background-color:#D196C1;
 	color:#fff;
 }
 
-.or-ny-action span.fa::after
-{
+.or-ny-action span.fa::after{
 	border-color:rgba(136,183,213,0) rgba(136,183,213,0) rgba(136,183,213,0) #D196C1;
 }
 /* Slut ny action */
