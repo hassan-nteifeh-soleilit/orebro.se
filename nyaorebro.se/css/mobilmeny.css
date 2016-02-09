@@ -169,25 +169,29 @@ MENY
 }
 
 .or-tree .or-expanded > a {
-    background-color: rgba(232, 60, 35, 0.7);
+    background-color: #ef7664;
 }
 
 .or-tree ul.or-depth-1 {   
 }
 
-.or-tree .or-depth-1 > li > a {
+.or-tree .or-depth-1 > li  > a {
     font-family: "open sans",sans-serif;
     color: #35383b;
     font-weight: 100;
     font-size: 15px;
 }
 
-
 .or-tree .or-depth-1 > li {
     position: relative;
     background-color: #FFFFFF;
     font-family: "open sans",sans-serif;
     border-bottom: 1px solid #EAEAEA;
+}
+
+.or-tree .or-depth-1 .or-current li a{
+    background-color: aqua;
+    font-weight: bold;
 }
 
 .or-tree .or-depth-2 > li {
