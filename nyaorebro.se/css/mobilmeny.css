@@ -57,10 +57,6 @@ MENY
   display: block;
 }
 
-.or-tree .or-current {
-}
-
-
 .or-tree {
   /*display: none;*/
   position: fixed !important;
@@ -168,6 +164,7 @@ MENY
 }
 
 .or-tree .or-expanded > a {
+	background-color: #F27360;
 }
 
 .or-tree ul.or-depth-1 {   
@@ -179,7 +176,7 @@ MENY
     font-weight: 100;
     font-size: 15px;
     background-color: #fff;
-    border-bottom: 1px solid #FBFBFB;
+    border-bottom: 1px solid #EAEAEA;
 }
 
 .or-tree .or-depth-1 > li {
@@ -192,6 +189,7 @@ MENY
 .or-tree .or-depth-1 .or-current a{
     background-color: #f8f8f8;
     font-weight: normal;
+    border-bottom: 1px solid #EAEAEA;
 }
 
 .or-tree .or-depth-1 .or-toggle-panel{
@@ -208,6 +206,7 @@ MENY
     font-weight: 100;
     font-size: 15px;
     background-color: #fff;
+    border-bottom: 1px solid #EAEAEA;
 
 }
 
@@ -216,6 +215,12 @@ MENY
     color: #35383b;
     font-weight: 100;
     font-size: 15px;
+}
+
+.or-tree .or-depth-1 .or-current a {
+    background-color: #f8f8f8;
+    font-weight: 300;
+    border-bottom: 1px solid #EAEAEA;
 }
 
 .or-tree .or-depth-3 {
