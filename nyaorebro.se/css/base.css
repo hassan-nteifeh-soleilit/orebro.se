@@ -401,14 +401,8 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li .or-lis
 
 
 
-ul.or-nav-list li .or-list-wrapper:hover .or-title
-{
-	color:#f28c00;
-}
-
-ul.or-nav-list li .or-list-wrapper:hover p
-{
-	text-decoration:underline;
+ul.or-nav-list li .or-list-wrapper:hover .or-title{
+    color: #35383b;
 }
 
 ul.or-nav-list li .or-list-wrapper .or-title
@@ -447,11 +441,11 @@ nav.or-breadcrumbs li
 
 nav.or-breadcrumbs li a {
     float: left;
-    font-size: 11px;
+    font-size: 10px;
     font-weight: 600;
     padding: 4px 0;
     font-family: "leaguespartan webfont",sans-serif;
-    color: #8C817C;
+    color: #35383b;
 }
 
 nav.or-breadcrumbs li a:hover
@@ -466,8 +460,13 @@ nav.or-breadcrumbs li a:after
 	color:#D8D8D8;
 	content:"/";
 	font-weight:300;
-	padding:0 10px;
+	padding:0 5px;
 	text-decoration:none;
+}
+
+nav.or-breadcrumbs li:last-child a
+{
+color: #E83C23;
 }
 
 
