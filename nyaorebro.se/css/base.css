@@ -3,6 +3,8 @@
 body{
 	background-color: #f6f4f2;
 	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: subpixel-antialiased;
+font-smoothing: subpixel-antialiased;
 }
 
 header
@@ -31,6 +33,11 @@ header .or-wider
 	max-width:1350px;
 }
 
+.or-grid-12-col.sv-fluid-grid, .or-grid-12-col.sv-fixed-fluid-grid {
+    max-width: 1350px;
+    width: 100%;
+}
+
 .or-grid-12-col-unstacked.sv-fluid-grid, .or-grid-12-col-unstacked.sv-fixed-fluid-grid {
     max-width: 1350px;
     width: 100%;
@@ -50,7 +57,6 @@ ul li
 	line-height:1.2em;
 }
 
-<<<<<<< HEAD
 /* type fonts */
 h2 a{
     display: inline;
@@ -75,14 +81,14 @@ h3 a{
     box-shadow: rgba(174, 222, 239, 0.65)0px -14px 0px -10px inset;
     transition: all 100ms ease;
     position: relative;
-    margin-left: 10px;
+   /* margin-left: 10px;*/
 }
 
 h3 a:hover{
 	box-shadow: rgba(174, 222, 239, 0.65) 0px -60px 0px -30px inset;
 }
 
-h3 a:before{
+/*h3 a:before{
 	content: "\f061";
     font-family: FontAwesome;
     padding-right: 6px;
@@ -92,7 +98,7 @@ h3 a:before{
     left: -18px;
     position: absolute;
 }
-
+*/
 
 
 
@@ -403,6 +409,10 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li .or-lis
 
 ul.or-nav-list li .or-list-wrapper:hover .or-title{
     color: #35383b;
+}
+
+ul.or-nav-list li .or-list-wrapper:hover p {
+    text-decoration: underline;
 }
 
 ul.or-nav-list li .or-list-wrapper .or-title

@@ -1318,6 +1318,11 @@ span.sol-hit-count {
 
 /* footer */
 
+.footer-container {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 .or-social-media{
 	margin-left: 0px;
 }
@@ -1329,7 +1334,7 @@ span.sol-hit-count {
 
 .or-social-section > div{
 	position: relative;
-    padding: 10px 0 19px 0px;
+    padding: 10px 30px 19px 30px;
 
 }
 
