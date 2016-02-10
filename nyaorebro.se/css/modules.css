@@ -1397,7 +1397,36 @@ span.sol-hit-count {
 	display: inline-block;
 }
 
+.or-footer-links {
+    margin-top: 25px;
+}
+
+.or-footer-links a{
+	font-family: "leaguespartan webfont",sans-serif;
+	color: #35383b;
+	margin-right: 50px;
+    font-size: 12px;
+}
+
+.or-footer-links i {
+    color: #35383b;
+    font-size: 24px;
+    margin-right: 9px;
+    position: relative;
+    top: 2px;
+}
+
+.or-footer-links img{
+	width: 23px;
+	height: 23px;
+	position: relative;
+    top: 3px;
+    margin-right: 9px;
+}
+
+
+
 /* Mobil navigation */
 .or-mobile-menu-bar {
-	display:none;  
+	display:none;
 }
