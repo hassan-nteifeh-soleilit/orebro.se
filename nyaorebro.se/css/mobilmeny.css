@@ -259,3 +259,49 @@ MENY
    font-size: 12px;
    padding: 8px 10px 8px 60px;
 }
+
+
+.or-mobile-nav-bar{
+	position: relative;
+}
+
+
+.or-mobile-nav-bar > a{
+	background-color: #fff;
+	color: #fff;
+	width: 100px;
+	display: inline-block;
+	color: #35383b;
+	font-size: 9px;
+	text-align: center;
+	border-bottom: 0px;
+	padding: 10px 0px;
+}
+
+.or-mobile-nav-bar i{
+    width: 100%;
+    font-size: 14px;
+}
+
+.or-mobile-nav-bar .or-push-nav-btn {
+    background-color: #e83c23;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 80px;
+    height: 100%;
+}
+
+.or-mobile-nav-bar .or-push-nav-btn i{
+	color: #fff;
+	font-size: 17px;
+}
+
+.or-mobile-nav-bar .or-push-nav-btn{
+	font-size: 8px;
+	color: #fff;
+	letter-spacing: 0.04em;
+}
+
+
+
