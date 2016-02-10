@@ -1328,6 +1328,13 @@ span.sol-hit-count {
 
 /* footer */
 
+footer{
+	background-color: #FFF;
+	padding-top: 5px;
+	border-top: 2px dotted #EDEDED;
+	padding-bottom: 35px;
+}
+
 .footer-container {
     padding-left: 30px;
     padding-right: 30px;
@@ -1422,6 +1429,10 @@ span.sol-hit-count {
 	position: relative;
     top: 3px;
     margin-right: 9px;
+}
+
+.or-footer-links a:hover {
+	color: #e83c23; 
 }
 
 

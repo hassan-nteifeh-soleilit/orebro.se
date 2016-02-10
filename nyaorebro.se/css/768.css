@@ -119,7 +119,14 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-t
 
 
 
+/* footer */
 
+.or-footer-links a {
+    margin-right: 0px;
+    width: 40%;
+    display: inline-block;
+    margin-bottom: 25px;
+}
 
 
 } /* end 767 */
@@ -183,8 +190,21 @@ section.or-nav-content-section {
 	
 	
 }	
-	
-	
+
+
+@media all and (max-width: 550px){
+
+
+/* footer */
+
+.or-footer-links a {
+    margin-right: 0px;
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+}
 
 
 @media all and (max-width: 767px){
@@ -194,7 +214,6 @@ section.or-nav-content-section {
 section.or-breadcrumbs-area {
     display: none;
 }
-
 
 
 
