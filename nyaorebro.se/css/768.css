@@ -1088,7 +1088,7 @@ width:65%;
 
 
 .phone-nav-column.search-column {
-    width: 24%;
+    width: 20%;
     padding-bottom: 5px;
     border-right-style: none;
     border-left-style: none;
@@ -1097,15 +1097,25 @@ width:65%;
     height: 41px;
 }
 
+.phone-nav-column.search-column:first-child{
+	width: 35%;
+}
+
 .phone-nav-column {
-    width: 25%;
+    width: 20%;
     padding-top: 5px;
     padding-bottom: 7px;
     border-right: 2px solid rgba(255, 255, 255, 0.09);
     border-left: 2px solid rgba(255, 255, 255, 0.09);
     text-align: center;
     text-decoration: none;
-    float: right;
+    float: left;
+}
+
+.phone-nav-column i{
+    color: #e83c23;
+    font-size: 23px;
+    margin-bottom: 3px;
 }
 
 .or-search {
