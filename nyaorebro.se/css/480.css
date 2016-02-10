@@ -39,6 +39,29 @@ section.or-article-main .or-content-padding {
 
 
 
+@media all and (max-width: 390px) {
+
+
+.phone-nav-column.search-column:first-child{
+	width: 65px;
+}
+
+.phone-nav-column.search-column {
+    width: 55px;
+}
+
+
+.phone-nav-column {
+    width: 130px;
+}
+
+.phone-nav-column.search-column h4 {
+    font-size: 12px;
+    padding: 7px 1px 1px 6px;
+}
+
+}
+
 	/* från base */
 /*
 .searchform {
