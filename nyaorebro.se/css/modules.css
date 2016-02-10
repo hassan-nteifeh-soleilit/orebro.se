@@ -562,6 +562,7 @@ or-action-link
 }
 
 /* Puff */
+
 .or-puff-bild-text{
     width: 29.3333%;
     float: left;
@@ -569,6 +570,10 @@ or-action-link
     margin-right: 2%;
     margin-bottom: 30px;
     box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.06);
+}
+
+body .or-wrapper-click.or-puff-bild-text:hover p{
+	text-decoration: underline;
 }
 
 .or-puff-bild-text p{
@@ -582,6 +587,11 @@ body .or-wrapper-click.or-puff-bild-text h3{
     font-size: 15px;
     font-weight: 100;
 }
+
+body .or-wrapper-click.or-puff-bild-text:hover h3{
+	color: #35383B;
+}
+
 
 
 
@@ -1366,7 +1376,11 @@ span.sol-hit-count {
     float: left;
     color: #fff;
     font-size: 21px;
-    margin: 13px 7px 0px 8px;
+    margin: 12px 9px 0px 9px;
+}
+
+.or-social-icon i:hover {
+	color: #c7c7c7;
 }
 
 .or-adress-and-links strong {
