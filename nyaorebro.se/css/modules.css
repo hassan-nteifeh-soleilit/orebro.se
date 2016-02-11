@@ -1218,10 +1218,11 @@ span.sol-hit-count {
     cursor: pointer;
     box-shadow: rgba(255, 255, 255, 0)0px -16px 0px -11px inset!important;
 }
-.sol-facetter ul > li:hover > a {
+
+/*.sol-facetter ul > li:hover > a {
     border-bottom: 2px solid #35383b;
     transition: all 500ms ease;
-}
+}*/
 
 
 .sol-facetter .subheading3{
