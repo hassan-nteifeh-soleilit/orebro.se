@@ -1219,10 +1219,9 @@ span.sol-hit-count {
     box-shadow: rgba(255, 255, 255, 0)0px -16px 0px -11px inset!important;
 }
 
-/*.sol-facetter ul > li:hover > a {
-    border-bottom: 2px solid #35383b;
-    transition: all 500ms ease;
-}*/
+.sol-facetter ul > li:hover > a {
+    box-shadow: 0px -20px 0px 11px rgba(174, 222, 239, 0.65) inset;
+}
 
 
 .sol-facetter .subheading3{
