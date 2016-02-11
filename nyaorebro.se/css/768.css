@@ -136,6 +136,10 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-t
     margin-bottom: 25px;
 }
 
+footer {
+    padding-bottom: 5px;
+}
+
 
 } /* end 767 */
 
