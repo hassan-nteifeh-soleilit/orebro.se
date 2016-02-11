@@ -11,17 +11,12 @@
 			width : "800",
 			top: "25%",
 			left: "50%",
+			ref: "#contact",
 		},prop);
-			
-      
-		var selector = $(this).attr('data-target')      
-	
-		if (selector !== null ) {                                                     
-		 init(selector);                     		
-		}
-			
-	  
-		return this.click(function(e){
+			      		
+		init($(this));                     		
+								
+		$("a[href*='"+ options.ref +"']").click(function() {
 			add_block_page();
 			add_popup_box();
 			add_styles();
@@ -32,54 +27,12 @@
 		
 		function add_styles(){			
 			$('.or-modal').css({ 				
-				'position':'fixed', 
 				'left':options.left,
 				'top':options.top,            
-				'display':'none',				
 				'width': options.width + 'px',
 				'margin-top': (-Math.round(options.height/2)) + 'px',
 				'margin-left': (-Math.round(options.width/2)) + 'px',
-				'border':'1px solid #fff',
-				'box-shadow': '0px 2px 7px #292929',
-				'-moz-box-shadow': '0px 2px 7px #292929',
-				'-webkit-box-shadow': '0px 2px 7px #292929',
-				'border-radius':'10px',
-				'-moz-border-radius':'10px',
-				'-webkit-border-radius':'10px',
-				'background': '#f2f2f2', 
-				'z-index':'11',
-			});
-          
-			$('.or-modal-close').css({
-				'position':'relative',
-				'top':'20px',
-				'left':'30px',
-				'float':'left',
-				'display':'block',
-				'height':'50px',
-				'width':'50px',				
-			});
-                 
-			$('.or-modal-content').css({
-				'background-color':'#fff',
-				'padding':'10px',
-				'margin':'15px',
-				'border-radius':'10px',
-				'-moz-border-radius':'10px',
-				'-webkit-border-radius':'10px'
-			});
-
-
-			$('.or-backdrop').css({
-				'position':'fixed',
-				'top':'0',
-				'left':'0',
-				'background-color':'rgba(0,0,0,0.6)',
-				'height':'100%',
-				'width':'100%',
-				'z-index':'10'
-			});
-
+			});          
 		}
 		
 		function add_block_page(){
