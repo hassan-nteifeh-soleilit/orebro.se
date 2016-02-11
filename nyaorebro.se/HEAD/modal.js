@@ -50,7 +50,7 @@
       function init (selector) {
          $(selector).wrap('<div class="or-modal-content" ></div>');      
          $('.or-modal-content').wrap('<div class="or-modal" style="display:none;"></div>');
-         $('.or-modal-content').before('<a href="#" class="or-modal-close"><i class="fa fa-close"></i></a>');
+         $('.or-modal-content').before('<a href="#" class="or-modal-close"><i class="fa fa-close"></i> Stäng</a>');
          $(selector).show();   
       }
 		
