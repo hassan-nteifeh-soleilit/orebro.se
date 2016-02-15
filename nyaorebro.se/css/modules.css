@@ -1,4 +1,4 @@
-/* 1. Sökfält */
+﻿/* 1. Sökfält */
 /* 2. Liten kalender info ruta */
 /* 3. Kalender faktaruta */
 
@@ -1511,4 +1511,24 @@ footer{
 	height:100%;
 	width:100%;
 	z-index:10;
+}
+
+/* Temporär info ruta */
+.or-tir {
+   border-color: #f28c00;
+   background-color: #ffffff;
+   border-radius:2px;
+}   
+
+
+.or-tir h4, h3, h2 {
+    color: #F28C00;
+}
+
+.or-tir:before {
+    content: "\F05A";
+    font-family: FontAwesome;
+    font-style: initial;
+    font-size: 25px;
+    vertical-align: middle;
 }
