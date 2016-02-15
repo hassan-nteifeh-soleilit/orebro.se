@@ -28,8 +28,8 @@ section.or-article-main .or-content-padding {
 
 /*footer*/
 
-.or-footer-logos{
-	display: none;
+.or-footer-logo {
+	width: 60px;
 }
 
 

@@ -34,11 +34,6 @@ header .or-wider
 }
 
 
-.or-grid-12-col-unstacked.sv-fluid-grid, .or-grid-12-col-unstacked.sv-fixed-fluid-grid {
-    max-width: 1350px;
-    width: 100%;
-}
-
 ul
 {
 	list-style-type:none;
