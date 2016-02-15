@@ -33,10 +33,6 @@ header .or-wider
 	max-width:1350px;
 }
 
-.or-grid-12-col.sv-fluid-grid, .or-grid-12-col.sv-fixed-fluid-grid {
-    max-width: 1220px;
-    width: 100%;
-}
 
 .or-grid-12-col-unstacked.sv-fluid-grid, .or-grid-12-col-unstacked.sv-fixed-fluid-grid {
     max-width: 1350px;
