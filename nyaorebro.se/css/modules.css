@@ -1447,6 +1447,13 @@ footer{
 	color: #e83c23; 
 }
 
+.footerxadress {
+    line-height: 1.2em;
+}
+
+.footerxadress p{
+    margin: 0px;
+}
 
 
 /* Mobil navigation */
