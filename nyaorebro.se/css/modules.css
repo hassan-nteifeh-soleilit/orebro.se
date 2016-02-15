@@ -1112,6 +1112,16 @@ span.sol-hit-count {
 .sol-search-hits .sol-search-icon-wrapper {
     width: 5%;
 }
+
+.sol-search-hits .sol-search-icon-wrapper img{
+    width: 35px;
+}
+
+.sol-search-hits .sol-search-icon-wrapper .sol-doc-size p{
+	margin-top: 0px;
+	font-size: 11px;
+}
+
 .sol-search-hits > div {
     margin-left: 17px;
     width: 85%;
@@ -1280,6 +1290,10 @@ span.sol-hit-count {
     cursor: pointer;
 }
 
+#or-paging-id{
+	margin-bottom: 20px;
+}
+
 #or-paging-id .current.prev {
     background-color: #fff;
     color: #000;
@@ -1297,6 +1311,10 @@ span.sol-hit-count {
     font-size: 13px;
     padding: 9px 12px;
     box-shadow: rgba(174, 222, 239, 0.0)0px -16px 0px -11px inset;
+}
+
+#or-paging-id a:hover {
+    background-color: rgba(248, 148, 6, 0.2);
 }
 
 .pagination .current {
