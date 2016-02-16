@@ -20,6 +20,16 @@
     margin-left: 15px!important;
 }
 
+/* Modal popup */
+.or-kontakta-kontaktpersoner-vanster > div{
+	border: 0px;
+}
+
+.or-modal{
+    width: 700px!important;
+    margin-left: -350px!important;
+}
+
 
 }
 
