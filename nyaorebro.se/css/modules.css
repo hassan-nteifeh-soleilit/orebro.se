@@ -1533,20 +1533,30 @@ footer{
 
 /* Temporär info ruta */
 .or-tir {
-   border-color: #f28c00;
-   background-color: #ffffff;
-   border-radius:2px;
-}   
+    border: 2px solid rgba(242, 140, 0, 0.19);
+    background-color: #fefdee;
+    border-radius: 4px;
+    padding: 22px 20px 10px 53px;
+    position: relative;
+}
 
+body .or-content-container .or-tir h2 {
+    margin-top: 0px;
+    font-size: 18px;
+}
 
-.or-tir h4, h3, h2 {
-    color: #F28C00;
+body .or-content-container .or-tir p {
+    font-size: 16px;
 }
 
 .or-tir:before {
     content: "\F05A";
     font-family: FontAwesome;
     font-style: initial;
-    font-size: 25px;
+    font-size: 28px;
     vertical-align: middle;
+    color: #f28c00;
+    position: absolute;
+    left: 15px;
+    top: 23px;
 }
