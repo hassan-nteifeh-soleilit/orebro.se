@@ -1117,7 +1117,17 @@ span.sol-hit-count {
     width: 35px;
 }
 
-.sol-doc-size p{
+body .sol-search-hits .sol-doc-size{
+	margin-top: 0px;
+	font-size: 11px;
+}
+
+body .sol-search-hits .sol-doc-size p{
+	margin-top: 0px;
+	font-size: 11px;
+}
+
+.sol-doc-size{
 	margin-top: 0px;
 	font-size: 11px;
 }
