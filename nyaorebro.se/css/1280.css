@@ -57,11 +57,22 @@ body .or-wrapper-click.or-puff-bild-text h3 {
     font-size: 18px;
 }
 
+/* Temporär info ruta */
+
+body .or-content-container .or-tir p {
+    font-size: 17px;
+}
+
+
 
 }  /* end 1350 */
 
 
 @media (min-width: 1550px) {
+	
+ul li {
+    font-size: 21px;
+}
 
 section.or-article-main .or-content-padding {
     max-width: 900px;
@@ -88,9 +99,10 @@ body .or-wrapper-click.or-puff-bild-text h3 {
 }
 
 
+/* Temporär info ruta */
 
-ul li {
-    font-size: 21px;
+body .or-content-container .or-tir p {
+    font-size: 18px;
 }
 
 

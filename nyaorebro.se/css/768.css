@@ -157,6 +157,17 @@ footer {
 }
 
 
+/* Temporär info ruta */
+body .or-content-container .or-tir h2 {
+    margin-top: 0px;
+    font-size: 16px;
+}
+
+body .or-content-container .or-tir p {
+    font-size: 15px;
+}
+
+
 } /* end 767 */
 
 

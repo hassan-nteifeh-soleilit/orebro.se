@@ -45,6 +45,17 @@ section.or-article-main .or-content-padding {
     padding-right: 10px;
 }
 
+/* Temporär info ruta */
+body .or-content-container .or-tir h2 {
+    margin-top: 0px;
+    font-size: 14px;
+}
+
+body .or-content-container .or-tir p {
+    font-size: 14px;
+}
+
+
 
 /*footer*/
 
