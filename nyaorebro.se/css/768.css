@@ -163,8 +163,14 @@ body .or-content-container .or-tir p {
 
 /* modal */
 .or-modal {
-    width: 650px!important;
-    margin-left: -325px!important;
+    position: absolute!important;
+    top: 51px!important;
+    left: 0!important;
+    width: 100%!important;
+    border-radius: 0!important;
+    margin-left: 0!important;
+    margin-top: 0!important;
+    height: 100%;
 }
 
 /* mobilmeny */
@@ -251,12 +257,7 @@ section.or-nav-content-section {
     padding-right: 8px;
 }
 
-/* modal */
-.or-modal {
-    width: 540px!important;
-    margin-left: -270px!important;
-}
-	
+
 	
 }	
 
@@ -273,12 +274,6 @@ section.or-nav-content-section {
     margin-bottom: 25px;
 }
 
-
-/* modal */
-.or-modal {
-    width: 460px!important;
-    margin-left: -230px!important;
-}
 
 
 }
