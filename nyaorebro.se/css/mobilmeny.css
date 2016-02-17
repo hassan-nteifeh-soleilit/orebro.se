@@ -19,7 +19,6 @@ MENY
 }
 
 .or-tree .or-title a{
-    font-size: 16px;
     color: #fff;
     line-height: 20px;
     font-weight: bold;
@@ -39,7 +38,7 @@ MENY
 }
 
 .or-tree ul li a{
-	font-size: 12px;
+	font-size: 12px!important;
 }
 
 .or-tree li.or-parent {
@@ -52,7 +51,6 @@ MENY
 .or-tree > li > a {
    font-family: "Open Sans",sans-serif;   
    color: #35383B;
-   font-size: 14px;
    line-height: 16px;
    font-weight: 400;
 }
@@ -186,7 +184,6 @@ MENY
     font-family: "open sans",sans-serif;
     color: #35383b;
     font-weight: 100;
-    font-size: 15px;
     background-color: #fff;
     border-bottom: 1px solid #EAEAEA;
     padding-left: 20px;
@@ -222,7 +219,6 @@ MENY
 	font-family: "open sans",sans-serif;
     color: #35383b;
     font-weight: 100;
-    font-size: 15px;
     background-color: #fff;
     border-bottom: 1px solid #EAEAEA;
 	padding-left: 30px;
@@ -240,7 +236,6 @@ MENY
    	font-family: "open sans",sans-serif;
     color: #35383b;
     font-weight: 100;
-    font-size: 15px;
 }
 
 .or-tree .or-depth-1 .or-current a {
@@ -263,12 +258,10 @@ MENY
 }
 
 .or-tree .or-depth-4 > li > a {
-   font-size: 13px;
    padding: 11px 10px 11px 40px;
 }
 
 .or-tree .or-depth-5 > li > a {
-   font-size: 12px;
    padding: 8px 10px 8px 60px;
 }
 
