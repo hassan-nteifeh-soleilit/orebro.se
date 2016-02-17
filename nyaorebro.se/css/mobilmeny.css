@@ -87,7 +87,6 @@ MENY
 }
 */
 .or-tree a {
-    display: block;
     font-family: "leaguespartan webfont",sans-serif;
     padding: 14px 5px 14px 25px;
     text-decoration: none;
@@ -99,6 +98,8 @@ MENY
     border-bottom: 2px solid #EF6F5D;
     padding-left: 15px;
     padding-right: 45px;
+    display: inline-block;
+    width: 100%;
 }
 
 .or-tree .or-toggle-panel {
