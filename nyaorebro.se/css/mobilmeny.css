@@ -87,7 +87,7 @@ MENY
 }
 */
 .or-tree a {
-    display: list-item;
+    display: block;
     font-family: "leaguespartan webfont",sans-serif;
     padding: 14px 5px 14px 25px;
     text-decoration: none;
