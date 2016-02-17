@@ -55,6 +55,11 @@ body .or-content-container .or-tir p {
     font-size: 14px;
 }
 
+/* modal */
+.or-modal {
+    width: 390px!important;
+    margin-left: -195px!important;
+}
 
 
 /*footer*/
@@ -89,6 +94,12 @@ body .or-content-container .or-tir p {
 .phone-nav-column.search-column h4 {
     font-size: 12px;
     padding: 7px 1px 1px 6px;
+}
+
+/* modal */
+.or-modal {
+    width: 320px!important;
+    margin-left: -160px!important;
 }
 
 }

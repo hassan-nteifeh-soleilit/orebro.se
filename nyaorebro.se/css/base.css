@@ -378,6 +378,7 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a
 {
 	background:#FAFAFA;
 	padding:12px 10px 0 15px;
+	position: relative;
 }
 
 section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-title
@@ -385,6 +386,7 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-t
 	font-size:14px;
 	margin-top:0;
 	line-height: 1.35em;
+	padding-left: 9px;
 }
 
 section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-title:before
@@ -393,8 +395,9 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-t
 	content:"\f061";
 	font-family:FontAwesome;
 	padding-right:6px;
-	position:relative;
-	top:-2px;
+	position: absolute;
+    top: 12px;
+    left: 6px;
 }
 
 

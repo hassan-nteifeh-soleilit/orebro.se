@@ -126,11 +126,6 @@ body section.or-nav-content-section .or-grid-12-col.or-wider h2 {
     height: 51px;
 }
 
-section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-title:before {
-    top: 0px;
-    padding-right: 7px;
-}
-
 
 /* footer */
 
@@ -166,6 +161,12 @@ body .or-content-container .or-tir p {
     font-size: 15px;
 }
 
+/* modal */
+.or-modal {
+    width: 650px!important;
+    margin-left: -325px!important;
+}
+
 
 } /* end 767 */
 
@@ -176,6 +177,11 @@ body .or-content-container .or-tir p {
 /* navigering */	
 ul.or-nav-list li .or-list-wrapper p {
     display: none;
+}
+
+section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-title:before {
+    top: 6px;
+    left: 5px;
 }
 
 ul.or-nav-list li .or-list-wrapper {
@@ -217,13 +223,19 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li .or-sin
 }
 
 section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a {
-    padding: 6px 6px 6px 7px;
+    padding: 6px 6px 6px 11px;
 }
 
  
 section.or-nav-content-section {
     padding-left: 8px;
     padding-right: 8px;
+}
+
+/* modal */
+.or-modal {
+    width: 540px!important;
+    margin-left: -270px!important;
 }
 	
 	
@@ -241,6 +253,14 @@ section.or-nav-content-section {
     display: inline-block;
     margin-bottom: 25px;
 }
+
+
+/* modal */
+.or-modal {
+    width: 460px!important;
+    margin-left: -230px!important;
+}
+
 
 }
 
