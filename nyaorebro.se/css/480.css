@@ -68,6 +68,18 @@ body .or-content-container .or-tir p {
 	width: 60px;
 }
 
+/* mobilmeny */
+.or-tree a {
+    font-size: 11px;
+    padding: 10px 5px 10px 10px;
+}
+
+.or-tree .or-depth-1 > li > a {
+    font-size: 12px;
+}
+
+
+
 
 
 
