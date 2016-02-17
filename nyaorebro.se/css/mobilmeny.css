@@ -37,9 +37,6 @@ MENY
    -webkit-transform: translateZ(0);
 }
 
-.or-tree ul li a{
-	font-size: 12px!important;
-}
 
 .or-tree li.or-parent {
     position: relative;
@@ -53,6 +50,7 @@ MENY
    color: #35383B;
    line-height: 16px;
    font-weight: 400;
+
 }
 
 .or-tree > ul, .or-expanded > ul {
@@ -88,7 +86,7 @@ MENY
   
 }
 */
-.or-tree a {
+.or-tree ul li a {
     font-family: "leaguespartan webfont",sans-serif;
     padding: 14px 5px 14px 25px;
     text-decoration: none;
@@ -101,6 +99,7 @@ MENY
     padding-right: 45px;
     display: inline-block;
     width: 100%;
+    font-size: 8px!important;
 }
 
 .or-tree .or-toggle-panel {
