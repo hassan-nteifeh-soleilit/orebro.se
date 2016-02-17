@@ -367,6 +367,12 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li
 	display: none;
 }
 
+.or-single a .sv-linkicon
+{
+	display: none;
+}
+
+
 
 section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a
 {
