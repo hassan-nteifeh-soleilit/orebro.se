@@ -5,6 +5,12 @@ body{
 /*	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: subpixel-antialiased;
 font-smoothing: subpixel-antialiased;*/
+    -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
+
+}
+
+html {
+    -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
 }
 
 header
