@@ -140,31 +140,6 @@ header .or-logo
 	font-size: 17px;
 }
 
-/* Kolumner i toppheader */
-/* Andvänds istället för SV responsive layout i GYW */
-/*
-.or-col-logo-header {
-  display: inline-block;
-  width: 35%;
-  float: left;
-}
-
-
-.or-col-search-header {
-  display: inline-block;
-  width: 45%;
-  margin-right: 10%;
-  padding-right: 20px;
-  float: right;
-}
-
-.or-col-menu-header {      
-  position: absolute;
-  right: 15px;    
-}
-*/
-
-
 .or-tool-area
 {
 	background-color:#fff;
