@@ -59,7 +59,7 @@ MENY
 
 .or-tree {
   /*display: none;*/
-  position: fixed !important;
+  position: absolute;
   top: 0;
   right: -440px;
   bottom: 0;  
