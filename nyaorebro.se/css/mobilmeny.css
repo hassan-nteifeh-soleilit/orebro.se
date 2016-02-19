@@ -201,10 +201,12 @@ MENY
     border-bottom: 1px solid #EAEAEA;
 }
 
-.or-tree .or-depth-1 .or-current a{
+.or-tree .or-depth-1 .or-current a {
     background-color: #f8f8f8;
-    font-weight: normal;
     border-bottom: 1px solid #EAEAEA;
+    font-weight: 700;
+    border-left: 4px solid #e83c23;
+    border-bottom: 0px;
 }
 
 .or-tree .or-depth-1 .or-toggle-panel{
