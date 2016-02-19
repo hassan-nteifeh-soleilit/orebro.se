@@ -243,7 +243,6 @@ MENY
 
 .or-tree .or-depth-1 .or-current a {
     background-color: #f8f8f8;
-    border-bottom: 1px solid #EAEAEA;
 }
 
 .or-tree .or-depth-3 {
