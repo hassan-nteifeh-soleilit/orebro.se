@@ -87,8 +87,9 @@ MENY
 }
 */
 .or-tree ul li a {
-    font-family: "leaguespartan webfont",sans-serif;
-    padding: 14px 5px 14px 25px;
+    /*font-family: "leaguespartan webfont",sans-serif;*/
+    font-family: "open sans",sans-serif;
+    padding: 14px 49px 14px 25px;
     text-decoration: none;
     color: #fff;
     line-height: 15px;
@@ -97,9 +98,9 @@ MENY
     border-bottom: 2px solid #EF6F5D;
     padding-left: 15px;
     padding-right: 45px;
-    display: inline-block;
-    width: 100%;
-    font-size: 12px;
+    display: block;
+    font-size: 13px;
+    font-weight: 700;
 }
 
 .or-tree .or-toggle-panel {
@@ -110,7 +111,7 @@ MENY
     font-weight: normal;
     outline: none;
     position: absolute;
-    right: 5px;
+    right: 10px;
     margin-top: 6px;
     margin-bottom: -13px;
     padding: 0em;
@@ -182,11 +183,11 @@ MENY
 .or-tree .or-depth-1 > li > a {
     font-family: "open sans",sans-serif;
     color: #35383b;
-    font-weight: 100;
+    font-weight: 400;
     background-color: #fff;
     border-bottom: 1px solid #EAEAEA;
     padding-left: 20px;
-
+    font-size: 13px;
 }
 
 .or-tree .or-depth-1 > li > a:hover {
@@ -217,10 +218,11 @@ MENY
 .or-tree .or-depth-2 > li a{
 	font-family: "open sans",sans-serif;
     color: #35383b;
-    font-weight: 100;
     background-color: #fff;
     border-bottom: 1px solid #EAEAEA;
 	padding-left: 30px;
+	font-size: 13px;
+	font-weight: 400;
 }
 
 .or-tree .or-depth-2 > li > a:hover {
@@ -239,7 +241,6 @@ MENY
 
 .or-tree .or-depth-1 .or-current a {
     background-color: #f8f8f8;
-    font-weight: 300;
     border-bottom: 1px solid #EAEAEA;
 }
 
