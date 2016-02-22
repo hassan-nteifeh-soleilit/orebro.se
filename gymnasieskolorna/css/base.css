@@ -8429,3 +8429,49 @@ display:none;
    position: relative;
    top: -50px;
 }
+
+/* formulär-toppbild sjuksköterskewebben*/
+
+.or-form-column{
+}
+
+.or-form-column p {
+ font-size: 12px;
+ line-height: 1.4em;
+}
+
+.or-form-column h2{
+    font-size: 19px;
+    margin-top: 11px!important;
+    color: #0098BD;
+}
+
+.or-form-column input normal p{
+font-size:12px;
+} 
+
+.or-form-column normal p input{
+font-size:12px;
+} 
+
+.or-form-column input {
+ font-size: 12px;
+ font-weight: 100;
+ padding-left: 5px;
+ width:100%;
+}
+
+.or-form-column textarea{
+font-size:12px;
+}
+
+.or-form-column input[type=submit] {
+   background-color: #0098BD;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 0;
+    padding: 3px 10px;
+    border-radius: 2px;
+}
+
