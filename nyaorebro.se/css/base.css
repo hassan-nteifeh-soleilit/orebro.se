@@ -564,6 +564,7 @@ nav.or-breadcrumbs li:last-child a:after
 	display: table-row;
 	font-weight: bold;
 	text-align: center;
+	background-color: red;
 }
 .or-tb-row
 {
@@ -579,8 +580,36 @@ nav.or-breadcrumbs li:last-child a:after
 	padding-right: 5px;
 }
 
-.or-tb-head > div {
-	font-weight: bold;
+
+
+.or-sortable .or-tb-head  a{	
+	color: #fff;
+	line-height: 1.3em;
+}
+
+.or-sort-box
+{
+    padding-left: 5px;
+	padding-right: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(0, 152, 189, 0.27);
+    border-radius: 2px;
+    background-color: #E83C23;
+	margin-top: 2px;
+	margin-bottom: 2px;
+    float:right;	
+}
+
+.or-sort-box.sorting-by {
+	background-color: white;
+}
+
+.or-sortable  .or-tb-row:nth-child(even) {
+  background-color: red;
+}
+.or-sortable  .or-tb-row:nth-child(odd) {
+  background-color: #fff;
 }
 
 
