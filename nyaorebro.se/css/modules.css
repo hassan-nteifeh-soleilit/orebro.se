@@ -1113,13 +1113,15 @@ span.sol-hit-count {
     width: 5%;
 }
 
-.sol-search-hits .sol-search-icon-wrapper img{
-    width: 35px;
+.sol-search-hits .sol-search-icon-wrapper img {
+    width: 26px;
 }
 
-body .sol-search-hits .sol-doc-size{
-	margin-top: 0px;
-	font-size: 11px;
+body .sol-search-hits .sol-doc-size {
+    margin-top: 0px;
+    font-size: 11px;
+    top: -5px;
+    position: relative;
 }
 
 body .sol-search-hits .sol-doc-size p{
@@ -1311,6 +1313,10 @@ body .sol-search-hits .sol-doc-size p{
     text-transform: uppercase;
     font-size: 13px;
     padding: 5px 10px;
+}
+
+#or-paging-id .current.prev:hover {
+    background-color: rgba(248, 148, 6, 0.2);
 }
 
 #or-paging-id a {
