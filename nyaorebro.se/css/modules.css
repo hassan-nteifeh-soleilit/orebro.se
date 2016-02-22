@@ -1346,9 +1346,12 @@ body .sol-search-hits .sol-doc-size p{
 .or-total-link a {
     background-color: white;
     padding: 5px;
-	box-shadow: 0px -16px 0px -12px rgb(174, 222, 239) inset;
 	box-shadow: 0px -16px 0px -12px rgba(174, 222, 239, 0.65) inset;
 	transition: all 100ms ease 0s;
+}
+
+.or-total-link a:hover {
+    box-shadow: 0px -36px 0px -12px rgba(174, 222, 239, 0.65) inset;
 }
 
 .or-total-link {
