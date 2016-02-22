@@ -1317,6 +1317,7 @@ body .sol-search-hits .sol-doc-size p{
     text-transform: uppercase;
     font-size: 13px;
     padding: 5px 10px;
+    cursor: pointer;
 }
 
 #or-paging-id .current.prev:hover {
