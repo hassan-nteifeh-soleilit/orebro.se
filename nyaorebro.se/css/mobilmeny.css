@@ -273,16 +273,17 @@ MENY
 }
 
 
-.or-mobile-nav-bar > a{
-	background-color: #fff;
-	color: #fff;
-	width: 100px;
-	display: inline-block;
-	color: #35383b;
-	font-size: 9px;
-	text-align: center;
-	border-bottom: 0px;
-	padding: 8px 0px 8px;
+.or-mobile-nav-bar > a {
+    background-color: #fff;
+    color: #fff;
+    width: 100px;
+    display: inline-block;
+    color: #35383b;
+    font-size: 10px;
+    text-align: center;
+    border-bottom: 0px;
+    padding: 8px 0px 8px;
+    font-weight: 700;
 }
 
 .or-mobile-nav-bar > a:hover{
@@ -318,6 +319,11 @@ MENY
 	font-size: 8px;
 	color: #fff;
 	letter-spacing: 0.04em;
+}
+
+
+.sc-landing-page-card .sc-arrow-read-more {
+    border-width: 0 0 40px 40px;
 }
 
 
