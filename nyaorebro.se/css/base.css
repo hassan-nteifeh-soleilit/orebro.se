@@ -553,6 +553,37 @@ nav.or-breadcrumbs li:last-child a:after
    position: absolute;
 }
 
+
+/* CSS tabell */
+.or-tb{
+        display: table;
+    }
+
+.or-tb-head
+{
+	display: table-row;
+	font-weight: bold;
+	text-align: center;
+}
+.or-tb-row
+{
+	display: table-row;
+}
+.or-tb-head > div,
+.or-tb-row > div
+{
+	display: table-cell;
+	border: solid;
+	border-width: thin;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.or-tb-head > div {
+	font-weight: bold;
+}
+
+
 @media max-width 992px {
 	section.or-article-main .or-content-padding
 	{
