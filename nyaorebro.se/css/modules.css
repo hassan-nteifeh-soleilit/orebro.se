@@ -1202,6 +1202,10 @@ body .sol-search-hits .sol-doc-size p{
     list-style: none;
 }
 
+.sol-facetter ul > li:hover {
+	    background-color: rgba(248, 148, 6, 0.2);
+}
+
 
 .sol-facetter .sol-selected-facet{
 	background: #e83c23;
