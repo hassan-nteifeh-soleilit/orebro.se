@@ -186,6 +186,17 @@ body .or-content-container .or-tir p {
 
 } /* end 767 */
 
+/* CSS tabell */
+
+.or-tb-head > div, .or-tb-row > div {
+    display: block;
+}
+
+.or-tb-head {
+    display: none;
+}
+
+
 
 @media all and (max-width: 680px){
 	
