@@ -561,56 +561,76 @@ nav.or-breadcrumbs li:last-child a:after
 /* CSS tabell */
 .or-tb{
         display: table;
+        width: 95%!important;
+        margin: 20px auto;
     }
 
-.or-tb-head
-{
-	display: table-row;
-	font-weight: bold;
-	text-align: center;
-	background-color: red;
+.or-tb-head {
+    display: table-row;
+    font-weight: bold;
+    text-align: left;
+    background-color: #e83c23;
 }
 .or-tb-row
 {
 	display: table-row;
 }
-.or-tb-head > div,
-.or-tb-row > div
-{
-	display: table-cell;
-	border: solid;
-	border-width: thin;
-	padding-left: 5px;
-	padding-right: 5px;
+.or-tb-head > div, .or-tb-row > div {
+    display: table-cell;
+    border: solid 1px rgba(255, 255, 255, 0.25);
+    /* border-width: thin; */
+    padding-left: 14px;
+    padding-right: 5px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    border-bottom: solid 1px #f3dcd0;
+    font-size: 12px;
+}
+
+.or-tb-head > div, .or-tb-row > div a {
+    font-size: 11px;
+    padding: 9px 35px 10px 15px;
+    position: relative;
 }
 
 
-
-.or-sortable .or-tb-head  a{	
-	color: #fff;
-	line-height: 1.3em;
+.or-sortable .or-tb-head a {
+    color: #fff;
+    line-height: 1.3em;
+    font-family: "leaguespartan webfont",sans-serif;
+    font-size: 12px;
 }
 
-.or-sort-box
-{
-    padding-left: 5px;
-	padding-right: 5px;
+.or-sort-box {
     border-style: solid;
     border-width: 1px;
-    border-color: rgba(0, 152, 189, 0.27);
+    border-color: rgba(255, 255, 255, 0.44);
     border-radius: 2px;
     background-color: #E83C23;
-	margin-top: 2px;
-	margin-bottom: 2px;
-    float:right;	
+    margin-top: 2px;
+    margin-bottom: 2px;
+    background-color: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    right: 10px;
+    height: 15px;
+    width: 20px;
+    text-align: center;
 }
+
+.or-sort-box i{
+color: #fff;}
+
 
 .or-sort-box.sorting-by {
 	background-color: white;
 }
 
-.or-sortable  .or-tb-row:nth-child(even) {
-  background-color: red;
+.or-sort-box.sorting-by i{
+	color: #E83C23;
+}
+
+.or-sortable .or-tb-row:nth-child(even) {
+    background-color: rgb(255, 241, 222);
 }
 .or-sortable  .or-tb-row:nth-child(odd) {
   background-color: #fff;
