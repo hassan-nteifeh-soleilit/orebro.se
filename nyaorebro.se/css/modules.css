@@ -1670,9 +1670,6 @@ body .or-content-container .or-tir p {
     border-width: 12px;
     margin-top: -13px;
 }
-.or-ny-action .fa.fa-chevron-right {
-    line-height: 48px;
-}
 
 .or-ny-action .or-action-text {
  font-family: "leaguespartan webfont",sans-serif;
@@ -1761,4 +1758,8 @@ body .or-content-container .or-tir p {
     right: 0px;
     bottom: 0px;
     width: 50px;
+}
+
+.or-action-right-icon .fa.fa-chevron-right {
+    line-height: 48px;
 }
