@@ -559,12 +559,14 @@ nav.or-breadcrumbs li:last-child a:after
 
 
 /* CSS tabell */
-.or-tb{
-        display: table;
-        width: 95%!important;
-        margin: 20px auto;
-    }
-
+.or-tb {
+    display: table;
+    width: 95%!important;
+    margin: 20px auto;
+    border-left: solid 1px #f3dcd0;
+    border-right: solid 1px #f3dcd0;
+    border-top: solid 1px #f3dcd0;
+}
 .or-tb-head {
     display: table-row;
     font-weight: bold;
@@ -575,23 +577,49 @@ nav.or-breadcrumbs li:last-child a:after
 {
 	display: table-row;
 }
-.or-tb-head > div, .or-tb-row > div {
+.or-tb-head > div{
+    display: table-cell;
+    border: solid 1px rgba(255, 255, 255, 0.25);
+    padding-bottom: 12px;
+    padding-top: 12px;
+    padding-left: 14px;
+    border-bottom: solid 1px #f3dcd0;
+    font-size: 12px;
+    width: 20%;
+}
+
+.or-tb-head > div:hover{
+    background-color: #D53720;
+}
+
+.or-tb-row > div {
     display: table-cell;
     border: solid 1px rgba(255, 255, 255, 0.25);
     /* border-width: thin; */
     padding-left: 14px;
     padding-right: 5px;
-    padding-bottom: 12px;
-    padding-top: 12px;
+    padding-bottom: 9px;
+    padding-top: 9px;
     border-bottom: solid 1px #f3dcd0;
-    font-size: 12px;
+    font-size: 13px;
 }
 
-.or-tb-head > div, .or-tb-row > div a {
-    font-size: 11px;
-    padding: 9px 35px 10px 15px;
+
+.or-tb-head > div a{
     position: relative;
+    display: block;
 }
+
+.or-tb-row > div a {
+    position: relative;
+    box-shadow: rgba(174, 222, 239, 0.65)0px -16px 0px -11px inset;
+    transition: all 100ms ease;
+}
+
+.or-tb-row > div a:hover {
+    box-shadow: rgba(174, 222, 239, 0.65)0px -29px 0px -11px inset;
+}
+
 
 
 .or-sortable .or-tb-head a {
@@ -606,15 +634,21 @@ nav.or-breadcrumbs li:last-child a:after
     border-width: 1px;
     border-color: rgba(255, 255, 255, 0.44);
     border-radius: 2px;
-    background-color: #E83C23;
     margin-top: 2px;
     margin-bottom: 2px;
     background-color: rgba(255, 255, 255, 0.2);
     position: absolute;
     right: 10px;
-    height: 15px;
+    height: 16px;
     width: 20px;
     text-align: center;
+    top: -3px;
+    -webkit-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+
+.or-sort-box:hover {
+    background-color: #D53720;
 }
 
 .or-sort-box i{
@@ -623,6 +657,13 @@ color: #fff;}
 
 .or-sort-box.sorting-by {
 	background-color: white;
+	-webkit-transition: all 200ms ease;
+    transition: all 200ms ease;
+
+}
+
+.or-sort-box.sorting-by:hover {
+    background-color: rgba(255, 255, 255, 0.7);
 }
 
 .or-sort-box.sorting-by i{
@@ -630,7 +671,7 @@ color: #fff;}
 }
 
 .or-sortable .or-tb-row:nth-child(even) {
-    background-color: rgb(255, 241, 222);
+    background-color: #fdf7f1;
 }
 .or-sortable  .or-tb-row:nth-child(odd) {
   background-color: #fff;

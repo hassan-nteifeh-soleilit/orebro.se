@@ -184,9 +184,14 @@ body .or-content-container .or-tir p {
 }
 
 
-} /* end 767 */
 
 /* CSS tabell */
+
+.or-tb {
+    border-left: solid 0px #fff;
+    border-right: solid 0px #fff;
+    border-top: solid 0px #fff;
+}
 
 .or-tb-head > div, .or-tb-row > div {
     display: block;
@@ -196,6 +201,29 @@ body .or-content-container .or-tir p {
     display: none;
 }
 
+.or-tb-row > div {
+    padding-bottom: 1px;
+    padding-top: 1px;
+    border-bottom: solid 0px #fff;
+}
+
+.or-sortable .or-tb-row, .or-sortable .or-tb-row:nth-child(even) {
+    background-color: rgb(255, 255, 255);
+    border: solid 1px #f3dcd0;
+}
+
+.or-tb-row {
+    display: block;
+    margin-bottom: 15px;
+    padding: 8px 3px;
+}
+
+.or-tb-row > div a {
+    font-size: 13px;
+}
+
+
+} /* end 767 */
 
 
 @media all and (max-width: 680px){
