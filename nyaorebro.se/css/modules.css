@@ -1703,7 +1703,7 @@ body .or-content-container .or-tir p {
     margin-bottom: 0px;
 }
 
-.or-ny-action{
+.or-ny-action {
 position: relative;
 background:#fff;
 margin-bottom: 10px;
@@ -1715,4 +1715,34 @@ margin-bottom: 10px;
 
 .or-new-action-text {
     border: 1px solid rgba(133, 118, 114, 0.25);
+}
+
+.or-colorborder {
+    width: 100%;
+    position: relative;
+    margin-top: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(133, 118, 114);
+    border-color: rgba(133, 118, 114, 0.4);
+    border-radius: 1px;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
+    background-color: #FFF;
+    transition: all 500ms ease 0s;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.or-action-right-icon {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 50px;
+    height: 100%;
+    background-image: url('/images/18.758f01f014bc6929dc682b9/1426605356772/arrowRight.svg');
+    background-position: 50% 50%;
+    background-size: 11px;
+    background-repeat: no-repeat;
 }
