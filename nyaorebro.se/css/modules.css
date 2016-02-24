@@ -1235,6 +1235,35 @@ body .sol-search-hits .sol-doc-size p{
 	border-bottom: 0px solid #35383b;
 }
 
+.sol-icon-facet-active {
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-attachment: scroll;
+    float: right;
+    width: 16px;
+    height: 16px;
+    opacity: 0.85;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
+    filter: alpha(opacity=85);
+    -moz-opacity: 0.85;
+    -khtml-opacity: 0.85;
+}
+
+li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
+    content: "\F067";
+    font-family: FontAwesome;
+    font-style: initial;
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+.sol-icon-facet-active:after {
+    content: "\F00C";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-size: 18px;
+    vertical-align: middle;
+}
 
 
 .sol-facetter ul > li > a {
