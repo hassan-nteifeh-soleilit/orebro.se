@@ -1248,6 +1248,12 @@ body .sol-search-hits .sol-doc-size p{
     -moz-opacity: 0.85;
     -khtml-opacity: 0.85;
 }
+li.sol-selected-facet:hover > i.sol-icon-facet-active {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+}
 
 li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
     content: "\F067";
