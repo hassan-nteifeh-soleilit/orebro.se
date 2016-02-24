@@ -620,7 +620,9 @@ nav.or-breadcrumbs li:last-child a:after
     box-shadow: rgba(174, 222, 239, 0.65)0px -29px 0px -11px inset;
 }
 
-
+.or-tb-row-head{
+	display: none;
+}
 
 .or-sortable .or-tb-head a {
     color: #fff;

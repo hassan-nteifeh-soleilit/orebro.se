@@ -222,6 +222,12 @@ body .or-content-container .or-tir p {
     font-size: 13px;
 }
 
+.or-tb-row-head{
+	display: inline-block;
+    margin-right: 8px;
+    font-weight: 700;
+}
+
 
 } /* end 767 */
 
