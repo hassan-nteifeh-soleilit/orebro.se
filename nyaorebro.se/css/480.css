@@ -64,15 +64,6 @@ body .or-content-container .or-tir p {
 
 /* mobilmeny */
 
-.or-tree .or-expanded > button:before, .or-tree .or-expanded > .or-toggle-panel:before {
-    content: '\f068';
-    top: 12px;
-    right: 0px;
-    margin-left: -8px;
-}
-
-
-
 
 
 } /* end 480px */	
