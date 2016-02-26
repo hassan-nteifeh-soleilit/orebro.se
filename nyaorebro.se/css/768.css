@@ -1331,5 +1331,16 @@ body {
     padding-left: 0px;
 }
 
+
+/* Öppettider */
+.or-oh-openhours {
+	width:100% !important;
+}
+
+.or-oh-column {
+    float: none !important;    
+    width: 100% !important; 
+}
+
 }
 

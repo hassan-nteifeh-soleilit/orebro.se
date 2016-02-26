@@ -1,38 +1,217 @@
-.or-avc-open, .or-avc-closed { color:#fff; padding:0.37em; text-transform:uppercase; font-weight:bold; margin:0 0.62em 0 0; width:4.5em; float:left; text-align:center;}
-.or-avc-open, .open a {background-color:#539536 !important;} 
-.or-avc-closed, .closed a{background-color:#f04937 !important;} 
-.or-avc-name {width:14em; float:left; padding:0.37em; font-weight:bold;}
-.or-avc-time-info {font-style:italic; float:left; padding:0.37em;}
-.or-avc-chevron {float:right; padding:0.37em;}
-.or-avc-chevron.expanded {color:#ffffff;}
-.or-avc-chevron.collapsed {color:#a3a3a3;}
+.or-oh-open,.or-oh-closed
+{
+	color:#fff;
+	float:left;
+	font-weight:700;
+	margin:0 .62em 0 0;
+	padding:.37em;
+	text-align:center;
+	text-transform:uppercase;
+	width:4.5em;
+}
 
-.or-avc-openhours {clear:both;border-spacing: 0px;border-collapse: separate;}
-.or-avc-openhours tr.odd {background-color:#efefef; padding:0.62em;}
-.or-avc-openhours td {padding:0.65em; margin:0; border:none;}
-.or-avc-openhours td.open, .or-avc-openhours td.closed {font-weight:bold; text-transform:uppercase;}
-.or-avc-openhours td.open, .or-avc-green {color:#539536;}
-.or-avc-openhours td.closed, .or-avc-red {color:#f04937;}
+.or-oh-open,.open a
+{
+	background-color:#539536!important;
+}
 
-#or-avc-wrapper {font-family:Arial; font-weight:100; margin:0 auto;}
+.or-oh-closed,.closed a
+{
+	background-color:#f04937!important;
+}
 
+.or-oh-name
+{
+	float:left;
+	font-weight:700;
+	padding:.37em;
+	width:14em;
+}
 
-a.or-avc-a:link, a.or-avc-a:visited {font-family:Arial; font-weight:bold; text-decoration:underline; color:#0000ee;}
-a.or-avc-a:hover, a.or-avc-a:active {font-family:Arial; font-weight:bold; text-decoration:underline; color:#cc0000;}
-.or-avc-wrapp {overflow:auto; padding:0.3em;  margin-top:0.3em; clear:both;  background-repeat:no-repeat; background-position:top right; }
-.or-avc-wrapp.expanded {border:1px solid #4f4f4f; background-image:url('/images/18.35481477149a719be33555/1415958758374/expanded_bg.png');}
-.or-avc-wrapp.collapsed {border:1px solid #ddd; background-image:url('/images/18.35481477149a719be33546/1415958679172/collapsed_bg.png');}
+.or-oh-extra
+{	
+	font-weight:normal;	
+	font-size:12px;
+}
 
+.or-oh-time-info
+{
+	float:left;
+	font-style:italic;
+	padding:.37em;
+}
 
-.or-avc-header {overflow:auto;}
-.or-avc-header:hover {border-color:#777; cursor:pointer;}
-.or-avc-content {display:none; clear:both; overflow:auto;}
-.or-avc-column {width:50%; float:left; margin-top:30px;}
-.or-avc-button {border:1px solid #ddd; padding:0.62em; margin-bottom:0.62em; border-radius:4px; font-size:90%;}
-.or-avc-button i {margin-right:8px; color:#aaa;}
-.or-avc-datePickerOutput{margin: 1em 0; padding: .25em 0.25em; font-size:.85em; background-color:#efefef; width:17em;}
+.or-oh-chevron
+{
+	float:right;
+	padding:.37em;
+}
 
-.ui-datepicker{font-size: .85em;}
-.ui-datepicker th {font-size: 0.7em;}
-.ui-state-active{border:1px solid #1A1818 !important;}
-.open a, .closed a  {background-image :none !important; color: White !important;}
+.or-oh-chevron.expanded
+{
+	color:#fff;
+}
+
+.or-oh-chevron.collapsed
+{
+	color:#a3a3a3;
+}
+
+.or-oh-openhours
+{
+	border-collapse:separate;
+	border-spacing:0;
+	clear:both;
+	width:97%;
+}
+
+.or-oh-openhours tr.odd
+{
+	background-color:#efefef;
+	padding:.62em;
+}
+
+.or-oh-openhours td
+{
+	border:none;
+	margin:0;
+	padding:.65em;
+}
+
+.or-oh-openhours td.open,.or-oh-openhours td.closed
+{
+	font-weight:700;
+	text-transform:uppercase;
+}
+
+.or-oh-openhours td.open,.or-oh-green
+{
+	color:#539536;
+}
+
+.or-oh-openhours td.closed,.or-oh-red
+{
+	color:#f04937;
+}
+
+#or-avc-wrapper
+{
+	font-family:Arial;
+	font-weight:100;
+	margin:0 auto;
+}
+
+a.or-oh-a:link,a.or-oh-a:visited
+{
+	color:#00e;
+	font-family:Arial;
+	font-weight:700;
+	text-decoration:underline;
+}
+
+a.or-oh-a:hover,a.or-oh-a:active
+{
+	color:#c00;
+	font-family:Arial;
+	font-weight:700;
+	text-decoration:underline;
+}
+
+.or-oh-wrapp
+{
+	background-position:top right;
+	background-repeat:no-repeat;
+	clear:both;
+	margin-top:.3em;
+	overflow:auto;
+	padding:.3em;
+}
+/*
+.or-oh-wrapp.expanded
+{
+	border:1px solid #4f4f4f;
+}
+
+.or-oh-wrapp.collapsed
+{
+	border:1px solid #ddd;
+}
+*/
+.or-oh-header
+{
+	overflow:auto;	
+    background-color:#fff;
+    padding:10px;
+    border:1px solid lightgray;
+}
+
+.or-oh-header:hover
+{
+	border-color:#777;
+	cursor:pointer;
+}
+
+.or-oh-content
+{
+	clear:both;
+	display:none;
+	overflow:auto;
+}
+
+.or-oh-column
+{
+	float:left;
+	margin-top:30px;
+	width:50%;
+}
+
+.or-oh-button
+{
+	border:1px solid #ddd;
+	border-radius:4px;
+	font-size:90%;
+	margin-bottom:.62em;
+	padding:.62em;
+}
+
+.or-oh-button i
+{
+	color:#aaa;
+	margin-right:8px;
+}
+
+.or-oh-datePickerOutput
+{
+	background-color:#efefef;
+	font-size:.85em;
+	margin:1em 0;
+	padding:.25em;
+	width:17em;
+}
+
+.or-oh-chevron.expanded > .fa-plus:before {
+	content: "\f068";
+}
+
+/* UI overides */
+.ui-datepicker
+{
+	font-size:.85em;
+}
+
+.ui-datepicker th
+{
+	font-size:.7em;
+}
+
+.ui-state-active
+{
+	border:1px solid #1A1818!important;
+}
+
+.open a,.closed a
+{
+	background-image:none!important;
+	color:#FFF!important;
+}
+
