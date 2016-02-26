@@ -25,7 +25,7 @@
 	float:left;
 	font-weight:700;
 	padding:.37em;
-	width:14em;
+	width:50%;
 }
 
 .or-oh-extra
@@ -52,7 +52,7 @@
 	color:#fff;
 }
 
-.or-oh-chevron.collapsed
+.or-oh-chevron
 {
 	color:#a3a3a3;
 }
@@ -93,14 +93,14 @@
 {
 	color:#f04937;
 }
-
+/*
 #or-avc-wrapper
 {
 	font-family:Arial;
 	font-weight:100;
 	margin:0 auto;
 }
-
+*/
 a.or-oh-a:link,a.or-oh-a:visited
 {
 	color:#00e;
@@ -126,23 +126,14 @@ a.or-oh-a:hover,a.or-oh-a:active
 	overflow:auto;
 	padding:.3em;
 }
-/*
-.or-oh-wrapp.expanded
-{
-	border:1px solid #4f4f4f;
-}
 
-.or-oh-wrapp.collapsed
-{
-	border:1px solid #ddd;
-}
-*/
 .or-oh-header
 {
 	overflow:auto;	
     background-color:#fff;
     padding:10px;
     border:1px solid lightgray;
+	margin-top: 15px;
 }
 
 .or-oh-header:hover
@@ -155,7 +146,10 @@ a.or-oh-a:hover,a.or-oh-a:active
 {
 	clear:both;
 	display:none;
-	overflow:auto;
+	overflow: auto;
+    background-color: #fff;
+    border: 1px solid lightgrey;
+    margin-top: -1px;
 }
 
 .or-oh-column
@@ -166,9 +160,7 @@ a.or-oh-a:hover,a.or-oh-a:active
 }
 
 .or-oh-button
-{
-	border:1px solid #ddd;
-	border-radius:4px;
+{	
 	font-size:90%;
 	margin-bottom:.62em;
 	padding:.62em;

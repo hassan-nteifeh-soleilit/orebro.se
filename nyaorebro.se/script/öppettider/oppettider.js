@@ -58,18 +58,14 @@ function printBusinessOpenHours(businessnes) {
     out.print('  var dateListURL="/' + thisPage.getIdentifier() + '/openhours.portlet";\n');
     out.print('  var today = new Date("' + today + '");\n');
     out.print('</script>\n');
-
-    //out.print("<div id=\"or-oh-wrapper\">\n");
-
+    
     for (var k = 0; k < businessnes.length; k++) {
         var b = businessnes[k];
         var cOpen = b.open ? "open" : "closed";
         var cStatus = b.open ? "Öppet" : "Stängt";
         var place = b.place.split(" ")[0];
-
-        //out.print("  <div class=\"or-oh-wrapp collapsed\">\n");
+    
         out.print("    <div class=\"or-oh-header\">\n");        
-        //out.print("      <div class=\"or-oh-name\"><a class=\"or-oh-a\" href=\"#\">" + b.place + "</a></div>\n");
         out.print("      <div class=\"or-oh-name\">" + b.place + "<div class=\"or-oh-extra\">" + b.extrainfo + "</div></div>\n");       
         out.print("      <div class=\"or-oh-" + cOpen + "\">" + cStatus + "</div>\n");
         out.print("      <div class=\"or-oh-time-info\">" + b.nextHourInfo + "</div>\n");
@@ -82,21 +78,19 @@ function printBusinessOpenHours(businessnes) {
 
         out.print("      </div>\n");
         out.print("      <div class=\"or-oh-column\">\n");
-        out.print("        <div class=\"or-oh-button b1\"><i class=\"fa fa-calendar fa-lg\"></i><a class=\"or-oh-a\" href=\"#\">Välj ett datum</a></div>\n");
+        out.print("        <div class=\"or-oh-button b1\">Se fler öppettider <br><i class=\"fa fa-calendar fa-lg\"></i><a class=\"or-oh-a\" href=\"#\">Välj ett datum</a></div>\n");
         out.print("        <div class=\"or-oh-content\">\n");
         out.print("          <div class=\"or-oh-datePicker\" id=\"" + place + "\"></div>\n");
         out.print("          <input type=\"hidden\" id=\"validto-" + place + "\" value=\"" + b.validto + "\"/>");
         out.print("          <div class=\"or-oh-datePickerOutput\" id=\"datePickerOutput-" + place + "\"></div>\n");
         out.print("        </div>\n");
         if (b.mapLink) {
-            out.print("        <div class=\"or-oh-button b2\"><i class=\"fa fa-map-marker fa-lg\"></i><a class=\"or-oh-a\" href=\"" + b.mapLink + "\">Visa på kartan (" + b.address + ")</a></div>\n");
+            out.print("        <div class=\"or-oh-button b2\">Vägbeskrivning <br><i class=\"fa fa-map-marker fa-lg\"></i><a class=\"or-oh-a\" href=\"" + b.mapLink + "\">Visa på kartan (" + b.address + ")</a></div>\n");
         }
         out.print("      </div>\n");
-        out.print("    </div>\n");
-        //out.print("  </div>\n");
+        out.print("    </div>\n");        
     }
 
-    //out.print("</div>");
 }
 
 function printNextDaysTable(business) {
@@ -205,8 +199,7 @@ function getNextOpenTimeInfo(currentDay, openingHours) {
                 default:
                     if (dayOffset < 7) {
                         return "öppnar på " + DAY_SWEDISH[day.get(Calendar.DAY_OF_WEEK)] + " kl. " + nextOpenTime;
-                    } else {
-                        //return "öppnar på " + DAY_SWEDISH[day.get(Calendar.DAY_OF_WEEK)] + " " + day.get(Calendar.DAY_OF_MONTH) + "/" + (day.get(Calendar.MONTH)+1) + " kl " + nextOpenTime;
+                    } else {                       
                         return "öppnar nästa " + DAY_SWEDISH[day.get(Calendar.DAY_OF_WEEK)] + " kl. " + nextOpenTime;
                     }
 
