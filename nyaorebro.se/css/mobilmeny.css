@@ -55,7 +55,7 @@ MENY
 }
 
 .or-tree {
-  /*display: none;*/
+  display: none;
   position: absolute;
   top: 0;
   right: -440px;
@@ -112,31 +112,6 @@ MENY
     z-index: 10;
 }
 
-.or-tree .or-depth-1 .or-parent .or-toggle-icon, .or-tree .or-depth-2 .or-parent .or-toggle-icon, .or-tree .or-depth-3 .or-parent .or-toggle-icon, .or-tree .or-depth-4 .or-parent .or-toggle-icon, .or-tree .or-depth-5 .or-parent .or-toggle-icon {
-    border: 2px solid #FBB3A9;
-}
-
-.or-tree .or-depth-1 .or-parent .or-toggle-icon:before{
-    color: #e83c23;
-}
-
-.or-tree .or-depth-2 .or-parent .or-toggle-icon:before{
-    color: #e83c23;
-}
-
-.or-tree .or-depth-3 .or-parent .or-toggle-icon:before{
-    color: #e83c23;
-}
-
-.or-tree .or-depth-4 .or-parent .or-toggle-icon:before{
-    color: #e83c23;
-}
-
-.or-tree .or-depth-5 .or-parent .or-toggle-icon:before{
-    color: #e83c23;
-}
-
-
 
 .or-tree .or-toggle-icon:before {
     font-family: FontAwesome;
@@ -163,6 +138,7 @@ MENY
     position: absolute;
     width: 50px;
     height: 100%;
+    background: aqua;
     right: 0;
 }
 
