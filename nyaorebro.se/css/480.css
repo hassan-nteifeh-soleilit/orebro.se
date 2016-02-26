@@ -64,7 +64,11 @@ body .or-content-container .or-tir p {
 
 /* mobilmeny */
 
+/* sök */
 
+.or-search-link a {
+    font-size: 16px;
+}
 
 } /* end 480px */	
 
