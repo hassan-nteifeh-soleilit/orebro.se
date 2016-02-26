@@ -174,14 +174,14 @@ body .or-content-container .or-tir p {
 
 /* mobilmeny */
 
-.or-tree .or-toggle-panel {
+/*.or-tree .or-toggle-panel {
     width: 21px;
     height: 21px;
 }
 
 .or-tree .or-toggle-panel::before {
     font-size: 12px;
-}
+}*/
 
 
 
