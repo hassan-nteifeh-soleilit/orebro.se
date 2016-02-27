@@ -1725,7 +1725,7 @@ body .or-content-container .or-tir p {
 .or-ny-action:hover{
     box-shadow: 0px 0px 6px 0px #E7E7E7;
 }
-.or-ny-action:hover .or-new-action-text a {
+.or-ny-action:hover .or-action-text a {
     text-decoration: underline;
 }
 .or-new-action-text {
