@@ -1761,3 +1761,58 @@ body .or-content-container .or-tir p {
 .or-action-right-icon .fa.fa-chevron-right {
     line-height: 48px;
 }
+
+/* PLUSBOX */
+.or-plus-box-header {
+    width: 100%;
+    margin-top: 13px;
+    margin-bottom: 0px;
+    transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 14px;
+    min-height: 40px;
+    padding-left: 20px;
+    position: relative;
+    padding-right: 45px;
+}
+
+.or-plus-box-header .or-collpase-button {
+    background-color: #E83C23;
+}
+
+.or-plus-box-header .or-collpase-button {
+    position: absolute;
+    right: 0px;
+    width: 37px;
+    height: 100%;
+    top: 0px;
+}
+
+.or-collpase-button {
+    position: absolute;
+    right: 0px;
+    width: 50px;
+    height: 100%;
+    float: right;
+}
+
+.or-icon-area {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.or-icon-plus {
+    display: table-cell;
+    font: normal normal normal 30px/1 FontAwesome;
+    text-align: center;
+    vertical-align: middle;
+    transition: transform 500ms;
+    -webkit-transition: transform 500ms;
+    color: white;
+    opacity: 0.92;
+}
+
