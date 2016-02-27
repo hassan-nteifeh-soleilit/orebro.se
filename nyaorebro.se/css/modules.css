@@ -1707,8 +1707,6 @@ body .or-content-container .or-tir p {
     color: #35383b;
     line-height: 16px;
     display: inline-block;
-    padding-left: 70px;
-    padding-top: 16px;
     font-weight: 800;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -1722,8 +1720,6 @@ body .or-content-container .or-tir p {
 .or-ny-action {
 	position: relative;
 	background:#fff;
-	margin-bottom: 2px;
-	min-height: 46px;
 }
 
 .or-ny-action:hover{
