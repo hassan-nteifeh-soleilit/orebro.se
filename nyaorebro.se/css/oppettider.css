@@ -1,62 +1,86 @@
-.or-oh-open,.or-oh-closed
-{
-	color:#fff;
-	float:left;
-	font-weight:700;
-	margin:0 .62em 0 0;
-	padding:.37em;
-	text-align:center;
-	text-transform:uppercase;
-	width:4.5em;
+.or-oh-open, .or-oh-closed {
+    color: #fff;
+    float: left;
+    font-weight: 700;
+    margin: 3px 10px 0 0;
+    padding: 4px 10px 2px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "leaguespartan webfont",sans-serif;
+    font-size: 11px;
+    border-radius: 2px;
+    letter-spacing: 0.05em;
 }
 
-.or-oh-open,.open a
-{
-	background-color:#539536!important;
+.or-oh-open, .open a {
+    background-color: #7d9c41;
 }
 
 .or-oh-closed,.closed a
 {
-	background-color:#f04937!important;
+	background-color:#cc553f;
 }
-
-.or-oh-name
-{
-	float:left;
-	font-weight:700;
-	padding:.37em;
-	width:50%;
+.or-oh-name {
+    float: left;
+    font-weight: 700;
+    padding: .37em;
+    width: 50%;
+    font-family: "leaguespartan webfont",sans-serif;
+    font-size: 15px;
+    margin-left: 8px;
 }
-
-.or-oh-extra
-{	
-	font-weight:normal;	
-	font-size:12px;
+.or-oh-extra {
+    font-weight: normal;
+    font-size: 12px;
+    font-weight: 300;
+    font-family: "open sans",sans-serif;
+    display: inline-block;
+    margin-left: 15px;
 }
-
-.or-oh-time-info
-{
-	float:left;
-	font-style:italic;
-	padding:.37em;
+.or-oh-time-info {
+    float: left;
+    padding: .37em;
+    font-weight: 300;
 }
 
 .or-oh-chevron
 {
 	float:right;
-	padding:.37em;
 }
 
 .or-oh-chevron.expanded
 {
 	color:#fff;
+	background-color: #35383b;
 }
 
-.or-oh-chevron
+.or-oh-chevron.expanded .fa.fa-plus.fa-lg
 {
-	color:#a3a3a3;
+	color:#fff;
 }
 
+
+
+.or-oh-chevron {
+    color: #a3a3a3;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 45px;
+    background-color: rgb(249, 249, 249);
+    box-shadow: -3px -2px 9px -5px #B9B9B9;
+}
+
+.or-oh-chevron .fa.fa-plus.fa-lg {
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    left: 50%;
+    margin-left: -5px;
+    top: 50%;
+    margin-top: -5px;
+}
 .or-oh-openhours
 {
 	border-collapse:separate;
@@ -67,21 +91,28 @@
 
 .or-oh-openhours tr.odd
 {
-	background-color:#efefef;
+	background-color: #f3f2f0;
 	padding:.62em;
 }
 
-.or-oh-openhours td
-{
-	border:none;
-	margin:0;
-	padding:.65em;
+.or-oh-openhours td {
+    border: none;
+    margin: 0;
+    padding: 6px 17px;
+    font-size: 13px;
 }
 
-.or-oh-openhours td.open,.or-oh-openhours td.closed
-{
-	font-weight:700;
-	text-transform:uppercase;
+.or-oh-openhours td:first-child {
+font-weight: 700;
+font-size: 12px;
+}
+
+.or-oh-openhours td.open, .or-oh-openhours td.closed {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "leaguespartan webfont",sans-serif;
+    font-size: 10px;
+    letter-spacing: 0.07em;
 }
 
 .or-oh-openhours td.open,.or-oh-green
@@ -101,20 +132,19 @@
 	margin:0 auto;
 }
 */
-a.or-oh-a:link,a.or-oh-a:visited
-{
-	color:#00e;
-	font-family:Arial;
-	font-weight:700;
-	text-decoration:underline;
+a.or-oh-a:link, a.or-oh-a:visited {
+    color: #35383b;
+    font-weight: 400;
+    background-color: transparent;
+    box-shadow: rgba(174, 222, 239, 0.65)0px -16px 0px -11px inset;
+    transition: all 100ms ease;
+    margin-top: 6px;
+    display: inline-block;
 }
 
 a.or-oh-a:hover,a.or-oh-a:active
 {
-	color:#c00;
-	font-family:Arial;
-	font-weight:700;
-	text-decoration:underline;
+        box-shadow: rgba(174, 222, 239, 0.65) 0px -47px 0px -23px inset;
 }
 
 .or-oh-wrapp
@@ -126,44 +156,42 @@ a.or-oh-a:hover,a.or-oh-a:active
 	overflow:auto;
 	padding:.3em;
 }
-
-.or-oh-header
-{
-	overflow:auto;	
-    background-color:#fff;
-    padding:10px;
-    border:1px solid lightgray;
-	margin-top: 15px;
+.or-oh-header {
+    background-color: #fff;
+    padding: 7px 0px;
+    border: 1px solid #E6E6E6;
+    margin-top: 15px;
+    position: relative;
+    float: left;
+    width: 100%;
 }
-
 .or-oh-header:hover
 {
-	border-color:#777;
 	cursor:pointer;
 }
 
-.or-oh-content
-{
-	clear:both;
-	display:none;
-	overflow: auto;
+.or-oh-content {
+    clear: both;
+    display: none;
+    overflow: auto;
     background-color: #fff;
-    border: 1px solid lightgrey;
+    border: 1px solid #E6E6E6;
     margin-top: -1px;
+    border-top: 0px;
 }
 
 .or-oh-column
 {
 	float:left;
-	margin-top:30px;
 	width:50%;
 }
 
-.or-oh-button
-{	
-	font-size:90%;
-	margin-bottom:.62em;
-	padding:.62em;
+.or-oh-button {
+    font-size: 90%;
+    margin-bottom: .62em;
+    padding: .62em;
+    font-family: "leaguespartan webfont",sans-serif;
+    margin-top: 15px;
 }
 
 .or-oh-button i
