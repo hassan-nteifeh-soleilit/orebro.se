@@ -1558,20 +1558,29 @@ footer{
           
 
 .or-modal-close {
-	position: absolute;
-	top:20px;
-	left:30px;
-	float:left;
-	display:block;
-	height:50px;
-	width:100px;
-    font-weight:bold;
-    font-size: 12px;	
+    position: absolute;
+    top: 20px;
+    right: -51px;
+    float: left;
+    display: block;
+    height: 45px;
+    width: 50px;
+    font-weight: bold;
+    font-size: 11px;
+    background-color: #e83c23;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    box-shadow: 3px 0px 6px -3px rgba(0, 0, 0, 0.4) inset;
+    text-align: center;
+    color: #fff;
 }
 
 .or-modal-close .fa-close {
-    color: #e83c23;
-    font-size: 16px;
+    color: #FFFFFF;
+    font-size: 17px;
+    width: 100%;
+    text-align: center;
+    padding-top: 5px;
 }
 	
 .or-modal-content {
@@ -1583,8 +1592,9 @@ footer{
     -webkit-border-radius: 5px;
 }
 
-.or-modal .or-kontakt-och-tyck-till h3{
-	color: #e83c23;
+.or-modal .or-kontakt-och-tyck-till h3 {
+    color: #e83c23;
+    margin-top: 0px;
 }
 
 .or-backdrop{

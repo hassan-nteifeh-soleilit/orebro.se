@@ -70,6 +70,10 @@ body .or-content-container .or-tir p {
     font-size: 16px;
 }
 
+
+
+
+
 } /* end 480px */	
 
 
@@ -99,6 +103,13 @@ body .or-content-container .or-tir p {
 .or-modal {
     width: 320px!important;
     margin-left: -160px!important;
+}
+
+/* ÅVC */
+.or-oh-time-info {
+    width: 150px !important;
+        padding-top: 0px !important;
+        padding-left: 0px !important;
 }
 
 }
