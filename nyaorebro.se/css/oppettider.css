@@ -303,6 +303,11 @@ body .ui-state-default, body .ui-widget-content .ui-state-default, body .ui-widg
     color: #555555;
     text-align: center;
     font-size: 12px;
+    width: 21px;
+    height: 21px;
+    border-radius: 27px;
+    line-height: 1.9em;
+    margin: 0 auto 2px auto;
 }
 
 body .ui-widget-content {
@@ -370,4 +375,16 @@ body .ui-widget-content .ui-state-focus,
 body .ui-widget-header .ui-state-focus {
 	border: 1px solid transparent;
 	background: none;
+}
+
+body .ui-datepicker-calendar .ui-state-hover{
+	border: 1px solid rgba(242, 140, 0, 0.22);
+    background: rgba(242, 140, 0, 0.1);
+}
+
+
+body .ui-state-active {
+    border: 1px solid rgba(247, 187, 106, 0.44)!important;
+    background: #F28C00!important;
+    color: #fff!important;
 }
