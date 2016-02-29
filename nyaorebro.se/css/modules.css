@@ -1694,8 +1694,7 @@ body .or-content-container .or-tir p {
  padding-bottom: 14px;
  padding-top: 14px;
  font-weight: 800;
- letter-spacing: 0.06em;
- text-transform: uppercase;
+ letter-spacing: 0.06em; 
  float: none;
 }
 
@@ -1718,8 +1717,7 @@ body .or-content-container .or-tir p {
     line-height: 16px;
     display: inline-block;
     font-weight: 800;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
+    letter-spacing: 0.06em;    
 	box-shadow: none;
 }
 
