@@ -349,6 +349,15 @@ section.or-nav-content-section {
     margin-bottom: 25px;
 }
 
+/* ÅVC */
+.or-oh-time-info {
+    display: none!important;
+}
+
+.or-oh-extra {
+	    display: none!important;
+
+}
 
 
 }
