@@ -249,8 +249,9 @@ body .or-content-container .or-tir p {
 
 
 .or-oh-extra {
-    display: block!important;
-    margin-left: 0px!important;
+    display: block !important;
+    margin-left: 0px !important;
+    font-size: 12px !important;
 }
 
 .or-oh-time-info {
@@ -350,14 +351,14 @@ section.or-nav-content-section {
 }
 
 /* ÅVC */
-.or-oh-time-info {
+/*.or-oh-time-info {
     display: none!important;
 }
 
 .or-oh-extra {
 	    display: none!important;
 
-}
+}*/
 
 
 }
