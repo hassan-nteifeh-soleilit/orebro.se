@@ -950,6 +950,11 @@ p.or-close-text {
 	
 }
 
+/* Stänknapp i dialog */
+.or-modal-close {
+	display:none;
+}
+
 /*
 .nav-footer-container {
     position: fixed;
