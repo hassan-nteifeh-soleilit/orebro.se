@@ -52,36 +52,7 @@ header {
     display: none;
 }
 
-.phone-nav-column .or-logo{
-	height: 38px;
-	position: relative;
-	top:2px;
-}
 
-.phone-nav-text{
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 9px;
-}
-
-.phone-nav-column.search-column .fa {
-	color: #e83c23;
-	margin-bottom: 5px;
-	font-size: 24px;
-}
-
-.phone-nav-column.search-column .fa.fa-search{
-	font-size: 24px;
-}
-
-.phone-nav-column.search-column.or-colorbg{
-	background-color: #E83C23;
-	color: #fff;
-}
-
-.phone-nav-column.search-column.or-colorbg .fa{
-	color: #fff;
-}
 
 /* cookie */
 #cookieClose {
@@ -1214,49 +1185,22 @@ width:65%;
     height: 55px;
     padding-bottom: 10px;
 }
-
-#mm-blocker {
-   /*height:93% !important;*/
-   top:55px;
-}
-  
-
-.mm-menu.mm-front.mm-top, .mm-menu.mm-front.mm-bottom {
-    min-height: 140px;
-    max-height: 880px;
-    height: 100%;    
-    top: 55px;
-    margin-top:0px;
-}
-
-.mm-header {
-    padding: 0px 25px 0px;
-    height: 55px;
-}
+*/
 
 
-.mm-menu.mm-hasheader > .mm-panel.mm-list {
-    padding-top: 55px;
-}
-
-
-
-.phone-nav-column.search-column {
-    width: 65px;
+/* Mobilmenyrad */
+.phone-nav-column {
+    width: 150px;
+    padding-top: 5px;
     padding-bottom: 5px;
-    border-right-style: none;
-    border-left-style: none;
+    text-align: center;
+    text-decoration: none;
     float: right;
     border-left: 1px solid #E8E8E8;
-    height: 41px;
+	height: 41px;
 }
 
-.phone-nav-column.search-column:first-child{
-	width: 99px;
-	float: left;
-}
-
-.phone-nav-column.search-column h4 {
+.phone-nav-column h4 {
     font-size: 14px;
     text-align: left;
     padding: 6px 5px 5px 10px;
@@ -1264,22 +1208,40 @@ width:65%;
     line-height: 1.1em;
 }
 
-.phone-nav-column {
-    width: 150px;
-    padding-top: 5px;
-    padding-bottom: 7px;
-    text-align: center;
-    text-decoration: none;
-    float: right;
-    border-left: 1px solid #E8E8E8;
+.phone-nav-column.search-column:first-child{
+	width: 99px;
+	float: left;
+	border-left-style: none;    
 }
 
-.phone-nav-column i{
+.phone-nav-column.search-column {
+    width: 65px;        
+}
+
+.phone-nav-column i.fa{
     color: #e83c23;
-    font-size: 23px;
-    margin-bottom: 3px;
+    font-size: 24px;
+    margin-bottom: 5px;
 }
 
+.phone-nav-text{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 9px;
+}
+
+
+.phone-nav-column.or-colorbg{
+	background-color: #E83C23;
+	color: #fff;
+}
+
+.phone-nav-column.or-colorbg .fa{
+	color: #fff;
+}
+
+
+/* Sökfält */
 .or-search {
     padding-top: 75px;
 }

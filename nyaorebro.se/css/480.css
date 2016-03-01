@@ -89,7 +89,7 @@ body .or-content-container .or-tir p {
 @media all and (max-width: 390px) {
 
 
-.phone-nav-column.search-column:first-child{
+.phone-nav-column:first-child{
 	width: 65px;
 }
 
@@ -102,7 +102,7 @@ body .or-content-container .or-tir p {
     width: 130px;
 }
 
-.phone-nav-column.search-column h4 {
+.phone-nav-column h4 {
     font-size: 12px;
     padding: 7px 1px 1px 6px;
 }
