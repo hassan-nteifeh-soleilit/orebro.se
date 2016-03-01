@@ -1526,6 +1526,9 @@ footer{
 	color: #e83c23:
 }
 
+.or-footer-links a {
+    margin-right: 30px;
+}
 
 
 .footerxadress {
