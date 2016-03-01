@@ -18,10 +18,7 @@
 								
 		$("a[href*='"+ options.ref +"']").click(function() {
 			//add_block_page();
-            $('.or-backdrop').show();
-			add_popup_box();
-			add_styles();
-			
+            $('.or-backdrop').show();			
 			$('.or-modal').fadeIn();
 		});
 
@@ -55,6 +52,8 @@
          $('.or-modal-content').before('<a href="#" class="or-modal-close"><i class="fa fa-close"></i> Stäng</a>');
          $(selector).show();   
          add_block_page();
+         add_popup_box();
+		 add_styles();
       }
 		
 	};
