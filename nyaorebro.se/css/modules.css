@@ -1495,18 +1495,18 @@ footer{
 	display: inline-block;
 }
 
-.or-footer-links {
+.or-footer-icon-links {
     margin-top: 25px;
 }
 
-.or-footer-links a{
+.or-footer-icon-links a{
 	font-family: "leaguespartan webfont",sans-serif;
 	color: #35383b;
 	margin-right: 50px;
     font-size: 12px;
 }
 
-.or-footer-links i {
+.or-footer-icon-links i {
     color: #35383b;
     font-size: 24px;
     margin-right: 9px;
@@ -1514,7 +1514,7 @@ footer{
     top: 2px;
 }
 
-.or-footer-links img{
+.or-footer-icon-links img{
 	width: 23px;
 	height: 23px;
 	position: relative;
@@ -1522,9 +1522,11 @@ footer{
     margin-right: 9px;
 }
 
-.or-footer-links a:hover {
+.or-footer-icon-links a:hover {
 	color: #e83c23:
 }
+
+
 
 .footerxadress {
     line-height: 1.2em;
