@@ -943,19 +943,6 @@ p.or-close-text {
 
 
 /*
-.phone-nav-column.search-column {
-    width: 24%;
-    padding-bottom: 5px;
-    border-right-style: none;
-    border-left-style: none;
-    height: 60px;
-}
-
-.phone-nav-column.search-column > .fa-stack {
- width: 1.8em;
- height: 2.2em;
- font-size: 13px;
-}
 
 #searchBtn .fa-search, #contactBtn .fa-comment {
     font-size: 24px;
