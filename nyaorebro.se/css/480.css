@@ -94,12 +94,16 @@ body .or-content-container .or-tir p {
 }
 
 .phone-nav-column.search-column {
-    width: 55px;
+    width: 45px;
+}
+
+.phone-nav-column.search-column:first-child {
+    width: 80px;
 }
 
 
 .phone-nav-column {
-    width: 130px;
+    width: 122px;
 }
 
 .phone-nav-column h4 {
