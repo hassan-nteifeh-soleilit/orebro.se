@@ -657,8 +657,8 @@ color: #fff;}
 	background-color: white;
 	-webkit-transition: all 200ms ease;
     transition: all 200ms ease;
-
 }
+
 
 .or-sort-box.sorting-by:hover {
     background-color: rgba(255, 255, 255, 0.7);
