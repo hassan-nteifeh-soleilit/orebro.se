@@ -772,7 +772,9 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3{
     margin-bottom: 40px;
     float: none;
     clear: both;
-    display: block;
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .or-findwrapper
@@ -831,6 +833,11 @@ body .or-update-date{
 .or-thumbup:hover,.or-thumbup.selected
 {
 	background-color:#60930f;
+}
+
+.or-thumbup.thumbdown.selected
+{
+	background-color:#e83c23;
 }
 
 #id-or-help-us-no:hover{

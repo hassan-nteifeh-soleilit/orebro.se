@@ -338,6 +338,12 @@ body .or-oh-datePickerOutput {
 
 body .or-oh-datePickerOutput {
     margin: 1em 0 0em 0;
+    font-size: 12px;
+    font-family: "leaguespartan webfont",sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 
 .fa-volume-up:before {

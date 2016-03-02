@@ -231,14 +231,14 @@ body .or-content-container .or-tir p {
 
 .or-oh-name {
     font-size: 13px!important;
+    margin-left: 3px!important;
+
 }
 
 .or-oh-open, .or-oh-closed {
     padding: 0px 6px 0px!important;
     font-size: 9px!important;
 }
-
-
 
 } /* end 767 */
 
