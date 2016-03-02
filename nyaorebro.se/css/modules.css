@@ -1844,3 +1844,27 @@ body .or-content-container .or-tir p {
     opacity: 0.92;
 }
 
+
+
+/* Kontakt och tyck till */
+.or-felanmalan-action > div {
+    width: inherit;
+    float: none !important;
+    max-width: 400px;
+}
+.or-synpunkter-action > div{
+    width: inherit;
+    float: none !important;
+    max-width: 400px;
+}
+
+.or-synpunkter-action .or-new-action-text span.fa {
+    background-color: #F4A63B;
+}
+
+.or-synpunkter-action .or-new-action-text span.fa:after {    
+    border-color: rgba(136, 183, 213, 0);
+    border-left-color: #F4A63B;
+}
+
+
