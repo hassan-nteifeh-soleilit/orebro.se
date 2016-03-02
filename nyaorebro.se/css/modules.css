@@ -1413,17 +1413,23 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
 
 /* footer */
 
-footer{
-	background-color: #FFF;
-	padding-top: 5px;
-	border-top: 2px dotted #EDEDED;
-	padding-bottom: 35px;
-	margin-top: 25px;
+footer {
+    background-color: #FFF;
+    padding-top: 5px;
+    border-top: 6px solid #E8E7E5;
+    padding-bottom: 35px;
+    margin-top: 25px;
 }
 
 .or-footer-container {
     padding-left: 30px;
     padding-right: 30px;
+}
+
+.or-footer-links .normal a:link{
+	font-size: 14px;
+	box-shadow: rgba(174, 222, 239, 0.65)0px -15px 0px -11px inset;
+	margin-right: 25px;
 }
 
 .or-social-media{
@@ -1474,7 +1480,7 @@ footer{
     float: left;
     color: #fff;
     font-size: 21px;
-    margin: 12px 9px 0px 9px;
+    margin: 12px 12px 0px 12px;
 }
 
 .or-social-icon i:hover {
@@ -1504,6 +1510,8 @@ footer{
 	color: #35383b;
 	margin-right: 50px;
     font-size: 12px;
+    display: inline-block;
+    margin-bottom: 20px;
 }
 
 .or-footer-icon-links i {

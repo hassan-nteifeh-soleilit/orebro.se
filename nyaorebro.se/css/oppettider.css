@@ -149,7 +149,6 @@ a.or-oh-a:link, a.or-oh-a:visited {
     box-shadow: rgba(174, 222, 239, 0.65)0px -16px 0px -11px inset;
     transition: all 100ms ease;
     margin-top: 6px;
-    display: inline-block;
 }
 
 a.or-oh-a:hover,a.or-oh-a:active

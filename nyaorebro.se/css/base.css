@@ -572,7 +572,7 @@ nav.or-breadcrumbs li:last-child a:after
 {
 	display: table-row;
 }
-.or-tb-head > div{
+.or-tb-head > div {
     display: table-cell;
     border: solid 1px rgba(255, 255, 255, 0.25);
     padding-bottom: 12px;
@@ -581,6 +581,7 @@ nav.or-breadcrumbs li:last-child a:after
     border-bottom: solid 1px #f3dcd0;
     font-size: 12px;
     width: 20%;
+    border-bottom: 0px;
 }
 
 .or-tb-head > div:hover{
