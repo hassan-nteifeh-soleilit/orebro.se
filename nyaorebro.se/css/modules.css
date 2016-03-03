@@ -1858,24 +1858,45 @@ body .or-content-container .or-tir p {
 
 
 /* Kontakt och tyck till */
-.or-felanmalan-action > div{
-	float:none!important;
-	max-width:400px;
-	width:inherit;
-}
-
+.or-sok-person-action > div,
+.or-felanmalan-action > div,
 .or-synpunkter-action > div{
 	float:none!important;
 	max-width:400px;
 	width:inherit;
 }
 
-.or-synpunkter-action .or-new-action-text span.fa{
+.or-sok-person-action .or-wrapper-click ,
+.or-synpunkter-action .or-wrapper-click ,
+.or-felanmalan-action  .or-wrapper-click{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.or-synpunkter-action span.fa{
 	background-color:#F4A63B;
 }
 
-.or-synpunkter-action .or-new-action-text span.fa:after{
+.or-synpunkter-action  span.fa:after{
 	border-color:rgba(136,183,213,0) rgba(136,183,213,0) rgba(136,183,213,0) #F4A63B;
 }
 
+.or-sok-person-action  span.fa{
+	background-color:#808080;
+}
 
+.or-sok-person-action  span.fa:after{
+	border-color:rgba(128,128,128,0) rgba(128,128,128,0) rgba(128,128,128,0) #808080;
+}
+
+li.kontaktaxossxxxbrodtext {
+	padding-bottom:15px;
+	padding-top:0px;
+	border-bottom-style:dotted;
+	border-bottom-width:2px;
+	border-bottom-color:#c0c0c0;">
+}
+
+ul > li.kontaktaxossxxxbrodtext:last-child{
+	border:0px;
+}
