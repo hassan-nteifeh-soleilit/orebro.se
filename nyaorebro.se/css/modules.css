@@ -1717,6 +1717,10 @@ body .or-content-container .or-tir p {
  float: none;
 }
 
+.or-ny-action .or-action-text:first-letter {
+	text-transform: uppercase
+}
+
 .or-ny-action .normal .or-action-text a:link {
     font-family: "leaguespartan webfont",sans-serif;
     font-style: normal;
