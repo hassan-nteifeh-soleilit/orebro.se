@@ -139,7 +139,14 @@ body .or-content-container .or-tir p {
 }
 
 
+/*actions */
 
+.or-ny-action .or-action-text {
+	padding-right:30px;
+}
+
+.or-action-right-icon {
+	width:35px;
 }
 
 	/* från base */

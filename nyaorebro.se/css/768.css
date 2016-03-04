@@ -1228,6 +1228,27 @@ width:65%;
 }
 
 
+.phone-nav-column::after {
+    left: 50%;
+    top: 100%;
+    border-style: solid;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    content: " ";
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(136, 183, 213, 0);
+    border-top-color: #e83c23;
+    border-width: 12px;
+    margin-left: -12px;
+}
+
+
 /* Sökfält */
 .or-search {
     padding-top: 75px;
