@@ -5,7 +5,7 @@ var app = express();
 
 app.use(cors());
 
-app.use(express.static(__dirname + '/nyaorebro.se'));
+app.use(express.static(__dirname ));
  
 var port = 10001;
 app.listen(port, function() {
