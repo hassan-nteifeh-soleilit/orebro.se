@@ -62,6 +62,14 @@ body .or-content-container .or-tir p {
 	width: 60px;
 }
 
+.or-folj-oss {
+    display: none;
+}
+
+.or-social-icon i {
+    font-size: 18px;
+}
+
 /* mobilmeny */
 
 /* sök */
@@ -76,6 +84,13 @@ body .or-content-container .or-tir p {
 .or-oh-name {
     width: 105px!important;
 }
+
+.or-modal-content-right-column, .or-modal-content-left-column {
+	padding-right:5px;
+	padding-left: 5px;
+}
+
+
 
 
 

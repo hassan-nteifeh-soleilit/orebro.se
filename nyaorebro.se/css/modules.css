@@ -1439,6 +1439,12 @@ footer {
 	margin-right: 25px;
 }
 
+.or-footer-links .normal a:link:hover {
+    font-size: 14px;
+    box-shadow: rgba(174, 222, 239, 0.65)0px -28px 0px -11px inset;
+    margin-right: 25px;
+}
+
 .or-social-media{
 	margin-left: 0px;
 }
@@ -1538,7 +1544,8 @@ footer {
 }
 
 .or-footer-icon-links a:hover {
-	color: #e83c23:
+    color: #e83c23;
+    text-decoration: underline;
 }
 
 .or-footer-links a {
@@ -1595,6 +1602,10 @@ footer {
     color: #fff;
 }
 
+.or-modal-close:hover {
+    background-color: #35383b;
+}
+
 .or-modal-close .fa-close {
     color: #FFFFFF;
     font-size: 17px;
@@ -1610,6 +1621,20 @@ footer {
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
+}
+
+.or-modal-content-right-column{
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.or-modal-content-left-column{
+	margin-left: 0px;
+	border-right: 2px dotted rgb(192, 192, 192);
+	padding-left: 10px;
+	padding-bottom: 20px;
+	margin-right: 20px;
+	min-height: 100%;
 }
 
 .or-modal .or-kontakt-och-tyck-till h3 {
@@ -1666,25 +1691,25 @@ body .or-content-container .or-tir p {
 
 /* Ny action */
 .or-ny-action span.fa {
- background-color: #E83C23;
- color: white;
- position: absolute;
- display: inline-block;
- font-size: 22px;
- margin-right: 20px;
- width: 48px;
- min-height: 44px;
- line-height: 48px;
- text-align: center;
- vertical-align: middle;
- height: 100%; 
- top: 0;
- left: 0;
+    background-color: #E83C23;
+    color: white;
+    position: absolute;
+    display: inline-block;
+    font-size: 22px;
+    margin-right: 20px;
+    width: 48px;
+    min-height: 44px;
+    line-height: 45px;
+    text-align: center;
+    vertical-align: middle;
+    height: 100%;
+    top: 0;
+    left: 0;
 }
 
 .or-ny-action span.fa::after {
     left: 100%;
-    top: 53%;
+    top: 50%;
     border-style: solid;
     -moz-border-top-colors: none;
     -moz-border-right-colors: none;
@@ -1697,24 +1722,22 @@ body .or-content-container .or-tir p {
     position: absolute;
     pointer-events: none;
     border-color: rgba(136, 183, 213, 0) rgba(136, 183, 213, 0) rgba(136, 183, 213, 0) #E83C23;
-    border-width: 12px;
-    margin-top: -13px;
+    border-width: 10px;
+    margin-top: -10px;
 }
-
 .or-ny-action .or-action-text {
- font-family: "leaguespartan webfont",sans-serif;
- font-weight: normal;
- font-style: normal;
- font-size: 12px;
- color: #35383b;
- line-height: 16px;
- display: inline-block;
- padding-left: 70px;
- padding-bottom: 14px;
- padding-top: 14px;
- font-weight: 800;
- letter-spacing: 0.06em; 
- float: none;
+    font-family: "leaguespartan webfont",sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    color: #35383b;
+    line-height: 16px;
+    display: inline-block;
+    padding-left: 67px;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    float: none;
 }
 
 .or-ny-action .or-action-text:first-letter {
@@ -1740,11 +1763,7 @@ body .or-content-container .or-tir p {
     line-height: 16px;
     display: inline-block;
     font-weight: 800;
-    letter-spacing: 0.06em;    
-	box-shadow: none;
-	
-	transition: all 100ms ease;
-    box-shadow: rgba(174, 222, 239, 0.65)0px -16px 0px -11px inset;
+    letter-spacing: 0.02em;    
 }
 
 .or-ny-action .sv-use-margins .normal {
@@ -1752,8 +1771,9 @@ body .or-content-container .or-tir p {
 }
 
 .or-ny-action {
-	position: relative;
-	background:#fff;
+    position: relative;
+    background: #fff;
+    padding-right: 40px;
 }
 
 .or-ny-action:hover{
@@ -1762,8 +1782,10 @@ body .or-content-container .or-tir p {
 
 .or-ny-action:hover .or-action-text a {
 	/*text-decoration: underline;*/
-    box-shadow: 0px 0px 6px 0px #E7E7E7;
-    box-shadow: rgba(174, 222, 239, 0.65) 0px -48px 0px -30px inset;
+    /*box-shadow: 0px 0px 6px 0px #E7E7E7;*/
+    /*box-shadow: rgba(174, 222, 239, 0.65) 0px -48px 0px -30px inset;*/
+    text-decoration: underline;
+    color: #e83c23;
 }
 
 .or-new-action-text {
@@ -1777,7 +1799,7 @@ body .or-content-container .or-tir p {
     border-style: solid;
     border-width: 1px;
     border-color: rgb(133, 118, 114);
-    border-color: rgba(133, 118, 114, 0.4);
+    border-color: rgba(133, 118, 114, 0.15);
     border-radius: 1px;
     -moz-border-radius: 1px;
     -webkit-border-radius: 1px;
@@ -1792,7 +1814,7 @@ body .or-content-container .or-tir p {
     top: 0px;
     right: 0px;
     bottom: 0px;
-    width: 50px;
+    width: 40px;
 }
 
 .or-icon-content {
@@ -1804,7 +1826,7 @@ body .or-content-container .or-tir p {
 
 .or-action-right-icon .fa.fa-chevron-right {
     line-height: 48px;
-	font-size: 19px;
+	font-size: 17px;
     color: #303539;
 }
 
