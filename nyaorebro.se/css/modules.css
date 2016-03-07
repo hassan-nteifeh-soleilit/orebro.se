@@ -1933,3 +1933,30 @@ li.kontaktaxossxxxbrodtext {
 ul > li.kontaktaxossxxxbrodtext:last-child{
 	border:0px;
 }
+
+
+/* Fler nyheter länk */
+
+.or-more-news {
+	background-color:#fff;
+	padding:5px 10px;
+	margin: 30px 0px 30px 0px;
+}
+
+.or-more-news p.normal:before  {	
+	content: "\F060";
+    font-family: FontAwesome;
+    font-style: initial;
+    font-size: 20px;
+    vertical-align: middle;
+    color: #808080;
+	padding-right: 20px;	
+}
+
+.or-more-news p.normal a {
+    font-size: 14px;	
+}
+
+.or-more-news p.normal  {
+    margin-bottom:0px;
+}
