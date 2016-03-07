@@ -17,6 +17,10 @@
     background-color: #7d9c41;
 }
 
+.or-oh-open, .or-oh-closed {
+    min-width: 50px;
+}
+
 .or-oh-closed,.closed a
 {
 	background-color:#cc553f;
