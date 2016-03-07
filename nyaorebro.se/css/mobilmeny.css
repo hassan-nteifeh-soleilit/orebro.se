@@ -220,12 +220,28 @@ MENY
     border-bottom: 1px solid #EAEAEA;
 }
 
-.or-tree .or-depth-1 .or-current a {
+.or-depth-1 li.or-current a {
     background-color: #f8f8f8;
     border-bottom: 1px solid #EAEAEA;
-    font-weight: 700;
     border-left: 4px solid #e83c23;
     border-bottom: 0px;
+    font-weight: 700;
+}
+
+.or-depth-2 li.or-current a {
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #EAEAEA;
+    border-left: 4px solid #e83c23;
+    border-bottom: 0px;
+    font-weight: 700;
+}
+
+.or-depth-3 li.or-current a {
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #EAEAEA;
+    border-left: 4px solid #e83c23;
+    border-bottom: 0px;
+    font-weight: 700;
 }
 
 
