@@ -15,11 +15,13 @@
 
 .or-oh-open, .open a {
     background-color: #7d9c41;
+    min-width: 50px;
 }
 
 .or-oh-closed,.closed a
 {
 	background-color:#cc553f;
+	min-width: 50px;
 }
 .or-oh-name {
     font-weight: 700;
