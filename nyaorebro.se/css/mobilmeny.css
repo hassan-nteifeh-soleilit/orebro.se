@@ -261,7 +261,11 @@ MENY
 }
 
 .or-tree .or-depth-4 > li.or-current > a {
-	font-weight: 600;
+	font-weight: 700;
+}
+
+.or-tree .or-depth-5 > li.or-current > a {
+	font-weight: 700;
 }
 
 .or-tree .or-depth-2 > li > a:hover {
