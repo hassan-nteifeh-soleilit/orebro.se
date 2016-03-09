@@ -125,12 +125,12 @@ header .or-logo
 	margin-left: -12px;
 }
 
-.or-header-topptext h2{
-	color: #E83C23;
-	margin-bottom: 4px;
-	display: inline-block;
-	font-size: 19px;
-
+.or-header-topptext h2 {
+    color: #E83C23;
+    margin-bottom: 2px;
+    display: inline-block;
+    font-size: 19px;
+    margin-top: 25px;
 }
 
 .or-header-bottomtext h4{
@@ -138,7 +138,7 @@ header .or-logo
 	display: inline-block;
 	margin-top: 0px;
 	margin-bottom: 0px;
-	font-size: 17px;
+	font-size: 16px;
 }
 
 .or-tool-area

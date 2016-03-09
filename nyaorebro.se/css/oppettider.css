@@ -181,6 +181,12 @@ a.or-oh-a:hover,a.or-oh-a:active
     box-sizing: border-box;
     float: left;
 }
+
+.or-oh-status{
+	float: right;
+    margin-right: 25px;
+}
+
 .or-oh-header:hover
 {
 	cursor:pointer;
