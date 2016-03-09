@@ -6,7 +6,7 @@
 
 #parse("form")
 
-<div class="ess-result sokresultat" style="border-bottom:1px solid #c3c3c3;margin-bottom:1.5em;padding-bottom:1.5em">
+<div class="ess-result sokresultat">
 
  #* Status message *#
 

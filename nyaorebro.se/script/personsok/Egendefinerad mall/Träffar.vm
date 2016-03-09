@@ -38,12 +38,10 @@
 #if ( $count > 0)
 <ul class="resultatlista_ul">
 
-#* Skapar variabel för varannanradsfärgning, Samuel *#
-#set ($rowcolor = "#ffffff")
 #foreach( $hit in $hits )
 
  #* Hit header (title) *#
- <li class="resultatlista_li" style="background-color:$rowcolor;">
+ <li class="or-person-sok" >
 
 #if ($rowcolor == "#ffffff")
   #set ($rowcolor = "#f1f1f1")
