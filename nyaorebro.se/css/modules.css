@@ -777,6 +777,10 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3{
     box-sizing: border-box;
 }
 
+.kontakta-ruta .or-more-news {
+    padding: 5px 0px;
+    margin: 0px 0px 0px 0px;
+}
 .or-findwrapper
 {
 	display:block;
@@ -1927,7 +1931,7 @@ li.kontaktaxossxxxbrodtext {
 	padding-top:0px;
 	border-bottom-style:dotted;
 	border-bottom-width:2px;
-	border-bottom-color:#c0c0c0;">
+	border-bottom-color:#c0c0c0;
 }
 
 ul > li.kontaktaxossxxxbrodtext:last-child{
@@ -1938,23 +1942,25 @@ ul > li.kontaktaxossxxxbrodtext:last-child{
 /* Fler nyheter länk */
 
 .or-more-news {
-	background-color:#fff;
-	padding:5px 10px;
-	margin: 30px 0px 30px 0px;
+    background-color: #fff;
+    padding: 5px 10px;
+    margin: 30px 0px 30px 0px;
+    border-radius: 3px;
 }
 
 .or-more-news p.normal:before  {	
 	content: "\F060";
     font-family: FontAwesome;
     font-style: initial;
-    font-size: 20px;
+    font-size: 14px;
     vertical-align: middle;
     color: #808080;
-	padding-right: 20px;	
+	padding-right: 8px;	
 }
 
 .or-more-news p.normal a {
-    font-size: 14px;	
+    font-size: 11px;
+    font-family: "leaguespartan webfont",sans-serif;
 }
 
 .or-more-news p.normal  {

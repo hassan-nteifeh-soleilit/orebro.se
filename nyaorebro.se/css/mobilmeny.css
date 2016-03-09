@@ -260,6 +260,15 @@ MENY
     background-color: #F3F3F3;
 }
 
+.or-depth-1 > li.or-expanded > a {
+    background-color: #F3F3F3;
+}
+
+.or-depth-3 > li.or-expanded > a {
+    background-color: #F3F3F3;
+}
+
+
 .or-tree .or-depth-3 > li.or-current > a {
 	font-weight: 700;
 }
