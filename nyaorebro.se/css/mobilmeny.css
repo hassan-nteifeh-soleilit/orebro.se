@@ -83,7 +83,7 @@ MENY
     line-height: 15px;
     letter-spacing: 0.02em;
     background-color: #e83c23;
-    border-bottom: 2px solid #EF6F5D;
+    /*border-bottom: 2px solid #EF6F5D;*/
     padding-left: 15px;
     padding-right: 45px;
     display: block;
@@ -254,6 +254,10 @@ MENY
 
 .or-tree .or-depth-2 > li.or-current > a {
 	font-weight: 700;
+}
+
+.or-depth-2 > li.or-expanded > a {
+    background-color: #F3F3F3;
 }
 
 .or-tree .or-depth-3 > li.or-current > a {
