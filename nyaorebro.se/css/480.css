@@ -142,7 +142,7 @@ body .or-content-container .or-tir p {
 
 .or-oh-time-info {
     font-size: 12px!important;
-    width: 100px!important;
+    width: 95px!important;
 }
 
 .or-oh-time-info {
@@ -151,6 +151,15 @@ body .or-content-container .or-tir p {
 
 .or-oh-header {
     padding: 2px 55px 0px 2px!important;
+}
+
+.or-oh-status {
+    margin-right: 10px !important;
+	width: 90px!important;
+}
+
+.or-oh-time-info {
+    margin-top: 2px !important;
 }
 
 

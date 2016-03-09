@@ -46,11 +46,13 @@
     margin-left: 9px;
 }
 .or-oh-time-info {
-    padding: .37em;
+    padding: 0px 3px;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 13px;
     display: inline-block;
     line-height: 1.3em;
+    width: 85px;
+    margin-top: 3px;
 }
 
 .or-oh-chevron
