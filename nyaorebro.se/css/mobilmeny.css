@@ -228,23 +228,6 @@ MENY
     font-weight: 700;
 }
 
-.or-depth-2 li.or-current a {
-    background-color: #f8f8f8;
-    border-bottom: 1px solid #EAEAEA;
-    border-left: 4px solid #e83c23;
-    border-bottom: 0px;
-    font-weight: 700;
-}
-
-.or-depth-3 li.or-current a {
-    background-color: #f8f8f8;
-    border-bottom: 1px solid #EAEAEA;
-    border-left: 4px solid #e83c23;
-    border-bottom: 0px;
-    font-weight: 700;
-}
-
-
 .or-tree .or-depth-1 .or-toggle-panel:before{
 	color: #e83c23;
 }
@@ -257,6 +240,28 @@ MENY
 	padding-left: 30px;
 	font-size: 13px;
 	font-weight: 400;
+}
+
+.or-tree .or-depth-2 > li a{
+	font-family: "open sans",sans-serif;
+    color: #35383b;
+    background-color: #fff;
+    border-bottom: 1px solid #EAEAEA;
+	padding-left: 30px;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+.or-tree .or-depth-2 > li.or-current > a {
+	font-weight: 700;
+}
+
+.or-tree .or-depth-3 > li.or-current > a {
+	font-weight: 700;
+}
+
+.or-tree .or-depth-4 > li.or-current > a {
+	font-weight: 700;
 }
 
 .or-tree .or-depth-2 > li > a:hover {
