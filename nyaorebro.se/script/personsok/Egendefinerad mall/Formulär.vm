@@ -1,0 +1,13 @@
+<form method="get" action="$url">
+  <div>
+    <label for="query$portletId" class="svhidden"></label>
+    <input id="query$portletId" class="normal siteseeker_personsokruta"
+           type="text" name="$requestParameters.Query" size="29" value="$query" tabindex="1" />
+    <input type="submit" value="$lang.search-searchbutton" class="siteseeker_personsokknapp" tabindex="2" />
+    <input type="hidden" name="sid" value="$sessionId" />
+    ##<input type="hidden" name="showhide" id="showhide" value="2" />
+  </div>
+
+##parse("advanced-form")
+
+</form>

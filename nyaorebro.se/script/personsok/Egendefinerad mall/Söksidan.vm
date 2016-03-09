@@ -1,0 +1,115 @@
+<!--eri-no-index-->
+#* include JavaScript *#
+<script type="text/javascript" src="/siteseeker-search/siteseeker.js"></script>
+<script type="text/javascript">ess_activateClickTracking('$sessionId', '$portletId', '$uiLanguage');</script>
+
+
+#parse("form")
+
+<div class="ess-result sokresultat" style="border-bottom:1px solid #c3c3c3;margin-bottom:1.5em;padding-bottom:1.5em">
+
+ #* Status message *#
+
+
+#set ($nhits = 0)
+#foreach ($categoryGroup in $categoryGroups)
+
+#foreach ($category in $categoryGroup.Categories)
+#if ($category.name == "Personsök")
+#set ($nhits = $category.NHits)
+#end
+#end
+
+#end
+
+##$nhits
+
+#set ($forst = 0)
+#set ($sist = 0)
+
+    #foreach ($pageLink in $pageLinks.links)
+      #if ($forst == 0) 
+        #set ($forst = 1) 
+      #end
+      #if ( $pageLink.isHidden )
+      #else 
+        #if  ($pageLink.isSelected )
+          #set ($forst = ($pageLink.pageNumber) * 10)
+          #set ($forst = $forst - 9)
+        #end
+      #end
+    #end
+    #foreach( $hit in $hits )
+      #set ($sist = $hit.number)
+    #end
+ 
+#set ($anpassad_message = "")
+#set ($hittar = "")
+#if (($sist != 0) && ($forst != 0) && ($nhits > 0))
+
+#if ($query.indexOf("meta:") != -1)
+#set ($temp = $query.indexOf("meta:"))
+#set ($temp2 = $query.lastIndexOf(":")+1)
+#set ($query2 = $query.substring(0,$temp) + $query.substring($temp2))
+#else
+#set ($query2 = $query)
+#end
+
+ #if ($nhits > 1)
+   #if (($nhits > 10) && ($sist <= $nhits))
+    #set ($anpassad_message = " <span class='brodtext antaltraffar'>Sökresultat: <strong>" + $forst + 
+"</strong> till <strong>" + $sist + "</strong> av totalt <strong>" + $nhits + 
+"</strong> träffar på </span><strong>" + $query2 + "</strong>")
+   #else
+    #set ($anpassad_message = " <span class='brodtext antaltraffar'>Sökresultat: <strong>" + $nhits + 
+"</strong> träffar på </span><strong>" + $query2 + "</strong>")
+   #end
+ #else
+    #set ($anpassad_message = " <span class='brodtext antaltraffar'>Sökresultat: <strong>" + $nhits + 
+"</strong> träff på </span><strong>" + $query2 + "</strong>")
+ #end
+#else
+   #set ($anpassad_message = " <span class='brodtext antaltraffar'><strong>Inga träffar</strong></span><p>Tips! Om du valt att förkorta sökord med färre än tre tecken kan du avsluta dessa med * Exempelvis: Anders Sv*</p>")
+#end
+
+#if ($message != "")
+<h2 class="portlet-section-header">$anpassad_message</h2>
+#end
+
+
+#* <h2 class="portlet-section-header">
+#if ($message.indexOf("meta:") != -1)
+#set ($temp = $message.indexOf("meta:"))
+#set ($temp2 = $message.lastIndexOf(":")+1)
+  $message.substring(0,$temp) $message.substring($temp2)
+#else
+  $message
+#if (($message.indexOf("Inga") != -1) && ($message.indexOf("träffar") != -1))
+<p>Tips! Om du valt att förkorta sökord med färre än tre tecken kan du avsluta dessa med * Exempelvis: Anders Sv*</p>
+#end
+#end
+</h2> *#
+
+ #set ( $tabindex = 2 )
+ 
+ ##parse("best-bets")
+
+ #parse("hits")
+
+ #* Page numbers *#
+ #parse("page-numbers")
+
+ </div>
+
+
+<!--/eri-no-index-->
+
+
+<script type="text/javascript">
+    if (document.getElementById('query$portletId').value.substring(0, 4) == "meta") {
+        var soktext = document.getElementById('query$portletId').value;
+        document.getElementById('query$portletId').value = soktext.substring(soktext.lastIndexOf(":") + 1);
+    }
+    getAllDivs();
+    bytSnabela();
+</script>

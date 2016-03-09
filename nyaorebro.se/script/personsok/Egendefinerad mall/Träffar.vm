@@ -1,0 +1,101 @@
+##
+## Begin template
+##
+
+#if ( $!spellingSuggestions ) 
+<div class="ess-spelling">
+  <h2 class="portlet-section-header">$lang.search-spellheader</h2>
+#set ($count = 0)
+#foreach( $hit in $hits )
+#set ($count = $count + 1)
+#end
+    #set ($suggestioncount = 0)
+    #foreach( $suggestion in $spellingSuggestions )
+    #if ( $velocityCount == 1 )
+     <div>#if ($count == 0) Hittade ingen "$query".#end Menade du <a href="$suggestion.requestUrl" rel="nofollow">$suggestion.terms</a>?</div>
+    #else
+     #if ($suggestioncount < 2)
+     <div>Övriga förslag:</div>
+     <ul>
+     #end
+        <li class="portlet-section-body">
+          ##$lang.search-spellsearchfor
+          <a href="$suggestion.requestUrl" rel="nofollow">$suggestion.terms</a>
+        </li>
+    #end
+    #set ($suggestioncount = $suggestioncount + 1)
+    #end
+    </ul>
+     #if ($count == 0) <div>Hittar du inte den/det du söker?<br />Ring Servicecenter på 019-21 10 00</div>#end
+</div>
+#end
+
+#if ( $!hits )
+#set ($count = 0)
+#foreach( $hit in $hits )
+#set ($count = $count + 1)
+#end
+#if ( $count > 0)
+<ul class="resultatlista_ul">
+
+#* Skapar variabel för varannanradsfärgning, Samuel *#
+#set ($rowcolor = "#ffffff")
+#foreach( $hit in $hits )
+
+ #* Hit header (title) *#
+ <li class="resultatlista_li" style="background-color:$rowcolor;">
+
+#if ($rowcolor == "#ffffff")
+  #set ($rowcolor = "#f1f1f1")
+#else
+  #set ($rowcolor = "#ffffff")
+#end
+ #set($tabindex = $tabindex + 1)
+
+    <div class="vcard">
+
+#* Skapar två tempvariabler av staticSnippet, Samuel 100202 *#
+#if ($hit.staticSnippet.indexOf('<span class="adr">',0) != -1)
+ #set ($temp1 = $hit.staticSnippet.substring(0,$hit.staticSnippet.indexOf('<span class="adr">',0)))
+ #set ($temp2 = $hit.staticSnippet.substring($hit.staticSnippet.indexOf('<span class="adr">',0),$hit.staticSnippet.length()))
+#elseif ($hit.staticSnippet.indexOf('<span class="postAddress">',0) != -1)
+ #set ($temp1 = $hit.staticSnippet.substring(0,$hit.staticSnippet.indexOf('<span class="postAddress">',0)))
+ #set ($temp2 = $hit.staticSnippet.substring($hit.staticSnippet.indexOf('<span class="postAddress">',0),$hit.staticSnippet.length()))
+#else
+ #set ($temp1 = $hit.staticSnippet)
+ #set ($temp2 = "")
+#end
+
+#if ($hit.Url.indexOf('?uid=') != -1)
+ #set ($uid = $hit.Url.substring($hit.Url.indexOf('?uid=')))
+ #set ($uid = $uid.substring(5))
+ #set ($vcard = "true")
+#else
+ #set ($vcard = "false")
+#end
+
+
+#if ($count != 1)<h2 class="rubrikx2xliten merinfo" onclick="showHideField(document.getElementById('showhide_essi-category_options-${hit.number}'), 'essi-category_options-${hit.number}');return false;" title="Mer info" style="float:left;width:30em;">$hit.title</h2>
+    #if ($vcard == "true")<div style="float:right;width:5em;"><a href="http://psokseeker.orebro.se/vCard.ashx?id=$uid" class="vcardlink">vCard</a></div>#end
+    <br style="clear:both" />
+    $temp1
+    <div id="essi-category_options-${hit.number}" class="ess-data" style="display:block">
+    <span id="showhide_essi-category_options-${hit.number}" style="display:none" title="2"> </span>
+#else
+    <h2 class="rubrikx2xliten" style="display:inline;float:left;width:30em;">$hit.title</h2>
+    #if ($vcard == "true")<div style="float:right;width:5em;"><a href="http://psokseeker.orebro.se/vCard.ashx?id=$uid" class="vcardlink">vCard</a></div>#end
+    <br style="clear:both" />
+    $temp1
+    <div>
+#end
+
+    <div>$temp2
+    </div>
+    </div>
+ </li>
+
+#end
+
+</ul>
+#end
+#end
