@@ -809,6 +809,7 @@ body .or-update-date{
 	font-weight: 100;
     margin-bottom: 4px;
     display: inline-block;
+    font-size: 13px;
 }
 
 .or-thumbup
@@ -1430,6 +1431,11 @@ footer {
     border-top: 6px solid #E8E7E5;
     padding-bottom: 35px;
     margin-top: 25px;
+}
+
+.or-footer-logo{
+width: 40px;
+padding: 20px 10px 5px;
 }
 
 .or-footer-container {
