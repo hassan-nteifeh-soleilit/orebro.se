@@ -1434,8 +1434,9 @@ footer {
 }
 
 .or-footer-logo{
-width: 40px;
-padding: 20px 10px 5px;
+	width: 40px;
+	padding: 20px 10px 5px;
+    display: none;
 }
 
 .or-footer-container {

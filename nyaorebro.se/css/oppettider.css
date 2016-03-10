@@ -1,7 +1,7 @@
 .or-oh-open, .or-oh-closed {
     color: #fff;
     font-weight: 700;
-    margin: 3px 10px 0 0;
+    margin: 5px 10px 0 0;
     padding: 4px 10px 2px;
     text-align: center;
     text-transform: uppercase;
@@ -36,6 +36,7 @@
     transition: all 500ms ease;
     display: inline-block;
     float: left;
+    margin-top: 2px;
 }
 .or-oh-extra {
     font-weight: normal;
@@ -173,7 +174,7 @@ a.or-oh-a:hover,a.or-oh-a:active
 }
 .or-oh-header {
     background-color: #fff;
-    padding: 7px 55px 7px 2px;
+    padding: 5px 55px 5px 2px;
     border: 1px solid #E6E6E6;
     margin-top: 15px;
     position: relative;
@@ -314,7 +315,7 @@ body .ui-state-default, body .ui-widget-content .ui-state-default, body .ui-widg
     height: 21px;
     border-radius: 27px;
     line-height: 1.9em;
-    margin: 0 auto 2px auto;
+    margin: 0 auto 5px auto;
 }
 
 body .ui-widget-content {

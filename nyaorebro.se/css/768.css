@@ -1228,7 +1228,21 @@ width:65%;
 .phone-nav-column.or-colorbg{
 	background-color: #E83C23;
 	color: #fff;
+	position: relative;
 }
+
+.phone-nav-column.or-colorbg:before {
+    content: " ";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 12px 0 12px;
+    border-color: #e83c23 transparent transparent transparent;
+    bottom: -9px;
+    left: 50%;
+    margin-left: -12px;
+}    
 
 .phone-nav-column.or-colorbg .fa{
 	color: #fff;
