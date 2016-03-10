@@ -301,10 +301,10 @@ body .ui-widget-header {
 }
 
 body .ui-state-highlight, body .ui-widget-content .ui-state-highlight, body .ui-widget-header .ui-state-highlight {
-    border: 0px solid #fcefa1!important;
-    background: #e83c23!important;
+    border: 2px solid #7D9C41!important;
+    background: #FFFFFF!important;
     font-weight: 700!important;
-    color: #fff!important;
+    color: #7D9C41!important;
 }
 
 body .ui-state-default, body .ui-widget-content .ui-state-default, body .ui-widget-header .ui-state-default {
@@ -337,6 +337,18 @@ body .ui-datepicker .ui-datepicker-title {
 
 body .ui-datepicker {
     width: 100%;
+}
+
+body .ui-datepicker .or-oh-open, .open a {
+    background-color: #7d9c41!important;
+    color:#fff!important;
+    border: 1px solid #7d9c41!important;
+}
+
+body .ui-datepicker .or-oh-closed, .closed a {
+    background-color: #e83c23!important;
+    color:#fff!important;
+    border: 1px solid #e83c23!important;
 }
 
 body .or-oh-datePickerOutput {
@@ -400,7 +412,7 @@ body .ui-datepicker-calendar .ui-state-hover{
 
 
 body .ui-state-active {
-    border: 1px solid rgba(247, 187, 106, 0.44)!important;
-    background: #F28C00!important;
+    border: 1px solid #857672!important;
+    background: #857672!important;
     color: #fff!important;
 }
