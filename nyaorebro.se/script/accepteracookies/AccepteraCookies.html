@@ -1,0 +1,19 @@
+<div class="cookieAlert" style="display: none;">   
+   <p class="normal">På orebro.se använder vi cookies för att webbplatsen ska fungera på ett bra sätt för dig. Genom att surfa vidare godkänner du att vi använder cookies. <a href="http://www.orebro.se/1715.html">Vad är cookies?</a> <a href="#" id="cookieClose">Jag förstår</a></p> 
+</div>
+<div style="clear:both;"></div>
+
+<script type="text/javascript">
+//<![CDATA[
+jQuery('#cookieClose').click(function(){
+   jQuery('.cookieAlert').fadeOut('slow');
+	jQuery.cookie('OrebroCookieAcceptAlert','confirmed', { expires: 300, path: '/' });
+});
+
+jQuery(document).ready(function(){
+   if(!jQuery('#alertInfo').length && !jQuery.cookie('OrebroCookieAcceptAlert')){
+      jQuery('.cookieAlert').fadeIn('slow');           
+   }   
+});
+//]]>
+</script>
