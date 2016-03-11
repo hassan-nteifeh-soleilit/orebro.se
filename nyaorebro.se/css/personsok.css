@@ -49,19 +49,15 @@
 .or-personsok-resultat ul
 {
 	list-style:none;
-	margin:0;
-	overflow:hidden;
-	padding:0;
-	/*width:37.8em;*/
+	margin:0;	
+	padding:0;	
 }
 
 .or-personsok-resultat ul li
-{
-	clear:both;
-	float:left;
+{	
 	margin-left:0;
 	padding:.5em;
-	/*width:36.8em;*/
+	border-top: dotted 1px #f3dcd0;
 }
 
 .vcard
@@ -86,6 +82,20 @@
 .or-personsok-address{
 	float:left;
 	width:45%;
+}
+
+.sv-siteseeker-search-portlet {
+	background-color:#fff;	
+	border: solid 1px #f3dcd0;
+	border-top: solid 5px #E83C23 ;
+}
+
+.or-personsok-resultat ul li:nth-child(even) {
+	background-color: #fdf7f1;
+}
+.orgLevels {
+	background-color:#fff;	
+	border: solid 2px #f3dcd0;
 }
 
 /* Autocomplete anpassning */
