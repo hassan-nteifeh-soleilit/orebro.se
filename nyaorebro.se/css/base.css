@@ -388,9 +388,10 @@ ul.or-nav-list li .or-list-wrapper
 
 /* single list */
 
-ul.or-nav-list li .or-list-wrapper.or-single
-{
-	min-height: auto;
+ul.or-nav-list li .or-list-wrapper.or-single {
+    min-height: auto;
+    padding-top: 12px!important;
+    padding-bottom: 22px!important;
 }
 
 section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li .or-list-wrapper.or-single .or-title
