@@ -60,27 +60,28 @@ form.or-search-field {
 }
 
 form.or-search-field input {
-  width: 65%;
-  padding: 10px 55px 10px 12px;
-  margin-bottom: 10px;
-  float: left;  
-  line-height: 1.428571429;
-  border: 1px solid #cccccc;
-  border-style: solid;
-  border-width: 1px;
-   border-color: rgb(133, 118, 114); /* fallback */
-  border-color: rgba(133, 118, 114, 0.2);
-  border-radius: 2px;
-    -moz-border-radius:2px;
-  -webkit-border-radius:2px;
-  vertical-align: middle;
-  background-color: #ffffff; 
-  font-size: 17px;
-  font-weight: 300;
-  color: #717171;
-  -webkit-appearance: none;
+    width: 65%;
+    padding: 10px 55px 10px 12px;
+    margin-bottom: 10px;
+    float: left;
+    line-height: 1.428571429;
+    border: 1px solid #cccccc;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(133, 118, 114);
+    border-color: rgba(133, 118, 114, 0.2);
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    vertical-align: middle;
+    background-color: #ffffff;
+    font-size: 16px;
+    font-weight: 100;
+    color: #717171;
+    -webkit-appearance: none;
+    letter-spacing: 0.01em;
+    font-family: "open sans",sans-serif;
 }
-
 form.or-search-field button{
   /* test */
     position: relative;

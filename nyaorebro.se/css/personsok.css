@@ -53,11 +53,10 @@
 	padding:0;	
 }
 
-.or-personsok-resultat ul li
-{	
-	margin-left:0;
-	padding:.5em;
-	border-top: dotted 1px #f3dcd0;
+.or-personsok-resultat ul li {
+    margin-left: 0;
+    padding: 10px 20px 25px;
+    border-top: dotted 1px #f3dcd0;
 }
 
 .vcard
@@ -78,20 +77,38 @@
 	position:relative;
 }
 
-.or-personsok-person, 
-.or-personsok-address{
-	float:left;
-	width:45%;
+.or-personsok-resultat .ess-result h2{
+    font-size: 13px;
+    color: #e83c23;
+}
+
+.or-personsok-person, .or-personsok-address {
+    float: left;
+    width: 45%;
+    font-size: 12px;
+}
+
+.or-personsok-person .wortTitle{
+	font-weight: 700;
 }
 
 .sv-siteseeker-search-portlet {
 	background-color:#fff;	
 	border: solid 1px #f3dcd0;
-	border-top: solid 5px #E83C23 ;
+	border-top: solid 5px #E83C23;
+	padding: 10px 20px;
+	margin-bottom: 25px;
+}
+
+.sv-siteseeker-search-portlet label{
+	display: block;
+	font-family: "leaguespartan webfont",sans-serif;
+	font-size: 11px;
+	margin-bottom: 10px;
 }
 
 .or-personsok-resultat ul li:nth-child(even) {
-	background-color: #fdf7f1;
+    background-color: #F6F4F2;
 }
 .orgLevels {
 	background-color:#fff;	
