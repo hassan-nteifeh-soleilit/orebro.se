@@ -366,6 +366,9 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-t
 
 .or-list-wrapper .sv-linkicon {
     margin-left: 8px;
+    position: absolute;
+    right: 9px;
+    top: 14px;
 }
 
 
@@ -395,6 +398,7 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li .or-lis
 	border-bottom: 0px dotted #dad6d4;
     margin-bottom: 0px;
     font-size: 13px;
+    padding-right: 17px;
 }
 
 

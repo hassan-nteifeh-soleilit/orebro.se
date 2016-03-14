@@ -37,7 +37,7 @@
 .orgLevels
 {
 	display: inline-block;
-	margin-top:.75em;
+	margin-top: 25px;
 }
 
 .orgLevels .brodsmulor
@@ -45,11 +45,26 @@
 	font-size: 12px;	
 }
 
-.orgLevels .brodsmulor a
-{
-	box-shadow: rgba(174, 222, 239, 0.65)0px -15px 0px -11px inset;
+.orgLevels a {
+    box-shadow: rgba(174, 222, 239, 0.65)0px -15px 0px -12px inset;
+    margin-right: 5px;
+    margin-left: 5px;
+    transition: all 100ms ease;
 }
 
+.orgLevels a strong{
+	font-weight: 400;
+}
+
+.orgLevels a:hover {
+    box-shadow: rgba(174, 222, 239, 0.65)0px -27px 0px -12px inset;
+}
+
+
+.orgLevels span {
+	font-family: "leaguespartan webfont",sans-serif;
+	color: #35383b;
+}
 
 .or-personsok-resultat
 {
@@ -100,22 +115,27 @@ form.or-search-field {
 	position:relative;
 }
 
-.ess-result.or-personsok-resultat .brodtext.antaltraffar {
+.ess-result.or-personsok-resultat .brodtext.antaltraffar{
     font-size: 12px;
     font-family: "open sans",sans-serif;
     font-weight: 400;
     color: #35383b;
+    margin-left: 20px;
 }
 
 .ess-result.or-personsok-resultat .brodtext.antaltraffar strong{
     font-weight: 700;
     color: #35383b;
+    font-size: 12px;
 }
 
 .ess-result h2{
     font-size: 13px;
-    color: #e83c23;
-    
+    color: #e83c23;   
+}
+
+.ess-result h1, .ess-result h2, .ess-result h3 {
+    margin-bottom: 3px;
 }
 
 .or-personsok-person, .or-personsok-address {
@@ -146,12 +166,22 @@ form.or-search-field {
 	font-size: 14px;
 	box-shadow: rgba(174, 222, 239, 0.65)0px -15px 0px -11px inset;
 	margin-right: 25px;
+	transition: all 100ms ease;
+}
+
+.or-personsok-person a:hover{
+	box-shadow: rgba(174, 222, 239, 0.65)0px -30px 0px -11px inset;
 }
 
 .email a{
 	font-size: 14px;
 	box-shadow: rgba(174, 222, 239, 0.65)0px -15px 0px -11px inset;
 	margin-right: 25px;
+	transition: all 100ms ease;
+}
+
+.email a:hover{
+	box-shadow: rgba(174, 222, 239, 0.65)0px -30px 0px -11px inset;
 }
 
 .sv-siteseeker-search-portlet {
@@ -169,7 +199,7 @@ form.or-search-field {
 }
 
 .or-personsok-resultat ul li:nth-child(even) {
-    background-color: #F6F4F2;
+    background-color: rgba(246, 244, 242, 0.7);
 }
 
 .or-personsok-resultat ul li:nth-child(even) .orgLevels{
@@ -182,6 +212,7 @@ form.or-search-field {
     padding: 5px 10px;
     border-radius: 3px;
     background-color: rgba(246, 244, 242, 0.7);
+    color: #C7C7C7;
 }
 
 /* Autocomplete anpassning */

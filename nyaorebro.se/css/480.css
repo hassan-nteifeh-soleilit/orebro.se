@@ -91,6 +91,15 @@ body .or-content-container .or-tir p {
 }
 
 
+/* Personsök */
+.or-personsok-person, .or-personsok-address {
+    width: 100%!important;
+}
+
+.or-personsok-address {
+    margin-top: 15px;
+}
+
 
 
 
