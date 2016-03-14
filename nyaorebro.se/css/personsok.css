@@ -111,8 +111,11 @@
     background-color: #F6F4F2;
 }
 .orgLevels {
-	background-color:#fff;	
-	border: solid 2px #f3dcd0;
+    background-color: #fff;
+    border: solid 1px #f3dcd0;
+    padding: 5px 10px;
+    border-radius: 3px;
+    background-color: rgba(246, 244, 242, 0.7);
 }
 
 /* Autocomplete anpassning */
