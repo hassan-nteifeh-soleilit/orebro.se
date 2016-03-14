@@ -36,7 +36,7 @@
 
 .orgLevels
 {
-	display:block;
+	display: inline-block;
 	margin-top:.75em;
 }
 
@@ -49,6 +49,17 @@
 {
 	/*float:left;
 	width:38em;*/
+}
+
+.sv-siteseeker-search-portlet form.or-search-field{
+	    padding: 0 20px;
+}
+
+form.or-search-field {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    margin-top: 15px;
 }
 
 .or-personsok-resultat ul
@@ -83,10 +94,16 @@
 	position:relative;
 }
 
-.ess-result.or-personsok-resultat .brodtext.antaltraffar{
-	ont-size: 11px;
+.ess-result.or-personsok-resultat .brodtext.antaltraffar {
+    font-size: 12px;
     font-family: "open sans",sans-serif;
-    font-weight: 300;
+    font-weight: 400;
+    color: #35383b;
+}
+
+.ess-result.or-personsok-resultat .brodtext.antaltraffar strong{
+    font-weight: 700;
+    color: #35383b;
 }
 
 .ess-result h2{
@@ -114,7 +131,19 @@
 	font-size: 14px;
 	box-shadow: rgba(174, 222, 239, 0.65)0px -15px 0px -11px inset;
 	margin-right: 25px;
- }
+}
+
+.or-personsok-person a{
+	font-size: 14px;
+	box-shadow: rgba(174, 222, 239, 0.65)0px -15px 0px -11px inset;
+	margin-right: 25px;
+}
+
+.email a{
+	font-size: 14px;
+	box-shadow: rgba(174, 222, 239, 0.65)0px -15px 0px -11px inset;
+	margin-right: 25px;
+}
 
 .sv-siteseeker-search-portlet {
 	background-color:#fff;	
