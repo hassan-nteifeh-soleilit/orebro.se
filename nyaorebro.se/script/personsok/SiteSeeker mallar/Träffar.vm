@@ -1,19 +1,10 @@
-##
-## Begin template
-##
-
-
 #if ( $!spellingSuggestions ) 
 	<div class="ess-spelling">
 	<h2 class="portlet-section-header">$lang.search-spellheader</h2>
-	#set ($count = 0)
-	#foreach( $hit in $hits )
-		#set ($count = $count + 1)
-	#end
     #set ($suggestioncount = 0)
     #foreach( $suggestion in $spellingSuggestions )
 		#if ( $velocityCount == 1 )
-		 <div>#if ($count == 0) Hittade ingen "$query".#end Menade du <a href="$suggestion.requestUrl" rel="nofollow">$suggestion.terms</a>?</div>
+		 <div>#if ($nhits == 0) Hittade ingen "$query".#end Menade du <a href="$suggestion.requestUrl" rel="nofollow">$suggestion.terms</a>?</div>
 		#else
 			#if ($suggestioncount < 2)
 				<div>Övriga förslag:</div>
@@ -24,7 +15,7 @@
 		#set ($suggestioncount = $suggestioncount + 1)
     #end
     </ul>
-     #if ($count == 0) <div>Hittar du inte den/det du söker?<br />Ring Servicecenter på 019-21 10 00</div>#end
+     #if ($nhits == 0) <div>Hittar du inte den/det du söker?<br />Ring Servicecenter på 019-21 10 00</div>#end
 	</div>
 #end
 
@@ -77,5 +68,3 @@
 	</ul>
 
 #end
-
-##end
