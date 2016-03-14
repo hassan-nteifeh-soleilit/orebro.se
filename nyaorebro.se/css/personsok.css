@@ -45,6 +45,12 @@
 	font-size: 12px;	
 }
 
+.orgLevels .brodsmulor a
+{
+	box-shadow: rgba(174, 222, 239, 0.65)0px -15px 0px -11px inset;
+}
+
+
 .or-personsok-resultat
 {
 	/*float:left;
@@ -109,12 +115,15 @@ form.or-search-field {
 .ess-result h2{
     font-size: 13px;
     color: #e83c23;
+    
 }
 
 .or-personsok-person, .or-personsok-address {
     float: left;
     width: 45%;
     font-size: 12px;
+    font-size: 14px;
+    line-height: 1.6em;
 }
 
 .or-personsok-person .wortTitle{
