@@ -108,7 +108,6 @@
 	background-color:#fff;	
 	border: solid 1px #f3dcd0;
 	border-top: solid 5px #E83C23;
-	padding: 10px 20px;
 	margin-bottom: 25px;
 }
 
@@ -122,6 +121,11 @@
 .or-personsok-resultat ul li:nth-child(even) {
     background-color: #F6F4F2;
 }
+
+.or-personsok-resultat ul li:nth-child(even) .orgLevels{
+    background-color: #fff;
+}
+
 .orgLevels {
     background-color: #fff;
     border: solid 1px #f3dcd0;
