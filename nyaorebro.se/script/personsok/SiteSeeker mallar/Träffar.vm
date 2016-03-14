@@ -28,19 +28,10 @@
 	</div>
 #end
 
-#*
-#if ( $!hits )
-	#set ($count = 0)
-	#foreach( $hit in $hits )
-		#set ($count = $count + 1)
-	#end
-
-	#if ( $count > 0)
-*#
 #if($nhits > 0)
 <ul>
 	#foreach( $hit in $hits )
-
+           <li>
 
 		#set ($snippet = $hit.staticSnippet)
 
@@ -80,6 +71,7 @@
 		</div>
 		<div style="clear:both;"></div>
 		$orgLevels
+            </li>
 	#end
 
 	</ul>

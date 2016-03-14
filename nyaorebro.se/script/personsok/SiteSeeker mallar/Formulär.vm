@@ -3,11 +3,11 @@
     <label for="query$portletId" >Sök person</label>
 	<input id="query$portletId" class="searchform siteseeker_personsokruta"
            type="text" name="$requestParameters.Query" value="$query" tabindex="1" placeholder="Sök namn, titel eller avdelning" />
-	<button id="$searchButtonId" type="submit" class="sv-vamiddle submit bg-color" tabindex="2" >
+	<button id="$searchButtonId" type="submit" class="sv-vamiddle submit bg-color siteseeker_personsokknapp" tabindex="2" >
       	<span class="or-search-button-wrapper" >            
-			<i class="fa fa-search"></i>
-         </span>
+         	<i class="fa fa-search"></i>
+        </span>
     </button>	
-    <input type="hidden" name="sid" value="$sessionId" />    
+    <input type="hidden" name="sid" value="$sessionId" />
   </div>
 </form>

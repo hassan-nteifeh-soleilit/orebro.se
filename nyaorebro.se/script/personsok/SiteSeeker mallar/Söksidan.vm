@@ -6,7 +6,7 @@
 
 #parse("form")
 
-<div class="ess-result sokresultat">
+<div class="ess-result or-personsok-resultat">
 
  #* Status message *#
 
@@ -110,6 +110,6 @@
         var soktext = document.getElementById('query$portletId').value;
         document.getElementById('query$portletId').value = soktext.substring(soktext.lastIndexOf(":") + 1);
     }
-    getAllDivs();
-    bytSnabela();
+    //getAllDivs();
+    //bytSnabela();
 </script>
