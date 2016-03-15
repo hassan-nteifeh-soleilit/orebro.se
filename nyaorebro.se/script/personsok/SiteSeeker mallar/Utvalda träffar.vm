@@ -1,29 +1,29 @@
-#if ( $!bestBets )
-#set ($count = 0)
-#foreach( $bestBet in $bestBets )
-#set ($count = $count + 1)
-#end
-#if ($count > 0)
-<dl class="ess-bestbets"> 
+#* Mall används inte se Söksidan-mall*#
 
-#foreach( $bestBet in $bestBets )
+#if ($!bestBets)
+	#set ($count = 0)
+	#foreach( $bestBet in $bestBets )
+		#set ($count = $count + 1)
+	#end
+	#if ($count > 0)
+		<dl class="ess-bestbets"> 
 
-  #* Hit header (title) *#
-  <dt class="portlet-section-header" style="border-color: #CD8100; background: #FFCC73;">
-    #set($tabindex = $tabindex + 1)
-    <a tabindex="$tabindex"
-       title="$hit.titleNoFormatting" onclick="return ess_registerClick('$bestBet.url',
-                                               $bestBet.number, '$sessionId', 
-					       '$portletId', '$uiLanguage', '1');" 
-      onkeypress="return ess_handleKeypress(event, '$bestBet.url', $bestBet.number,
-      			 	  	    '$sessionId', '$portletId', '$uiLanguage', '1');"
-      href="$bestBet.url">$bestBet.title</a> 
-  </dt>
-  
-  <dd class="portlet-section-body" style="border-color: #CD8100; background: #FFCC73;">
-    $bestBet.description
-  </dd>
-#end
-</dl>
-#end
+		#foreach( $bestBet in $bestBets )
+
+			#* Hit header (title) *#
+			<dt class="portlet-section-header" style="border-color: #CD8100; background: #FFCC73;">
+			#set($tabindex = $tabindex + 1)
+				<a tabindex="$tabindex" title="$hit.titleNoFormatting" 
+					onclick="return ess_registerClick('$bestBet.url', $bestBet.number, '$sessionId','$portletId', '$uiLanguage', '1');" 
+					onkeypress="return ess_handleKeypress(event, '$bestBet.url', $bestBet.number, '$sessionId', '$portletId', '$uiLanguage', '1');" 
+					href="$bestBet.url">$bestBet.title
+				</a> 
+			</dt>
+	  
+			<dd class="portlet-section-body" style="border-color: #CD8100; background: #FFCC73;">
+				$bestBet.description
+			</dd>
+		#end
+		</dl>
+	#end
 #end
