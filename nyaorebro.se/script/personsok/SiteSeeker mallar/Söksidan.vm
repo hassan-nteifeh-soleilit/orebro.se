@@ -3,9 +3,6 @@
 <script type="text/javascript" src="/siteseeker-search/siteseeker.js"></script>
 <script type="text/javascript">ess_activateClickTracking('$sessionId', '$portletId', '$uiLanguage');</script>
 
-#parse("form")
-
-<div class="ess-result or-personsok-resultat">
 
 #set ($nhits = 0)
 #foreach ($categoryGroup in $categoryGroups)
@@ -16,7 +13,6 @@
 	#end
 #end
 
-
 #set ($forst = 0)
 #set ($sist = 0)
 
@@ -24,29 +20,21 @@
   #if ($forst == 0) 
 	#set ($forst = 1) 
   #end
-  #if ( $pageLink.isHidden )
-  #else 
-	#if  ($pageLink.isSelected )
-	  #set ($forst = ($pageLink.pageNumber) * 10)
-	  #set ($forst = $forst - 9)
-	#end
+  #if (!$pageLink.isHidden && $pageLink.isSelected )
+	  #set ($forst = (($pageLink.pageNumber) * 10) - 9)
   #end
 #end
 
 #foreach( $hit in $hits )
   #set ($sist = $hit.number)
 #end
- 
-#set ($anpassad_message = "")
-#set ($hittar = "")
-#if (($sist != 0) && ($forst != 0) && ($nhits > 0))
 
-	#if ($query.indexOf("meta:") != -1)
-		#set ($temp = $query.indexOf("meta:"))
-		#set ($temp2 = $query.lastIndexOf(":")+1)
-		#set ($query2 = $query.substring(0,$temp) + $query.substring($temp2))
-	#else
-		#set ($query2 = $query)
+#set ($anpassad_message = "")
+#if (($sist != 0) && ($forst != 0) && ($nhits > 0))
+	
+	#if ($query.indexOf("meta:") != -1)		
+		#set ($pos = $query.lastIndexOf(":") + 1)
+		#set ($query =  $query.substring($pos))
 	#end
 
 	#set ($anpassad_message = "Sökresultat: <strong>")
@@ -57,10 +45,15 @@
 			#set ($anpassad_message = $anpassad_message + $forst + "</strong> till <strong>" + $sist + "</strong> av totalt <strong>")
 		#end		
 	#end
-	#set ($anpassad_message = $anpassad_message +  $nhits + "</strong> " + $enhet + " på <strong>" + $query2 + "</strong>")	
+	#set ($anpassad_message = $anpassad_message +  $nhits + "</strong> " + $enhet + " på <strong>" + $query + "</strong>")	
 #else
    #set ($anpassad_message = "<strong>Inga träffar</strong> Tips! Om du valt att förkorta sökord med färre än tre tecken kan du avsluta dessa med * Exempelvis: Anders Sv*")
 #end
+
+
+#parse("form")
+
+<div class="ess-result or-personsok-resultat">
 
 #if ($message != "")
 	<p class="portlet-section-header"><span class='brodtext antaltraffar'>$anpassad_message</span></p>
@@ -72,18 +65,8 @@
 
 #parse("hits")
 
-#* Page numbers *#
 #parse("page-numbers")
 
 </div>
 
 <!--/eri-no-index-->
-
-<script type="text/javascript">
-    if (document.getElementById('query$portletId').value.substring(0, 4) == "meta") {
-        var soktext = document.getElementById('query$portletId').value;
-        document.getElementById('query$portletId').value = soktext.substring(soktext.lastIndexOf(":") + 1);
-    }
-    //getAllDivs();
-    //bytSnabela();
-</script>
