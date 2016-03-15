@@ -1752,7 +1752,7 @@ body .or-content-container .or-tir p {
     padding-bottom: 14px;
     padding-top: 14px;
     font-weight: 800;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.02em;
     float: none;
 }
 
@@ -1895,7 +1895,7 @@ body .or-content-container .or-tir p {
 
 .or-icon-plus {
     display: table-cell;
-    font: normal normal normal 30px/1 FontAwesome;
+    font: normal normal normal 20px/1 FontAwesome;
     text-align: center;
     vertical-align: middle;
     transition: transform 500ms;
