@@ -1360,7 +1360,7 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
 }
 
 #or-paging-id .current.prev {
-    background-color: #fff;
+    background-color: transparent;
     color: #000;
     border: 0px solid #DADADA;
     text-transform: uppercase;
@@ -1370,7 +1370,7 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
 }
 
 #or-paging-id .current.prev:hover {
-    background-color: rgba(248, 148, 6, 0.2);
+    background-color: transparent;
 }
 
 #or-paging-id a {
@@ -1381,10 +1381,12 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
     font-size: 13px;
     padding: 9px 12px;
     box-shadow: rgba(174, 222, 239, 0.0)0px -16px 0px -11px inset;
+    border-radius: 40px;
+    border: 2px solid rgba(133, 118, 114, 0.24);
 }
 
 #or-paging-id a:hover {
-    background-color: rgba(248, 148, 6, 0.2);
+    background-color: transparent;
 }
 
 .pagination .current {
@@ -1393,10 +1395,12 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
     padding: 5px 12px;
     font-size: 13px;
     background: none repeat scroll 0 0 #e83c23;
+    border-radius: 40px;
+    border: 1px solid #e83c23;
 }
 
 #or-paging-id .next {
-    background-color: #fff;
+    background-color: transparent;
     color: #000;
     border: 0px solid #DADADA;
     text-transform: uppercase;
