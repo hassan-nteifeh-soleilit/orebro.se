@@ -64,6 +64,7 @@
 .orgLevels span {
 	font-family: "leaguespartan webfont",sans-serif;
 	color: #35383b;
+	font-size: 11px!important;
 }
 
 .or-personsok-resultat
@@ -72,8 +73,30 @@
 	width:38em;*/
 }
 
+.ess-result.or-personsok-resultat .portlet-section-header{
+	margin-top: 0px;
+}
+
 .sv-siteseeker-search-portlet form.or-search-field{
 	    padding: 0 20px;
+}
+
+.sv-siteseeker-search-portlet form.or-search-field input {
+    width: 58%;
+}
+.sv-siteseeker-search-portlet form.or-search-field button{
+    top: -4px;
+    width: 50px;
+    height: 50px;
+}
+
+.sv-siteseeker-search-portlet form.or-search-field .or-search-button-wrapper {
+    bottom: 11px;
+    left: 13px;
+}
+
+.sv-siteseeker-search-portlet form.or-search-field .or-search-button-wrapper .fa-search{
+   font-size: 30px;
 }
 
 form.or-search-field {
@@ -95,6 +118,15 @@ form.or-search-field {
     margin-left: 0;
     padding: 10px 20px 25px;
     border-top: dotted 1px #f3dcd0;
+    text-indent: 0px;
+    margin-bottom: 0px;
+
+}
+
+.or-personsok-resultat ul li:before {
+    content: "";
+    padding-right: 0px;
+    font-size: 0px;
 }
 
 .vcard
@@ -141,8 +173,7 @@ form.or-search-field {
 .or-personsok-person, .or-personsok-address {
     float: left;
     width: 45%;
-    font-size: 12px;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 1.6em;
 }
 
@@ -194,7 +225,7 @@ form.or-search-field {
 .sv-siteseeker-search-portlet label{
 	display: block;
 	font-family: "leaguespartan webfont",sans-serif;
-	font-size: 11px;
+	font-size: 12px;
 	margin-bottom: 10px;
 }
 
@@ -213,6 +244,7 @@ form.or-search-field {
     border-radius: 3px;
     background-color: rgba(246, 244, 242, 0.7);
     color: #C7C7C7;
+    line-height: 1em;
 }
 
 /* Autocomplete anpassning */
@@ -222,4 +254,18 @@ ul.ui-autocomplete li.ui-menu-item:nth-child(odd) {
 
 ul.ui-autocomplete li.ui-menu-item span {
     float:right;
+}
+.or-personsok-resultat .ess-spelling, .ess-no-query, .ess-no-hits {
+    border: 1px solid #bdbdbd;
+    background-color: #fefdee;
+    margin: 1em 0;
+    padding: 0.5em 1em;
+    width: 90%;
+    margin: 20px auto 25px auto;
+    border: 2px solid rgba(242, 140, 0, 0.19);
+    border-radius: 4px;
+}
+
+.or-personsok-resultat .ess-spelling h2{
+	color:#35383b
 }
