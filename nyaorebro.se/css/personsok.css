@@ -194,7 +194,7 @@ form.or-search-field {
 }
 
 .or-personsok-person a{
-	font-size: 14px;
+	font-size: 13px;
 	box-shadow: rgba(174, 222, 239, 0.65)0px -15px 0px -11px inset;
 	margin-right: 25px;
 	transition: all 100ms ease;
@@ -205,7 +205,7 @@ form.or-search-field {
 }
 
 .email a{
-	font-size: 14px;
+	font-size: 13px;
 	box-shadow: rgba(174, 222, 239, 0.65)0px -15px 0px -11px inset;
 	margin-right: 25px;
 	transition: all 100ms ease;
