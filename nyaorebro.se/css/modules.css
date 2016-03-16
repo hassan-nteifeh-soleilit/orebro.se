@@ -1390,7 +1390,6 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
 }
 
 .pagination .current {
-    border: 0px solid #DADADA;
     color: #fff;
     padding: 5px 12px;
     font-size: 13px;

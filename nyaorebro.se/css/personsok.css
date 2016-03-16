@@ -248,20 +248,44 @@ form.or-search-field {
 }
 
 
-.ess-pagenav .portlet-font a:link{
-	background-color: red;
+.ess-pagenav .current {
+    color: #fff;
+    padding: 2px 0px 3px 0px;
+    font-size: 13px;
+    background: none repeat scroll 0 0 #e83c23;
+    border-radius: 40px;
+    border: 1px solid #e83c23;
+    display: inline-block;
+    width: 32px;
+    line-height: 2em;
+    font-weight: 700;
 }
 
-.ess-pagenav a:link{
-	background-color: #fff;
+.ess-pagenav a:link {
+    background-color: #fff;
     color: #000;
-    border: 0px solid #DADADA;
     text-transform: uppercase;
     font-size: 13px;
-    padding: 7px 12px;
+    padding: 6px 0px 6px 0px;
     box-shadow: rgba(174, 222, 239, 0.0)0px -16px 0px -11px inset;
     border-radius: 40px;
     border: 2px solid rgba(133, 118, 114, 0.24);
+    width: 30px;
+    display: inline-block;
+}
+
+.ess-pagenav .arrow a:link{
+	border: 0px;
+	background-color: transparent;
+}
+
+.ess-pagenav .arrow:link  {
+	border: 0px;
+	background-color: transparent;
+}
+
+.ess-pagenav a:link:hover {
+    background-color: #f6f4f2;
 }
 
 /* Autocomplete anpassning */
