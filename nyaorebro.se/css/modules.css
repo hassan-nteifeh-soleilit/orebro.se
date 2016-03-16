@@ -1432,16 +1432,19 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
 
 footer {
     background-color: #FFF;
-    padding-top: 5px;
+    padding-top: 15px;
     border-top: 6px solid #E8E7E5;
     padding-bottom: 15px;
     margin-top: 0px;
 }
 
+.or-footer-adress-container{
+	position: relative;
+}
+
 .or-footer-logo{
 	width: 40px;
-	padding: 20px 10px 5px;
-    display: none;
+	padding: 0px 10px 5px;
 }
 
 .or-footer-container {
@@ -1485,7 +1488,7 @@ footer {
 	position: absolute;
 	background-color: #fff;
 	right: 18px;
-	bottom: 0px;
+	top: 0px;
 }
 
 .or-social-media{
