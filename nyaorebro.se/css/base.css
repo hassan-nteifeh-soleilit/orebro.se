@@ -383,6 +383,8 @@ ul.or-nav-list li .or-list-wrapper
     margin-right: 1%;
     margin-left: 1%;
     margin-bottom: 20px;
+    max-height: 130px;
+    overflow: hidden;
 }
 
 /* single list */
@@ -432,6 +434,8 @@ ul.or-nav-list li .or-list-wrapper .or-title:before
 ul.or-nav-list li .or-list-wrapper p
 {
 	font-weight:300;
+	max-height: 78px;
+    overflow: hidden;
 }
 
 nav.or-breadcrumbs

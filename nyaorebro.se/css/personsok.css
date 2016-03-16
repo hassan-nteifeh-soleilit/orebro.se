@@ -247,6 +247,23 @@ form.or-search-field {
     line-height: 1em;
 }
 
+
+.ess-pagenav .portlet-font a:link{
+	background-color: red;
+}
+
+.ess-pagenav a:link{
+	background-color: #fff;
+    color: #000;
+    border: 0px solid #DADADA;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 7px 12px;
+    box-shadow: rgba(174, 222, 239, 0.0)0px -16px 0px -11px inset;
+    border-radius: 40px;
+    border: 2px solid rgba(133, 118, 114, 0.24);
+}
+
 /* Autocomplete anpassning */
 ul.ui-autocomplete li.ui-menu-item:nth-child(odd) {
     background-color: #f9f9f9;
