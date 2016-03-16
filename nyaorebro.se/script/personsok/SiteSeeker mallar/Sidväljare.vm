@@ -1,0 +1,26 @@
+#if ( $pageLinks.hasPrevious || $pageLinks.hasNext ) 
+  <div class="ess-pagenav portlet-font">
+  
+   #if ( $pageLinks.hasPrevious )
+    <a href="$pageLinks.previousUrl" rel="nofollow">$lang.search-previous</a>
+   #end
+  
+    #foreach ($pageLink in $pageLinks.links)
+      #if ( $pageLink.isHidden )
+      ...
+      #else 
+        #if  ($pageLink.isSelected )
+          $pageLink.pageNumber
+        #else
+          <a class="link" href="$pageLink.clickUrl" rel="nofollow">
+            $pageLink.pageNumber</a>
+        #end
+      #end
+    #end
+  
+   #if ( $pageLinks.hasNext )
+    <a href="$pageLinks.nextUrl" rel="nofollow">$lang.search-next</a>
+   #end
+  
+  </div>
+#end
