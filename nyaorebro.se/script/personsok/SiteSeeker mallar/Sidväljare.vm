@@ -2,7 +2,7 @@
   <div class="ess-pagenav portlet-font">
   
    #if ( $pageLinks.hasPrevious )
-    <a href="$pageLinks.previousUrl" rel="nofollow">$lang.search-previous</a>
+    <a href="$pageLinks.previousUrl" rel="nofollow" class="arrow">«</a>
    #end
   
     #foreach ($pageLink in $pageLinks.links)
@@ -10,7 +10,7 @@
       ...
       #else 
         #if  ($pageLink.isSelected )
-          $pageLink.pageNumber
+          <span class="current">$pageLink.pageNumber</span>
         #else
           <a class="link" href="$pageLink.clickUrl" rel="nofollow">
             $pageLink.pageNumber</a>
@@ -19,7 +19,7 @@
     #end
   
    #if ( $pageLinks.hasNext )
-    <a href="$pageLinks.nextUrl" rel="nofollow">$lang.search-next</a>
+    <a href="$pageLinks.nextUrl" rel="nofollow" class="arrow">»</a>
    #end
   
   </div>
