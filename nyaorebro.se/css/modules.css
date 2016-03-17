@@ -1405,6 +1405,15 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
     font-size: 13px;
 }
 
+.pagination .prev {
+    color: #fff;
+    padding: 5px 12px;
+    font-size: 13px;
+    background: none repeat scroll 0 0 #e83c23;
+    border-radius: 40px;
+    border: 1px solid #e83c23;
+}
+
 .or-total-link a {
     background-color: white;
     padding: 5px;
