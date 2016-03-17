@@ -5499,11 +5499,11 @@ color: rgba(53, 56, 59, 0.85);
 /* Plusbox */
 
 .or-collpase-button {
-  position: absolute;
-  right: 0px;
-  width: 50px;
-  height: 100%;
-  float: right;
+    position: absolute;
+    right: 0px;
+    width: 45px;
+    height: 100%;
+    float: right;
 }
 
 .or-collpase-button.or-colorbg.or-plus-box-active {
@@ -7554,18 +7554,18 @@ color: #35383B;
 }
 
 .or-icon-plus {
-  display: table-cell;
-  font: normal normal normal 30px/1 FontAwesome;
-  text-align: center;
-  vertical-align: middle;
-  transition: transform 500ms;
-  -webkit-transition: transform 500ms;
-  color:white; 
-  opacity: 0.92;
+    display: table-cell;
+    font: normal normal normal 22px/1 FontAwesome;
+    text-align: center;
+    vertical-align: middle;
+    transition: transform 500ms;
+    -webkit-transition: transform 500ms;
+    color: white;
+    opacity: 0.92;
 }
 
 .or-plus-box-program .or-icon-plus {
-   font-size: 26px;
+    font-size: 20px;
 }
 
 .or-plus-box-active .or-icon-plus {
