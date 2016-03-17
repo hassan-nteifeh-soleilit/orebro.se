@@ -175,7 +175,7 @@ a.or-oh-a:hover,a.or-oh-a:active
 .or-oh-header {
     background-color: #fff;
     padding: 5px 55px 5px 2px;
-    border: 1px solid #E6E6E6;
+    border: 2px solid #F0EDED;
     margin-top: 15px;
     position: relative;
     width: 100%;
@@ -193,7 +193,7 @@ a.or-oh-a:hover,a.or-oh-a:active
 .or-oh-header:hover
 {
 	cursor:pointer;
-	border: 1px solid rgba(232, 60, 35, 0.18);
+	    border: 2px solid rgba(232, 60, 35, 0.1);
 }
 
 .or-oh-header:hover .or-oh-name{

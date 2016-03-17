@@ -306,6 +306,10 @@ or-stor-bild-text-actions {
    background-color: rgba(0, 152, 219, 0.8);
 }
 
+.or-stor-bild-text-tv > div:nth-child(2) h2 {
+    color: #0098bd;
+}
+
 .or-puff-bild-text h4{
 color: #0098bd;
 }
