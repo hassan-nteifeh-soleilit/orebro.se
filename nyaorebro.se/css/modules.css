@@ -1099,11 +1099,10 @@ span.sol-hit-count {
     margin-bottom: 0px;
 }
 .or-search-link a {
-    box-shadow: 0px -16px 0px -12px rgb(174, 222, 239) inset;
     box-shadow: 0px -16px 0px -12px rgba(174, 222, 239, 0.65) inset!important;
     transition: all 100ms ease 0s;
     font-size: 19px;
-    line-height: 1.6em;
+    line-height: 1.3em;
     font-weight: 700;
     margin-bottom: 10px;
     margin-top: 10px;
@@ -1112,8 +1111,7 @@ span.sol-hit-count {
     float: none;
 }
 .or-search-link a:hover {
-    box-shadow: 0px -20px 0px 11px rgb(174, 222, 239) inset;
-    box-shadow: 0px -20px 0px 11px rgba(174, 222, 239, 0.65) inset;
+    box-shadow: 0px -20px 0px 11px rgba(174, 222, 239, 0.65) inset!important;
     color: #000;
 }
 
@@ -1260,6 +1258,7 @@ body .sol-search-hits .sol-doc-size p{
     filter: alpha(opacity=85);
     -moz-opacity: 0.85;
     -khtml-opacity: 0.85;
+    padding-top: 2px;
 }
 li.sol-selected-facet:hover > i.sol-icon-facet-active {
     -webkit-transform: rotate(45deg);
