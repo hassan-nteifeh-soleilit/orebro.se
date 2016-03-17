@@ -521,10 +521,12 @@ nav.or-breadcrumbs li:last-child a:after
 	list-style-type: none;
 }
 
-.or-article-main ul li{
-	margin-bottom: 10px;
+.or-article-main ul li {
+    margin-bottom: 10px;
     text-indent: -20px;
     padding-left: 22px;
+    font-size: 17px;
+    line-height: 1.4em;
 }
 
 .or-article-main li:before {
