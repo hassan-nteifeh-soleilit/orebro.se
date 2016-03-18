@@ -1,0 +1,85 @@
+##
+## Utility API
+#set ($outputUtil = $sitevisionUtils.outputUtil)
+#set ($dateUtil = $sitevisionUtils.dateUtil)
+#set ($resourceLocatorUtil = $sitevisionUtils.resourceLocatorUtil)
+#set ($scriptUtil = $sitevisionUtils.scriptUtil)
+
+#set ($PAGE_SIZE = 2)
+
+#set ($ajaxCall = $request.getParameter('ajaxcall'))       
+
+##
+## Poor man pagination
+#set ($startPos = 1) 
+#set ($page = $request.getParameter('page'))
+#if ($page) 
+    #set ($page = $scriptUtil.stringToInt($page))
+    #set ($startPos = $page * $PAGE_SIZE + 1 )           
+#end
+#set ($endPos = $startPos + $PAGE_SIZE - 1 )
+
+##
+## Portlet properties
+#set ($headingField = $propertyUtil.getString($portlet, 'headingField'))
+
+##
+## Index field names
+#set ($displayField = $propertyUtil.getString($portlet, $headingField))
+#set ($urlField = $propertyUtil.getString($portlet, 'urlField'))
+#set ($uriField = $propertyUtil.getString($portlet, 'uriField'))
+#set ($siteField = $propertyUtil.getString($portlet, 'siteField'))
+
+#set ($thisSiteId = $resourceLocatorUtil.site.identifier)
+#if ($thisSiteId.endsWith("_site"))
+   #set ($idEnd = $thisSiteId.length() - 5)
+   #set ($thisSiteId = $thisSiteId.substring(0, $idEnd))
+#end
+
+
+## Init link+icon renderers and counter class
+#set ($linkRenderer = $sitevisionUtils.linkRenderer)
+##set ($linkRendererClass = $headingClass)
+##$linkRenderer.setFontClass($linkRendererClass)
+
+
+#if (!$ajaxCall)
+<ul class="sv-search-result sv-defaultlist-noleft">
+#end
+   #foreach ($hit in $searchResult.hits)   
+	   #if($velocityCount > $endPos)
+	      #set ($page = $page +1)
+		  <button class="or-load-more" onClick="loadList($page)">Ladda fler</button>
+		  #break
+	   #end
+   
+	   #if($velocityCount >= $startPos)
+	   <li class="sv-search-hit sv-corner-all">      
+		  ##
+		  ## Heading
+		  #set ($hitHeading = $scriptUtil.getNonNull($hit.getField($displayField)))
+		  #if ($hitHeading)
+		  <div class="sv-notopmargin">
+		     <h3>
+			 #set ($target = $scriptUtil.getNonNull($hit.getField($urlField)))
+			 #if ($target)      
+				#if ($thisSiteId == $hit.getField($siteField))
+				   #set ($target = $scriptUtil.getNonNull($hit.getField($uriField), $target))
+				#end
+				$linkRenderer.setStringTarget($target)
+				$linkRenderer.setText($hitHeading)
+				$linkRenderer.render()
+			 #else
+				$outputUtil.getEscapedHtmlText($hitHeading, $headingNode)
+			 #end
+			 </h3>
+		  </div>
+			 <span class"or-news-date">$dateUtil.getDateAsString("d MMM" ,$hit.getDateField('published'))</span> 
+			 $hit.getField('metadata.SV.Description')      
+		  #end                      
+	   </li>
+	   #end
+#end
+#if (!$ajaxCall)
+</ul>
+#end

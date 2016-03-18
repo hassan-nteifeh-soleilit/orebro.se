@@ -1,0 +1,16 @@
+#set ($category = $request.getParameter('cat'))
+#set ($dateRange = $request.getParameter('dateRange'))
+##$portlet.setProperty('maxSearchHits',2)
+
+#set ($query = '')
+#if ($category && $category != '')
+   #set ($query = "+metadata.category:($category)")
+#end
+#if ($dateRange && $dateRange != '')
+   #set ($query = $query + "+published:[$dateRange]")      
+#end
+#if ($query == '')
+   *:*
+#else
+   $query
+#end
