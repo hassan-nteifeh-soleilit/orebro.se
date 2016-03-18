@@ -1,0 +1,33 @@
+#set ($localdev = $request.getParameter("localdev"))
+##set ($path="https://rawgit.com/Orebrokommun/orebro.se/master/nyaorebro.se")
+#set ($path="/download/")
+
+#if ($localdev)
+    #set ($path="http://localhost:10001/nyaorebro.se")
+    #set ($random ="")   
+	<link rel="stylesheet" type="text/css" media="screen,projection" href="$path/css/base.css${random}" />
+    <link rel="stylesheet" type="text/css" media="screen,projection" href="$path/css/modules.css${random}" />     
+    <link rel="stylesheet" type="text/css" media="screen,projection" href="$path/css/mobilmeny.css${random}" />
+    <script src="$path/script/application.js${random}" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" media="screen,projection" href="$path/css//1280.css" />
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 960px), projection and (max-width: 960px)" href="$path/css/960.css${random}" />
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 768px), projection and (max-width: 768px)" href="$path/css//768.css${random}" />
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 480px), projection and (max-width: 480px)" href="$path/css//480.css${random}" />
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 320px), projection and (max-width: 320px)" href="$path/css/320.css${random}" />
+#else  
+  ##set ($random = $sitevisionUtils.getInstanceCreatorUtil().getMathInstance().random())  
+  ##set ($random ="#rnd$random")   
+  
+   <link rel="stylesheet" type="text/css" media="screen,projection" href="/download/18.1e11956c1536e965d1e1228/1458297211580/base.css" />
+    <link rel="stylesheet" type="text/css" media="screen,projection" href="/download/18.1e11956c1536e965d1e122d/1458297211836/modules.css" />     
+    <link rel="stylesheet" type="text/css" media="screen,projection" href="/download/18.1e11956c1536e965d1e122c/1458297211804/mobilmeny.css" />
+    <script src="/download/18.1e11956c1536e965d1e1231/1458297299229/application.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" media="screen,projection" href="/download/18.1e11956c1536e965d1e1227/1458297211507/1280.css" />
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 960px), projection and (max-width: 960px)" href="/download/18.1e11956c1536e965d1e1226/1458297211419/960.css" />
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 768px), projection and (max-width: 768px)" href="/download/18.1e11956c1536e965d1e1225/1458297211359/768.css" />
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 480px), projection and (max-width: 480px)" href="/download/18.1e11956c1536e965d1e1224/1458297211271/480.css" />
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 320px), projection and (max-width: 320px)" href="/download/18.1e11956c1536e965d1e1223/1458297211123/320.css" />
+     
+#end
+
+   
