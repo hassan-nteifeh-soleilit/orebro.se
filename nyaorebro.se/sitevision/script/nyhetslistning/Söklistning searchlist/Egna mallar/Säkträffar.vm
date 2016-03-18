@@ -15,7 +15,9 @@
 #set ($page = $request.getParameter('page'))
 #if ($page) 
     #set ($page = $scriptUtil.stringToInt($page))
-    #set ($startPos = $page * $PAGE_SIZE + 1 )           
+    #set ($startPos = $page * $PAGE_SIZE + 1 )   
+#else
+	#set ($page=0)
 #end
 #set ($endPos = $startPos + $PAGE_SIZE - 1 )
 
@@ -49,7 +51,7 @@
    #foreach ($hit in $searchResult.hits)   
 	   #if($velocityCount > $endPos)
 	      #set ($page = $page +1)
-		  <button class="or-load-more" onClick="loadList($page)">Ladda fler</button>
+		  <button class="or-load-more" onClick="loadList(${page})">Ladda fler</button>
 		  #break
 	   #end
    
