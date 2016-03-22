@@ -1448,6 +1448,14 @@ footer {
 .or-footer-logo{
 	width: 40px;
 	padding: 0px 10px 5px;
+	border:0px;
+	height: 70px;
+	width: 55px;
+}
+
+.or-footer-logo img{
+	border: 0px;
+	
 }
 
 .or-footer-container {
@@ -1563,6 +1571,7 @@ footer {
 	position: relative;
     top: 3px;
     margin-right: 9px;
+    border: 0px;
 }
 
 .or-footer-icon-links a:hover {
@@ -1903,10 +1912,18 @@ body .or-content-container .or-tir p {
 	background-color: #F9F9F8;
 }
 
+.or-plus-box-active .or-collapse-button {
+    background-color: #f9f9f8;
+}
+
  .or-plus-box-active .or-icon-plus:before {
     color: #857672;
 }
 
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 .or-collapse-button {
     position: absolute;
     right: 0px;
@@ -1975,6 +1992,14 @@ body .or-content-container .or-tir p {
     background-color: #fff;
 }
 
+.or-plus-box-diskret-header.or-plus-box-active .or-collapse-button {
+    background-color: #857672;
+}
+
+.or-plus-box-diskret-header.or-plus-box-active .or-collapse-button .or-icon-plus:before{
+    color: #fff;
+}
+
 .or-colorborder.or-wrapper-click.or-plus-box-header.or-plus-box-diskret-header.or-plus-box-active .plusboxxrubrik {
     color: #E83C23;
 }
@@ -1987,6 +2012,10 @@ body .or-content-container .or-tir p {
     color: #fff;
 }
 
+ .or-plus-box-diskret-content{
+	background-color: #fff;
+	padding: 15px;
+}
 
 
 /* Kontakt och tyck till */
@@ -2213,4 +2242,109 @@ ul > li.kontaktaxossxxxbrodtext:last-child{
 .sv-defaultFormTheme .sv-form-singleselectionfield label, .sv-defaultFormTheme .sv-form-multipleselectionfield label {
     font-size: 14px;
     font-weight: 300;
+    position: relative;
+    top: 1px;
+}
+
+.sv-defaultFormTheme input[type="checkbox"], .sv-defaultFormTheme input[type="radio"] {
+}
+
+
+/* formulär */
+
+
+
+.sv-formField{
+border-bottom: 2px dotted #e4e4e4;
+padding-bottom: 10px;
+}
+
+
+.or-content-container .sv-linklist-portlet table, .sv-blog-portlet table, .sv-archive-portlet table, .sv-text-portlet table{
+	margin: 20px auto;
+	border: solid 1px #f3dcd0;
+	border-top: solid 0px;
+}
+
+.or-content-container .sv-linklist-portlet table, .sv-blog-portlet table, .sv-archive-portlet table, .sv-text-portlet table thead{
+	background-color: #e83c23;
+}
+
+.or-content-container .sv-linklist-portlet table, .sv-blog-portlet table, .sv-archive-portlet table, .sv-text-portlet table thead th{
+	padding: 8px 6px;
+	border-right:solid 2px rgba(255, 255, 255, 0.25);
+}
+
+.or-content-container .sv-linklist-portlet table, .sv-blog-portlet table, .sv-archive-portlet table, .sv-text-portlet table td{
+	padding: 8px 6px;
+}
+
+
+.or-content-container .sv-linklist-portlet table, .sv-blog-portlet table, .sv-archive-portlet table, .sv-text-portlet table.sv-standard thead th p{
+	color: #fff;
+	line-height: 1.3em;
+	font-family: "leaguespartan webfont",sans-serif;
+	font-size: 12px;
+}
+
+.or-content-container .sv-linklist-portlet table p, .sv-blog-portlet table p, .sv-archive-portlet table p, .sv-text-portlet table p {
+font-size: 12px!important;
+}
+
+
+.or-content-container .sv-linklist-portlet table, .sv-blog-portlet table, .sv-archive-portlet table, .sv-text-portlet table tbody tr:nth-child(2n) {
+	background-color: #fdf7f1;
+	border-bottom: solid 1px #f3dcd0;
+}
+
+.or-content-container .sv-linklist-portlet table, .sv-blog-portlet table, .sv-archive-portlet table, .sv-text-portlet table tbody tr:nth-child(2n+1) {
+	background-color: #fff;
+	border-bottom: solid 1px #f3dcd0;
+}
+
+input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button {
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    color: buttontext;
+    background-color: buttonface;
+    box-sizing: border-box;
+    padding: 2px 6px 3px;
+    border: 0px outset buttonface;
+    
+}
+
+input[type="file" i]::-webkit-file-upload-button {
+    -webkit-appearance: push-button;
+    white-space: nowrap;
+    font-size: inherit;
+    -webkit-user-modify: read-only;
+    margin: 0px;
+    background-color: #35383B;
+	border-radius: 2px;
+	font-family: "leaguespartan webfont",sans-serif;
+	color: #fff;
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+	padding: 5px 11px;
+	border-bottom: 4px solid #5E5E5E;
+	transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    cursor: pointer;
+}
+
+input[type="file" i]::-webkit-file-upload-button:hover{
+    background-color: #5E5E5E;
+    border-color: #000;
+}
+
+.sv-defaultFormTheme input[type="file"] {
+    font-weight: 300;
+    font-size: 14px;
+    position: relative;
+    top: 0px;
+    padding-top: 6px;
+    line-height: 1.6em;
+    padding-left: 0px;
 }
