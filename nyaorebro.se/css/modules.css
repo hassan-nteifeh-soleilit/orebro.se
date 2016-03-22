@@ -1887,11 +1887,11 @@ body .or-content-container .or-tir p {
 	color: #fff;
 }
 
-.or-plus-box-header .or-collpase-button {
+.or-plus-box-header .or-collapse-button {
     background-color: #E83C23;
 }
 
-.or-plus-box-header .or-collpase-button {
+.or-plus-box-header .or-collapse-button {
     position: absolute;
     right: 0px;
     width: 45px;
@@ -1899,7 +1899,7 @@ body .or-content-container .or-tir p {
     top: 0px;
 }
 
-.or-collpase-button.or-colorbg.or-plus-box-active{
+.or-collapse-button.or-colorbg.or-plus-box-active{
 	background-color: #F9F9F8;
 }
 
@@ -1907,7 +1907,7 @@ body .or-content-container .or-tir p {
     color: #857672;
 }
 
-.or-collpase-button {
+.or-collapse-button {
     position: absolute;
     right: 0px;
     width: 50px;
@@ -1947,7 +1947,7 @@ body .or-content-container .or-tir p {
 .or-plus-box-diskret-header .or-icon-plus {
 }
 
-.or-plus-box-diskret-header .or-collpase-button.or-colorbg {
+.or-plus-box-diskret-header .or-collapse-button.or-colorbg {
 	background-color: #f9f9f8;
 	width: 35px;
 	border-left: 1px solid rgb(237, 234, 234);
@@ -1979,7 +1979,7 @@ body .or-content-container .or-tir p {
     color: #E83C23;
 }
 
-.or-plus-box-diskret-header .or-collpase-button.or-colorbg.or-plus-box-active {
+.or-plus-box-diskret-header .or-collapse-button.or-colorbg.or-plus-box-active {
     background-color: #857672;
 }
 
