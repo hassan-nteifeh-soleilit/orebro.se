@@ -1309,10 +1309,10 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
     color: #fff;
 }
 .or-show-hiden-facet-items:hover {
-    background-color: rgb(198, 198, 198) !important;
-    border-bottom-color: rgb(198, 198, 198) !important;
-    border-bottom: 2px dotted rgb(198, 198, 198) !important;
-    color: #35383b;
+    background-color: #35383b !important;
+    border-bottom-color: #35383b !important;
+    border-bottom: 2px dotted #35383b !important;
+    color: #FFFFFF;
 }
 .or-show-hiden-facet-items:hover > .sol-icon-more-facet {
     -webkit-transform: rotate(0deg);
@@ -1406,12 +1406,8 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
 }
 
 .pagination .prev {
-    color: #fff;
-    padding: 5px 12px;
-    font-size: 13px;
-    background: none repeat scroll 0 0 #e83c23;
-    border-radius: 40px;
-    border: 1px solid #e83c23;
+    background: none repeat scroll 0 0 transparent!important;
+    border: 0px solid #e83c23!important;
 }
 
 .or-total-link a {
@@ -1784,7 +1780,7 @@ body .or-content-container .or-tir p {
     font-family: "leaguespartan webfont",sans-serif;
     font-weight: normal;
     font-style: normal;
-    font-size: 12px;
+    font-size: 13px;
     color: #35383b;
     line-height: 16px;
     display: inline-block;
@@ -1806,13 +1802,10 @@ body .or-content-container .or-tir p {
     box-shadow: 0px 0px 6px 0px #E7E7E7;
 }
 
-.or-ny-action:hover .or-action-text a {
-	/*text-decoration: underline;*/
-    /*box-shadow: 0px 0px 6px 0px #E7E7E7;*/
-    /*box-shadow: rgba(174, 222, 239, 0.65) 0px -48px 0px -30px inset;*/
-    text-decoration: underline;
-    color: #e83c23;
+.or-ny-action:hover .normal .or-action-text a:link {
+    color: #E83C23;
 }
+
 
 .or-new-action-text {
 	height: 100%;
@@ -1824,8 +1817,7 @@ body .or-content-container .or-tir p {
     margin-top: 20px;
     border-style: solid;
     border-width: 1px;
-    border-color: rgb(133, 118, 114);
-    border-color: rgba(133, 118, 114, 0.15);
+    border-color: rgb(237, 234, 234);
     border-radius: 1px;
     -moz-border-radius: 1px;
     -webkit-border-radius: 1px;
@@ -1875,6 +1867,24 @@ body .or-content-container .or-tir p {
     padding-left: 20px;
     position: relative;
     padding-right: 45px;
+	box-sizing: border-box;
+}
+
+.or-plus-box-header:hover .plusboxxrubrik{
+	color: #E83C23;
+}
+
+.or-plus-box-content{
+	background-color: #fff;
+	padding: 15px;
+}
+
+.or-plus-box-header.or-colorborder.or-wrapper-click.or-plus-box-header.or-plus-box-active{
+	background-color: #e83c23;
+}
+
+.or-colorborder.or-wrapper-click.or-plus-box-header.or-plus-box-active .plusboxxrubrik{
+	color: #fff;
 }
 
 .or-plus-box-header .or-collpase-button {
@@ -1884,9 +1894,17 @@ body .or-content-container .or-tir p {
 .or-plus-box-header .or-collpase-button {
     position: absolute;
     right: 0px;
-    width: 37px;
+    width: 45px;
     height: 100%;
     top: 0px;
+}
+
+.or-collpase-button.or-colorbg.or-plus-box-active{
+	background-color: #F9F9F8;
+}
+
+ .or-plus-box-active .or-icon-plus:before {
+    color: #857672;
 }
 
 .or-collpase-button {
@@ -1903,6 +1921,17 @@ body .or-content-container .or-tir p {
     width: 100%;
 }
 
+.or-icon-plus:before{
+	    content: "\f067";
+    font-family: FontAwesome;
+    color: #fff;
+    position: relative;
+}
+
+.or-plus-box-header.or-colorborder.or-wrapper-click.or-plus-box-header.or-plus-box-active .or-icon-plus:before{
+	    content: "\f068";
+}
+
 .or-icon-plus {
     display: table-cell;
     font: normal normal normal 20px/1 FontAwesome;
@@ -1912,6 +1941,50 @@ body .or-content-container .or-tir p {
     -webkit-transition: transform 500ms;
     color: white;
     opacity: 0.92;
+}
+
+/* Plusbox diskret*/
+.or-plus-box-diskret-header .or-icon-plus {
+}
+
+.or-plus-box-diskret-header .or-collpase-button.or-colorbg {
+	background-color: #f9f9f8;
+	width: 35px;
+	border-left: 1px solid rgb(237, 234, 234);
+}
+
+.or-plus-box-diskret-header .plusboxxrubrik {
+    padding-top: 8px;
+	padding-bottom: 8px;
+	font-size: 11px;
+}
+
+.or-plus-box-diskret-header .or-icon-plus::before {
+    content: "\f067";
+    font-family: FontAwesome;
+    color: #857672;
+    font-size: 15px;
+}
+
+ .or-plus-box-header.or-plus-box-diskret-header{
+    min-height: 30px;
+    padding-left: 13px;
+}
+
+.or-plus-box-header.or-plus-box-diskret-header.or-colorborder.or-wrapper-click.or-plus-box-header.or-plus-box-active {
+    background-color: #fff;
+}
+
+.or-colorborder.or-wrapper-click.or-plus-box-header.or-plus-box-diskret-header.or-plus-box-active .plusboxxrubrik {
+    color: #E83C23;
+}
+
+.or-plus-box-diskret-header .or-collpase-button.or-colorbg.or-plus-box-active {
+    background-color: #857672;
+}
+
+.or-plus-box-diskret-header .or-plus-box-active .or-icon-plus:before {
+    color: #fff;
 }
 
 
@@ -2039,4 +2112,93 @@ ul > li.kontaktaxossxxxbrodtext:last-child{
     line-height: 1.4em;
     margin-left: -7px;
     margin-top: -7px;
+}
+
+
+/* formulär */
+.sv-formFieldRow, .sv-formField {
+   margin-top: 20px;
+}
+
+.sv-defaultFormTheme input[type=text], .sv-defaultFormTheme input[type=email], .sv-defaultFormTheme input[type=url], .sv-defaultFormTheme input[type=tel], .sv-defaultFormTheme input[type=number], .sv-defaultFormTheme textarea, .sv-defaultFormTheme select {
+    display: block;
+    box-sizing: border-box;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    width: 100%;
+    padding: 8px 0 8px 12px;
+    line-height: normal!important;
+    height: auto;
+    border: 1px solid #EDEAEA;
+    border-radius: 2px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.0);
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.sv-defaultFormTheme input[type=text]{
+	font-size: 16px;
+	font-family: "open sans",sans-serif;
+	font-weight: 300;
+}
+
+.sv-defaultFormTheme input[type=text]:focus, textarea:focus {
+  box-shadow: 0 0 5px rgba(242, 140, 0, 0.2);
+  border: 1px solid rgba(242, 140, 0, 0.4);
+}
+
+
+.sv-defaultFormTheme input[type=button], .sv-defaultFormTheme input[type=submit], .sv-defaultFormTheme input[type=reset] {
+    display: inline-block;
+    padding: 8px 20px;
+    margin-bottom: 0;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 0px solid #ccc;
+    border-radius: 2px;
+    color: #f5f5f5;
+    background-color: #35383B;
+    border-color: transparent;
+    font-family: "leaguespartan webfont",sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    border-bottom: 4px solid #5E5E5E;
+    transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    
+}
+
+.sv-defaultFormTheme input[type=button]:hover, .sv-defaultFormTheme input[type=submit]:hover, .sv-defaultFormTheme input[type=reset]:hover {
+    color: #fff;
+    background-color: #5E5E5E;
+    border-color: #000;
+}
+
+.sv-defaultFormTheme .sv-field-title-container.sv-bold label, .sv-defaultFormTheme .sv-field-title-container.sv-bold span, .sv-defaultFormTheme .sv-field-title-container.sv-bold h1, .sv-defaultFormTheme .sv-field-title-container.sv-bold h2, .sv-defaultFormTheme .sv-field-title-container.sv-bold h3, .sv-defaultFormTheme .sv-field-title-container.sv-bold h4, .sv-defaultFormTheme .sv-field-title-container.sv-bold h5, .sv-defaultFormTheme .sv-field-title-container.sv-bold h6 {
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.sv-formFieldRow, .sv-formField {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.sv-defaultFormTheme .sv-form-singleselectionfield label, .sv-defaultFormTheme .sv-form-multipleselectionfield label {
+    font-size: 14px;
+    font-weight: 300;
 }
