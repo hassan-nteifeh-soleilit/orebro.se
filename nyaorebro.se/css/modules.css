@@ -2114,6 +2114,18 @@ ul > li.kontaktaxossxxxbrodtext:last-child{
     margin-top: -7px;
 }
 
+.or-news-filter ul {
+	display:none;
+}
+
+.or-news-filter > ul {
+	display:block;
+}
+
+
+
+
+
 
 /* formulär */
 .sv-formFieldRow, .sv-formField {
