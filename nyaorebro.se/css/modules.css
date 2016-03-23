@@ -2191,7 +2191,7 @@ ul > li.kontaktaxossxxxbrodtext:last-child{
 
 .sv-defaultFormTheme input[type=button], .sv-defaultFormTheme input[type=submit], .sv-defaultFormTheme input[type=reset] {
     display: inline-block;
-    padding: 8px 20px;
+    padding: 8px 20px 6px;
     margin-bottom: 0;
     font-weight: normal;
     line-height: 1.42857143;
@@ -2235,7 +2235,7 @@ ul > li.kontaktaxossxxxbrodtext:last-child{
 }
 
 .sv-formFieldRow, .sv-formField {
-    margin-top: 5px;
+    margin-top: 2px;
     margin-bottom: 0px;
 }
 
@@ -2244,6 +2244,9 @@ ul > li.kontaktaxossxxxbrodtext:last-child{
     font-weight: 300;
     position: relative;
     top: 1px;
+    line-height: 2em;
+    margin-left: 4px;
+
 }
 
 .sv-defaultFormTheme input[type="checkbox"], .sv-defaultFormTheme input[type="radio"] {
@@ -2324,9 +2327,9 @@ input[type="file" i]::-webkit-file-upload-button {
 	border-radius: 2px;
 	font-family: "leaguespartan webfont",sans-serif;
 	color: #fff;
-	font-size: 11px;
+	font-size: 10px;
 	text-transform: uppercase;
-	letter-spacing: 0.04em;
+	letter-spacing: 0.1em;
 	padding: 5px 11px;
 	border-bottom: 4px solid #5E5E5E;
 	transition: all 0.5s ease 0s;
@@ -2347,4 +2350,17 @@ input[type="file" i]::-webkit-file-upload-button:hover{
     padding-top: 6px;
     line-height: 1.6em;
     padding-left: 0px;
+}
+
+
+body .sv-responsiveTable--stacked__headRow.sv-responsiveTable--stacked__headRow--main{
+	background-color: red!important;
+}
+
+body .sv-responsiveTable--stacked__headRow{
+	background-color: red!important;
+}
+
+body .sv-responsiveTable--stacked__headRow--main{
+	background-color: red!important;
 }
