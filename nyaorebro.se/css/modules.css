@@ -2168,13 +2168,16 @@ ul > li.kontaktaxossxxxbrodtext:last-child{
     background-color: #fff;
     background-image: none;
     width: 100%;
-    padding: 8px 0 8px 12px;
+    padding: 6px 0px 8px 12px;
     line-height: normal!important;
     height: auto;
     border: 1px solid #EDEAEA;
     border-radius: 2px;
-    box-shadow: inset 0 1px 1px rgba(0,0,0,.0);
+    box-shadow: inset 0 0px 0px rgba(0,0,0,.0);
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    font-size: 12px;
+    font-family: "leaguespartan webfont",sans-serif;
+    height: 35px;
 }
 
 .sv-defaultFormTheme input[type=text]{
@@ -2218,6 +2221,8 @@ ul > li.kontaktaxossxxxbrodtext:last-child{
     border-bottom: 4px solid #5E5E5E;
     transition: all 0.5s ease 0s;
     -webkit-transition: all 0.5s ease 0s;
+    margin-top: 11px;
+    margin-bottom: 11px;
     
 }
 
@@ -2228,10 +2233,10 @@ ul > li.kontaktaxossxxxbrodtext:last-child{
 }
 
 .sv-defaultFormTheme .sv-field-title-container.sv-bold label, .sv-defaultFormTheme .sv-field-title-container.sv-bold span, .sv-defaultFormTheme .sv-field-title-container.sv-bold h1, .sv-defaultFormTheme .sv-field-title-container.sv-bold h2, .sv-defaultFormTheme .sv-field-title-container.sv-bold h3, .sv-defaultFormTheme .sv-field-title-container.sv-bold h4, .sv-defaultFormTheme .sv-field-title-container.sv-bold h5, .sv-defaultFormTheme .sv-field-title-container.sv-bold h6 {
-    font-weight: bold;
-    font-size: 12px;
+    font-size: 11px;
     margin-bottom: 5px;
     display: inline-block;
+    font-family: "leaguespartan webfont",sans-serif;
 }
 
 .sv-formFieldRow, .sv-formField {
@@ -2330,7 +2335,7 @@ input[type="file" i]::-webkit-file-upload-button {
 	font-size: 10px;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
-	padding: 5px 11px;
+	padding: 6px 11px 5px;
 	border-bottom: 4px solid #5E5E5E;
 	transition: all 0.5s ease 0s;
     -webkit-transition: all 0.5s ease 0s;
@@ -2352,15 +2357,24 @@ input[type="file" i]::-webkit-file-upload-button:hover{
     padding-left: 0px;
 }
 
-
-body .sv-responsiveTable--stacked__headRow.sv-responsiveTable--stacked__headRow--main{
-	background-color: red!important;
-}
-
 body .sv-responsiveTable--stacked__headRow{
-	background-color: red!important;
+	background-color: #E83C23!important;
 }
 
 body .sv-responsiveTable--stacked__headRow--main{
-	background-color: red!important;
+	background-color: #E83C23!important;
+}
+
+body .or-article-main .sv-responsiveTable--stacked__headRow--main th p{
+	color:#fff;
+	font-family: "leaguespartan webfont",sans-serif;
+	font-size: 14px;
+	padding: 5px 5px 5px 8px;
+}
+
+body .or-article-main .sv-responsiveTable--stacked__headRow th p{
+	color:#fff;
+	font-family: "leaguespartan webfont",sans-serif;
+	font-size: 14px;
+	padding: 5px 5px 5px 8px;
 }
