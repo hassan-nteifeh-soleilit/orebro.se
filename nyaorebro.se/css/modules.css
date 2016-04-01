@@ -2365,13 +2365,6 @@ body .sv-responsiveTable--stacked__headRow--main{
 	background-color: #E83C23!important;
 }
 
-body .or-article-main .sv-responsiveTable--stacked__headRow--main th p{
-	color:#fff;
-	font-family: "leaguespartan webfont",sans-serif;
-	font-size: 14px;
-	padding: 5px 5px 5px 8px;
-}
-
 body .or-article-main .sv-responsiveTable--stacked__headRow th p{
 	color:#fff;
 	font-family: "leaguespartan webfont",sans-serif;
@@ -2379,8 +2372,19 @@ body .or-article-main .sv-responsiveTable--stacked__headRow th p{
 	padding: 5px 5px 5px 8px;
 }
 
+body .or-article-main .sv-responsiveTable--stacked__headRow p{
+	color:#fff!important;
+	font-family: "leaguespartan webfont",sans-serif!important;
+	font-size: 14px;
+	padding: 5px 5px 5px 8px;
+}
+
 
 /*  nyhetslistning  */
+.or-news-list{
+	max-width: 800px;
+}
+
 .or-news-list li {
     background-color: #fff;
     padding: 10px 20px 10px 15px;
@@ -2393,7 +2397,7 @@ body .or-article-main .sv-responsiveTable--stacked__headRow th p{
 
 .or-news-list h3 a{
 	font-family: "leaguespartan webfont",sans-serif;
-	font-size: 17px;
+	font-size: 16px;
 }
 
 .or-news-list h3, .portlet-section-subheader, .subheading3{
@@ -2415,6 +2419,8 @@ body .or-article-main .sv-responsiveTable--stacked__headRow th p{
     font-size: 11px;
     position: absolute;
     left: 15px;
+    min-width: 35px;
+    text-align: center;
 }
 
 .or-load-more {
@@ -2453,7 +2459,7 @@ body .or-article-main .sv-responsiveTable--stacked__headRow th p{
     background-color: #FFFFFF;
     position: relative;
     height: 33px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border-top-left-radius: 2px;
     border-bottom-left-radius: 2px;
 }
@@ -2483,4 +2489,114 @@ body .or-article-main .sv-responsiveTable--stacked__headRow th p{
 	color: #857672;
 }
 
-.or-news-list
+/*  Fildelningsmodul  */
+
+/* Fillistning */
+
+.or-file-document-list {
+  margin-right: 8px;
+  float: none;
+  color: black;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.or-file-list-row {
+  border-bottom: 2px none #d1d1d1;
+  background-color: white;
+  box-shadow: rgba(133, 118, 114, 0.09) 0px 0px 3px 0px;
+}
+
+.or-file-list-row:hover {
+  box-shadow: #aedeef 0px 0px 6px 0px;
+}
+
+.or-file-list-row.or-simple-file-list-row {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 9px 10px 3px;
+    float: left;
+    width: 100%;
+}
+
+.or-document-icon-container {
+  width: 30px;
+  min-height: 20px;
+  float: left;
+  margin-right: 10px;
+}
+
+.or-file-icon-simple-list {
+  width: 24px;
+  margin-top: -3px;
+  margin-right: 10px;
+  float: left;
+}
+
+.or-file-name-container {
+    min-height: 20px;
+    float: left;
+    clear: none;
+}
+
+.or-contentlinks a.normal{
+  display: inline;
+  padding-right: 1px;
+  padding-bottom: 0px;
+  padding-left: 1px;
+  float: none;
+  background-color: transparent;
+  -webkit-transition: all 100ms ease;
+  transition: all 100ms ease;
+  color: black;
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.or-contentlinks:hover a.normal {
+	box-shadow: none;
+}
+
+.or-file-list-row:hover .or-contentlinks a.normal{
+  color: #000;
+}
+
+.or-file-list-row:hover .or-contentlinks{
+  box-shadow: #caeaf5 0px -47px 0px -23px inset;
+}
+
+.or-file-list-row .or-contentlinks{
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+
+.or-docs-box-content:hover a:before {
+box-shadow: rgb(255, 255, 255)0px -33px 0px -11px inset;
+box-shadow: rgba(255, 255, 255, 1)0px -33px 0px -11px inset;
+}
+
+.or-docs-box-content .subheading3{
+	font-size: 14px;
+	margin-top: 25px;
+	padding-left: 13px;
+	margin-bottom: -2px;
+}
+
+.or-file-size-simple-list {
+  margin-top: 0px;
+  float: left;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.or-file-size-simple-list.or-file-size-after {
+  margin-left: 3px;
+  float: none;
+}
+
+
+.or-document-weight {
+  float: left;
+}

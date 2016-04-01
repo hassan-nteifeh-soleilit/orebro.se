@@ -105,8 +105,12 @@ body .or-content-container .or-tir p {
     margin-top: 15px;
 }
 
+/* Nyhetslistning */
 
 
+.or-news-list h3 a {
+    font-size: 14px;
+}
 
 
 

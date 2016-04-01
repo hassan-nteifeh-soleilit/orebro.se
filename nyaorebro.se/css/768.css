@@ -243,8 +243,11 @@ body .or-content-container .or-tir p {
     margin-top: 0px;
 }
 
-/* kontaktruta */
+/* Nyhetslistning */
 
+.or-news-filter-header {
+    margin-top: 0px;
+}
 
 } /* end 767 */
 
