@@ -73,17 +73,18 @@
 
 
         /* Responsiva tabeller */
+		/*
         $(".sv-table-portlet table").stacktable({
             myClass: 'stacktable small-only'
         });
-
+		*/
         /* Expandera meny items */
         $(".or-tree .or-toggle-panel").click(function() {
             $(this).parent().toggleClass("or-expanded");
         });
 		
 		/* Expandera filter items */
-        $(".or-news-filter .or-toggle-panel").click(function() {
+        $(".or-news-filter .or-toggle-icon").click(function() {
             $(this).parent().toggleClass("or-expanded");
         });
 
