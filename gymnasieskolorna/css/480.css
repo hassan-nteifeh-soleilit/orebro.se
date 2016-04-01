@@ -238,7 +238,7 @@ h4, .rubrikx4 {
 }
 
 .normal a:link{
-  font-size: 14px;
+  font-size: 14px!important;
 }
 .sv-text-portlet li {
   margin-bottom: 9px;

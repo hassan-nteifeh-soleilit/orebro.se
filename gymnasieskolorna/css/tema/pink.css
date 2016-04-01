@@ -272,7 +272,7 @@ h4.plusboxxrubrik.or-plus-box-active {
   text-decoration:underline;
 }
 
-.or-action-link-small:hover a {
+.or-action-link-small:hover .normal .or-action-text a:link {
  color: #D196C1;
 }
  
@@ -603,7 +603,6 @@ li.sol-selected-facet:hover {
  border-bottom: 1px solid #f1ddec;
 }
 
-
 /* Ny action */
 .or-new-action-text{
 	border:1px solid #f1dde;
@@ -614,8 +613,8 @@ li.sol-selected-facet:hover {
 }
 
 .or-ny-action:hover .or-action-text a{
-	color:#D196C1;
-	text-decoration:underline;
+   color:#D196C1;
+   text-decoration:underline;
 }
 
 .or-ny-action span.fa{

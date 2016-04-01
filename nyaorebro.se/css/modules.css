@@ -2378,3 +2378,98 @@ body .or-article-main .sv-responsiveTable--stacked__headRow th p{
 	font-size: 14px;
 	padding: 5px 5px 5px 8px;
 }
+
+
+/*  nyhetslistning  */
+.or-news-list li {
+    background-color: #fff;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    box-shadow: 0px 0px 4px #E2E2E2;
+    border-radius: 3px;
+}
+
+.or-news-list h3 a{
+	font-family: "leaguespartan webfont",sans-serif;
+	font-size: 17px;
+}
+
+.or-news-list h3, .portlet-section-subheader, .subheading3{
+	margin: 0px 0px 8px 0px;
+}
+
+.or-news-date {
+    background-color: #f2f0f0;
+    padding: 2px 4px;
+    border-radius: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    font-weight: 300;
+    font-size: 11px;
+}
+
+.or-load-more {
+    background-color: #E83C23;
+    color: #fff;
+    font-family: "leaguespartan webfont",sans-serif;
+    border-radius: 2px;
+    margin-left: 4px;
+    padding: 8px 15px;
+    margin: 30px auto;
+    display: block;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+	-webkit-transition: all 0.5s ease 0s;
+}
+
+.or-load-more:hover {
+    background-color: #C82B15;
+}
+
+.or-load-more i {
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.or-news-filter-header{
+	margin-top: 75px;
+    font-size: 12px;
+    margin-bottom: 15px;
+    color: #e83c23;
+}
+
+.or-news-filter .or-category, .or-news-filter .or-daterange {
+    background-color: #FFFFFF;
+    position: relative;
+    height: 33px;
+    margin-bottom: 20px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.or-category .or-parent, .or-daterange .or-parent {
+    padding: 6px 12px;
+    color: #35383b;
+    font-weight: 700;
+    font-size: 11px;
+    font-family: "leaguespartan webfont",sans-serif;
+}
+
+.or-category .or-toggle-icon, .or-daterange .or-toggle-icon {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    margin-top: 0px;
+    height: 100%;
+    border: 1px solid rgb(237, 234, 234);
+    background-color: #fff;
+    height: 31px;
+    width: 31px;
+    background: #f9f9f8;
+}
+
+.or-category .or-toggle-icon:before, .or-daterange .or-toggle-icon:before {
+	color: #857672;
+}

@@ -283,8 +283,8 @@ h4.plusboxxrubrik.or-plus-box-active {
     border-color: rgba(136, 183, 213, 0) rgba(136, 183, 213, 0) rgba(136, 183, 213, 0) #F28C00;
 }
 
-.or-action-link-small:hover a {
- color: #FCE0B9;
+.or-action-link-small:hover .normal .or-action-text a:link {
+ color: #F28C00;
 }
  
 /* Hover plusboxar */
@@ -553,8 +553,8 @@ border: 1px solid rgba(246, 217, 177, 0.5);
 }
 
 .or-ny-action:hover .or-action-text a{
-    color:#F28C00;
-    text-decoration:underline;
+   color:#F28C00;
+   text-decoration:underline;
 }
 
 .or-ny-action span.fa{
