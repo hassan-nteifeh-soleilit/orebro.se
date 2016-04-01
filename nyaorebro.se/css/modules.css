@@ -2383,11 +2383,12 @@ body .or-article-main .sv-responsiveTable--stacked__headRow th p{
 /*  nyhetslistning  */
 .or-news-list li {
     background-color: #fff;
-    padding: 10px 15px;
+    padding: 10px 20px 10px 15px;
     margin-bottom: 20px;
     margin-top: 25px;
     box-shadow: 0px 0px 4px #E2E2E2;
-    border-radius: 3px;
+    border-radius: 2px;
+    position: relative;
 }
 
 .or-news-list h3 a{
@@ -2399,13 +2400,21 @@ body .or-article-main .sv-responsiveTable--stacked__headRow th p{
 	margin: 0px 0px 8px 0px;
 }
 
+.or-news-list li p {
+    display: inline-block;
+    margin-top: 0px;
+    padding-left: 55px;
+}
+
 .or-news-date {
     background-color: #f2f0f0;
-    padding: 2px 4px;
+    padding: 0px 4px;
     border-radius: 2px;
     border: 1px solid rgba(0, 0, 0, 0.05);
     font-weight: 300;
     font-size: 11px;
+    position: absolute;
+    left: 15px;
 }
 
 .or-load-more {
@@ -2473,3 +2482,5 @@ body .or-article-main .sv-responsiveTable--stacked__headRow th p{
 .or-category .or-toggle-icon:before, .or-daterange .or-toggle-icon:before {
 	color: #857672;
 }
+
+.or-news-list

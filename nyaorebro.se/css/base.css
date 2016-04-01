@@ -513,8 +513,10 @@ nav.or-breadcrumbs li:last-child a:after
 
 
 /* content */
-.pagecontent.sv-layout{
-	margin-top: 15px;
+.pagecontent.sv-layout {
+    margin-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 body p.sv-portlet-image-caption {
