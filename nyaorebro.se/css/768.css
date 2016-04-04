@@ -46,6 +46,11 @@ section.or-article-main .or-content-padding {
     padding-right: 20px;
 }
 
+.pagecontent.sv-layout {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 
 /*header*/
 header {
