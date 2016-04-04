@@ -1,3 +1,4 @@
+
 @media (max-width: 991px) {
   
   section.or-article-main .or-content-padding {
@@ -36,6 +37,11 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-t
     width: 700px!important;
     margin-left: -350px!important;
 }
+
+
+/* nyhetslistning */
+
+
 
 
 } /* en 991 */
@@ -341,3 +347,5 @@ width:100%;
 
 
 }
+
+*/

@@ -2315,6 +2315,21 @@ body .or-article-main .sv-responsiveTable--stacked__headRow p{
 
 
 /*  nyhetslistning  */
+
+@media (min-width: 991px) {
+body .or-plus-box-diskret-header .or-collapse-button.or-colorbg {
+    display: none;
+}
+body .or-news-filter .or-plus-box-header.or-plus-box-diskret-header.or-colorborder.or-wrapper-click.or-plus-box-header.or-plus-box-active {
+    background-color: #fff;
+}
+
+body .or-news-filter .or-colorborder.or-wrapper-click.or-plus-box-header.or-plus-box-diskret-header.or-plus-box-active .plusboxxrubrik {
+    color: #35383b;
+}
+
+}
+
 .or-news-list{
 	max-width: 800px;
 }
@@ -2437,7 +2452,7 @@ body .or-article-main .sv-responsiveTable--stacked__headRow p{
 }
 
 .or-daterange li {
-    padding: 5px 25px;
+    padding: 5px 30px;
 }
 
 .or-daterange .or-year.or-parent.or-expanded .or-month{
@@ -2516,8 +2531,10 @@ body .or-article-main .sv-responsiveTable--stacked__headRow p{
     margin: 30px auto;
     display: block;
     cursor: pointer;
-    transition: all 0.5s ease 0s;
-	-webkit-transition: all 0.5s ease 0s;
+    -webkit-transition: all 500ms ease 0s;
+    -moz-transition: all 500ms ease 0s;
+    -o-transition: all 500ms ease 0s;
+    transition: all 500ms ease 0s;
 	border: 0px solid transparent;
 	border-bottom: 4px solid #5E5E5E;
 }
@@ -2527,11 +2544,28 @@ body .or-article-main .sv-responsiveTable--stacked__headRow p{
 	border-color: #000;
 }
 
+.or-load-more:hover {
+    background-color: #5E5E5E;
+    border-color: #000;
+}
+
 .or-load-more i {
     color: #fff;
     font-weight: 400;
     font-size: 16px;
     margin-left: 10px;
+    position: relative;
+    top: 1px;
+}
+
+.or-load-more:hover i {
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    -webkit-transition: all 500ms ease 0s;
+    -moz-transition: all 500ms ease 0s;
+    -o-transition: all 500ms ease 0s;
+    transition: all 500ms ease 0s;
 }
 
 .or-news-filter-header{
@@ -2572,8 +2606,9 @@ body .or-article-main .sv-responsiveTable--stacked__headRow p{
     display: inline-block;
     width: 100%;
     box-sizing: border-box;
-    padding: 6px 10px;
+    padding: 6px 18px;
     border-bottom: solid 1px #EEEEEE;
+    min-height: 32px;
 }
 
 .or-daterange .or-item-text:hover {

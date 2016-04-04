@@ -114,6 +114,11 @@ h4 a:hover{
 }
 */
 
+.or-full-width-max .pagecontent {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 
 header .or-logo {
     display: inline-block;
@@ -168,6 +173,7 @@ header .or-logo {
 	margin-right:8px;
 	padding:6px 10px 6px 3px;
 	text-align:center;
+	font-family: "leaguespartan webfont",sans-serif;
 }
 
 .or-tool-area a:first-child
@@ -191,7 +197,7 @@ header .or-logo {
 	color:#f28c00;
 	display:block;
 	float:left;
-	margin-bottom:4px;
+	margin-bottom:5px;
 	text-align:center;
 	width:100%;
 }
