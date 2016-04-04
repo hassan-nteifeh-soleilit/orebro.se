@@ -283,6 +283,8 @@ form.or-search-field button{
   border-top-right-radius: 1px;
   background-color: white;
   -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
   transition: all 500ms ease;
   color: #857672;
   font-weight: 400;
@@ -386,8 +388,10 @@ form.or-search-field button{
   margin-left: -13px;
   border-radius: 13px;
   background-color: white;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 100ms ease;
+  -moz-transition: all 100ms ease;
+  -o-transition: all 100ms ease;
+  transition: all 100ms ease;
   line-height: 26px;
   letter-spacing: -0.06em;
 }
@@ -407,6 +411,8 @@ form.or-search-field button{
   border-radius: 20px;
   background-color: #e83c23;
   -webkit-transition: all 300ms ease;
+  -moz-transition: all 3100ms ease;
+  -o-transition: all 3100ms ease;
   transition: all 300ms ease;
   color: white;
   font-size: 14px;
@@ -429,8 +435,10 @@ form.or-search-field button{
   margin-left: -13px;
   border-radius: 13px;
   background-color: rgba(133, 118, 114, 0.65);
-  -webkit-transition: all 300ms ease;
-  transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
 
 }
 
@@ -493,7 +501,10 @@ or-action-link
 	margin-top:20px;
 	position:relative;
 	text-decoration:none;
-	transition:all 500ms ease 0;
+	-webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
 	width:100%;
 }
 
@@ -732,6 +743,9 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3{
     top: 50%;
     margin-top: -13px;
     margin-left: 20px;
+    -webkit-transition: all 100ms ease;
+    -moz-transition: all 100ms ease;
+    -o-transition: all 100ms ease;
     transition: all 100ms ease;
     background-size: 25%;
     background-color: transparent;
@@ -748,6 +762,9 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3{
     top: 50%;
     margin-top: -13px;
     margin-left: 20px;
+    -webkit-transition: all 100ms ease;
+    -moz-transition: all 100ms ease;
+    -o-transition: all 100ms ease;
     transition: all 100ms ease;
     background-size: 25%;
     background-color: transparent;
@@ -817,7 +834,10 @@ body .or-update-date{
 {
 	-moz-border-radius:2px;
 	-webkit-border-radius:2px;
-	-webkit-transition:all 500ms ease;
+	-webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
 	background-color:#857672;
 	border-bottom-color:rgba(255,255,255,0.09);
 	border-bottom-style:solid;
@@ -831,7 +851,6 @@ body .or-update-date{
 	padding-bottom:3px;
 	padding-top:3px;
 	text-align:center;
-	transition:all 500ms ease;
 	margin-top: 8px;
 	font-size: 12px;
 }
@@ -892,7 +911,10 @@ body .or-update-date{
 	box-shadow:0 -16px 0 -11px rgba(174,222,239,0.65) inset;
 	font-size:13px;
 	line-height:21px;
-	transition:all 100ms ease 0;
+	-webkit-transition: all 500ms ease;
+    -moz-transition: all 5100ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
 }
 
 .or-helpustext a:link:hover
@@ -1013,7 +1035,10 @@ label.or-fieldlabelhelpus
 	font-size:15px;
 	font-weight:600;
 	padding:8px 15px 10px 14px;
-	transition:all 300ms ease 0;
+	-webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
 }
 
 .or-forms input:hover[type=submit]
@@ -1099,7 +1124,10 @@ span.sol-hit-count {
     margin-bottom: 0px;
 }
 .or-search-link a {
-    transition: all 100ms ease 0s;
+   	-webkit-transition: all 100ms ease;
+    -moz-transition: all 100ms ease;
+    -o-transition: all 100ms ease;
+    transition: all 100ms ease;
     font-size: 19px;
     line-height: 1.3em;
     font-weight: 700;
@@ -1208,6 +1236,8 @@ body .sol-search-hits .sol-doc-size p{
     font-size: 12px;
     letter-spacing: 0.04em;
     -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
     transition: all 500ms ease;
     margin-bottom: 0px !important;
     list-style: none;
@@ -1414,7 +1444,10 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
     background-color: white;
     padding: 5px;
 	box-shadow: 0px -16px 0px -12px rgba(174, 222, 239, 0.65) inset;
-	transition: all 100ms ease 0s;
+	-webkit-transition: all 100ms ease;
+    -moz-transition: all 100ms ease;
+    -o-transition: all 100ms ease;
+    transition: all 100ms ease;
 }
 
 .or-total-link a:hover {
@@ -1548,36 +1581,48 @@ footer {
     margin-top: 25px;
 }
 
-.or-footer-icon-links a{
-	font-family: "leaguespartan webfont",sans-serif;
-	color: #35383b;
-	margin-right: 50px;
+.or-footer-icon-links a {
+    font-family: "leaguespartan webfont",sans-serif;
+    color: #35383b;
+    margin-right: 50px;
     font-size: 12px;
     display: inline-block;
     margin-bottom: 20px;
+    box-shadow: rgba(174, 222, 239, 0.65)0px -14px 0px -10px inset;
+    -webkit-transition: all 100ms ease;
+    -moz-transition: all 100ms ease;
+    -o-transition: all 100ms ease;
+    transition: all 100ms ease;
+    
 }
+
+.or-footer-icon-links a:hover {
+    box-shadow: rgba(174, 222, 239, 0.65) 0px -41px 0px -23px inset;
+}
+
 
 .or-footer-icon-links i {
     color: #35383b;
     font-size: 24px;
-    margin-right: 9px;
+    margin-right: 1px;
     position: relative;
     top: 2px;
+    box-shadow: rgb(255, 255, 255)0px -17px 0px 0px inset;
+    padding-right: 6px;
+    background-color: #fff
 }
 
 .or-footer-icon-links img{
 	width: 23px;
 	height: 23px;
 	position: relative;
-    top: 3px;
-    margin-right: 9px;
+    top: 4px;
+    margin-right: 1px;
     border: 0px;
+    box-shadow: rgb(255, 255, 255)0px -17px 0px 0px inset;
+    padding-right: 6px;
 }
 
-.or-footer-icon-links a:hover {
-    color: #e83c23;
-    text-decoration: underline;
-}
 
 .or-footer-links a {
     margin-right: 30px;
@@ -1831,7 +1876,10 @@ body .or-content-container .or-tir p {
     -moz-border-radius: 1px;
     -webkit-border-radius: 1px;
     background-color: #FFF;
-    transition: all 500ms ease 0s;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 5100ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
     text-decoration: none;
     margin-bottom: 20px;
 }
@@ -1866,8 +1914,10 @@ body .or-content-container .or-tir p {
     width: 100%;
     margin-top: 13px;
     margin-bottom: 0px;
-    transition: all 0.5s ease 0s;
-    -webkit-transition: all 0.5s ease 0s;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
     background-color: white;
     border-style: solid;
     border-width: 1px;
@@ -2153,8 +2203,10 @@ ul > li.kontaktaxossxxxbrodtext:last-child{
     letter-spacing: 0.06em;
     text-transform: uppercase;
     border-bottom: 4px solid #5E5E5E;
-    transition: all 0.5s ease 0s;
-    -webkit-transition: all 0.5s ease 0s;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
     margin-top: 11px;
     margin-bottom: 11px;
     
@@ -2491,12 +2543,12 @@ body .or-news-filter .or-colorborder.or-wrapper-click.or-plus-box-header.or-plus
     box-shadow: 0px 0px 4px #E2E2E2;
     border-radius: 2px;
     position: relative;
+
 }
 
 .or-news-list li:hover h3 a{
-    box-shadow: rgba(174, 222, 239, 0.65) 0px -60px 0px -30px inset;
+	box-shadow: rgba(174, 222, 239, 0.65) 0px -60px 0px -30px inset;
 }
-
 
 .or-news-list h3 a{
 	font-family: "leaguespartan webfont",sans-serif;
@@ -2697,6 +2749,8 @@ body .or-news-filter .or-colorborder.or-wrapper-click.or-plus-box-header.or-plus
   float: none;
   background-color: transparent;
   -webkit-transition: all 100ms ease;
+  -moz-transition: all 100ms ease;
+  -o-transition: all 100ms ease;
   transition: all 100ms ease;
   color: black;
   text-decoration: none;
@@ -2717,8 +2771,10 @@ body .or-news-filter .or-colorborder.or-wrapper-click.or-plus-box-header.or-plus
 }
 
 .or-file-list-row .or-contentlinks{
-    -webkit-transition: all 500ms ease;
-    transition: all 500ms ease;
+   -webkit-transition: all 500ms ease;
+   -moz-transition: all 500ms ease;
+   -o-transition: all 500ms ease;
+   transition: all 500ms ease;
 }
 
 
