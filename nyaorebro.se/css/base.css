@@ -467,7 +467,7 @@ nav.or-breadcrumbs li a {
 
 nav.or-breadcrumbs li a:hover
 {
-	color: #E83C23;
+	text-decoration: underline;
 }
 
 

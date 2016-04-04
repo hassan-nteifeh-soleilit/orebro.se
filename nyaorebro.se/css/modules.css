@@ -2513,8 +2513,8 @@ body .or-news-filter .or-colorborder.or-wrapper-click.or-plus-box-header.or-plus
     font-weight: normal;
 }
 
-.or-daterange .or-year.or-parent.or-expanded .or-month:hover{
-	color: #e83c23;
+.or-daterange .or-year.or-parent.or-expanded .or-month:hover {
+    text-decoration: underline;
 }
 
 .or-daterange .or-year.or-parent.or-expanded .or-month.selected{
@@ -2529,7 +2529,7 @@ body .or-news-filter .or-colorborder.or-wrapper-click.or-plus-box-header.or-plus
 }
 
 .or-category li:hover{
-    color: #e83c23;
+    text-decoration: underline;
 }
 
 .or-daterange li:hover {
@@ -2669,8 +2669,8 @@ body .or-news-filter .or-colorborder.or-wrapper-click.or-plus-box-header.or-plus
 }
 
 .or-daterange .or-item-text:hover {
- 	color: #E83C23;
- }
+    text-decoration: underline;
+}
 
 .or-category .or-toggle-icon, .or-daterange .or-toggle-icon {
     position: absolute;
