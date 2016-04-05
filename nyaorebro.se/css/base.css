@@ -420,6 +420,10 @@ ul.or-nav-list li .or-list-wrapper:hover p {
     text-decoration: underline;
 }
 
+ul.or-nav-list li .or-list-wrapper:hover h3 {
+    text-decoration: underline;
+}
+
 ul.or-nav-list li .or-list-wrapper .or-title
 {
 	border-bottom:2px dotted #dad6d4;

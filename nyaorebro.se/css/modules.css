@@ -1858,6 +1858,7 @@ body .or-content-container .or-tir p {
 
 .or-ny-action:hover .normal .or-action-text a:link {
     color: #E83C23;
+    text-decoration: underline;
 }
 
 
@@ -1929,8 +1930,9 @@ body .or-content-container .or-tir p {
 	box-sizing: border-box;
 }
 
-.or-plus-box-header:hover .plusboxxrubrik{
-	color: #E83C23;
+.or-plus-box-header:hover .plusboxxrubrik {
+    color: #E83C23;
+    text-decoration: underline;
 }
 
 .or-plus-box-content{
@@ -2298,7 +2300,7 @@ input[type="file" i]::-webkit-file-upload-button:hover{
 /*  nyhetslistning  */
 
 @media (min-width: 991px) {
-body .or-plus-box-diskret-header .or-collapse-button.or-colorbg {
+body .or-news-filter .or-plus-box-diskret-header .or-collapse-button.or-colorbg {
     display: none;
 }
 body .or-news-filter .or-plus-box-header.or-plus-box-diskret-header.or-colorborder.or-wrapper-click.or-plus-box-header.or-plus-box-active {
@@ -2307,6 +2309,7 @@ body .or-news-filter .or-plus-box-header.or-plus-box-diskret-header.or-colorbord
 
 body .or-news-filter .or-colorborder.or-wrapper-click.or-plus-box-header.or-plus-box-diskret-header.or-plus-box-active .plusboxxrubrik {
     color: #35383b;
+    text-decoration: none;
 }
 
 }
@@ -2444,6 +2447,7 @@ body .or-news-filter .or-colorborder.or-wrapper-click.or-plus-box-header.or-plus
 
 .or-daterange .or-year.or-parent.or-expanded .or-month:hover {
     text-decoration: underline;
+    color: #e83c23;
 }
 
 .or-daterange .or-year.or-parent.or-expanded .or-month.selected{
@@ -2457,8 +2461,9 @@ body .or-news-filter .or-colorborder.or-wrapper-click.or-plus-box-header.or-plus
 	color: #e83c23;
 }
 
-.or-category li:hover{
+.or-category li:hover {
     text-decoration: underline;
+    color: #e83c23;
 }
 
 .or-daterange li:hover {
@@ -2599,6 +2604,7 @@ body .or-news-filter .or-colorborder.or-wrapper-click.or-plus-box-header.or-plus
 
 .or-daterange .or-item-text:hover {
     text-decoration: underline;
+    color: #e83c23;
 }
 
 .or-category .or-toggle-icon, .or-daterange .or-toggle-icon {
