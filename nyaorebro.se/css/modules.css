@@ -1970,10 +1970,6 @@ body .or-content-container .or-tir p {
     color: #857672;
 }
 
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 .or-collapse-button {
     position: absolute;
     right: 0px;
@@ -2244,56 +2240,10 @@ ul > li.kontaktaxossxxxbrodtext:last-child{
 }
 
 
-/* formulär */
-
-
 
 .sv-formField{
 border-bottom: 2px dotted #e4e4e4;
 padding-bottom: 10px;
-}
-
-
-.or-content-container .sv-linklist-portlet table, .sv-blog-portlet table, .sv-archive-portlet table, .sv-text-portlet table{
-	margin: 20px auto;
-	border: solid 1px #f3dcd0;
-	border-top: solid 0px;
-}
-
-.or-content-container .sv-linklist-portlet table, .sv-blog-portlet table, .sv-archive-portlet table, .sv-text-portlet table thead{
-	background-color: #e83c23;
-}
-
-.or-content-container .sv-linklist-portlet table, .sv-blog-portlet table, .sv-archive-portlet table, .sv-text-portlet table thead th{
-	padding: 8px 6px;
-	border-right:solid 2px rgba(255, 255, 255, 0.25);
-}
-
-.or-content-container .sv-linklist-portlet table, .sv-blog-portlet table, .sv-archive-portlet table, .sv-text-portlet table td{
-	padding: 8px 6px;
-}
-
-
-.or-content-container .sv-linklist-portlet table, .sv-blog-portlet table, .sv-archive-portlet table, .sv-text-portlet table.sv-standard thead th p{
-	color: #fff;
-	line-height: 1.3em;
-	font-family: "leaguespartan webfont",sans-serif;
-	font-size: 12px;
-}
-
-.or-content-container .sv-linklist-portlet table p, .sv-blog-portlet table p, .sv-archive-portlet table p, .sv-text-portlet table p {
-font-size: 12px!important;
-}
-
-
-.or-content-container .sv-linklist-portlet table, .sv-blog-portlet table, .sv-archive-portlet table, .sv-text-portlet table tbody tr:nth-child(2n) {
-	background-color: #fdf7f1;
-	border-bottom: solid 1px #f3dcd0;
-}
-
-.or-content-container .sv-linklist-portlet table, .sv-blog-portlet table, .sv-archive-portlet table, .sv-text-portlet table tbody tr:nth-child(2n+1) {
-	background-color: #fff;
-	border-bottom: solid 1px #f3dcd0;
 }
 
 input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button {
@@ -2343,27 +2293,6 @@ input[type="file" i]::-webkit-file-upload-button:hover{
     padding-left: 0px;
 }
 
-body .sv-responsiveTable--stacked__headRow{
-	background-color: #E83C23!important;
-}
-
-body .sv-responsiveTable--stacked__headRow--main{
-	background-color: #E83C23!important;
-}
-
-body .or-article-main .sv-responsiveTable--stacked__headRow th p{
-	color:#fff;
-	font-family: "leaguespartan webfont",sans-serif;
-	font-size: 14px;
-	padding: 5px 5px 5px 8px;
-}
-
-body .or-article-main .sv-responsiveTable--stacked__headRow p{
-	color:#fff!important;
-	font-family: "leaguespartan webfont",sans-serif!important;
-	font-size: 14px;
-	padding: 5px 5px 5px 8px;
-}
 
 
 /*  nyhetslistning  */
@@ -2805,4 +2734,71 @@ box-shadow: rgba(255, 255, 255, 1)0px -33px 0px -11px inset;
 
 .or-document-weight {
   float: left;
+}
+
+
+/* tabeller */
+
+.or-content-container .sv-linklist-portlet table, .sv-blog-portlet table, .sv-archive-portlet table, .sv-text-portlet table{
+	margin: 20px auto;
+	border: solid 1px #f3dcd0;
+	border-top: solid 0px;
+}
+
+.or-content-container .sv-linklist-portlet table, .sv-blog-portlet table, .sv-archive-portlet table, .sv-text-portlet table thead{
+	background-color: #e83c23;
+}
+
+.or-content-container .sv-linklist-portlet table, .sv-blog-portlet table, .sv-archive-portlet table, .sv-text-portlet table thead th{
+	padding: 8px 6px;
+	border-right:solid 2px rgba(255, 255, 255, 0.25);
+}
+
+.or-content-container .sv-linklist-portlet table, .sv-blog-portlet table, .sv-archive-portlet table, .sv-text-portlet table td{
+	padding: 8px 6px;
+}
+
+
+.or-content-container .sv-linklist-portlet table, .sv-blog-portlet table, .sv-archive-portlet table, .sv-text-portlet table.sv-standard thead th p{
+	color: #fff;
+	line-height: 1.3em;
+	font-family: "leaguespartan webfont",sans-serif;
+	font-size: 12px;
+}
+
+.or-content-container .sv-linklist-portlet table p, .sv-blog-portlet table p, .sv-archive-portlet table p, .sv-text-portlet table p {
+font-size: 12px!important;
+}
+
+
+.or-content-container .sv-linklist-portlet table, .sv-blog-portlet table, .sv-archive-portlet table, .sv-text-portlet table tbody tr:nth-child(2n) {
+	background-color: #fdf7f1;
+	border-bottom: solid 1px #f3dcd0;
+}
+
+.or-content-container .sv-linklist-portlet table, .sv-blog-portlet table, .sv-archive-portlet table, .sv-text-portlet table tbody tr:nth-child(2n+1) {
+	background-color: #fff;
+	border-bottom: solid 1px #f3dcd0;
+}
+
+body .sv-responsiveTable--stacked__headRow{
+	background-color: #E83C23!important;
+}
+
+body .sv-responsiveTable--stacked__headRow--main{
+	background-color: #E83C23!important;
+}
+
+body .or-article-main .sv-responsiveTable--stacked__headRow th p{
+	color:#fff;
+	font-family: "leaguespartan webfont",sans-serif;
+	font-size: 14px;
+	padding: 5px 5px 5px 8px;
+}
+
+body .or-article-main .sv-responsiveTable--stacked__headRow p{
+	color:#fff!important;
+	font-family: "leaguespartan webfont",sans-serif!important;
+	font-size: 14px;
+	padding: 5px 5px 5px 8px;
 }
