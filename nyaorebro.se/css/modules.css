@@ -1908,7 +1908,7 @@ body .or-content-container .or-tir p {
 
 
 /* action formatmall */
-.sv-font-action-penna{
+.sv-font-action-penna, .sv-font-action-pil{
     background-color: #fff;
     width: 100%;
     display: inline-block;
@@ -1916,20 +1916,62 @@ body .or-content-container .or-tir p {
     font-style: normal;
     color: #35383B;
     position: relative;
-    padding-left: 50px;
+    font-size: 12px;
+    color: #35383b;
+    line-height: 16px;
+    display: inline-block;
+    padding-left: 59px;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    padding-right: 67px;
+    font-weight: 800;
+    letter-spacing: 0.02em;
+    float: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.sv-font-action-penna a, .sv-font-action-pil a{
+    text-decoration: none;
+}
+
+.sv-font-action-penna a:hover, .sv-font-action-pil a:hover{
+    color: #E83C23;
+    text-decoration: underline;
+}
+
+.sv-font-action-penna:before, .sv-font-action-pil:before{
+    background-color: #E83C23;
+    color:#fff;
+    width: 48px;
+    height: 100%;
+    position: absolute;
+    font: normal normal normal 22px/45px FontAwesome;
+    left: 0;
+    top:0;
+    text-align: center;
 }
 
 .sv-font-action-penna:before{
-    content:"\f044";
-    background-color: red;
-    width: 50px;
-    height: 100%;
-    position: absolute;
-    font: normal normal normal 14px/1 FontAwesome;
-    left: 0;
-    top:0;
+	content:"\f044";
 }
 
+.sv-font-action-pil:before{
+	content:"\f054";
+	font: normal normal normal 20px/46px FontAwesome;
+}
+
+.sv-font-action-penna:after, .sv-font-action-pil:after {
+    content: "\f054";
+    color: #35383B;
+    width: 41px;
+    height: 100%;
+    position: absolute;
+    font: normal normal normal 17px/45px FontAwesome;
+    right: 0;
+    top: 0;
+    text-align: center;
+}
 
 
 /* PLUSBOX */
