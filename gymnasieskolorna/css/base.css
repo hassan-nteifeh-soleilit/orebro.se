@@ -6620,7 +6620,7 @@ text-decoration: underline;
 .or-puff-bild-trans-text > div:nth-child(2){
   float: left;
   width: 100% !important;
-  height: 340px; 
+  height: 300px; 
   overflow: hidden;
 }
 
