@@ -387,7 +387,8 @@ color: #35383B;
     background-color: #857672;
 }
 
-.or-plus-box-program.or-plus-box-content.sv-table-portlet th {
+.or-plus-box-program.or-plus-box-content.sv-table-portlet th,
+.or-plus-box-program.or-plus-box-content .sv-text-portlet-content th {
     background-color: #857672;
 }
 
@@ -403,12 +404,10 @@ color: #35383B;
     border-right: 1px solid rgba(0, 0, 0, 0.1);
     background-color: #fff484;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	color: #35383b;
+    font-weight: 700;
 }
 
-.sv-table-portlet th, .sv-text-portlet table.sv-programtabell th p{
-color: #35383b;
-font-weight: 700;
-}
 
 
 /* rubrik logo */

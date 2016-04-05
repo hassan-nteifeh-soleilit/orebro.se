@@ -5903,8 +5903,8 @@ box-shadow: rgba(255, 255, 255, 1)0px -33px 0px -11px inset;
 .sv-blog-portlet table.sv-programtabell td p, 
 .sv-archive-portlet table.sv-programtabell td p, 
 .sv-text-portlet table.sv-programtabell td p {
-    font-size: 15px;
-    line-height: 1.2em;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .pagecontent .sv-linklist-portlet table.sv-programtabell td p, 
@@ -5962,7 +5962,7 @@ border-left: 1px solid rgb(133, 118, 114);
 }
 
 .sv-table-portlet th span.normal,  
-.sv-text-portlet table.sv-programtabell th span.normal {  
+.sv-text-portlet table.sv-programtabell th p {  
   color: white;
   font-family: 'Leaguespartan webfont', sans-serif;
   font-size: 12px;
@@ -7444,8 +7444,7 @@ color: #35383B;
 
 /* Plusbox program tabell*/
 
-.or-plus-box-program.or-plus-box-content.sv-table-portlet,
-.or-plus-box-program.or-plus-box-content.sv-programtabell {
+.or-plus-box-program.or-plus-box-content.sv-table-portlet{
   padding: 0px;
 }
 
@@ -7460,8 +7459,8 @@ color: #35383B;
 
 .or-plus-box-program.or-plus-box-content.sv-table-portlet tr td:first-child,
 .or-plus-box-program.or-plus-box-content.sv-table-portlet tr th:first-child,
-.or-plus-box-program.or-plus-box-content .sv-text-portlet table.sv-programtabell tr td:first-child,
-.or-plus-box-program.or-plus-box-content .sv-text-portlet table.sv-programtabell tr th:first-child  {
+.or-plus-box-program.or-plus-box-content .sv-text-portlet-content table tr td:first-child,
+.or-plus-box-program.or-plus-box-content .sv-text-portlet-content  table tr th:first-child  {
   border: none;
   padding-left: 20px;  
   width: 75%;
@@ -7469,11 +7468,13 @@ color: #35383B;
 
 .or-plus-box-program.or-plus-box-content.sv-table-portlet tr td:last-child,
 .or-plus-box-program.or-plus-box-content.sv-table-portlet tr th:last-child,
-.or-plus-box-program.or-plus-box-content .sv-text-portlet table.sv-programtabell tr td:last-child,
-.or-plus-box-program.or-plus-box-content .sv-text-portlet .sv-text-portlet table.sv-programtabell tr th:last-child  {
+.or-plus-box-program.or-plus-box-content .sv-text-portlet-content  table tr td:last-child,
+.or-plus-box-program.or-plus-box-content .sv-text-portlet-content table tr th:last-child  {
   border: none;
   padding-right: 55px;
 }
+
+
 
 /* Plusbox program */
 .or-plus-box-header.or-plus-box-program {
