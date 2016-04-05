@@ -7444,7 +7444,8 @@ color: #35383B;
 
 /* Plusbox program tabell*/
 
-.or-plus-box-program.or-plus-box-content.sv-table-portlet{
+.or-plus-box-program.or-plus-box-content.sv-table-portlet,
+.or-program-tabell .or-plus-box-program.or-plus-box-content{
   padding: 0px;
 }
 
@@ -7472,6 +7473,11 @@ color: #35383B;
 .or-plus-box-program.or-plus-box-content .sv-text-portlet-content table tr th:last-child  {
   border: none;
   padding-right: 55px;
+}
+
+
+td.sv-text-align-right p {
+    text-align: right;
 }
 
 
