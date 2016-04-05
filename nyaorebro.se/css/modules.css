@@ -1907,6 +1907,28 @@ body .or-content-container .or-tir p {
 }
 
 
+/* action formatmall */
+.sv-font-action-penna{
+    background-color: #fff;
+    width: 100%;
+    display: inline-block;
+    font-family: "leaguespartan webfont",sans-serif;
+    font-style: normal;
+    color: #35383B;
+    position: relative;
+    padding-left: 50px;
+}
+
+.sv-font-action-penna:before{
+    content:"\f044";
+    background-color: red;
+    width: 50px;
+    height: 100%;
+    position: absolute;
+    font: normal normal normal 14px/1 FontAwesome;
+    left: 0;
+    top:0;
+}
 
 
 
