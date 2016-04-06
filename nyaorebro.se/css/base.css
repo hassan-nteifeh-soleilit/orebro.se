@@ -718,3 +718,10 @@ color: #fff;}
 .or-sortable  .or-tb-row:nth-child(odd) {
   background-color: #fff;
 }
+
+
+.or-content-container .sv-text-portlet table caption {
+    font-family: "leaguespartan webfont",sans-serif;
+    font-size: 11px;
+    margin-bottom: 3px;
+}
