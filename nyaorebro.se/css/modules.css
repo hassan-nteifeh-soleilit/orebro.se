@@ -1929,7 +1929,6 @@ body .or-content-container .or-tir p {
     box-sizing: border-box;
     text-decoration: none;
     border: 1px solid rgb(237, 234, 234);
-    margin-bottom: 10px;
 }
 
 .sv-font-action-penna a, .sv-font-action-pil a{
@@ -2555,6 +2554,10 @@ body .or-news-filter .or-colorborder.or-wrapper-click.or-plus-box-header.or-plus
 
 .or-news-list li:hover h3 a{
 	box-shadow: rgba(174, 222, 239, 0.65) 0px -60px 0px -30px inset;
+}
+
+.or-news-list li:hover p{
+	text-decoration: underline;
 }
 
 .or-news-list h3 a{
