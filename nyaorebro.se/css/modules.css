@@ -1908,7 +1908,7 @@ body .or-content-container .or-tir p {
 
 
 /* action formatmall */
-.sv-font-action-penna, .sv-font-action-pil{
+.sv-font-action-penna, .sv-font-action-pil, .sv-font-action-karta, .sv-font-action-facebook, .sv-font-action-twitter{
     background-color: #fff;
     width: 100%;
     display: inline-block;
@@ -2530,9 +2530,10 @@ body .or-news-filter .or-colorborder.or-wrapper-click.or-plus-box-header.or-plus
 
 }
 
-.or-category .or-category-item.selected{
-	font-weight: 700;
-	color: #e83c23;
+.or-category .or-category-item.selected {
+    font-weight: 700;
+    color: #fff;
+    background-color: #e83c23;
 }
 
 .or-category li:hover {
