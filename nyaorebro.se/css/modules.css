@@ -1861,6 +1861,10 @@ body .or-content-container .or-tir p {
     text-decoration: underline;
 }
 
+.or-ny-action:hover .or-action-text a{
+	color: #E83C23;
+}
+
 
 .or-new-action-text {
 	height: 100%;
