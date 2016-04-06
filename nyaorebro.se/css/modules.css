@@ -1929,6 +1929,8 @@ body .or-content-container .or-tir p {
     box-sizing: border-box;
     text-decoration: none;
     border: 1px solid rgb(237, 234, 234);
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .sv-font-action-penna a, .sv-font-action-pil a{
