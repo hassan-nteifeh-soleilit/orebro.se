@@ -14,16 +14,7 @@
         }
 
 
-        /* Plusboxar */
-        $('.or-plus-box-content').css('display', 'none');
-        $('.or-plus-box-header').click(function() {
-            $(this).parent().next('div.or-plus-box-content').slideToggle();
-            $(this).toggleClass('or-plus-box-active');
-            $(this).find("img.or-arrow-down-collapse").toggleClass('or-plus-box-active');
-            $(this).find(".or-collpase-button").toggleClass('or-plus-box-active');
-            $(this).find("h4.plusboxxrubrik").toggleClass('or-plus-box-active');
-            return false;
-        });
+    
 
         /* Kontakta oss "molnet" */
         $('.or-contact-bar-info-container').css('display', 'none');
