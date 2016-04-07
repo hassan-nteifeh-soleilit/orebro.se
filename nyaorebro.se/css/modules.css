@@ -2891,11 +2891,11 @@ body .or-article-main .sv-responsiveTable--stacked__headRow p{
 
 /* Readspeaker */
 
-span.rsbtn_powered {
-    display: none;
+.rsbtn_powered {
+    display: none !important;
 }
 
-#readspeaker_div {
+#readspeaker_player_div {
     position: relative;
     left: -40px;
     top: 50px;
