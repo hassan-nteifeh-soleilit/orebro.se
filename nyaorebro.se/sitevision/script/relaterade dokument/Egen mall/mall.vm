@@ -1,0 +1,32 @@
+## =====================================================
+## Copyright (C) SiteVision AB 2010, all rights reserved
+## This portlet uses the SiteVision Public API
+## =====================================================
+#set ($propertyUtil = $sitevisionUtils.propertyUtil)
+
+
+#if (!$related.isEmpty())
+   <div class="or-teaser-box or-related-documents">
+     <div class="or-title"><span><i class="fa fa-file-text-o"></i>Dokument</span></div>
+     <div class="or-text-content">   
+   #set ($instanceTypeUtil = $sitevisionUtils.instanceTypeUtil)
+   #set ($endecUtil = $sitevisionUtils.endecUtil)
+   #set ($linkRenderer = $sitevisionUtils.linkRenderer)
+   $linkRenderer.setFontClass("")
+   $linkRenderer.setUseEncoding(false)   
+       <ul class="or-teaser-list">
+   #foreach($item in $related)      
+      #if ($instanceTypeUtil.isNode($item))            
+         #if ($linkRenderer.isValidTarget($item))            
+            $linkRenderer.update($item)            
+            $linkRenderer.setText("<span class=""or-link-name"">$item</span>")                            
+            <li>$linkRenderer.render()</li>
+         #end         
+      #else
+         <li>$endecUtil.escapeXML(${item})</li>
+      #end
+   #end
+       </ul> 
+     </div>     
+   </div>
+#end
