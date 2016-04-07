@@ -1861,10 +1861,6 @@ body .or-content-container .or-tir p {
     text-decoration: underline;
 }
 
-.or-ny-action:hover .or-action-text a{
-	color: #E83C23;
-}
-
 
 .or-new-action-text {
 	height: 100%;
@@ -1937,29 +1933,29 @@ body .or-content-container .or-tir p {
     margin-top: 5px;
 }
 
-.sv-font-action-penna a, .sv-font-action-pil a, .sv-font-action-karta a, .sv-font-action-facebook a, .sv-font-action-twitter a{
+.sv-font-action-penna a, .sv-font-action-pil a{
     text-decoration: none;
     font-family: "leaguespartan webfont",sans-serif;
     font-size: 12px;
 }
 
-.sv-font-action-penna:hover a, .sv-font-action-pil:hover a, .sv-font-action-karta:hover a, .sv-font-action-facebook:hover a, .sv-font-action-twitter:hover a{
+.sv-font-action-penna:hover a{
     color: #E83C23;
     text-decoration: underline;
 }
 
-/*.sv-font-action-pil:hover a{
+.sv-font-action-pil:hover a{
     color: #E83C23;
     text-decoration: underline;
-}*/
+}
 
-.sv-font-action-penna:before, .sv-font-action-pil:before, .sv-font-action-karta:before, .sv-font-action-facebook:before, .sv-font-action-twitter:before{
+.sv-font-action-penna:before, .sv-font-action-pil:before {
     background-color: #E83C23;
     color: #fff;
     width: 45px;
     height: 100%;
     position: absolute;
-    font: normal normal normal 20px/46px FontAwesome;
+    font: normal normal normal 22px/45px FontAwesome;
     left: 0;
     top: 0;
     text-align: center;
@@ -1972,21 +1968,10 @@ body .or-content-container .or-tir p {
 
 .sv-font-action-pil:before{
 	content:"\f054";
+	font: normal normal normal 20px/46px FontAwesome;
 }
 
-.sv-font-action-karta:before{
-	content:"\f041";
-}
-
-.sv-font-action-twitter:before{
-	content:"\f099";
-}
-
-.sv-font-action-facebook:before{
-	content:"\f09a";
-}
-
-.sv-font-action-penna:after, .sv-font-action-pil:after, .sv-font-action-karta:after, .sv-font-action-facebook:after, .sv-font-action-twitter:after {
+.sv-font-action-penna:after, .sv-font-action-pil:after {
     content: "\f054";
     color: #35383B;
     width: 41px;
@@ -2405,7 +2390,6 @@ body .or-news-filter .or-colorborder.or-wrapper-click.or-plus-box-header.or-plus
 
 .or-news-list{
 	max-width: 800px;
-	padding-top: 20px;
 }
 
 .or-news-filter {
@@ -2515,7 +2499,7 @@ body .or-news-filter .or-colorborder.or-wrapper-click.or-plus-box-header.or-plus
 }
 
 .or-year.or-parent .or-toggle-icon {
-    height: 31px;
+    height: 32px;
     width: 31px;
     border-top: 0px;
 }
@@ -2542,32 +2526,14 @@ body .or-news-filter .or-colorborder.or-wrapper-click.or-plus-box-header.or-plus
 
 .or-daterange .or-year.or-parent.or-expanded .or-month.selected{
 	font-weight: 700;
-	color: #fff;
-    background-color: #e83c23;
-    position: relative;
-}
+	color: #e83c23;
 
-.or-daterange .or-year.or-parent.or-expanded .or-month.selected:after{
-    content: "\f00c";
-    font-family: FontAwesome;
-    position: absolute;
-    right: 10px;
-    top: 5px;
 }
 
 .or-category .or-category-item.selected {
     font-weight: 700;
     color: #fff;
     background-color: #e83c23;
-    position: relative;
-}
-
-.or-category .or-category-item.selected:after {
-    content: "\f00c";
-    font-family: FontAwesome;
-    position: absolute;
-    right: 10px;
-    top: 5px;
 }
 
 .or-category li:hover {
@@ -2581,7 +2547,8 @@ body .or-news-filter .or-colorborder.or-wrapper-click.or-plus-box-header.or-plus
 .or-news-list li {
     background-color: #fff;
     padding: 10px 20px 10px 15px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+    margin-top: 25px;
     box-shadow: 0px 0px 4px #E2E2E2;
     border-radius: 2px;
     position: relative;
@@ -2919,4 +2886,21 @@ body .or-article-main .sv-responsiveTable--stacked__headRow p{
 	font-family: "leaguespartan webfont",sans-serif!important;
 	font-size: 14px;
 	padding: 5px 5px 5px 8px;
+}
+
+
+/* Readspeaker */
+
+span.rsbtn_powered {
+    display: none;
+}
+
+#readspeaker_div {
+    position: relative;
+    left: -40px;
+    top: 50px;
+}
+
+.or-tool-wrapper {
+	float:right;
 }
