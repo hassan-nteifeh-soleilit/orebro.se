@@ -487,9 +487,9 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3{
     margin-top: -9px;
 }
 
-.or-teaser-box.or-related-documents .or-text-content {
-    padding: 0px 15px;
-    margin-top: -9px;
+.or-teaser-box.or-related-documents .or-text-content {    
+	padding: 1px 15px 10px;
+	/*margin-top: -9px;*/
 }
 
 
@@ -590,7 +590,7 @@ ul.or-teaser-list {
 .or-teaser-box.or-related-documents .or-text-content .or-teaser-list li a .or-link-name {
     top: 50%;
     margin-top: -13px;
-    margin-left: 20px;
+    margin-left: 35px;
     -webkit-transition: all 100ms ease;
     -moz-transition: all 100ms ease;
     -o-transition: all 100ms ease;
