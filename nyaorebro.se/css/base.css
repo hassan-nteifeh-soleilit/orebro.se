@@ -725,3 +725,84 @@ color: #fff;}
     font-size: 11px;
     margin-bottom: 3px;
 }
+
+
+/* Genomgångsida nivå 1 */
+
+.or-link-page-level-1 {
+	width : 1350px;
+}
+
+
+nav.or-secondary {
+    margin-top: 7%;
+    margin-bottom: 0%;
+    float: left;
+    width: 100%;
+}
+
+nav.or-secondary h2 {
+    background: rgba(232, 60, 35, 0.9);
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    padding: 17px 25px 13px 25px;
+    color: #ffffff;
+    display: inline-block;
+    margin: 0px;
+    font-size: 23px;
+}
+
+
+nav.or-secondary .or-content {
+    float: left;
+    border: 2px solid #f9c9c2;
+    border-radius: 3px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    width: 100%;
+}
+
+nav.or-secondary .or-content ul {
+    background: #ffffff;
+    float: left;
+    width: 100%;
+    padding: 0 10px;
+}
+
+
+nav.or-secondary .or-content ul li:nth-child(3n+1) {
+    clear: left;
+}
+nav.or-secondary .or-content ul li:nth-of-type(-n+3) {
+    margin-top: 8px;
+}
+nav.or-secondary .or-content ul li {
+    width: 30.33333%;
+    float: left;
+    padding: 10px 10px 0px 10px;
+}
+
+nav.or-secondary .or-content ul li a {
+    border-bottom: 2px dotted #eae9e8;
+    transition: all 0.3s ease-out;
+    padding: 10px;
+    float: left;
+}
+
+nav.or-secondary .or-content ul li a h3 {
+    color: #e83c23;
+    margin-bottom: 4px;
+    font-size: 18px;
+    transition: all 0.3s ease-out;
+}
+
+nav.or-secondary .or-content ul li a h3 {
+    font-size: 21px;
+    margin-bottom: 8px;
+}
+
+nav.or-secondary .or-content ul li a p {
+    font-size: 13px;
+    color: #35383b;
+}
+
