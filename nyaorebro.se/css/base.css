@@ -806,3 +806,29 @@ nav.or-secondary .or-content ul li a p {
     color: #35383b;
 }
 
+
+nav.or-secondary .or-content ul.or-extra {
+    background: rgba(252, 252, 252, 0.95);
+    padding-bottom: 13px;
+    padding-top: 3px;
+    border-top: 2px dotted #ECEAEA;
+}
+
+nav.or-secondary .or-content ul.or-extra li a h3 {
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+
+
+nav.or-secondary .or-content ul li a:hover h3 {
+    color: black;
+}
+
+nav.or-secondary .or-content ul.or-extra li:nth-of-type(-n+3) {
+    margin-top: 0px;
+}
+
+nav.or-secondary .or-content ul li:nth-last-child(-n+3) a {
+    border-bottom: 0px solid #ffffff;
+}
+
