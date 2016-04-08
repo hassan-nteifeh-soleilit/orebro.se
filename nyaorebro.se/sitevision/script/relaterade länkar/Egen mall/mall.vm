@@ -1,7 +1,3 @@
-## =====================================================
-## Copyright (C) SiteVision AB 2010, all rights reserved
-## This portlet uses the SiteVision Public API
-## =====================================================
 #set ($propertyUtil = $sitevisionUtils.propertyUtil)
 
 #if (!$related.isEmpty())
@@ -12,7 +8,7 @@
    #set ($endecUtil = $sitevisionUtils.endecUtil)
    #set ($linkRenderer = $sitevisionUtils.linkRenderer)
    $linkRenderer.setFontClass("")
-   $linkRenderer.setUseEncoding(false)   
+   $linkRenderer.setUseEncoding(false)      
        <ul class="or-teaser-list">
    #foreach($item in $related)      
       #if ($instanceTypeUtil.isNode($item))      

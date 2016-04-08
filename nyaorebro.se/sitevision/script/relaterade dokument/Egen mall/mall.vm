@@ -1,14 +1,9 @@
-## =====================================================
-## Copyright (C) SiteVision AB 2010, all rights reserved
-## This portlet uses the SiteVision Public API
-## =====================================================
 #set ($propertyUtil = $sitevisionUtils.propertyUtil)
-
 
 #if (!$related.isEmpty())
    <div class="or-teaser-box or-related-documents">
      <div class="or-title"><span><i class="fa fa-file-text-o"></i>Dokument</span></div>
-     <div class="or-text-content">   
+     <div class="or-text-content">
    #set ($instanceTypeUtil = $sitevisionUtils.instanceTypeUtil)
    #set ($endecUtil = $sitevisionUtils.endecUtil)
    #set ($linkRenderer = $sitevisionUtils.linkRenderer)
