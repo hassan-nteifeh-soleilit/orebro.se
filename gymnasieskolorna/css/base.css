@@ -8490,3 +8490,66 @@ font-size:12px;
 .or-youtube-content .sv-video-container {
     padding-bottom: 46.25%;
 }
+
+/* Action-knappar*/
+.sv-font-action-penna, .sv-font-action-pil, .sv-font-action-karta, .sv-font-action-facebook, .sv-font-action-twitter {
+    background-color: #fff;
+    width: 100%;
+    display: inline-block;
+    font-family: "leaguespartan webfont",sans-serif;
+    font-style: normal;
+    color: #35383B;
+    position: relative;
+    color: #35383b;
+    line-height: 16px;
+    display: inline-block;
+    padding-left: 59px;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    padding-right: 67px;
+    font-weight: 800;
+    letter-spacing: 0.02em;
+    float: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: 1px solid rgb(237, 234, 234);
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.sv-font-action-penna a, .sv-font-action-pil a {
+    text-decoration: none;
+    font-family: "leaguespartan webfont",sans-serif;
+    font-size: 12px;
+}
+
+.sv-font-action-penna:before, .sv-font-action-pil:before {
+    background-color: #E83C23;
+    color: #fff;
+    width: 45px;
+    height: 100%;
+    position: absolute;
+    font: normal normal normal 22px/45px FontAwesome;
+    left: 0;
+    top: 0;
+    text-align: center;
+    padding-left: 2px;
+}
+.sv-font-action-penna:after, .sv-font-action-pil:after {
+    content: "\f054";
+    color: #35383B;
+    width: 41px;
+    height: 100%;
+    position: absolute;
+    font: normal normal normal 17px/45px FontAwesome;
+    right: 0;
+    top: 0;
+    text-align: center;
+}
+.sv-font-action-penna:before {
+    content: "\f044";
+}
+.sv-font-action-pil:before {
+    content: "\f054";
+    font: normal normal normal 20px/46px FontAwesome;
+}
