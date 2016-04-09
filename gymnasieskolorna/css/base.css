@@ -8498,7 +8498,6 @@ font-size:12px;
     display: inline-block;
     font-family: "leaguespartan webfont",sans-serif;
     font-style: normal;
-    color: #35383B;
     position: relative;
     color: #35383b;
     line-height: 16px;
@@ -8517,14 +8516,14 @@ font-size:12px;
     margin-top: 5px;
 }
 
-.sv-font-action-penna a, .sv-font-action-pil a {
+.sv-font-action-penna a, .sv-font-action-pil a, .sv-font-action-karta a, .sv-font-action-facebook a, .sv-font-action-twitter a {
     text-decoration: none;
     font-family: "leaguespartan webfont",sans-serif;
     font-size: 12px;
 }
 
-.sv-font-action-penna:before, .sv-font-action-pil:before {
-    background-color: #E83C23;
+.sv-font-action-penna:before, .sv-font-action-pil:before, .sv-font-action-karta:before, .sv-font-action-facebook:before, .sv-font-action-twitter:before {
+    background-color: #6F9333;
     color: #fff;
     width: 45px;
     height: 100%;
@@ -8535,7 +8534,7 @@ font-size:12px;
     text-align: center;
     padding-left: 2px;
 }
-.sv-font-action-penna:after, .sv-font-action-pil:after {
+.sv-font-action-penna:after, .sv-font-action-pil:after, .sv-font-action-karta:after, .sv-font-action-facebook:after, .sv-font-action-twitter:after {
     content: "\f054";
     color: #35383B;
     width: 41px;
@@ -8551,5 +8550,13 @@ font-size:12px;
 }
 .sv-font-action-pil:before {
     content: "\f054";
-    font: normal normal normal 20px/46px FontAwesome;
+}
+.sv-font-action-karta:before {
+    content: "\f041";
+}
+.sv-font-action-facebook:before {
+    content: "\f09a";
+}
+.sv-font-action-twitter:before {
+    content: "\f099";
 }
