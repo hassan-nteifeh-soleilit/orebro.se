@@ -1931,6 +1931,8 @@ body .or-content-container .or-tir p {
     border: 1px solid rgb(237, 234, 234);
     margin-bottom: 5px;
     margin-top: 5px;
+    font-size: 12px;
+
 }
 
 .sv-font-action-penna a, .sv-font-action-pil a, .sv-font-action-karta a, .sv-font-action-facebook a, .sv-font-action-twitter a{
@@ -1944,7 +1946,7 @@ body .or-content-container .or-tir p {
     text-decoration: underline;
 }
 
-.sv-font-action-penna:before, .sv-font-action-pil:before, .sv-font-action-karta:before, .sv-font-action-facebook, .sv-font-action-twitter {
+.sv-font-action-penna:before, .sv-font-action-pil:before, .sv-font-action-karta:before, .sv-font-action-facebook:before, .sv-font-action-twitter:before {
     background-color: #E83C23;
     color: #fff;
     width: 45px;
