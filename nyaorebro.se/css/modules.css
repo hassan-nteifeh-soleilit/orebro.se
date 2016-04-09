@@ -1933,29 +1933,24 @@ body .or-content-container .or-tir p {
     margin-top: 5px;
 }
 
-.sv-font-action-penna a, .sv-font-action-pil a{
+.sv-font-action-penna a, .sv-font-action-pil a, .sv-font-action-karta a, .sv-font-action-facebook a, .sv-font-action-twitter a{
     text-decoration: none;
     font-family: "leaguespartan webfont",sans-serif;
     font-size: 12px;
 }
 
-.sv-font-action-penna:hover a{
+.sv-font-action-penna:hover a, .sv-font-action-pil:hover a, .sv-font-action-karta:hover a, .sv-font-action-facebook:hover a, .sv-font-action-twitter:hover a{
     color: #E83C23;
     text-decoration: underline;
 }
 
-.sv-font-action-pil:hover a{
-    color: #E83C23;
-    text-decoration: underline;
-}
-
-.sv-font-action-penna:before, .sv-font-action-pil:before {
+.sv-font-action-penna:before, .sv-font-action-pil:before, .sv-font-action-karta:before, .sv-font-action-facebook, .sv-font-action-twitter {
     background-color: #E83C23;
     color: #fff;
     width: 45px;
     height: 100%;
     position: absolute;
-    font: normal normal normal 22px/45px FontAwesome;
+    font: normal normal normal 20px/46px FontAwesome;
     left: 0;
     top: 0;
     text-align: center;
@@ -1968,10 +1963,21 @@ body .or-content-container .or-tir p {
 
 .sv-font-action-pil:before{
 	content:"\f054";
-	font: normal normal normal 20px/46px FontAwesome;
 }
 
-.sv-font-action-penna:after, .sv-font-action-pil:after {
+.sv-font-action-karta:before{
+	content:"\f054";
+}
+
+.sv-font-action-facebook:before{
+	content:"\f054";
+}
+
+.sv-font-action-twitter:before{
+	content:"\f054";
+}
+
+.sv-font-action-penna:after, .sv-font-action-pil:after, .sv-font-action-karta:after, .sv-font-action-facebook:after, .sv-font-action-twitter:after {
     content: "\f054";
     color: #35383B;
     width: 41px;
