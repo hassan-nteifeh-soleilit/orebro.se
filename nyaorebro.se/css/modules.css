@@ -1966,15 +1966,15 @@ body .or-content-container .or-tir p {
 }
 
 .sv-font-action-karta:before{
-	content:"\f054";
+	content:"\f041";
 }
 
 .sv-font-action-facebook:before{
-	content:"\f054";
+	content:"\f09a";
 }
 
 .sv-font-action-twitter:before{
-	content:"\f054";
+	content:"\f099";
 }
 
 .sv-font-action-penna:after, .sv-font-action-pil:after, .sv-font-action-karta:after, .sv-font-action-facebook:after, .sv-font-action-twitter:after {
