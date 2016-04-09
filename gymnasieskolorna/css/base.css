@@ -8521,7 +8521,10 @@ font-size:12px;
     font-family: "leaguespartan webfont",sans-serif;
     font-size: 12px;
 }
-
+.sv-font-action-penna:hover a, .sv-font-action-pil:hover a, .sv-font-action-karta:hover a, .sv-font-action-facebook:hover a, .sv-font-action-twitter:hover a {
+    color: #E83C23;
+    text-decoration: underline;
+}
 .sv-font-action-penna:before, .sv-font-action-pil:before, .sv-font-action-karta:before, .sv-font-action-facebook:before, .sv-font-action-twitter:before {
     background-color: #6F9333;
     color: #fff;
