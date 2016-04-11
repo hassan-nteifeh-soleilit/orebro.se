@@ -597,11 +597,11 @@ body p.sv-portlet-image-caption {
 }
 
 
-/* CSS tabell */
+/* CSS tabell personsök */
 .or-tb {
     display: table;
-    width: 95%!important;
-    margin: 20px auto;
+    width: 100%!important;
+    margin: 20px 0px 10px 0px;
     border-left: solid 1px #f3dcd0;
     border-right: solid 1px #f3dcd0;
     border-top: solid 1px #f3dcd0;
