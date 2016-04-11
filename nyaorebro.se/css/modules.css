@@ -1935,10 +1935,11 @@ body .or-content-container .or-tir p {
 
 }
 
-.sv-font-action-penna a, .sv-font-action-pil a, .sv-font-action-karta a, .sv-font-action-facebook a, .sv-font-action-twitter a{
+.sv-font-action-penna a:link, .sv-font-action-pil a:link, .sv-font-action-karta a:link, .sv-font-action-facebook a:link, .sv-font-action-twitter a:link {
     text-decoration: none;
     font-family: "leaguespartan webfont",sans-serif;
     font-size: 12px;
+    box-shadow: rgba(255, 255, 255, 0.0)0 0 0 0 inset;
 }
 
 .sv-font-action-penna:hover a, .sv-font-action-pil:hover a, .sv-font-action-karta:hover a, .sv-font-action-facebook:hover a, .sv-font-action-twitter:hover a{
