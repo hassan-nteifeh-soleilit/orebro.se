@@ -2955,3 +2955,21 @@ body .or-article-main .sv-responsiveTable--stacked__headRow p{
 .or-tool-wrapper {
 	float:right;
 }
+
+/* Bildhantering genomgångssida 1 */
+
+section.or-top-img-lvl2 {
+    height: 140px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+
+section.or-bg-one {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    /*height: 100vh;*/
+}
