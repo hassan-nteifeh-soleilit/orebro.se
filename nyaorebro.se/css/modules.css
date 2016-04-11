@@ -2833,10 +2833,12 @@ box-shadow: rgba(255, 255, 255, 1)0px -33px 0px -11px inset;
 
 /* tabeller */
 
+.sv-text-portlet table {
+    margin-bottom: 20px;
+}
+
 .or-content-container .sv-text-portlet table{
-	margin: 20px auto;
 	border: solid 1px #f3dcd0;
-	border-top: solid 0px;
 }
 
 .or-content-container .sv-text-portlet table thead{
@@ -2846,6 +2848,20 @@ box-shadow: rgba(255, 255, 255, 1)0px -33px 0px -11px inset;
 .or-content-container .sv-text-portlet table thead th{
 	padding: 8px 6px;
 	border-right:solid 2px rgba(255, 255, 255, 0.25);
+}
+
+.or-content-container .sv-text-portlet table.sv-standard th {
+    text-align: left;
+    background-color: #e83c23;
+    border-bottom: solid 2px rgba(255, 255, 255, 0.25);
+    padding-left: 6px;
+}
+
+.or-content-container .sv-text-portlet table.sv-standard th p{
+	color: #fff;
+	line-height: 1.3em;
+	font-family: "leaguespartan webfont",sans-serif;
+	font-size: 12px;
 }
 
 .or-content-container .sv-text-portlet table td{
