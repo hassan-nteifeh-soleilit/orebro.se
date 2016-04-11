@@ -2535,14 +2535,41 @@ body .or-news-filter .or-colorborder.or-wrapper-click.or-plus-box-header.or-plus
 
 .or-daterange .or-year.or-parent.or-expanded .or-month.selected{
 	font-weight: 700;
-	color: #e83c23;
+    color: #fff;
+    background-color: #e83c23;
+    position: relative;
+}
 
+.or-daterange .or-year.or-parent.or-expanded .or-month.selected:after {
+    content: "\f00c";
+    font-family: FontAwesome;
+    font-style: initial;
+    font-size: 13px;
+    vertical-align: middle;
+    position: absolute;
+    right: 9px;
+    top: 6px;
 }
 
 .or-category .or-category-item.selected {
     font-weight: 700;
     color: #fff;
     background-color: #e83c23;
+    position: relative;
+}
+
+.or-category .or-category-item.selected:after {
+    content: "\f00c";
+    font-family: FontAwesome;
+    font-style: initial;
+    font-size: 13px;
+    vertical-align: middle;
+    position: absolute;
+    right: 9px;
+    top: 6px;
+}
+    
+    
 }
 
 .or-category li:hover {
@@ -2561,7 +2588,7 @@ body .or-news-filter .or-colorborder.or-wrapper-click.or-plus-box-header.or-plus
     box-shadow: 0px 0px 4px #E2E2E2;
     border-radius: 2px;
     position: relative;
-    max-width: 700px;
+
 }
 
 .or-news-list li:hover h3 a{
@@ -2585,7 +2612,6 @@ body .or-news-filter .or-colorborder.or-wrapper-click.or-plus-box-header.or-plus
     display: inline-block;
     margin-top: 0px;
     padding-left: 55px;
-    max-width: 570px;
 }
 
 .or-news-date {
@@ -2689,12 +2715,9 @@ body .or-news-filter .or-colorborder.or-wrapper-click.or-plus-box-header.or-plus
     padding: 6px 18px;
     border-bottom: solid 1px #EEEEEE;
     min-height: 32px;
+    cursor: default;
 }
 
-.or-daterange .or-item-text:hover {
-    text-decoration: underline;
-    color: #e83c23;
-}
 
 .or-category .or-toggle-icon, .or-daterange .or-toggle-icon {
     position: absolute;
