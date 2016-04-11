@@ -112,6 +112,19 @@ body .or-content-container .or-tir p {
     font-size: 14px;
 }
 
+.or-news-list li p {
+    display: inline;
+    padding-left: 4px;
+}
+
+.or-news-date {
+    position: relative;
+    left: 0px;
+    top: -1px;
+    min-width: 35px;
+    font-weight: 600;
+}
+
 
 
 

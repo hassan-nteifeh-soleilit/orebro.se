@@ -2661,6 +2661,7 @@ body .or-news-filter .or-colorborder.or-wrapper-click.or-plus-box-header.or-plus
     display: inline-block;
     margin-top: 0px;
     padding-left: 55px;
+    line-height: 1.5em;
 }
 
 .or-news-date {
