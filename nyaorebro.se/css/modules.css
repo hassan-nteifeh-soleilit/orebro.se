@@ -2561,7 +2561,7 @@ body .or-news-filter .or-colorborder.or-wrapper-click.or-plus-box-header.or-plus
     box-shadow: 0px 0px 4px #E2E2E2;
     border-radius: 2px;
     position: relative;
-
+    max-width: 700px;
 }
 
 .or-news-list li:hover h3 a{
@@ -2585,6 +2585,7 @@ body .or-news-filter .or-colorborder.or-wrapper-click.or-plus-box-header.or-plus
     display: inline-block;
     margin-top: 0px;
     padding-left: 55px;
+    max-width: 570px;
 }
 
 .or-news-date {
