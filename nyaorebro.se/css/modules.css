@@ -1949,7 +1949,7 @@ body .or-content-container .or-tir p {
 
 }
 
-.sv-font-action-penna a:link, .sv-font-action-pil a:link, .sv-font-action-karta a:link, .sv-font-action-facebook a:link, .sv-font-action-twitter a:link {
+body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-font-action-karta a:link, body .sv-font-action-facebook a:link, body .sv-font-action-twitter a:link {
     text-decoration: none;
     font-family: "leaguespartan webfont",sans-serif;
     font-size: 12px;
