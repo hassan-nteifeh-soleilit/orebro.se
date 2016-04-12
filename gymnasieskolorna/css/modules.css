@@ -502,7 +502,7 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3{
 }
 
 .or-teaser-box.or-related-links .or-text-content .or-teaser-list li {
-    padding: 14px 0px 0px 0px;
+    padding: 14px 5px 14px 15px;
     margin-bottom: 0px;
     margin-top: 0px;
     position: relative;
@@ -515,7 +515,7 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3{
 }
 
 .or-teaser-box.or-related-documents .or-text-content .or-teaser-list li {
-    padding: 9px 0px 4px 25px;
+    padding: 10px 15px 10px 50px;
     margin-bottom: 0px;
     margin-top: 0px;
     position: relative;
@@ -578,7 +578,6 @@ ul.or-teaser-list {
 .or-teaser-box.or-related-links .or-text-content .or-teaser-list li a .or-link-name {
     top: 50%;
     margin-top: -13px;
-    margin-left: 20px;
     -webkit-transition: all 100ms ease;
     -moz-transition: all 100ms ease;
     -o-transition: all 100ms ease;
@@ -597,7 +596,6 @@ ul.or-teaser-list {
 .or-teaser-box.or-related-documents .or-text-content .or-teaser-list li a .or-link-name {
     top: 50%;
     margin-top: -13px;
-    margin-left: 35px;
     -webkit-transition: all 100ms ease;
     -moz-transition: all 100ms ease;
     -o-transition: all 100ms ease;
