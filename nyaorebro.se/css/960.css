@@ -39,8 +39,13 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-t
 }
 
 
-/* nyhetslistning */
+nav.or-secondary {
+    max-width: 750px;
+}
 
+nav.or-secondary .or-content ul li a h3 {
+    font-size: 15px;
+}
 
 
 
@@ -60,6 +65,8 @@ ul.or-nav-list li .or-list-wrapper {
     margin-left: 1%;
     margin-bottom: 20px;
 }
+
+
 }  /* en 900 */
 
 

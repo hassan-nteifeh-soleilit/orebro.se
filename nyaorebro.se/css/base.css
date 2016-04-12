@@ -757,7 +757,6 @@ nav.or-secondary .or-content {
     border-radius: 3px;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
-    width: 100%;
 }
 
 nav.or-secondary .or-content ul {
@@ -809,7 +808,7 @@ nav.or-secondary .or-content ul li a .sv-linkicon{
 nav.or-secondary .or-content ul li a p {
     font-size: 13px;
     color: #35383b;
-    margin-top: 5px;
+    margin-top: 0px;
 }
 
 

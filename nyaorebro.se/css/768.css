@@ -283,6 +283,8 @@ nav.or-secondary h2 {
     border-top-right-radius: 0px;
     border-top-left-radius:0px;
     width: 100%;
+    font-size: 14px;
+    box-sizing: border-box;
 }
 
 nav.or-secondary .or-content {
