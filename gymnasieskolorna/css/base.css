@@ -7583,6 +7583,19 @@ td.sv-text-align-right p {
 .or-plus-box-active .or-icon-plus {
   transform: rotate(45deg);
 }
+
+/*Plusbox Diskret */
+.or-plus-box-header .or-collapse-button {
+    position: absolute;
+    right: 0px;
+    width: 45px;
+    height: 100%;
+    top: 0px;
+}
+.or-plus-box-header.or-plus-box-diskret-header {
+    min-height: 30px;
+    padding-left: 13px;
+}
 .or-plus-box-diskret-header .plusboxxrubrik {
     padding-top: 8px;
     padding-bottom: 8px;
@@ -7593,6 +7606,11 @@ td.sv-text-align-right p {
     font-family: FontAwesome;
     color: #857672;
     font-size: 15px;
+}
+.or-plus-box-diskret-header .or-collapse-button.or-colorbg {
+    background-color: #f9f9f8;
+    width: 35px;
+    border-left: 1px solid rgb(237, 234, 234);
 }
 .or-plus-box-diskret-content {
     background-color: #fff;
