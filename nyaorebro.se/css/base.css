@@ -735,21 +735,19 @@ color: #fff;}
 
 
 nav.or-secondary {
-    margin-top: 7%;
-    margin-bottom: 0%;
-    float: left;
-    width: 100%;
+    max-width: 1100px;
+    margin: 80px auto 80px auto;
 }
 
 nav.or-secondary h2 {
     background: rgba(232, 60, 35, 0.9);
     border-top-right-radius: 3px;
     border-top-left-radius: 3px;
-    padding: 17px 25px 13px 25px;
+    padding: 10px 20px 10px 20px;
     color: #ffffff;
     display: inline-block;
     margin: 0px;
-    font-size: 23px;
+    font-size: 20px;
 }
 
 
@@ -770,10 +768,10 @@ nav.or-secondary .or-content ul {
 
 
 nav.or-secondary .or-content ul li:nth-child(3n+1) {
-    clear: left;
+    /*clear: left;*/
 }
 nav.or-secondary .or-content ul li:nth-of-type(-n+3) {
-    margin-top: 8px;
+    /*margin-top: 8px;*/
 }
 nav.or-secondary .or-content ul li {
     width: 30.33333%;
@@ -786,6 +784,8 @@ nav.or-secondary .or-content ul li a {
     transition: all 0.3s ease-out;
     padding: 10px;
     float: left;
+    height: 90px;
+    /* max-height: 80px; */
 }
 
 nav.or-secondary .or-content ul li a h3 {
@@ -796,13 +796,20 @@ nav.or-secondary .or-content ul li a h3 {
 }
 
 nav.or-secondary .or-content ul li a h3 {
-    font-size: 21px;
-    margin-bottom: 8px;
+    font-size: 18px;
+    margin-bottom: 4px;
+    margin-top: 2px;
+    display: inline-block;
+}
+
+nav.or-secondary .or-content ul li a .sv-linkicon{
+	margin-left: 6px;
 }
 
 nav.or-secondary .or-content ul li a p {
     font-size: 13px;
     color: #35383b;
+    margin-top: 5px;
 }
 
 
@@ -810,7 +817,17 @@ nav.or-secondary .or-content ul.or-extra {
     background: rgba(252, 252, 252, 0.95);
     padding-bottom: 13px;
     padding-top: 3px;
-    border-top: 2px dotted #ECEAEA;
+}
+
+nav.or-secondary .or-content ul.or-extra li {
+    min-height: 45px;
+    max-height: 45px;
+}
+
+nav.or-secondary .or-content ul.or-extra li a{
+	height: 45px;
+	border-bottom: 0px dotted #eae9e8;
+	width: 100%;
 }
 
 nav.or-secondary .or-content ul.or-extra li a h3 {
@@ -820,14 +837,20 @@ nav.or-secondary .or-content ul.or-extra li a h3 {
 
 
 nav.or-secondary .or-content ul li a:hover h3 {
-    color: black;
+    color: #35383b;
+    text-decoration: underline;
+}
+
+nav.or-secondary .or-content ul li a:hover p {
+    color: #35383b;
+    text-decoration: underline;
 }
 
 nav.or-secondary .or-content ul.or-extra li:nth-of-type(-n+3) {
-    margin-top: 0px;
+    /*margin-top: 0px;*/
 }
 
 nav.or-secondary .or-content ul li:nth-last-child(-n+3) a {
-    border-bottom: 0px solid #ffffff;
+    /*border-bottom: 0px solid #ffffff;*/
 }
 

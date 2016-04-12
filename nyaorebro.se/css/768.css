@@ -270,6 +270,32 @@ body .or-content-container .or-tir p {
     margin-top: 0px;
 }
 
+/* genomgångssida nivå 1*/
+nav.or-secondary .or-content ul li {
+    width: 46%;
+}
+
+nav.or-secondary {
+    margin: 0px auto 80px auto;
+}
+
+nav.or-secondary h2 {
+    border-top-right-radius: 0px;
+    border-top-left-radius:0px;
+    width: 100%;
+}
+
+nav.or-secondary .or-content {
+    border: 0px solid #f9c9c2;
+    border-radius: 0px;
+}
+
+section.or-bg-one {
+    height: auto;
+}
+
+
+
 } /* end 767 */
 
 
@@ -345,6 +371,63 @@ section.or-nav-content-section {
 }
 
 
+
+nav.or-secondary .or-content ul li a p {
+    font-size: 13px;
+    color: #35383b;
+    margin-top: 5px;
+    display: none;
+}
+
+nav.or-secondary .or-content ul li {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+nav.or-secondary .or-content ul li a {
+    border-bottom: 0px dotted #eae9e8;
+    float: left;
+    height: auto;
+    border-radius: 0px;
+    box-shadow: 0 0 2px #cacaca;
+    width: 100%;
+    border: 2px solid #FFFFFF;
+    position: relative;
+    padding: 8px 10px 5px 28px;
+    min-height: 0px;
+    background-color: #FBFBFB;
+    box-sizing: border-box;
+    position: relative;
+}
+
+nav.or-secondary .or-content ul li a:before {
+    content: "\f061";
+    font-family: FontAwesome;
+    padding-right: 6px;
+    color: #dad6d4;
+    position: absolute;
+    top: 50%;
+    left: 7px;
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: -6px;
+}
+
+nav.or-secondary .or-content ul li a h3 {
+    font-size: 12px;
+    color: #e83c23;
+}
+
+nav.or-secondary .or-content ul.or-extra li a h3{
+	color: #35383b;
+	font-family: "open sans",sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+}
+
+nav.or-secondary .or-content ul.or-extra li a {
+    height: auto;
+}
 	
 }	
 
