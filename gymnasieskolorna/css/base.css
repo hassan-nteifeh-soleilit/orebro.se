@@ -7583,14 +7583,21 @@ td.sv-text-align-right p {
 .or-plus-box-active .or-icon-plus {
   transform: rotate(45deg);
 }
-
+.or-plus-box-diskret-header .plusboxxrubrik {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 11px;
+}
 .or-plus-box-diskret-header .or-icon-plus::before {
     content: "\f067";
     font-family: FontAwesome;
     color: #857672;
     font-size: 15px;
 }
-
+.or-plus-box-diskret-content {
+    background-color: #fff;
+    padding: 15px;
+}
 
 
 /* Program ikoner */
