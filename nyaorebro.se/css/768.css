@@ -434,6 +434,10 @@ nav.or-secondary .or-content ul.or-extra li a {
 .or-content ul.or-extra {
     padding-bottom: 15px;
 }
+
+nav.or-secondary .or-content ul {
+    padding-bottom: 15px;
+}
 	
 }	
 
