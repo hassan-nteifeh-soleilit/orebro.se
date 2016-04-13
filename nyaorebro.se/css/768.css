@@ -442,7 +442,13 @@ nav.or-secondary .or-content ul {
 section.or-top-img-lvl2 {
     height: 170px;
 }
-	
+
+nav.or-secondary .or-content ul.or-extra {
+    background: #fff;
+    padding-top: 0px;
+	margin-top: -7px;
+}
+
 }	
 
 
