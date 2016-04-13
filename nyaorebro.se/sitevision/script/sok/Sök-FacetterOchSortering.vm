@@ -43,55 +43,44 @@
 
 ## START OF FACET
 <div style="" class="or-facetter" >
-##    <div class="or-facetter-head">
-##        <p class="subheading3" style="margin-bottom:0.5em">Alla platser</>
-##    </div>
+    
     
 #if ($searchResult.facetFields)
 ######################################
 ## Render the filter header
-##    <div style="margin-bottom:2em">
-##        <ul id="sol-search-filter-head-ul" class="sv-defaultlist-noleft sv-notopmargin">
+    <div style="margin-bottom:2em">
+        <ul id="sol-search-filter-head-ul" class="sv-defaultlist-noleft sv-notopmargin">
+      #foreach ($facetField in $searchResult.facetFields)
+       #foreach ($facetValue in $facetField.facetValues)
+         #if ($scriptUtil.isNotBlank(${facetValue.name}))
+            #if ($facetValue.count > 0)
+            #if($facetValue.name == $facetTarget)
+                #if ($facetValue.isSelected())
+            <li id="sol-selected-facet" class="$selectedFacetValueClass sol-selected-facet sv-noleft or-wrapper-click" style="margin-bottom:${facetItemSpacing}">                 
+                #else
+            <li class="$facetValueClass sv-noleft or-wrapper-click" style="margin-bottom:${facetItemSpacing}">
+                #end   
  
-##set ($summaryField = $propertyUtil.getString($portlet, 'summaryField'))
-##set ($summaryFieldValue = $scriptUtil.getNonNull(${hit.getHighlightedField($summaryField, $excerptLength)})) 
-##   <li class="$facetValueClass sv-noleft or-total-link" style="margin-bottom:${facetItemSpacing}">
-##   <li class="$facetValueClass sv-noleft or-total-link">
-##                ##<a href="#query/$searchResult.getDisplayQuery()" onclick="window.location.reload(true)">Totalt</a>
-##                <a onclick=" $updateResultFunctionName('$searchResult.getDisplayQuery()',true)">Totalt</a>    
-##                <span class="sol-hit-count">$totalhits </span>
-##            </li>
-##      #foreach ($facetField in $searchResult.facetFields)
-##       #foreach ($facetValue in $facetField.facetValues)
-##         #if ($scriptUtil.isNotBlank(${facetValue.name}))
-##            #if ($facetValue.count > 0)
-##            #if($facetValue.name == $facetTarget)
-##                #if ($facetValue.isSelected())
-##            <li id="sol-selected-facet" class="$selectedFacetValueClass sol-selected-facet sv-noleft or-wrapper-click" style="margin-bottom:${facetItemSpacing}">                 
-##                #else
-##            <li class="$facetValueClass sv-noleft or-wrapper-click" style="margin-bottom:${facetItemSpacing}">
-##                #end   
- 
-##                $facetLinkRenderer.setOnclick("$ajaxFacetClick")       
-##                $facetLinkRenderer.setStringTarget($facetValue.filterURL)          
-##                $facetLinkRenderer.setText($facetValue.name)
-##                $facetLinkRenderer.render()
+                $facetLinkRenderer.setOnclick("$ajaxFacetClick")       
+                $facetLinkRenderer.setStringTarget($facetValue.filterURL)          
+                $facetLinkRenderer.setText($facetValue.name)
+                $facetLinkRenderer.render()
              
-##                #if ($facetValue.isSelected())
-##                <i class="sol-icon-facet-active"></i>
-##                #else
-##                <span class="sol-hit-count">$facetValue.count</span>
-##                #end
-##            </li>
+                #if ($facetValue.isSelected())
+                <i class="sol-icon-facet-active"></i>
+                #else
+                <span class="sol-hit-count">$facetValue.count</span>
+                #end
+            </li>
                
-##            #end
-##            #end
-##         #end
+            #end
+            #end
+         #end
          
-##        #end 
-##      #end
-##        </ul>
-##    </div> 
+        #end 
+      #end
+        </ul>
+    </div> 
 ## End filter head   
 ######################################
    
@@ -216,6 +205,7 @@
 <script type="text/javascript">
 
 $('.or-show-hiden-facet-items').click(function(){
+   $(this).parent().find(".or-hidden-facet-items").toggle();
    $(this).parent().find(".or-hidden-facet-items").toggle();
    $(this).parent().find(".or-search-facet-more").toggleClass("sv-hidden"); 
    $(this).parent().find(".or-search-facet-less").toggleClass("sv-hidden"); 

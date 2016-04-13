@@ -105,14 +105,14 @@ $linkRenderer.setFontClass($linkRendererClass)
       ## Heading
       ## Fetch title and set for heding if tile exists
       #set ($hitHeading = $scriptUtil.getNonNull($hit.getField('metadata.rubrik')))
-      #if($hitHeading)
-        #set ($sitenamn = $hit.getField('metadata.sitenamn'))
-        #if(!$hitHeading.contains($sitenamn))
-            #set ($hitHeading = $hitHeading + ' - ' + $sitenamn)
-        #end    
-      #else
-        #set ($hitHeading = $scriptUtil.getNonNull($hit.getField($displayField)))
-      #end
+      ##if($hitHeading)
+        ##set ($sitenamn = $hit.getField('metadata.sitenamn'))
+        ##if(!$hitHeading.contains($sitenamn))
+            ##set ($hitHeading = $hitHeading + ' - ' + $sitenamn)
+        ##end    
+      ##else
+        ##set ($hitHeading = $scriptUtil.getNonNull($hit.getField($displayField)))
+      ##end
       
       #if ($hitHeading)   
       <div class="sv-notopmargin or-search-hit-rubrik">
@@ -172,7 +172,7 @@ $linkRenderer.setFontClass($linkRendererClass)
       ## Filter out non ascii characters and replace them,"special characters" that comes from font awesome pictures in the searchresult 
       ##set ($summaryFieldValue = $summaryFieldValue.replaceAll('&#\d{4,};',""))
       #set ($summaryFieldValue = $summaryFieldValue.replaceAll('[^\x00-\x7FåäöÅÄÖ]',""))
-       
+      
        <div class="or-search-content">         
          <p class="$excerptClass sv-column-11" style="margin-top:${itemSpacing}">$summaryFieldValue</p>  
        </div>         
@@ -253,7 +253,20 @@ $linkRenderer.setFontClass($linkRendererClass)
 #end
 </div>
 
-
 #if (!$isAjaxPagingResult)
 </div>
+
 #end
+#if($totalhits>0)
+<div class="sv-column-8">
+    <div class="sv-noleft or-total-link" style="margin-bottom:${facetItemSpacing}">
+        #set ($totalsearchpagelink = "/ovrigt/soktotal.4.720a5aaf1524e3420a818e.html")
+        <a href="$totalsearchpagelink#query/$searchResult.getDisplayQuery()"><strong>Utvidga din sökning:</strong> Du har fått <strong>$totalhits</strong> träffar på alla våra webbplatser</a>                  
+    </div>
+</div>
+#end
+
+
+
+
+

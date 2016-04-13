@@ -3,7 +3,7 @@
 ##set ($previousText = '&laquo; ' + $propertyUtil.getString($bundle, 'previousText'))   ## Needed by script, do not rename/move/remove
 ##set ($nextText = $propertyUtil.getString($bundle, 'nextText') + ' &raquo;')           ## Needed by script, do not rename/move/remove
 #set ($previousText = '&laquo; ')   ## Needed by script, do not rename/move/remove
-#set ($nextText = '&raquo;')           ## Needed by script, do not rename/move/remove
+#set ($nextText = ' &raquo;')           ## Needed by script, do not rename/move/remove
 
 ##
 ## NOTE! The content of this div will be replaced with pagination navigation via javascript
@@ -28,8 +28,7 @@ $pagingLinkRenderer.clearUseLinkDecorationSettings()
    $pagingLinkRenderer.setStringTarget($nextFrameURI)
    $pagingLinkRenderer.render()
 #end
-</div><div class="sv-clear-left"><!-- empty --></div>
-
+</div>
 
 ## Render pagination script (that replaces content of above div)
 

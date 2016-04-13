@@ -18,7 +18,11 @@
    
   var header = $svjq('#svid${contentId} .or-js-collapsible-header, #svid${contentId} .or-collapse-button');   
   $svjq(header).click(function(e) {
-    $svjq('#svid${contentId} .or-plus-box-content').slideToggle(200);     
+    $svjq('#svid${contentId} .or-plus-box-content').slideToggle(200); 
+	$svjq(header).toggleClass('or-plus-box-active');
+	$svjq(header).find("img.or-arrow-down-collapse").toggleClass('or-plus-box-active');
+	$svjq(header).find(".or-collpase-button").toggleClass('or-plus-box-active');
+	$svjq(header).find("h4.plusboxxrubrik").toggleClass('or-plus-box-active');    
   }); 
    
 })();	 

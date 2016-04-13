@@ -127,6 +127,12 @@
       <li class="$errorClass">$propertyUtil.getString($bundle, 'useSynonymText')</li>
       <li class="$errorClass">$propertyUtil.getString($bundle, 'useWildcardText')</li>
    </ul>
+   #if($totalhits>0)  
+    <div class="sv-noleft or-total-link" style="margin-bottom:${facetItemSpacing}">
+        #set ($totalsearchpagelink = "/ovrigt/soktotal.4.720a5aaf1524e3420a818e.html")
+        <a href="$totalsearchpagelink#query/$searchResult.getDisplayQuery()"><strong>Utvidga din sökning:</strong> Du har fått <strong>$totalhits</strong> träffar på alla våra webbplatser</a>                  
+    </div>
+    #end
    </div>
 
 </div>  

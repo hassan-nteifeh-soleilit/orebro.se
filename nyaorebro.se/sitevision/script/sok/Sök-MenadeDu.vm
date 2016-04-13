@@ -11,9 +11,8 @@ $didYouMeanRenderer.setText($suggestion.name)
    #set ($expectedHitCount = '' + $suggestion.count)
    $didYouMeanRenderer.setTitle($expectedHitCount)
 #end
-
 <div class="sv-column-12" style="margin-left: 40px">
     <p class="or-did-you-mean $didYouMeanClass">
        $propertyUtil.getString($bundle, 'didYouMeanText') $didYouMeanRenderer.render()
     </p>
-</div>>
+</div>
