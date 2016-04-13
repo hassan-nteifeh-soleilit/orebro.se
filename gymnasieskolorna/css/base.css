@@ -3543,16 +3543,13 @@ li.or-comment {
 }
 
 .or-comment-expander-text {
-    display: inline-block;
-    font-family: "leaguespartan webfont",sans-serif;
-    font-size: 12px;
-    line-height: 15px;
-    font-weight: 800;
-    letter-spacing: 0.02em;
+  display: inline-block;
+  font-family: "leaguespartan webfont",sans-serif;
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 800;
+  letter-spacing: 0.02em;
 }
-
-
-
 
 
 /* Blogg */
@@ -5499,11 +5496,11 @@ color: rgba(53, 56, 59, 0.85);
 /* Plusbox */
 
 .or-collpase-button {
-    position: absolute;
-    right: 0px;
-    width: 45px;
-    height: 100%;
-    float: right;
+  position: absolute;
+  right: 0px;
+  width: 50px;
+  height: 100%;
+  float: right;
 }
 
 .or-collpase-button.or-colorbg.or-plus-box-active {
@@ -5903,8 +5900,8 @@ box-shadow: rgba(255, 255, 255, 1)0px -33px 0px -11px inset;
 .sv-blog-portlet table.sv-programtabell td p, 
 .sv-archive-portlet table.sv-programtabell td p, 
 .sv-text-portlet table.sv-programtabell td p {
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 15px;
+    line-height: 1.2em;
 }
 
 .pagecontent .sv-linklist-portlet table.sv-programtabell td p, 
@@ -5962,7 +5959,7 @@ border-left: 1px solid rgb(133, 118, 114);
 }
 
 .sv-table-portlet th span.normal,  
-.sv-text-portlet table.sv-programtabell th p {  
+.sv-text-portlet table.sv-programtabell th span.normal {  
   color: white;
   font-family: 'Leaguespartan webfont', sans-serif;
   font-size: 12px;
@@ -6299,11 +6296,6 @@ position: absolute;   left: 25px;   bottom: 25px;   width: 80%;
     min-width: 244px;
 }
 
-.or-stor-bild-text-tv > div:nth-child(2) h2 {
-    margin-top: 3px;
-    margin-bottom: -5px;
-}
-
 .or-stor-bild-text-tv > div:nth-child(2) h1,
 .or-program-heading-container h1{
    margin-top: 0px!important;
@@ -6313,6 +6305,11 @@ position: absolute;   left: 25px;   bottom: 25px;   width: 80%;
     color: #0098DB;
     text-transform: none;
     letter-spacing: 0;
+}
+
+.or-stor-bild-text-tv > div:nth-child(2) h2 {
+    margin-top: 3px;
+    margin-bottom: -5px;
 }
 
  .toppxxrubrikxinverteradxtext {
@@ -7445,7 +7442,7 @@ color: #35383B;
 /* Plusbox program tabell*/
 
 .or-plus-box-program.or-plus-box-content.sv-table-portlet,
-.or-program-tabell .or-plus-box-program.or-plus-box-content{
+.or-plus-box-program.or-plus-box-content.sv-programtabell {
   padding: 0px;
 }
 
@@ -7460,8 +7457,8 @@ color: #35383B;
 
 .or-plus-box-program.or-plus-box-content.sv-table-portlet tr td:first-child,
 .or-plus-box-program.or-plus-box-content.sv-table-portlet tr th:first-child,
-.or-plus-box-program.or-plus-box-content .sv-text-portlet-content table tr td:first-child,
-.or-plus-box-program.or-plus-box-content .sv-text-portlet-content  table tr th:first-child  {
+.or-plus-box-program.or-plus-box-content .sv-text-portlet table.sv-programtabell tr td:first-child,
+.or-plus-box-program.or-plus-box-content .sv-text-portlet table.sv-programtabell tr th:first-child  {
   border: none;
   padding-left: 20px;  
   width: 75%;
@@ -7469,18 +7466,11 @@ color: #35383B;
 
 .or-plus-box-program.or-plus-box-content.sv-table-portlet tr td:last-child,
 .or-plus-box-program.or-plus-box-content.sv-table-portlet tr th:last-child,
-.or-plus-box-program.or-plus-box-content .sv-text-portlet-content  table tr td:last-child,
-.or-plus-box-program.or-plus-box-content .sv-text-portlet-content table tr th:last-child  {
+.or-plus-box-program.or-plus-box-content .sv-text-portlet table.sv-programtabell tr td:last-child,
+.or-plus-box-program.or-plus-box-content .sv-text-portlet .sv-text-portlet table.sv-programtabell tr th:last-child  {
   border: none;
   padding-right: 55px;
 }
-
-
-td.sv-text-align-right p {
-    text-align: right;
-}
-
-
 
 /* Plusbox program */
 .or-plus-box-header.or-plus-box-program {
@@ -7570,14 +7560,9 @@ td.sv-text-align-right p {
     color: white;
     opacity: 0.92;
 }
-.or-icon-plus:before {
-    content: "\f067";
-    font-family: FontAwesome;
-    color: #fff;
-    position: relative;
-}
+
 .or-plus-box-program .or-icon-plus {
-    font-size: 20px;
+   	font-size: 20px;
 }
 
 .or-plus-box-active .or-icon-plus {
@@ -7585,7 +7570,14 @@ td.sv-text-align-right p {
 }
 
 /*Plusbox Diskret */
-.or-plus-box-header .or-collapse-button {
+.or-plus-box-diskret-header .or-icon-plus:before {
+    content: "\f067";
+    font-family: FontAwesome;
+    color: #fff;
+    position: relative;
+}
+
+.or-plus-box-diskret-header .or-collapse-button {
     position: absolute;
     right: 0px;
     width: 45px;
@@ -7607,15 +7599,18 @@ td.sv-text-align-right p {
     color: #857672;
     font-size: 15px;
 }
+
 .or-plus-box-diskret-header .or-collapse-button.or-colorbg {
     background-color: #f9f9f8;
     width: 35px;
     border-left: 1px solid rgb(237, 234, 234);
 }
+
 .or-plus-box-diskret-content {
     background-color: #fff;
     padding: 15px;
 }
+
 
 
 /* Program ikoner */
@@ -7802,10 +7797,10 @@ td.sv-text-align-right p {
   font-family: "leaguespartan webfont",sans-serif;
   font-weight: normal;
   font-style: normal;
-  font-size: 12px;
   color: #35383b;
   text-decoration: none;
   line-height: 20px;
+  font-size: 12px;
   font-weight: 800;
   box-shadow:none;
 }
@@ -8523,8 +8518,7 @@ font-size:12px;
     border-radius: 2px;
 }
 
-
-.or-youtube-content .sv-video-container {
+.or-youtube-content .sv-video-container{
     padding-bottom: 46.25%;
 }
 
