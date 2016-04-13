@@ -45,6 +45,7 @@ ul
 	list-style-type:none;
 	margin:0;
 	padding:0;
+	display: inline-block;
 }
 
 /*ul li
@@ -174,6 +175,7 @@ header .or-logo {
 	padding:6px 10px 6px 3px;
 	text-align:center;
 	font-family: "leaguespartan webfont",sans-serif;
+	background: #fff;
 }
 
 .or-tool-area a:first-child
@@ -452,6 +454,8 @@ ul.or-nav-list li .or-list-wrapper p
 nav.or-breadcrumbs
 {
 	background:#fff;
+	min-height: 30px;
+	padding-right: 300px;
 }
 
 nav.or-breadcrumbs li
