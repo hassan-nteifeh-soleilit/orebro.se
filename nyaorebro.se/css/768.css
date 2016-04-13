@@ -4,6 +4,13 @@
 }
 }
 
+@media all and (max-width: 766px){
+/* Stänknapp i dialog */
+.or-modal-close {
+	display:none;
+}
+}
+
 @media all and (max-width: 767px){
 
 
@@ -1064,10 +1071,7 @@ p.or-close-text {
 	
 }
 
-/* Stänknapp i dialog */
-.or-modal-close {
-	display:none;
-}
+
 
 /*
 .nav-footer-container {
