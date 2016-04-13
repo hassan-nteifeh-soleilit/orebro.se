@@ -608,6 +608,7 @@ body .or-wrapper-click.or-puff-bild-text:hover h3{
 
 
 /* Relaterade länkar/dokument */
+/* Relaterade länkar/dokument */
 .or-teaser-box {
     margin-bottom: 40px;
     box-shadow: #dadada 0px 0px 3px 0px;
@@ -630,7 +631,7 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3{
 
 .or-teaser-box .or-title {
     background: #857672;
-    padding: 6px 15px 3px;
+    padding: 6px 15px 7px;
     min-height: 26px;
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
@@ -660,16 +661,13 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3{
 }
 
 .or-teaser-box.or-related-links .or-text-content {
-    padding: 0px 10px 0px 0px;
-    margin-top: -9px;
+    padding: 0px 15px 3px 10px;
+    margin-top: 0;
 }
 
 .or-teaser-box.or-related-documents .or-text-content {
-    padding: 0px 15px;
-    margin-top: -9px;
+    padding: 1px 15px 1px;
 }
-
-
 
 .or-teaser-box .or-text-content {
     background: #ffffff;
@@ -682,11 +680,24 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3{
 }
 
 .or-teaser-box.or-related-links .or-text-content .or-teaser-list li {
-    padding: 9px 0px 0px 0px;
+    padding: 15px 5px 10px 7px;
     margin-bottom: 0px;
-    margin-top: 7px;
+    margin-top: 0px;
     position: relative;
-    min-height: 36px;
+    min-height: 30px;
+}
+
+.or-teaser-box.or-related-links .or-text-content .or-teaser-list li:hover .or-link-name {
+    box-shadow: rgba(174, 222, 239, 0.65) 0px -48px 0px -30px inset;
+    color: #35383b;
+}
+
+.or-teaser-box.or-related-documents .or-text-content .or-teaser-list li {
+    padding: 10px 15px 10px 50px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    position: relative;
+    min-height: 35px;
 }
 
 .or-teaser-box.or-related-documents .or-text-content .or-teaser-list li:hover .or-link-name {
@@ -695,14 +706,12 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3{
 }
 
 
-.or-teaser-box.or-related-documents .or-text-content .or-teaser-list li {
-    padding: 9px 0px 4px 25px;
-    margin-bottom: 0px;
-    margin-top: 7px;
-    position: relative;
-    min-height: 32px;
+ul.or-teaser-list {
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
 }
-
 
 .or-teaser-box .or-text-content .or-teaser-list li {
     border-bottom: 2px dotted #dad6d4;
@@ -748,7 +757,6 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3{
 .or-teaser-box.or-related-links .or-text-content .or-teaser-list li a .or-link-name {
     top: 50%;
     margin-top: -13px;
-    margin-left: 20px;
     -webkit-transition: all 100ms ease;
     -moz-transition: all 100ms ease;
     -o-transition: all 100ms ease;
@@ -758,11 +766,15 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3{
     box-shadow: 0px -16px 0px -11px rgba(174, 222, 239, 0.65) inset;
     margin-right: 4px;
 }
+
+.or-teaser-box.or-related-links .or-text-content .or-teaser-list li a .or-link-name:hover {
+    box-shadow: rgba(174, 222, 239, 0.65) 0px -48px 0px -30px inset;
+    color: #35383b;
+} 
 
 .or-teaser-box.or-related-documents .or-text-content .or-teaser-list li a .or-link-name {
     top: 50%;
     margin-top: -13px;
-    margin-left: 20px;
     -webkit-transition: all 100ms ease;
     -moz-transition: all 100ms ease;
     -o-transition: all 100ms ease;
@@ -773,7 +785,7 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3{
     margin-right: 4px;
 }
 
-.or-teaser-box.or-related-links .or-text-content .or-teaser-list li:hover .or-link-name{
+.or-teaser-box.or-related-documents .or-text-content .or-teaser-list li a .or-link-name:hover {
     box-shadow: rgba(174, 222, 239, 0.65) 0px -48px 0px -30px inset;
     color: #35383b;
 } 

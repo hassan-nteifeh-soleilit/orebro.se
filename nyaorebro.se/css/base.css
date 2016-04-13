@@ -465,12 +465,12 @@ nav.or-breadcrumbs li
 }
 
 nav.or-breadcrumbs li a {
-    float: left;
     font-size: 11px;
     font-weight: 600;
     padding: 4px 0;
     font-family: "leaguespartan webfont",sans-serif;
     color: #35383b;
+    line-height: 1.1em;
 }
 
 nav.or-breadcrumbs li a:hover
@@ -553,9 +553,9 @@ body p.sv-portlet-image-caption {
 	margin-top:20px;
 }
 
-.or-article-main ul{
-	margin:8px 0 0 0;
-	list-style-type: none;
+.or-article-main ul {
+    margin: 0px;
+    list-style-type: none;
 }
 
 .or-article-main ul li {
