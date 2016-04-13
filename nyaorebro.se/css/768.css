@@ -430,6 +430,10 @@ nav.or-secondary .or-content ul.or-extra li a h3{
 nav.or-secondary .or-content ul.or-extra li a {
     height: auto;
 }
+
+.or-content ul.or-extra {
+    padding-bottom: 15px;
+}
 	
 }	
 
