@@ -3017,10 +3017,10 @@ body .or-article-main .sv-responsiveTable--stacked__headRow p{
 .or-tool-wrapper {
     float: right;
     position: absolute;
-    right: 0px;
     width: 280px;
     background-color: white;
     top: 0;
+    right: 10px;
 }
 
 /* Bildhantering genomgångssida 1 */
