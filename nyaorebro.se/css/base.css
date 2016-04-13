@@ -799,7 +799,8 @@ nav.or-secondary .or-content ul li a h3 {
 }
 
 nav.or-secondary .or-content ul li a h3 {
-    font-size: 18px;
+    font-size: 16px;
+    line-height: 1.1em;
     margin-bottom: 4px;
     margin-top: 2px;
     display: inline-block;

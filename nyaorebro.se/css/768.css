@@ -343,7 +343,7 @@ ul.or-nav-list li .or-list-wrapper .or-title {
 section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li .or-list-wrapper.or-single .or-title
 {
 	color: #35383b;
-	font-weight: 600;
+	font-weight: 400;
     font-family: "open sans",sans-serif;
     font-size: 12px;
 }
@@ -361,6 +361,17 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li .or-sin
 
 section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a {
     padding: 6px 6px 6px 11px;
+    width: 99%;
+    box-sizing: border-box;
+}
+
+.or-nav-list{
+list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 ul.or-nav-list li .or-list-wrapper.or-single {
@@ -402,7 +413,7 @@ nav.or-secondary .or-content ul li a {
     width: 100%;
     border: 2px solid #FFFFFF;
     position: relative;
-    padding: 8px 10px 5px 28px;
+    padding: 6px 6px 6px 24px;
     min-height: 0px;
     background-color: #FBFBFB;
     box-sizing: border-box;
@@ -423,7 +434,7 @@ nav.or-secondary .or-content ul li a:before {
 }
 
 nav.or-secondary .or-content ul li a h3 {
-    font-size: 12px;
+    font-size: 11px;
     color: #e83c23;
 }
 
