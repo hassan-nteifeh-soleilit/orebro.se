@@ -38,6 +38,11 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-t
     margin-left: -350px!important;
 }
 
+/* Genomgångsidan 1 */
+
+nav.or-secondary h2 {
+    font-size: 17px;
+}
 
 nav.or-secondary {
     max-width: 750px;
