@@ -819,12 +819,13 @@ nav.or-secondary .or-content ul.or-extra {
 }
 
 nav.or-secondary .or-content ul.or-extra li {
+    padding-top: 0px;
 }
 
-nav.or-secondary .or-content ul.or-extra li a{
-	height: 45px;
-	border-bottom: 0px dotted #eae9e8;
-	width: 100%;
+nav.or-secondary .or-content ul.or-extra li a {
+    height: auto;
+    border-bottom: 0px dotted #eae9e8;
+    width: 100%;
 }
 
 nav.or-secondary .or-content ul.or-extra li a h3 {
