@@ -402,22 +402,24 @@ nav.or-secondary .or-content ul li a p {
 nav.or-secondary .or-content ul li {
     width: 100%;
     box-sizing: border-box;
+    margin-bottom: 3px;
 }
 
 nav.or-secondary .or-content ul li a {
     border-bottom: 0px dotted #eae9e8;
     float: left;
     height: auto;
-    border-radius: 0px;
-    box-shadow: 0 0 2px #cacaca;
+    border-radius: 3px;
+    box-shadow: 0 0 5px #C7C7C7;
     width: 100%;
-    border: 2px solid #FFFFFF;
+    border: 3px solid #FFFFFF;
     position: relative;
     padding: 6px 6px 6px 24px;
     min-height: 0px;
-    background-color: #FBFBFB;
+    background-color: #FAFAFA;
     box-sizing: border-box;
     position: relative;
+    line-height: 1em;
 }
 
 nav.or-secondary .or-content ul li a:before {
@@ -436,6 +438,7 @@ nav.or-secondary .or-content ul li a:before {
 nav.or-secondary .or-content ul li a h3 {
     font-size: 11px;
     color: #e83c23;
+    margin: 0px;
 }
 
 nav.or-secondary .or-content ul.or-extra li a h3{
@@ -455,6 +458,7 @@ nav.or-secondary .or-content ul.or-extra li a {
 
 nav.or-secondary .or-content ul {
     padding-bottom: 15px;
+    padding-top: 8px;
 }
 
 section.or-top-img-lvl2 {
