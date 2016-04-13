@@ -13,8 +13,10 @@
             $('head').append('<style type="text/css">.or-wrapper-click { cursor: pointer; }</style>');
         }
 
-
-    
+	    /* Case insensitive :contains */
+	    $.expr[':'].contains = function(a, i, m) {
+			return $(a).text().toUpperCase().indexOf(m[3].toUpperCase()) >= 0;
+	    };  	      
 
         /* Kontakta oss "molnet" */
         $('.or-contact-bar-info-container').css('display', 'none');
