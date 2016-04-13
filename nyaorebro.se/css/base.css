@@ -810,9 +810,10 @@ nav.or-secondary .or-content ul li a .sv-linkicon{
 }
 
 nav.or-secondary .or-content ul li a p {
-    font-size: 13px;
+    font-size: 14px;
     color: #35383b;
     margin-top: 0px;
+    font-weight: 300;
 }
 
 
