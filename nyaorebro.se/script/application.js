@@ -76,11 +76,6 @@
             $(this).parent().toggleClass("or-expanded");
         });
 		
-		/* Expandera filter items */
-        $(".or-news-filter .or-toggle-icon").click(function() {
-            $(this).parent().toggleClass("or-expanded");
-        });
-
     });
 
 
