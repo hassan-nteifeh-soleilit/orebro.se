@@ -3041,3 +3041,27 @@ section.or-bg-one {
     background-position: center center;
     height: 80vh;
 }
+
+/* Öppettider/kontakt */
+
+.or-openhours-contact > div:first-child {
+    background-color: green;
+    width: 70%;
+}
+
+.or-openhours-contact > div:last-child {
+    background-color: red;
+    width: 30%;
+}
+
+.or-openhours-contact td p strong {
+	color: red;
+	content: "\f068";
+	font-family: FontAwesome;	
+}
+
+.or-openhours-contact td p strong:before {
+	color: #red;
+	content: "\f05a";
+	font-family: FontAwesome;	
+}

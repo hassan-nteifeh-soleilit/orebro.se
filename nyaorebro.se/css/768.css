@@ -1547,5 +1547,11 @@ body {
     width: 100% !important; 
 }
 
+/* Öppettider/Kontakt */
+.or-openhours-contact > div:first-child {
+	float: none;
+    width: 100%;
+}
+
 }
 
