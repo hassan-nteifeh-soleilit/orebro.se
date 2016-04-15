@@ -93,9 +93,9 @@ form.or-search-field button{
     float: left;
     border-radius: 30px;
     -moz-border-radius: 30px;
-    -webkit-border-radius: 30px;    
+    -webkit-border-radius: 30px;
     border: 0px none;
-    cursor: pointer;        
+    cursor: pointer;
     color: white;
     text-align: center;
     background-color: #E83C23;
@@ -213,7 +213,7 @@ form.or-search-field button{
 }
 
 .or-facts-column-one {
- width: 25%; 
+ width: 25%;
  text-align: left;
 }
 
@@ -479,11 +479,11 @@ form.or-search-field button{
 
 .or-month-container .or-month-arrow {
    font-size: 16px;
-   color: #857672;   
+   color: #857672;
 }
 
 .or-month-container .or-month-arrow:hover {
-   color: #E83C23;   
+   color: #E83C23;
 }
 
 
@@ -647,7 +647,7 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3{
     font-size: 11px;
     text-transform: uppercase;
     letter-spacing: 0.06em;
-    
+
 }
 
 
@@ -770,7 +770,7 @@ ul.or-teaser-list {
 .or-teaser-box.or-related-links .or-text-content .or-teaser-list li a .or-link-name:hover {
     box-shadow: rgba(174, 222, 239, 0.65) 0px -48px 0px -30px inset;
     color: #35383b;
-} 
+}
 
 .or-teaser-box.or-related-documents .or-text-content .or-teaser-list li a .or-link-name {
     top: 50%;
@@ -788,7 +788,7 @@ ul.or-teaser-list {
 .or-teaser-box.or-related-documents .or-text-content .or-teaser-list li a .or-link-name:hover {
     box-shadow: rgba(174, 222, 239, 0.65) 0px -48px 0px -30px inset;
     color: #35383b;
-} 
+}
 
 
 /* Hade du nytta av innehållet */
@@ -1390,7 +1390,7 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
     -moz-opacity: 0.85;
     -khtml-opacity: 0.85;
     margin-top: -1px;
-}	
+}
 .sol-icon-more-facet:after {
     content: "\F067";
     font-family: FontAwesome;
@@ -1514,7 +1514,7 @@ footer {
 
 .or-footer-logo img{
 	border: 0px;
-	
+
 }
 
 .or-footer-container {
@@ -1562,7 +1562,7 @@ footer {
 }
 
 .or-social-media{
-	
+
 }
 
 .or-folj-oss{
@@ -1619,7 +1619,7 @@ footer {
     -moz-transition: all 100ms ease;
     -o-transition: all 100ms ease;
     transition: all 100ms ease;
-    
+
 }
 
 .or-footer-icon-links a:hover {
@@ -1684,7 +1684,7 @@ footer {
     background: #f2f2f2;
     z-index: 11;
 }
-          
+
 
 .or-modal-close {
     position: absolute;
@@ -1715,7 +1715,7 @@ footer {
     text-align: center;
     padding-top: 5px;
 }
-	
+
 .or-modal-content {
     background-color: #fff;
     padding: 35px 10px 10px 10px;
@@ -1865,7 +1865,7 @@ body .or-content-container .or-tir p {
     line-height: 16px;
     display: inline-block;
     font-weight: 800;
-    letter-spacing: 0.02em;    
+    letter-spacing: 0.02em;
 }
 
 .or-ny-action .sv-use-margins .normal {
@@ -1920,9 +1920,9 @@ body .or-content-container .or-tir p {
 }
 
 .or-icon-content {
-  display: table-cell;  
+  display: table-cell;
   text-align: center;
-  vertical-align: middle;  
+  vertical-align: middle;
   padding-top: 1px;
 }
 
@@ -2227,14 +2227,14 @@ ul > li.kontaktaxossxxxbrodtext:last-child{
     border-radius: 3px;
 }
 
-.or-more-news p.normal:before  {	
+.or-more-news p.normal:before  {
 	content: "\F060";
     font-family: FontAwesome;
     font-style: initial;
     font-size: 14px;
     vertical-align: middle;
     color: #808080;
-	padding-right: 8px;	
+	padding-right: 8px;
 }
 
 .or-more-news p.normal a {
@@ -2317,7 +2317,7 @@ ul > li.kontaktaxossxxxbrodtext:last-child{
     transition: all 500ms ease;
     margin-top: 11px;
     margin-bottom: 11px;
-    
+
 }
 
 .sv-defaultFormTheme input[type=button]:hover, .sv-defaultFormTheme input[type=submit]:hover, .sv-defaultFormTheme input[type=reset]:hover {
@@ -2367,7 +2367,7 @@ input[type="button" i], input[type="submit" i], input[type="reset" i], input[typ
     box-sizing: border-box;
     padding: 2px 6px 3px;
     border: 0px outset buttonface;
-    
+
 }
 
 input[type="file" i]::-webkit-file-upload-button {
@@ -2630,8 +2630,8 @@ body .or-news-filter .or-colorborder.or-wrapper-click.or-plus-box-header.or-plus
     right: 9px;
     top: 6px;
 }
-    
-    
+
+
 }
 
 .or-category li:hover {
@@ -2746,12 +2746,12 @@ body .or-news-filter .or-colorborder.or-wrapper-click.or-plus-box-header.or-plus
 
 
 .or-news-filter .or-category, .or-news-filter .or-daterange {
-/*    background-color: #FFFFFF;  
+/*    background-color: #FFFFFF;
     height: 33px;
     margin-bottom: 20px;
     border-top-left-radius: 2px;
     border-bottom-left-radius: 2px;
-*/	
+*/
   position: relative;
 }
 
@@ -3057,11 +3057,27 @@ section.or-bg-one {
 .or-openhours-contact td p strong {
 	color: red;
 	content: "\f068";
-	font-family: FontAwesome;	
+	font-family: FontAwesome;
 }
 
 .or-openhours-contact td p strong:before {
 	color: #red;
 	content: "\f05a";
-	font-family: FontAwesome;	
+	font-family: FontAwesome;
+}
+
+/* Startsida Driftstörningar */
+.sol-DrifStorningtVitRubrik{
+  color: black;
+}
+
+.sol-btn-Visa-fler-drift-stornigar{
+  background-color: white;
+  font-size: 1em;
+}
+.sol-bg-white{
+  background-color: white;
+}
+.or-red-header-box .box-header {
+    background-color: #E83C23;
 }
