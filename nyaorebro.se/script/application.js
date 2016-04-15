@@ -1,16 +1,13 @@
 (function($) {
     $(function() {
         if (!sv.PageContext.inEditMode) {
-            $('html').delegate('.or-wrapper-click', 'click', function(event) {
-
-                if (!$(event.target).is("a")) {
-                    if ($('a:first', this)) {
-                        $('a:first', this)[0].click();
-                    }
-                }
+            $('.or-wrapper-click').click(function(event) {							
+								if (!$(event.target).is("a")) {
+										if ($('a:first', this) && $('a:first', this).length > 0) {
+											$('a:first', this)[0].click();
+										}
+								}							
             });
-
-            $('head').append('<style type="text/css">.or-wrapper-click { cursor: pointer; }</style>');
         }
 
 	    /* Case insensitive :contains */
@@ -64,13 +61,6 @@
 
         });
 
-
-        /* Responsiva tabeller */
-		/*
-        $(".sv-table-portlet table").stacktable({
-            myClass: 'stacktable small-only'
-        });
-		*/
         /* Expandera meny items */
         $(".or-tree .or-toggle-panel").click(function() {
             $(this).parent().toggleClass("or-expanded");
