@@ -3002,7 +3002,6 @@ body .or-article-main .sv-responsiveTable--stacked__headRow p{
 	padding: 5px 5px 5px 8px;
 }
 
-
 /* Readspeaker */
 
 .rsbtn_powered {
@@ -3045,8 +3044,15 @@ section.or-bg-one {
 /* Öppettider/kontakt */
 
 .or-openhours-contact > div:first-child {
-    background-color: green;
+    background-color: #F28C00;
     width: 70%;
+    color: #fff;
+}
+
+.or-openhours-contact .sv-text-portlet table caption {
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+
 }
 
 .or-openhours-contact > div:last-child {
@@ -3055,16 +3061,45 @@ section.or-bg-one {
 }
 
 .or-openhours-contact td p strong {
-	color: red;
-	content: "\f068";
-	font-family: FontAwesome;
+    color: #857672;
+    position: relative;
+    padding-left: 13px;
+    font-weight: 400!important;
+    font-size: 10px;
+    line-height: 0.9em;
 }
 
 .or-openhours-contact td p strong:before {
-	color: #red;
-	content: "\f05a";
-	font-family: FontAwesome;
+    content: "\f05a";
+    font-family: FontAwesome;
+    position: absolute;
+    left: 0;
+    top: 2px;
+    }
+    
+.or-openhours-contact table.sv-kontakt td{
+	border: 0px;
+	border-left: 1px solid #c0c0c0;
 }
+
+/*.or-openhours-contact td p strong:before {
+	content: "\f05a";
+}/*
+
+
+/* Kontakttabell */
+.or-openhours-contact{
+	
+}
+
+.sv-text-portlet table.sv-kontakt th {
+    background-color: #fff;
+}
+
+.sv-text-portlet table.sv-kontakt th p{
+	color: #F28C00;
+}
+
 
 /* Klick wrapper */
 .or-wrapper-click {
