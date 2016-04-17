@@ -3067,6 +3067,8 @@ section.or-bg-one {
     height: 100%;
     top: 0;
     box-shadow: inset 3px 0px 10px -3px rgba(133, 118, 114, 0.25);
+    padding-bottom: 20px;
+    box-sizing: border-box;
 }
 
 .or-openhours-contact > div:last-child h4 {

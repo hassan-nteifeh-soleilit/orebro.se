@@ -518,12 +518,8 @@ nav.or-secondary .or-content ul.or-extra {
     background-color: #fdf7f1;
     border-bottom: solid 1px #f3dcd0;
 }
-
-body .or-article-main .or-openhours-contact .sv-responsiveTable--stacked__headRow th p{
-	color:#F28C00!important;
-}
-
-}	
+ 
+}	   /* end 680px */
 
 
 @media all and (max-width: 550px){
