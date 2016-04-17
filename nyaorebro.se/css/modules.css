@@ -1772,7 +1772,7 @@ footer {
 
 body .or-content-container .or-tir h2 {
     margin-top: 0px;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 body .or-content-container .or-tir p {
@@ -3053,8 +3053,8 @@ section.or-bg-one {
     color: #fff;
     padding: 11px 10px 9px 11px;
     font-size: 14px;
-    letter-spacing: 0.02em;
-    background-color: #F28C00;
+    letter-spacing: 0.03em;
+    background-color: rgba(242, 140, 0, 0.92);
     margin-bottom: 0px;
     border-top-left-radius: 2px;
 }
@@ -3078,13 +3078,14 @@ section.or-bg-one {
     color: #fff;
     border-top-right-radius: 2px;
     box-shadow: inset 5px 0px 6px -6px rgba(133, 118, 114, 0.6);
+    letter-spacing: 0.03em;
 }
 
 .or-openhours-contact > div:last-child p {
     font-size: 13px;
     padding-left: 20px;
     padding-right: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 7px;
 }
 
 .or-openhours-contact > div:last-child p a{
@@ -3152,6 +3153,8 @@ section.or-bg-one {
     background-color: white;
     border-radius: 2px;
     position: relative;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .or-openhours-contact .sv-text-portlet table.sv-kontakt th {
