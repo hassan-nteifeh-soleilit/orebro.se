@@ -3090,6 +3090,16 @@ section.or-bg-one {
     margin-bottom: 0px;
 }
 
+.or-openhours-contact .sv-text-portlet table tbody tr:nth-child(2n) {
+    background-color: #fff;
+    border-bottom: solid 1px #f3dcd0;
+}
+
+.or-openhours-contact .sv-text-portlet table tbody tr:nth-child(2n+1) {
+    background-color: #fdf7f1;
+    border-bottom: solid 1px #f3dcd0;
+}
+
 .or-openhours-contact td p strong {
     color: #857672;
     position: relative;
@@ -3106,7 +3116,7 @@ section.or-bg-one {
     font-family: FontAwesome;
     position: absolute;
     left: 0;
-    top: 2px;
+    top: 0;
     }
     
 .or-openhours-contact table.sv-kontakt td{
@@ -3144,7 +3154,8 @@ section.or-bg-one {
 }
 
 .or-openhours-contact .sv-text-portlet table thead th {
-    border-right: solid 1px #e83c23;
+    border-right: solid 1px rgba(242, 140, 0, 0.15);
+    padding: 8px 10px;
 }
 
 .or-openhours-contact .sv-text-portlet table.sv-kontakt th p{
