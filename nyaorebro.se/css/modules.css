@@ -3143,6 +3143,10 @@ section.or-bg-one {
     background-color: transparent;
 }
 
+.or-openhours-contact .sv-text-portlet table thead th {
+    border-right: solid 1px #e83c23;
+}
+
 .or-openhours-contact .sv-text-portlet table.sv-kontakt th p{
     color: #000;
     font-size: 10px!important;
@@ -3154,7 +3158,8 @@ section.or-bg-one {
 }
 
 .or-openhours-contact .sv-text-portlet table.sv-kontakt th p{
-	color: #F28C00;
+	color: #35383b;
+	
 }
 
 .or-openhours-contact .sv-text-portlet table.sv-kontakt td p{
