@@ -3047,17 +3047,40 @@ section.or-bg-one {
     background-color: #F28C00;
     width: 70%;
     color: #fff;
+    border-top-left-radius: 3px;
 }
 
 .or-openhours-contact .sv-text-portlet table caption {
     color: #fff;
-    padding: 10px 10px 10px 10px;
-
+    padding: 11px 10px 6px 11px;
+    font-size: 14px;
+    letter-spacing: 0.02em;
 }
 
 .or-openhours-contact > div:last-child {
-    background-color: red;
+    background-color: white;
     width: 30%;
+    position: absolute;
+    right: 0;
+    height: 100%;
+    top: 0;
+    box-shadow: inset 5px 0px 10px -3px rgba(133, 118, 114, 0.45);
+}
+
+.or-openhours-contact > div:last-child h4 {
+    margin: 0px 0px 10px 0px;
+    background-color: rgba(242, 140, 0, 0.7);
+    padding: 10px 15px;
+    color: #fff;
+}
+
+.or-openhours-contact > div:last-child p{
+	font-size: 12px;
+	padding-left: 10px;
+}
+
+.or-openhours-contact .sv-text-portlet table {
+    margin-bottom: 0px;
 }
 
 .or-openhours-contact td p strong {
@@ -3078,9 +3101,23 @@ section.or-bg-one {
     }
     
 .or-openhours-contact table.sv-kontakt td{
-	border: 0px;
-	border-left: 1px solid #c0c0c0;
+	border: 1px solid rgba(242, 140, 0, 0.15);
 }
+
+.or-openhours-contact table.sv-kontakt th{
+	border: 1px solid rgba(242, 140, 0, 0.15);
+}
+
+.or-openhours-contact .sv-text-portlet table {
+    border: solid 2px #fff;
+}
+
+.or-openhours-contact .sv-text-portlet table thead {
+    background-color: #fff;
+}
+
+
+
 
 /*.or-openhours-contact td p strong:before {
 	content: "\f05a";
@@ -3088,16 +3125,33 @@ section.or-bg-one {
 
 
 /* Kontakttabell */
-.or-openhours-contact{
-	
+.or-openhours-contact {
+    box-shadow: 0px 0px 15px rgba(133, 118, 114, 0.25);
+    background-color: white;
+    border-radius: 2px;
+    position: relative;
 }
 
-.sv-text-portlet table.sv-kontakt th {
-    background-color: #fff;
+.or-openhours-contact .sv-text-portlet table.sv-kontakt th {
+    background-color: transparent;
 }
 
-.sv-text-portlet table.sv-kontakt th p{
+.or-openhours-contact .sv-text-portlet table.sv-kontakt th p{
+    color: #000;
+    font-size: 10px!important;
+}
+
+.or-openhours-contact .sv-text-portlet table.sv-kontakt thead th p{
+    color: #F28C00;
+    font-size: 12px!important;
+}
+
+.or-openhours-contact .sv-text-portlet table.sv-kontakt th p{
 	color: #F28C00;
+}
+
+.or-openhours-contact .sv-text-portlet table.sv-kontakt td p{
+	line-height: 1.1em;
 }
 
 
