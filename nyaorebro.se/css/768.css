@@ -303,6 +303,24 @@ section.or-bg-one {
     height: auto;
 }
 
+.or-openhours-contact .sv-text-portlet table tbody tr:nth-child(2n) th{
+    background-color: #fff;
+    border-bottom: solid 1px #f3dcd0;
+}
+
+
+.or-openhours-contact .sv-text-portlet table tbody tr:nth-child(2n+1) th{
+    background-color: #fdf7f1;
+    border-bottom: solid 1px #f3dcd0;
+}
+
+
+/* Öppettider/kontakt */
+body .or-article-main .or-openhours-contact .sv-responsiveTable--stacked__headRow th p{
+	color:#F28C00!important;
+	font-size: 12px!important;
+}
+
 
 
 } /* end 767 */
@@ -469,6 +487,40 @@ nav.or-secondary .or-content ul.or-extra {
     background: #fff;
     padding-top: 0px;
 	margin-top: -7px;
+}
+
+
+/* Öppettider/kontakt */
+.or-openhours-contact > div:first-child {
+    width: 100%;
+}
+
+.or-openhours-contact > div:last-child {
+    width: 100%;
+    position: relative;
+    height: auto;
+}
+
+.or-openhours-contact .or-article-main .sv-responsiveTable--stacked__headRow p {
+    color: #000!important;
+    font-family: "leaguespartan webfont",sans-serif!important;
+    font-size: 14px;
+    padding: 5px 5px 5px 8px;
+}
+
+.or-openhours-contact .sv-text-portlet table tbody tr:nth-child(2n) th{
+    background-color: #fff;
+    border-bottom: solid 1px #f3dcd0;
+}
+
+
+.or-openhours-contact .sv-text-portlet table tbody tr:nth-child(2n+1) th{
+    background-color: #fdf7f1;
+    border-bottom: solid 1px #f3dcd0;
+}
+
+body .or-article-main .or-openhours-contact .sv-responsiveTable--stacked__headRow th p{
+	color:#F28C00!important;
 }
 
 }	
