@@ -137,6 +137,11 @@ body p.sv-portlet-image-caption {
 }
 
 
+ /* Sorterbara listor */	
+.or-search-sortable-list form.or-search-field input {
+    width: 54%;
+}
+
 
 } /* end 480px */	
 
