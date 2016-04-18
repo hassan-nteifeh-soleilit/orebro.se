@@ -48,6 +48,25 @@
 	text-align: center;
 }
 
+/* Avdelare */ 
+.or-divider-dotted {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top: 2px dotted #D1D1D1;
+    border-bottom: 2px dotted #D1D1D1;
+}
+
+.or-divider-dotted p.normal {
+    font-family: "leaguespartan webfont",sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    line-height: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
 
 
 /* Sökfält */
