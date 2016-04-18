@@ -225,16 +225,7 @@ body .or-content-container .or-tir p {
     font-weight: 700;
 }
 
-.or-content-container .sv-text-portlet table.sv-standard .sv-responsiveTable--stacked__key {
-    background-color: transparent;
-    border-bottom: solid 0px rgba(255, 255, 255, 0.25);
-}
 
-.or-content-container .sv-text-portlet table.sv-standard .sv-responsiveTable--stacked__key p{
-    color: #35383b;
-    font-family: Open sans;
-    font-weight: 400;
-}
 
 
 /* sök */

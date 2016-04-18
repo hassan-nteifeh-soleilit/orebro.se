@@ -731,6 +731,38 @@ color: #fff;}
 }
 
 
+.or-search-sortable-list .or-search-summary p{
+	margin-top: 0px;
+}
+
+.or-search-sortable-list .sol-search-hits > div {
+    margin-left: 0px;
+    width: 85%;
+    float: left;
+}
+
+.or-search-sortable-list .or-search-result {
+    float: left;
+    padding-left: 0px;
+    margin-top: 20px;
+}
+
+.or-search-sortable-list .or-search-result ul li{
+	list-style: none;
+}
+
+.or-search-sortable-list .sol-search-hits{
+	list-style: none;
+}
+
+.or-search-sortable-list .sol-search-hits:before{
+	content: "";
+}
+
+
+
+
+
 /* Genomgångsida nivå 1 */
 
 .or-link-page-level-1 {
