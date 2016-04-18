@@ -1332,7 +1332,7 @@ body .sol-search-hits .sol-doc-size p{
     -khtml-opacity: 0.85;
     position: absolute;
     right: 11px;
-    top: 9px;
+    top: 11px;
 }
 
 li.sol-selected-facet:hover > i.sol-icon-facet-active {

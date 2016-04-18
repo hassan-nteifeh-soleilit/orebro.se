@@ -877,8 +877,8 @@ nav.or-secondary .or-content ul.or-extra li {
 
 nav.or-secondary .or-content ul.or-extra li a {
     height: auto;
-    border-bottom: 0px dotted #eae9e8;
-    width: 100%;
+    border-bottom: 2px dotted #D5D5D5;
+    width: 95%;
 }
 
 nav.or-secondary .or-content ul.or-extra li a h3 {
