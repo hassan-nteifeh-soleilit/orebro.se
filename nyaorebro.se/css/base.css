@@ -758,6 +758,24 @@ color: #fff;}
 	content: "";
 }
 
+.or-search-sortable-list form.or-search-field button {
+    position: relative;
+    -webkit-appearance: none;
+    left: -28px;
+    top: -8px;
+    width: 60px;
+    height: 60px;
+    float: left;
+    border-radius: 30px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border: 0px none;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    background-color: #E83C23;
+}
+
 
 
 
