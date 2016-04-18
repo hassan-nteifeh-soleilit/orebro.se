@@ -3131,12 +3131,11 @@ section.or-bg-one {
     position: relative;
     padding-left: 13px;
     font-weight: 400!important;
-    font-size: 10px;
-    line-height: 1.3em;
+    font-size: 12px;
+    line-height: 1.35em;
     display: inline-block;
     margin-top: 5px;
 }
-
 .or-openhours-contact td p strong:before {
     content: "\f05a";
     font-family: FontAwesome;
