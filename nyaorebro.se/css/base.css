@@ -730,7 +730,6 @@ color: #fff;}
     margin-bottom: 3px;
 }
 
-
 .or-search-sortable-list .or-search-summary p{
 	margin-top: 0px;
 }
@@ -758,6 +757,7 @@ color: #fff;}
 .or-search-sortable-list .sol-search-hits:before{
 	content: "";
 }
+
 
 
 
