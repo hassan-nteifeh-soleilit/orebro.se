@@ -302,6 +302,7 @@ nav.or-secondary .or-content {
 
 section.or-bg-one {
     height: auto;
+    padding-bottom: 0px;
 }
 
 .or-openhours-contact .sv-text-portlet table tbody tr:nth-child(2n) th{
@@ -314,6 +315,8 @@ section.or-bg-one {
     background-color: #fdf7f1;
     border-bottom: solid 1px #f3dcd0;
 }
+
+
 
 
 /* Öppettider/kontakt */
@@ -480,9 +483,7 @@ nav.or-secondary .or-content ul {
     padding-top: 8px;
 }
 
-section.or-top-img-lvl2 {
-    height: 170px;
-}
+
 
 nav.or-secondary .or-content ul.or-extra {
     background: #fff;

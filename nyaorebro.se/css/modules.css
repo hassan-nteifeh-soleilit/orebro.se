@@ -1461,8 +1461,8 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
 
 #or-paging-id a:hover {
     background-color: transparent;
+    text-decoration: underline;
 }
-
 .pagination .current {
     color: #fff;
     padding: 5px 12px;
@@ -3045,7 +3045,7 @@ body .or-article-main .sv-responsiveTable--stacked__headRow p{
 /* Bildhantering genomgångssida 1 */
 
 section.or-top-img-lvl2 {
-    height: 140px;
+    height: 0px;
     margin: 0 auto;
     background-repeat: no-repeat;
     background-size: cover;
@@ -3057,7 +3057,8 @@ section.or-bg-one {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 80vh;
+    /* height: 80vh; */
+    padding-bottom: 100px;
 }
 
 /* Öppettider/kontakt */
@@ -3130,7 +3131,7 @@ section.or-bg-one {
     position: relative;
     padding-left: 13px;
     font-weight: 400!important;
-    font-size: 11px;
+    font-size: 10px;
     line-height: 1.3em;
     display: inline-block;
     margin-top: 5px;
