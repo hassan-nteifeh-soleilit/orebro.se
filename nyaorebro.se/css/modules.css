@@ -3221,18 +3221,18 @@ section.or-bg-one {
     margin-bottom: 30px;
     margin-right: 40px;
     margin-left: 15px;
-    padding: 5px;
-    display: inline-block;
+    padding: 5px;    
     position: relative;
     min-height: 50px;
+	float:left;		
 }
 
 .or-puff-link::after{
     content: "\f061";
     font-family: FontAwesome;
-		color:#fff;
-		position: absolute;
-		bottom: 1px	;
+    color:#fff;
+    position: absolute;
+    bottom: 1px	;
     right: 2px;
 }
 
@@ -3247,4 +3247,58 @@ section.or-bg-one {
     border-width: 17px;
     border-right-color: #e83c23;
     border-bottom-color: #e83c23;
+}
+
+/* Puff med ikon, rubrik och textyta */
+
+.or-puff-icon-header-text {
+    position: relative;    
+    background-color: #fff;
+    background-color: #fff;
+    border: 1px solid #fff;
+    box-shadow: 0px 0px 15px rgba(133, 118, 114, 0.4);
+    border-radius: 4px;
+    padding: 5px; 
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+
+.or-puff-icon-header-text::after{
+    content: "\f061";
+    font-family: FontAwesome;
+    color:#fff;
+    position: absolute;
+    bottom: 1px	;
+    right: 2px;
+}
+
+.or-puff-icon-header-text::before {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    right: -1px;
+    border-color: transparent;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 17px;
+    border-right-color: #DF9D50;
+    border-bottom-color: #DF9D50;
+}
+
+
+.or-puff-icon-header-text > div:first-of-type {
+    background-color: #FCF5EC;    
+    padding: 20px 35px 5px 35px;    
+}
+
+.or-puff-icon-header-text > div:last-of-type {
+    margin: 10px;     
+}
+
+.or-puff-icon-header-text .ikonxorange {    
+    font-size: 40px;
+    display: block;
+    margin: 10px
 }
