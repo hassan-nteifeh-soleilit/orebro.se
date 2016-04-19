@@ -1277,7 +1277,7 @@ body .sol-search-hits .sol-doc-size p{
 }
 
 .sol-facetter ul > li:hover {
-	background-color: #fff);
+	background-color: #fff;
 }
 
 .sol-facetter ul > li:hover a{
@@ -1336,6 +1336,7 @@ body .sol-search-hits .sol-doc-size p{
 }
 
 li.sol-selected-facet:hover > i.sol-icon-facet-active {
+    transform:rotate(45deg);
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     -o-transform: rotate(45deg);
@@ -1390,6 +1391,7 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
     color: #FFFFFF;
 }
 .or-show-hiden-facet-items:hover > .sol-icon-more-facet {
+    transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -o-transform: rotate(0deg);
@@ -1578,10 +1580,6 @@ footer {
 	background-color: #fff;
 	right: 18px;
 	top: 0px;
-}
-
-.or-social-media{
-
 }
 
 .or-folj-oss{
@@ -2137,9 +2135,6 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
 }
 
 /* Plusbox diskret*/
-.or-plus-box-diskret-header .or-icon-plus {
-}
-
 .or-plus-box-diskret-header .or-collapse-button.or-colorbg {
 	background-color: #f9f9f8;
 	width: 35px;
@@ -2367,17 +2362,13 @@ ul > li.kontaktaxossxxxbrodtext:last-child{
 
 }
 
-.sv-defaultFormTheme input[type="checkbox"], .sv-defaultFormTheme input[type="radio"] {
-}
-
-
 
 .sv-formField{
-border-bottom: 2px dotted #e4e4e4;
-padding-bottom: 10px;
+    border-bottom: 2px dotted #e4e4e4;
+    padding-bottom: 10px;
 }
 
-input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button {
+button, input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button {
     align-items: flex-start;
     text-align: center;
     cursor: default;
@@ -2651,15 +2642,10 @@ body .or-news-filter .or-colorborder.or-wrapper-click.or-plus-box-header.or-plus
 }
 
 
-}
-
 .or-category li:hover {
     text-decoration: underline;
     color: #e83c23;
 }
-
-.or-daterange li:hover {
-	}
 
 .or-news-list li {
     background-color: #fff;
@@ -3152,9 +3138,6 @@ section.or-bg-one {
 	border: 1px solid rgba(242, 140, 0, 0.15);
 }
 
-.or-openhours-contact .sv-text-portlet table {
-}
-
 .or-openhours-contact .sv-text-portlet table thead {
     background-color: #fff;
 }
@@ -3225,4 +3208,27 @@ section.or-bg-one {
 }
 .or-red-header-box .box-header {
     background-color: #E83C23;
+}
+
+/* Länkpuff*/
+
+.or-puff-link {
+	background-color: #fff;
+	border: 1px solid #fff;
+	box-shadow: 0px 0px 15px rgba(133, 118, 114, 0.25);  
+    border-radius: 2px;
+	width:30%;
+	margin-bottom: 30px;
+	padding :5px;
+    display:inline-block;
+}
+
+.or-puff-link p.normal:after {	
+    content: "\f05a";
+    font-family: FontAwesome;
+    
+}
+
+.or-puff-link p.normal{
+	margin:auto;	
 }
