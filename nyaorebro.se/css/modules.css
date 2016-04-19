@@ -3213,22 +3213,38 @@ section.or-bg-one {
 /* Länkpuff*/
 
 .or-puff-link {
-	background-color: #fff;
-	border: 1px solid #fff;
-	box-shadow: 0px 0px 15px rgba(133, 118, 114, 0.25);  
-    border-radius: 2px;
-	width:30%;
-	margin-bottom: 30px;
-	padding :5px;
-    display:inline-block;
+    background-color: #fff;
+    border: 1px solid #fff;
+    box-shadow: 0px 0px 15px rgba(133, 118, 114, 0.4);
+    border-radius: 4px;
+    width: 28%;
+    margin-bottom: 30px;
+    margin-right: 40px;
+    margin-left: 15px;
+    padding: 5px;
+    display: inline-block;
+    position: relative;
+    min-height: 50px;
 }
 
-.or-puff-link p.normal:after {	
-    content: "\f05a";
+.or-puff-link::after{
+    content: "\f061";
     font-family: FontAwesome;
-    
+		color:#fff;
+		position: absolute;
+		bottom: 1px	;
+    right: 2px;
 }
 
-.or-puff-link p.normal{
-	margin:auto;	
+.or-puff-link::before {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    right: -1px;
+    border-color: transparent;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 17px;
+    border-right-color: #e83c23;
+    border-bottom-color: #e83c23;
 }
