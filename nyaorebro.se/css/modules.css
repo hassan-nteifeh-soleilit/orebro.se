@@ -3301,8 +3301,8 @@ section.or-bg-one {
 
 
 .or-puff-icon-header-text > div:first-of-type {
-    background-color: #FCF5EC;    
-    padding: 20px 35px 5px 35px;    
+    background-color: #FCF5EC;
+    padding: 5px 35px 15px 35px;
 }
 
 .or-puff-icon-header-text > div:last-of-type {
