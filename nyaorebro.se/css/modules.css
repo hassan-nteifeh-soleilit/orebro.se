@@ -3252,26 +3252,39 @@ section.or-bg-one {
 /* Puff med ikon, rubrik och textyta */
 
 .or-puff-icon-header-text {
-    position: relative;    
-    background-color: #fff;
+    position: relative;
     background-color: #fff;
     border: 1px solid #fff;
-    box-shadow: 0px 0px 15px rgba(133, 118, 114, 0.4);
+    box-shadow: 0 0 6px #E6E6E6;
     border-radius: 4px;
-    padding: 5px; 
+    padding: 5px;
     text-align: center;
     vertical-align: middle;
 }
 
+.or-puff-icon-header-text:hover .normal a:link {
+    text-decoration: underline;
+}
 
 
-.or-puff-icon-header-text::after{
+.or-puff-icon-header-text .normal a:link {
+    box-shadow: rgba(255, 255, 255, 0)0px 0px 0px 0px inset;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.or-puff-icon-header-text .normal {
+    line-height: 1.4em;
+}
+
+.or-puff-icon-header-text::after {
     content: "\f061";
     font-family: FontAwesome;
-    color:#fff;
+    color: #fff;
     position: absolute;
-    bottom: 1px	;
-    right: 2px;
+    bottom: 3px;
+    right: 4px;
+    font-size: 12px;
 }
 
 .or-puff-icon-header-text::before {
@@ -3281,7 +3294,6 @@ section.or-bg-one {
     right: -1px;
     border-color: transparent;
     border-style: solid;
-    border-radius: 5px;
     border-width: 17px;
     border-right-color: #DF9D50;
     border-bottom-color: #DF9D50;

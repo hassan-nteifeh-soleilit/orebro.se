@@ -1,3 +1,4 @@
+286
 /* Grunddesign */
 
 body{
@@ -100,6 +101,10 @@ h4 a{
 
 h4 a:hover{
 	box-shadow: rgba(174, 222, 239, 0.65) 0px -60px 0px -30px inset;
+}
+
+.normal {
+    line-height: 1.6em;
 }
 
 
@@ -283,13 +288,12 @@ section.or-article-main .or-on-page-links h2
 	margin:4px 8px 0 0;
 }
 
-section.or-top-img-area
-{
-	margin:0 auto;
-	max-width:1400px;
-	padding:0;
-	position:relative;
-	height: 450px;
+section.or-top-img-area {
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 0;
+    position: relative;
+    height: 400px;
 }
 
 body section.or-top-img-area .or-top-img-text-area h1
@@ -354,12 +358,12 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a
 	position: relative;
 }
 
-section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-title
-{
-	font-size:15px;
-	margin-top:0;
-	line-height: 1.35em;
-	padding-left: 9px;
+section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-title {
+    font-size: 15px;
+    margin-top: 0;
+    line-height: 1.35em;
+    padding-left: 9px;
+    margin-bottom: 9px;
 }
 
 section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-title:before
@@ -444,11 +448,12 @@ ul.or-nav-list li .or-list-wrapper .or-title:before
 	top:-1px;
 }
 
-ul.or-nav-list li .or-list-wrapper p
-{
-	font-weight:300;
-	max-height: 78px;
+ul.or-nav-list li .or-list-wrapper p {
+    font-weight: 300;
+    max-height: 78px;
     overflow: hidden;
+    font-size: 15px;
+    margin-top: 0px;
 }
 
 nav.or-breadcrumbs
@@ -527,11 +532,11 @@ nav.or-breadcrumbs li:last-child a:after
 
 
 /* content */
-.pagecontent.sv-layout {
+/*.pagecontent.sv-layout {
     margin-top: 15px;
     padding-left: 20px;
     padding-right: 20px;
-}
+}*/
 
 body p.sv-portlet-image-caption {
     font-size: 12px;
