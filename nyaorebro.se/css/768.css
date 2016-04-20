@@ -325,6 +325,27 @@ body .or-article-main .or-openhours-contact .sv-responsiveTable--stacked__headRo
 	font-size: 12px!important;
 }
 
+/* Genomgangssida 2 */
+section.or-top-img-area {
+    height: 270px;
+    background-position: 0px 75px;
+}
+
+.or-top-img-text-area {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    bottom: auto;
+    max-width: 100%;
+    width: 100%;
+    background-size: contain;
+
+}
+
+.or-top-img-niva-2{
+	
+}
+
 
 
 } /* end 767 */
@@ -553,7 +574,7 @@ nav.or-secondary .or-content ul.or-extra {
 }
 
 .or-puff-icon-header-text {
-    padding: 7px 10px 2px 85px;
+    padding: 10px 30px 0px 85px;
     text-align: left;
     border: 5px solid #fff;
 }

@@ -10,6 +10,7 @@ font-smoothing: subpixel-antialiased;*/
 
 }
 
+
 html {
     -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
 }
@@ -293,7 +294,9 @@ section.or-top-img-area {
     max-width: 1400px;
     padding: 0;
     position: relative;
-    height: 400px;
+    height: 370px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 body section.or-top-img-area .or-top-img-text-area h1

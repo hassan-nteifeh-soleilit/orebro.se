@@ -3215,25 +3215,43 @@ section.or-bg-one {
 .or-puff-link {
     background-color: #fff;
     border: 1px solid #fff;
-    box-shadow: 0px 0px 15px rgba(133, 118, 114, 0.4);
-    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(199, 199, 199, 0.55);
+    border-radius: 2px;
     width: 28%;
     margin-bottom: 30px;
     margin-right: 40px;
     margin-left: 15px;
-    padding: 5px;    
+    padding: 5px;
     position: relative;
     min-height: 50px;
-	float:left;		
+    float: left;
 }
 
-.or-puff-link::after{
+body .or-puff-link .normal a:link {
+    font-family: "leaguespartan webfont",sans-serif;
+    box-shadow: rgba(174, 222, 239, 0.0)0px 0px 0px 0px inset;
+    color: #e83c23;
+    font-size: 15px;
+}
+
+body .or-puff-link a:link{
+	font-family: "leaguespartan webfont",sans-serif;
+	box-shadow: rgba(174, 222, 239, 0.0)0px 0px 0px 0px inset;
+	color: #e83c23;
+}
+
+body .or-puff-link .normal{
+	color: #e83c23;
+}
+
+.or-puff-link::after {
     content: "\f061";
     font-family: FontAwesome;
-    color:#fff;
+    color: #fff;
     position: absolute;
-    bottom: 1px	;
-    right: 2px;
+    bottom: 3px;
+    right: 4px;
+    font-size: 12px;
 }
 
 .or-puff-link::before {
@@ -3243,7 +3261,6 @@ section.or-bg-one {
     right: -1px;
     border-color: transparent;
     border-style: solid;
-    border-radius: 5px;
     border-width: 17px;
     border-right-color: #e83c23;
     border-bottom-color: #e83c23;
@@ -3275,7 +3292,7 @@ section.or-bg-one {
 }
 
 .or-puff-icon-header-text .normal {
-    line-height: 1.4em;
+    line-height: 1.2em;
 }
 
 .or-puff-icon-header-text::after {
@@ -3308,6 +3325,7 @@ section.or-bg-one {
 
 .or-puff-icon-header-text .sv-use-margins .rubrikx4, .sv-use-margins h4{
 	margin: 0px;
+	font-size: 15px;
 }
 
 .or-puff-icon-header-text > div:last-of-type {
