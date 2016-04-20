@@ -528,6 +528,57 @@ nav.or-secondary .or-content ul.or-extra {
 .or-openhours-contact > div:last-child h4 {
     border-top-right-radius: 0px;
 }
+
+/* Tjänster puff */
+.or-puff-icon-header-text .ikonxorange {
+    float: left;
+    background-color: #FCF5EC;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0px;
+    height: 100%;
+    width: 70px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 15px;
+    font-size: 30px;
+}
+
+.or-puff-icon-header-text > div:first-of-type {
+    background-color: #fff;
+    float: left;
+    padding: 0px 0px 0px 0px;
+
+}
+
+.or-puff-icon-header-text {
+    padding: 7px 10px 2px 85px;
+    text-align: left;
+    border: 5px solid #fff;
+}
+
+.or-puff-icon-header-text .sv-use-margins .rubrikx4, .sv-use-margins h4 {
+    float: left;
+    margin-bottom: 3px;
+    font-size: 12px;
+}
+
+.or-puff-icon-header-text .normal a:link {
+    float: left;
+    overflow: hidden;
+    height: 21px;
+    font-size: 14px;
+}
+
+.or-puff-icon-header-text .normal {
+    float: left;
+}
+
+.or-puff-icon-header-text > div:last-of-type {
+    margin: 0px;
+}
+
  
 }	   /* end 680px */
 

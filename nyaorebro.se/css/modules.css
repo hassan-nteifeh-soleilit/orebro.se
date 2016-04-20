@@ -3254,10 +3254,10 @@ section.or-bg-one {
 .or-puff-icon-header-text {
     position: relative;
     background-color: #fff;
-    border: 1px solid #fff;
+    border: 0px solid #fff;
     box-shadow: 0 0 6px #E6E6E6;
-    border-radius: 4px;
-    padding: 5px;
+    border-radius: 3px;
+    padding: 6px;
     text-align: center;
     vertical-align: middle;
     float: left;
