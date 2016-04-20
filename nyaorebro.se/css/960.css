@@ -88,6 +88,7 @@ body .or-puff-link .normal a:link {
     margin-right: 1%;
     width: 98%;
     box-sizing: border-box;
+    min-height: auto;
 }
 
 .or-puff-icon-header-text .sv-use-margins .rubrikx4, .sv-use-margins h4 {
