@@ -3217,21 +3217,31 @@ section.or-bg-one {
     border: 1px solid #fff;
     box-shadow: 0 0 5px rgba(199, 199, 199, 0.55);
     border-radius: 2px;
-    width: 28%;
+    width: 31%;
     margin-bottom: 30px;
-    margin-right: 40px;
-    margin-left: 15px;
-    padding: 5px;
+    margin-right: 1%;
+    margin-left: 1%;
+    padding: 8px 5px 8px 13px;
     position: relative;
-    min-height: 50px;
+    min-height: 35px;
     float: left;
+    box-sizing: border-box;
+}
+
+.or-puff-link .sv-linkicon {
+    padding-left: 8px;
 }
 
 body .or-puff-link .normal a:link {
     font-family: "leaguespartan webfont",sans-serif;
     box-shadow: rgba(174, 222, 239, 0.0)0px 0px 0px 0px inset;
     color: #e83c23;
-    font-size: 15px;
+    font-size: 14px;
+}
+
+body .or-puff-link:hover .normal a:link {
+	text-decoration: underline;
+    color: #35383b;
 }
 
 body .or-puff-link a:link{
@@ -3242,6 +3252,7 @@ body .or-puff-link a:link{
 
 body .or-puff-link .normal{
 	color: #e83c23;
+	margin-bottom: 0px;
 }
 
 .or-puff-link::after {

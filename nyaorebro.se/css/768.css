@@ -128,7 +128,7 @@ body section.or-nav-content-section .or-grid-12-col.or-wider h2 {
 .or-footer-links a {
     margin-right: 0px;
     width: 40%;
-    display: inline-block;
+    display: inline;
     margin-bottom: 25px;
 }
 
@@ -339,13 +339,30 @@ section.or-top-img-area {
     max-width: 100%;
     width: 100%;
     background-size: contain;
+    box-sizing: border-box;
+}
+
+.or-puff-link {
+    width: 48%;
+}
+
+body .or-puff-link .normal a:link {
+    font-size: 13px;
+}
+
+.or-divider-heading {
+    font-size: 13px;
+}
+
+body section.or-top-img-area .or-top-img-text-area h1 {
+    font-size: 18px;
+    margin-bottom: 5px;
 
 }
 
-.or-top-img-niva-2{
-	
+body section.or-top-img-area .brodtextxxfetx {
+    font-size: 13px;
 }
-
 
 
 } /* end 767 */
@@ -550,57 +567,6 @@ nav.or-secondary .or-content ul.or-extra {
     border-top-right-radius: 0px;
 }
 
-/* Tjänster puff */
-.or-puff-icon-header-text .ikonxorange {
-    float: left;
-    background-color: #FCF5EC;
-    position: absolute;
-    left: 0;
-    top: 0;
-    margin: 0px;
-    height: 100%;
-    width: 70px;
-    text-align: center;
-    box-sizing: border-box;
-    padding-top: 15px;
-    font-size: 30px;
-}
-
-.or-puff-icon-header-text > div:first-of-type {
-    background-color: #fff;
-    float: left;
-    padding: 0px 0px 0px 0px;
-
-}
-
-.or-puff-icon-header-text {
-    padding: 10px 30px 0px 85px;
-    text-align: left;
-    border: 5px solid #fff;
-}
-
-.or-puff-icon-header-text .sv-use-margins .rubrikx4, .sv-use-margins h4 {
-    float: left;
-    margin-bottom: 3px;
-    font-size: 12px;
-}
-
-.or-puff-icon-header-text .normal a:link {
-    float: left;
-    overflow: hidden;
-    height: 21px;
-    font-size: 14px;
-}
-
-.or-puff-icon-header-text .normal {
-    float: left;
-}
-
-.or-puff-icon-header-text > div:last-of-type {
-    margin: 0px;
-}
-
- 
 }	   /* end 680px */
 
 
@@ -612,7 +578,7 @@ nav.or-secondary .or-content ul.or-extra {
 .or-footer-links a {
     margin-right: 0px;
     width: 100%;
-    display: inline-block;
+    display: inline;
     margin-bottom: 25px;
 }
 
