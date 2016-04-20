@@ -3289,6 +3289,7 @@ body .or-puff-link .normal{
     text-align: center;
     vertical-align: middle;
     float: left;
+    margin-right: 3%;
 }
 
 .or-puff-icon-header-text:hover .normal a:link, .or-puff-icon-header-text:hover h4  {
