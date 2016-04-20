@@ -128,7 +128,7 @@ body section.or-nav-content-section .or-grid-12-col.or-wider h2 {
 .or-footer-links a {
     margin-right: 0px;
     width: 40%;
-    display: inline-block;
+    display: inline;
     margin-bottom: 25px;
 }
 
@@ -325,6 +325,44 @@ body .or-article-main .or-openhours-contact .sv-responsiveTable--stacked__headRo
 	font-size: 12px!important;
 }
 
+/* Genomgangssida 2 */
+section.or-top-img-area {
+    height: 270px;
+    background-position: 0px 75px;
+}
+
+.or-top-img-text-area {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    bottom: auto;
+    max-width: 100%;
+    width: 100%;
+    background-size: contain;
+    box-sizing: border-box;
+}
+
+.or-puff-link {
+    width: 48%;
+}
+
+body .or-puff-link .normal a:link {
+    font-size: 13px;
+}
+
+.or-divider-heading {
+    font-size: 13px;
+}
+
+body section.or-top-img-area .or-top-img-text-area h1 {
+    font-size: 18px;
+    margin-bottom: 5px;
+
+}
+
+body section.or-top-img-area .brodtextxxfetx {
+    font-size: 13px;
+}
 
 
 } /* end 767 */
@@ -528,7 +566,7 @@ nav.or-secondary .or-content ul.or-extra {
 .or-openhours-contact > div:last-child h4 {
     border-top-right-radius: 0px;
 }
- 
+
 }	   /* end 680px */
 
 
@@ -540,7 +578,7 @@ nav.or-secondary .or-content ul.or-extra {
 .or-footer-links a {
     margin-right: 0px;
     width: 100%;
-    display: inline-block;
+    display: inline;
     margin-bottom: 25px;
 }
 

@@ -138,6 +138,39 @@ body p.sv-portlet-image-caption {
     width: 54%;
 }
 
+/* Genomgangssida 2 */
+.or-puff-link {
+    width: 95%;
+    margin-bottom: 10px;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+section.or-top-img-area {
+    height: 220px;
+    background-position: 0px 75px;
+}
+
+section.or-nav-content-section {
+    background-color: #fff;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.or-divider-heading {
+    font-size: 12px;
+}
+
+body section.or-top-img-area .or-top-img-text-area h1 {
+    font-size: 16px;
+}
+
+body section.or-top-img-area .brodtextxxfetx {
+    font-size: 12px;
+}
+
+
+
 
 } /* end 480px */	
 
