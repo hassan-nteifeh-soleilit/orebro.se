@@ -2962,6 +2962,10 @@ box-shadow: rgba(255, 255, 255, 1)0px -33px 0px -11px inset;
 	padding: 8px 6px;
 }
 
+body .sv-text-portlet table.sv-standard td p {
+    font-size: 13px;
+}
+
 
 .or-content-container .sv-text-portlet table.sv-standard thead th p{
 	color: #fff;
@@ -2971,7 +2975,7 @@ box-shadow: rgba(255, 255, 255, 1)0px -33px 0px -11px inset;
 }
 
 .or-content-container .sv-text-portlet table p {
-font-size: 12px!important;
+font-size: 13px;
 }
 
 
@@ -3183,8 +3187,9 @@ section.or-bg-one {
 	
 }
 
-.or-openhours-contact .sv-text-portlet table.sv-kontakt td p{
-	line-height: 1.1em;
+.or-openhours-contact .sv-text-portlet table.sv-kontakt td p {
+    line-height: 1.1em;
+    font-size: 15px;
 }
 
 
