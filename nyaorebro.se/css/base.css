@@ -24,13 +24,37 @@ a.portlet-font, a.portlet-font-label, a.portlet-font-dim, a.portlet-msg-status, 
 	-moz-transition: all 100ms ease;
 	-o-transition: all 100ms ease;
 	transition: all 100ms ease;
-
 }
 
-
-.normal a:link{
+.sv-linklist-portlet table.sv-standard td p a:visited, .sv-blog-portlet table.sv-standard td p a:visited, .sv-archive-portlet table.sv-standard td p a:visited, .sv-text-portlet table.sv-standard td p a:visited {
+    font-family: Open sans;
+    color: #35383b;
+    font-weight: normal;
+    font-size: 100%;
+    font-style: normal;
+    line-height: normal;
+    text-decoration: none;
+    box-shadow: rgba(174, 222, 239, 0.65) 0px -28px 0px -23px inset;
+	-webkit-transition: all 100ms ease;
+	-moz-transition: all 100ms ease;
+	-o-transition: all 100ms ease;
+	transition: all 100ms ease;
 }
 
+.sv-linklist-portlet table.sv-standard td p a, .sv-blog-portlet table.sv-standard td p a, .sv-archive-portlet table.sv-standard td p a, .sv-text-portlet table.sv-standard td p a {
+    font-family: Open sans;
+    color: #35383b;
+    font-weight: normal;
+    font-size: 100%;
+    font-style: normal;
+    line-height: normal;
+    text-decoration: none;
+    box-shadow: rgba(174, 222, 239, 0.65) 0px -28px 0px -23px inset;
+	-webkit-transition: all 100ms ease;
+	-moz-transition: all 100ms ease;
+	-o-transition: all 100ms ease;
+	transition: all 100ms ease;
+}
 
 .normal a:link:hover{
 	box-shadow: rgba(174, 222, 239, 0.65) 0px -41px 0px -23px inset;
