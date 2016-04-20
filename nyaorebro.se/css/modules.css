@@ -3220,6 +3220,7 @@ section.or-bg-one {
 .sol-btn-Visa-fler-drift-stornigar{
   background-color: white;
   font-size: 1em;
+  margin: 0 auto;
 }
 .sol-bg-white{
   background-color: white;
@@ -3227,3 +3228,21 @@ section.or-bg-one {
 .or-red-header-box .box-header {
     background-color: #E83C23;
 }
+
+/*** Startsida Aktuell service just nu ***/
+.sol-tilte-tab{
+  text-align: center;
+}
+.sol-service-puff .sol-title{
+  background-color: #fdf7f1;
+  text-align: center;
+}
+.sol-desc{
+  height: auto;
+}
+.sol-desc-text{
+  text-align: center;
+}
+ .fa-arrow-right{
+   float: right;
+ }
