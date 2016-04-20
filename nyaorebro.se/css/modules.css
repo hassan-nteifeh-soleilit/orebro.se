@@ -3260,9 +3260,10 @@ section.or-bg-one {
     padding: 5px;
     text-align: center;
     vertical-align: middle;
+    float: left;
 }
 
-.or-puff-icon-header-text:hover .normal a:link {
+.or-puff-icon-header-text:hover .normal a:link, .or-puff-icon-header-text:hover h4  {
     text-decoration: underline;
 }
 
@@ -3303,6 +3304,10 @@ section.or-bg-one {
 .or-puff-icon-header-text > div:first-of-type {
     background-color: #FCF5EC;
     padding: 5px 35px 15px 35px;
+}
+
+.or-puff-icon-header-text .sv-use-margins .rubrikx4, .sv-use-margins h4{
+	margin: 0px;
 }
 
 .or-puff-icon-header-text > div:last-of-type {
