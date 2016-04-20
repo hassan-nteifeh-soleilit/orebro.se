@@ -106,6 +106,8 @@ body .or-puff-link .normal a:link {
 
 .or-puff-icon-header-text .normal {
     float: left;
+    max-height: 25px;
+    overflow: hidden;
 }
 
 .or-puff-icon-header-text > div:last-of-type {

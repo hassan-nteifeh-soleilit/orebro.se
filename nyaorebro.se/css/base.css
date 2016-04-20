@@ -10,6 +10,14 @@ font-smoothing: subpixel-antialiased;*/
 
 }
 
+a{
+	    box-shadow: rgba(174, 222, 239, 0.65)0px -15px 0px -11px inset;
+	        -webkit-transition: all 100ms ease;
+			-moz-transition: all 100ms ease;
+			-o-transition: all 100ms ease;
+			transition: all 100ms ease;
+}
+
 
 html {
     -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
@@ -412,8 +420,12 @@ ul.or-nav-list li .or-list-wrapper {
 
 ul.or-nav-list li .or-list-wrapper.or-single {
     min-height: auto;
-    padding-top: 12px!important;
-    padding-bottom: 17px!important;
+    padding-top: 16px!important;
+    padding-bottom: 7px!important;
+}
+
+body section.or-nav-content-section .sv-fluid-grid.or-wider .or-nav-list .or-list-wrapper.or-single .or-title:before {
+    top: 15px;
 }
 
 section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li .or-list-wrapper.or-single .or-title

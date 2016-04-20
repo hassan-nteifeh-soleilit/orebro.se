@@ -510,6 +510,8 @@ nav.or-secondary .or-content ul.or-extra li a h3{
 
 nav.or-secondary .or-content ul.or-extra li a {
     height: auto;
+    border-bottom: 3px solid #fff;
+    width: 100%;
 }
 
 .or-content ul.or-extra {
@@ -565,6 +567,7 @@ nav.or-secondary .or-content ul.or-extra {
 
 .or-openhours-contact > div:last-child h4 {
     border-top-right-radius: 0px;
+    width: 100%;
 }
 
 }	   /* end 680px */
