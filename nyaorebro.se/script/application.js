@@ -2,13 +2,17 @@
 	/* Document ready */
 	$(function() {        
 		if (!sv.PageContext.inEditMode) {
-			$('.or-wrapper-click').click(function(event) {							
-				if (!$(event.target).is("a")) {
-					if ($('a:first', this) && $('a:first', this).length > 0) {
-						$('a:first', this)[0].click();
-					}
-				}							
-			});
+			$('html').delegate('.or-wrapper-click', 'click', function (event) {            
+         if(!$(event.target).is("a")) {         
+            if($('a:first', this).length > 0){           
+               try {
+                  $('a:first', this)[0].click();
+                } catch(err) {
+                  window.location = $('a:first', this).attr("href");
+               }
+            }
+         }
+      });
 		}
 
 		/* Case insensitive :contains */
@@ -67,8 +71,8 @@
 	
 		/* iCheck för formulär */
 		 $('input').iCheck({
-			checkboxClass: 'icheckbox_flat',
-			radioClass: 'iradio_flat'
+			checkboxClass: 'icheckbox_flat-red',
+			radioClass: 'iradio_flat-red'
 		});
 	
 	});
