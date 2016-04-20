@@ -327,11 +327,10 @@ body section.or-top-img-area .brodtextxxfetx {
     max-width: 50%;
 }
 
-section.or-nav-content-section
-{
-	background-color:#fff;
-	padding-bottom:50px;
-	padding-top:40px;
+section.or-nav-content-section {
+    background-color: #fff;
+    padding-bottom: 20px;
+    padding-top: 40px;
 }
 
 body section.or-nav-content-section .or-grid-12-col.or-wider h2{
