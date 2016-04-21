@@ -2286,10 +2286,11 @@ ul > li.kontaktaxossxxxbrodtext:last-child{
 }
 
 
-.sv-defaultFormTheme input[type=text]{
-	font-size: 16px;
-	font-family: "open sans",sans-serif;
-	font-weight: 300;
+.sv-defaultFormTheme input[type=text] {
+    font-size: 16px;
+    font-family: "open sans",sans-serif;
+    font-weight: 300;
+    margin-bottom: 7px;
 }
 
 .sv-defaultFormTheme input[type=text]:focus, textarea:focus {
@@ -2341,10 +2342,11 @@ ul > li.kontaktaxossxxxbrodtext:last-child{
 }
 
 .sv-defaultFormTheme .sv-field-title-container.sv-bold label, .sv-defaultFormTheme .sv-field-title-container.sv-bold span, .sv-defaultFormTheme .sv-field-title-container.sv-bold h1, .sv-defaultFormTheme .sv-field-title-container.sv-bold h2, .sv-defaultFormTheme .sv-field-title-container.sv-bold h3, .sv-defaultFormTheme .sv-field-title-container.sv-bold h4, .sv-defaultFormTheme .sv-field-title-container.sv-bold h5, .sv-defaultFormTheme .sv-field-title-container.sv-bold h6 {
-    font-size: 11px;
-    margin-bottom: 5px;
+    font-size: 14px;
+    margin-bottom: 10px;
     display: inline-block;
     font-family: "leaguespartan webfont",sans-serif;
+    margin-top: 10px;
 }
 
 .sv-formFieldRow, .sv-formField {
