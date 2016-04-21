@@ -1982,7 +1982,7 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
     text-decoration: none;
     font-family: "leaguespartan webfont",sans-serif;
     font-size: 12px;
-    box-shadow: rgba(255, 255, 255, 0.0)0 0 0 0 inset;
+    box-shadow: rgba(255, 255, 255, 0.0)0 0 0 0 inset!important;
 }
 
 .sv-font-action-penna:hover a, .sv-font-action-pil:hover a, .sv-font-action-karta:hover a, .sv-font-action-facebook:hover a, .sv-font-action-twitter:hover a{
@@ -3189,7 +3189,7 @@ section.or-bg-one {
 
 .or-openhours-contact .sv-text-portlet table.sv-kontakt td p {
     line-height: 1.1em;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 
