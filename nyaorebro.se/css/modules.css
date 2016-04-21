@@ -3092,14 +3092,14 @@ section.or-bg-one {
 }
 
 .or-openhours-contact > div:last-child p {
-    font-size: 13px;
+    font-size: 14px;
     padding-left: 20px;
     padding-right: 10px;
     margin-bottom: 7px;
 }
 
 .or-openhours-contact > div:last-child p a{
-	font-size: 13px;
+	font-size: 14px;
 }
 
 .or-openhours-contact .sv-text-portlet table {
@@ -3372,3 +3372,4 @@ body .or-puff-link .normal{
     display: block;
     margin: 10px
 }
+3
