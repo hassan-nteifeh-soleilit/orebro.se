@@ -3089,6 +3089,7 @@ section.or-bg-one {
     border-top-right-radius: 2px;
     box-shadow: inset 5px 0px 6px -6px rgba(133, 118, 114, 0.6);
     letter-spacing: 0.03em;
+    width: 100%;
 }
 
 .or-openhours-contact > div:last-child p {

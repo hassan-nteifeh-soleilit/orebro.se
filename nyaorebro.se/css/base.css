@@ -881,13 +881,6 @@ nav.or-secondary .or-content ul {
     width: 100%;
 }
 
-
-nav.or-secondary .or-content ul li:nth-child(3n+1) {
-    /*clear: left;*/
-}
-nav.or-secondary .or-content ul li:nth-of-type(-n+3) {
-    /*margin-top: 8px;*/
-}
 nav.or-secondary .or-content ul li {
     width: 30.33333%;
     float: left;
@@ -900,7 +893,6 @@ nav.or-secondary .or-content ul li a {
     padding: 10px;
     float: left;
     height: 90px;
-    /* max-height: 80px; */
 }
 
 nav.or-secondary .or-content ul li a h3 {

@@ -492,7 +492,7 @@ nav.or-secondary .or-content ul li a:before {
     padding-right: 6px;
     color: #dad6d4;
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 7px;
     font-size: 12px;
     font-weight: normal;
@@ -588,17 +588,6 @@ nav.or-secondary .or-content ul.or-extra {
     display: inline;
     margin-bottom: 25px;
 }
-
-/* ÅVC */
-/*.or-oh-time-info {
-    display: none!important;
-}
-
-.or-oh-extra {
-	    display: none!important;
-
-}*/
-
 
 }
 
