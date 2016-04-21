@@ -3373,4 +3373,8 @@ body .or-puff-link .normal{
     display: block;
     margin: 10px
 }
-3
+
+/* Toppbildsyta standardsida */
+.or-standard-page .or-top-img-area {
+	max-width:1150px;
+}
