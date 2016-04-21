@@ -381,6 +381,10 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-t
     left: 5px;
 }
 
+body section.or-nav-content-section .sv-fluid-grid.or-wider .or-nav-list .or-list-wrapper.or-single .or-title:before {
+    top: 6px;
+}
+
 ul.or-nav-list li .or-list-wrapper {
     border: 3px solid #fff;
     border-radius: 3px;
