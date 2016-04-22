@@ -418,6 +418,11 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-t
     margin-bottom: 0px;
 }
 
+section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li {
+    width: 100%;
+    display: flex;
+}
+
 section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li .or-single a .or-title {
     font-size: 1px;
     margin-bottom: 0px;
