@@ -2931,20 +2931,20 @@ box-shadow: rgba(255, 255, 255, 1)0px -33px 0px -11px inset;
     margin-bottom: 20px;
 }
 
-.or-content-container .sv-text-portlet table{
+.sv-text-portlet table{
 	border: solid 1px #f3dcd0;
 }
 
-.or-content-container .sv-text-portlet table thead{
+.sv-text-portlet table thead{
 	background-color: #e83c23;
 }
 
-.or-content-container .sv-text-portlet table thead th{
+.sv-text-portlet table thead th{
 	padding: 8px 6px;
 	border-right:solid 2px rgba(255, 255, 255, 0.25);
 }
 
-.or-content-container .sv-text-portlet table.sv-standard th {
+.sv-text-portlet table.sv-standard th {
     text-align: left;
     background-color: #e83c23;
     border-bottom: solid 2px rgba(255, 255, 255, 0.25);
@@ -2953,14 +2953,14 @@ box-shadow: rgba(255, 255, 255, 1)0px -33px 0px -11px inset;
 
 
 
-.or-content-container .sv-text-portlet table.sv-standard th p{
+.sv-text-portlet table.sv-standard th p{
 	color: #fff;
 	line-height: 1.3em;
 	font-family: "leaguespartan webfont",sans-serif;
 	font-size: 12px;
 }
 
-.or-content-container .sv-text-portlet table td{
+.sv-text-portlet table td{
 	padding: 8px 6px;
 }
 
@@ -2969,24 +2969,24 @@ body .sv-text-portlet table.sv-standard td p {
 }
 
 
-.or-content-container .sv-text-portlet table.sv-standard thead th p{
+.sv-text-portlet table.sv-standard thead th p{
 	color: #fff;
 	line-height: 1.3em;
 	font-family: "leaguespartan webfont",sans-serif;
 	font-size: 12px;
 }
 
-.or-content-container .sv-text-portlet table p {
+.sv-text-portlet table p {
 font-size: 13px;
 }
 
 
-.or-content-container .sv-text-portlet table tbody tr:nth-child(2n) {
+.sv-text-portlet table tbody tr:nth-child(2n) {
 	background-color: #fdf7f1;
 	border-bottom: solid 1px #f3dcd0;
 }
 
-.or-content-container .sv-text-portlet table tbody tr:nth-child(2n+1) {
+.sv-text-portlet table tbody tr:nth-child(2n+1) {
 	background-color: #fff;
 	border-bottom: solid 1px #f3dcd0;
 }
@@ -3379,4 +3379,35 @@ body .or-puff-link .normal{
 /* Toppbildsyta standardsida */
 .or-standard-page .or-top-img-area {
 	max-width:1150px;
+}
+
+/* Badvattenkvalitet */
+
+table.or-bath-water {
+	width:100%
+}
+
+table.or-bath-water td:not(:first-child),
+table.or-bath-water th:not(:first-child)  {
+	text-align:center;
+}
+
+.or-bath-water-info {
+	display:inline-block;
+}
+
+.or-bath-water-icon-border {
+	color:white;	
+}
+
+.or-bath-water-icon-green {
+	color:green;	
+}
+
+.or-bath-water-icon-yellow {
+	color:yellow;	
+}
+
+.or-bath-water-icon-red {
+	color:red;	
 }
