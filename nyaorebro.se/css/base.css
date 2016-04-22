@@ -411,7 +411,6 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li
 }
 
 .or-nav-list{
-    display: table;
     flex-wrap: wrap;
     display: -webkit-box;
 	display: -moz-box;
@@ -421,7 +420,7 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li
 }
 
 section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li {
-    display: table-cell;
+    display: inline-block;
     width: 33%;
     display: -webkit-box;
 	display: -moz-box;
@@ -436,6 +435,7 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a
 	padding:12px 10px 10px 15px;
 	position: relative;
 	width: 100%;
+	display: inline-block;
 }
 
 section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-title {
