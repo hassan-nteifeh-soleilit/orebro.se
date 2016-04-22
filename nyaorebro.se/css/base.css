@@ -417,6 +417,8 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li
   	display: -ms-flexbox;
   	display: -webkit-flex;
   	display: flex;
+  	display:-ms-flexbox;
+  	-ms-flex-wrap:wrap;
 }
 
 section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li {
