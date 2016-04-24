@@ -90,6 +90,7 @@ body .or-puff-link .normal a:link {
     box-sizing: border-box;
     min-height: auto;
     max-height: 75px;
+    min-height: 75px;
 }
 
 .or-puff-icon-header-text .sv-use-margins .rubrikx4, .sv-use-margins h4 {
