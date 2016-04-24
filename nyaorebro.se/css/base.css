@@ -484,7 +484,7 @@ ul.or-nav-list li .or-list-wrapper {
 /* single list */
 
 ul.or-nav-list li .or-list-wrapper.or-single {
-    min-height: 80px;
+    min-height: 60px;
     padding-top: 16px!important;
     padding-bottom: 7px!important;
 }
