@@ -430,7 +430,6 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li {
   	display: -ms-flexbox;
   	display: -webkit-flex;
   	display: flex;
-  	flex: 1 0 auto;
 }
 
 section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a
