@@ -89,6 +89,8 @@ body .or-puff-link .normal a:link {
     width: 98%;
     box-sizing: border-box;
     min-height: auto;
+    max-height: 75px;
+    min-height: 75px;
 }
 
 .or-puff-icon-header-text .sv-use-margins .rubrikx4, .sv-use-margins h4 {
@@ -106,6 +108,8 @@ body .or-puff-link .normal a:link {
 
 .or-puff-icon-header-text .normal {
     float: left;
+    max-height: 25px;
+    overflow: hidden;
 }
 
 .or-puff-icon-header-text > div:last-of-type {

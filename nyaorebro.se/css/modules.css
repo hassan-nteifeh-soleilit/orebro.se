@@ -1,4 +1,4 @@
-﻿/* 1. Sökfält */
+﻿
 /* 2. Liten kalender info ruta */
 /* 3. Kalender faktaruta */
 
@@ -1982,7 +1982,7 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
     text-decoration: none;
     font-family: "leaguespartan webfont",sans-serif;
     font-size: 12px;
-    box-shadow: rgba(255, 255, 255, 0.0)0 0 0 0 inset;
+    box-shadow: rgba(255, 255, 255, 0.0)0 0 0 0 inset!important;
 }
 
 .sv-font-action-penna:hover a, .sv-font-action-pil:hover a, .sv-font-action-karta:hover a, .sv-font-action-facebook:hover a, .sv-font-action-twitter:hover a{
@@ -2286,10 +2286,11 @@ ul > li.kontaktaxossxxxbrodtext:last-child{
 }
 
 
-.sv-defaultFormTheme input[type=text]{
-	font-size: 16px;
-	font-family: "open sans",sans-serif;
-	font-weight: 300;
+.sv-defaultFormTheme input[type=text] {
+    font-size: 16px;
+    font-family: "open sans",sans-serif;
+    font-weight: 300;
+    margin-bottom: 7px;
 }
 
 .sv-defaultFormTheme input[type=text]:focus, textarea:focus {
@@ -2341,10 +2342,11 @@ ul > li.kontaktaxossxxxbrodtext:last-child{
 }
 
 .sv-defaultFormTheme .sv-field-title-container.sv-bold label, .sv-defaultFormTheme .sv-field-title-container.sv-bold span, .sv-defaultFormTheme .sv-field-title-container.sv-bold h1, .sv-defaultFormTheme .sv-field-title-container.sv-bold h2, .sv-defaultFormTheme .sv-field-title-container.sv-bold h3, .sv-defaultFormTheme .sv-field-title-container.sv-bold h4, .sv-defaultFormTheme .sv-field-title-container.sv-bold h5, .sv-defaultFormTheme .sv-field-title-container.sv-bold h6 {
-    font-size: 11px;
-    margin-bottom: 5px;
+    font-size: 14px;
+    margin-bottom: 10px;
     display: inline-block;
     font-family: "leaguespartan webfont",sans-serif;
+    margin-top: 10px;
 }
 
 .sv-formFieldRow, .sv-formField {
@@ -2929,20 +2931,20 @@ box-shadow: rgba(255, 255, 255, 1)0px -33px 0px -11px inset;
     margin-bottom: 20px;
 }
 
-.or-content-container .sv-text-portlet table{
+.sv-text-portlet table{
 	border: solid 1px #f3dcd0;
 }
 
-.or-content-container .sv-text-portlet table thead{
+.sv-text-portlet table thead{
 	background-color: #e83c23;
 }
 
-.or-content-container .sv-text-portlet table thead th{
+.sv-text-portlet table thead th{
 	padding: 8px 6px;
 	border-right:solid 2px rgba(255, 255, 255, 0.25);
 }
 
-.or-content-container .sv-text-portlet table.sv-standard th {
+.sv-text-portlet table.sv-standard th {
     text-align: left;
     background-color: #e83c23;
     border-bottom: solid 2px rgba(255, 255, 255, 0.25);
@@ -2951,36 +2953,40 @@ box-shadow: rgba(255, 255, 255, 1)0px -33px 0px -11px inset;
 
 
 
-.or-content-container .sv-text-portlet table.sv-standard th p{
+.sv-text-portlet table.sv-standard th p{
 	color: #fff;
 	line-height: 1.3em;
 	font-family: "leaguespartan webfont",sans-serif;
 	font-size: 12px;
 }
 
-.or-content-container .sv-text-portlet table td{
+.sv-text-portlet table td{
 	padding: 8px 6px;
 }
 
+body .sv-text-portlet table.sv-standard td p {
+    font-size: 13px;
+}
 
-.or-content-container .sv-text-portlet table.sv-standard thead th p{
+
+.sv-text-portlet table.sv-standard thead th p{
 	color: #fff;
 	line-height: 1.3em;
 	font-family: "leaguespartan webfont",sans-serif;
 	font-size: 12px;
 }
 
-.or-content-container .sv-text-portlet table p {
-font-size: 12px!important;
+.sv-text-portlet table p {
+font-size: 13px;
 }
 
 
-.or-content-container .sv-text-portlet table tbody tr:nth-child(2n) {
+.sv-text-portlet table tbody tr:nth-child(2n) {
 	background-color: #fdf7f1;
 	border-bottom: solid 1px #f3dcd0;
 }
 
-.or-content-container .sv-text-portlet table tbody tr:nth-child(2n+1) {
+.sv-text-portlet table tbody tr:nth-child(2n+1) {
 	background-color: #fff;
 	border-bottom: solid 1px #f3dcd0;
 }
@@ -3085,17 +3091,18 @@ section.or-bg-one {
     border-top-right-radius: 2px;
     box-shadow: inset 5px 0px 6px -6px rgba(133, 118, 114, 0.6);
     letter-spacing: 0.03em;
+    width: 100%;
 }
 
 .or-openhours-contact > div:last-child p {
-    font-size: 13px;
+    font-size: 14px;
     padding-left: 20px;
     padding-right: 10px;
     margin-bottom: 7px;
 }
 
 .or-openhours-contact > div:last-child p a{
-	font-size: 13px;
+	font-size: 14px;
 }
 
 .or-openhours-contact .sv-text-portlet table {
@@ -3183,8 +3190,9 @@ section.or-bg-one {
 	
 }
 
-.or-openhours-contact .sv-text-portlet table.sv-kontakt td p{
-	line-height: 1.1em;
+.or-openhours-contact .sv-text-portlet table.sv-kontakt td p {
+    line-height: 1.1em;
+    font-size: 15px;
 }
 
 
@@ -3316,7 +3324,7 @@ body .or-puff-link .normal{
     border: 0px solid #fff;
     box-shadow: 0 0 6px #E6E6E6;
     border-radius: 3px;
-    padding: 6px;
+    padding: 5px;
     text-align: center;
     vertical-align: middle;
     float: left;
@@ -3377,4 +3385,40 @@ body .or-puff-link .normal{
     font-size: 40px;
     display: block;
     margin: 10px
+}
+
+/* Toppbildsyta standardsida */
+.or-standard-page .or-top-img-area {
+	max-width:1150px;
+}
+
+/* Badvattenkvalitet */
+
+table.or-bath-water {
+	width:100%
+}
+
+table.or-bath-water td:not(:first-child),
+table.or-bath-water th:not(:first-child)  {
+	text-align:center;
+}
+
+.or-bath-water-info {
+	display:inline-block;
+}
+
+.or-bath-water-icon-border {
+	color:white;	
+}
+
+.or-bath-water-icon-green {
+	color:#7D9C41;	
+}
+
+.or-bath-water-icon-yellow {
+	color:#E1A259;	
+}
+
+.or-bath-water-icon-red {
+	color:#CC553F;	
 }

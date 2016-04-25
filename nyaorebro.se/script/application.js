@@ -2,17 +2,18 @@
 	/* Document ready */
 	$(function() {        
 		if (!sv.PageContext.inEditMode) {
+			/* Delegate on html works on html loaded by ajax calls */
 			$('html').delegate('.or-wrapper-click', 'click', function (event) {            
-         if(!$(event.target).is("a")) {         
-            if($('a:first', this).length > 0){           
-               try {
-                  $('a:first', this)[0].click();
-                } catch(err) {
-                  window.location = $('a:first', this).attr("href");
-               }
-            }
-         }
-      });
+				if(!$(event.target).is("a")) {
+					if($('a:first', this).length > 0){
+						try {
+							$('a:first', this)[0].click();
+						} catch(err) {
+							window.location = $('a:first', this).attr("href");
+						}
+					}
+				}
+			});
 		}
 
 		/* Case insensitive :contains */

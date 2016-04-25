@@ -381,6 +381,10 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-t
     left: 5px;
 }
 
+body section.or-nav-content-section .sv-fluid-grid.or-wider .or-nav-list .or-list-wrapper.or-single .or-title:before {
+    top: 6px;
+}
+
 ul.or-nav-list li .or-list-wrapper {
     border: 3px solid #fff;
     border-radius: 3px;
@@ -412,6 +416,11 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li .or-lis
 section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-title {
     font-size: 11px;
     margin-bottom: 0px;
+}
+
+section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li {
+    width: 100%;
+    display: flex;
 }
 
 section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li .or-single a .or-title {
@@ -488,7 +497,7 @@ nav.or-secondary .or-content ul li a:before {
     padding-right: 6px;
     color: #dad6d4;
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 7px;
     font-size: 12px;
     font-weight: normal;
@@ -510,6 +519,8 @@ nav.or-secondary .or-content ul.or-extra li a h3{
 
 nav.or-secondary .or-content ul.or-extra li a {
     height: auto;
+    border-bottom: 3px solid #fff;
+    width: 100%;
 }
 
 .or-content ul.or-extra {
@@ -565,6 +576,7 @@ nav.or-secondary .or-content ul.or-extra {
 
 .or-openhours-contact > div:last-child h4 {
     border-top-right-radius: 0px;
+    width: 100%;
 }
 
 }	   /* end 680px */
@@ -581,17 +593,6 @@ nav.or-secondary .or-content ul.or-extra {
     display: inline;
     margin-bottom: 25px;
 }
-
-/* ÅVC */
-/*.or-oh-time-info {
-    display: none!important;
-}
-
-.or-oh-extra {
-	    display: none!important;
-
-}*/
-
 
 }
 
