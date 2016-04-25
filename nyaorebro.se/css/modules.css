@@ -3198,19 +3198,30 @@ section.or-bg-one {
 .sol-DrifStorningtVitRubrik{
   color: black;
 }
-
-.sol-btn-Visa-fler-drift-stornigar{
-  background-color: white;
-  font-size: 1em;
-  margin: 0 auto;
+.sol-btn-visa-fler-drift-stornigar{
+  display: block;
+  text-align: center;
+}
+.sol-btn-visa-fler-drift-stornigar:after{
+  content: "\f054";
+  font-family: FontAwesome;
 }
 .sol-bg-white{
   background-color: white;
 }
+.sol-bg-white ul li {
+  border-top:dotted 2px;  
+}
+.sol-bg-white ul li:first-child{
+  border-top: none;  
+}
 .or-red-header-box .box-header {
     background-color: #E83C23;
 }
-
+.sol-startpage-driftstorningar .sv-channel .sv-channel-item a:before {
+    content: "\f054";
+    font-family: FontAwesome;
+}
 
 /*** Startsida Aktuell service just nu ***/
 .sol-tilte-tab{
