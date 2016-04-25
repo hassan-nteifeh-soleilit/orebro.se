@@ -3422,3 +3422,51 @@ table.or-bath-water th:not(:first-child)  {
 .or-bath-water-icon-red {
 	color:#CC553F;	
 }
+
+
+/* snödagbok */
+
+.or-snow-book ul li h3 {
+    display: inline-block;
+    margin-bottom: 3px;
+}
+
+.or-snow-book ul li .date {
+    background-color: #f2f0f0;
+    padding: 2px 7px;
+    border-radius: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    font-weight: 300;
+    font-size: 11px;
+    text-align: center;
+}
+
+.or-article-main .or-snow-book li:before {
+    display: none;
+}
+
+.or-article-main .or-snow-book ul li {
+    margin-bottom: 10px;
+    text-indent: 0;
+    font-size: 17px;
+    line-height: 1.4em;
+    list-style: none;
+}
+
+.or-snow-book ul li{
+    background-color: #fff;
+    padding: 10px 20px 10px 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 4px #E2E2E2;
+    border-radius: 2px;
+    position: relative;
+}
+
+.or-snow-book ul li .normal {
+    font-size: 14px;
+    line-height: 1.5em;
+    margin-top: 8px;
+    display: inline-block;
+    margin-bottom: 5px;
+}

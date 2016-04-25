@@ -641,7 +641,8 @@ body p.sv-portlet-image-caption {
 	margin-top:20px;
 }
 
-.pagecontent  ul {
+
+.or-article-main ul {
     margin: 0px;
     list-style-type: none;
 }
@@ -655,7 +656,7 @@ body p.sv-portlet-image-caption {
     list-style: none;
 }
 
-.pagecontent li:before {
+.or-article-main li:before {
     content: "\f111";
     font-family: FontAwesome;
     color: #857672;
