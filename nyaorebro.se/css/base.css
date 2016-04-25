@@ -641,7 +641,7 @@ body p.sv-portlet-image-caption {
 	margin-top:20px;
 }
 
-.or-article-main ul {
+.pagecontent  ul {
     margin: 0px;
     list-style-type: none;
 }
@@ -652,9 +652,10 @@ body p.sv-portlet-image-caption {
     padding-left: 22px;
     font-size: 17px;
     line-height: 1.4em;
+    list-style: none;
 }
 
-.or-article-main li:before {
+.pagecontent li:before {
     content: "\f111";
     font-family: FontAwesome;
     color: #857672;
@@ -663,6 +664,13 @@ body p.sv-portlet-image-caption {
     top: -2px;
     position: relative;
 }
+
+.or-article-main{
+	
+}
+
+
+
 
 /* Avdelare content */
 
