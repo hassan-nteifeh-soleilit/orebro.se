@@ -3218,7 +3218,7 @@ section.or-bg-one {
   background-color: white;
 }
 .sol-bg-white ul li {
-  border-top:dotted 2px;  
+  border-top:solid 2px;  
 }
 .sol-bg-white ul li:first-child{
   border-top: none;  
