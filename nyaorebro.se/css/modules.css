@@ -2348,7 +2348,7 @@ ul > li.kontaktaxossxxxbrodtext:last-child{
 }
 
 .sv-defaultFormTheme .sv-field-title-container.sv-bold label, .sv-defaultFormTheme .sv-field-title-container.sv-bold span, .sv-defaultFormTheme .sv-field-title-container.sv-bold h1, .sv-defaultFormTheme .sv-field-title-container.sv-bold h2, .sv-defaultFormTheme .sv-field-title-container.sv-bold h3, .sv-defaultFormTheme .sv-field-title-container.sv-bold h4, .sv-defaultFormTheme .sv-field-title-container.sv-bold h5, .sv-defaultFormTheme .sv-field-title-container.sv-bold h6 {
-    font-size: 14px;
+    font-size: 15px;
     margin-bottom: 10px;
     display: inline-block;
     font-family: "leaguespartan webfont",sans-serif;
@@ -3410,7 +3410,19 @@ table.or-bath-water th:not(:first-child)  {
 }
 
 .or-bath-water-info {
-	display:inline-block;
+    display: inline-block;
+    font-family: "leaguespartan webfont",sans-serif;
+    font-size: 11px;
+    margin-right: 20px;
+}
+
+.or-bath-water-info i:before {
+    position: relative;
+    top: -2px;
+}
+
+.or-bath-water-info span {
+    width: 30px;
 }
 
 .or-bath-water-icon-border {
@@ -3435,6 +3447,7 @@ table.or-bath-water th:not(:first-child)  {
 .or-snow-book ul li h3 {
     display: inline-block;
     margin-bottom: 3px;
+    width: 100%;
 }
 
 .or-snow-book ul li .date {
@@ -3445,6 +3458,8 @@ table.or-bath-water th:not(:first-child)  {
     font-weight: 300;
     font-size: 11px;
     text-align: center;
+    display: inline-block;
+    margin-bottom: 8px;
 }
 
 .or-article-main .or-snow-book li:before {
