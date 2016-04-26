@@ -3210,7 +3210,7 @@ section.or-bg-one {
 
 /* Startsida Driftstörningar */
 .sol-DrifStorningtVitRubrik{
-  color: black;
+  color: green;
 }
 .sol-btn-visa-fler-drift-stornigar{
   display: block;
