@@ -3248,7 +3248,13 @@ section.or-bg-one {
   text-align: center;
   padding: 20px;
 }
-
+.ikonxorange{  
+  font-weight: normal;
+    font-style: normal;
+    font-size: 100%;
+    color: #f28c00;
+    line-height: normal;
+}
 /* Länkpuff*/
 
 .or-puff-link {
