@@ -3410,7 +3410,19 @@ table.or-bath-water th:not(:first-child)  {
 }
 
 .or-bath-water-info {
-	display:inline-block;
+    display: inline-block;
+    font-family: "leaguespartan webfont",sans-serif;
+    font-size: 11px;
+    margin-right: 20px;
+}
+
+.or-bath-water-info i:before {
+    position: relative;
+    top: -2px;
+}
+
+.or-bath-water-info span {
+    width: 30px;
 }
 
 .or-bath-water-icon-border {
