@@ -3435,6 +3435,7 @@ table.or-bath-water th:not(:first-child)  {
 .or-snow-book ul li h3 {
     display: inline-block;
     margin-bottom: 3px;
+    width: 100%;
 }
 
 .or-snow-book ul li .date {
@@ -3445,6 +3446,8 @@ table.or-bath-water th:not(:first-child)  {
     font-weight: 300;
     font-size: 11px;
     text-align: center;
+    display: inline-block;
+    margin-bottom: 8px;
 }
 
 .or-article-main .or-snow-book li:before {
