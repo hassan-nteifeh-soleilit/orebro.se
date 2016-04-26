@@ -3214,19 +3214,19 @@ section.or-bg-one {
   content: "\f054";
   font-family: FontAwesome;
 }
-.sol-bg-white{
+.or-bg-white{
   background-color: white;
 }
-.sol-bg-white ul li {
-  border-top:solid 2px;  
+.or-bg-white ul li {
+  border-top:dotted 2px;  
 }
-.sol-bg-white ul li:first-child{
+.or-bg-white ul li:first-child{
   border-top: none;  
 }
 .or-red-header-box .box-header {
     background-color: #E83C23;
 }
-.sol-startpage-driftstorningar .sv-channel .sv-channel-item a:before {
+.or-startpage-driftstorningar .sv-channel .sv-channel-item a:before {
     content: "\f054";
     font-family: FontAwesome;
 }
