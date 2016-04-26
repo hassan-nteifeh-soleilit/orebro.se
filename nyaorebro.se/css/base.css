@@ -641,6 +641,7 @@ body p.sv-portlet-image-caption {
 	margin-top:20px;
 }
 
+
 .or-article-main ul {
     margin: 0px;
     list-style-type: none;
@@ -652,6 +653,7 @@ body p.sv-portlet-image-caption {
     padding-left: 22px;
     font-size: 17px;
     line-height: 1.4em;
+    list-style: none;
 }
 
 .or-article-main li:before {
@@ -663,6 +665,13 @@ body p.sv-portlet-image-caption {
     top: -2px;
     position: relative;
 }
+
+.or-article-main{
+	
+}
+
+
+
 
 /* Avdelare content */
 
