@@ -3358,6 +3358,7 @@ body .or-puff-link .normal{
 
 .or-puff-icon-header-text .normal {
     line-height: 1.2em;
+    text-align: left;
 }
 
 .or-puff-icon-header-text::after {
@@ -3568,4 +3569,22 @@ table.or-bath-water th:not(:first-child)  {
 
 .livsmedelsrapport .search-results table tr{
 	
+}
+
+.livsmedelsrapport .even td {
+    background: #fdf7f1;
+}
+
+.livsmedelsrapport .odd td {
+    background: #fafafa;
+}
+
+.livsmedelsrapport .search-results .odd tr {
+	    background-color: #fdf7f1;
+    border-bottom: solid 1px #f3dcd0;
+}
+
+.livsmedelsrapport .search-results table .even tr {
+	background-color: #fff;
+
 }
