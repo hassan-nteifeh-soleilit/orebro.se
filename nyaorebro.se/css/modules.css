@@ -3396,12 +3396,12 @@ body .or-puff-link .normal{
     margin: 10px;     
 }
 
-.or-puff-icon-header-text .ikonxorange {    
+.or-puff-icon-header-text .ikonxorange {
     font-size: 40px;
     display: block;
-    margin: 10px
+    margin: 10px;
+    text-align: center;
 }
-
 /* Toppbildsyta standardsida */
 .or-standard-page .or-top-img-area {
 	max-width:1150px;
