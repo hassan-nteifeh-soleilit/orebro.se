@@ -307,6 +307,10 @@ background-color: rgba(0, 152, 219, 0.8);
 color: #0098bd;
 }
 
+.or-puff-bild-text h4 a {
+   color: #0098bd;
+}
+
 .or-stor-bild-text-tv > div:nth-child(2) h2 {
     color: #0098bd;
 }
