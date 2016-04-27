@@ -6122,8 +6122,11 @@ position: absolute;   left: 25px;   bottom: 25px;   width: 80%;
   width: 40%;
   padding: 45px 20px 20px 30px;
   float: left;
-} 
+}
 
+.or-stor-bild-text-actions p{
+	font-size: 13px;
+}
 
 .topp-actions div.or-action-link {
   margin-top: 5px;
