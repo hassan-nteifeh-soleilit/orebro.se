@@ -3491,3 +3491,73 @@ table.or-bath-water th:not(:first-child)  {
     display: inline-block;
     margin-bottom: 5px;
 }
+
+
+/* livsmedelsrapport */
+
+.livsmedelsrapport .search-field {
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.livsmedelsrapport .search-field label{
+    display: block;
+    font-family: "leaguespartan webfont",sans-serif;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.livsmedelsrapport .search-field input{
+    padding: 10px 55px 10px 12px;
+    margin-bottom: 10px;
+    line-height: 1.428571429;
+    border: 1px solid #cccccc;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(133, 118, 114);
+    border-color: rgba(133, 118, 114, 0.2);
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    vertical-align: middle;
+    background-color: #ffffff;
+    font-size: 16px;
+    font-weight: 100;
+    color: #717171;
+    -webkit-appearance: none;
+    letter-spacing: 0.01em;
+    font-family: "open sans",sans-serif;
+}
+
+.livsmedelsrapport .search-field-submit.form-button {
+    position: relative;
+    -webkit-appearance: none;
+    left: -28px;
+    top: -8px;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border: 0px none;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    background-color: #E83C23;
+}
+
+
+.livsmedelsrapport .search-categories label{
+	display: block;
+	margin-bottom: 8px;
+}
+
+.livsmedelsrapport .search-categories label a{
+	font-family: "leaguespartan webfont",sans-serif;
+    font-size: 12px;
+}
+
+
+.livsmedelsrapport .search-results table tr{
+	
+}
