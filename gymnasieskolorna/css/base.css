@@ -6128,9 +6128,16 @@ position: absolute;   left: 25px;   bottom: 25px;   width: 80%;
 	font-size: 13px;
 }
 
+.or-stor-bild-text-actions .sv-use-margins h2 {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
 .topp-actions div.or-action-link {
   margin-top: 5px;
 }
+
+
  
    
  /*TOPP STOR BILD OCH TEXT*/
