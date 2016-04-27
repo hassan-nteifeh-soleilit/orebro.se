@@ -3098,8 +3098,8 @@ section.or-bg-one {
     box-shadow: inset 5px 0px 6px -6px rgba(133, 118, 114, 0.6);
     letter-spacing: 0.03em;
     width: 100%;
+    box-sizing: border-box;
 }
-
 .or-openhours-contact > div:last-child p {
     font-size: 14px;
     padding-left: 20px;
