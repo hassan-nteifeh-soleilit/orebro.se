@@ -3644,8 +3644,8 @@ table.or-bath-water th:not(:first-child)  {
     color: #0090b4;
 }
 
-.or-social-media-content.instagram .or-header .fa-clock-o{
-    color: red;
+.or-social-media-content.instagram .or-header .fa-clock-o {
+    color: #857672;
 }
 
 .fa-instagram:before {
@@ -3658,6 +3658,7 @@ table.or-bath-water th:not(:first-child)  {
     width: 20%;
     margin-right: 20px;
 }
+
 
 .or-social-media-content.instagram .or-content a {
     font-weight: 300;
