@@ -3631,8 +3631,10 @@ table.or-bath-water th:not(:first-child)  {
 
 /* instagram */
 
-.or-social-media-content.instagram{
-	
+.or-social-media-content.instagram {
+    display: block;
+    float: left;
+    margin-bottom: 20px;
 }
 
 .or-social-media-content.instagram .or-header{
@@ -3659,6 +3661,7 @@ table.or-bath-water th:not(:first-child)  {
 
 .or-social-media-content.instagram .or-header .fa-clock-o {
     color: #857672;
+    margin-left: 10px;
 }
 
 .fa-instagram:before {
@@ -3677,9 +3680,6 @@ table.or-bath-water th:not(:first-child)  {
     font-weight: 300;
     font-size: 17px;
 }
-
-
-
 
 .or-social-media-content.instagram .or-content a {
     font-weight: 300;
