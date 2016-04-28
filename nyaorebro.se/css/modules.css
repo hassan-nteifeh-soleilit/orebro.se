@@ -3617,23 +3617,36 @@ table.or-bath-water th:not(:first-child)  {
 }
 
 /* social media */
+
+.or-social-media-content{
+    float: left;
+    display: block;
+}
+
+
+.or-social-media-content .or-stats {
+    background-color: #f9f9f8;
+    border: 2px solid #eeeceb;
+    border-radius: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px 5px;
+    float: left;
+    display: block;
+    width: 100%;
+}
+
 /* instagram */
 
-.or-social-media-content.instagram{
-	
-}
-
-.or-social-media-content.instagram .or-header{
-	
-}
-
 .or-social-media-content.instagram .or-header .fa{
+	color: #0090b4;
 }
 
-
-.or-social-media-content.instagram .or-content{
-	
+.fa-instagram:before {
+    content: "\f16d";
+    color: #fff;
 }
+
 
 .or-social-media-content.instagram .or-content img {
     float: left;
@@ -3644,8 +3657,4 @@ table.or-bath-water th:not(:first-child)  {
 .or-social-media-content.instagram .or-content a {
     font-weight: 300;
     font-size: 17px;
-}
-
-.or-social-media-content.instagram .or-stats{
-	background-color: black;
 }
