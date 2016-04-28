@@ -3617,6 +3617,11 @@ table.or-bath-water th:not(:first-child)  {
 }
 
 /* social media */
+
+.or-follow .normal a:link{
+	font-family: "leaguespartan webfont",sans-serif;
+}
+
 /* instagram */
 
 .or-social-media-content.instagram{
@@ -3639,6 +3644,15 @@ table.or-bath-water th:not(:first-child)  {
     color: #0090b4;
 }
 
+.or-social-media-content.instagram .or-header .fa-clock-o{
+    color: red;
+}
+
+.fa-instagram:before {
+    content: "\f16d";
+    color: #fff;
+}
+
 .or-social-media-content.instagram .or-content img {
     float: left;
     width: 20%;
@@ -3650,9 +3664,6 @@ table.or-bath-water th:not(:first-child)  {
     font-size: 17px;
 }
 
-.or-social-media-content.instagram .or-stats{
-	background-color: black;
-}
 
 .or-social-media-content.instagram .or-content a {
     font-weight: 300;
@@ -3665,8 +3676,19 @@ table.or-bath-water th:not(:first-child)  {
     border-radius: 2px;
     margin-top: 10px;
     margin-bottom: 10px;
-    padding: 5px 5px;
+    padding: 5px 10px;
     float: left;
     display: block;
     width: 100%;
+    font-family: "leaguespartan webfont",sans-serif;
+    font-size: 10px;
+    /* margin: auto; */
+}
+.or-social-media-content .or-stats .fa{
+    margin-right: 5px;
+    font: normal normal normal 14px/1 FontAwesome
+}
+
+.or-header .fa-clock-o{
+	color: black;
 }
