@@ -3617,12 +3617,47 @@ table.or-bath-water th:not(:first-child)  {
 }
 
 /* social media */
+/* instagram */
 
-.or-social-media-content{
-    float: left;
-    display: block;
+.or-social-media-content.instagram{
+	
 }
 
+.or-social-media-content.instagram .or-header{
+	
+}
+
+.or-social-media-content.instagram .or-header .fa{
+}
+
+
+.or-social-media-content.instagram .or-content{
+	
+}
+
+.or-social-media-content.instagram .or-header .fa {
+    color: #0090b4;
+}
+
+.or-social-media-content.instagram .or-content img {
+    float: left;
+    width: 20%;
+    margin-right: 20px;
+}
+
+.or-social-media-content.instagram .or-content a {
+    font-weight: 300;
+    font-size: 17px;
+}
+
+.or-social-media-content.instagram .or-stats{
+	background-color: black;
+}
+
+.or-social-media-content.instagram .or-content a {
+    font-weight: 300;
+    font-size: 17px;
+}
 
 .or-social-media-content .or-stats {
     background-color: #f9f9f8;
@@ -3634,27 +3669,4 @@ table.or-bath-water th:not(:first-child)  {
     float: left;
     display: block;
     width: 100%;
-}
-
-/* instagram */
-
-.or-social-media-content.instagram .or-header .fa{
-	color: #0090b4;
-}
-
-.fa-instagram:before {
-    content: "\f16d";
-    color: #fff;
-}
-
-
-.or-social-media-content.instagram .or-content img {
-    float: left;
-    width: 20%;
-    margin-right: 20px;
-}
-
-.or-social-media-content.instagram .or-content a {
-    font-weight: 300;
-    font-size: 17px;
 }
