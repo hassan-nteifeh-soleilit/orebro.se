@@ -3632,6 +3632,12 @@ table.or-bath-water th:not(:first-child)  {
 	
 }
 
+.or-social-media-content.instagram .or-header {
+    color: #857672;
+    font-weight: 300;
+    font-size: 13px;
+}
+
 .or-social-media-content.instagram .or-header .fa{
 }
 
@@ -3664,6 +3670,8 @@ table.or-bath-water th:not(:first-child)  {
     font-weight: 300;
     font-size: 17px;
 }
+
+
 
 
 .or-social-media-content.instagram .or-content a {
