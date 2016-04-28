@@ -3615,3 +3615,37 @@ table.or-bath-water th:not(:first-child)  {
 	background-color: #fff;
 
 }
+
+/* social media */
+/* instagram */
+
+.or-social-media-content.instagram{
+	
+}
+
+.or-social-media-content.instagram .or-header{
+	
+}
+
+.or-social-media-content.instagram .or-header .fa{
+}
+
+
+.or-social-media-content.instagram .or-content{
+	
+}
+
+.or-social-media-content.instagram .or-content img {
+    float: left;
+    width: 20%;
+    margin-right: 20px;
+}
+
+.or-social-media-content.instagram .or-content a {
+    font-weight: 300;
+    font-size: 17px;
+}
+
+.or-social-media-content.instagram .or-stats{
+	background-color: black;
+}
