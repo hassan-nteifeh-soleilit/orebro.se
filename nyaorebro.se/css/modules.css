@@ -3618,8 +3618,15 @@ table.or-bath-water th:not(:first-child)  {
 
 /* social media */
 
-.or-follow .normal a:link{
-	font-family: "leaguespartan webfont",sans-serif;
+.or-social-media-content .or-header {
+    color: #0090b4;
+    margin-bottom: 10px;
+    
+}
+
+.or-follow .normal a:link {
+    font-family: "leaguespartan webfont",sans-serif;
+    font-size: 13px;
 }
 
 /* instagram */
@@ -3692,7 +3699,9 @@ table.or-bath-water th:not(:first-child)  {
     font-family: "leaguespartan webfont",sans-serif;
     font-size: 10px;
     /* margin: auto; */
+    color: #857672;
 }
+
 .or-social-media-content .or-stats .fa{
     margin-right: 5px;
     font: normal normal normal 14px/1 FontAwesome
