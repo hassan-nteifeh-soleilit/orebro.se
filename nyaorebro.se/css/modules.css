@@ -3248,13 +3248,40 @@ section.or-bg-one {
   text-align: center;
   padding: 20px;
 }
+
+/*behövs denna??*/
 .ikonxorange{  
-  font-weight: normal;
+    font-weight: normal;
     font-style: normal;
     font-size: 100%;
     color: #f28c00;
     line-height: normal;
 }
+
+/* Sök politiker */
+.sok-politiker{
+    /*list-style-type: none !important; */
+    background-color: #fff;
+    border: solid 1px #f3dcd0;
+    border-top: solid 5px #E83C23;
+    margin-bottom: 25px;
+}
+
+.sok-politiker ul li{
+    display: inline;
+    max-width: 70%;
+    height: 50%;
+    
+  
+    
+    /*
+    background-color: #fff;
+    border: solid 1px #f3dcd0;
+    border-top: solid 5px #E83C23;
+    margin-bottom: 25px;
+    */
+}
+
 /* Länkpuff*/
 
 .or-puff-link {
