@@ -1,4 +1,4 @@
-8/* Grunddesign */
+78/* Grunddesign */
 
 .or-grid-12-col.sv-fluid-grid, .or-grid-12-col.sv-fixed-fluid-grid {
 padding-right:10px;
@@ -6122,12 +6122,22 @@ position: absolute;   left: 25px;   bottom: 25px;   width: 80%;
   width: 40%;
   padding: 45px 20px 20px 30px;
   float: left;
-} 
+}
 
+.or-stor-bild-text-actions p{
+	font-size: 13px;
+}
+
+.or-stor-bild-text-actions .sv-use-margins h2 {
+    margin-top: 10px;
+    font-size: 16px;
+}
 
 .topp-actions div.or-action-link {
   margin-top: 5px;
 }
+
+
  
    
  /*TOPP STOR BILD OCH TEXT*/
@@ -6526,6 +6536,12 @@ text-decoration: underline;
  margin-left: 1%;
  margin-right: 1%;
  float:left;
+}
+
+.or-puff-bild-text h4 a {
+    font-size: 16px;
+    line-height: 1.3em;
+    text-decoration: none;
 }
 
 .or-puff-bild-text:hover.or-puff-bild-text a:link{
@@ -7808,6 +7824,7 @@ color: #35383B;
 
 .normal .or-action-text a:hover {
     letter-spacing: inherit;
+    text-decoration: underline;
 }
 
 .or-action-link-small p.normal {
@@ -8611,4 +8628,161 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
     right: 0;
     top: 0;
     text-align: center;
+}
+
+
+/* formulär */
+.sv-formFieldRow, .sv-formField {
+   margin-top: 20px;
+}
+
+.sv-defaultFormTheme input[type=text], .sv-defaultFormTheme input[type=email], .sv-defaultFormTheme input[type=url], .sv-defaultFormTheme input[type=tel], .sv-defaultFormTheme input[type=number], .sv-defaultFormTheme textarea, .sv-defaultFormTheme select {
+    display: block;
+    box-sizing: border-box;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    width: 100%;
+    padding: 6px 0px 8px 12px;
+    line-height: normal!important;
+    height: auto;
+    border: 1px solid #EDEAEA;
+    border-radius: 2px;
+    box-shadow: inset 0 0px 0px rgba(0,0,0,.0);
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    font-size: 12px;
+    font-family: "leaguespartan webfont",sans-serif;
+    height: 35px;
+}
+
+
+.sv-defaultFormTheme input[type=text] {
+    font-size: 16px;
+    font-family: "open sans",sans-serif;
+    font-weight: 300;
+    margin-bottom: 7px;
+}
+
+.sv-defaultFormTheme input[type=text]:focus, textarea:focus {
+  box-shadow: 0 0 5px rgba(242, 140, 0, 0.2);
+  border: 1px solid rgba(242, 140, 0, 0.4);
+}
+
+
+.sv-defaultFormTheme input[type=button], .sv-defaultFormTheme input[type=submit], .sv-defaultFormTheme input[type=reset] {
+    display: inline-block;
+    padding: 8px 20px 6px;
+    margin-bottom: 0;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 0px solid #ccc;
+    border-radius: 2px;
+    color: #f5f5f5;
+    background-color: #35383B;
+    border-color: transparent;
+    font-family: "leaguespartan webfont",sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    border-bottom: 4px solid #5E5E5E;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    margin-top: 11px;
+    margin-bottom: 11px;
+
+}
+
+.sv-defaultFormTheme input[type=button]:hover, .sv-defaultFormTheme input[type=submit]:hover, .sv-defaultFormTheme input[type=reset]:hover {
+    color: #fff;
+    background-color: #5E5E5E;
+    border-color: #000;
+}
+
+.sv-defaultFormTheme .sv-field-title-container.sv-bold label, .sv-defaultFormTheme .sv-field-title-container.sv-bold span, .sv-defaultFormTheme .sv-field-title-container.sv-bold h1, .sv-defaultFormTheme .sv-field-title-container.sv-bold h2, .sv-defaultFormTheme .sv-field-title-container.sv-bold h3, .sv-defaultFormTheme .sv-field-title-container.sv-bold h4, .sv-defaultFormTheme .sv-field-title-container.sv-bold h5, .sv-defaultFormTheme .sv-field-title-container.sv-bold h6 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: inline-block;
+    font-family: "leaguespartan webfont",sans-serif;
+    margin-top: 10px;
+}
+
+.sv-formFieldRow, .sv-formField {
+    margin-top: 2px;
+    margin-bottom: 0px;
+}
+
+.sv-defaultFormTheme .sv-form-singleselectionfield label, .sv-defaultFormTheme .sv-form-multipleselectionfield label {
+    font-size: 14px;
+    font-weight: 300;
+    position: relative;
+    top: 1px;
+    line-height: 2em;
+    margin-left: 4px;
+
+}
+
+
+.sv-formField{
+    border-bottom: 2px dotted #e4e4e4;
+    padding-bottom: 10px;
+}
+
+button, input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button {
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    color: buttontext;
+    background-color: buttonface;
+    box-sizing: border-box;
+    padding: 2px 6px 3px;
+    border: 0px outset buttonface;
+
+}
+
+input[type="file" i]::-webkit-file-upload-button {
+    -webkit-appearance: push-button;
+    white-space: nowrap;
+    font-size: inherit;
+    -webkit-user-modify: read-only;
+    margin: 0px;
+    background-color: #35383B;
+	border-radius: 2px;
+	font-family: "leaguespartan webfont",sans-serif;
+	color: #fff;
+	font-size: 10px;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	padding: 6px 11px 5px;
+	border-bottom: 4px solid #5E5E5E;
+	transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    cursor: pointer;
+}
+
+input[type="file" i]::-webkit-file-upload-button:hover{
+    background-color: #5E5E5E;
+    border-color: #000;
+}
+
+.sv-defaultFormTheme input[type="file"] {
+    font-weight: 300;
+    font-size: 14px;
+    position: relative;
+    top: 0px;
+    padding-top: 6px;
+    line-height: 1.6em;
+    padding-left: 0px;
 }

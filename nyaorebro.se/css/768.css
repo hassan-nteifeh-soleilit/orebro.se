@@ -432,6 +432,7 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a {
     padding: 6px 6px 6px 11px;
     width: 99%;
     box-sizing: border-box;
+    min-height: 0px;
 }
 
 .or-nav-list{

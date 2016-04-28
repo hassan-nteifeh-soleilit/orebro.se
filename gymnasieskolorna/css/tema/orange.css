@@ -305,6 +305,11 @@ h4.plusboxxrubrik.or-plus-box-active {
 color: #F28C00;
 }
 
+.or-puff-bild-text h4 a{
+color: #F28C00;
+}
+
+
 .or-stor-bild-text-tv > div:nth-child(2) h2 {
     color: #F28C00;
 }
