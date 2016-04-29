@@ -3629,34 +3629,54 @@ table.or-bath-water th:not(:first-child)  {
     font-size: 13px;
 }
 
-/* instagram */
-
-.or-social-media-content.instagram {
+.or-social-media-content {
     display: block;
     float: left;
     margin-bottom: 20px;
+    margin-top: 10px;
+    border-bottom: 2px dotted #C7C6C5;
+    padding-bottom: 15px;
 }
 
-.or-social-media-content.instagram .or-header{
-	
+.or-social-media-content .or-content img {
+    float: left;
+    width: 20%;
+    margin-right: 20px;
 }
 
-.or-social-media-content.instagram .or-header {
-    color: #857672;
+.or-social-media-content.youtube .or-content img {
+    width: 165px;
+}
+
+.or-social-media-content .or-content a {
     font-weight: 300;
-    font-size: 13px;
+    font-size: 17px;
 }
 
-.or-social-media-content.instagram .or-header .fa{
-}
-
-
-.or-social-media-content.instagram .or-content {
+.or-social-media-content .or-content {
     float: left;
 }
 
-.or-social-media-content.instagram .or-header .fa {
+.or-social-media-content.instagram .or-header .fa  {
+    color: #64b0d7;
+}
+
+.or-social-media-content.facebook .or-header .fa {
     color: #0090b4;
+}
+
+.or-social-media-content.youtube .or-header .fa {
+    color: #c83e30;
+}
+
+.fa-instagram:before, .fa-facebook:before, .fa-youtube:before  {
+    color: #fff;
+}
+
+.or-social-media-content .or-header {
+    color: #857672;
+    font-weight: 300;
+    font-size: 12px;
 }
 
 .or-social-media-content.instagram .or-header .fa-clock-o {
@@ -3664,26 +3684,14 @@ table.or-bath-water th:not(:first-child)  {
     margin-left: 10px;
 }
 
-.fa-instagram:before {
-    content: "\f16d";
-    color: #fff;
+body .or-social-media-content.facebook .or-header .fa-clock-o {
+    color: #857672;
+    margin-left: 10px;
 }
 
-.or-social-media-content.instagram .or-content img {
-    float: left;
-    width: 20%;
-    margin-right: 20px;
-}
-
-
-.or-social-media-content.instagram .or-content a {
-    font-weight: 300;
-    font-size: 17px;
-}
-
-.or-social-media-content.instagram .or-content a {
-    font-weight: 300;
-    font-size: 17px;
+.or-social-media-content.instagram .or-header .fa-clock-o {
+    color: #857672;
+    margin-left: 10px;
 }
 
 .or-social-media-content .or-stats {
@@ -3707,6 +3715,7 @@ table.or-bath-water th:not(:first-child)  {
     font: normal normal normal 14px/1 FontAwesome
 }
 
-.or-header .fa-clock-o{
-	color: black;
-}
+
+/* instagram */
+
+
