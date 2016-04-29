@@ -3649,6 +3649,7 @@ table.or-bath-water th:not(:first-child)  {
 
 .or-social-media-content.youtube .or-content img {
     width: 165px;
+    position: relative;
 }
 
 .or-social-media-content .or-content a {
