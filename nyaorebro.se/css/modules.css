@@ -3782,3 +3782,64 @@ body .or-social-media-content.facebook .or-header .fa-clock-o {
 
 
 
+.or-media-popup {
+    /*
+    position:absolute;
+    z-index:2;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.7);
+    opacity:0;
+    visibility:hidden;
+    */
+    float: left;
+    position: relative;
+    transition:.3s ease;
+    display: none; 
+}
+
+.show-popup .or-media-popup {
+    display: block;    
+}
+
+.show-popup .or-social-image,
+.show-popup a {
+    display: none;    
+}
+
+/*
+.or-media-popup > iframe {
+    float: left;
+    position: relative;
+}
+*/
+
+.youtube .or-content {
+    position: relative;    
+}
+
+.or-media-close {
+    position: absolute;    
+    left: 560px;    
+    display: block;
+    height: 45px;
+    width: 50px;
+    font-weight: bold;
+    font-size: 11px;
+    background-color: #e83c23;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    box-shadow: 3px 0px 6px -3px rgba(0, 0, 0, 0.4) inset;
+    text-align: center;
+    color: #fff;
+}
+
+.or-media-close .fa-close {
+    color: #FFFFFF;
+    font-size: 17px;
+    width: 100%;
+    text-align: center;
+    padding-top: 5px;
+}
