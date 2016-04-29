@@ -3630,10 +3630,11 @@ table.or-bath-water th:not(:first-child)  {
 
 /* social media */
 
+.or-social-media-content 
+
 .or-social-media-content .or-header {
     color: #0090b4;
     margin-bottom: 10px;
-    
 }
 
 .or-follow .normal a:link {
@@ -3648,15 +3649,16 @@ table.or-bath-water th:not(:first-child)  {
     margin-bottom: 20px;
     margin-top: 10px;
     border-bottom: 2px dotted #C7C6C5;
-    padding-bottom: 15px;
     width: 100%;
     box-sizing: border-box;
+    padding: 0px 10px 15px 10px;
 }
 
 .or-social-media-content .or-content img {
     float: left;
     width: 20%;
     margin-right: 20px;
+    border-radius: 2px;
 }
 
 .or-social-media-content.youtube .or-content img {
@@ -3668,6 +3670,7 @@ table.or-bath-water th:not(:first-child)  {
 .or-social-media-content.youtube .or-social-image {
     float: left;
     position: relative;
+    cursor: pointer;
 }
 
 .or-social-media-content.youtube .or-social-image:after {
@@ -3689,6 +3692,10 @@ table.or-bath-water th:not(:first-child)  {
 .or-social-media-content .or-content a {
     font-weight: 300;
     font-size: 17px;
+}
+
+.or-social-media-content:hover .or-content a {
+    text-decoration: underline;
 }
 
 .or-social-media-content .or-content {
@@ -3717,6 +3724,7 @@ table.or-bath-water th:not(:first-child)  {
     color: #857672;
     font-weight: 300;
     font-size: 12px;
+    margin-bottom: 7px;
 }
 
 .or-social-media-content.youtube .or-header {
@@ -3772,7 +3780,6 @@ body .or-social-media-content.facebook .or-header .fa-clock-o {
 
 .or-social-media-content.facebook .fa-reactions {
     width: 41px;
-    background-color: #fff;
     height: 12px;
     background-image: url('http://ptsrv3007.orebro.se/images/18.5ab4ab37154229e2ec85713/1461917091555/reaction.png');
     background-size: 40px;

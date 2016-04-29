@@ -170,6 +170,21 @@ body section.or-top-img-area .brodtextxxfetx {
 }
 
 
+/* social flöde */
+
+.or-social-media-content .or-content a {
+    font-size: 14px;
+}
+
+.or-social-media-content .or-content img {
+    width: 40%;
+    margin-right: 15px;
+}
+
+.or-social-media-content.youtube .or-content img {
+    width: 100%;
+}
+
 
 
 } /* end 480px */	
