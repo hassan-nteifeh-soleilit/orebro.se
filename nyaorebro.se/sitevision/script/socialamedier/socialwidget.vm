@@ -1,0 +1,37 @@
+#foreach ($sm in $socialMedias)
+#set ($class = $sm.name.toLowerCase())
+<div class="or-social-media-content $class">   
+   <div class="or-header">
+      <span class="fa-stack fa-lg">
+         <i class="fa fa-circle fa-stack-2x"></i>
+         <i class="fa ${sm.icon} fa-stack-1x fa-inverse"></i>
+      </span>
+      #if ($sm.type == "YTUBE") 
+         $sm.title
+      #else
+      	<i class="fa fa-clock-o"></i>
+         $sm.timestamp
+      #end      
+   </div>
+   <div class="or-content">         
+   	<img src="$sm.thumbnail" class="or-img"></img> 
+   	<a href="$sm.permalink">$sm.text</a>
+   </div>
+   #if($sm.showStats)
+   <div class="or-stats or-clearfix">
+      #foreach ($stat in $sm.stats)  
+	      #if($stat.count >0)
+   	   <i class="fa $stat.icon"></i>$stat.count
+      	#end
+      #end
+	</div>
+   
+   #end
+   
+	<div class="or-follow">
+      <p class="normal"><a href="$sm.followlink">Följ oss på $sm.name</a></p>
+	</div>
+   
+   
+</div>
+#end
