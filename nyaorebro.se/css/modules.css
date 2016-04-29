@@ -3627,3 +3627,158 @@ table.or-bath-water th:not(:first-child)  {
 	background-color: #fff;
 
 }
+
+/* social media */
+
+.or-social-media-content .or-header {
+    color: #0090b4;
+    margin-bottom: 10px;
+    
+}
+
+.or-follow .normal a:link {
+    font-family: "leaguespartan webfont",sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.02em;
+}
+
+.or-social-media-content {
+    display: block;
+    float: left;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border-bottom: 2px dotted #C7C6C5;
+    padding-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.or-social-media-content .or-content img {
+    float: left;
+    width: 20%;
+    margin-right: 20px;
+}
+
+.or-social-media-content.youtube .or-content img {
+    width: 165px;
+    position: relative;
+    z-index: -1;
+}
+
+.or-social-media-content.youtube .or-social-image {
+    float: left;
+    position: relative;
+}
+
+.or-social-media-content.youtube .or-social-image:after {
+    content: "\f16a";
+    position: absolute;
+    height: 23px;
+    width: 34px;
+    background-color: white;
+    left: 50%;
+    top: 50%;
+    margin-left: -27px;
+    margin-top: -14px;
+    font: normal normal normal 35px/.7 FontAwesome;
+    color: #C83E30;
+    box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.or-social-media-content .or-content a {
+    font-weight: 300;
+    font-size: 17px;
+}
+
+.or-social-media-content .or-content {
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.or-social-media-content.instagram .or-header .fa  {
+    color: #64b0d7;
+}
+
+.or-social-media-content.facebook .or-header .fa {
+    color: #0090b4;
+}
+
+.or-social-media-content.youtube .or-header .fa {
+    color: #c83e30;
+}
+
+.fa-instagram:before, .fa-facebook:before, .fa-youtube:before  {
+    color: #fff;
+}
+
+.or-social-media-content .or-header {
+    color: #857672;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.or-social-media-content.youtube .or-header {
+    color: #35383b;
+    font-weight: 700;
+    font-size: 12px;
+    font-family: "leaguespartan webfont",sans-serif;
+    letter-spacing: 0.02em;
+}
+
+.or-social-media-content.instagram .or-header .fa-clock-o {
+    color: #857672;
+    margin-left: 10px;
+}
+
+body .or-social-media-content.facebook .or-header .fa-clock-o {
+    color: #857672;
+    margin-left: 5px;
+}
+
+.or-social-media-content.instagram .or-header .fa-clock-o {
+    color: #857672;
+    margin-left: 10px;
+}
+
+.or-social-media-content .or-stats {
+    background-color: #f9f9f8;
+    border: 2px solid #eeeceb;
+    border-radius: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    float: left;
+    display: block;
+    width: 100%;
+    font-family: "leaguespartan webfont",sans-serif;
+    font-size: 10px;
+    color: #857672;
+    box-sizing: border-box;
+}
+
+.or-social-media-content .or-stats .fa{
+    margin-right: 5px;
+    font: normal normal normal 14px/1 FontAwesome;
+    margin-left: 15px;
+
+}
+
+
+.or-social-media-content .or-stats .fa:first-child {
+    margin-left: 0px;
+}
+
+.or-social-media-content.facebook .fa-reactions {
+    width: 41px;
+    background-color: #fff;
+    height: 12px;
+    background-image: url('http://ptsrv3007.orebro.se/images/18.5ab4ab37154229e2ec85713/1461917091555/reaction.png');
+    background-size: 40px;
+    position: relative;
+    top: 2px;
+}
+
+
+
