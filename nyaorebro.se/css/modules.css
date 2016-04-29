@@ -3650,6 +3650,28 @@ table.or-bath-water th:not(:first-child)  {
 .or-social-media-content.youtube .or-content img {
     width: 165px;
     position: relative;
+    z-index: -1;
+}
+
+.or-social-media-content.youtube .or-social-image {
+    float: left;
+    position: relative;
+}
+
+.or-social-media-content.youtube .or-social-image:after {
+    content: "\f16a";
+    position: absolute;
+    height: 23px;
+    width: 34px;
+    background-color: white;
+    left: 50%;
+    top: 50%;
+    margin-left: -27px;
+    margin-top: -14px;
+    font: normal normal normal 35px/.7 FontAwesome;
+    color: #C83E30;
+    box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
 }
 
 .or-social-media-content .or-content a {
