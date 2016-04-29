@@ -3626,7 +3626,8 @@ table.or-bath-water th:not(:first-child)  {
 
 .or-follow .normal a:link {
     font-family: "leaguespartan webfont",sans-serif;
-    font-size: 13px;
+    font-size: 11px;
+    letter-spacing: 0.02em;
 }
 
 .or-social-media-content {
@@ -3734,18 +3735,14 @@ body .or-social-media-content.facebook .or-header .fa-clock-o {
     margin-left: 0px;
 }
 
-.or-social-media-content.facebook .fa-reactions{
-	width: 21px;
-    background-color: #2CE0E0;
-    height: 11px;
-    background-image: url("/images/18.5ab4ab37154229e2ec85713/1461917091555/reaction.png");
-}
-
-.or-social-media-content.facebook .fa-reactions{
-	width: 21px;
-    background-color: #2CE0E0;
-    height: 11px;
-    background-image: url('/images/18.5ab4ab37154229e2ec85713/1461917091555/reaction.png');
+.or-social-media-content.facebook .fa-reactions {
+    width: 41px;
+    background-color: #fff;
+    height: 12px;
+    background-image: url('http://ptsrv3007.orebro.se/images/18.5ab4ab37154229e2ec85713/1461917091555/reaction.png');
+    background-size: 40px;
+    position: relative;
+    top: 2px;
 }
 
 
