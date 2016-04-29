@@ -3651,8 +3651,8 @@ table.or-bath-water th:not(:first-child)  {
 }
 
 
-.or-social-media-content.instagram .or-content{
-	
+.or-social-media-content.instagram .or-content {
+    float: left;
 }
 
 .or-social-media-content.instagram .or-header .fa {
