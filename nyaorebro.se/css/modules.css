@@ -3257,7 +3257,6 @@ section.or-bg-one {
   padding: 20px;
 }
 
-/*behövs denna??*/
 .ikonxorange{  
     font-weight: normal;
     font-style: normal;
@@ -3267,27 +3266,40 @@ section.or-bg-one {
 }
 
 /* Sök politiker */
+
 .sok-politiker{
-    /*list-style-type: none !important; */
+    
     background-color: #fff;
     border: solid 1px #f3dcd0;
     border-top: solid 5px #E83C23;
     margin-bottom: 25px;
 }
+.sok-politiker ul li:before{
+  display: none;
+}
 
 .sok-politiker ul li{
-    display: inline;
+    float:left;
     max-width: 70%;
     height: 50%;
-    
+    list-style: none;
   
-    
-    /*
     background-color: #fff;
-    border: solid 1px #f3dcd0;
-    border-top: solid 5px #E83C23;
-    margin-bottom: 25px;
-    */
+    border: solid 2px #f3dcd0;
+    margin-bottom: 15px;
+    margin-right: 20px;
+}
+.sok-politiker strong, b {
+    0.9em;
+    font-family: "leaguespartan webfont",sans-serif;
+}
+.sok-politiker form:after{
+  display: none;
+}
+
+/* Driftstörningsnyheter */
+.or-news-newslist{
+  background-color: #f4f3f1;
 }
 
 /* Länkpuff*/
