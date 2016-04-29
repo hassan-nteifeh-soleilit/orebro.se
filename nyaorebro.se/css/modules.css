@@ -3636,6 +3636,8 @@ table.or-bath-water th:not(:first-child)  {
     margin-top: 10px;
     border-bottom: 2px dotted #C7C6C5;
     padding-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .or-social-media-content .or-content img {
@@ -3655,6 +3657,8 @@ table.or-bath-water th:not(:first-child)  {
 
 .or-social-media-content .or-content {
     float: left;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .or-social-media-content.instagram .or-header .fa  {
@@ -3679,6 +3683,14 @@ table.or-bath-water th:not(:first-child)  {
     font-size: 12px;
 }
 
+.or-social-media-content.youtube .or-header {
+    color: #35383b;
+    font-weight: 700;
+    font-size: 12px;
+    font-family: "leaguespartan webfont",sans-serif;
+    letter-spacing: 0.02em;
+}
+
 .or-social-media-content.instagram .or-header .fa-clock-o {
     color: #857672;
     margin-left: 10px;
@@ -3686,7 +3698,7 @@ table.or-bath-water th:not(:first-child)  {
 
 body .or-social-media-content.facebook .or-header .fa-clock-o {
     color: #857672;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 .or-social-media-content.instagram .or-header .fa-clock-o {
@@ -3706,13 +3718,20 @@ body .or-social-media-content.facebook .or-header .fa-clock-o {
     width: 100%;
     font-family: "leaguespartan webfont",sans-serif;
     font-size: 10px;
-    /* margin: auto; */
     color: #857672;
+    box-sizing: border-box;
 }
 
 .or-social-media-content .or-stats .fa{
     margin-right: 5px;
-    font: normal normal normal 14px/1 FontAwesome
+    font: normal normal normal 14px/1 FontAwesome;
+    margin-left: 15px;
+
+}
+
+
+.or-social-media-content .or-stats .fa:first-child {
+    margin-left: 0px;
 }
 
 
