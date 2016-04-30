@@ -3787,5 +3787,23 @@ body .or-social-media-content.facebook .or-header .fa-clock-o {
     top: 2px;
 }
 
+/* Faktarutor */
+.or-facts-block {
+   border-color: #f28c00;
+   background-color: #ffffff;
+   border-radius:2px;
+}   
+
+.or-facts-block{
+   width:100%; 
+   padding-top: 30px;
+   padding-left: 35px;
+   box-sizing: border-box;
+}
+
+body .or-facts-block .sv-use-margins .subheading, .sv-use-margins h2 {
+    color: #F28C00;
+    margin-top: 0px!important;
+}
 
 
