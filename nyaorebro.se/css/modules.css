@@ -3789,7 +3789,7 @@ body .or-social-media-content.facebook .or-header .fa-clock-o {
 
 /* Faktarutor */
 .or-facts-block {
-   border-color: #f28c00;
+   border-color: rgba(242, 140, 0, 0.55);
    background-color: #ffffff;
    border-radius:2px;
 }   
