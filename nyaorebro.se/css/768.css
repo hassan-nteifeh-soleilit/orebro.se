@@ -49,6 +49,10 @@ h4, h4 a, .rubrikx4 a{
     line-height: 1.5em;
 }
 
+a.ingress:link, .ingress a:link, a.ingress:visited, .ingress a:visited, a.ingress:active, .ingress a:active {
+    font-size: 18px;
+}
+
 ul li {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.2em;

@@ -70,6 +70,11 @@ ul li {
     line-height: 1.5em;
 }
 
+a.ingress:link, .ingress a:link, a.ingress:visited, .ingress a:visited, a.ingress:active, .ingress a:active {
+    font-size: 23px;
+}
+
+
 /* puffar */
 
 body .or-wrapper-click.or-puff-bild-text h3 {
