@@ -3792,31 +3792,17 @@ body .or-social-media-content.facebook .or-header .fa-clock-o {
    border-color: rgba(242, 140, 0, 0.55);
    background-color: #ffffff;
    border-radius:2px;
-}   
-
-.or-facts-block{
    width:100%; 
    box-sizing: border-box;
-}
+}   
 
-body .or-facts-block .sv-use-margins .subheading, .sv-use-margins h2 {
+.or-facts-block h2 {
     color: #F28C00;
     margin-top: 0px!important;
 }
 
 
 .or-media-popup {
-    /*
-    position:absolute;
-    z-index:2;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    background:rgba(0,0,0,0.7);
-    opacity:0;
-    visibility:hidden;
-    */
     float: left;
     position: relative;
     transition:.3s ease;
@@ -3831,13 +3817,6 @@ body .or-facts-block .sv-use-margins .subheading, .sv-use-margins h2 {
 .show-popup a {
     display: none;    
 }
-
-/*
-.or-media-popup > iframe {
-    float: left;
-    position: relative;
-}
-*/
 
 .youtube .or-content {
     position: relative;    
@@ -3857,6 +3836,11 @@ body .or-facts-block .sv-use-margins .subheading, .sv-use-margins h2 {
     box-shadow: 3px 0px 6px -3px rgba(0, 0, 0, 0.4) inset;
     text-align: center;
     color: #fff;
+}
+
+.or-media-close:hover {
+    background-color: #35383b;
+    cursor: pointer;
 }
 
 .or-media-close .fa-close {

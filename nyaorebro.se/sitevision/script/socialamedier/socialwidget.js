@@ -95,7 +95,7 @@ function socialMedia(type, title, text, timestamp, thumbnail, permalink, followl
          this.name = 'Youtube';
          date =  new SimpleDateFormat("yyyy-MM-dd'T'HH:mm").parse(timestamp);
    		this.icon ='fa-youtube';
-         this.stats = [{icon:'fa-thumbs-o-up', count:(likes+'')},{icon:'fa-thumbs-o-down', count:(dislikes+'')},{icon:'fa-comments', count:(dislikes+'')}];         
+         this.stats = [{icon:'fa-thumbs-o-up', count:(likes+'')},{icon:'fa-thumbs-o-down', count:(dislikes+'')},{icon:'fa-comments', count:(comments+'')}];         
          break;               
       default:
          break;
