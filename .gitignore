@@ -1,1 +1,11 @@
 node_modules
+
+*.asp
+Badvattenkvalité/images/1gron.jpg
+*.jpg
+Badvattenkvalité/Admin/asp/waterqualityDB.sql
+Badvattenkvalité/Badvattenkvalitet-dokumentation.doc
+Badvattenkvalité/images/Thumbs.db
+Badvattenkvalité/Badvatten_db_201111282100.BAK
+Badvattenkvalité/~$dvattenkvalitet-dokumentation.doc
+.vscode/settings.json
