@@ -357,6 +357,12 @@ section.or-article-main .or-on-page-links h2
 	margin:4px 8px 0 0;
 }
 
+section.or-top-header {
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 0;
+}
+
 section.or-top-img-area {
     margin: 0 auto;
     max-width: 1400px;
