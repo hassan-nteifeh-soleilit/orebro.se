@@ -16,11 +16,11 @@
 		init($(this));                     		
 		
 		$("a[href*='"+ options.ref +"']").click(function(event) {						
-			if ( $('.or-mobile-menu-bar').is(':visible')) {
-				$('#contactBtn').click();
-			} else {
+			if ( $('.or-mobile-nav-container').css('display') === 'none') {
 				$('.or-backdrop').show();			
 				$('.or-modal').fadeIn();
+			} else {
+				$('#contactBtn').click();				
 			}						
 		});
 		
