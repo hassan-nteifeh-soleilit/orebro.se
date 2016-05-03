@@ -194,24 +194,24 @@ body section.or-top-img-area .brodtextxxfetx {
 @media all and (max-width: 390px) {
 
 
-.phone-nav-column:first-child{
+.or-mobile-nav-column:first-child{
 	width: 65px;
 }
 
-.phone-nav-column.search-column {
+.or-mobile-nav-column.search-column {
     width: 50px;
 }
 
-.phone-nav-column.search-column:first-child {
+.or-mobile-nav-column.search-column:first-child {
     width: 70px;
 }
 
 
-.phone-nav-column {
+.or-mobile-nav-column {
     width: 130px;
 }
 
-.phone-nav-column h4 {
+.or-mobile-nav-column h4 {
     font-size: 12px;
     padding: 7px 1px 1px 6px;
 }

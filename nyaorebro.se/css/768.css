@@ -114,7 +114,7 @@ body section.or-nav-content-section .or-grid-12-col.or-wider h2 {
     font-size: 12px;
 }
 
-.nav-footer-container {
+.or-mobile-nav-container {
     position: absolute;
     left: 0px;
     right: 0px;
@@ -634,7 +634,7 @@ section.or-breadcrumbs-area {
   }      
 
   /*  
-  .nav-footer-container {
+  .or-mobile-nav-container {
     position: fixed;
     left: 0px;
     right: 0px;
@@ -1191,7 +1191,7 @@ p.or-close-text {
 
 
 /*
-.nav-footer-container {
+.or-mobile-nav-container {
     position: fixed;
     left: 0px;
     right: 0px;
@@ -1424,7 +1424,7 @@ width:65%;
 
 /*
 
-.nav-footer-container {
+.or-mobile-nav-container {
     position: fixed;
     left: 0px;
     right: 0px;
@@ -1440,7 +1440,7 @@ width:65%;
 
 
 /* Mobilmenyrad */
-.phone-nav-column {
+.or-mobile-nav-column {
     width: 150px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -1451,7 +1451,7 @@ width:65%;
 	height: 41px;
 }
 
-.phone-nav-column h4 {
+.or-mobile-nav-column h4 {
     font-size: 14px;
     text-align: left;
     padding: 6px 5px 5px 10px;
@@ -1459,17 +1459,17 @@ width:65%;
     line-height: 1.1em;
 }
 
-.phone-nav-column.search-column:first-child{
+.or-mobile-nav-column.search-column:first-child{
 	width: 99px;
 	float: left;
 	border-left-style: none;    
 }
 
-.phone-nav-column.search-column {
+.or-mobile-nav-column.search-column {
     width: 65px;        
 }
 
-.phone-nav-column i.fa{
+.or-mobile-nav-column i.fa{
     color: #e83c23;
     font-size: 24px;
     margin-bottom: 5px;
@@ -1482,13 +1482,13 @@ width:65%;
 }
 
 
-.phone-nav-column.or-colorbg{
+.or-mobile-nav-column.or-colorbg{
 	background-color: #E83C23;
 	color: #fff;
 	position: relative;
 }
 
-.phone-nav-column:not(#mobileMenuBtn).or-colorbg:before {
+.or-mobile-nav-column:not(#mobileMenuBtn).or-colorbg:before {
     content: " ";
     position: absolute;
     width: 0;
@@ -1502,12 +1502,12 @@ width:65%;
 }
 
 
-.phone-nav-column.or-colorbg .fa{
+.or-mobile-nav-column.or-colorbg .fa{
 	color: #fff;
 }
 
 
-.phone-nav-column::after {
+.or-mobile-nav-column::after {
     left: 50%;
     top: 100%;
     border-style: solid;
