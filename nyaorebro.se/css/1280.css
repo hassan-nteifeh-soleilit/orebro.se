@@ -1,5 +1,5 @@
 @media (min-width: 768px) {
-	.nav-footer-container{
+	.or-mobile-nav-container{
 	display: none;
 }
 }
@@ -69,6 +69,11 @@ ul li {
     font-size: 23px;
     line-height: 1.5em;
 }
+
+a.ingress:link, .ingress a:link, a.ingress:visited, .ingress a:visited, a.ingress:active, .ingress a:active {
+    font-size: 23px;
+}
+
 
 /* puffar */
 

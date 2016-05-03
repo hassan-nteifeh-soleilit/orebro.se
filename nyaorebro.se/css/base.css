@@ -26,6 +26,24 @@ a.portlet-font, a.portlet-font-label, a.portlet-font-dim, a.portlet-msg-status, 
 	transition: all 100ms ease;
 }
 
+a.ingress:link, .ingress a:link, a.ingress:visited, .ingress a:visited, a.ingress:active, .ingress a:active {
+    font-family: "open sans",sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    color: #35383b;
+    text-decoration: none;
+    line-height: normal;
+    display: inline;
+    padding-right: 1px;
+    padding-bottom: 0px;
+    padding-left: 1px;
+    background-color: transparent;
+    box-shadow: rgba(174, 222, 239, 0.65)0px -16px 0px -11px inset;
+    transition: all 100ms ease;
+    font-weight: 300;
+}
+
 .sv-linklist-portlet table.sv-standard td p a:visited, .sv-blog-portlet table.sv-standard td p a:visited, .sv-archive-portlet table.sv-standard td p a:visited, .sv-text-portlet table.sv-standard td p a:visited {
     font-family: Open sans;
     color: #35383b;
@@ -337,6 +355,12 @@ section.or-article-main .or-on-page-links h2
 	float:left;
 	font-size:13px;
 	margin:4px 8px 0 0;
+}
+
+section.or-top-header {
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 0;
 }
 
 section.or-top-img-area {

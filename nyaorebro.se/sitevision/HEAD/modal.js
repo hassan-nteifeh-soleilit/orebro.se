@@ -15,10 +15,13 @@
 
 		init($(this));                     		
 		
-		$("a[href*='"+ options.ref +"']").click(function(event) {			
-			//add_block_page();
-			$('.or-backdrop').show();			
-			$('.or-modal').fadeIn();			
+		$("a[href*='"+ options.ref +"']").click(function(event) {						
+			if ( $('.or-mobile-menu-bar').is(':visible')) {
+				$('#contactBtn').click();
+			} else {
+				$('.or-backdrop').show();			
+				$('.or-modal').fadeIn();
+			}						
 		});
 		
 		function add_styles(){			
