@@ -576,7 +576,8 @@ nav.or-breadcrumbs li
 	padding-top: 3px;
 }
 
-nav.or-breadcrumbs li a {
+nav.or-breadcrumbs li a,
+nav.or-breadcrumbs li span  {
     font-size: 11px;
     font-weight: 600;
     padding: 4px 0;
@@ -601,9 +602,9 @@ nav.or-breadcrumbs li a:after
 	text-decoration:none;
 }
 
-nav.or-breadcrumbs li:last-child a
+nav.or-breadcrumbs li:last-child span
 {
-color: #E83C23;
+	color: #E83C23;
 }
 
 
@@ -616,11 +617,12 @@ nav.or-breadcrumbs li:first-child a:before
 }
 
 
-nav.or-breadcrumbs li:last-child a:after
+/*
+nav.or-breadcrumbs li:last-child  a:after
 {
 	content:"";
 }
-
+*/
 .or-area-heading
 {
 	margin-bottom:20px;
