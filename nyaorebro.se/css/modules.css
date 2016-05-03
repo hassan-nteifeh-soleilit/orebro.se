@@ -3267,8 +3267,14 @@ section.or-bg-one {
 
 /* Sök politiker */
 
+.sok-politiker td{
+    font-family: "leaguespartan webfont",sans-serif;
+}
+.sok-politiker tbody tr{
+  background-color:transparent;
+}
+
 .sok-politiker{
-    
     background-color: #fff;
     border: solid 1px #f3dcd0;
     border-top: solid 5px #E83C23;
@@ -3281,21 +3287,119 @@ section.or-bg-one {
 .sok-politiker ul li{
     float:left;
     max-width: 70%;
-    height: 50%;
     list-style: none;
-  
+
     background-color: #fff;
     border: solid 2px #f3dcd0;
-    margin-bottom: 15px;
-    margin-right: 20px;
+
+    margin-left: 1.6em;
 }
+.sok-politiker ul li a{
+    text-align: center;
+    padding: 22px;
+    color:#E83C23;
+    font-family: "leaguespartan webfont",sans-serif;
+}
+
 .sok-politiker strong, b {
     0.9em;
     font-family: "leaguespartan webfont",sans-serif;
+    display: none;
+    margin-top: 20px;
 }
-.sok-politiker form:after{
-  display: none;
+.sok-politiker hr{
+  /*display: none;*/
+  visibility: hidden;
 }
+.sok-politiker form{
+  padding-bottom: 20px;
+  border-bottom: 1px solid #cccccc;
+  line-height: 1.428571429;
+  padding-left: 2em;
+  
+  border-color: rgb(133, 118, 114);
+  border-color: rgba(133, 118, 114, 0.2);
+}
+.sok-politiker form input[type="text"]{
+    width: 49%;
+    padding: 10px 55px 10px 12px;
+    margin-bottom: 10px;
+    /* float: left; */
+    line-height: 1.428571429;
+    border: 0px 1px 1px 1px solid #cccccc;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(133, 118, 114);
+    border-color: rgba(133, 118, 114, 0.2);
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    vertical-align: middle;
+    background-color: #ffffff;
+    font-size: 16px;
+    font-weight: 100;
+    color: #717171;
+    -webkit-appearance: none;
+    letter-spacing: 0.01em;
+    font-family: "open sans",sans-serif;
+}
+
+.sok-politiker form input[type="submit"]{
+  
+  content: "\f002 ";
+  font-family: FontAwesome;
+  background-color: #857672;
+  
+    border-bottom-color: rgba(255,255,255,0.09);
+    border-bottom-style: solid;
+    border-radius: 2px;
+    color: #FFF;
+    display: inline-block;
+    float: none;
+    font-weight: 600;
+    padding-bottom: 13px;
+    padding-top: 13px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: left;
+    font-size: 12px;
+}
+.sok-politiker form strong{
+  display: block;
+  font-family: "leaguespartan webfont",sans-serif;
+  font-size: 12px;
+  margin-bottom: -16px;
+}
+
+.sok-politiker select{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  
+
+  content:"\f078";
+  font-family: FontAwesome;
+  width: 65%;
+  padding: 10px 55px 10px 12px;
+  margin-bottom: 10px;
+  line-height: 1.428571429;
+  border: 1px solid #cccccc;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(133, 118, 114);
+  border-color: rgba(133, 118, 114, 0.2);
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  vertical-align: middle;
+  background-color: #ffffff;
+  font-size: 16px;
+  font-weight: 100;
+  color: #717171;
+  -webkit-appearance: none;
+  letter-spacing: 0.01em;
+}
+
 
 /* Driftstörningsnyheter */
 .or-news-newslist{
@@ -3779,6 +3883,3 @@ body .or-social-media-content.facebook .or-header .fa-clock-o {
     position: relative;
     top: 2px;
 }
-
-
-
