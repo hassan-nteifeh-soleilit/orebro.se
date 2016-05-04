@@ -83,7 +83,7 @@ function socialMedia(type, title, text, timestamp, thumbnail, permalink, followl
          this.timestamp = timestamp;
          this.icon ='fa-instagram';
          date = new Date().setTime(timestamp);
-         this.stats = [{icon:'fa-comments', count:comments},{icon:'fa-heart', count:likes}];
+         this.stats = [{icon:'fa-heart', count:likes},{icon:'fa-comments', count:comments}];
          break;
       case 'FB':
          this.name = 'Facebook';
