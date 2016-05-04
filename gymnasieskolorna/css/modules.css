@@ -17,7 +17,7 @@
   width: 53px;
   margin-top: 15px;
   margin-right: 20px;
-  margin-left: 0px;
+  margin-left: 0;
   float: none;
   box-shadow: none;
   text-align: center;
@@ -137,7 +137,7 @@
   padding-top: 9px;
   padding-bottom: 9px;
   border-style: solid;
-  border-width: 2px 2px 0px;
+  border-width: 2px 2px 0;
   border-color: #ffcdc7;
   border-top-left-radius: 1px;
   border-top-right-radius: 1px;
@@ -367,8 +367,8 @@
     -moz-border-left-colors: none;
     border-image: none;
     content: " ";
-    height: 0px;
-    width: 0px;
+    height: 0;
+    width: 0;
     position: absolute;
     pointer-events: none;
     border-color: rgba(136, 183, 213, 0) rgba(136, 183, 213, 0) rgba(136, 183, 213, 0) #E83C23;
@@ -404,7 +404,7 @@
 }
 
 .or-ny-action .sv-use-margins .normal {
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .or-ny-action{
@@ -414,7 +414,7 @@ margin-bottom: 10px;
 }
 
 .or-ny-action:hover{
-    box-shadow: 0px 0px 6px 0px #E7E7E7;
+    box-shadow: 0 0 6px 0 #E7E7E7;
 }
 
 .or-new-action-text {
@@ -428,7 +428,7 @@ text-decoration:underline;
 /* Relaterade länkar/dokument */
 .or-teaser-box {
     margin-bottom: 40px;
-    box-shadow: #dadada 0px 0px 3px 0px;
+    box-shadow: #dadada 0 0 3px 0;
     float: left;
     margin-right: 2%;
     width: 48%;
@@ -436,13 +436,13 @@ text-decoration:underline;
 }
 
 .or-teaser-box.or-related-links h3{
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 body .or-wrapper-click.or-teaser-box.or-related-links h3{
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 
@@ -478,7 +478,7 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3{
 }
 
 .or-teaser-box.or-related-links .or-text-content {
-    padding: 0px 10px 0px 0px;
+    padding: 0 10px 0 0;
     margin-top: 0;
 }
 
@@ -493,32 +493,32 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3{
 }
 
 .or-teaser-box .or-teaser-list ul{
-	padding: 9px 0px 12px;
+	padding: 9px 0 12px;
 }
 
 .or-teaser-box.or-related-links .or-text-content .or-teaser-list li {
     padding: 14px 5px 14px 15px;
-    margin-bottom: 0px;
-    margin-top: 0px;
+    margin-bottom: 0;
+    margin-top: 0;
     position: relative;
     min-height: 52px;
 }
 
 .or-teaser-box.or-related-links .or-text-content .or-teaser-list li:hover .or-link-name {
-    box-shadow: rgba(174, 222, 239, 0.65) 0px -48px 0px -30px inset;
+    box-shadow: rgba(174, 222, 239, 0.65) 0 -48px 0 -30px inset;
     color: #35383b;
 }
 
 .or-teaser-box.or-related-documents .or-text-content .or-teaser-list li {
     padding: 10px 15px 10px 50px;
-    margin-bottom: 0px;
-    margin-top: 0px;
+    margin-bottom: 0;
+    margin-top: 0;
     position: relative;
     min-height: 50px;
 }
 
 .or-teaser-box.or-related-documents .or-text-content .or-teaser-list li:hover .or-link-name {
-    box-shadow: rgba(174, 222, 239, 0.65) 0px -48px 0px -30px inset;
+    box-shadow: rgba(174, 222, 239, 0.65) 0 -48px 0 -30px inset;
     color: #35383b;
 }
 
@@ -531,19 +531,19 @@ ul.or-teaser-list {
 
 .or-teaser-box .or-text-content .or-teaser-list li {
     border-bottom: 2px dotted #dad6d4;
-    padding: 10px 0px;
-    margin-bottom: 0px;
-    text-indent: 0px;
+    padding: 10px 0;
+    margin-bottom: 0;
+    text-indent: 0;
 }
 
 .or-teaser-box .or-text-content .or-teaser-list li:last-child {
-    border-bottom: 0px dotted #dad6d4;
+    border-bottom: 0 dotted #dad6d4;
 }
 
 .or-teaser-box .or-text-content .or-teaser-list li:before {
     content: "";
-    padding-right: 0px;
-    font-size: 0px;
+    padding-right: 0;
+    font-size: 0;
 }
 
 .or-teaser-box .or-text-content .or-teaser-list li a {
@@ -579,12 +579,12 @@ ul.or-teaser-list {
     transition: all 100ms ease;
     background-size: 25%;
     background-color: transparent;
-    box-shadow: 0px -16px 0px -11px rgba(174, 222, 239, 0.65) inset;
+    box-shadow: 0 -16px 0 -11px rgba(174, 222, 239, 0.65) inset;
     margin-right: 4px;
 }
 
 .or-teaser-box.or-related-links .or-text-content .or-teaser-list li a .or-link-name:hover {
-    box-shadow: rgba(174, 222, 239, 0.65) 0px -48px 0px -30px inset;
+    box-shadow: rgba(174, 222, 239, 0.65) 0 -48px 0 -30px inset;
     color: #35383b;
 } 
 
@@ -597,11 +597,11 @@ ul.or-teaser-list {
     transition: all 100ms ease;
     background-size: 25%;
     background-color: transparent;
-    box-shadow: 0px -16px 0px -11px rgba(174, 222, 239, 0.65) inset;
+    box-shadow: 0 -16px 0 -11px rgba(174, 222, 239, 0.65) inset;
     margin-right: 4px;
 }
 
 .or-teaser-box.or-related-documents .or-text-content .or-teaser-list li a .or-link-name:hover {
-    box-shadow: rgba(174, 222, 239, 0.65) 0px -48px 0px -30px inset;
+    box-shadow: rgba(174, 222, 239, 0.65) 0 -48px 0 -30px inset;
     color: #35383b;
 } 
