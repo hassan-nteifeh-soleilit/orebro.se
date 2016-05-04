@@ -919,12 +919,15 @@ width: 100%;
 }
 
 
-/* teaser box new metadata*/
-
+/* dokument-box */
 .or-teaser-box {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    margin-right: 0%;
     width: 100%;
-    margin-top: 10px;
+}
+
+.or-teaser-box.or-related-links .or-text-content .or-teaser-list li {
+    padding: 9px 0px 0px 0px;
 }
 
 } /* End media break */
