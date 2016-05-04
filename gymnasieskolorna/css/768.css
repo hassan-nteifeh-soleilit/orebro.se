@@ -712,6 +712,12 @@ p.or-close-text {
 .or-instagram-container.or-instagram-container-subpage {
  min-height: 300px;
 }
+
+th.sv-text-align-right p,
+td.sv-text-align-right p {
+    text-align: right;
+}
+
 /*programsida*/
 
 .or-stor-bild-text-tv > div:nth-child(2) h1, .or-program-heading-container h1 {
