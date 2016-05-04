@@ -89,7 +89,7 @@ function socialMedia(type, title, text, timestamp, thumbnail, permalink, followl
          this.name = 'Facebook';
          date =  new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ssZ").parse(timestamp);
          this.icon ='fa-facebook';
-         this.stats = [{icon:'fa-reactions', count:reactions},{icon:'fa-thumbs-o-up', count:likes}, {icon:'fa-comments', count:comments}, {icon:'fa-share', count:shares}];
+         this.stats = [{icon:'fa-reactions', count:reactions},{icon:'fa-comments', count:comments}, {icon:'fa-share', count:shares}];
          break;               
       case 'YTUBE':
          this.name = 'Youtube';
