@@ -918,15 +918,11 @@ width: 100%;
     display: none;
 }
 
-/* dokument-box */
+/* teaser box new metadata*/
 .or-teaser-box {
-    margin-bottom: 5px;
-    margin-right: 0%;
+    margin-bottom: 10px;
     width: 100%;
-}
-
-.or-teaser-box.or-related-links .or-text-content .or-teaser-list li {
-    padding: 9px 0px 0px 0px;
+    margin-top: 10px;
 }
 
 } /* End media break */
