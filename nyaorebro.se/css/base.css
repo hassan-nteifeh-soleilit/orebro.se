@@ -593,10 +593,9 @@ nav.or-breadcrumbs li a:hover
 
 
 
-nav.or-breadcrumbs li a:after
+nav.or-breadcrumbs li .or-path-divider
 {
-	color:#D8D8D8;
-	content:"/";
+	color:#D8D8D8;	
 	font-weight:300;
 	padding:0 5px;
 	text-decoration:none;

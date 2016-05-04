@@ -10,13 +10,14 @@
             <li>                        
             #set ($gaPath = "$gaPath$node.name/")    
             #if ($node.equals($currentPage))  
-               <span>$currentPage.name</span>
+               <span class="or-path-text">$currentPage.name</span>
             #else
                $linkRenderer.update($node)             
                #if ($node.equals($root))
-                  $linkRenderer.setText("Start")            
+                  $linkRenderer.setText("Start")                           	
                #end                         	               
                $linkRenderer.render()   
+               <span class="or-path-divider">/</span>
             #end
             </li>         
          #end         

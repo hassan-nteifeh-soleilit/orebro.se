@@ -3954,3 +3954,8 @@ body .or-social-media-content.facebook .or-header .fa-clock-o {
     text-align: center;
     padding-top: 5px;
 }
+
+/* Pilavdelare genomgångsida 2 */
+.or-content-page-2 .or-arrow-box::after {
+    left: 40%;
+}
