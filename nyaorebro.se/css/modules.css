@@ -3271,6 +3271,7 @@ section.or-bg-one {
     font-family: "leaguespartan webfont",sans-serif;
     padding-left: 2.4em;
     padding-top: 15px;
+    padding-bottom: 15px;
 }
 .sok-politiker tbody tr{
   background-color:transparent;
@@ -3282,7 +3283,8 @@ section.or-bg-one {
     border-top: solid 5px #E83C23;
     margin-bottom: 25px;
 }
-.sok-politiker{
+.sok-politiker ul{
+  padding-top: 16px;
   
 }
 .sok-politiker ul li:before{
@@ -3296,6 +3298,7 @@ section.or-bg-one {
     list-style: none;
     background-color: #fff;
     border: solid 2px #f3dcd0;
+    
 
 }
 .sok-politiker ul li a{
@@ -3318,16 +3321,21 @@ section.or-bg-one {
     margin-top: 20px;
 } */
 .sok-politiker hr{
-  display: none;
+  /*display: none;*/
+  margin-left: -2.2em;
+  border-bottom: 1px solid #cccccc;
+      margin-bottom: 23px;
 }
 /* wrapper runt formulären */
 .sok-politiker form{
   padding-bottom: 20px;
+  margin-bottom: 14px;
   /*line-height: 1.428571429;*/
   
+  /*
   border-bottom: 10px solid #cccccc;
   box-sizing: border-box;
-  width: 100%;
+  width: 100%; */
   
 /*  border-color: rgb(133, 118, 114);
   border-color: rgba(133, 118, 114, 0.2);
@@ -3390,7 +3398,7 @@ section.or-bg-one {
 
   content:"\f078";
   font-family: FontAwesome;
-  width: 65%;
+  width: 58%;
   padding: 10px 55px 10px 12px;
   margin-bottom: 10px;
   line-height: 1.428571429;
