@@ -3267,31 +3267,31 @@ section.or-bg-one {
 
 /* Sök politiker */
 
-.sok-politiker td{
+.or-sok-politiker td{
     font-family: "leaguespartan webfont",sans-serif;
     padding-left: 2.4em;
     padding-top: 15px;
     padding-bottom: 15px;
 }
-.sok-politiker tbody tr{
+.or-sok-politiker tbody tr{
   background-color:transparent;
 }
 
-.sok-politiker{
+.or-sok-politiker{
     background-color: #fff;
     border: solid 1px #f3dcd0;
     border-top: solid 5px #E83C23;
     margin-bottom: 25px;
 }
-.sok-politiker ul{
+.or-sok-politiker ul{
   padding-top: 16px;
   
 }
-.sok-politiker ul li:before{
+.or-sok-politiker ul li:before{
     display: none;
 }
 
-.sok-politiker ul li{
+.or-sok-politiker ul li{
     float:left;
     max-width: 70%;
     margin-right: 10px;
@@ -3301,14 +3301,14 @@ section.or-bg-one {
     
 
 }
-.sok-politiker ul li a{
+.or-sok-politiker ul li a{
     text-align: center;
     padding: 22px;
     color:#E83C23;
     font-family: "leaguespartan webfont",sans-serif;
 }
 
-.sok-politiker strong {
+.or-sok-politiker strong {
     font-family: "leaguespartan webfont",sans-serif;
     margin-top: 20px;
     
@@ -3320,28 +3320,21 @@ section.or-bg-one {
     display: none;
     margin-top: 20px;
 } */
-.sok-politiker hr{
-  /*display: none;*/
+
+.or-sok-politiker hr{
   margin-left: -2.2em;
-  border-bottom: 1px solid #cccccc;
-      margin-bottom: 23px;
+  height: 1px;
+  border: none;
+  background-color: rgba(133, 118, 114, 0.2);
+  margin-bottom: 23px;
 }
 /* wrapper runt formulären */
-.sok-politiker form{
+.or-sok-politiker form{
   padding-bottom: 20px;
   margin-bottom: 14px;
-  /*line-height: 1.428571429;*/
   
-  /*
-  border-bottom: 10px solid #cccccc;
-  box-sizing: border-box;
-  width: 100%; */
-  
-/*  border-color: rgb(133, 118, 114);
-  border-color: rgba(133, 118, 114, 0.2);
-  */
 }
-.sok-politiker form input[type="text"]{
+.or-sok-politiker form input[type="text"]{
     width: 49%;
     padding: 10px 55px 10px 12px;
     margin-bottom: -14px;
@@ -3364,34 +3357,60 @@ section.or-bg-one {
     font-family: "open sans",sans-serif;
 }
 
-.sok-politiker form input[type="submit"]{
+.or-sok-politiker form input[type="submit"]{
     content: "\f002 ";
     font-family: FontAwesome;
     background-color: #857672;
-  
-    border-bottom-color: rgba(255,255,255,0.09);
-    border-bottom-style: solid;
-    border-radius: 2px;
-    color: #FFF;
+    
     display: inline-block;
-    float: none;
-    font-weight: 600;
-    padding-bottom: 13px;
-    padding-top: 13px;
-    padding-left: 30px;
-    padding-right: 30px;
-    text-align: left;
+    padding: 8px 20px 6px;
+    margin-bottom: 0;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 0px solid #ccc;
+    border-radius: 2px;
+    color: #f5f5f5;
+    background-color: #35383B;
+    border-color: transparent;
+    font-family: "leaguespartan webfont",sans-serif;
+    font-weight: 700;
     font-size: 12px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    border-bottom: 4px solid #5E5E5E;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    margin-top: 11px;
+    margin-bottom: 1px;
+    
+    
+}
+
+.or-sok-politiker form input[type="submit"]:hover{
+  background-color: #5E5E5E;
+  border-color: #000;
 }
 /* sök namn + och/eller välj ort*/
-.sok-politiker form strong{
+.or-sok-politiker form strong{
   display: block;
   font-family: "leaguespartan webfont",sans-serif;
   font-size: 12px;
   margin-bottom: -17px;
 }
 
-.sok-politiker select{
+.or-sok-politiker select{
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
