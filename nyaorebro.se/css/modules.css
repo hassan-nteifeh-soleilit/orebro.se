@@ -853,11 +853,13 @@ ul.or-teaser-list {
     width: auto;
 }
 
-body .or-update-date{
-	font-weight: 100;
+body .or-update-date {
+    font-weight: 100;
     margin-bottom: 4px;
-    display: inline-block;
-    font-size: 13px;
+    font-size: 12px;
+    display: block;
+    margin-top: 9px;
+    color: #857672;
 }
 
 .or-thumbup
@@ -3642,8 +3644,9 @@ table.or-bath-water th:not(:first-child)  {
 
 .or-snow-book ul li h3 {
     display: inline-block;
-    margin-bottom: 3px;
+    margin-bottom: 0px;
     width: 100%;
+    margin-top: 5px;
 }
 
 .or-snow-book ul li .date {
