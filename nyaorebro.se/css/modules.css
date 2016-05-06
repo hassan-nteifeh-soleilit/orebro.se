@@ -1,4 +1,4 @@
-﻿
+﻿3
 /* 2. Liten kalender info ruta */
 /* 3. Kalender faktaruta */
 
@@ -3233,6 +3233,16 @@ section.or-bg-one {
   content: "\f054";
   font-family: FontAwesome;
 }
+
+.box-content .sv-use-margins .normal {
+    font-size: 16px;
+    font-weight: 300;
+}
+.box-content .sv-use-margins .normal strong {
+    font-size: 13px;
+    font-family: "leaguespartan webfont",sans-serif;
+    letter-spacing: 0.03em;
+}
 .or-bg-white {
     background-color: white;
     padding: 10px 20px;
@@ -3284,6 +3294,25 @@ section.or-bg-one {
     top: 5px;
     color: #DADCDE;
 }
+
+.or-red-header-box.or-startpage-driftstorningar .sv-font-action-penna:before, .sv-font-action-pil:before, .sv-font-action-karta:before, .sv-font-action-facebook:before, .sv-font-action-twitter:before {
+    background-color: #857672;
+    font: normal normal normal 15px/40px FontAwesome;
+    width: 36px;
+}
+
+.or-red-header-box.or-startpage-driftstorningar .sv-font-action-penna:after, .sv-font-action-pil:after, .sv-font-action-karta:after, .sv-font-action-facebook:after, .sv-font-action-twitter:after {
+	display: none;
+}
+
+.or-red-header-box.or-startpage-driftstorningar .sv-font-action-penna, .sv-font-action-pil, .sv-font-action-karta, .sv-font-action-facebook, .sv-font-action-twitter {
+    padding-bottom: 10px;
+    padding-top: 10px;
+	padding-left: 50px;
+	font-size: 11px;
+}
+
+
 /* Meny startsida */
 .sol-meny-startsida {
     padding: 5% 10% 10%;
@@ -3303,8 +3332,8 @@ section.or-bg-one {
     position: relative;
     padding: 50px 25px;
     box-shadow: 0px -2px 6px -1px rgba(0, 0, 0, 0.05);
+    margin-bottom: 85px;
 }
-
 .or-start-white-divider .or-puff-icon-header-text {
     max-width: 375px;
     margin: 0px 5%;
