@@ -3904,7 +3904,7 @@ body .or-social-media-content.facebook .or-header .fa-clock-o {
     border-radius: 2px;
     margin-top: 10px;
     margin-bottom: 10px;
-    padding: 5px 10px;
+    padding: 4px 10px;
     float: left;
     display: block;
     width: 100%;
@@ -3927,12 +3927,13 @@ body .or-social-media-content.facebook .or-header .fa-clock-o {
 }
 
 .or-social-media-content.facebook .fa-reactions {
-    width: 41px;
-    height: 12px;
-    background-image: url('http://ptsrv3007.orebro.se/images/18.5ab4ab37154229e2ec85713/1461917091555/reaction.png');
-    background-size: 40px;
+    width: 60px;
+    height: 16px;
+    background-image: url('http://ptsrv3007.orebro.se/images/18.5ab4ab37154229e2ec8753e/1462525596156/reaction-orebro.png');
+    background-size: 58px;
     position: relative;
-    top: 2px;
+    top: 3px;
+    background-repeat: no-repeat;
 }
 
 /* Faktarutor */
