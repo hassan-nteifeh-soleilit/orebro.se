@@ -1977,7 +1977,10 @@ body .or-content-container .or-tir p {
     margin-bottom: 5px;
     margin-top: 5px;
     font-size: 12px;
+}
 
+.sv-font-action-penna .sv-linkicon, .sv-font-action-pil .sv-linkicon, .sv-font-action-karta .sv-linkicon, .sv-font-action-facebook .sv-linkicon, .sv-font-action-twitter .sv-linkicon{
+	padding-left: 10px;
 }
 
 body .sv-font-action-penna.or-wrapper-click:hover,body .sv-font-action-pil.or-wrapper-click:hover,body .sv-font-action-karta.or-wrapper-click:hover,body .sv-font-action-facebook.or-wrapper-click:hover,body .sv-font-action-twitter.or-wrapper-click:hover{
