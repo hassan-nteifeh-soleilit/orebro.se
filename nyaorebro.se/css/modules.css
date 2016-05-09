@@ -3299,17 +3299,17 @@ section.or-bg-one {
     color: #DADCDE;
 }
 
-.or-red-header-box.or-startpage-driftstorningar .sv-font-action-penna:before, .sv-font-action-pil:before, .sv-font-action-karta:before, .sv-font-action-facebook:before, .sv-font-action-twitter:before {
+.or-red-header-box.or-startpage-driftstorningar .sv-font-action-penna:before, .or-red-header-box.or-startpage-driftstorningar .sv-font-action-pil:before, .or-red-header-box.or-startpage-driftstorningar .sv-font-action-karta:before, .or-red-header-box.or-startpage-driftstorningar .sv-font-action-facebook:before, .or-red-header-box.or-startpage-driftstorningar .sv-font-action-twitter:before {
     background-color: #857672;
     font: normal normal normal 15px/40px FontAwesome;
     width: 36px;
 }
 
-.or-red-header-box.or-startpage-driftstorningar .sv-font-action-penna:after, .sv-font-action-pil:after, .sv-font-action-karta:after, .sv-font-action-facebook:after, .sv-font-action-twitter:after {
+.or-red-header-box.or-startpage-driftstorningar .sv-font-action-penna:after, .or-red-header-box.or-startpage-driftstorningar .sv-font-action-pil:after, .or-red-header-box.or-startpage-driftstorningar .sv-font-action-karta:after, .or-red-header-box.or-startpage-driftstorningar .sv-font-action-facebook:after, .or-red-header-box.or-startpage-driftstorningar .sv-font-action-twitter:after {
 	display: none;
 }
 
-.or-red-header-box.or-startpage-driftstorningar .sv-font-action-penna, .sv-font-action-pil, .sv-font-action-karta, .sv-font-action-facebook, .sv-font-action-twitter {
+.or-red-header-box.or-startpage-driftstorningar .sv-font-action-penna, .or-red-header-box.or-startpage-driftstorningar .sv-font-action-pil, .or-red-header-box.or-startpage-driftstorningar .sv-font-action-karta, .or-red-header-box.or-startpage-driftstorningar .sv-font-action-facebook, .or-red-header-box.or-startpage-driftstorningar .sv-font-action-twitter {
     padding-bottom: 10px;
     padding-top: 10px;
 	padding-left: 50px;
