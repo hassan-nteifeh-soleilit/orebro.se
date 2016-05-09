@@ -3047,7 +3047,7 @@ body .or-article-main .sv-responsiveTable--stacked__headRow p{
 .or-tool-wrapper {
     float: right;
     position: absolute;
-    width: 280px;
+    width: 310px;
     background-color: white;
     top: 0;
     right: 10px;
@@ -3254,6 +3254,10 @@ section.or-bg-one {
 .or-bg-white ul li {
     border-top: dotted 2px #ECECEC;
     position: relative;
+}
+
+.or-bg-white ul li > span{
+	display: none;
 }
 
 .or-bg-white ul li a.normal:link {
