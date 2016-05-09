@@ -3890,12 +3890,14 @@ table.or-bath-water th:not(:first-child)  {
     font-family: "leaguespartan webfont",sans-serif;
 }
 
-.livsmedelsrapport .even td {
-    background: #fdf7f1;
+.livsmedelsrapport .odd td {
+    background: #fafafa;
+    font-style: normal;
 }
 
 .livsmedelsrapport .odd td {
     background: #fafafa;
+    font-style: normal;
 }
 
 .livsmedelsrapport .search-results .odd tr {
