@@ -3936,7 +3936,14 @@ table.or-bath-water th:not(:first-child)  {
 
 .livsmedelsrapport .search-results table .even tr {
 	background-color: #fff;
+}
 
+#PanelReportList table thead tr th{
+	
+}
+
+.oversight-matters table thead tr th{
+	
 }
 
 /* social media */
