@@ -1,4 +1,4 @@
-﻿3
+
 /* 2. Liten kalender info ruta */
 /* 3. Kalender faktaruta */
 
@@ -3396,7 +3396,6 @@ body .or-start-heading-divider .normal{
 }
 .or-sok-politiker ul{
   padding-top: 16px;
-  
 }
 .or-sok-politiker ul li:before{
     display: none;
@@ -3431,9 +3430,62 @@ body .or-start-heading-divider .normal{
     display: none;
     margin-top: 20px;
 } */
-
+/*
 .or-sokt-politiker .or-sok-politiker table tbody tr td div{
   display:none;
+}*/
+
+.or-sokt-politiker .or-sok-politiker hr{
+	background-color: transparent;
+	
+}
+
+.or-sokt-politiker .or-sok-politiker div a{
+	    content: "\f002 ";
+    font-family: FontAwesome;
+    background-color: #857672;
+    display: inline-block;
+    padding: 8px 20px 6px;
+    margin-bottom: 0;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 0px solid #ccc;
+    border-radius: 2px;
+    color: #f5f5f5;
+    background-color: #35383B;
+    border-color: transparent;
+    font-family: "leaguespartan webfont",sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    border-bottom: 4px solid #5E5E5E;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    margin-top: 11px;
+    margin-bottom: 1px;
+    
+    position:absolute;
+    bottom: 20px;
+    left:20px;
+    margin-top: 20px;
+}
+
+.or-sokt-politiker .or-sok-politiker{
+	position:relative;
+	padding-bottom: 50px;
 }
 
 .or-sokt-politiker .or-sok-politiker tr{
