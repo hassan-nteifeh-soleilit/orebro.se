@@ -929,31 +929,53 @@ nav.or-secondary h2 {
 
 
 nav.or-secondary .or-content {
-    float: left;
+    /* float: left; */
     border: 2px solid #f9c9c2;
     border-radius: 3px;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    display: -ms-flexbox;
+    -ms-flex-wrap: wrap;
 }
 
 nav.or-secondary .or-content ul {
     background: #ffffff;
-    float: left;
+    /* float: left; */
     width: 100%;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    display: -ms-flexbox;
+    -ms-flex-wrap: wrap;
 }
 
 nav.or-secondary .or-content ul li {
     width: 30.33333%;
-    float: left;
+    /* float: left; */
     padding: 10px 10px 0px 10px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
 }
 
 nav.or-secondary .or-content ul li a {
     border-bottom: 2px dotted #eae9e8;
     transition: all 0.3s ease-out;
     padding: 10px;
-    float: left;
-    height: 90px;
+    width: 100%;
 }
 
 nav.or-secondary .or-content ul li a h3 {
