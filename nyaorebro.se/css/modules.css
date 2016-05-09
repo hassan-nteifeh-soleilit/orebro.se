@@ -3868,6 +3868,7 @@ table.or-bath-water th:not(:first-child)  {
     color: white;
     text-align: center;
     background-color: #E83C23;
+    padding: 0px;
 }
 
 
@@ -3876,9 +3877,12 @@ table.or-bath-water th:not(:first-child)  {
 	margin-bottom: 8px;
 }
 
-.livsmedelsrapport .search-categories label a{
-	font-family: "leaguespartan webfont",sans-serif;
+.livsmedelsrapport .search-categories label a {
+    font-family: "leaguespartan webfont",sans-serif;
     font-size: 12px;
+    position: relative;
+    top: 2px;
+    padding-left: 3px;
 }
 
 
@@ -3892,11 +3896,12 @@ table.or-bath-water th:not(:first-child)  {
     border-top-right-radius: 2px;
     color: #fff;
     letter-spacing: 0.04em;
+    font-size: 12px;
 }
 
 .livsmedelsrapport td {
     padding: 5px 10px;
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid #f3dcd0;
 }
 
 .livsmedelsrapport .odd td {
