@@ -3254,8 +3254,9 @@ section.or-bg-one {
 .or-bg-white ul li {
     border-top: dotted 2px #ECECEC;
     position: relative;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
-
 .or-bg-white ul li > span{
 	display: none;
 }
@@ -3295,7 +3296,7 @@ section.or-bg-one {
     box-shadow: none;
     position: absolute;
     left: 0px;
-    top: 5px;
+    top: 12px;
     color: #DADCDE;
 }
 
