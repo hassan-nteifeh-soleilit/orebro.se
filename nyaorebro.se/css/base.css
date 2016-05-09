@@ -359,8 +359,13 @@ section.or-article-main .or-on-page-links h2
 
 section.or-top-header {
     margin: 0 auto;
-    max-width: 1400px;
+    max-width: 1330px;
     padding: 0;
+}
+
+section.or-top-header .normal {
+    line-height: 1em;
+    max-width: 700px;
 }
 
 section.or-top-img-area {

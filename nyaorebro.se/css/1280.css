@@ -24,6 +24,16 @@ section.or-top-img-area {
     height: 340px;
 }
 
+section.or-nav-content-section {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+section.or-top-header {
+padding-left: 20px;
+padding-right: 20px;
+}
+
 }  /* end 1280 */
 
 
