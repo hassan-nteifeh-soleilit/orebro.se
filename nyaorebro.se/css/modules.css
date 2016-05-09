@@ -3432,13 +3432,17 @@ body .or-start-heading-divider .normal{
     margin-top: 20px;
 } */
 
+/*
+.or-sokt-politiker .or-sok-politiker table tbody tr td div{
+  display:none;
+}*/
 .or-sokt-politiker .or-sok-politiker tr{
   display: block;
   margin-top: -20px;
 }
 
 .or-sokt-politiker .or-sok-politiker tr{
-  display: none;
+  /*display: none;*/
 }
 .or-sok-politiker hr{
   margin-left: -2.2em;
