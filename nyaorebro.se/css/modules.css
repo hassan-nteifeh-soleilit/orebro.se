@@ -3882,8 +3882,12 @@ table.or-bath-water th:not(:first-child)  {
 }
 
 
-.livsmedelsrapport .search-results table tr{
-	
+.livsmedelsrapport .search-results table tr {
+    background-color: #e83c23;
+}
+
+.livsmedelsrapport .search-results table tr th{
+    font-family: "leaguespartan webfont",sans-serif;
 }
 
 .livsmedelsrapport .even td {
