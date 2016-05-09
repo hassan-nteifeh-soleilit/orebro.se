@@ -651,7 +651,7 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3{
 .or-teaser-box .or-title {
     background: #857672;
     padding: 6px 15px 7px;
-    min-height: 26px;
+    min-height: 23px;
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
 }
@@ -2051,7 +2051,7 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
 .or-plus-box-header {
     width: 100%;
     margin-top: 13px;
-    margin-bottom: 13px;
+    margin-bottom: 0px;
     -webkit-transition: all 500ms ease;
     -moz-transition: all 500ms ease;
     -o-transition: all 500ms ease;

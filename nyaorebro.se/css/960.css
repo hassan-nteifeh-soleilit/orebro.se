@@ -116,6 +116,19 @@ body .or-puff-link .normal a:link {
     margin: 0px;
 }
 
+.or-content-page-2 .or-arrow-box::after {
+    left: 50%;
+}
+
+.or-arrow-box:after {
+    border-width: 17px;
+    margin-left: -14px;
+}
+
+section.or-nav-content-section {
+    padding-top: 23px;
+}
+
 
 } /* en 991 */
 
