@@ -3896,6 +3896,7 @@ table.or-bath-water th:not(:first-child)  {
 
 .livsmedelsrapport td {
     padding: 5px 10px;
+    border-bottom: 1px solid red;
 }
 
 .livsmedelsrapport .odd td {
