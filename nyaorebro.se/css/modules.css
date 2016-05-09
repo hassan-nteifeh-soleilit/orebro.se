@@ -3437,10 +3437,12 @@ body .or-start-heading-divider .normal{
     display: none;
     margin-top: 20px;
 } */
-.or-sokt-politiker .or-sok-politiker strong {
+.or-sokt-politiker .or-sok-politiker tr td div strong {
   display: none;
 }
-
+.or-sokt-politiker .or-sok-politiker hr{
+  margin-bottom: -10px;
+}
 .or-sokt-politiker .or-sok-politiker b{
 	color:black;
 }
