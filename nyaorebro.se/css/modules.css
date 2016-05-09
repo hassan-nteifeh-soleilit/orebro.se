@@ -3438,10 +3438,11 @@ body .or-start-heading-divider .normal{
     display: none;
     margin-top: 20px;
 } */
-/*
-.or-sokt-politiker .or-sok-politiker table tbody tr td div{
-  display:none;
-}*/
+
+.or-sokt-politiker .or-sok-politiker b{
+	
+}
+
 
 .or-sokt-politiker .or-sok-politiker hr{
 	background-color: transparent;
@@ -3491,9 +3492,15 @@ body .or-start-heading-divider .normal{
     margin-top: 20px;
 }
 
+.or-sokt-politiker .or-sok-politiker td{
+	padding-left: 0em;
+}
+
 .or-sokt-politiker .or-sok-politiker{
 	position:relative;
 	padding-bottom: 50px;
+	padding-left: 1.7em;
+	padding-top: 0.9em;
 }
 
 .or-sokt-politiker .or-sok-politiker tr{
