@@ -3906,6 +3906,10 @@ table.or-bath-water th:not(:first-child)  {
     padding-left: 3px;
 }
 
+.livsmedelsrapport .search-results table tr th:first-child {
+    border-right: solid 2px rgba(255, 255, 255, 0.25);
+}
+
 .livsmedelsrapport table {
     border: 1px solid #f3dcd0;
     border-spacing: 0px;
