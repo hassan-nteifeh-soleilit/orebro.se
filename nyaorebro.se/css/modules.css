@@ -3251,11 +3251,16 @@ section.or-bg-one {
     border-bottom-right-radius: 2px;
     position: relative;
 }
+
+.driftstorningar-container.or-bg-white {
+    padding: 0px 20px 20px 20px;
+}
+
 .or-bg-white ul li {
     border-top: dotted 2px #ECECEC;
     position: relative;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding-top: 10px;
+    padding-bottom: 3px;
 }
 .or-bg-white ul li > span{
 	display: none;
@@ -3266,9 +3271,11 @@ section.or-bg-one {
     margin-left: 20px;
 }
 
-.or-bg-white ul li:first-child{
-  border-top: none;  
+.or-bg-white ul li:first-child {
+    border-top: none;
 }
+
+
 .or-red-header-box .box-header {
     background-color: rgba(232, 60, 35, 0.9);
     padding: 10px 10px 9px 10px;
@@ -3296,7 +3303,7 @@ section.or-bg-one {
     box-shadow: none;
     position: absolute;
     left: 0px;
-    top: 12px;
+    top: 15px;
     color: #DADCDE;
 }
 
