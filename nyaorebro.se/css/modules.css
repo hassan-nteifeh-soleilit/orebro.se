@@ -3882,6 +3882,15 @@ table.or-bath-water th:not(:first-child)  {
 	top:0;
 }
 
+.livsmedelsrapport .search-field-submit.form-button:after {
+	font: normal normal normal 14px/1 FontAwesome; 
+	content: "\f16a";
+	color: #000;
+	position: absolute;
+	left:0;
+	top:0;
+}
+
 
 .livsmedelsrapport .search-categories label {
     display: inline-block;
@@ -3897,9 +3906,10 @@ table.or-bath-water th:not(:first-child)  {
     padding-left: 3px;
 }
 
-.livsmedelsrapport table{
+.livsmedelsrapport table {
     border: 1px solid #f3dcd0;
     border-spacing: 0px;
+    margin-top: 15px;
 }
 
 .livsmedelsrapport .search-results table tr th {
@@ -3917,6 +3927,7 @@ table.or-bath-water th:not(:first-child)  {
     padding: 5px 10px;
     border-bottom: 1px solid #f3dcd0;
     background-color: #fdf7f1;
+    font-style: normal;
 }
 
 .livsmedelsrapport .odd td {
@@ -3939,11 +3950,25 @@ table.or-bath-water th:not(:first-child)  {
 }
 
 #PanelReportList table thead tr th{
-	
+	font-family: "leaguespartan webfont",sans-serif;
+    background-color: #e83c23;
+    font-style: normal;
+    text-align: left;
+    padding: 4px 8px;
+    color: #fff;
+    letter-spacing: 0.04em;
+    font-size: 12px;
 }
 
 .oversight-matters table thead tr th{
-	
+	font-family: "leaguespartan webfont",sans-serif;
+    background-color: #e83c23;
+    font-style: normal;
+    text-align: left;
+    padding: 4px 8px;
+    color: #fff;
+    letter-spacing: 0.04em;
+    font-size: 12px;
 }
 
 /* social media */
