@@ -3882,12 +3882,20 @@ table.or-bath-water th:not(:first-child)  {
 }
 
 
-.livsmedelsrapport .search-results table tr {
+.livsmedelsrapport .search-results table tr th {
+    font-family: "leaguespartan webfont",sans-serif;
     background-color: #e83c23;
+    font-style: normal;
+    text-align: left;
+    padding: 4px 8px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    color: #fff;
+    letter-spacing: 0.04em;
 }
 
-.livsmedelsrapport .search-results table tr th{
-    font-family: "leaguespartan webfont",sans-serif;
+.livsmedelsrapport td {
+    padding: 5px 10px;
 }
 
 .livsmedelsrapport .odd td {
