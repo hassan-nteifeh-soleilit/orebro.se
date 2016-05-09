@@ -3440,7 +3440,7 @@ body .or-start-heading-divider .normal{
 } */
 
 .or-sokt-politiker .or-sok-politiker b{
-	
+	color:black;
 }
 
 
@@ -3501,6 +3501,10 @@ body .or-start-heading-divider .normal{
 	padding-bottom: 50px;
 	padding-left: 1.7em;
 	padding-top: 0.9em;
+  color:black;
+}
+.or-sok-politiker div, .or-sok-politiker table {
+    color: black;
 }
 
 .or-sokt-politiker .or-sok-politiker tr{
