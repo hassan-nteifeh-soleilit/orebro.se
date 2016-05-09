@@ -3461,8 +3461,10 @@ body .or-start-heading-divider .normal{
 }
 
 .or-sokt-politiker .or-sok-politiker hr{
-	background-color: transparent;
-	
+	background-color: rgba(133, 118, 114, 0.2);
+  position: relative;
+   top: -65px;
+   box-sizing: border-box;
 }
 
 .or-sokt-politiker .or-sok-politiker div a{
