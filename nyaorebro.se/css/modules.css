@@ -3831,7 +3831,8 @@ table.or-bath-water th:not(:first-child)  {
     margin-bottom: 5px;
 }
 
-.livsmedelsrapport .search-field input{
+
+.livsmedelsrapport .search-field input {
     padding: 10px 55px 10px 12px;
     margin-bottom: 10px;
     line-height: 1.428571429;
@@ -3851,13 +3852,14 @@ table.or-bath-water th:not(:first-child)  {
     -webkit-appearance: none;
     letter-spacing: 0.01em;
     font-family: "open sans",sans-serif;
+    width: 40%;
 }
 
 .livsmedelsrapport .search-field-submit.form-button {
     position: relative;
     -webkit-appearance: none;
     left: -28px;
-    top: -8px;
+    top: -2px;
     width: 60px;
     height: 60px;
     border-radius: 30px;
@@ -3881,9 +3883,10 @@ table.or-bath-water th:not(:first-child)  {
 }
 
 
-.livsmedelsrapport .search-categories label{
-	display: block;
-	margin-bottom: 8px;
+.livsmedelsrapport .search-categories label {
+    display: inline-block;
+    margin-bottom: 8px;
+    margin-right: 20px;
 }
 
 .livsmedelsrapport .search-categories label a {
@@ -3894,6 +3897,10 @@ table.or-bath-water th:not(:first-child)  {
     padding-left: 3px;
 }
 
+.livsmedelsrapport table{
+    border: 1px solid #f3dcd0;
+    border-spacing: 0px;
+}
 
 .livsmedelsrapport .search-results table tr th {
     font-family: "leaguespartan webfont",sans-serif;
@@ -3901,8 +3908,6 @@ table.or-bath-water th:not(:first-child)  {
     font-style: normal;
     text-align: left;
     padding: 4px 8px;
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
     color: #fff;
     letter-spacing: 0.04em;
     font-size: 12px;
@@ -3911,6 +3916,7 @@ table.or-bath-water th:not(:first-child)  {
 .livsmedelsrapport td {
     padding: 5px 10px;
     border-bottom: 1px solid #f3dcd0;
+    background-color: #fdf7f1;
 }
 
 .livsmedelsrapport .odd td {
