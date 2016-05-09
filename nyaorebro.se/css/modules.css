@@ -3937,19 +3937,46 @@ table.or-bath-water th:not(:first-child)  {
 	font: normal normal normal 14px/1 FontAwesome; 
 	content: "\f002";
 	color: #000;
-	position: absolute;
 	left:0;
 	top:0;
+	width: 20px;
+	height: 20px;
+	background-color: black;
 }
 
 .livsmedelsrapport .search-field-submit.form-button:after {
 	font: normal normal normal 14px/1 FontAwesome; 
 	content: "\f16a";
 	color: #000;
-	position: absolute;
 	left:0;
 	top:0;
+	width: 20px;
+	height: 20px;
+	background-color: black;
 }
+
+.livsmedelsrapport .search-field-submit:before {
+	font: normal normal normal 14px/1 FontAwesome; 
+	content: "\f002";
+	color: #000;
+	left:0;
+	top:0;
+	width: 20px;
+	height: 20px;
+	background-color: black;
+}
+
+.livsmedelsrapport .search-field-submit:after {
+	font: normal normal normal 14px/1 FontAwesome; 
+	content: "\f16a";
+	color: #000;
+	left:0;
+	top:0;
+	width: 20px;
+	height: 20px;
+	background-color: black;
+}
+
 
 .livsmedelsrapport .search-categories label {
     display: inline-block;
@@ -3977,6 +4004,8 @@ table.or-bath-water th:not(:first-child)  {
     border: 1px solid #f3dcd0;
     border-spacing: 0px;
     margin-top: 15px;
+    width: 100%;
+    max-width: 650px;
 }
 
 .livsmedelsrapport .search-results table tr th {
@@ -4020,7 +4049,7 @@ table.or-bath-water th:not(:first-child)  {
     font-style: normal;
     line-height: normal;
     text-decoration: none;
-    box-shadow: rgba(174, 222, 239, 0.65) 0px -28px 0px -23px inset;
+    box-shadow: rgba(174, 222, 239, 0.65) 0px -43px 0px -23px inset;
     -webkit-transition: all 100ms ease;
     -moz-transition: all 100ms ease;
     -o-transition: all 100ms ease;

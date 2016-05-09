@@ -989,6 +989,10 @@ nav.or-secondary .or-content ul.or-extra {
     margin-top: -2px;
 }
 
+nav.or-secondary .or-content ul.or-extra:last-child  li a{
+    border: 0px;
+}
+
 nav.or-secondary .or-content ul.or-extra li {
     padding-top: 5px;
     padding-bottom: 5px;
