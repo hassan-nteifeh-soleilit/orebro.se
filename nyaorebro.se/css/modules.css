@@ -3282,7 +3282,7 @@ section.or-bg-one {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
 }
-.or-red-header-box .sv-portlet p {
+.or-red-header-box .box-header p {
     margin: 0px;
     color: #fff;
     font-family: "leaguespartan webfont",sans-serif;
@@ -3291,7 +3291,7 @@ section.or-bg-one {
     font-weight: 700;
 }
 
-.or-red-header-box .sv-portlet p i{
+.or-red-header-box .box-header p i{
     color: #fff;
     font-size: 22px;
     margin-right: 8px;
@@ -3318,10 +3318,57 @@ section.or-bg-one {
 }
 
 .or-red-header-box .sv-font-action-pil{
-    padding-bottom: 10px;
-    padding-top: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 	padding-left: 50px;
 	font-size: 11px;
+}
+
+
+/* Öppettider startsida */
+
+.or-red-header-box .box-content .fa
+{
+	font-size:20px;
+	padding:5px;
+}
+
+.or-oh-start-page
+{
+	border-bottom:dotted 2px #ECECEC;
+	margin-bottom:20px;
+	padding-bottom:20px;
+}
+
+.or-oh-start-page p
+{
+	font-size:14px;
+}
+
+.or-oh-start-page p.or-phone-info
+{
+	margin-bottom:15px;
+}
+
+.or-oh-start-page p.or-phone-hours
+{
+	display:inline;
+	margin-right:10px;
+}
+
+.or-oh-start-page .or-phone-number
+{
+	font-size:20px;
+	font-weight:300;
+}
+
+.or-oh-start-page .or-oh-time-info {
+	width:auto;
+}
+
+.or-oh-start-page .or-oh-open,.or-oh-start-page .or-oh-closed,.or-oh-start-page .or-oh-status
+{
+	float:none;
 }
 
 
