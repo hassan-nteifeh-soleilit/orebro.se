@@ -1520,7 +1520,7 @@ footer {
     padding-top: 15px;
     border-top: 6px solid #E8E7E5;
     padding-bottom: 15px;
-    margin-top: 0px;
+    margin-top: -1px;
 }
 
 .or-footer-adress-container{
@@ -4121,8 +4121,15 @@ table.or-bath-water th:not(:first-child)  {
     font-size: 12px;
 }
 
-#PanelReportList table thead tr th:first-child {
-    border-right: solid 2px rgba(255, 255, 255, 0.25);
+.oversight-matters table thead tr th{
+	font-family: "leaguespartan webfont",sans-serif;
+    background-color: #e83c23;
+    font-style: normal;
+    text-align: left;
+    padding: 4px 8px;
+    color: #fff;
+    letter-spacing: 0.04em;
+    font-size: 12px;
 }
 
 /* social media */

@@ -45,7 +45,7 @@ nav.or-secondary h2 {
 }
 
 nav.or-secondary {
-    max-width: 750px;
+    /*max-width: 750px;*/
 }
 
 nav.or-secondary .or-content ul li a h3 {
@@ -127,6 +127,12 @@ body .or-puff-link .normal a:link {
 
 section.or-nav-content-section {
     padding-top: 23px;
+}
+
+/* startsida */
+
+.sol-meny-startsida {
+    padding: 0 0% 0% 0%;
 }
 
 
