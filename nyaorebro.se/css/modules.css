@@ -2064,7 +2064,7 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
     padding-left: 14px;
     position: relative;
     padding-right: 45px;
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .or-plus-box-header:hover .plusboxxrubrik {
@@ -2072,9 +2072,9 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
     text-decoration: underline;
 }
 
-.or-plus-box-content{
-	background-color: #fff;
-	padding: 15px;
+.or-plus-box-content {
+    background-color: #fff;
+    padding: 15px;
 }
 
 .or-plus-box-header.or-colorborder.or-wrapper-click.or-plus-box-header.or-plus-box-active{
