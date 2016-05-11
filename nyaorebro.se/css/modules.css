@@ -3434,6 +3434,8 @@ body .or-start-heading-divider .normal{
 
 .or-sok-politiker td{
     font-family: "leaguespartan webfont",sans-serif;
+    font-weight: normal;
+    font-style: normal;
     padding-left: 2.4em;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -3462,7 +3464,7 @@ body .or-start-heading-divider .normal{
     list-style: none;
     background-color: #fff;
     border: solid 2px #f3dcd0;
-    margin-bottom: 10px;
+    margin-bottom: 17px;
 
 }
 .or-sok-politiker ul li a{
@@ -3676,7 +3678,7 @@ body .or-start-heading-divider .normal{
   display: block;
   font-family: "leaguespartan webfont",sans-serif;
   font-size: 12px;
-  margin-bottom: -17px;
+  margin-bottom: -10px;
 }
 
 .or-sok-politiker select{
