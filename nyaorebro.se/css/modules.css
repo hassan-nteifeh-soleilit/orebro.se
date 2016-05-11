@@ -856,10 +856,10 @@ ul.or-teaser-list {
 body .or-update-date {
     font-weight: 100;
     margin-bottom: 4px;
-    font-size: 12px;
+    font-size: 13px;
     display: block;
     margin-top: 9px;
-    color: #857672;
+    color: #6F6F6F;
 }
 
 .or-thumbup
@@ -1520,7 +1520,7 @@ footer {
     padding-top: 15px;
     border-top: 6px solid #E8E7E5;
     padding-bottom: 15px;
-    margin-top: 0px;
+    margin-top: -1px;
 }
 
 .or-footer-adress-container{
@@ -2064,7 +2064,7 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
     padding-left: 14px;
     position: relative;
     padding-right: 45px;
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .or-plus-box-header:hover .plusboxxrubrik {
@@ -2072,9 +2072,9 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
     text-decoration: underline;
 }
 
-.or-plus-box-content{
-	background-color: #fff;
-	padding: 15px;
+.or-plus-box-content {
+    background-color: #fff;
+    padding: 15px;
 }
 
 .or-plus-box-header.or-colorborder.or-wrapper-click.or-plus-box-header.or-plus-box-active{
@@ -3282,7 +3282,7 @@ section.or-bg-one {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
 }
-.or-red-header-box .sv-portlet p {
+.or-red-header-box .box-header p {
     margin: 0px;
     color: #fff;
     font-family: "leaguespartan webfont",sans-serif;
@@ -3291,7 +3291,7 @@ section.or-bg-one {
     font-weight: 700;
 }
 
-.or-red-header-box .sv-portlet p i{
+.or-red-header-box .box-header p i{
     color: #fff;
     font-size: 22px;
     margin-right: 8px;
@@ -3318,10 +3318,57 @@ section.or-bg-one {
 }
 
 .or-red-header-box .sv-font-action-pil{
-    padding-bottom: 10px;
-    padding-top: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 	padding-left: 50px;
 	font-size: 11px;
+}
+
+
+/* Öppettider startsida */
+
+.or-red-header-box .box-content .fa
+{
+	font-size:20px;
+	padding:5px;
+}
+
+.or-oh-start-page
+{
+	border-bottom:dotted 2px #ECECEC;
+	margin-bottom:20px;
+	padding-bottom:20px;
+}
+
+.or-oh-start-page p
+{
+	font-size:14px;
+}
+
+.or-oh-start-page p.or-phone-info
+{
+	margin-bottom:15px;
+}
+
+.or-oh-start-page p.or-phone-hours
+{
+	display:inline;
+	margin-right:10px;
+}
+
+.or-oh-start-page .or-phone-number
+{
+	font-size:20px;
+	font-weight:300;
+}
+
+.or-oh-start-page .or-oh-time-info {
+	width:auto;
+}
+
+.or-oh-start-page .or-oh-open,.or-oh-start-page .or-oh-closed,.or-oh-start-page .or-oh-status
+{
+	float:none;
 }
 
 
@@ -4121,235 +4168,329 @@ table.or-bath-water th:not(:first-child)  {
     font-size: 12px;
 }
 
-#PanelReportList table thead tr th:first-child {
-    border-right: solid 2px rgba(255, 255, 255, 0.25);
+.oversight-matters table thead tr th{
+	font-family: "leaguespartan webfont",sans-serif;
+    background-color: #e83c23;
+    font-style: normal;
+    text-align: left;
+    padding: 4px 8px;
+    color: #fff;
+    letter-spacing: 0.04em;
+    font-size: 12px;
 }
 
 /* social media */
 
-.or-social-media-content 
-
-.or-social-media-content .or-header {
-    color: #0090b4;
-    margin-bottom: 10px;
+.or-social-media-content .or-social-media-content .or-header
+{
+	color:#0090b4;
+	margin-bottom:10px;
 }
 
-.or-follow .normal a:link {
-    font-family: "leaguespartan webfont",sans-serif;
-    font-size: 11px;
-    letter-spacing: 0.02em;
+.or-follow .normal a:link
+{
+	font-family:"leaguespartan webfont",sans-serif;
+	font-size:11px;
+	letter-spacing:.02em;
 }
 
-.or-social-media-content {
-    display: block;
-    float: left;
-    margin-bottom: 20px;
-    margin-top: 10px;
-    border-bottom: 2px dotted #C7C6C5;
-    width: 100%;
-    box-sizing: border-box;
-    padding: 0px 10px 15px 10px;
+.or-social-media-content
+{
+	border-bottom:2px dotted #C7C6C5;
+	box-sizing:border-box;
+	display:block;
+	float:left;
+	margin-bottom:20px;
+	margin-top:10px;
+	padding:0 10px 15px;
+	width:100%;
 }
 
-.or-social-media-content .or-content img {
-    float: left;
-    width: 20%;
-    margin-right: 20px;
-    border-radius: 2px;
+.or-social-media-content .or-content img
+{
+	border-radius:2px;
+	float:left;
+	margin-right:20px;
+	width:20%;
 }
 
-.or-social-media-content.youtube .or-content img {
-    width: 165px;
-    position: relative;
-    z-index: 0;
+.or-social-media-content.youtube .or-content img
+{
+	position:relative;
+	width:165px;
+	z-index:0;
 }
 
-.or-social-media-content.youtube .or-social-image {
-    float: left;
-    position: relative;
-    cursor: pointer;
+.or-social-media-content.youtube .or-social-image
+{
+	cursor:pointer;
+	float:left;
+	position:relative;
 }
 
-.or-social-media-content.youtube .or-social-image:after {
-    content: "\f16a";
-    position: absolute;
-    height: 23px;
-    width: 34px;
-    background-color: white;
-    left: 50%;
-    top: 50%;
-    margin-left: -27px;
-    margin-top: -14px;
-    font: normal normal normal 35px/.7 FontAwesome;
-    color: #C83E30;
-    box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
+.or-social-media-content.youtube .or-social-image:after
+{
+	background-color:#FFF;
+	border-radius:5px;
+	box-shadow:0 0 6px 2px rgba(0,0,0,0.2);
+	color:#C83E30;
+	content:"\f16a";
+	font:normal normal normal 35px/.7 FontAwesome;
+	height:23px;
+	left:50%;
+	margin-left:-27px;
+	margin-top:-14px;
+	position:absolute;
+	top:50%;
+	width:34px;
 }
 
-.or-social-media-content .or-content a {
-    font-weight: 300;
-    font-size: 17px;
+.or-social-media-content .or-content a
+{
+	font-size:17px;
+	font-weight:300;
 }
 
-.or-social-media-content:hover .or-content a {
-    text-decoration: underline;
+.or-social-media-content:hover .or-content a
+{
+	text-decoration:underline;
 }
 
-.or-social-media-content .or-content {
-    float: left;
-    width: 100%;
-    box-sizing: border-box;
+.or-social-media-content .or-content
+{
+	box-sizing:border-box;
+	float:left;
+	width:100%;
 }
 
-.or-social-media-content.instagram .or-header .fa  {
-    color: #64b0d7;
+.or-social-media-content.instagram .or-header .fa-circle
+{
+	color:#64b0d7;
 }
 
-.or-social-media-content.facebook .or-header .fa {
-    color: #0090b4;
+.or-social-media-content.facebook .or-header .fa-circle
+{
+	color:#0090b4;
 }
 
-.or-social-media-content.youtube .or-header .fa {
-    color: #c83e30;
+.or-social-media-content.youtube .or-header .fa-circle
+{
+	color:#c83e30;
 }
 
-.fa-instagram:before, .fa-facebook:before, .fa-youtube:before  {
-    color: #fff;
+.or-social-media-content .or-header
+{
+	color:#857672;
+	font-size:12px;
+	font-weight:300;
+	margin-bottom:7px;
 }
 
-.or-social-media-content .or-header {
-    color: #857672;
-    font-weight: 300;
-    font-size: 12px;
-    margin-bottom: 7px;
+.or-social-media-content.youtube .or-header
+{
+	color:#35383b;
+	font-family:"leaguespartan webfont",sans-serif;
+	font-size:12px;
+	font-weight:700;
+	letter-spacing:.02em;
 }
 
-.or-social-media-content.youtube .or-header {
-    color: #35383b;
-    font-weight: 700;
-    font-size: 12px;
-    font-family: "leaguespartan webfont",sans-serif;
-    letter-spacing: 0.02em;
+.or-social-media-content .or-header .fa-clock-o
+{
+	color:#857672;
+	margin-left:10px;
 }
 
-.or-social-media-content.instagram .or-header .fa-clock-o {
-    color: #857672;
-    margin-left: 10px;
+.or-social-media-content .or-stats
+{
+	background-color:#f9f9f8;
+	border:2px solid #eeeceb;
+	border-radius:2px;
+	box-sizing:border-box;
+	color:#857672;
+	display:block;
+	float:left;
+	font-family:"leaguespartan webfont",sans-serif;
+	font-size:10px;
+	margin-bottom:10px;
+	margin-top:10px;
+	padding:4px 10px;
+	width:100%;
 }
 
-body .or-social-media-content.facebook .or-header .fa-clock-o {
-    color: #857672;
-    margin-left: 5px;
+.or-social-media-content .or-stats .fa
+{
+	font:normal normal normal 14px/1 FontAwesome;
+	margin-left:15px;
+	margin-right:5px;
 }
 
-.or-social-media-content.instagram .or-header .fa-clock-o {
-    color: #857672;
-    margin-left: 10px;
+.or-social-media-content .or-stats .fa:first-child
+{
+	margin-left:0;
 }
 
-.or-social-media-content .or-stats {
-    background-color: #f9f9f8;
-    border: 2px solid #eeeceb;
-    border-radius: 2px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 4px 10px;
-    float: left;
-    display: block;
-    width: 100%;
-    font-family: "leaguespartan webfont",sans-serif;
-    font-size: 10px;
-    color: #857672;
-    box-sizing: border-box;
+.or-social-media-content.facebook .fa-reactions
+{
+	background-image:url(http://ptsrv3007.orebro.se/images/18.5ab4ab37154229e2ec8753e/1462525596156/reaction-orebro.png);
+	background-repeat:no-repeat;
+	background-size:58px;
+	height:16px;
+	position:relative;
+	top:3px;
+	width:60px;
 }
 
-.or-social-media-content .or-stats .fa{
-    margin-right: 5px;
-    font: normal normal normal 14px/1 FontAwesome;
-    margin-left: 15px;
-
+.or-media-popup
+{
+	display:none;
+	float:left;
+	position:relative;
+	transition:.3s ease;
 }
 
-
-.or-social-media-content .or-stats .fa:first-child {
-    margin-left: 0px;
+.show-popup .or-media-popup
+{
+	display:block;
 }
 
-.or-social-media-content.facebook .fa-reactions {
-    width: 60px;
-    height: 16px;
-    background-image: url('http://ptsrv3007.orebro.se/images/18.5ab4ab37154229e2ec8753e/1462525596156/reaction-orebro.png');
-    background-size: 58px;
-    position: relative;
-    top: 3px;
-    background-repeat: no-repeat;
+.show-popup .or-social-image,.show-popup a
+{
+	display:none;
+}
+
+.youtube .or-content
+{
+	position:relative;
+}
+
+.or-media-close
+{
+	background-color:#e83c23;
+	border-bottom-right-radius:3px;
+	border-top-right-radius:3px;
+	box-shadow:3px 0 6px -3px rgba(0,0,0,0.4) inset;
+	color:#fff;
+	display:block;
+	font-size:11px;
+	font-weight:700;
+	height:45px;
+	left:560px;
+	position:absolute;
+	text-align:center;
+	width:50px;
+}
+
+.or-media-close:hover
+{
+	background-color:#35383b;
+	cursor:pointer;
+}
+
+.or-media-close .fa-close
+{
+	color:#FFF;
+	font-size:17px;
+	padding-top:5px;
+	text-align:center;
+	width:100%;
 }
 
 /* Faktarutor */
-.or-facts-block {
-   border-color: rgba(242, 140, 0, 0.55);
-   background-color: #ffffff;
-   border-radius:2px;
-   width:100%; 
-   box-sizing: border-box;
-}   
-
-.or-facts-block h2 {
-    color: #F28C00;
-    margin-top: 0px!important;
+.or-facts-block
+{
+	background-color:#fff;
+	border-color:rgba(242,140,0,0.55);
+	border-radius:2px;
+	box-sizing:border-box;
+	width:100%;
 }
 
-
-.or-media-popup {
-    float: left;
-    position: relative;
-    transition:.3s ease;
-    display: none; 
-}
-
-.show-popup .or-media-popup {
-    display: block;    
-}
-
-.show-popup .or-social-image,
-.show-popup a {
-    display: none;    
-}
-
-.youtube .or-content {
-    position: relative;    
-}
-
-.or-media-close {
-    position: absolute;    
-    left: 560px;    
-    display: block;
-    height: 45px;
-    width: 50px;
-    font-weight: bold;
-    font-size: 11px;
-    background-color: #e83c23;
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
-    box-shadow: 3px 0px 6px -3px rgba(0, 0, 0, 0.4) inset;
-    text-align: center;
-    color: #fff;
-}
-
-.or-media-close:hover {
-    background-color: #35383b;
-    cursor: pointer;
-}
-
-.or-media-close .fa-close {
-    color: #FFFFFF;
-    font-size: 17px;
-    width: 100%;
-    text-align: center;
-    padding-top: 5px;
+.or-facts-block h2
+{
+	color:#F28C00;
+	margin-top:0!important;
 }
 
 /* Pilavdelare genomgångsida 2 */
-.or-content-page-2 .or-arrow-box::after {
-    left: 40%;
+.or-content-page-2 .or-arrow-box::after
+{
+	left:40%;
+}
+
+/* Processkarta nya tabs */
+.sol-js-tabs-container
+{
+	margin-bottom:25px;
+	width:100%;
+}
+
+.sol-tab-button-container .sol-tab-button
+{
+	background:#fff;
+	cursor:pointer;
+	display:table-cell;
+	font-family:"leaguespartan webfont",sans-serif;
+	font-size:11px;
+	line-height:1.2em;
+	padding:10px 20px;
+	text-align:center;
+}
+
+.sol-tab-button
+{
+	border:1px solid rgba(255,0,0,0.12);
+}
+
+.sol-tab-button.sol-tab-active
+{
+	background:#e83c23;
+	border-bottom:0;
+	border-left:0;
+	border-right:0;
+	border-top:5px solid #cf311a;
+	color:#fff;
+}
+
+.sol-tabs-decoration-content
+{
+	background-color:#fff;
+	border-bottom:1px solid rgba(232,60,35,0.20);
+	border-left:1px solid rgba(232,60,35,0.2);
+	border-right:1px solid rgba(232,60,35,0.2);
+	border-top:5px solid #e83c23;
+	padding:12px;
+}
+
+.sol-js-tabs-container .sv-responsive .sv-image-portlet img
+{
+	height:auto;
+	max-width:100%;
+	width:auto;
+}
+
+.sol-tabs-decoration-content .or-facts-block
+{
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:35px;
+	padding-top:30px;
+	width:90%;
+}
+
+.sol-tab-button-container
+{
+	display:table;
+	width:100%;
+}
+
+.sol-js-tabs-container ul
+{
+	margin:0;
+	padding:0;
+}
+
+.sol-accordion-heading
+{
+	display:none;
 }
