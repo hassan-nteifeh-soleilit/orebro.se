@@ -1,40 +1,42 @@
-Öppetttiderna styrs av sidan Öppettider servicecenter som ligger under funktionsidor/öppettider/
+Ã–ppetttiderna styrs av sidan Ã–ppettider servicecenter som ligger under funktionsidor/Ã¶ppettider/
 
-Öppettiderna definieras genom en JSON som redigeras på den sidan grunderna för ett JSON är följande.
+Ã–ppettiderna definieras i ett JSON-block som redigeras i ett textfÃ¤lt pÃ¥ den sidan. 
 
+Grunderna fÃ¶r ett JSON
+============================
 - Ett block omsluts alltid med {}.
 - En lista med ett eller flera block omsluts med [] varje block i en lista ska separeras med ett kommatecken.
-- Ett block består av namngivna parametrar inom "" och med avskiljaren : till värdet för parametern. Ny parameter avskiljs med kommatecken efter värdet på föregående parametern.
-- Textsträngar ska alltid omslutas inom "".
+- Ett block bestÃ¥r av namngivna parametrar inom "" och med avskiljaren : till vÃ¤rdet fÃ¶r parametern. Ny parameter avskiljs med kommatecken efter vÃ¤rdet pÃ¥ fÃ¶regÃ¥ende parametern.
+- TextstrÃ¤ngar ska alltid omslutas inom "".
 
 
-Platsbeskrivning (place): Namnet på platsen för vilken öppettiderna gäller.
-Extrainfo (extrainfo): Eventuell extra informationstext för platsen.
+Platsbeskrivning (place): Namnet pÃ¥ platsen fÃ¶r vilken Ã¶ppettiderna gÃ¤ller.
+Extrainfo (extrainfo): Eventuell extra informationstext fÃ¶r platsen.
 Adress (address): Platsens adress.
-Giltighet (validto): Sistadatum för när specifikationen av öppettiderna gäller.
-Öppettider (openinghours): En lista med ett eller flera öppettidsblock
+Giltighet (validto): Sistadatum fÃ¶r nÃ¤r specifikationen av Ã¶ppettiderna gÃ¤ller.
+Ã–ppettider (openinghours): En lista med ett eller flera Ã¶ppettidsblock
 
 {
 	"place": "Servicecenter",
 	"extrainfo": "",
 	"address": "Drottninggatan 5",
 	"validto": "20161231",
-	"openinghours": [ÖPPETTIDSSBLOCK]
+	"openinghours": [Ã–PPETTIDSSBLOCK]
 }
 
-Öppettidsblock
+Ã–ppettidsblock
 =================
-Ett öppettidsblock används för att definera normala öppettider, ändrade/utökade öppetider eller för att definera när det är stängt inom definitionen av normala öppettider.
-Alla tider som inte omfattas av normala eller ändrade/utökade öppetider anses som stängda.
+Ett Ã¶ppettidsblock anvÃ¤nds fÃ¶r att definera normala Ã¶ppettider, Ã¤ndrade/utÃ¶kade Ã¶ppetider eller fÃ¶r att definera nÃ¤r det Ã¤r stÃ¤ngt inom definitionen av normala Ã¶ppettider.
+Alla tider som inte omfattas av normala eller Ã¤ndrade/utÃ¶kade Ã¶ppetider anses som stÃ¤ngda.
 
-Typ (type): Det finns tre olika typer (types) av öppettidsblock; normal, changed och closed. Closed har högst prioritet följt av changed.
-Öppnar (open): Tidpunkt då det öppnar (tt:mm).
-Stänger (close): Tidpunkt då det stänger (tt:mm).
-Beskrivning (description): Samlingsnamn för öppettiden.
+Typ (type): Det finns tre olika typer (types) av Ã¶ppettidsblock; normal, changed och closed. Closed har hÃ¶gst prioritet fÃ¶ljt av changed.
+Ã–ppnar (open): Tidpunkt dÃ¥ det Ã¶ppnar (tt:mm).
+StÃ¤nger (close): Tidpunkt dÃ¥ det stÃ¤nger (tt:mm).
+Beskrivning (description): Samlingsnamn fÃ¶r Ã¶ppettiden.
 Upprepning(repeat): Se "Upprepningsblock"
-Datumlista (datelist): Inget, ett eller flera specifika datum för öppettiden, se Datumblock.
+Datumlista (datelist): Inget, ett eller flera specifika datum fÃ¶r Ã¶ppettiden, se Datumblock.
 
-Exempel: Normala öppetider 7-17 måndag-fredag
+Exempel: Normala Ã¶ppetider 7-17 mÃ¥ndag-fredag
 {
 	"type": "normal",
 	"open": "7:00",
@@ -48,7 +50,7 @@ Exempel: Normala öppetider 7-17 måndag-fredag
 	"datelist": []
 }
 
-Exempel: Ändrad öppetid 7-16 skärtorsdagen
+Exempel: Ã„ndrad Ã¶ppetid 7-16 skÃ¤rtorsdagen
 {
 	"type": "changed",
 	"open": "7:00",
@@ -57,12 +59,12 @@ Exempel: Ändrad öppetid 7-16 skärtorsdagen
 	"repeat": null,
 	"datelist": [{
 		"date": 20160324,
-		"name": "Skärtorsdagen"
+		"name": "SkÃ¤rtorsdagen"
 	}]
 }
 
 
-Exempel: Stängt jul och nyår
+Exempel: StÃ¤ngt jul och nyÃ¥r
 {	"type":"closed",
 	"open":"", 
 	"close":"", 
@@ -72,32 +74,32 @@ Exempel: Stängt jul och nyår
 		{"date":20161224,"name":"julafton "},
 		{"date":20161225,"name":"juldagen"},
 		{"date":20161226,"name":"annandag jul"},
-		{"date":20161231,"name":"Nyårsafton"},
-		{"date":20170101,"name":"nyårsdagen"}
+		{"date":20161231,"name":"NyÃ¥rsafton"},
+		{"date":20170101,"name":"nyÃ¥rsdagen"}
 	]
 }
 
 Upprepningsblock
 =================	
-Frekvens (freq): Upprepningsfrekvens för öppettiden; weekly, monthly och yearly
-Månader (inmonth): Lista på månadsnummer för vilken öppettidsblocket gäller.
-Dagar (inday): Lista med en eller flera dagar som öppettidsblocket gäller för. Två första bokstäverna av dagens engelska namn i versaler ex. "FR". Specifik veckodag i en månad anges med siffra före, ex andra lördagen i månaden "2SA"
+Frekvens (freq): Upprepningsfrekvens fÃ¶r Ã¶ppettiden; weekly, monthly och yearly
+MÃ¥nader (inmonth): Lista pÃ¥ mÃ¥nadsnummer fÃ¶r vilken Ã¶ppettidsblocket gÃ¤ller.
+Dagar (inday): Lista med en eller flera dagar som Ã¶ppettidsblocket gÃ¤ller fÃ¶r. TvÃ¥ fÃ¶rsta bokstÃ¤verna av dagens engelska namn i versaler ex. "FR". Specifik veckodag i en mÃ¥nad anges med siffra fÃ¶re, ex andra lÃ¶rdagen i mÃ¥naden "2SA"
 	
-Exempel: Veckovis måndag till fredag	
+Exempel: Veckovis mÃ¥ndag till fredag	
 {
 	"freq": "weekly",
 	"inmonth": [],
 	"inday": ["MO", "TU", "WE", "TH", "FR"]
 }
 
-Exempel: 1:a lördagen i månaden
+Exempel: 1:a lÃ¶rdagen i mÃ¥naden
 {
 	"freq":"monthly", 
 	"inmonth":[], 
 	"inday": ["1SA"]
 }
 
-Exempel: Måndagar i april-oktober
+Exempel: MÃ¥ndagar i april-oktober
 {
 	"freq":"yearly",
 	"inmonth":[4,5,6,7,8,9,10], 
@@ -107,8 +109,8 @@ Exempel: Måndagar i april-oktober
 
 Datumblock
 ===========
-Datum (date): Datumet för när öppettiden det gäller (ååååmmdd)
-Namn (name): Namn på datumet, används främst för helgdagar.
+Datum (date): Datumet fÃ¶r nÃ¤r Ã¶ppettiden det gÃ¤ller (Ã¥Ã¥Ã¥Ã¥mmdd)
+Namn (name): Namn pÃ¥ datumet, anvÃ¤nds frÃ¤mst fÃ¶r helgdagar.
 
 Exempel: Julafton
 {
@@ -119,20 +121,20 @@ Exempel: Julafton
 
 Fullt exempel
 ===================
-Två normala veckotids öppetidsblock ett för kl 10-19 måndag-torsdag och ett för kl 9-16 fredag-söndag.
-Ett öppetidsblock med ändrad tid kl 9-16 och en lista med datum för när det gäller.
-Ett öppetidsblock då det är stängt och en lista med datum för när det gäller.
+TvÃ¥ normala veckotids Ã¶ppetidsblock ett fÃ¶r kl 10-19 mÃ¥ndag-torsdag och ett fÃ¶r kl 9-16 fredag-sÃ¶ndag.
+Ett Ã¶ppetidsblock med Ã¤ndrad tid kl 9-16 och en lista med datum fÃ¶r nÃ¤r det gÃ¤ller.
+Ett Ã¶ppetidsblock dÃ¥ det Ã¤r stÃ¤ngt och en lista med datum fÃ¶r nÃ¤r det gÃ¤ller.
 
 {
 	"place": "Mellringe",
-	"extrainfo": "med Åternyttan",
-	"address": "Återbruksvägen 1",
+	"extrainfo": "med Ã…ternyttan",
+	"address": "Ã…terbruksvÃ¤gen 1",
 	"validto": "20161231",
 	"openinghours": [{
 		"type": "normal",
 		"open": "10:00",
 		"close": "19:00",
-		"description": "Måndag-torsdag",
+		"description": "MÃ¥ndag-torsdag",
 		"repeat": {
 			"freq": "weekly",
 			"inmonth": [],
@@ -143,7 +145,7 @@ Ett öppetidsblock då det är stängt och en lista med datum för när det gäller.
 		"type": "normal",
 		"open": "9:00",
 		"close": "16:00",
-		"description": "Fredag, lördag och söndag",
+		"description": "Fredag, lÃ¶rdag och sÃ¶ndag",
 		"repeat": {
 			"freq": "weekly",
 			"inmonth": [],
@@ -158,19 +160,19 @@ Ett öppetidsblock då det är stängt och en lista med datum för när det gäller.
 		"repeat": null,
 		"datelist": [{
 			"date": 20160324,
-			"name": "Skärtorsdagen"
+			"name": "SkÃ¤rtorsdagen"
 		}, {
 			"date": 20160328,
-			"name": "annandag påsk"
+			"name": "annandag pÃ¥sk"
 		}, {
 			"date": 20160430,
-			"name": "Valborgsmässoafton"
+			"name": "ValborgsmÃ¤ssoafton"
 		}, {
 			"date": 20160501,
-			"name": "första maj"
+			"name": "fÃ¶rsta maj"
 		}, {
 			"date": 20160505,
-			"name": "kristi himmelfärdsdag"
+			"name": "kristi himmelfÃ¤rdsdag"
 		}]
 	}, {
 		"type": "closed",
@@ -183,22 +185,22 @@ Ett öppetidsblock då det är stängt och en lista med datum för när det gäller.
 			"name": "annandag jul"
 		}, {
 			"date": 20151231,
-			"name": "Nyårsafton"
+			"name": "NyÃ¥rsafton"
 		}, {
 			"date": 20160101,
-			"name": "nyårsdagen"
+			"name": "nyÃ¥rsdagen"
 		}, {
 			"date": 20160106,
 			"name": "trettondagen"
 		}, {
 			"date": 20160325,
-			"name": "långfredagen"
+			"name": "lÃ¥ngfredagen"
 		}, {
 			"date": 20160326,
-			"name": "påskafton"
+			"name": "pÃ¥skafton"
 		}, {
 			"date": 20160327,
-			"name": "påskdagen"
+			"name": "pÃ¥skdagen"
 		}, {
 			"date": 20160606,
 			"name": "nationaldagen"
