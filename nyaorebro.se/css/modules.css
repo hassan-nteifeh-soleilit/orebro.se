@@ -3490,11 +3490,6 @@ body .or-start-heading-divider .normal{
     margin-left: 1.2em;
 }
 
-.or-utsokt-politiker .or-sok-politiker td {
-  line-height: 22px;
-  font-family: "leaguespartan webfont", sans-serif;
-}
-
 .or-sokt-politiker .or-sok-politiker tr td div strong {
   display: none;
 }
@@ -3726,8 +3721,14 @@ body .or-start-heading-divider .normal{
 } */
 
 
-
-
+/* Utsökt politiker */
+.or-utsokt-politiker .or-sok-politiker td {
+  line-height: 22px;
+  font-family: "leaguespartan webfont", sans-serif;
+}
+.or-utsokt-politiker h3{
+  font-size: 14px;
+}
 
 /* Driftstörningsnyheter */
 .or-news-newslist{
