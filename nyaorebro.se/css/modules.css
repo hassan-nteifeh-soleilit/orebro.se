@@ -3320,37 +3320,38 @@ section.or-bg-one {
     color: #DADCDE;
 }
 
-.or-red-header-box .sv-font-action-pil:before{
+.or-red-header-box .sv-font-action-pil:before {
     background-color: #857672;
-    font: normal normal normal 15px/40px FontAwesome;
-    width: 36px;
+    font: normal normal normal 12px/34px FontAwesome;
+    width: 33px;
 }
 
 .or-red-header-box .sv-font-action-pil:after{
 	display: none;
 }
 
-.or-red-header-box .sv-font-action-pil{
-  padding-bottom: 10px;
-  padding-top: 10px;
-	padding-left: 50px;
-	font-size: 11px;
+.or-red-header-box .sv-font-action-pil {
+    padding-bottom: 7px;
+    padding-top: 8px;
+    padding-left: 50px;
+    font-size: 11px;
+    width: 90%;
 }
 
 
 /* Öppettider startsida */
 
-.or-red-header-box .box-content .fa
-{
-	font-size:20px;
-	padding:5px;
+.or-red-header-box .box-content .fa {
+    font-size: 24px;
+    padding: 5px;
+    position: relative;
+    top: 3px;
 }
 
-.or-oh-start-page
-{
-	border-bottom:dotted 2px #ECECEC;
-	margin-bottom:20px;
-	padding-bottom:20px;
+.or-oh-start-page {
+    border-bottom: dotted 2px #ECECEC;
+    margin-bottom: 14px;
+    padding-bottom: 12px;
 }
 
 .or-oh-start-page p
