@@ -3681,7 +3681,7 @@ body .or-start-heading-divider .normal{
     font-family: "leaguespartan webfont",sans-serif;
     margin-top: 20px;
     
-} 
+}
 .or-sokt-politiker h1 {
     margin-left: 1.2em;
 }
@@ -3781,6 +3781,15 @@ body .or-start-heading-divider .normal{
 	padding-top: 0.9em;
   color:black;
 }
+/*göm html-modul på politikersidor*/
+.or-sokt-politiker .or-btn .or-ny-sokning {
+  display: none;
+}
+.or-sok-politiker .or-btn .or-ny-sokning {
+  display: none;
+}
+
+
 .or-sok-politiker div, .or-sok-politiker table {
     color: black;
 }
@@ -3789,6 +3798,7 @@ body .or-start-heading-divider .normal{
   display: block;
   margin-top: -20px;
 }
+
 
 .or-sok-politiker hr{
   margin-left: -2.2em;
@@ -3926,7 +3936,8 @@ body .or-start-heading-divider .normal{
     font-size: 12px;
     color: #35383b;
     text-decoration: none;
-    line-height: normal
+    line-height: normal;
+    box-shadow: rgba(174, 222, 239, 0.65)0px -14px 0px -10px inset;
 }   
 .or-ny-sokning{
   background-color: #857672;
