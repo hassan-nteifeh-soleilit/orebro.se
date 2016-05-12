@@ -3381,9 +3381,13 @@ section.or-bg-one {
 	width:auto;
 }
 
-.or-oh-start-page .or-oh-open,.or-oh-start-page .or-oh-closed,.or-oh-start-page .or-oh-status
-{
-	float:none;
+.or-oh-start-page .or-oh-open, .or-oh-start-page .or-oh-closed, .or-oh-start-page .or-oh-status {
+    float: none;
+    min-width: 40px;
+}
+
+.or-oh-start-page .normal a {
+    font-size: 15px;
 }
 
 
@@ -3459,22 +3463,22 @@ section.or-bg-one {
 	color: #DADCDE;	
 }
 
-.visa-fler-driftstorningar{
-  position: relative;
-  bottom: -47px;
-  z-index: -1;
-  border-bottom-left-radius: 4px;
-  border-bottom-right-radius: 4px;
-  padding: 10px;
-  text-align: center;
-  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.08);
-  background-color: #fff;
-  margin-left: 25px;
-  
-  color: #35383b;
-  font-size: 11px;
-  font-family: "leaguespartan webfont",sans-serif;
-}    
+.visa-fler-driftstorningar {
+    position: absolute;
+    bottom: -37px;
+    z-index: -1;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.08);
+    background-color: #fff;
+    margin-left: -100px;
+    color: #35383b;
+    font-size: 11px;
+    font-family: "leaguespartan webfont",sans-serif;
+    left: 50%;
+} 
 
 /*** Startsida Aktuell service just nu ***/
 .or-start-white-divider {
