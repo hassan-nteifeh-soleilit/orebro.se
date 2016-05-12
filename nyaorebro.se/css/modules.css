@@ -3231,11 +3231,22 @@ section.or-bg-one {
 .sol-DrifStorningtVitRubrik{
   color: green;
 }
+/*
 .sol-btn-visa-fler-drift-stornigar{
   display: block;
   text-align: center;
 }
 .sol-btn-visa-fler-drift-stornigar:after{
+  content: "\f054";
+  font-family: FontAwesome;
+}
+*/
+
+.or-start-bottom-tabs{
+  display: block;
+  text-align: center;
+}
+ .or-start-bottom-tabs:after{
   content: "\f054";
   font-family: FontAwesome;
 }
@@ -3520,6 +3531,7 @@ body .or-start-heading-divider .normal{
   color: #35383b;
   text-decoration: none;
   line-height: 16px;
+  box-shadow: rgba(174, 222, 239, 0.65)0px -14px 0px -10px inset;
 }
 .or-sokt-politiker .or-sok-politiker b{
 	color:black;
