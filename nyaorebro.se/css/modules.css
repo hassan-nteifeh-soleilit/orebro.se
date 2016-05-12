@@ -3444,6 +3444,7 @@ body .or-start-heading-divider .normal{
   background-color:transparent;
 }
 
+
 .or-sok-politiker{
     background-color: #fff;
     border: solid 1px #f3dcd0;
@@ -3479,6 +3480,10 @@ body .or-start-heading-divider .normal{
     margin-top: 20px;
     
 } 
+.or-sokt-politiker h1 {
+    margin-left: 1.2em;
+}
+
 /*
 .proxy-med-dolda-resultat .sok-politiker strong, b {
     0.9em;
@@ -3517,16 +3522,8 @@ body .or-start-heading-divider .normal{
   line-height: 16px;
 }
 
-/*
-.or-sokt-politiker .or-sok-politiker hr{
-	background-color: rgba(133, 118, 114, 0.2);
-  position: relative;
-   top: -65px;
-   box-sizing: border-box;
-} */
-
 .or-sokt-politiker .or-sok-politiker div a{
-	    content: "\f002 ";
+	  content: "\f002 ";
     font-family: FontAwesome;
     background-color: #857672;
     display: inline-block;
@@ -3576,6 +3573,7 @@ body .or-start-heading-divider .normal{
   color: #35383b;
   text-decoration: none;
   line-height: 16px;
+  font-family: sans-serif;
   /*font-family: ;*/
 }
 
