@@ -225,13 +225,6 @@ body section.or-top-img-area .brodtextxxfetx {
     padding: 7px 1px 1px 6px;
 }
 
-/* modal */
-/*
-.or-modal {
-    width: 320px!important;
-    margin-left: -160px!important;
-}
-*/
 
 /* ÅVC */
 .or-oh-time-info {
@@ -271,6 +264,51 @@ body section.or-top-img-area .brodtextxxfetx {
 .or-action-right-icon {
 	width:35px;
 }
+
+
+/* processteg */
+.sol-accordion-heading {
+ background-color: #e83c23;
+ color: #fff;
+ border-top: 3px solid #F4F3F1;
+ margin: 0 0 5px;
+ padding: 5px 35px 5px 7px;
+ display: block;
+ cursor: pointer;
+ font-size: 12px;
+ border-radius: 2px;
+}
+
+.sol-accordion-heading:after {
+    content: "\f067";
+    font-family: FontAwesome;
+    padding-right: 6px;
+    color: #35383b;
+    position: absolute;
+    right: 35px;
+    font-size: 20px;
+}
+
+.sol-accordion-heading.sol-tab-active:after{
+    content: "\f068";
+    font-family: FontAwesome;
+    padding-right: 6px;
+    color: #fff;
+    position: absolute;
+    right: 35px;
+    font-size: 20px;
+}
+
+.sol-accordion-heading.sol-tab-active{
+    background-color: #e83c23;
+    color: #fff;
+    border: 2px solid #e83c23;
+}
+
+.sol-tab-button-container {
+    display: none;
+}
+
 
 	/* från base */
 /*
