@@ -3516,9 +3516,7 @@ body .or-start-heading-divider .normal{
   text-decoration: none;
   line-height: 16px;
 }
-.or-sokt-politiker .or-sok-politiker table.c9{
-  border-bottom: 1px solid rgba(133, 118, 114, 0.2);
-}
+
 /*
 .or-sokt-politiker .or-sok-politiker hr{
 	background-color: rgba(133, 118, 114, 0.2);
@@ -3713,12 +3711,19 @@ body .or-start-heading-divider .normal{
   -webkit-appearance: none;
   letter-spacing: 0.01em;
 }
+
+.or-sokt-politiker .or-sok-politiker hr {
+    margin-left: -1.8em
+}
 /*utsökt politiker*/
 /*
 .or-sokt-politiker .sok-politiker strong {
   background-color: pink;
   visibility: 
 } */
+
+
+
 
 
 /* Driftstörningsnyheter */
