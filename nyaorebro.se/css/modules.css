@@ -3242,10 +3242,6 @@ section.or-bg-one {
 }
 */
 
-.or-start-bottom-tabs{
-  display: block;
-  text-align: center;
-}
  .or-start-bottom-tabs:after{
   content: "\f054";
   font-family: FontAwesome;
