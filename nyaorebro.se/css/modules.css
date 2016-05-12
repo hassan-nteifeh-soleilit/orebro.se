@@ -2671,6 +2671,12 @@ body .or-news-filter .or-colorborder.or-wrapper-click.or-plus-box-header.or-plus
 
 }
 
+.or-news-list.or-small li {
+	box-shadow: none;
+  border-bottom: 2px #E2E2E2 solid;	
+}
+
+
 .or-news-list li:hover h3 a{
 	box-shadow: rgba(174, 222, 239, 0.65) 0px -60px 0px -30px inset;
 }
