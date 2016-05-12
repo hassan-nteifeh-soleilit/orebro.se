@@ -3391,6 +3391,39 @@ section.or-bg-one {
     margin-left: 1%!important;
     margin-right: 1%;
 }
+
+/* Tabbar under Kontakta oss - Servivecenter */
+.or-start-bottom-tabs ul {
+		width: 85%;
+    padding: 10px;
+		margin: auto;
+}
+
+.or-start-bottom-tabs ul li {
+    display: inline;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px -1px 7px -2px rgba(0, 0, 0, 0.07);
+    background-color: #fff;
+		margin-left: 10px;
+}
+
+.or-start-bottom-tabs ul li .fa-warning {
+	color:#E73C2B;
+	font-size: 16px;
+}
+
+.or-start-bottom-tabs ul li .fa-info-circle {
+	color:#F49840;
+	font-size: 16px;
+}
+
+.or-start-bottom-tabs ul li .fa {
+	margin: 0 5px;	
+}
+
 /*** Startsida Aktuell service just nu ***/
 .or-start-white-divider {
     background-color: #fff;
