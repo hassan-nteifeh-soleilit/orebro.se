@@ -3335,7 +3335,7 @@ section.or-bg-one {
 .or-red-header-box .sv-font-action-pil {
     padding-bottom: 7px;
     padding-top: 8px;
-    padding-left: 50px;
+    padding-left: 45px;
     font-size: 11px;
     width: 90%;
 }
@@ -3348,6 +3348,10 @@ section.or-bg-one {
     padding: 5px;
     position: relative;
     top: 3px;
+}
+
+.or-red-header-box .box-content .fa.fa-envelope-o{
+    font-size: 20px;
 }
 
 .or-oh-start-page {
@@ -3394,7 +3398,7 @@ section.or-bg-one {
 /* Meny startsida */
 .sol-meny-startsida {
     padding: 4% 0 8% 0;
-    margin-top: -35px;
+    margin-top: -30px;
 }
 
 .hero-startsida .or-secondary .or-content ul li a h3 {
