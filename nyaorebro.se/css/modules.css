@@ -3242,7 +3242,7 @@ section.or-bg-one {
 }
 */
 
- .or-start-bottom-tabs:after{
+ .or-start-bottom-tabs .visa-fler-driftstorningar:after{
   content: "\f054";
   font-family: FontAwesome;
 }
