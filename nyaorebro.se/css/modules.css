@@ -3713,13 +3713,6 @@ body .or-start-heading-divider .normal{
 .or-sokt-politiker .or-sok-politiker hr {
     margin-left: -1.8em
 }
-/*utsökt politiker*/
-/*
-.or-sokt-politiker .sok-politiker strong {
-  background-color: pink;
-  visibility: 
-} */
-
 
 /* Utsökt politiker */
 .or-utsokt-politiker .or-sok-politiker td {
@@ -3757,7 +3750,7 @@ body .or-start-heading-divider .normal{
     padding-left: 8px;
 }
 
-body .or-puff-link .normal a:link {
+body .or-puff-link .normal a{
     font-family: "leaguespartan webfont",sans-serif;
     box-shadow: rgba(174, 222, 239, 0.0)0px 0px 0px 0px inset;
     color: #e83c23;
@@ -3769,14 +3762,9 @@ body .or-puff-link:hover .normal a:link {
     color: #35383b;
 }
 
-body .or-puff-link a:link{
-	font-family: "leaguespartan webfont",sans-serif;
-	box-shadow: rgba(174, 222, 239, 0.0)0px 0px 0px 0px inset;
-	color: #e83c23;
-}
-
 body .or-puff-link .normal{
-	color: #e83c23;
+	/*color: #e83c23;*/
+  color:black;
 	margin-bottom: 0px;
 }
 
