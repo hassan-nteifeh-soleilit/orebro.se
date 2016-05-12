@@ -3782,12 +3782,7 @@ body .or-start-heading-divider .normal{
   color:black;
 }
 /*göm html-modul på politikersidor*/
-.or-sokt-politiker .or-btn .or-ny-sokning {
-  display: none;
-}
-.or-sok-politiker .or-btn .or-ny-sokning {
-  display: none;
-}
+
 
 
 .or-sok-politiker div, .or-sok-politiker table {
