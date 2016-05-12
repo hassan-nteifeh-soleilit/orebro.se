@@ -4360,9 +4360,14 @@ table.or-bath-water th:not(:first-child)  {
     margin-top: 10px;
     padding: 0 10px 25px;
     width: 100%;
-    max-width: 565px;
-    margin: 10px auto 20px;
     margin-top: -10px;
+    float: left;
+}
+
+.or-news-social-section-startpage .or-social-media-content{
+	    margin: 10px 20px;
+	    max-width: 565px;
+	    float: none;
 }
 
 .or-social-media-content .or-content img
@@ -4551,6 +4556,14 @@ table.or-bath-water th:not(:first-child)  {
 	text-align:center;
 	width:100%;
 }
+
+
+/* social media undersida */
+
+.or-content-container {
+	
+}
+
 
 /* Faktarutor */
 .or-facts-block
