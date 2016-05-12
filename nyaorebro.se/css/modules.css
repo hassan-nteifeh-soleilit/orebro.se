@@ -3322,37 +3322,38 @@ section.or-bg-one {
     color: #DADCDE;
 }
 
-.or-red-header-box .sv-font-action-pil:before{
+.or-red-header-box .sv-font-action-pil:before {
     background-color: #857672;
-    font: normal normal normal 15px/40px FontAwesome;
-    width: 36px;
+    font: normal normal normal 12px/34px FontAwesome;
+    width: 33px;
 }
 
 .or-red-header-box .sv-font-action-pil:after{
 	display: none;
 }
 
-.or-red-header-box .sv-font-action-pil{
-  padding-bottom: 10px;
-  padding-top: 10px;
-	padding-left: 50px;
-	font-size: 11px;
+.or-red-header-box .sv-font-action-pil {
+    padding-bottom: 7px;
+    padding-top: 8px;
+    padding-left: 50px;
+    font-size: 11px;
+    width: 90%;
 }
 
 
 /* Öppettider startsida */
 
-.or-red-header-box .box-content .fa
-{
-	font-size:20px;
-	padding:5px;
+.or-red-header-box .box-content .fa {
+    font-size: 24px;
+    padding: 5px;
+    position: relative;
+    top: 3px;
 }
 
-.or-oh-start-page
-{
-	border-bottom:dotted 2px #ECECEC;
-	margin-bottom:20px;
-	padding-bottom:20px;
+.or-oh-start-page {
+    border-bottom: dotted 2px #ECECEC;
+    margin-bottom: 14px;
+    padding-bottom: 12px;
 }
 
 .or-oh-start-page p
@@ -3490,8 +3491,8 @@ section.or-bg-one {
 .or-start-heading-divider {
     display: inline-block;
     background-color: #fff;
-    width: 350px;
-    margin-left: -175px;
+    width: 300px;
+    margin-left: -150px;
     position: absolute;
     left: 50%;
     top: -40px;
@@ -3551,6 +3552,10 @@ body .or-start-heading-divider .normal{
     border-bottom: 2px #F7F3F3 solid;
 }
 
+.or-news-list.or-small li {
+    padding: 12px 20px 17px 15px;
+}
+
 .or-news-list.or-small h3 a {
     font-size: 15px;
 }
@@ -3588,12 +3593,19 @@ body .or-start-heading-divider .normal{
     color: #fff;
 }
 
-/* Sök politiker */
+/* Startsida puffar */
 
 .or-puff-startpage-footer {
     background-color: #fff;
     padding-top: 50px;
 }
+
+.or-puff-startpage-footer .or-puff-link .normal {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+
 
 /* Sök politiker */
 
@@ -4366,9 +4378,14 @@ table.or-bath-water th:not(:first-child)  {
     margin-top: 10px;
     padding: 0 10px 25px;
     width: 100%;
-    max-width: 565px;
-    margin: 10px auto 20px;
     margin-top: -10px;
+    float: left;
+}
+
+.or-news-social-section-startpage .or-social-media-content{
+	    margin: 10px 20px;
+	    max-width: 565px;
+	    float: none;
 }
 
 .or-social-media-content .or-content img
@@ -4460,10 +4477,9 @@ table.or-bath-water th:not(:first-child)  {
 	letter-spacing:.02em;
 }
 
-.or-social-media-content .or-header .fa-clock-o
-{
-	color:#857672;
-	margin-left:10px;
+.or-social-media-content .or-header .fa-clock-o {
+    color: #857672;
+    margin-left: 5px;
 }
 .or-social-media-content .or-stats {
     background-color: #f9f9f8;
@@ -4558,6 +4574,14 @@ table.or-bath-water th:not(:first-child)  {
 	text-align:center;
 	width:100%;
 }
+
+
+/* social media undersida */
+
+.or-content-container {
+	
+}
+
 
 /* Faktarutor */
 .or-facts-block
