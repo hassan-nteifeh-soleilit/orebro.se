@@ -3286,6 +3286,10 @@ section.or-bg-one {
     margin-left: 20px;
 }
 
+.or-bg-white ul li a.normal:link:hover {
+    box-shadow: rgba(174, 222, 239, 0.65) 0px -41px 0px -17px inset;
+}
+
 .or-bg-white ul li:first-child {
     border-top: none;
 }
@@ -3391,9 +3395,9 @@ section.or-bg-one {
 }
 
 .or-oh-start-page .normal a {
-    font-size: 15px;
+    font-size: 16px;
+    font-weight: 300;
 }
-
 
 /* Meny startsida */
 .sol-meny-startsida {
@@ -3423,13 +3427,15 @@ section.or-bg-one {
     max-width: 580px;
     margin-left: 1%!important;
     margin-right: 1%;
+    box-sizing: border-box;
+    width: 47%!important;
 }
 
 /* Tabbar under Kontakta oss - Servivecenter */
 .or-start-bottom-tabs ul {
-		width: 85%;
+    /* width: 90%; */
     padding: 10px;
-		margin: auto;
+    /* margin: auto; */
 }
 
 .or-start-bottom-tabs ul li {
@@ -3441,6 +3447,11 @@ section.or-bg-one {
     box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.08);
     background-color: #fff;
     margin-left: 10px;
+}
+
+.or-start-bottom-tabs ul li:hover a {
+	color: #e83c23;
+	text-decoration: underline;
 }
 
 .or-start-bottom-tabs ul li a {
@@ -3483,6 +3494,7 @@ section.or-bg-one {
     font-family: "leaguespartan webfont",sans-serif;
     left: 50%;
 } 
+
 
 /*** Startsida Aktuell service just nu ***/
 .or-start-white-divider {
@@ -3614,6 +3626,10 @@ body .or-start-heading-divider .normal{
     font-weight: 300;
     font-size: 16px;
     line-height: 1.3em;
+}
+
+.or-puff-startpage-footer .or-puff-link:hover .normal {
+    text-decoration: underline;
 }
 
 /* Sök politiker */
@@ -4411,7 +4427,7 @@ table.or-bath-water th:not(:first-child)  {
 .or-social-media-content .or-content img
 {
 	border-radius:2px;
-	float:left;
+	float:right;
 	margin-right:20px;
 	width:20%;
 }
