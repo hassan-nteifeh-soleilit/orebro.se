@@ -3325,7 +3325,7 @@ section.or-bg-one {
 .or-red-header-box .sv-font-action-pil:before {
     background-color: #857672;
     font: normal normal normal 12px/34px FontAwesome;
-    width: 33px;
+    width: 31px;
 }
 
 .or-red-header-box .sv-font-action-pil:after{
@@ -3389,7 +3389,8 @@ section.or-bg-one {
 
 /* Meny startsida */
 .sol-meny-startsida {
-    padding: 3% 10% 10%;
+    padding: 4% 0 8% 0;
+    margin-top: -35px;
 }
 
 .hero-startsida .or-secondary .or-content ul li a h3 {
@@ -3482,6 +3483,7 @@ section.or-bg-one {
     padding: 50px 25px 30px;
     box-shadow: 0px -2px 6px -1px rgba(0, 0, 0, 0.05);
     margin-bottom: 85px;
+    margin-top: 25px;
 }
 
 .or-start-white-divider .or-puff-icon-header-text {
@@ -3603,9 +3605,8 @@ body .or-start-heading-divider .normal{
 .or-puff-startpage-footer .or-puff-link .normal {
     font-weight: 300;
     font-size: 16px;
+    line-height: 1.3em;
 }
-
-
 
 /* Sök politiker */
 
@@ -3911,7 +3912,7 @@ body .or-start-heading-divider .normal{
     margin-bottom: 30px;
     margin-right: 1%;
     margin-left: 1%;
-    padding: 8px 5px 8px 13px;
+    padding: 8px 15px 8px 13px;
     position: relative;
     min-height: 35px;
     float: left;
@@ -3922,14 +3923,25 @@ body .or-start-heading-divider .normal{
     padding-left: 8px;
 }
 
-body .or-puff-link .normal a{
+body .or-puff-link .normal a {
     font-family: "leaguespartan webfont",sans-serif;
     box-shadow: rgba(174, 222, 239, 0.0)0px 0px 0px 0px inset;
     color: #e83c23;
     font-size: 14px;
+    margin-bottom: 4px;
+    display: inline-block;
 }
 
-body .or-puff-link:hover .normal a:link {
+body .or-puff-link .normal a:hover {
+    font-family: "leaguespartan webfont",sans-serif;
+    box-shadow: rgba(174, 222, 239, 0.0)0px 0px 0px 0px inset;
+    color: #35383b;
+    font-size: 14px;
+    margin-bottom: 4px;
+    display: inline-block;
+}
+
+body .or-puff-link:hover .normal a{
 	text-decoration: underline;
     color: #35383b;
 }
