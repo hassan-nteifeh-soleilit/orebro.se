@@ -3308,8 +3308,8 @@ section.or-bg-one {
     font-weight: 700;
 }
 
-.or-red-header-box .box-header p i{
-    color: #fff;
+.or-red-header-box .box-header p i {
+    color: rgba(255, 255, 255, 0.8);
     font-size: 22px;
     margin-right: 8px;
 }
@@ -3373,10 +3373,9 @@ section.or-bg-one {
 	margin-right:10px;
 }
 
-.or-oh-start-page .or-phone-number
-{
-	font-size:20px;
-	font-weight:300;
+.or-oh-start-page .or-phone-number {
+    font-size: 17px;
+    font-weight: 300;
 }
 
 .or-oh-start-page .or-oh-time-info {
@@ -3391,8 +3390,23 @@ section.or-bg-one {
 
 /* Meny startsida */
 .sol-meny-startsida {
-    padding: 5% 10% 10%;
+    padding: 3% 10% 10%;
 }
+
+.hero-startsida .or-secondary .or-content ul li a h3 {
+    font-size: 19px;
+    margin-bottom: 8px;
+}
+
+.hero-startsida nav.or-secondary .or-content ul li:nth-last-child(-n+3) a {
+    border-bottom: 0px solid #ffffff;
+}
+
+.hero-startsida nav.or-secondary .or-content {
+    border: 1px solid rgb(249, 228, 225);
+    border-top-left-radius: 0px;
+}
+
 
 /*** Startsida Kontakta service center ***/
 
@@ -3416,9 +3430,15 @@ section.or-bg-one {
     border-bottom-right-radius: 4px;
     padding: 10px;
     text-align: center;
-    box-shadow: 0px -1px 7px -2px rgba(0, 0, 0, 0.07);
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.08);
     background-color: #fff;
-		margin-left: 10px;
+    margin-left: 10px;
+}
+
+.or-start-bottom-tabs ul li a {
+    color: #35383b;
+    font-size: 11px;
+    font-family: "leaguespartan webfont",sans-serif;
 }
 
 .or-start-bottom-tabs ul li .fa-warning {
@@ -3434,6 +3454,12 @@ section.or-bg-one {
 .or-start-bottom-tabs ul li .fa {
 	margin: 0 5px;	
 }
+
+.or-start-bottom-tabs .fa.fa-chevron-right {
+	color: #DADCDE;	
+}
+
+    
 
 /*** Startsida Aktuell service just nu ***/
 .or-start-white-divider {
@@ -3490,6 +3516,35 @@ body .or-start-heading-divider .normal{
     color: #f28c00;
     line-height: normal;
 }
+
+/* Startsida nyheter */
+.or-start-white-divider .or-news-list li p {
+    display: inline-block;
+    margin-top: 0px;
+    padding-left: 55px;
+    line-height: 1.5em;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.or-start-white-divider .or-news-list.or-small li {
+    box-shadow: none;
+    border-bottom: 2px #F7F3F3 solid;
+}
+
+.or-start-white-divider .or-news-list h3 a {
+    font-size: 15px;
+}
+
+.or-start-white-divider .or-news-date {
+    margin-top: 3px;
+}
+
+.or-news-list.or-small {
+    max-width: 600px;
+    margin-top: -40px;
+}
+
 /* Sök politiker */
 
 .or-sok-politiker td{
@@ -4253,16 +4308,18 @@ table.or-bath-water th:not(:first-child)  {
 	letter-spacing:.02em;
 }
 
-.or-social-media-content
-{
-	border-bottom:2px dotted #C7C6C5;
-	box-sizing:border-box;
-	display:block;
-	float:left;
-	margin-bottom:20px;
-	margin-top:10px;
-	padding:0 10px 15px;
-	width:100%;
+.or-social-media-content {
+    border-bottom: 2px #F7F3F3 solid;
+    box-sizing: border-box;
+    display: block;
+    /* float: left; */
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 0 10px 15px;
+    width: 100%;
+    max-width: 565px;
+    margin: 10px auto 20px;
+    margin-top: -10px;
 }
 
 .or-social-media-content .or-content img
