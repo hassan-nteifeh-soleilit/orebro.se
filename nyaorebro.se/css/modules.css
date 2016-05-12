@@ -3490,7 +3490,12 @@ body .or-start-heading-divider .normal{
   display: none;
 }
 .or-sokt-politiker .or-sok-politiker hr{
+  /* *********** sätt ev. bara style för höjden på hr
   margin-bottom: -10px;
+  background-color: rgba(133, 118, 114, 0.2);
+  position: relative;
+  top: -65px;
+  box-sizing: border-box; */
 }
 .or-sokt-politiker .or-sok-politiker b a{
   font-family: "leaguespartan webfont",sans-serif;
@@ -3514,13 +3519,13 @@ body .or-start-heading-divider .normal{
 .or-sokt-politiker .or-sok-politiker table.c9{
   border-bottom: 1px solid rgba(133, 118, 114, 0.2);
 }
-
+/*
 .or-sokt-politiker .or-sok-politiker hr{
 	background-color: rgba(133, 118, 114, 0.2);
   position: relative;
    top: -65px;
    box-sizing: border-box;
-}
+} */
 
 .or-sokt-politiker .or-sok-politiker div a{
 	    content: "\f002 ";
