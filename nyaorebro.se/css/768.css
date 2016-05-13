@@ -368,14 +368,42 @@ body section.or-top-img-area .brodtextxxfetx {
     font-size: 13px;
 }
 
-/* Startsida */
+/* Startsida navigering */
 
 .sol-meny-startsida {
     padding: 0% 0% 0%;
 }
 
 .sol-meny-startsida nav.or-secondary {
-    margin: 30px auto 0px auto;
+    margin: 135px auto 0px auto;
+}
+
+/* driftstörningar/kontakt startsida */
+
+.or-red-header-box .box-header p {
+    font-size: 13px;
+}
+
+.or-red-header-box .box-header p i {
+    font-size: 20px;
+    position: relative;
+    top: 1px;
+}
+
+.driftstorningar-container.or-bg-white {
+    padding: 5px 20px 2px 20px;
+}
+
+visa-fler-driftstorningar {
+    bottom: -29px;
+}
+
+.or-bg-white ul li a.normal:link {
+    font-size: 15px;
+}
+
+.or-red-header-box .box-header {
+    padding: 5px 10px 6px 10px;
 }
 
 .or-red-header-box {
@@ -392,6 +420,7 @@ body section.or-top-img-area .brodtextxxfetx {
     border-top-right-radius: 0px;
 }
 
+
 .or-start-white-divider {
     margin-top: 10px;
 }
@@ -403,9 +432,10 @@ body section.or-top-img-area .brodtextxxfetx {
     left: 50%;
     top: -88px;
 }
-.or-start-heading-divider.or-right {
-    left: 50%;
-    top: 0px;
+
+/* startsida nyhetsflöde */
+.or-start-white-divider .or-news-list li p {
+    padding-left: 0px;
 }
 
 .or-start-heading-divider.or-left {
@@ -425,6 +455,28 @@ body section.or-top-img-area .brodtextxxfetx {
     padding: 0px 0px 30px;
 }
 
+.or-news-list.or-small h3 a {
+    font-size: 14px;
+}
+
+.or-start-white-divider .or-news-date {
+    margin-top: 1px;
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+.or-news-list.or-small li {
+    padding: 0px 20px 15px 15px;
+}
+
+
+
+/* startsida socialtflöde */
+
+.or-start-heading-divider.or-right {
+    left: 50%;
+    top: 0px;
+}
 
 
 } /* end 767 */
