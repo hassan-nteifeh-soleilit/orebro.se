@@ -7442,7 +7442,8 @@ color: #35383B;
 /* Plusbox program tabell*/
 
 .or-plus-box-program.or-plus-box-content.sv-table-portlet,
-.or-plus-box-program.or-plus-box-content.sv-programtabell {
+.or-plus-box-program.or-plus-box-content.sv-programtabell,
+.or-program-tabell .or-plus-box-content {
   padding: 0px;
 }
 
@@ -7457,8 +7458,8 @@ color: #35383B;
 
 .or-plus-box-program.or-plus-box-content.sv-table-portlet tr td:first-child,
 .or-plus-box-program.or-plus-box-content.sv-table-portlet tr th:first-child,
-.or-plus-box-program.or-plus-box-content .sv-text-portlet table.sv-programtabell tr td:first-child,
-.or-plus-box-program.or-plus-box-content .sv-text-portlet table.sv-programtabell tr th:first-child  {
+.or-plus-box-program.or-plus-box-content .sv-text-portlet-content table.sv-programtabell tr td:first-child,
+.or-plus-box-program.or-plus-box-content .sv-text-portlet-content table.sv-programtabell tr th:first-child  {
   border: none;
   padding-left: 20px;  
   width: 75%;
@@ -7466,8 +7467,8 @@ color: #35383B;
 
 .or-plus-box-program.or-plus-box-content.sv-table-portlet tr td:last-child,
 .or-plus-box-program.or-plus-box-content.sv-table-portlet tr th:last-child,
-.or-plus-box-program.or-plus-box-content .sv-text-portlet table.sv-programtabell tr td:last-child,
-.or-plus-box-program.or-plus-box-content .sv-text-portlet .sv-text-portlet table.sv-programtabell tr th:last-child  {
+.or-plus-box-program.or-plus-box-content .sv-text-portlet-content table.sv-programtabell tr td:last-child,
+.or-plus-box-program.or-plus-box-content .sv-text-portlet-content .sv-text-portlet table.sv-programtabell tr th:last-child  {
   border: none;
   padding-right: 55px;
 }
