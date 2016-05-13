@@ -3882,12 +3882,6 @@ body .or-start-heading-divider .normal{
 }
 
 .or-sok-politiker select{
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-
-  content:"\f078";
-  font-family: FontAwesome;
   width: 70%;
   padding: 10px 55px 10px 12px;
   margin-bottom: 10px;
@@ -3905,7 +3899,6 @@ body .or-start-heading-divider .normal{
   font-size: 16px;
   font-weight: 100;
   color: #717171;
-  -webkit-appearance: none;
   letter-spacing: 0.01em;
 } 
     
