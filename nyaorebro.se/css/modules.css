@@ -3936,6 +3936,7 @@ body .or-start-heading-divider .normal{
 }
 
 .or-ny-sokning{
+  visibility: visible;
   display: block;
   
   background-color: #857672;
@@ -3973,7 +3974,7 @@ body .or-start-heading-divider .normal{
   margin-left: 2.2em;
 }
 .or-sokt-politiker a.or-ny-sokning{
-  display: none;
+  visibility: hidden;
 }
 
 
