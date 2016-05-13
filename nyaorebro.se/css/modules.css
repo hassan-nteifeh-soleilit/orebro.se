@@ -3721,8 +3721,6 @@ body .or-start-heading-divider .normal{
 }
 
 .or-sokt-politiker .or-sok-politiker div a{
-	  content: "\f002 ";
-    font-family: FontAwesome;
     background-color: #857672;
     display: inline-block;
     padding: 8px 20px 6px;
@@ -3770,8 +3768,8 @@ body .or-start-heading-divider .normal{
   color: #35383b;
   text-decoration: none;
   line-height: 16px;
-  font-family: sans-serif;
-  /*font-family: ;*/
+  /*font-family: sans-serif;
+  font-family: ;*/
 }
 
 .or-utsokt-politiker .or-sok-politiker td li a {
@@ -3813,7 +3811,7 @@ body .or-start-heading-divider .normal{
   
 }
 .or-sok-politiker form input[type="text"]{
-    width: 49%;
+    width: 70%;
     padding: 10px 55px 10px 12px;
     margin-bottom: -14px;
     line-height: 1.428571429;
@@ -3832,6 +3830,7 @@ body .or-start-heading-divider .normal{
     color: #717171;
     -webkit-appearance: none;
     letter-spacing: 0.01em;
+    box-sizing: border-box;
     /*font-family: "open sans",sans-serif; */
 }
 
@@ -3889,7 +3888,7 @@ body .or-start-heading-divider .normal{
 
   content:"\f078";
   font-family: FontAwesome;
-  width: 58%;
+  width: 70%;
   padding: 10px 55px 10px 12px;
   margin-bottom: 10px;
   line-height: 1.428571429;
