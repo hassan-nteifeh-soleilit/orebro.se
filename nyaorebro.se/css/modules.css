@@ -4102,6 +4102,7 @@ body .or-puff-link .normal{
 .or-puff-icon-header-text .sv-use-margins .rubrikx4, .sv-use-margins h4{
 	margin: 0px;
 	font-size: 15px;
+	width: 100%:
 }
 
 .or-puff-icon-header-text > div:last-of-type {
