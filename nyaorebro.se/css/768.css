@@ -633,6 +633,11 @@ nav.or-secondary .or-content ul li {
     margin-bottom: 3px;
 }
 
+nav.or-secondary .or-content ul li a h3 {
+    font-size: 11px;
+    margin: 0px;
+}
+
 nav.or-secondary .or-content ul li a {
     border-bottom: 0px dotted #eae9e8;
     float: left;
