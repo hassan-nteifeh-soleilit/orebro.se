@@ -484,6 +484,7 @@ body section.or-top-img-area .brodtextxxfetx {
 .or-start-white-divider {
     margin-bottom: 60px;
     padding: 0px 10px 30px;
+    margin-top: 40px;
 }
 
 /* startsida socialtflöde */
@@ -558,6 +559,10 @@ body section.or-top-img-area .brodtextxxfetx {
 
 .or-start-white-divider .or-puff-icon-header-text > div:last-of-type {
     margin: 0px;
+}
+
+.or-contact-block-startpage{
+	display: none!important;
 }
 
 
