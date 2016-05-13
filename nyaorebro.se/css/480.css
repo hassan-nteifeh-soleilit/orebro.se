@@ -251,7 +251,9 @@ body .or-start-heading-divider .normal {
     margin-bottom: 33px!important;
 }
 
-
+.driftstorningar-container.or-bg-white {
+    margin-bottom: 0px;
+}
 
 .or-start-bottom-tabs ul li {
     width: 100%;
