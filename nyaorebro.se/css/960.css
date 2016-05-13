@@ -58,7 +58,7 @@ body .or-puff-link .normal a:link {
 }
 
 /* Tjänster puff */
-.or-puff-icon-header-text .ikonxorange {
+section.or-nav-content-section .or-puff-icon-header-text .ikonxorange {
     float: left;
     background-color: #FCF5EC;
     position: absolute;
@@ -73,14 +73,14 @@ body .or-puff-link .normal a:link {
     font-size: 30px;
 }
 
-.or-puff-icon-header-text > div:first-of-type {
+section.or-nav-content-section .or-puff-icon-header-text > div:first-of-type {
     background-color: #fff;
     float: left;
     padding: 0px 0px 0px 0px;
 
 }
 
-.or-puff-icon-header-text {
+section.or-nav-content-section .or-puff-icon-header-text {
     padding: 10px 30px 0px 85px;
     text-align: left;
     border: 5px solid #fff;
@@ -93,26 +93,26 @@ body .or-puff-link .normal a:link {
     min-height: 75px;
 }
 
-.or-puff-icon-header-text .sv-use-margins .rubrikx4, .sv-use-margins h4 {
+section.or-nav-content-section .or-puff-icon-header-text .sv-use-margins .rubrikx4, .sv-use-margins h4 {
     float: left;
     margin-bottom: 3px;
     font-size: 12px;
 }
 
-.or-puff-icon-header-text .normal a:link {
+section.or-nav-content-section .or-puff-icon-header-text .normal a:link {
     float: left;
     overflow: hidden;
     height: 21px;
     font-size: 14px;
 }
 
-.or-puff-icon-header-text .normal {
+section.or-nav-content-section .or-puff-icon-header-text .normal {
     float: left;
     max-height: 25px;
     overflow: hidden;
 }
 
-.or-puff-icon-header-text > div:last-of-type {
+section.or-nav-content-section .or-puff-icon-header-text > div:last-of-type {
     margin: 0px;
 }
 
