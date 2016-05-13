@@ -69,13 +69,23 @@ if(yTubeToken && !yTubeToken.isEmpty() && yTubeId && !yTubeId.isEmpty()) {
 
 function socialMedia(type, title, text, timestamp, thumbnail, permalink, followlink, likes, comments, shares, dislikes, reactions) {	 
    this.type = type;
-	this.title = title; 
-	this.text = text; 	
+	this.title = title; 		
+   this.text = text;
 	this.thumbnail = thumbnail; 
 	this.permalink = permalink; 
    this.followlink = followlink;
    this.showStats = (likes+ comments+ shares+ dislikes+ reactions) > 0 || type == 'YTUBE';   
 
+   try {
+      if (text.length > 150) {          
+         var cutPos = text.substring(150).indexOf(" ") + 150;                   
+         this.text = text.substring(0, cutPos) + "..."; 
+      } 
+	}catch (exception) {   
+      this.text = exception;
+   }      
+ 
+   
    var date;
    switch (type) {
       case 'INSTA':
