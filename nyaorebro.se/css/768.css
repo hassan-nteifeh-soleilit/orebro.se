@@ -394,6 +394,9 @@ body section.or-top-img-area .brodtextxxfetx {
     padding: 5px 20px 2px 20px;
 }
 
+.or-oh-start-page .or-oh-open, .or-oh-start-page .or-oh-closed, .or-oh-start-page .or-oh-status {
+    padding: 4px 5px 4px!important;
+}
 
 .visa-fler-driftstorningar {
     bottom: -29px;
@@ -456,8 +459,8 @@ body section.or-top-img-area .brodtextxxfetx {
 }
 
 .or-news-social-section-startpage.or-start-white-divider {
-    margin-bottom: 35px;
-    padding: 0px 0px 30px;
+    margin-bottom: 0px;
+    padding: 0px 0px 0px;
 }
 
 .or-news-list.or-small h3 a {
@@ -474,13 +477,26 @@ body section.or-top-img-area .brodtextxxfetx {
     padding: 0px 20px 15px 15px;
 }
 
+.or-news-container-startpage{
+	border-bottom: 60px solid #F6F4F2;
+}
+
+.or-start-white-divider {
+    margin-bottom: 60px;
+}
 
 
 /* startsida socialtflöde */
 
 .or-start-heading-divider.or-right {
     left: 50%;
-    top: 0px;
+    top: -41px;
+}
+
+/* puffar stratsida */
+
+.or-puff-startpage-footer {
+    padding-top: 10px;
 }
 
 
