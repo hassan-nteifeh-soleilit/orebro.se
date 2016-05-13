@@ -135,6 +135,17 @@ section.or-nav-content-section {
     padding: 0 0% 0% 0%;
 }
 
+/* startsida puffar */
+.or-start-white-divider .or-puff-icon-header-text {
+    margin: 0px 1%;
+    float: left;
+    width: 29.5%;
+}
+
+.or-start-bottom-tabs ul li {
+    padding: 10px 5px;
+}
+
 
 } /* en 991 */
 

@@ -4099,7 +4099,11 @@ body .or-puff-link .normal{
 }
 .or-puff-icon-header-text > div:first-of-type {
     background-color: #FCF5EC;
-    padding: 20px 35px 25px 35px;
+    padding: 17px 35px 29px 32px;
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 8px;
 }
 
 .or-puff-icon-header-text .sv-use-margins .rubrikx4, .sv-use-margins h4{
