@@ -394,12 +394,17 @@ body section.or-top-img-area .brodtextxxfetx {
     padding: 5px 20px 2px 20px;
 }
 
-visa-fler-driftstorningar {
+
+.visa-fler-driftstorningar {
     bottom: -29px;
 }
 
 .or-bg-white ul li a.normal:link {
     font-size: 15px;
+}
+
+.or-bg-white ul li {
+    margin-bottom: 10px;
 }
 
 .or-red-header-box .box-header {
