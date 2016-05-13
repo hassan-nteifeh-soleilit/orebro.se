@@ -497,6 +497,10 @@ body section.or-top-img-area .brodtextxxfetx {
     left: 50%;
     top: -41px;
 }
+.or-follow .normal a:link {
+    margin-top: 10px;
+    display: inline-block;
+}
 
 /* puffar startsida */
 
