@@ -438,7 +438,7 @@ body section.or-top-img-area .brodtextxxfetx {
     margin-left: -150px;
     position: relative;
     left: 50%;
-    top: -88px;
+    top: -38px;
 }
 
 /* startsida nyhetsflöde */
@@ -483,6 +483,7 @@ body section.or-top-img-area .brodtextxxfetx {
 
 .or-start-white-divider {
     margin-bottom: 60px;
+	padding: 0px 25px 30px;
 }
 
 
