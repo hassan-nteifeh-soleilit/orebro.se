@@ -194,6 +194,23 @@ body section.or-top-img-area .brodtextxxfetx {
     padding-right: 15px;
 }
 
+/* startsida */
+.or-start-heading-divider.or-right {
+    left: 0;
+    top: 0px;
+    width: 100%;
+    margin-left: 0px;
+    box-sizing: border-box;
+}
+
+.or-start-heading-divider.or-left {
+    left: 0;
+    top: -35px;
+    width: 100%;
+    margin-left: 0px;
+    box-sizing: border-box;
+}
+
 /* startsida driftstörningar/kontakt */ 
 
 .or-start-bottom-tabs ul li {
