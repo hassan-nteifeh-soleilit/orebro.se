@@ -135,6 +135,11 @@ section.or-nav-content-section {
     padding: 0 0% 0% 0%;
 }
 
+.hero-startsida .or-secondary .or-content ul li a h3 {
+    font-size: 17px;
+    margin-bottom: 8px;
+}
+
 /* startsida puffar */
 .or-start-white-divider .or-puff-icon-header-text {
     margin: 0px 1%;

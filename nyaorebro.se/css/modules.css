@@ -4092,11 +4092,7 @@ body .or-puff-link .normal{
 }
 .or-puff-icon-header-text > div:first-of-type {
     background-color: #FCF5EC;
-    padding: 17px 35px 29px 32px;
-    float: left;
-    width: 100%;
-    box-sizing: border-box;
-    margin-bottom: 8px;
+    padding: 20px 35px 25px 35px;
 }
 
 .or-puff-icon-header-text .sv-use-margins .rubrikx4, .sv-use-margins h4{
@@ -4463,17 +4459,18 @@ table.or-bath-water th:not(:first-child)  {
     float: left;
 }
 
-.or-news-social-section-startpage .or-social-media-content{
-	    margin: 10px 20px;
-	    max-width: 565px;
-	    float: none;
+.or-news-social-section-startpage .or-social-media-content {
+    margin: 10px 20px;
+    max-width: 530px;
+    float: right;
+    margin-top: -10px;
 }
 
 .or-social-media-content .or-content img
 {
 	border-radius:2px;
 	float:right;
-	margin-right:20px;
+	margin-left:20px;
 	width:20%;
 }
 
@@ -4510,7 +4507,7 @@ table.or-bath-water th:not(:first-child)  {
 
 .or-social-media-content .or-content a
 {
-	font-size:17px;
+	font-size:15px;
 	font-weight:300;
 }
 
