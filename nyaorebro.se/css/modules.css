@@ -3268,7 +3268,7 @@ section.or-bg-one {
 }
 
 .driftstorningar-container.or-bg-white {
-    padding: 0px 20px 20px 20px;
+    padding: 5px 20px 20px 20px;
 }
 
 .or-bg-white ul li {
@@ -3369,9 +3369,9 @@ section.or-bg-one {
 	font-size:14px;
 }
 
-.or-oh-start-page p.or-phone-info
-{
-	margin-bottom:15px;
+.or-oh-start-page p.or-phone-info {
+    margin-bottom: 15px;
+    margin-top: 0px;
 }
 
 .or-oh-start-page p.or-phone-hours
@@ -3493,7 +3493,13 @@ section.or-bg-one {
     font-size: 11px;
     font-family: "leaguespartan webfont",sans-serif;
     left: 50%;
+    z-index: 999;
 } 
+
+.visa-fler-driftstorningar:hover {
+	color: #e83c23;
+	text-decoration: underline;
+}
 
 
 /*** Startsida Aktuell service just nu ***/
