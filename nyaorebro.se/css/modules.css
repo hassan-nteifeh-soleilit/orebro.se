@@ -3934,8 +3934,8 @@ body .or-start-heading-divider .normal{
     line-height: normal;
     box-shadow: rgba(174, 222, 239, 0.65)0px -14px 0px -10px inset;
 }
-/*
-.or-ny-sokning{
+
+.or-sokt-politiker .or-ny-sokning{
   background-color: #857672;
   padding: 8px 20px 6px;
   margin-bottom: 0;
@@ -3970,7 +3970,6 @@ body .or-start-heading-divider .normal{
   position: absolute;
   margin-left: 2.2em;
 }
-*/
 
 
 
