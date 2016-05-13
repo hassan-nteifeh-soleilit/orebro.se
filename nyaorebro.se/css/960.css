@@ -140,6 +140,23 @@ section.or-nav-content-section {
     margin-bottom: 8px;
 }
 
+.or-start-heading-divider.or-right {
+    left: 50%;
+    top: -41px;
+}
+
+.or-start-white-divider {
+    margin-top: 10px;
+}
+
+.or-start-heading-divider {
+    width: 300px;
+    margin-left: -150px;
+    position: relative;
+    left: 50%;
+    top: -38px;
+}
+
 /* startsida puffar */
 .or-start-white-divider .or-puff-icon-header-text {
     margin: 0px 1%;

@@ -4087,12 +4087,16 @@ body .or-puff-link .normal{
     border-color: transparent;
     border-style: solid;
     border-width: 17px;
-    border-right-color: #DF9D50;
-    border-bottom-color: #DF9D50;
+    border-right-color: #F28C00;
+    border-bottom-color: #F28C00;
 }
 .or-puff-icon-header-text > div:first-of-type {
     background-color: #FCF5EC;
-    padding: 20px 35px 25px 35px;
+    padding: 13px 35px 19px 35px;
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
 }
 
 .or-puff-icon-header-text .sv-use-margins .rubrikx4, .sv-use-margins h4{
