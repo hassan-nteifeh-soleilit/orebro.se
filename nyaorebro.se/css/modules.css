@@ -3939,7 +3939,8 @@ body .or-start-heading-divider .normal{
   display: none;
 }
 .or-sokt-politiker a.or-ny-sokning{
-
+    display: block;
+    
     background-color: #857672;
     padding: 8px 20px 6px;
     margin-bottom: 0;
