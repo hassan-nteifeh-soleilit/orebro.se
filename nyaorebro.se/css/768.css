@@ -375,7 +375,11 @@ body section.or-top-img-area .brodtextxxfetx {
 }
 
 .sol-meny-startsida nav.or-secondary {
-    margin: 135px auto 0px auto;
+    margin: 135px auto 30px auto;
+}
+
+.hero-startsida nav.or-secondary .or-content {
+    border: 0px solid rgb(249, 228, 225);
 }
 
 /* driftstörningar/kontakt startsida */
@@ -575,6 +579,10 @@ body section.or-top-img-area .brodtextxxfetx {
 /* navigering */	
 ul.or-nav-list li .or-list-wrapper p {
     display: none;
+}
+
+.sol-meny-startsida nav.or-secondary {
+    margin: 135px auto 0px auto;
 }
 
 section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-title:before {

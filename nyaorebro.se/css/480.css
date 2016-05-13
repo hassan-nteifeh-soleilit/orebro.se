@@ -269,7 +269,8 @@ body .or-start-heading-divider .normal {
     box-sizing: border-box;
     text-align: left;
     padding-left: 19px;
-    padding-bottom: 24px;
+    padding-bottom: 16px;
+    padding-top: 14px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
 }
