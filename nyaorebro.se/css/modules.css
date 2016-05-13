@@ -3693,10 +3693,9 @@ body .or-start-heading-divider .normal{
   display: none;
 }
 .or-sokt-politiker .or-sok-politiker hr{
-  margin-bottom: -10px;
   background-color: rgba(133, 118, 114, 0.2);
   position: relative;
-  top: -65px;
+  top: 0;
   box-sizing: border-box; 
   margin-left: -1.8em
 }
@@ -3772,6 +3771,10 @@ body .or-start-heading-divider .normal{
   line-height: 16px;
   font-family: sans-serif;
   /*font-family: ;*/
+}
+
+.or-utsokt-politiker .or-sok-politiker td li a {
+    box-shadow: none;
 }
 
 .or-sokt-politiker .or-sok-politiker{
