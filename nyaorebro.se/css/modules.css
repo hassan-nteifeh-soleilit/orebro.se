@@ -3436,6 +3436,7 @@ section.or-bg-one {
     /* width: 90%; */
     padding: 10px;
     /* margin: auto; */
+    text-align: center;
 }
 
 .or-start-bottom-tabs ul li {
@@ -3509,7 +3510,7 @@ section.or-bg-one {
     padding: 50px 25px 30px;
     box-shadow: 0px -2px 6px -1px rgba(0, 0, 0, 0.05);
     margin-bottom: 85px;
-    margin-top: 25px;
+    margin-top: 80px;
 }
 
 .or-start-white-divider .or-puff-icon-header-text {

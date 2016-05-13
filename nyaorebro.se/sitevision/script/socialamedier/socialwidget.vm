@@ -1,3 +1,5 @@
+<div class="or-start-heading-divider or-right" ><div class="sv-text-portlet-content"><p class="normal">Örebro kommun i sociala medier</p></div></div>
+
 #foreach ($sm in $socialMedias)
 #set ($class = $sm.name.toLowerCase())
 <div class="or-social-media-content $class">   
@@ -10,7 +12,7 @@
          $sm.title
       #else
       	<i class="fa fa-clock-o"></i>
-         $sm.timestamp
+         $sm.title $sm.timestamp
       #end      
    </div>
    #if($sm.type == "YTUBE")
