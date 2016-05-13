@@ -406,8 +406,12 @@ color: #35383B;
 }
 
 .sv-table-portlet th, .sv-text-portlet table.sv-programtabell th p{
-color: #35383b;
-font-weight: 700;
+	color: #fff;
+	font-weight: 700;
+}
+
+.sv-text-portlet table.sv-programtabell th {
+	background-color: #857672;
 }
 
 

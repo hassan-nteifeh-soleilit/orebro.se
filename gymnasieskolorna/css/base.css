@@ -5959,7 +5959,7 @@ border-left: 1px solid rgb(133, 118, 114);
 }
 
 .sv-table-portlet th span.normal,  
-.sv-text-portlet table.sv-programtabell th span.normal {  
+.sv-text-portlet-content table.sv-programtabell th span.normal {  
   color: white;
   font-family: 'Leaguespartan webfont', sans-serif;
   font-size: 12px;
@@ -5970,19 +5970,19 @@ border-left: 1px solid rgb(133, 118, 114);
 }   
 
 .sv-table-portlet tbody tr, 
-.sv-text-portlet table.sv-programtabell tbody tr {
+.sv-text-portlet-content  table.sv-programtabell tbody tr {
 border-bottom: 1px solid rgb(133, 118, 114);
 border-bottom: 1px solid rgba(133, 118, 114, 0.15);
 }
 
 .sv-table-portlet tbody tr:nth-child(odd),
-.sv-text-portlet table.sv-programtabell tbody tr:nth-child(odd) {
+.sv-text-portlet-content  table.sv-programtabell tbody tr:nth-child(odd) {
    background-color: white;
    
 }
 
 .sv-table-portlet tbody tr:nth-child(even),
-.sv-text-portlet table.sv-programtabell tbody tr:nth-child(even) {
+.sv-text-portlet-content  table.sv-programtabell tbody tr:nth-child(even) {
   border-bottom-color: rgb(133, 118, 114);
   border-bottom-color: rgba(133, 118, 114, 0.2);
   background-color: #fdf4e7;
@@ -7468,7 +7468,7 @@ color: #35383B;
 .or-plus-box-program.or-plus-box-content.sv-table-portlet tr td:last-child,
 .or-plus-box-program.or-plus-box-content.sv-table-portlet tr th:last-child,
 .or-plus-box-program.or-plus-box-content .sv-text-portlet-content table.sv-programtabell tr td:last-child,
-.or-plus-box-program.or-plus-box-content .sv-text-portlet-content .sv-text-portlet table.sv-programtabell tr th:last-child  {
+.or-plus-box-program.or-plus-box-content .sv-text-portlet-content table.sv-programtabell tr th:last-child  {
   border: none;
   padding-right: 55px;
 }
