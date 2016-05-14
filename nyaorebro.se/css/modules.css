@@ -4529,9 +4529,10 @@ table.or-bath-water th:not(:first-child)  {
 	width:100%;
 }
 
-.or-social-media-content.instagram .or-header .fa-circle
-{
-	color:#64b0d7;
+.or-social-media-content.instagram .or-header .fa-circle {
+    color: transparent;
+    background: linear-gradient(to bottom, #615fcc 0%,#d5378c 41%,#f87436 75%,#fecc6d 100%);
+    border-radius: 32px;
 }
 
 .or-social-media-content.facebook .or-header .fa-circle
