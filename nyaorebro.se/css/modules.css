@@ -1,4 +1,4 @@
-
+3
 /* 2. Liten kalender info ruta */
 /* 3. Kalender faktaruta */
 
@@ -3354,8 +3354,9 @@ section.or-bg-one {
     top: 3px;
 }
 
-.or-red-header-box .box-content .fa.fa-envelope-o{
+.or-red-header-box .box-content .fa.fa-envelope-o {
     font-size: 20px;
+    top: 1px;
 }
 
 .or-oh-start-page {
