@@ -177,8 +177,9 @@ body section.or-top-img-area .brodtextxxfetx {
 }
 
 .or-social-media-content .or-content img {
-    width: 30%;
+    width: 100%;
     margin-left: 15px;
+    margin-bottom: 11px;
 }
 
 .or-social-media-content.youtube .or-content img {
