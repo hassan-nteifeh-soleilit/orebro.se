@@ -3531,6 +3531,7 @@ section.or-bg-one {
     padding: 10px;
     text-align: center;
     box-shadow: 0px -1px 7px -2px rgba(0, 0, 0, 0.07);
+    z-index: -1;
 }
 .or-start-heading-divider.or-left 
 {
@@ -4477,7 +4478,7 @@ table.or-bath-water th:not(:first-child)  {
 	border-radius:2px;
 	float:right;
 	margin-left:20px;
-	width:20%;
+	width:25%;
 }
 
 .or-social-media-content.youtube .or-content img
@@ -4531,8 +4532,13 @@ table.or-bath-water th:not(:first-child)  {
 
 .or-social-media-content.instagram .or-header .fa-circle {
     color: transparent;
-    background: linear-gradient(135deg, #615fcc 0%,#d5378c 41%,#f87436 75%,#fecc6d 100%);
+    background: linear-gradient(190deg, #8462C5 0%,#d5378c 41%,#f87436 75%,#E6B454 100%);
     border-radius: 32px;
+}
+
+.or-social-media-content.instagram .fa-instagram:before {
+    content: "\f16d";
+    font-size: 20px;
 }
 
 .or-social-media-content.facebook .or-header .fa-circle
