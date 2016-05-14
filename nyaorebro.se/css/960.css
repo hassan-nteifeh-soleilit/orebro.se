@@ -194,6 +194,7 @@ section.or-nav-content-section {
     float: none;
     width: 100%;
     margin: 10px auto;
+    margin-top: -5px;
 }
 .or-news-social-section-startpage.or-start-white-divider {
     margin-bottom: 0px;
