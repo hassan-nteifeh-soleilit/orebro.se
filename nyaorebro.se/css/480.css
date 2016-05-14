@@ -202,7 +202,7 @@ body section.or-top-img-area .brodtextxxfetx {
     width: 100%;
     margin-left: 0px;
     box-sizing: border-box;
-    background-color: #857672;
+    background-color: #e83c23;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
 }
@@ -213,7 +213,7 @@ body section.or-top-img-area .brodtextxxfetx {
     width: 100%;
     margin-left: 0px;
     box-sizing: border-box;
-    background-color: #857672;
+    background-color: #e83c23;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
 }
@@ -234,7 +234,7 @@ body .or-start-heading-divider .normal {
     width: 100%;
     margin-left: 0px;
     box-sizing: border-box;
-    background-color: #857672;
+    background-color: #e83c23;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
     padding: 9px 10px 8px;
@@ -297,6 +297,12 @@ body .or-start-heading-divider .normal {
 
 .or-news-container-startpage{
 	border-bottom: 20px solid #F6F4F2;
+}
+
+/* puffar startsida */
+
+.or-start-white-divider .or-puff-icon-header-text > div:first-of-type {
+    margin-bottom: 0px;
 }
 
 
