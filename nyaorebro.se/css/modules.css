@@ -3242,13 +3242,6 @@ section.or-bg-one {
 }
 */
 
-.visa-fler-driftstorningar:after{
-  content: "\f054";
-  font-family: FontAwesome;
-  
-  margin: 0 5px;	
-  color: #DADCDE;	
-}
 .box-content .sv-use-margins .normal {
     font-size: 16px;
     font-weight: 300;
