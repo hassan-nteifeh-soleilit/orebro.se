@@ -1,4 +1,4 @@
-
+3
 /* 2. Liten kalender info ruta */
 /* 3. Kalender faktaruta */
 
@@ -3271,6 +3271,12 @@ section.or-bg-one {
     padding: 5px 20px 20px 20px;
 }
 
+.box-content.driftstorningar-container ul li a.normal:link {
+    margin-left: 20px;
+    font-family: "leaguespartan webfont",sans-serif;
+    font-size: 12px;
+}
+
 .or-bg-white ul li {
     border-top: dotted 2px #ECECEC;
     position: relative;
@@ -3284,6 +3290,7 @@ section.or-bg-one {
 .or-bg-white ul li a.normal:link {
     font-weight: 300;
     margin-left: 20px;
+    font-size: 15px;
 }
 
 .or-bg-white ul li a.normal:link:hover {
@@ -3354,8 +3361,9 @@ section.or-bg-one {
     top: 3px;
 }
 
-.or-red-header-box .box-content .fa.fa-envelope-o{
+.or-red-header-box .box-content .fa.fa-envelope-o {
     font-size: 20px;
+    top: 1px;
 }
 
 .or-oh-start-page {
@@ -3380,6 +3388,14 @@ section.or-bg-one {
 	margin-right:10px;
 }
 
+.or-oh-start-page p.or-phone-hours strong, .or-email-info.normal strong
+{
+	font-family: "leaguespartan webfont",sans-serif;
+	font-size: 12px;
+}
+
+
+
 .or-oh-start-page .or-phone-number {
     font-size: 17px;
     font-weight: 300;
@@ -3395,7 +3411,7 @@ section.or-bg-one {
 }
 
 .or-oh-start-page .normal a {
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 300;
 }
 
@@ -3482,7 +3498,6 @@ section.or-bg-one {
 .visa-fler-driftstorningar {
     position: relative;
     bottom: -47px;
-    z-index: -1;
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
     padding: 10px;
@@ -3494,7 +3509,7 @@ section.or-bg-one {
     font-size: 11px;
     font-family: "leaguespartan webfont",sans-serif;
     left: 50%;
-    z-index: 999;
+    z-index: 10;
 } 
 
 .visa-fler-driftstorningar:hover {
@@ -3530,6 +3545,7 @@ section.or-bg-one {
     padding: 10px;
     text-align: center;
     box-shadow: 0px -1px 7px -2px rgba(0, 0, 0, 0.07);
+    z-index: 1;
 }
 .or-start-heading-divider.or-left 
 {
@@ -3564,7 +3580,7 @@ body .or-start-heading-divider .normal{
 /* Startsida nyheter */
 
 .or-news-social-section-startpage.or-start-white-divider{
-    margin-bottom: 35px;
+    margin-bottom: -1px;
 }
 
 .or-start-white-divider .or-news-list li p {
@@ -3586,7 +3602,7 @@ body .or-start-heading-divider .normal{
 }
 
 .or-news-list.or-small h3 a {
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .or-start-white-divider .or-news-date {
@@ -4086,17 +4102,22 @@ body .or-puff-link .normal{
     border-color: transparent;
     border-style: solid;
     border-width: 17px;
-    border-right-color: #DF9D50;
-    border-bottom-color: #DF9D50;
+    border-right-color: #F28C00;
+    border-bottom-color: #F28C00;
 }
 .or-puff-icon-header-text > div:first-of-type {
     background-color: #FCF5EC;
-    padding: 20px 35px 25px 35px;
+    padding: 13px 35px 19px 35px;
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
 }
 
 .or-puff-icon-header-text .sv-use-margins .rubrikx4, .sv-use-margins h4{
 	margin: 0px;
 	font-size: 15px;
+	width: 100%:
 }
 
 .or-puff-icon-header-text > div:last-of-type {
@@ -4470,7 +4491,7 @@ table.or-bath-water th:not(:first-child)  {
 	border-radius:2px;
 	float:right;
 	margin-left:20px;
-	width:20%;
+	width:25%;
 }
 
 .or-social-media-content.youtube .or-content img
@@ -4522,9 +4543,15 @@ table.or-bath-water th:not(:first-child)  {
 	width:100%;
 }
 
-.or-social-media-content.instagram .or-header .fa-circle
-{
-	color:#64b0d7;
+.or-social-media-content.instagram .or-header .fa-circle {
+    color: transparent;
+    background: linear-gradient(190deg, #8462C5 0%,#d5378c 41%,#f87436 75%,#E6B454 100%);
+    border-radius: 32px;
+}
+
+.or-social-media-content.instagram .fa-instagram:before {
+    content: "\f16d";
+    font-size: 20px;
 }
 
 .or-social-media-content.facebook .or-header .fa-circle

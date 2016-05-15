@@ -34,6 +34,10 @@ padding-left: 20px;
 padding-right: 20px;
 }
 
+.or-news-social-section-startpage .or-social-media-content {
+    max-width: 500px;
+}
+
 }  /* end 1280 */
 
 
@@ -49,6 +53,11 @@ nav.or-secondary h2 {
 section.or-top-img-area {
     height: 310px;
 }
+
+.or-news-social-section-startpage .or-social-media-content {
+    max-width: 430px;
+}
+
 
 
 

@@ -375,7 +375,11 @@ body section.or-top-img-area .brodtextxxfetx {
 }
 
 .sol-meny-startsida nav.or-secondary {
-    margin: 135px auto 0px auto;
+    margin: 135px auto 30px auto;
+}
+
+.hero-startsida nav.or-secondary .or-content {
+    border: 0px solid rgb(249, 228, 225);
 }
 
 /* driftstörningar/kontakt startsida */
@@ -392,6 +396,7 @@ body section.or-top-img-area .brodtextxxfetx {
 
 .driftstorningar-container.or-bg-white {
     padding: 5px 20px 2px 20px;
+    margin-bottom: 85px;
 }
 
 .or-oh-start-page .or-oh-open, .or-oh-start-page .or-oh-closed, .or-oh-start-page .or-oh-status {
@@ -411,7 +416,8 @@ body section.or-top-img-area .brodtextxxfetx {
 }
 
 .or-red-header-box .box-header {
-    padding: 5px 10px 6px 10px;
+    padding: 6px 8px 7px 10px;
+    background-color: #e83c23;
 }
 
 .or-red-header-box {
@@ -441,57 +447,6 @@ body section.or-top-img-area .brodtextxxfetx {
     top: -38px;
 }
 
-/* startsida nyhetsflöde */
-.or-start-white-divider .or-news-list li p {
-    padding-left: 0px;
-}
-
-.or-start-heading-divider.or-left {
-    left: 50%;
-    top: -38px;
-}
-
-.or-news-social-section-startpage .or-social-media-content {
-    margin: 10px 0px;
-    max-width: 100%;
-    float: none;
-    width: 100%;
-}
-
-.or-news-social-section-startpage.or-start-white-divider {
-    margin-bottom: 0px;
-    padding: 0px 0px 0px;
-}
-
-.or-news-list.or-small h3 a {
-    font-size: 14px;
-}
-
-.or-start-white-divider .or-news-date {
-    margin-top: 1px;
-    display: inline-block;
-    margin-bottom: 4px;
-}
-
-.or-news-list.or-small li {
-    padding: 0px 20px 15px 15px;
-}
-
-.or-news-container-startpage{
-	border-bottom: 60px solid #F6F4F2;
-}
-
-.or-start-white-divider {
-    margin-bottom: 60px;
-    padding: 0px 10px 30px;
-}
-
-/* startsida socialtflöde */
-
-.or-start-heading-divider.or-right {
-    left: 50%;
-    top: -41px;
-}
 
 /* puffar startsida */
 
@@ -560,6 +515,10 @@ body section.or-top-img-area .brodtextxxfetx {
     margin: 0px;
 }
 
+.or-contact-block-startpage{
+	display: none!important;
+}
+
 
 } /* end 767 */
 
@@ -570,6 +529,10 @@ body section.or-top-img-area .brodtextxxfetx {
 /* navigering */	
 ul.or-nav-list li .or-list-wrapper p {
     display: none;
+}
+
+.sol-meny-startsida nav.or-secondary {
+    margin: 135px auto 0px auto;
 }
 
 section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-title:before {
@@ -669,6 +632,11 @@ nav.or-secondary .or-content ul li {
     width: 100%;
     box-sizing: border-box;
     margin-bottom: 3px;
+}
+
+nav.or-secondary .or-content ul li a h3 {
+    font-size: 11px;
+    margin: 0px;
 }
 
 nav.or-secondary .or-content ul li a {
@@ -1645,7 +1613,7 @@ width:65%;
 .or-mobile-nav-column h4 {
     font-size: 14px;
     text-align: left;
-    padding: 6px 5px 5px 10px;
+    padding: 6px 5px 5px 15px;
     color: #35383b;
     line-height: 1.1em;
 }
