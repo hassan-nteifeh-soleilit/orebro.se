@@ -246,6 +246,12 @@ section.or-nav-content-section {
     display: inline-block;
 }
 
+/* Standarsida toppbild */
+
+body section.or-top-img-area .or-top-img-text-area h1 {
+    font-size: 24px;
+}
+
 
 
 
