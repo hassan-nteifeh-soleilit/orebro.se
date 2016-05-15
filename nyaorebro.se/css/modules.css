@@ -3271,6 +3271,12 @@ section.or-bg-one {
     padding: 5px 20px 20px 20px;
 }
 
+.box-content.driftstorningar-container ul li a.normal:link {
+    margin-left: 20px;
+    font-family: "leaguespartan webfont",sans-serif;
+    font-size: 12px;
+}
+
 .or-bg-white ul li {
     border-top: dotted 2px #ECECEC;
     position: relative;
@@ -3284,6 +3290,7 @@ section.or-bg-one {
 .or-bg-white ul li a.normal:link {
     font-weight: 300;
     margin-left: 20px;
+    font-size: 15px;
 }
 
 .or-bg-white ul li a.normal:link:hover {
@@ -3381,6 +3388,14 @@ section.or-bg-one {
 	margin-right:10px;
 }
 
+.or-oh-start-page p.or-phone-hours strong, .or-email-info.normal strong
+{
+	font-family: "leaguespartan webfont",sans-serif;
+	font-size: 12px;
+}
+
+
+
 .or-oh-start-page .or-phone-number {
     font-size: 17px;
     font-weight: 300;
@@ -3396,7 +3411,7 @@ section.or-bg-one {
 }
 
 .or-oh-start-page .normal a {
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 300;
 }
 
@@ -3565,7 +3580,7 @@ body .or-start-heading-divider .normal{
 /* Startsida nyheter */
 
 .or-news-social-section-startpage.or-start-white-divider{
-    margin-bottom: 35px;
+    margin-bottom: -1px;
 }
 
 .or-start-white-divider .or-news-list li p {
