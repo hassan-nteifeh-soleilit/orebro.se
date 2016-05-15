@@ -3425,6 +3425,7 @@ section.or-bg-one {
 
 .hero-startsida nav.or-secondary .or-content ul li:nth-last-child(-n+3) a {
     border-bottom: 0px solid #ffffff;
+    padding-bottom: 20px;
 }
 
 .hero-startsida nav.or-secondary .or-content {
