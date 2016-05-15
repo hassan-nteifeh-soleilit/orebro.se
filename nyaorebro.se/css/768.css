@@ -348,8 +348,20 @@ section.or-top-img-area {
     border-radius: 0px;
 }
 
+/* puffar innehåll */
+.or-puff-link::before{
+    border-width: 13px;
+}
+
+.or-puff-link::after {
+    font-size: 9px;
+}
+
 .or-puff-link {
-    width: 48%;
+    width: 96%;
+    margin-bottom: 16px;
+    margin-right: 2%;
+    margin-left: 2%;
 }
 
 body .or-puff-link .normal a:link {
@@ -365,6 +377,7 @@ body .or-puff-link .normal a:link {
 .or-puff-icon-header-text {
     box-shadow: 0 0 3px #D7D5D5;
 }
+
 
 
 /* Standarsida toppbild */
@@ -534,6 +547,10 @@ body section.or-top-img-area .brodtextxxfetx {
 
 .or-contact-block-startpage{
 	display: none!important;
+}
+
+.hero-startsida nav.or-secondary .or-content ul li:nth-last-child(-n+3) a {
+    border-bottom: 3px solid #ffffff;
 }
 
 
