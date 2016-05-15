@@ -3242,6 +3242,10 @@ section.or-bg-one {
 }
 */
 
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 .box-content .sv-use-margins .normal {
     font-size: 16px;
     font-weight: 300;
@@ -3485,7 +3489,10 @@ section.or-bg-one {
 }
 
 .or-start-bottom-tabs .fa.fa-chevron-right {
-	color: #DADCDE;	
+	color: #DADCDE;
+	font-size: 13px;
+	position: relative;
+	top:2px;
 }
 
 .visa-fler-driftstorningar {
@@ -3631,11 +3638,18 @@ body .or-start-heading-divider .normal{
     color: #fff;
 }
 
+/* startsida social sektion */
+
+.or-news-social-section-startpage.or-start-white-divider{
+	padding: 50px 25px 10px 25px;
+}
+
 /* Startsida puffar */
 
 .or-puff-startpage-footer {
     background-color: #fff;
-    padding-top: 50px;
+    padding-top: 45px;
+    border-top: 6px solid #E8E7E5;
 }
 
 .or-puff-startpage-footer .or-puff-link .normal {
