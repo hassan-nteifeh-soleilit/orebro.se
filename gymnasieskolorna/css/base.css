@@ -1,4 +1,4 @@
-78/* Grunddesign */
+/* Grunddesign */
 
 .or-grid-12-col.sv-fluid-grid, .or-grid-12-col.sv-fixed-fluid-grid {
 padding-right:10px;
@@ -5959,7 +5959,7 @@ border-left: 1px solid rgb(133, 118, 114);
 }
 
 .sv-table-portlet th span.normal,  
-.sv-text-portlet table.sv-programtabell th span.normal {  
+.sv-text-portlet-content table.sv-programtabell th span.normal {  
   color: white;
   font-family: 'Leaguespartan webfont', sans-serif;
   font-size: 12px;
@@ -5970,19 +5970,19 @@ border-left: 1px solid rgb(133, 118, 114);
 }   
 
 .sv-table-portlet tbody tr, 
-.sv-text-portlet table.sv-programtabell tbody tr {
+.sv-text-portlet-content table.sv-programtabell tbody tr {
 border-bottom: 1px solid rgb(133, 118, 114);
 border-bottom: 1px solid rgba(133, 118, 114, 0.15);
 }
 
 .sv-table-portlet tbody tr:nth-child(odd),
-.sv-text-portlet table.sv-programtabell tbody tr:nth-child(odd) {
+.sv-text-portlet-content table.sv-programtabell tbody tr:nth-child(odd) {
    background-color: white;
    
 }
 
 .sv-table-portlet tbody tr:nth-child(even),
-.sv-text-portlet table.sv-programtabell tbody tr:nth-child(even) {
+.sv-text-portlet-content table.sv-programtabell tbody tr:nth-child(even) {
   border-bottom-color: rgb(133, 118, 114);
   border-bottom-color: rgba(133, 118, 114, 0.2);
   background-color: #fdf4e7;
@@ -6129,18 +6129,15 @@ position: absolute;   left: 25px;   bottom: 25px;   width: 80%;
 }
 
 .or-stor-bild-text-actions .sv-use-margins h2 {
-    margin-top: 10px;
-    font-size: 16px;
+	margin-top: 10px;
+	font-size: 16px;
 }
 
 .topp-actions div.or-action-link {
   margin-top: 5px;
 }
 
-
- 
-   
- /*TOPP STOR BILD OCH TEXT*/
+/* TOPP STOR BILD OCH TEXT */
 .or-stor-bild-text {
   width: 100%;
   max-width: 1080px;
@@ -6539,9 +6536,9 @@ text-decoration: underline;
 }
 
 .or-puff-bild-text h4 a {
-    font-size: 16px;
-    line-height: 1.3em;
-    text-decoration: none;
+	font-size: 16px;
+	line-height: 1.3em;
+	text-decoration: none;
 }
 
 .or-puff-bild-text:hover.or-puff-bild-text a:link{
@@ -7459,7 +7456,8 @@ color: #35383B;
 /* Plusbox program tabell*/
 
 .or-plus-box-program.or-plus-box-content.sv-table-portlet,
-.or-plus-box-program.or-plus-box-content.sv-programtabell {
+.or-plus-box-program.or-plus-box-content.sv-programtabell,
+.or-program-tabell .or-plus-box-content {
   padding: 0px;
 }
 
@@ -7474,8 +7472,8 @@ color: #35383B;
 
 .or-plus-box-program.or-plus-box-content.sv-table-portlet tr td:first-child,
 .or-plus-box-program.or-plus-box-content.sv-table-portlet tr th:first-child,
-.or-plus-box-program.or-plus-box-content .sv-text-portlet table.sv-programtabell tr td:first-child,
-.or-plus-box-program.or-plus-box-content .sv-text-portlet table.sv-programtabell tr th:first-child  {
+.or-plus-box-program.or-plus-box-content .sv-text-portlet-content table.sv-programtabell tr td:first-child,
+.or-plus-box-program.or-plus-box-content .sv-text-portlet-content table.sv-programtabell tr th:first-child  {
   border: none;
   padding-left: 20px;  
   width: 75%;
@@ -7483,8 +7481,8 @@ color: #35383B;
 
 .or-plus-box-program.or-plus-box-content.sv-table-portlet tr td:last-child,
 .or-plus-box-program.or-plus-box-content.sv-table-portlet tr th:last-child,
-.or-plus-box-program.or-plus-box-content .sv-text-portlet table.sv-programtabell tr td:last-child,
-.or-plus-box-program.or-plus-box-content .sv-text-portlet .sv-text-portlet table.sv-programtabell tr th:last-child  {
+.or-plus-box-program.or-plus-box-content .sv-text-portlet-content table.sv-programtabell tr td:last-child,
+.or-plus-box-program.or-plus-box-content .sv-text-portlet-content table.sv-programtabell tr th:last-child  {
   border: none;
   padding-right: 55px;
 }
@@ -7579,7 +7577,7 @@ color: #35383B;
 }
 
 .or-plus-box-program .or-icon-plus {
-   	font-size: 20px;
+   font-size: 20px;
 }
 
 .or-plus-box-active .or-icon-plus {
