@@ -3264,20 +3264,19 @@ section.or-bg-one {
 }
 
 .driftstorningar-container.or-bg-white {
-    padding: 5px 20px 20px 20px;
+    padding: 5px 20px 17px 20px;
 }
-
 .box-content.driftstorningar-container ul li a.normal:link {
     margin-left: 20px;
     font-family: "leaguespartan webfont",sans-serif;
     font-size: 12px;
 }
-
 .or-bg-white ul li {
     border-top: dotted 2px #ECECEC;
     position: relative;
-    padding-top: 10px;
-    padding-bottom: 3px;
+    padding-top: 11px;
+    padding-bottom: 13px;
+    margin-bottom: 0;
 }
 .or-bg-white ul li > span{
 	display: none;

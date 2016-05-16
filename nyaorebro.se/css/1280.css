@@ -58,7 +58,9 @@ section.or-top-img-area {
     max-width: 430px;
 }
 
-
+.or-start-bottom-tabs ul {
+    padding: 10px 0px;
+}
 
 
 }
