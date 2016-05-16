@@ -853,7 +853,7 @@ ul.or-teaser-list {
     width: auto;
 }
 
-body .or-update-date{
+body .or-update-date {
 	font-weight: 100;
     margin-bottom: 4px;
     display: inline-block;
@@ -3410,4 +3410,9 @@ table.or-bath-water th:not(:first-child)  {
 
 .or-bath-water-icon-red {
 	color:#CC553F;	
+}
+
+/* Snödagsboken */
+.or-snow-book .or-update-date {
+    font-weight: bold;
 }
