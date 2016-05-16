@@ -4493,6 +4493,7 @@ table.or-bath-water th:not(:first-child)  {
     max-width: 530px;
     float: right;
     margin-top: -10px;
+    padding-top: 7px;
 }
 
 .or-social-media-content .or-content img
@@ -4554,7 +4555,8 @@ table.or-bath-water th:not(:first-child)  {
 
 .or-social-media-content.instagram .or-header .fa-circle {
     color: transparent;
-    background: linear-gradient(190deg, #8462C5 0%,#d5378c 41%,#f87436 75%,#E6B454 100%);
+    background-color: #D5378C;
+    background: linear-gradient(190deg, #8462C5 0%,#D5378C 41%,#f87436 75%,#E6B454 100%);
     border-radius: 32px;
 }
 
