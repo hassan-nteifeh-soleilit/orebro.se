@@ -3668,7 +3668,7 @@ body .or-start-heading-divider .normal{
     padding-bottom: 15px;
 }
 .or-sok-politiker tbody tr{
-  /*background-color:transparent;*/
+  background-color:transparent;
 }
 
 
@@ -3806,7 +3806,7 @@ body .or-start-heading-divider .normal{
 }
 
 .or-sokt-politiker .or-sok-politiker tr{
-  display: table-row;
+  display: block;
   margin-top: -20px;
 }
 
