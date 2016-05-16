@@ -689,12 +689,17 @@ p.or-close-text {
 .or-plus-box-program .stacktable.small-only { display: none; }
 
 .or-plus-box-program.or-plus-box-content.sv-table-portlet tr td:last-child, 
-.or-plus-box-program.or-plus-box-content.sv-table-portlet tr th:last-child {
+.or-plus-box-program.or-plus-box-content.sv-table-portlet tr th:last-child ,
+.or-plus-box-program.or-plus-box-content .sv-text-portlet-content table.sv-programtabell tr td:last-child,
+.or-plus-box-program.or-plus-box-content .sv-text-portlet-content table.sv-programtabell tr th:last-child
+{
   padding-right: 5px;
 }
 
 .or-plus-box-program.or-plus-box-content.sv-table-portlet tr td:first-child, 
-.or-plus-box-program.or-plus-box-content.sv-table-portlet tr th:first-child {
+.or-plus-box-program.or-plus-box-content.sv-table-portlet tr th:first-child ,
+.or-plus-box-program.or-plus-box-content .sv-text-portlet-content table.sv-programtabell tr td:first-child,
+.or-plus-box-program.or-plus-box-content .sv-text-portlet-content table.sv-programtabell tr th:first-child{
   padding-left: 5px;
   width: 70%;
 }
@@ -704,9 +709,16 @@ p.or-close-text {
    width:95%;
 }
 
+th.sv-text-align-right p,
+td.sv-text-align-right p {
+    text-align: right;
+}
+
+/* instagram */
 .or-instagram-container.or-instagram-container-subpage {
  min-height: 300px;
 }
+
 /*programsida*/
 
 .or-stor-bild-text-tv > div:nth-child(2) h1, .or-program-heading-container h1 {
@@ -855,8 +867,6 @@ width:65%;
     display: none;
 }
 
-
-
 }   /* end 768 */
 
 
@@ -940,37 +950,6 @@ body {
 .or-puff-instagram > div:nth-child(1) {
     padding-left: 0px;
 }
-   
-   
-/* Programtabell visas som vanlig tabell */
-.or-plus-box-program .stacktable.large-only { display: table; }
-.or-plus-box-program .stacktable.small-only { display: none; }
 
-.or-plus-box-program.or-plus-box-content.sv-table-portlet tr td:last-child, 
-.or-plus-box-program.or-plus-box-content.sv-table-portlet tr th:last-child ,
-.or-plus-box-program.or-plus-box-content .sv-text-portlet-content table tr td:last-child,
-.or-plus-box-program.or-plus-box-content .sv-text-portlet-content table tr th:last-child
-{
-  padding-right: 5px;
-}
-
-.or-plus-box-program.or-plus-box-content.sv-table-portlet tr td:first-child, 
-.or-plus-box-program.or-plus-box-content.sv-table-portlet tr th:first-child ,
-.or-plus-box-program.or-plus-box-content .sv-text-portlet-content table tr td:first-child,
-.or-plus-box-program.or-plus-box-content .sv-text-portlet-content table tr th:first-child{
-  padding-left: 5px;
-  width: 70%;
-}
-
-.or-plus-box-header.or-plus-box-program,
-.or-plus-box-content.or-plus-box-program {
-   width:95%;
-}   
-
-th.sv-text-align-right p,
-td.sv-text-align-right p {
-    text-align: right;
-}   
-   
 }
 
