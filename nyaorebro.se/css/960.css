@@ -315,6 +315,11 @@ ul.or-nav-list li .or-list-wrapper {
     margin-bottom: 20px;
 }
 
+form.or-search-field input {
+    width: 55%;
+    font-size: 14px;
+}
+
 
 }  
 

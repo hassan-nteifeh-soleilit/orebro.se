@@ -1,5 +1,4 @@
-﻿3
-/* 2. Liten kalender info ruta */
+﻿/* 2. Liten kalender info ruta */
 /* 3. Kalender faktaruta */
 
 /*cookie*/
@@ -79,7 +78,7 @@ form.or-search-field {
 }
 
 form.or-search-field input {
-    width: 65%;
+    width: 60%;
     padding: 10px 55px 10px 12px;
     margin-bottom: 10px;
     float: left;
