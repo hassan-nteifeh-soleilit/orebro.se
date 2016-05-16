@@ -4796,3 +4796,9 @@ table.or-bath-water th:not(:first-child)  {
 {
 	display:none;
 }
+
+/* Snödagsboken */
+.or-snow-book .or-update-date {
+    font-weight: bold;
+}
+
