@@ -3801,16 +3801,13 @@ body .or-start-heading-divider .normal{
 	padding-top: 0.9em;
   color:black;
 }
-/*göm html-modul på politikersidor*/
-
-
 
 .or-sok-politiker div, .or-sok-politiker table {
     color: black;
 }
 
 .or-sokt-politiker .or-sok-politiker tr{
-  display: block;
+  display: table-row;
   margin-top: -20px;
 }
 
@@ -4798,4 +4795,3 @@ table.or-bath-water th:not(:first-child)  {
 .or-snow-book .or-update-date {
     font-weight: bold;
 }
-
