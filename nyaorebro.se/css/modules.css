@@ -3806,7 +3806,7 @@ body .or-start-heading-divider .normal{
 }
 
 .or-sokt-politiker .or-sok-politiker tr{
-  display: block;
+  display: table-cell;
   margin-top: -20px;
 }
 
