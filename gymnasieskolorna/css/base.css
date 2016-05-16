@@ -6124,22 +6124,12 @@ position: absolute;   left: 25px;   bottom: 25px;   width: 80%;
   float: left;
 }
 
-/* 
-.or-stor-bild-text-actions p{
-	font-size: 13px;
-}
-
-.or-stor-bild-text-actions .sv-use-margins h2 {
-	margin-top: 10px;
-	font-size: 16px;
-}
-*/
-
 .topp-actions div.or-action-link {
   margin-top: 5px;
 }
 
-/* TOPP STOR BILD OCH TEXT */
+
+ /*TOPP STOR BILD OCH TEXT*/
 .or-stor-bild-text {
   width: 100%;
   max-width: 1080px;
@@ -6536,13 +6526,7 @@ text-decoration: underline;
  margin-right: 1%;
  float:left;
 }
-/*
-.or-puff-bild-text h4 a {
-	font-size: 16px;
-	line-height: 1.3em;
-	text-decoration: none;
-}
-*/
+
 .or-puff-bild-text:hover.or-puff-bild-text a:link{
 text-decoration: underline;
 }
@@ -6727,7 +6711,6 @@ text-decoration: underline;
 /* TEST FÖR ACTION */
 .or-action-content a:link {
   box-shadow: none;
-	/*font-size: 12px;*/
 }
 
 
@@ -7825,7 +7808,6 @@ color: #35383B;
 
 .normal .or-action-text a:hover {
     letter-spacing: inherit;
-		/*text-decoration: underline;*
 }
 
 .or-action-link-small p.normal {
