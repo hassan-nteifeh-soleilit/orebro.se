@@ -1,3 +1,19 @@
+@media all and (max-width: 768px){
+.or-contact-block-startpage{
+	display: none!important;
+}
+
+.or-red-header-box {
+    margin-top: 0px;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 55px!important;
+    max-width: 100%;
+}
+
+}
+
 @media all and (min-width: 767px){
 .or-news-filter .or-plus-box-diskret-header.or-plus-box-active .or-collapse-button {
     display: none;
@@ -418,7 +434,7 @@ body section.or-top-img-area .brodtextxxfetx {
 
 .driftstorningar-container.or-bg-white {
     padding: 5px 20px 2px 20px;
-    margin-bottom: 85px;
+    margin-bottom: 0px;
 }
 
 .or-oh-start-page .or-oh-open, .or-oh-start-page .or-oh-closed, .or-oh-start-page .or-oh-status {
@@ -440,15 +456,6 @@ body section.or-top-img-area .brodtextxxfetx {
 .or-red-header-box .box-header {
     padding: 6px 8px 7px 10px;
     background-color: #e83c23;
-}
-
-.or-red-header-box {
-    margin-top: 0px;
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 55px!important;
-    max-width: 100%;
 }
 
 .or-red-header-box .box-header {
@@ -545,9 +552,7 @@ body section.or-top-img-area .brodtextxxfetx {
     margin: 0px;
 }
 
-.or-contact-block-startpage{
-	display: none!important;
-}
+
 
 .hero-startsida nav.or-secondary .or-content ul li:nth-last-child(-n+3) a {
     border-bottom: 3px solid #ffffff;
