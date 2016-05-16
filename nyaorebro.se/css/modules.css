@@ -3415,6 +3415,12 @@ section.or-bg-one {
     margin-top: -30px;
 }
 
+.hero-startsida{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .hero-startsida .or-secondary .or-content ul li a h3 {
     font-size: 19px;
     margin-bottom: 8px;

@@ -407,6 +407,13 @@ body section.or-top-img-area .brodtextxxfetx {
 }
 
 /* Startsida navigering */
+.hero-startsida{
+    width: 100%;
+    background-size: contain;
+    position: relative;
+    background-position: top center;
+    padding-top: 1px;
+}
 
 .sol-meny-startsida {
     padding: 0% 0% 0%;
