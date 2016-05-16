@@ -21,7 +21,6 @@
     margin-left: 15px!important;
 }
 
-
 /* Navigationskort */
 section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-title {
     font-size: 13px;
@@ -157,6 +156,8 @@ section.or-nav-content-section {
     top: -38px;
 }
 
+
+
 /* startsida puffar */
 .or-start-white-divider .or-puff-icon-header-text {
     margin: 0px 1%;
@@ -172,11 +173,19 @@ section.or-nav-content-section {
     font-size: 13px;
 }
 
+.or-puff-startpage-footer {
+    border-top: 0px solid #fff;
+}
+
+/* startsida kontakt/drift */
+.or-start-bottom-tabs ul {
+    padding: 10px 3px;
+}
 
 
 /* startsida nyhetsflöde */
 .or-start-white-divider .or-news-list li p {
-    padding-left: 0px;
+    padding-left: 55px;
 }
 
 .or-news-list.or-small {
@@ -235,6 +244,14 @@ section.or-nav-content-section {
     margin-top: 10px;
     display: inline-block;
 }
+
+/* Standarsida toppbild */
+
+body section.or-top-img-area .or-top-img-text-area h1 {
+    font-size: 24px;
+}
+
+
 
 
 

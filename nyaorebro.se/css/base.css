@@ -381,7 +381,17 @@ section.or-top-img-area {
 body section.or-top-img-area .or-top-img-text-area h1 {
     color: #E83C23;
     margin-top: 0px;
-    font-size: 20px;
+    font-size: 26px;
+    margin-bottom: 0px;
+}
+
+.or-top-img-text-area {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    padding: 20px 60px 20px 20px;
+    border-radius: 2px;
+    max-width: 50%;
 }
 
 body section.or-top-img-area .brodtextxxfetx {

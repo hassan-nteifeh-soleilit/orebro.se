@@ -173,7 +173,7 @@ body section.or-top-img-area .brodtextxxfetx {
 /* social flöde */
 
 .or-social-media-content .or-content a {
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .or-social-media-content .or-content img {
@@ -258,12 +258,12 @@ body .or-start-heading-divider .normal {
 
 .or-start-white-divider {
     margin-bottom: 30px;
-    padding: 0px 0px 5px;
+    padding: 0px 0px 14px;
     margin-top: 25px;
 }
 
 .or-start-white-divider .or-puff-icon-header-text {
-    margin-bottom: 8px;
+    margin-bottom: 4px;
     margin-top: 8px;
 }
 
@@ -344,12 +344,10 @@ body .or-start-heading-divider .normal {
 	border-bottom: 20px solid #F6F4F2;
 }
 
-/* puffar startsida */
-
-.or-start-white-divider .or-puff-icon-header-text > div:first-of-type {
-    margin-bottom: 0px;
+/* startsida nyheter */
+.or-start-white-divider .or-news-list li p {
+    padding-left: 0px;
 }
-
 
 
 } /* end 480px */	

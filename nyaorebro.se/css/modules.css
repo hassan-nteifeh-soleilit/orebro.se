@@ -1,4 +1,4 @@
-3
+﻿3
 /* 2. Liten kalender info ruta */
 /* 3. Kalender faktaruta */
 
@@ -854,12 +854,11 @@ ul.or-teaser-list {
 }
 
 body .or-update-date {
-    font-weight: 100;
     margin-bottom: 4px;
-    font-size: 13px;
+    font-size: 12px;
     display: block;
     margin-top: 9px;
-    color: #6F6F6F;
+    color: #857672;
 }
 
 .or-thumbup
@@ -3242,6 +3241,10 @@ section.or-bg-one {
 }
 */
 
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 .box-content .sv-use-margins .normal {
     font-size: 16px;
     font-weight: 300;
@@ -3261,20 +3264,19 @@ section.or-bg-one {
 }
 
 .driftstorningar-container.or-bg-white {
-    padding: 5px 20px 20px 20px;
+    padding: 5px 20px 17px 20px;
 }
-
 .box-content.driftstorningar-container ul li a.normal:link {
     margin-left: 20px;
     font-family: "leaguespartan webfont",sans-serif;
     font-size: 12px;
 }
-
 .or-bg-white ul li {
     border-top: dotted 2px #ECECEC;
     position: relative;
-    padding-top: 10px;
-    padding-bottom: 3px;
+    padding-top: 11px;
+    padding-bottom: 13px;
+    margin-bottom: 0;
 }
 .or-bg-white ul li > span{
 	display: none;
@@ -3421,6 +3423,7 @@ section.or-bg-one {
 
 .hero-startsida nav.or-secondary .or-content ul li:nth-last-child(-n+3) a {
     border-bottom: 0px solid #ffffff;
+    padding-bottom: 20px;
 }
 
 .hero-startsida nav.or-secondary .or-content {
@@ -3485,7 +3488,10 @@ section.or-bg-one {
 }
 
 .or-start-bottom-tabs .fa.fa-chevron-right {
-	color: #DADCDE;	
+	color: #DADCDE;
+	font-size: 13px;
+	position: relative;
+	top:2px;
 }
 
 .visa-fler-driftstorningar {
@@ -3628,16 +3634,23 @@ body .or-start-heading-divider .normal{
     color: #fff;
 }
 
+/* startsida social sektion */
+
+.or-news-social-section-startpage.or-start-white-divider{
+	padding: 50px 25px 10px 25px;
+}
+
 /* Startsida puffar */
 
 .or-puff-startpage-footer {
     background-color: #fff;
-    padding-top: 50px;
+    padding-top: 45px;
+    border-top: 6px solid #F6F4F2;
 }
 
 .or-puff-startpage-footer .or-puff-link .normal {
     font-weight: 300;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 1.3em;
 }
 
@@ -3981,7 +3994,7 @@ body .or-start-heading-divider .normal{
     margin-bottom: 30px;
     margin-right: 1%;
     margin-left: 1%;
-    padding: 8px 15px 8px 13px;
+    padding: 8px 20px 8px 13px;
     position: relative;
     min-height: 35px;
     float: left;
@@ -4217,6 +4230,10 @@ table.or-bath-water th:not(:first-child)  {
     margin-top: 8px;
     display: inline-block;
     margin-bottom: 5px;
+}
+
+.or-snow-book .or-update-date {
+    font-weight: bold;
 }
 
 
@@ -4473,6 +4490,7 @@ table.or-bath-water th:not(:first-child)  {
     max-width: 530px;
     float: right;
     margin-top: -10px;
+    padding-top: 7px;
 }
 
 .or-social-media-content .or-content img
@@ -4534,7 +4552,8 @@ table.or-bath-water th:not(:first-child)  {
 
 .or-social-media-content.instagram .or-header .fa-circle {
     color: transparent;
-    background: linear-gradient(190deg, #8462C5 0%,#d5378c 41%,#f87436 75%,#E6B454 100%);
+    background-color: #D5378C;
+    background: linear-gradient(190deg, #8462C5 0%,#D5378C 41%,#f87436 75%,#E6B454 100%);
     border-radius: 32px;
 }
 
@@ -4774,3 +4793,9 @@ table.or-bath-water th:not(:first-child)  {
 {
 	display:none;
 }
+
+/* Snödagsboken */
+.or-snow-book .or-update-date {
+    font-weight: bold;
+}
+

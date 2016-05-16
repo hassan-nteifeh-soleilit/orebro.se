@@ -344,10 +344,24 @@ section.or-top-img-area {
     width: 100%;
     background-size: contain;
     box-sizing: border-box;
+    padding: 20px 20px 5px;
+    border-radius: 0px;
+}
+
+/* puffar innehåll */
+.or-puff-link::before{
+    border-width: 13px;
+}
+
+.or-puff-link::after {
+    font-size: 9px;
 }
 
 .or-puff-link {
-    width: 48%;
+    width: 96%;
+    margin-bottom: 16px;
+    margin-right: 2%;
+    margin-left: 2%;
 }
 
 body .or-puff-link .normal a:link {
@@ -358,10 +372,18 @@ body .or-puff-link .normal a:link {
     font-size: 13px;
 }
 
-body section.or-top-img-area .or-top-img-text-area h1 {
-    font-size: 18px;
-    margin-bottom: 5px;
+/* puffar tjänst */
 
+.or-puff-icon-header-text {
+    box-shadow: 0 0 3px #D7D5D5;
+}
+
+
+
+/* Standarsida toppbild */
+
+body section.or-top-img-area .or-top-img-text-area h1 {
+    font-size: 20px;
 }
 
 body section.or-top-img-area .brodtextxxfetx {
@@ -412,7 +434,7 @@ body section.or-top-img-area .brodtextxxfetx {
 }
 
 .or-bg-white ul li {
-    margin-bottom: 10px;
+    margin-bottom: 4px;
 }
 
 .or-red-header-box .box-header {
@@ -454,6 +476,14 @@ body section.or-top-img-area .brodtextxxfetx {
     padding-top: 10px;
 }
 
+.or-puff-icon-header-text::before {
+    border-width: 13px;
+}
+
+.or-puff-icon-header-text::after {
+    font-size: 9px;
+}
+
 
 .or-start-white-divider .or-puff-icon-header-text .ikonxorange {
     float: left;
@@ -474,22 +504,22 @@ body section.or-top-img-area .brodtextxxfetx {
     background-color: #fff;
     float: left;
     padding: 0px 0px 0px 0px;
-
+    margin-bottom: 1px;
 }
 
 .or-start-white-divider .or-puff-icon-header-text {
     padding: 10px 30px 0px 85px;
     text-align: left;
     border: 5px solid #fff;
-    margin-left: 1%;
-    margin-right: 1%;
-    width: 98%;
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 94%;
     box-sizing: border-box;
     min-height: auto;
     max-height: 75px;
     min-height: 75px;
     max-width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .or-start-white-divider .or-puff-icon-header-text .sv-use-margins .rubrikx4, .sv-use-margins h4 {
@@ -519,6 +549,10 @@ body section.or-top-img-area .brodtextxxfetx {
 	display: none!important;
 }
 
+.hero-startsida nav.or-secondary .or-content ul li:nth-last-child(-n+3) a {
+    border-bottom: 3px solid #ffffff;
+}
+
 
 } /* end 767 */
 
@@ -543,6 +577,8 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-t
 body section.or-nav-content-section .sv-fluid-grid.or-wider .or-nav-list .or-list-wrapper.or-single .or-title:before {
     top: 6px;
 }
+
+
 
 ul.or-nav-list li .or-list-wrapper {
     border: 3px solid #fff;
@@ -644,7 +680,7 @@ nav.or-secondary .or-content ul li a {
     float: left;
     height: auto;
     border-radius: 3px;
-    box-shadow: 0 0 5px #C7C7C7;
+    box-shadow: 0 0 2px #C7C7C7;
     width: 100%;
     border: 3px solid #FFFFFF;
     position: relative;
@@ -654,6 +690,11 @@ nav.or-secondary .or-content ul li a {
     box-sizing: border-box;
     position: relative;
     line-height: 1em;
+}
+
+.hero-startsida nav.or-secondary .or-content ul li:nth-last-child(-n+3) a {
+    border-bottom: 3px solid #ffffff;
+    padding-bottom: 7px;
 }
 
 nav.or-secondary .or-content ul li a:before {
@@ -741,6 +782,14 @@ nav.or-secondary .or-content ul.or-extra {
 .or-openhours-contact > div:last-child h4 {
     border-top-right-radius: 0px;
     width: 100%;
+}
+
+
+/* genomgangssida standard toppbild rubrik */
+body section.or-top-img-area .or-top-img-text-area h1 {
+    font-size: 18px;
+    margin-bottom: 5px;
+
 }
 
 }	   /* end 680px */
