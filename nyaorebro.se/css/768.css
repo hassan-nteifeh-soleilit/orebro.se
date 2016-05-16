@@ -694,6 +694,7 @@ nav.or-secondary .or-content ul li a {
 
 .hero-startsida nav.or-secondary .or-content ul li:nth-last-child(-n+3) a {
     border-bottom: 3px solid #ffffff;
+    padding-bottom: 10px;
 }
 
 nav.or-secondary .or-content ul li a:before {
