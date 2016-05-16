@@ -1,4 +1,4 @@
-3
+﻿3
 /* 2. Liten kalender info ruta */
 /* 3. Kalender faktaruta */
 
@@ -4235,6 +4235,10 @@ table.or-bath-water th:not(:first-child)  {
     margin-top: 8px;
     display: inline-block;
     margin-bottom: 5px;
+}
+
+.or-snow-book .or-update-date {
+    font-weight: bold;
 }
 
 
