@@ -205,22 +205,25 @@ header .or-logo {
     width: 55px;
     height: 70px;
     border:0px;
+
 }
 
-.or-header-topptext h2 {
+.or-header-topptext{
     color: #E83C23;
-    margin-bottom: 2px;
-    display: inline-block;
+    margin-bottom: 0px;
+    display: block;
     font-size: 19px;
     margin-top: 25px;
+    font-family: "leaguespartan webfont",sans-serif;
 }
 
-.or-header-bottomtext h4{
+.or-header-bottomtext{
 	color: #8C817C;
-	display: inline-block;
+	display: block;
 	margin-top: 0px;
 	margin-bottom: 0px;
 	font-size: 16px;
+	font-family: "leaguespartan webfont",sans-serif;
 }
 
 .or-tool-area
