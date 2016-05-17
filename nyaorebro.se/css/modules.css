@@ -3705,6 +3705,16 @@ body .or-start-heading-divider .normal{
     margin-top: 20px;
     
 }
+
+.or-sok-politiker tr:nth-child(2) td:nth-child(2) img{
+    position:absolute;
+    right: 12000%;
+}
+
+.or-sok-politiker tr:nth-child(2) td:nth-child(2) {
+    position: relative;
+}
+
 .or-sokt-politiker h1 {
     margin-left: 1.2em;
 }
