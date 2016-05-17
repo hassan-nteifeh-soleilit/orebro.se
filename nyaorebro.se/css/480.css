@@ -346,7 +346,11 @@ body .or-start-heading-divider .normal {
 
 /* startsida nyheter */
 .or-start-white-divider .or-news-list li p {
-    padding-left: 0px;
+    padding-left: 10px;
+}
+
+.or-start-white-divider .or-news-list li p {
+    display: inline;
 }
 
 

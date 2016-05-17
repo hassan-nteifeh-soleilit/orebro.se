@@ -1681,8 +1681,8 @@ width:65%;
     padding: 6px 5px 5px 15px;
     color: #35383b;
     line-height: 1.1em;
+    margin-top: 1px;
 }
-
 .or-mobile-nav-column.search-column:first-child{
 	width: 99px;
 	float: left;
