@@ -4661,8 +4661,8 @@ table.or-bath-water th:not(:first-child)  {
 .or-media-close
 {
 	background-color:#e83c23;
-	border-bottom-right-radius:3px;
-	border-top-right-radius:3px;
+	border-bottom-left-radius:3px;
+	border-top-right-radius:0px;
 	box-shadow:3px 0 6px -3px rgba(0,0,0,0.4) inset;
 	color:#fff;
 	display:block;
