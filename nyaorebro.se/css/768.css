@@ -193,6 +193,10 @@ body .or-content-container .or-tir p {
     height: 100%;
 }
 
+#alertInfo {
+    padding: 20px 10px 5px;
+}
+
 /* mobilmeny */
 
 /*.or-tree .or-toggle-panel {
