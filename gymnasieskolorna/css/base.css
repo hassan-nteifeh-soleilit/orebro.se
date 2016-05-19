@@ -7592,6 +7592,7 @@ color: #35383B;
 }
 
 /* PLUSBOX V2*/
+/*
 .or-plus-box-v2.or-plus-box-header {
     width: 100%;
     margin-top: 13px;
@@ -7610,9 +7611,8 @@ color: #35383B;
     padding-right: 45px;
     box-sizing: border-box;
 }
-
-.or-plus-box-v2.or-plus-box-header:hover .plusboxxrubrik {
-    color: #E83C23;
+*/
+.or-plus-box-v2.or-plus-box-header:hover .plusboxxrubrik {    
     text-decoration: underline;
 }
 
