@@ -16,7 +16,7 @@
      
      
      /* Plusboxar */
-     $('.or-plus-box-content').css('display', 'none');
+     $('.or-plus-box-content:not(.or-plus-box-v2)').css('display', 'none');
      $('.or-plus-box-header').click(function(){
        $(this).parent().next('div.or-plus-box-content').slideToggle();
        $(this).toggleClass('or-plus-box-active');
