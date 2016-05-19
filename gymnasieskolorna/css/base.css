@@ -6124,6 +6124,10 @@ position: absolute;   left: 25px;   bottom: 25px;   width: 80%;
   float: left;
 }
 
+.or-stor-bild-text-actions p{
+ 	font-size: 13px;
+ }
+
 .topp-actions div.or-action-link {
   margin-top: 5px;
 }
