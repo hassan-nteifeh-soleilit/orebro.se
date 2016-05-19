@@ -6711,6 +6711,7 @@ text-decoration: underline;
 /* TEST FÖR ACTION */
 .or-action-content a:link {
   box-shadow: none;
+  font-size: 12px;
 }
 
 
