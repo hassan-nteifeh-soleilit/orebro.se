@@ -5495,7 +5495,7 @@ color: rgba(53, 56, 59, 0.85);
 
 /* Plusbox */
 
-.or-collpase-button {
+.or-collapse-button {
   position: absolute;
   right: 0px;
   width: 50px;
@@ -5503,7 +5503,7 @@ color: rgba(53, 56, 59, 0.85);
   float: right;
 }
 
-.or-collpase-button.or-colorbg.or-plus-box-active {
+.or-collapse-button.or-colorbg.or-plus-box-active {
   background-color: rgb(255,255,255);
   background-color: rgba(255,255,255,0.35);
 }
@@ -5570,7 +5570,7 @@ color: rgba(53, 56, 59, 0.85);
     margin-top: 0px;
 }
 
-.or-plus-box-header:hover .or-collpase-button{
+.or-plus-box-header:hover .or-collapse-button{
   	opacity: 0.9;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
 	filter: alpha(opacity=90);
@@ -7530,7 +7530,7 @@ color: #35383B;
 }
 
 
-.or-plus-box-program .or-collpase-button {
+.or-plus-box-program .or-collapse-button {
   position: absolute;
   right: 0px;
   width: 37px;
@@ -7544,7 +7544,7 @@ color: #35383B;
 	color: #35383b;
 }
 
-.or-plus-box-program .or-collpase-button.or-plus-box-active {
+.or-plus-box-program .or-collapse-button.or-plus-box-active {
    background-color: #dcedbb!important;    /*TODO default temafärg */ 
 }
 
@@ -7574,6 +7574,13 @@ color: #35383B;
     -webkit-transition: transform 500ms;
     color: white;
     opacity: 0.92;
+}
+
+.or-icon-plus:before {
+	content: "\f067";
+  font-family: FontAwesome;
+  color: #fff;
+  position: relative;
 }
 
 .or-plus-box-program .or-icon-plus {
