@@ -73,6 +73,20 @@ body .or-content-container .or-tir p {
 
 /* mobilmeny */
 
+.or-mobile-nav-column i.fa {
+    font-size: 22px;
+}
+
+.or-mobile-nav-column.search-column {
+    width: 55px;
+}
+
+.or-mobile-nav-column {
+    width: 130px;
+}
+
+
+
 /* sök */
 
 .or-search-link a {
@@ -82,6 +96,7 @@ body .or-content-container .or-tir p {
 .sol-sok-ruta input {
     width: 91%;
 }
+
 
 
 
@@ -360,27 +375,31 @@ body .or-start-heading-divider .normal {
 
 @media all and (max-width: 390px) {
 
+/* mobilmeny */
+
+.or-mobile-nav-column {
+    width: 90px;
+ }
 
 .or-mobile-nav-column:first-child{
 	width: 65px;
 }
-
 .or-mobile-nav-column.search-column {
     width: 50px;
+    padding-top: 8px;
+    height: 42px;
 }
 
 .or-mobile-nav-column.search-column:first-child {
-    width: 70px;
+    width: 110px;
 }
 
+.or-mobile-nav-container {
+    height: 55px;
+}
 
 .or-mobile-nav-column {
-    width: 130px;
-}
-
-.or-mobile-nav-column h4 {
-    font-size: 12px;
-    padding: 7px 1px 1px 6px;
+    height: 45px;
 }
 
 
