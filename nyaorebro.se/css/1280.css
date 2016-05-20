@@ -74,18 +74,11 @@ section.or-article-main .or-content-padding {
     max-width: 800px;
 }
 
-/*.sv-use-margins .normal {
-    font-size: 19px;
+nav.or-secondary {
+    max-width: 1050px;
+    margin: 80px auto 80px auto;
 }
 
-.sv-use-margins .normal a{
-    font-size: 19px;
-}
-
-ul li {
-    font-size: 19px;
-}
-*/
 .ingress {
     font-size: 23px;
     line-height: 1.5em;
