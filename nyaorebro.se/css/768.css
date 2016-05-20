@@ -538,8 +538,6 @@ body section.or-top-img-area .brodtextxxfetx {
     width: 94%;
     box-sizing: border-box;
     min-height: auto;
-    max-height: 75px;
-    min-height: 75px;
     max-width: 100%;
     margin-bottom: 15px;
 }
@@ -553,13 +551,12 @@ body section.or-top-img-area .brodtextxxfetx {
 .or-start-white-divider .or-puff-icon-header-text .normal a:link {
     float: left;
     overflow: hidden;
-    height: 21px;
+    height: 45px;
     font-size: 14px;
 }
 
 .or-start-white-divider .or-puff-icon-header-text .normal {
     float: left;
-    max-height: 25px;
     overflow: hidden;
 }
 
