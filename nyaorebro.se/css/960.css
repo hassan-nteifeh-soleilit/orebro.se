@@ -92,7 +92,7 @@ section.or-nav-content-section .or-puff-icon-header-text {
     margin-right: 1%;
     width: 98%;
     box-sizing: border-box;
-    min-height: auto;
+    min-height: 0px;
     float: left;
 }
 
