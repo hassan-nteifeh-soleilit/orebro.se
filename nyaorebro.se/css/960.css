@@ -93,8 +93,7 @@ section.or-nav-content-section .or-puff-icon-header-text {
     width: 98%;
     box-sizing: border-box;
     min-height: auto;
-    max-height: 90px;
-    min-height: 90px;
+    float: left;
 }
 
 section.or-nav-content-section .or-puff-icon-header-text .sv-use-margins .rubrikx4, .sv-use-margins h4 a{
@@ -106,7 +105,6 @@ section.or-nav-content-section .or-puff-icon-header-text .sv-use-margins .rubrik
 section.or-nav-content-section .or-puff-icon-header-text .normal a:link {
     float: left;
     overflow: hidden;
-    height: 45px;
     font-size: 14px;
 }
 
