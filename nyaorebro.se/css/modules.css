@@ -3263,7 +3263,7 @@ section.or-bg-one {
 }
 
 .driftstorningar-container.or-bg-white {
-    padding: 5px 20px 17px 20px;
+    padding: 5px 20px 8px 20px;
 }
 .box-content.driftstorningar-container ul li a.normal:link {
     margin-left: 20px;
@@ -3273,8 +3273,8 @@ section.or-bg-one {
 .or-bg-white ul li {
     border-top: dotted 2px #ECECEC;
     position: relative;
-    padding-top: 11px;
-    padding-bottom: 13px;
+    padding-top: 16px;
+    padding-bottom: 16px;
     margin-bottom: 0;
 }
 .or-bg-white ul li > span{
@@ -3323,7 +3323,7 @@ section.or-bg-one {
     box-shadow: none;
     position: absolute;
     left: 0px;
-    top: 15px;
+    top: 21px;
     color: #DADCDE;
 }
 
