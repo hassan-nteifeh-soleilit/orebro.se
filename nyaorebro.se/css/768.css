@@ -537,7 +537,7 @@ body section.or-top-img-area .brodtextxxfetx {
     margin-right: 3%;
     width: 94%;
     box-sizing: border-box;
-    min-height: auto;
+    min-height: 0px;
     max-width: 100%;
     margin-bottom: 15px;
 }
