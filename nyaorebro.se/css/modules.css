@@ -3415,6 +3415,11 @@ section.or-bg-one {
     margin-top: -30px;
 }
 
+.sol-meny-startsida nav.or-secondary {
+    max-width: 1100px;
+    margin: 80px auto 80px auto;
+}
+
 .hero-startsida{
     background-position: center center;
     background-repeat: no-repeat;
