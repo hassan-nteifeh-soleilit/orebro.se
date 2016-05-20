@@ -3416,7 +3416,7 @@ section.or-bg-one {
 }
 
 .sol-meny-startsida nav.or-secondary {
-    max-width: 1100px;
+    max-width: 1150px;
     margin: 80px auto 80px auto;
 }
 
@@ -3446,7 +3446,7 @@ section.or-bg-one {
 
 .or-red-header-box {
     margin-top: -44px;
-    max-width: 580px;
+    max-width: 530px;
     margin-left: 1%!important;
     margin-right: 1%;
     box-sizing: border-box;
@@ -4051,17 +4051,16 @@ body .or-puff-link .normal{
     font-size: 12px;
 }
 
-.or-puff-icon-header-text {
-    position: relative;
-    background-color: #fff;
-    border: 0px solid #fff;
-    box-shadow: 0 0 6px #E6E6E6;
-    border-radius: 3px;
-    padding: 5px;
-    text-align: center;
-    vertical-align: middle;
-    min-height: 270px;
-    margin-top: 47px;
+.or-puff-link::before {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    right: -1px;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 17px;
+    border-right-color: #e83c23;
+    border-bottom-color: #e83c23;
 }
 
 /* Puff med ikon, rubrik och textyta */
