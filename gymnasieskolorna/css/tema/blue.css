@@ -283,7 +283,7 @@ or-plus-box-content.or-plus-box-program {
   text-decoration:underline;
 }
 
-.or-action-link-small:hover .normal .or-action-text a:link{
+.or-action-link-small:hover .normal .or-action-text a{
  color: #0098bd;
 }
  

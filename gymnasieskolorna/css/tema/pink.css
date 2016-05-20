@@ -272,7 +272,7 @@ h4.plusboxxrubrik.or-plus-box-active {
   text-decoration:underline;
 }
 
-.or-action-link-small:hover .normal .or-action-text a:link {
+.or-action-link-small:hover .normal .or-action-text a {
  color: #D196C1;
 }
  

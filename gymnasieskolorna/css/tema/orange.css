@@ -283,7 +283,7 @@ h4.plusboxxrubrik.or-plus-box-active {
     border-color: rgba(136, 183, 213, 0) rgba(136, 183, 213, 0) rgba(136, 183, 213, 0) #F28C00;
 }
 
-.or-action-link-small:hover .normal .or-action-text a:link {
+.or-action-link-small:hover .normal .or-action-text a {
  color: #F28C00;
 }
  
