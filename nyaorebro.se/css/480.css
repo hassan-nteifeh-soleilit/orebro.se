@@ -379,7 +379,17 @@ body .or-start-heading-divider .normal {
 
 .or-mobile-nav-column {
     width: 90px;
+    height: 45px;
  }
+ 
+ .or-mobile-nav-column .or-mobile-nav-text{
+ 	width: 66px;
+ 	margin: 0 auto;
+ }
+ 
+.or-mobile-nav-column.search-column .or-mobile-nav-text{
+	width: 50px;
+}
 
 .or-mobile-nav-column:first-child{
 	width: 65px;
@@ -396,10 +406,6 @@ body .or-start-heading-divider .normal {
 
 .or-mobile-nav-container {
     height: 55px;
-}
-
-.or-mobile-nav-column {
-    height: 45px;
 }
 
 
