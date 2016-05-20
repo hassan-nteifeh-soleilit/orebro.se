@@ -43,12 +43,13 @@
         
       /* Ikoner i dokumentlistningsrutorna */
       $(".or-docs-box-content a").each(function( index ) {
-      
-         var title = $( this ).attr("title").replace('(','').replace(')','');
+				 var title = $(this).attr("title");
+         var title = $( this ).attr("title");
          var iconCss, sizeStr;
          
          try {
             if(title && title.length>0) {
+               title = title.replace('(', '').replace(')', '');
                var titleSplit = title.split(',');                              
                iconCss = titleSplit[0];                        
                sizeStr = '(' + titleSplit[1].replace(' ','')+')';                                 
