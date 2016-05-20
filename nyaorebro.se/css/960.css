@@ -72,10 +72,15 @@ section.or-nav-content-section .or-puff-icon-header-text .ikonxorange {
     font-size: 30px;
 }
 
+section.or-nav-content-section .or-puff-icon-header-text {
+    margin-top: 5px;
+}
+
 section.or-nav-content-section .or-puff-icon-header-text > div:first-of-type {
     background-color: #fff;
     float: left;
     padding: 0px 0px 0px 0px;
+    margin-bottom: 2px;
 
 }
 
@@ -88,26 +93,25 @@ section.or-nav-content-section .or-puff-icon-header-text {
     width: 98%;
     box-sizing: border-box;
     min-height: auto;
-    max-height: 75px;
-    min-height: 75px;
+    max-height: 90px;
+    min-height: 90px;
 }
 
-section.or-nav-content-section .or-puff-icon-header-text .sv-use-margins .rubrikx4, .sv-use-margins h4 {
+section.or-nav-content-section .or-puff-icon-header-text .sv-use-margins .rubrikx4, .sv-use-margins h4 a{
     float: left;
-    margin-bottom: 3px;
+    margin-bottom: 0px;
     font-size: 12px;
 }
 
 section.or-nav-content-section .or-puff-icon-header-text .normal a:link {
     float: left;
     overflow: hidden;
-    height: 21px;
+    height: 45px;
     font-size: 14px;
 }
 
 section.or-nav-content-section .or-puff-icon-header-text .normal {
     float: left;
-    max-height: 25px;
     overflow: hidden;
 }
 
