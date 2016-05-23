@@ -5495,7 +5495,7 @@ color: rgba(53, 56, 59, 0.85);
 
 /* Plusbox */
 
-.or-collpase-button {
+.or-collapse-button {
   position: absolute;
   right: 0px;
   width: 50px;
@@ -5503,7 +5503,7 @@ color: rgba(53, 56, 59, 0.85);
   float: right;
 }
 
-.or-collpase-button.or-colorbg.or-plus-box-active {
+.or-collapse-button.or-colorbg.or-plus-box-active {
   background-color: rgb(255,255,255);
   background-color: rgba(255,255,255,0.35);
 }
@@ -5570,7 +5570,7 @@ color: rgba(53, 56, 59, 0.85);
     margin-top: 0px;
 }
 
-.or-plus-box-header:hover .or-collpase-button{
+.or-plus-box-header:not(.or.plus-box-v2):hover .or-collapse-button{
   	opacity: 0.9;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
 	filter: alpha(opacity=90);
@@ -7530,7 +7530,7 @@ color: #35383B;
 }
 
 
-.or-plus-box-program .or-collpase-button {
+.or-plus-box-program .or-collapse-button {
   position: absolute;
   right: 0px;
   width: 37px;
@@ -7544,7 +7544,7 @@ color: #35383B;
 	color: #35383b;
 }
 
-.or-plus-box-program .or-collpase-button.or-plus-box-active {
+.or-plus-box-program .or-collapse-button.or-plus-box-active {
    background-color: #dcedbb!important;    /*TODO default temafärg */ 
 }
 
@@ -7576,13 +7576,111 @@ color: #35383B;
     opacity: 0.92;
 }
 
+.or-icon-plus:before {
+	content: "\f067";
+  font-family: FontAwesome;
+  color: #fff;
+  position: relative;
+}
+
 .or-plus-box-program .or-icon-plus {
    font-size: 20px;
 }
 
-.or-plus-box-active .or-icon-plus {
+.or-plus-box-active:not(.or-plus-box-v2) .or-icon-plus {
   transform: rotate(45deg);
 }
+
+/* PLUSBOX V2*/
+/*
+.or-plus-box-v2.or-plus-box-header {
+    width: 100%;
+    margin-top: 13px;
+    margin-bottom: 0px;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 14px;
+    min-height: 40px;
+    padding-left: 14px;
+    position: relative;
+    padding-right: 45px;
+    box-sizing: border-box;
+}
+*/
+.or-plus-box-v2.or-plus-box-header:hover .plusboxxrubrik {    
+    text-decoration: underline;
+}
+
+.or-plus-box-v2.or-plus-box-content {
+    background-color: #fff;
+    padding: 15px;
+}
+
+.or-plus-box-v2.or-colorborder.or-wrapper-click.or-plus-box-header.or-plus-box-active .plusboxxrubrik{
+	color: #fff;
+}
+
+.or-plus-box-v2.or-plus-box-header .or-collapse-button {
+    position: absolute;
+    right: 0px;
+    width: 45px;
+    height: 100%;
+    top: 0px;
+}
+
+.or-plus-box-v2 .or-collapse-button.or-colorbg.or-plus-box-active{
+	background-color: #F9F9F8;
+}
+
+.or-plus-box-v2.or-plus-box-active .or-collapse-button {
+    background-color: #f9f9f8;
+}
+
+.or-plus-box-v2.or-plus-box-active .or-icon-plus:before {
+    color: #857672;
+}
+
+.or-plus-box-v2 .or-collapse-button {
+    position: absolute;
+    right: 0px;
+    width: 50px;
+    height: 100%;
+    float: right;
+}
+
+.or-plus-box-v2 .or-icon-area {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.or-plus-box-v2 .or-icon-plus:before{
+	  content: "\f067";
+    font-family: FontAwesome;
+    color: #fff;
+    position: relative;
+}
+
+.or-plus-box-v2.or-plus-box-header.or-colorborder.or-wrapper-click.or-plus-box-header.or-plus-box-active .or-icon-plus:before{
+	    content: "\f068";
+}
+
+.or-plus-box-v2 .or-icon-plus {
+    display: table-cell;
+    font: normal normal normal 20px/1 FontAwesome;
+    text-align: center;
+    vertical-align: middle;
+    transition: transform 500ms;
+    -webkit-transition: transform 500ms;
+    color: white;
+    opacity: 0.92;
+}
+
 
 /*Plusbox Diskret */
 .or-plus-box-diskret-header .or-icon-plus:before {

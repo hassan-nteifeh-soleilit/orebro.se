@@ -4,7 +4,7 @@
 /* font size */
 
 h1, .heading {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 h2, h2 a, .portlet-section-header, .portlet-menu-caption, .sv-portlet-table-caption, .subheading, .subheading a {
@@ -73,6 +73,20 @@ body .or-content-container .or-tir p {
 
 /* mobilmeny */
 
+.or-mobile-nav-column i.fa {
+    font-size: 22px;
+}
+
+.or-mobile-nav-column.search-column {
+    width: 55px;
+}
+
+.or-mobile-nav-column {
+    width: 130px;
+}
+
+
+
 /* sök */
 
 .or-search-link a {
@@ -82,6 +96,7 @@ body .or-content-container .or-tir p {
 .sol-sok-ruta input {
     width: 91%;
 }
+
 
 
 
@@ -148,13 +163,11 @@ body p.sv-portlet-image-caption {
 
 section.or-top-img-area {
     height: 220px;
-    background-position: 0px 75px;
+    background-position: 0px 0px;
 }
 
 section.or-nav-content-section {
-    background-color: #fff;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding-bottom: 30px;
 }
 
 .or-divider-heading {
@@ -167,6 +180,14 @@ body section.or-top-img-area .or-top-img-text-area h1 {
 
 body section.or-top-img-area .brodtextxxfetx {
     font-size: 12px;
+}
+
+body section.or-top-img-area .or-top-img-text-area h2{
+	font-size: 13px;
+}
+
+body section.or-top-header .sv-use-margins h2{
+	font-size: 13px;
 }
 
 
@@ -285,7 +306,7 @@ body .or-start-heading-divider .normal {
     position: absolute;
     bottom: -8px;
     left: 15px;
-    z-index: 999;
+    z-index: 1;
 }
 
 .or-red-header-box {
@@ -346,7 +367,11 @@ body .or-start-heading-divider .normal {
 
 /* startsida nyheter */
 .or-start-white-divider .or-news-list li p {
-    padding-left: 0px;
+    padding-left: 8px;
+}
+
+.or-start-white-divider .or-news-list li p {
+    display: inline;
 }
 
 
@@ -356,27 +381,37 @@ body .or-start-heading-divider .normal {
 
 @media all and (max-width: 390px) {
 
+/* mobilmeny */
+
+.or-mobile-nav-column {
+    width: 90px;
+    height: 45px;
+ }
+ 
+ .or-mobile-nav-column .or-mobile-nav-text{
+ 	width: 66px;
+ 	margin: 0 auto;
+ }
+ 
+.or-mobile-nav-column.search-column .or-mobile-nav-text{
+	width: 50px;
+}
 
 .or-mobile-nav-column:first-child{
 	width: 65px;
 }
-
 .or-mobile-nav-column.search-column {
     width: 50px;
+    padding-top: 8px;
+    height: 42px;
 }
 
 .or-mobile-nav-column.search-column:first-child {
-    width: 70px;
+    width: 110px;
 }
 
-
-.or-mobile-nav-column {
-    width: 130px;
-}
-
-.or-mobile-nav-column h4 {
-    font-size: 12px;
-    padding: 7px 1px 1px 6px;
+.or-mobile-nav-container {
+    height: 55px;
 }
 
 

@@ -205,22 +205,25 @@ header .or-logo {
     width: 55px;
     height: 70px;
     border:0px;
+
 }
 
-.or-header-topptext h2 {
+.or-header-topptext{
     color: #E83C23;
-    margin-bottom: 2px;
-    display: inline-block;
+    margin-bottom: 0px;
+    display: block;
     font-size: 19px;
     margin-top: 25px;
+    font-family: "leaguespartan webfont",sans-serif;
 }
 
-.or-header-bottomtext h4{
+.or-header-bottomtext{
 	color: #8C817C;
-	display: inline-block;
+	display: block;
 	margin-top: 0px;
 	margin-bottom: 0px;
 	font-size: 16px;
+	font-family: "leaguespartan webfont",sans-serif;
 }
 
 .or-tool-area
@@ -360,12 +363,12 @@ section.or-article-main .or-on-page-links h2
 section.or-top-header {
     margin: 0 auto;
     max-width: 1330px;
-    padding: 0;
+    padding: 10px 10px 15px;
 }
 
 section.or-top-header .normal {
-    line-height: 1em;
-    max-width: 700px;
+    line-height: 1.2em;
+    max-width: 750px;
 }
 
 section.or-top-img-area {
@@ -381,7 +384,7 @@ section.or-top-img-area {
 body section.or-top-img-area .or-top-img-text-area h1 {
     color: #E83C23;
     margin-top: 0px;
-    font-size: 26px;
+    font-size: 24px;
     margin-bottom: 0px;
 }
 
@@ -406,6 +409,18 @@ body section.or-top-img-area .brodtextxxfetx {
 	padding: 20px 20px;
     border-radius: 2px;
     max-width: 50%;
+}
+
+body section.or-top-img-area .or-top-img-text-area h2{
+	font-size: 16px;
+	line-height: 1.3em;
+	margin-top: 10px;
+}
+
+body section.or-top-header .sv-use-margins h2{
+	font-size: 16px;
+	line-height: 1.3em;
+	margin-top: 10px;
 }
 
 section.or-nav-content-section {
@@ -922,7 +937,7 @@ color: #fff;}
 
 
 nav.or-secondary {
-    max-width: 1100px;
+    max-width: 950px;
     margin: 80px auto 80px auto;
 }
 
@@ -1020,11 +1035,10 @@ nav.or-secondary .or-content ul.or-extra {
     background: rgba(248, 247, 247, 0.95);
     padding-top: 3px;
     margin-top: -2px;
+    padding-bottom: 15px;
 }
 
-nav.or-secondary .or-content ul.or-extra:last-child  li a{
-    border: 0px;
-}
+
 
 nav.or-secondary .or-content ul.or-extra li {
     padding-top: 5px;
@@ -1060,3 +1074,4 @@ nav.or-secondary .or-content ul.or-extra li:nth-of-type(-n+3) {
 nav.or-secondary .or-content ul li:nth-last-child(-n+3) a {
     /*border-bottom: 0px solid #ffffff;*/
 }
+
