@@ -363,12 +363,12 @@ section.or-article-main .or-on-page-links h2
 section.or-top-header {
     margin: 0 auto;
     max-width: 1330px;
-    padding: 0;
+    padding: 10px 0px 15px;
 }
 
 section.or-top-header .normal {
-    line-height: 1em;
-    max-width: 700px;
+    line-height: 1.2em;
+    max-width: 750px;
 }
 
 section.or-top-img-area {
@@ -384,7 +384,7 @@ section.or-top-img-area {
 body section.or-top-img-area .or-top-img-text-area h1 {
     color: #E83C23;
     margin-top: 0px;
-    font-size: 26px;
+    font-size: 24px;
     margin-bottom: 0px;
 }
 
@@ -409,6 +409,18 @@ body section.or-top-img-area .brodtextxxfetx {
 	padding: 20px 20px;
     border-radius: 2px;
     max-width: 50%;
+}
+
+body section.or-top-img-area .or-top-img-text-area h2{
+	font-size: 16px;
+	line-height: 1.3em;
+	margin-top: 10px;
+}
+
+body section.or-top-header .sv-use-margins h2{
+	font-size: 16px;
+	line-height: 1.3em;
+	margin-top: 10px;
 }
 
 section.or-nav-content-section {

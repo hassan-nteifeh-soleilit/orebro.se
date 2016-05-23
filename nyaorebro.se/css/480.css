@@ -4,7 +4,7 @@
 /* font size */
 
 h1, .heading {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 h2, h2 a, .portlet-section-header, .portlet-menu-caption, .sv-portlet-table-caption, .subheading, .subheading a {
@@ -167,9 +167,7 @@ section.or-top-img-area {
 }
 
 section.or-nav-content-section {
-    background-color: #fff;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding-bottom: 30px;
 }
 
 .or-divider-heading {
@@ -182,6 +180,14 @@ body section.or-top-img-area .or-top-img-text-area h1 {
 
 body section.or-top-img-area .brodtextxxfetx {
     font-size: 12px;
+}
+
+body section.or-top-img-area .or-top-img-text-area h2{
+	font-size: 13px;
+}
+
+body section.or-top-header .sv-use-margins h2{
+	font-size: 13px;
 }
 
 

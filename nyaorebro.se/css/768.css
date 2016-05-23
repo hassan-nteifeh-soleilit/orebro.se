@@ -396,6 +396,14 @@ body .or-puff-link .normal a:link {
     font-size: 13px;
 }
 
+body section.or-top-img-area .or-top-img-text-area h2{
+	font-size: 14px;
+}
+
+body section.or-top-header .sv-use-margins h2{
+	font-size: 14px;
+}
+
 /* puffar tjänst */
 
 .or-puff-icon-header-text {
@@ -802,11 +810,7 @@ nav.or-secondary .or-content ul.or-extra {
 
 
 /* genomgangssida standard toppbild rubrik */
-body section.or-top-img-area .or-top-img-text-area h1 {
-    font-size: 18px;
-    margin-bottom: 5px;
 
-}
 
 
 }	   /* end 680px */
