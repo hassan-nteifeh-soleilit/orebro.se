@@ -98,6 +98,21 @@ header {
     display: none;
 }
 
+/* Sök i mobil */
+
+header.or-search-mobile {
+    display: block;
+}
+
+header.or-search-mobile .sv-row:first-of-type  > div  {
+	display:none;
+}
+
+header.or-search-mobile .sv-row:first-of-type  > div:nth-of-type(2n)  {
+	display:block;	
+	width:100%;
+	margin: 0 auto;
+}
 
 
 /* cookie */
