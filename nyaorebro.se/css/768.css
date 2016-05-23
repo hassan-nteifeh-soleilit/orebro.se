@@ -355,21 +355,26 @@ body .or-article-main .or-openhours-contact .sv-responsiveTable--stacked__headRo
 
 /* Genomgangssida 2 */
 section.or-top-img-area {
-    height: 270px;
-    background-position: 0px 75px;
+    height: 260px;
+    background-position: 0px 0px;
+    width: 100%;
 }
 
 .or-top-img-text-area {
     position: absolute;
     left: 0px;
-    top: 0px;
-    bottom: auto;
+    bottom: 0;
     max-width: 100%;
     width: 100%;
     background-size: contain;
     box-sizing: border-box;
-    padding: 20px 20px 5px;
+    padding: 15px 20px 5px;
     border-radius: 0px;
+    top: auto;
+}
+
+section.or-top-header {
+    padding: 0px 20px 5px;
 }
 
 /* puffar innehåll */
