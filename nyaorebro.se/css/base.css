@@ -220,7 +220,7 @@ header .or-logo {
 .or-header-bottomtext{
 	color: #8C817C;
 	display: block;
-	margin-top: 0px;
+	margin-top: -1px;
 	margin-bottom: 0px;
 	font-size: 16px;
 	font-family: "leaguespartan webfont",sans-serif;
