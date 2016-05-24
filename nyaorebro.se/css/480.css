@@ -97,6 +97,29 @@ body .or-content-container .or-tir p {
     width: 91%;
 }
 
+/* Sök i mobil */
+
+header.or-search-mobile form.or-search-field input {
+    width: 60%;
+}
+
+
+header.or-search-mobile form.or-search-field button {
+    top: -2px;
+	width: 45px;
+	height: 45px;
+}
+
+header.or-search-mobile .or-search-button-wrapper .fa-search, #or-id-search-icon {
+    font-size: 25px;
+}
+
+
+header.or-search-mobile  .or-search-button-wrapper {
+    bottom: 11px;
+	left: 12px;
+}
+
 
 
 

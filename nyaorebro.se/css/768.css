@@ -104,6 +104,10 @@ header.or-search-mobile {
     display: block;
 }
 
+header.or-search-mobile form.or-search-field input {
+    width: 70%;
+}
+
 header.or-search-mobile .sv-row:first-of-type  > div  {
 	display:none;
 }
