@@ -105,9 +105,9 @@ header.or-search-mobile form.or-search-field input {
 
 
 header.or-search-mobile form.or-search-field button {
-    top: -2px;
-	width: 45px;
-	height: 45px;
+    top: -1px;
+	width: 47px;
+	height: 47px;
 }
 
 header.or-search-mobile .or-search-button-wrapper .fa-search, #or-id-search-icon {
@@ -116,8 +116,8 @@ header.or-search-mobile .or-search-button-wrapper .fa-search, #or-id-search-icon
 
 
 header.or-search-mobile  .or-search-button-wrapper {
-    bottom: 11px;
-	left: 12px;
+    bottom: 12px;
+	left: 13px;
 }
 
 
