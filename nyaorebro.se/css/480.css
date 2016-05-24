@@ -100,7 +100,7 @@ body .or-content-container .or-tir p {
 /* Sök i mobil */
 
 header.or-search-mobile form.or-search-field input {
-    width: 60%;
+    width: 75%;
 }
 
 
@@ -520,6 +520,7 @@ body .or-start-heading-divider .normal {
 .sol-tab-button-container {
     display: none;
 }
+
 
 
 	/* från base */

@@ -105,7 +105,8 @@ header.or-search-mobile {
 }
 
 header.or-search-mobile form.or-search-field input {
-    width: 70%;
+    width: 85%;
+    box-sizing: border-box;
 }
 
 header.or-search-mobile .sv-row:first-of-type  > div  {
