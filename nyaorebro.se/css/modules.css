@@ -4723,7 +4723,7 @@ table.or-bath-water th:not(:first-child)  {
 
 
 /* social media undersida */
-.or-content-container .or-social-media-content {
+.or-social-media-subpage .or-social-media-content {
     border-bottom: 0px #F7F3F3 solid;
     margin-bottom: 8px;
     margin-top: 8px;
@@ -4734,33 +4734,33 @@ table.or-bath-water th:not(:first-child)  {
     border-radius: 2px;
 }
 
-.or-content-container .or-follow .normal a:link {
+.or-social-media-subpage .or-follow .normal a:link {
     float: left;
     clear: both;
 }
 
-.or-content-container .or-social-media-content .or-content img {
+.or-social-media-subpage .or-social-media-content .or-content img {
  width: auto;
  max-height: 160px;
 }
 
-.or-content-container .or-social-media-content.facebook .or-header .fa-circle {
+.or-social-media-subpage .or-social-media-content.facebook .or-header .fa-circle {
     color: #0090b4;
     font-size: 24px;
     top:2px;
 }
 
-.or-content-container .or-social-media-content .fa-inverse {
+.or-social-media-subpage .or-social-media-content .fa-inverse {
     font-size: 13px;
     position: relative;
     top: -2px;
 }
 
-.or-content-container .or-social-media-content .or-header {
+.or-social-media-subpage .or-social-media-content .or-header {
     margin-bottom: 0px;
 }
 
-.or-content-container .or-social-media-content .or-header .fa-clock-o {
+.or-social-media-subpage .or-social-media-content .or-header .fa-clock-o {
     margin-left: 0px;
 }
 
