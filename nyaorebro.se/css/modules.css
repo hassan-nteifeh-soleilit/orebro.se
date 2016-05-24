@@ -1,4 +1,4 @@
-﻿3/* 2. Liten kalender info ruta */
+﻿/* 2. Liten kalender info ruta */
 /* 3. Kalender faktaruta */
 
 /*cookie*/
@@ -1761,7 +1761,7 @@ footer {
     margin-top: 0px;
 }
 
-.or-backdrop{
+.or-backdrop, .or-menu-backdrop{
 	position:fixed;
 	top:0;
 	left:0;
