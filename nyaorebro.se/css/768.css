@@ -1674,7 +1674,15 @@ width:65%;
 
 .or-alert-message-wrapper {
     width: 80%;
+    display: inline-block;
+    margin-left: 75px;
+
 }
+
+.or-alert-icon {
+    font-size: 35px;
+}
+
 
 /*
 
