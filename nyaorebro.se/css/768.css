@@ -841,7 +841,18 @@ nav.or-secondary .or-content ul.or-extra {
 }	   /* end 680px */
 
 
+
 @media all and (max-width: 550px){
+
+
+/* social media undersida */
+.or-content-container .or-social-media-content .or-content img {
+    max-height: inherit;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
 
 
 /* footer */
