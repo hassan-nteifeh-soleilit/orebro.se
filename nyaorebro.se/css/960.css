@@ -15,6 +15,7 @@
 .or-total-link {
     float: left;
     width: 100%;
+    box-sizing: border-box;
 }
 
 #or-search-form {
