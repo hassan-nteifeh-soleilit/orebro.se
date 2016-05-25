@@ -3986,6 +3986,11 @@ body .or-start-heading-divider .normal{
     text-decoration: none;
     line-height: normal;
     box-shadow: rgba(174, 222, 239, 0.65)0px -14px 0px -10px inset;
+	-webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+
 }
 
 .or-ny-sokning{
