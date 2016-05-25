@@ -5140,3 +5140,47 @@ box-shadow: 0px -48px 0px -30px rgba(174, 222, 239, 0.65) inset;
 	height: 16em;
 }
 
+/* Återvinningsguide */
+.ess-result .sort-results .heading{
+	font-size: 12px;
+	margin-top: 0px;
+}
+
+.ess-result .sort-results p{
+	font-size: 13px;
+	margin-top: 7px;
+}
+
+.sort-results tbody {
+	margin-bottom: 15px;
+}
+
+.ess-result .antaltraffar h2{
+	
+}
+
+.portlet-section-header.antaltraffar h2{
+	
+}
+
+.antaltraffar h2{
+	
+}
+
+.sort-results tr td {
+	padding: 0px 10px 10px;
+	vertical-align: initial;
+}
+
+.sort-results tr th {
+    padding: 10px 0px 5px;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-family: "leaguespartan webfont",sans-serif;
+    letter-spacing: 0.03em;
+}
+
+.ess-result{ 
+width: 100%;
+}
