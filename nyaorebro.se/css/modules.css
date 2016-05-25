@@ -3763,6 +3763,8 @@ body .or-start-heading-divider .normal{
   color: #35383b;
   text-decoration: none;
   line-height: 16px;
+  display: inline-block;
+  margin-bottom: 8px;
 }
 
 .or-sokt-politiker .or-sok-politiker div a{
