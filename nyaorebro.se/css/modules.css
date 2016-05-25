@@ -3705,22 +3705,20 @@ body .or-start-heading-divider .normal{
     display: none;
 }
 
-.or-sok-politiker ul li {
-    float: left;
+.or-sok-politiker ul li{
+    float:left;
+    max-width: 70%;
     margin-right: 10px;
     list-style: none;
     background-color: #fff;
     border: solid 2px #f3dcd0;
     margin-bottom: 17px;
-    border-radius: 3px;
-    padding: 4px 0px;
-    display: inline-block;
+
 }
-.or-sok-politiker ul li a {
+.or-sok-politiker ul li a{
     text-align: center;
-    padding: 15px;
-    color: #E83C23;
-    font-family: "leaguespartan webfont",sans-serif;
+    padding: 22px;
+    color:#E83C23;
 }
 
 .or-sok-politiker strong {
@@ -3743,26 +3741,23 @@ body .or-start-heading-divider .normal{
   margin-left: -1.8em
 }
 
-.or-sokt-politiker .or-sok-politiker b a {
-    font-weight: normal;
-    font-style: normal;
-    font-size: 12px;
-    color: #35383b;
-    text-decoration: none;
-    line-height: 16px;
-    box-shadow: rgba(174, 222, 239, 0.65)0px -14px 0px -10px inset;
-    font-family: "leaguespartan webfont",sans-serif;
+.or-sokt-politiker .or-sok-politiker b a{
+  font-weight: normal;
+  font-style: normal;
+  font-size: 12px;
+  color: #35383b;
+  text-decoration: none;
+  line-height: 16px;
+  box-shadow: rgba(174, 222, 239, 0.65)0px -14px 0px -10px inset;
 }
-.or-sokt-politiker .or-sok-politiker b {
-    color: black;
-    font-weight: normal;
-    font-style: normal;
-    font-size: 12px;
-    color: #35383b;
-    text-decoration: none;
-    line-height: 16px;
-    margin-bottom: 10px;
-    display: inline-block;
+.or-sokt-politiker .or-sok-politiker b{
+	color:black;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 12px;
+  color: #35383b;
+  text-decoration: none;
+  line-height: 16px;
 }
 
 .or-sokt-politiker .or-sok-politiker div a{
@@ -3944,16 +3939,22 @@ body .or-start-heading-divider .normal{
     
 /* Utsökt politiker */
 .or-utsokt-politiker .or-sok-politiker td {
-  line-height: 18px;
-  font-family: "leaguespartan webfont",sans-serif;
+    line-height: 20px;
+    font-size: 15px;
+    font-weight: 300;
 }
+
+.or-utsokt-politiker .or-sok-politiker td p{
+    line-height: 18px;
+}
+
 .or-utsokt-politiker h3{
   font-size: 14px;
 }
 
 .or-utsokt-politiker .or-sok-politiker td a {
     font-style: normal;
-    font-size: 11px;
+    font-size: 12px;
     text-decoration: none;
     line-height: normal;
     box-shadow: rgba(174, 222, 239, 0.65)0px -14px 0px -10px inset;
