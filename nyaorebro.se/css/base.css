@@ -721,11 +721,14 @@ body p.sv-portlet-image-caption {
     position: relative;
 }
 
-.or-article-main{
-	
+.or-article-main ol.normal li {
+    margin-bottom: 10px;
+    text-indent: -20px;
+    padding-left: 22px;
+    font-size: 17px;
+    line-height: 1.4em;
+    list-style: none;
 }
-
-
 
 
 /* Avdelare content */
