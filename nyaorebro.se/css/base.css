@@ -727,7 +727,29 @@ body p.sv-portlet-image-caption {
     padding-left: 22px;
     font-size: 17px;
     line-height: 1.4em;
-    list-style: none;
+    counter-increment: step-counter;
+}
+
+.or-article-main ol.normal li:before {
+	content: counter(step-counter);
+    margin-right: 9px;
+    font-size: 11px;
+    background-color: #857672;
+    color: white;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 35px;
+    /* font-family: "leaguespartan webfont",sans-serif; */
+    width: 12px;
+    position: relative;
+    top: -3px;
+}  
+  
+
+.or-article-main ol.normal {
+    margin: 0px;
+    padding: 5px 0px;
+     list-style: none;
 }
 
 
