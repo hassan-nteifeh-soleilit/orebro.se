@@ -3982,9 +3982,10 @@ body .or-start-heading-divider .normal{
 
 .or-utsokt-politiker .or-sok-politiker td a {
     font-style: normal;
-    font-size: 12px;
+    font-size: 15px;
     text-decoration: none;
     line-height: normal;
+    font-weight: 300;
     box-shadow: rgba(174, 222, 239, 0.65)0px -14px 0px -10px inset;
 	-webkit-transition: all 500ms ease;
     -moz-transition: all 500ms ease;
