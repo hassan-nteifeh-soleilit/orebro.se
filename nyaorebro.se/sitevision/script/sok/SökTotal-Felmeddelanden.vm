@@ -6,7 +6,8 @@
 #else
    #set ($scriptUtil = $sitevisionUtils.scriptUtil)
    #set ($searchPhrase = $endecUtil.escapeXML(${searchResult.getDisplayQuery()}))
-   #set ($pattern = $propertyUtil.getString($bundle, 'noHitsPatternText'))
+   ##set ($pattern = $propertyUtil.getString($bundle, 'noHitsPatternText'))
+   #set ($pattern = "Din sökning <strong>{0}</strong> gav ingen träff") 
    #set ($argsList = $sitevisionUtils.instanceCreatorUtil.listWrapper)
    $argsList.add($searchPhrase)
  

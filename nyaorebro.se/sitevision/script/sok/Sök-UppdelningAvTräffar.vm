@@ -1,9 +1,7 @@
 #set ($pagingFont = $propertyUtil.getNestedString($portlet, 'pagingFont', 'selectorText'))
 #set ($pagingDivClass = $namespace + 'paging')
-##set ($previousText = '&laquo; ' + $propertyUtil.getString($bundle, 'previousText'))   ## Needed by script, do not rename/move/remove
-##set ($nextText = $propertyUtil.getString($bundle, 'nextText') + ' &raquo;')           ## Needed by script, do not rename/move/remove
-#set ($previousText = '&laquo; ')   ## Needed by script, do not rename/move/remove
-#set ($nextText = ' &raquo;')           ## Needed by script, do not rename/move/remove
+#set ($previousText = '&laquo; ' + $propertyUtil.getString($bundle, 'previousText'))   ## Needed by script, do not rename/move/remove
+#set ($nextText = $propertyUtil.getString($bundle, 'nextText') + ' &raquo;')           ## Needed by script, do not rename/move/remove
 
 ##
 ## NOTE! The content of this div will be replaced with pagination navigation via javascript
