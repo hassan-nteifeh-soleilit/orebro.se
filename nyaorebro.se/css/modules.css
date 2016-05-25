@@ -3766,6 +3766,10 @@ body .or-start-heading-divider .normal{
   box-shadow: rgba(174, 222, 239, 0.65)0px -14px 0px -10px inset;
   display: inline-block;
   margin-bottom: 10px;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
 }
 
 .or-sokt-politiker .or-sok-politiker b a:hover {
