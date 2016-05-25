@@ -3706,19 +3706,30 @@ body .or-start-heading-divider .normal{
 }
 
 .or-sok-politiker ul li{
-    float:left;
+    float: left;
     max-width: 70%;
     margin-right: 10px;
     list-style: none;
     background-color: #fff;
     border: solid 2px #f3dcd0;
     margin-bottom: 17px;
-
+    border-radius: 2px;
+    padding: 3px 0px;
 }
+
+.or-sok-politiker ul li:hover {
+    background-color: #e83c23;
+}
+
+.or-sok-politiker ul li:hover a {
+    color: #fff;
+}
+
 .or-sok-politiker ul li a{
     text-align: center;
-    padding: 22px;
+    padding: 0px 11px;
     color:#E83C23;
+    font-family: "leaguespartan webfont",sans-serif;
 }
 
 .or-sok-politiker strong {
