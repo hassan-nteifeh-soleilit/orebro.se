@@ -834,6 +834,22 @@ nav.or-secondary .or-content ul.or-extra {
 }
 
 
+
+/* återvinningsguide */
+
+.sv-siteseeker-search-portlet form.or-search-field {
+    padding: 0 0px;
+}
+
+.ess-result table{
+	margin-bottom: 35px;
+	width: 100%;
+    border-collapse: collapse;
+    display: block;
+	overflow-x: auto;
+}
+
+
 /* genomgangssida standard toppbild rubrik */
 
 
