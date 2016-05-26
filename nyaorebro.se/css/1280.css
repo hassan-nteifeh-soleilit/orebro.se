@@ -88,6 +88,16 @@ a.ingress:link, .ingress a:link, a.ingress:visited, .ingress a:visited, a.ingres
     font-size: 23px;
 }
 
+/* navigering nivå 1 */
+
+nav.or-secondary .or-content ul li a h3 {
+    font-size: 18px;
+}
+
+nav.or-secondary .or-content ul li a p {
+    font-size: 15px;
+}
+
 
 /* puffar */
 
