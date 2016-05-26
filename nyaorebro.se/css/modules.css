@@ -5191,8 +5191,8 @@ box-shadow: 0px -48px 0px -30px rgba(174, 222, 239, 0.65) inset;
     margin-bottom: 30px;
 }
 
-.antaltraffar{
-	font-family: "leaguespartan webfont",sans-serif;
+.antaltraffar {
+    font-family: "leaguespartan webfont",sans-serif !important;
 }
 .sort-results tr td {
 	padding: 10px;
