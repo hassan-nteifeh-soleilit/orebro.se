@@ -101,6 +101,33 @@ body .or-content-container .or-tir p {
     font-size: 17px;
 }
 
+.sv-use-margins .normal {
+    font-size: 19px;
+}
+
+.sv-use-margins .normal a{
+    font-size: 19px;
+}
+
+.normal a:link:hover {
+    box-shadow: rgba(174, 222, 239, 0.65) 0px -41px 0px -18px inset;
+}
+
+.ingress a:link:hover{
+	box-shadow: rgba(174, 222, 239, 0.65) 0px -41px 0px -18px inset;
+}
+
+.ingress {
+    font-size: 23px;
+    line-height: 1.5em;
+}
+
+.or-article-main ul.normal li, .or-article-main ol.normal li {
+    font-size: 19px;
+}
+
+
+
 
 
 }  /* end 1350 */
@@ -126,6 +153,20 @@ section.or-article-main .or-content-padding {
     font-size: 25px;
     line-height: 1.5em;
 }
+
+.or-article-main ul.normal li, .or-article-main ol.normal li {
+    font-size: 21px;
+}
+
+.normal a:link:hover {
+    box-shadow: rgba(174, 222, 239, 0.65) 0px -41px 0px -15px inset;
+}
+
+.ingress a:link:hover{
+	box-shadow: rgba(174, 222, 239, 0.65) 0px -41px 0px -15px inset;
+}
+
+
 
 
 /* puffar */

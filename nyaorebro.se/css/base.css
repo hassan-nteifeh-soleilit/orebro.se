@@ -24,6 +24,7 @@ a.portlet-font, a.portlet-font-label, a.portlet-font-dim, a.portlet-msg-status, 
 	-moz-transition: all 100ms ease;
 	-o-transition: all 100ms ease;
 	transition: all 100ms ease;
+	cursor: pointer;
 }
 
 a.ingress:link, .ingress a:link, a.ingress:visited, .ingress a:visited, a.ingress:active, .ingress a:active {
@@ -42,6 +43,10 @@ a.ingress:link, .ingress a:link, a.ingress:visited, .ingress a:visited, a.ingres
     box-shadow: rgba(174, 222, 239, 0.65)0px -16px 0px -11px inset;
     transition: all 100ms ease;
     font-weight: 300;
+}
+
+.ingress a:link:hover{
+	box-shadow: rgba(174, 222, 239, 0.65) 0px -41px 0px -23px inset;
 }
 
 .sv-linklist-portlet table.sv-standard td p a:visited, .sv-blog-portlet table.sv-standard td p a:visited, .sv-archive-portlet table.sv-standard td p a:visited, .sv-text-portlet table.sv-standard td p a:visited {
