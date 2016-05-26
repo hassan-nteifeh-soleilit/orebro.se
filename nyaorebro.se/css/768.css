@@ -838,7 +838,7 @@ nav.or-secondary .or-content ul.or-extra {
 /* återvinningsguide */
 
 .sv-siteseeker-search-portlet form.or-search-field {
-    padding: 0 0px;
+    padding: 0 0px!important;
 }
 
 .ess-result table{
