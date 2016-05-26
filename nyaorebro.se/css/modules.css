@@ -3051,7 +3051,7 @@ body .or-article-main .sv-responsiveTable--stacked__headRow p{
 .or-tool-wrapper {
     float: right;
     position: absolute;
-    width: 310px;
+    width: 320px;
     background-color: white;
     top: 0;
     right: 10px;
@@ -5072,16 +5072,14 @@ box-shadow: 0px -48px 0px -30px rgba(174, 222, 239, 0.65) inset;
 /* Listan med knappar */ 
 
 .sharebuttonlist {
-    list-style-type: none;    
+    list-style-type: none;
     margin: 0;
-    
     background-color: white;
-    padding: 3px;
+    padding: 5px 4px 1px 6px;
     position: absolute;
     width: 139px;
     right: 170px;
     top: 48px;
-    
 }
 
 .sharebuttonlist--horizontal .sharebuttonlist__item {

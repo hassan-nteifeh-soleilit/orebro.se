@@ -104,6 +104,12 @@ header .or-wider
 	width:1350px;
 }
 
+.or-menu-button-container{
+	text-align: center;
+    margin: 0 auto;
+    width: 60px;
+}
+
 .or-grid-12-col.or-wider
 {
 	max-width:1350px;
