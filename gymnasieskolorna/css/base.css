@@ -6093,6 +6093,11 @@ width: 60%;
     
 }
 
+ .or-stor-bild-text-actions .sv-formField {
+    border-bottom: 0px dotted #e4e4e4;
+    padding-bottom: 0px;
+}
+
 .or-stor-bild-text-actions > div:nth-child(1) {
   float: left;
   width: 60%;
@@ -8645,7 +8650,7 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
     font-size: 16px;
     font-family: "open sans",sans-serif;
     font-weight: 300;
-    margin-bottom: 7px;
+    margin-bottom: 0px;
 }
 
 .sv-defaultFormTheme input[type=text]:focus, textarea:focus {
