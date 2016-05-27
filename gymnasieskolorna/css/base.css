@@ -6128,6 +6128,11 @@ display:none;
 display:none;
 }
 
+.sv-formField {
+    border-bottom: 2px dotted #e4e4e4;
+    padding-bottom: 10px;
+}
+
 .or-stor-bild-text-actions > div:nth-child(1) {
   float: left;
   width: 60%;
@@ -6154,7 +6159,7 @@ position: absolute;   left: 25px;   bottom: 25px;   width: 80%;
 
 .or-stor-bild-text-actions > div:nth-child(2) {
   width: 40%;
-  padding: 45px 20px 20px 30px;
+  padding: 25px 20px 20px 30px;
   float: left;
 }
 
