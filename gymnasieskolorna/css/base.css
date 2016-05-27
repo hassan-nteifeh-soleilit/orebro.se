@@ -6116,7 +6116,16 @@ width: 60%;
     background-color: #E5EEF0;
     margin-top: 20px;
     margin-bottom: 30px;
-    
+}
+
+.or-stor-bild-text-actions
+.sv-defaultFormTheme .sv-field-title-container.sv-bold label{
+display:none;
+}
+
+.or-stor-bild-text-actions
+.sv-field-title-container.sv-bold{
+display:none;
 }
 
 .or-stor-bild-text-actions > div:nth-child(1) {
