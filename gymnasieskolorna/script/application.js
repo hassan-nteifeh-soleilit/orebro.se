@@ -1,5 +1,6 @@
 (function($) {   
   $(function() {    
+<<<<<<< HEAD
     if(!sv.PageContext.inEditMode) {      
       $('html').delegate('.or-wrapper-click', 'click', function (event) {            
          if(!$(event.target).is("a")) {         
@@ -17,9 +18,33 @@
     }
      
      
+=======
+		if (!sv.PageContext.inEditMode) {
+			/* Delegate on html works on html loaded by ajax calls */
+			$('html').delegate('.or-wrapper-click', 'click', function (event) {            
+				if(!$(event.target).is("a")) {
+					if($('a:first', this).length > 0){
+						try {
+							$('a:first', this)[0].click();
+						} catch(err) {
+							window.location = $('a:first', this).attr("href");
+						}
+					}
+				}
+			});
+			$('head').append('<style type="text/css">.or-wrapper-click { cursor: pointer; }</style>');
+		}
+     
+		/* Case insensitive :contains */
+		$.expr[':'].contains = function(a, i, m) {
+			return $(a).text().toUpperCase().indexOf(m[3].toUpperCase()) >= 0;
+		};  
+		 
+>>>>>>> master
      /* Plusboxar */
-     $('.or-plus-box-content').css('display', 'none');
-     $('.or-plus-box-header').click(function(){
+		 
+     $('.or-plus-box-content:not(.or-plus-box-v2, .or-plus-box-diskret-header)').css('display', 'none');
+     $('.or-plus-box-header:not(.or-plus-box-v2, .or-plus-box-diskret-header)').click(function(){
        $(this).parent().next('div.or-plus-box-content').slideToggle();
        $(this).toggleClass('or-plus-box-active');
        $(this).find("img.or-arrow-down-collapse").toggleClass('or-plus-box-active');
@@ -38,13 +63,21 @@
         
       /* Ikoner i dokumentlistningsrutorna */
       $(".or-docs-box-content a").each(function( index ) {
+<<<<<<< HEAD
       
+=======
+				 var title = $(this).attr("title");
+>>>>>>> master
          var title = $( this ).attr("title");
          var iconCss, sizeStr;
          
          try {
             if(title && title.length>0) {
+<<<<<<< HEAD
                title = title.replace('(','').replace(')','');
+=======
+               title = title.replace('(', '').replace(')', '');
+>>>>>>> master
                var titleSplit = title.split(',');                              
                iconCss = titleSplit[0];                        
                sizeStr = '(' + titleSplit[1].replace(' ','')+')';                                 
@@ -58,7 +91,12 @@
          }
       
       });
+<<<<<<< HEAD
 			
+=======
+	  
+	  
+>>>>>>> master
 			/* Ikoner i dokumentlistningsrutorna */
 			$(".or-related-documents .or-text-content a").each(function(index) {
 				var title = $(this).attr("title");
@@ -94,8 +132,14 @@
 					$(this).next().text('');
 				}
 			});
+<<<<<<< HEAD
    
    
+=======
+		 
+					
+
+>>>>>>> master
              
       /* Responsiva tabeller */  
       $(".sv-table-portlet table").stacktable({myClass:'stacktable small-only'});

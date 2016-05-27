@@ -1,0 +1,83 @@
+<div class="or-start-heading-divider or-right" ><div class="sv-text-portlet-content"><p class="normal">Örebro kommun i sociala medier</p></div></div>
+
+#foreach ($sm in $socialMedias)
+#set ($class = $sm.name.toLowerCase())
+<div class="or-social-media-content $class">   
+   <div class="or-header">
+      <span class="fa-stack fa-lg">
+         <i class="fa fa-circle fa-stack-2x"></i>
+         <i class="fa ${sm.icon} fa-stack-1x fa-inverse"></i>
+      </span>
+      #if ($sm.type == "YTUBE") 
+         $sm.title
+      #else
+      	<i class="fa fa-clock-o"></i>
+         $sm.title $sm.timestamp
+      #end      
+   </div>
+   #if($sm.type == "YTUBE")
+   <div class="or-content">         
+      <div class="or-media-popup" id="or-id-media-popup">
+        <div class="or-media-close"><i class="fa fa-close"></i> Stäng</div>
+        <iframe width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
+    	</div>
+   	<div class="or-social-image" data-media="//$sm.permalink">
+         <img src="$sm.thumbnail" class="or-img"></img>
+   	</div> 
+   	<a href="">$sm.text</a>   	   	
+   </div>
+	#else
+	<div class="or-content or-wrapper-click">         
+   	<div class="or-social-image">
+         <img src="$sm.thumbnail" class="or-img"></img>
+   	</div> 
+   	<a href="$sm.permalink">$sm.text</a>   	        	
+   </div>
+	#end
+   #if($sm.showStats)
+   <div class="or-stats or-clearfix">
+      #foreach ($stat in $sm.stats)  
+	      #if($stat.count >0 || $sm.type == "YTUBE")
+   	   <i class="fa $stat.icon"></i>$stat.count
+      	#end
+      #end
+	</div>
+   
+   #end
+   
+	<div class="or-follow">
+      <p class="normal"><a href="$sm.followlink">Följ oss på $sm.name</a></p>
+	</div>
+   
+   
+</div>
+
+<script>
+   
+   
+   
+$("[data-media]").on("click", function(e) {
+    e.preventDefault();
+    var $this = $(this);
+    var videoUrl = $this.attr("data-media");    
+    var $popupIframe = $("#or-id-media-popup > iframe");
+    
+    $popupIframe.attr("src", videoUrl);
+    
+    $this.closest(".or-content").addClass("show-popup");
+});
+
+$(".or-media-popup").on("click", function(e) {
+    e.preventDefault();
+    e.stopPropagation();
+    
+    $(".or-content").removeClass("show-popup");
+    $("#or-id-media-popup iframe").attr("src", "");
+});
+
+$(".or-media-popup> iframe").on("click", function(e) {
+    e.stopPropagation();
+});
+
+</script>
+#end

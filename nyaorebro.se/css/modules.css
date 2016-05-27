@@ -1,5 +1,4 @@
-﻿
-/* 2. Liten kalender info ruta */
+﻿/* 2. Liten kalender info ruta */
 /* 3. Kalender faktaruta */
 
 /*cookie*/
@@ -79,7 +78,7 @@ form.or-search-field {
 }
 
 form.or-search-field input {
-    width: 65%;
+    width: 60%;
     padding: 10px 55px 10px 12px;
     margin-bottom: 10px;
     float: left;
@@ -651,7 +650,7 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3{
 .or-teaser-box .or-title {
     background: #857672;
     padding: 6px 15px 7px;
-    min-height: 26px;
+    min-height: 23px;
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
 }
@@ -854,10 +853,15 @@ ul.or-teaser-list {
 }
 
 body .or-update-date {
+<<<<<<< HEAD
 	font-weight: 100;
+=======
+>>>>>>> master
     margin-bottom: 4px;
-    display: inline-block;
-    font-size: 13px;
+    font-size: 12px;
+    display: block;
+    margin-top: 9px;
+    color: #857672;
 }
 
 .or-thumbup
@@ -1205,7 +1209,7 @@ body .sol-search-hits .sol-doc-size p{
 
 .sol-search-hits > div {
     margin-left: 17px;
-    width: 85%;
+    width: 95%;
 }
 .sol-search-hits > div > p {
     padding-bottom: 10px;
@@ -1518,7 +1522,7 @@ footer {
     padding-top: 15px;
     border-top: 6px solid #E8E7E5;
     padding-bottom: 15px;
-    margin-top: 0px;
+    margin-top: -1px;
 }
 
 .or-footer-adress-container{
@@ -1761,7 +1765,7 @@ footer {
     margin-top: 0px;
 }
 
-.or-backdrop{
+.or-backdrop, .or-menu-backdrop{
 	position:fixed;
 	top:0;
 	left:0;
@@ -1975,8 +1979,17 @@ body .or-content-container .or-tir p {
     margin-bottom: 5px;
     margin-top: 5px;
     font-size: 12px;
-
 }
+
+.sv-font-action-penna .sv-linkicon, .sv-font-action-pil .sv-linkicon, .sv-font-action-karta .sv-linkicon, .sv-font-action-facebook .sv-linkicon, .sv-font-action-twitter .sv-linkicon{
+	padding-left: 10px;
+}
+
+body .sv-font-action-penna.or-wrapper-click:hover,body .sv-font-action-pil.or-wrapper-click:hover,body .sv-font-action-karta.or-wrapper-click:hover,body .sv-font-action-facebook.or-wrapper-click:hover,body .sv-font-action-twitter.or-wrapper-click:hover{
+	color: #E83C23;
+    text-decoration: underline;
+}
+
 
 body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-font-action-karta a:link, body .sv-font-action-facebook a:link, body .sv-font-action-twitter a:link {
     text-decoration: none;
@@ -2053,7 +2066,7 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
     padding-left: 14px;
     position: relative;
     padding-right: 45px;
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .or-plus-box-header:hover .plusboxxrubrik {
@@ -2061,9 +2074,9 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
     text-decoration: underline;
 }
 
-.or-plus-box-content{
-	background-color: #fff;
-	padding: 15px;
+.or-plus-box-content {
+    background-color: #fff;
+    padding: 15px;
 }
 
 .or-plus-box-header.or-colorborder.or-wrapper-click.or-plus-box-header.or-plus-box-active{
@@ -2660,6 +2673,12 @@ body .or-news-filter .or-colorborder.or-wrapper-click.or-plus-box-header.or-plus
 
 }
 
+.or-news-list.or-small li {
+	box-shadow: none;
+  border-bottom: 2px #E2E2E2 solid;	
+}
+
+
 .or-news-list li:hover h3 a{
 	box-shadow: rgba(174, 222, 239, 0.65) 0px -60px 0px -30px inset;
 }
@@ -2968,6 +2987,14 @@ body .sv-text-portlet table.sv-standard td p {
     font-size: 13px;
 }
 
+body .sv-text-portlet table.sv-standard td p span {
+    font-size: 11px;
+    font-weight: 300;
+    color: #857672;
+    display: block;
+    margin-top: 3px;
+}
+
 
 .sv-text-portlet table.sv-standard thead th p{
 	color: #fff;
@@ -3028,7 +3055,7 @@ body .or-article-main .sv-responsiveTable--stacked__headRow p{
 .or-tool-wrapper {
     float: right;
     position: absolute;
-    width: 280px;
+    width: 320px;
     background-color: white;
     top: 0;
     right: 10px;
@@ -3092,8 +3119,8 @@ section.or-bg-one {
     box-shadow: inset 5px 0px 6px -6px rgba(133, 118, 114, 0.6);
     letter-spacing: 0.03em;
     width: 100%;
+    box-sizing: border-box;
 }
-
 .or-openhours-contact > div:last-child p {
     font-size: 14px;
     padding-left: 20px;
@@ -3204,39 +3231,816 @@ section.or-bg-one {
 
 /* Startsida Driftstörningar */
 .sol-DrifStorningtVitRubrik{
-  color: black;
+  color: green;
+}
+  
+.box-content .sv-use-margins .normal {
+    font-size: 16px;
+    font-weight: 300;
+}
+.box-content .sv-use-margins .normal strong {
+    font-size: 13px;
+    font-family: "leaguespartan webfont",sans-serif;
+    letter-spacing: 0.03em;
+}
+.or-bg-white {
+    background-color: white;
+    padding: 10px 20px;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.07);
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    position: relative;
 }
 
-.sol-btn-Visa-fler-drift-stornigar{
-  background-color: white;
-  font-size: 1em;
-  margin: 0 auto;
+.driftstorningar-container.or-bg-white {
+    padding: 5px 20px 8px 20px;
 }
-.sol-bg-white{
-  background-color: white;
+
+.box-content.driftstorningar-container ul li a.normal:link {
+    margin-left: 20px;
+    font-family: "leaguespartan webfont",sans-serif;
+    font-size: 12px;
+    display: inline;
 }
+
+.box-content.driftstorningar-container ul li a.normal:link span{
+    display: inline-block;
+}
+
+
+.or-bg-white ul li {
+    border-top: dotted 2px #ECECEC;
+    position: relative;
+
+    padding-top: 11px;
+    padding-bottom: 13px;
+    margin-bottom: 0; */
+
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-bottom: 0;
+
+}
+.or-bg-white ul li > span{
+	display: none;
+}
+
+.or-bg-white ul li a.normal:link {
+    font-weight: 300;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.or-bg-white ul li a.normal:link:hover {
+    box-shadow: rgba(174, 222, 239, 0.65) 0px -41px 0px -17px inset;
+}
+
+.or-bg-white ul li:first-child {
+    border-top: none;
+}
+
+
 .or-red-header-box .box-header {
-    background-color: #E83C23;
+    background-color: rgba(232, 60, 35, 0.9);
+    padding: 10px 10px 9px 10px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.or-red-header-box .box-header p {
+    margin: 0px;
+    color: #fff;
+    font-family: "leaguespartan webfont",sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    font-weight: 700;
 }
 
+.or-red-header-box .box-header p i {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 22px;
+    margin-right: 8px;
+}
+
+.or-startpage-driftstorningar .sv-channel .sv-channel-item a:before {
+    content: "\f054";
+    font-family: FontAwesome;
+    box-shadow: none;
+    position: absolute;
+    left: 0px;
+    top: 17px;
+    color: #DADCDE;
+}
+
+.or-red-header-box .sv-font-action-pil:before {
+    background-color: #857672;
+    font: normal normal normal 12px/34px FontAwesome;
+    width: 31px;
+}
+
+.or-red-header-box .sv-font-action-pil:after{
+	display: none;
+}
+
+.or-red-header-box .sv-font-action-pil {
+    padding-bottom: 7px;
+    padding-top: 8px;
+    padding-left: 45px;
+    font-size: 11px;
+    width: 90%;
+}
+
+
+/* Öppettider startsida */
+
+.or-red-header-box .box-content .fa {
+    font-size: 24px;
+    padding: 5px;
+    position: relative;
+    top: 3px;
+}
+
+.or-red-header-box .box-content .fa.fa-envelope-o {
+    font-size: 20px;
+    top: 1px;
+}
+
+.or-oh-start-page {
+    border-bottom: dotted 2px #ECECEC;
+    margin-bottom: 14px;
+    padding-bottom: 12px;
+}
+
+.or-oh-start-page p
+{
+	font-size:14px;
+}
+
+.or-oh-start-page p.or-phone-info {
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
+
+.or-oh-start-page p.or-phone-hours
+{
+	display:inline;
+	margin-right:10px;
+}
+
+.or-oh-start-page p.or-phone-hours strong, .or-email-info.normal strong
+{
+	font-family: "leaguespartan webfont",sans-serif;
+	font-size: 12px;
+}
+
+
+
+.or-oh-start-page .or-phone-number {
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.or-oh-start-page .or-oh-time-info {
+	width:auto;
+}
+
+.or-oh-start-page .or-oh-open, .or-oh-start-page .or-oh-closed, .or-oh-start-page .or-oh-status {
+    float: none;
+    min-width: 40px;
+}
+
+.or-oh-start-page .normal a {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+/* Meny startsida */
+.sol-meny-startsida {
+    padding: 4% 0 8% 0;
+    margin-top: -30px;
+}
+
+.sol-meny-startsida nav.or-secondary {
+    max-width: 1150px;
+    margin: 80px auto 80px auto;
+}
+
+.hero-startsida{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-startsida .or-secondary .or-content ul li a h3 {
+    font-size: 19px;
+    margin-bottom: 8px;
+}
+
+.hero-startsida nav.or-secondary .or-content ul li:nth-last-child(-n+3) a {
+    border-bottom: 0px solid #ffffff;
+    padding-bottom: 20px;
+}
+
+.hero-startsida nav.or-secondary .or-content {
+    border: 1px solid rgb(249, 228, 225);
+    border-top-left-radius: 0px;
+}
+
+
+/*** Startsida Kontakta service center ***/
+
+.or-red-header-box {
+    margin-top: -44px;
+    max-width: 530px;
+    margin-left: 1%!important;
+    margin-right: 1%;
+    box-sizing: border-box;
+    width: 47%!important;
+}
+
+/* Tabbar under Kontakta oss - Servivecenter */
+.or-start-bottom-tabs ul {
+    /* width: 90%; */
+    padding: 10px;
+    /* margin: auto; */
+    text-align: center;
+}
+
+.or-start-bottom-tabs ul li {
+    display: inline;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.08);
+    background-color: #fff;
+    margin-left: 10px;
+}
+
+.or-start-bottom-tabs ul li:hover a {
+	color: #e83c23;
+	text-decoration: underline;
+}
+
+.or-start-bottom-tabs ul li a {
+    color: #35383b;
+    font-size: 11px;
+    font-family: "leaguespartan webfont",sans-serif;
+}
+
+.or-start-bottom-tabs ul li .fa-warning {
+	color:#E73C2B;
+	font-size: 16px;
+}
+
+.or-start-bottom-tabs ul li .fa-info-circle {
+	color:#F49840;
+	font-size: 16px;
+}
+
+.or-start-bottom-tabs ul li .fa {
+	margin: 0 5px;	
+}
+
+.or-start-bottom-tabs .fa.fa-chevron-right {
+	color: #DADCDE;
+	font-size: 13px;
+	position: relative;
+	top:2px;
+}
+
+.visa-fler-driftstorningar {
+    display: inline;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.08);
+    background-color: #fff;
+    color: #35383b;
+    font-size: 11px;
+    font-family: "leaguespartan webfont",sans-serif;
+    left: 50%;
+} 
+
+.visa-fler-driftstorningar:hover {
+	color: #e83c23;
+	text-decoration: underline;
+}
+
+<<<<<<< HEAD
+=======
 
 /*** Startsida Aktuell service just nu ***/
-.sol-tilte-tab{
+.or-start-white-divider {
+    background-color: #fff;
+    position: relative;
+    padding: 50px 25px 30px;
+    box-shadow: 0px -2px 6px -1px rgba(0, 0, 0, 0.05);
+    margin-bottom: 85px;
+    margin-top: 80px;
+}
+
+.or-start-white-divider .or-puff-icon-header-text {
+    max-width: 375px;
+    margin: 0px 5%;
+}
+.or-start-heading-divider {
+    display: inline-block;
+    background-color: #fff;
+    width: 300px;
+    margin-left: -150px;
+    position: absolute;
+    left: 50%;
+    top: -40px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px -1px 7px -2px rgba(0, 0, 0, 0.07);
+    z-index: 1;
+}
+.or-start-heading-divider.or-left 
+{
+	left: 25%;
+}
+
+.or-start-heading-divider.or-right 
+{
+  left: 75%;
+}
+
+body .or-start-heading-divider .normal{
+    font-family: "leaguespartan webfont",sans-serif;
+    margin: 0px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-size: 13px;
+}
+.or-tilte-tab{
   text-align: center;
+  padding: 20px;
 }
-.sol-service-puff .sol-title{
-  background-color: #fdf7f1;
+
+.ikonxorange{  
+    font-weight: normal;
+    font-style: normal;
+    font-size: 100%;
+    color: #f28c00;
+    line-height: normal;
+}
+
+/* Startsida nyheter */
+
+.or-news-social-section-startpage.or-start-white-divider{
+    margin-bottom: -1px;
+}
+
+.or-start-white-divider .or-news-list li p {
+    display: inline-block;
+    margin-top: 0px;
+    padding-left: 55px;
+    line-height: 1.5em;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.or-news-list.or-small li {
+    box-shadow: none;
+    border-bottom: 2px #F7F3F3 solid;
+}
+
+.or-news-list.or-small li {
+    padding: 12px 20px 17px 15px;
+}
+
+.or-news-list.or-small h3 a {
+    font-size: 14px;
+}
+
+.or-start-white-divider .or-news-date {
+    margin-top: 3px;
+}
+
+.or-news-list.or-small {
+    max-width: 600px;
+    margin-top: -40px;
+}
+
+.or-start-white-divider .or-btn{
+	text-align: center;
+}
+
+.or-news-list.or-small .or-more-news {
+    background-color: #fff;
+    padding: 6px 15px;
+    margin: 30px 0px 30px 0px;
+    border-radius: 3px;
+    border: 2px solid rgba(133, 118, 114, 0.3);
+    font-family: "leaguespartan webfont",sans-serif;
+    font-size: 12px;
+    color: #857672;
+    float: none;
+    margin-top: 5px;
+    display: inline-block;
+    transition: all 100ms ease;
+}
+
+.or-news-list.or-small .or-more-news:hover {
+    background-color: #857672;
+    color: #fff;
+}
+
+/* startsida social sektion */
+
+.or-news-social-section-startpage.or-start-white-divider{
+	padding: 50px 25px 10px 25px;
+}
+
+/* Startsida puffar */
+
+.or-puff-startpage-footer {
+    background-color: #fff;
+    padding-top: 45px;
+    border-top: 6px solid #F6F4F2;
+}
+
+.or-puff-startpage-footer .or-puff-link .normal {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.3em;
+}
+
+.or-puff-startpage-footer .or-puff-link:hover .normal {
+    text-decoration: underline;
+}
+
+/* Sök politiker */
+
+.or-sok-politiker td{
+    font-weight: normal;
+    font-style: normal;
+    padding-left: 2.4em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.or-sok-politiker tbody tr{
+  background-color:transparent;
+}
+
+
+.or-sok-politiker{
+    background-color: #fff;
+    border: solid 1px #f3dcd0;
+    border-top: solid 5px #E83C23;
+    margin-bottom: 25px;
+}
+.or-sok-politiker ul{
+  padding-top: 16px;
+}
+.or-sok-politiker ul li:before{
+    display: none;
+}
+
+.or-sok-politiker ul li{
+    float: left;
+    max-width: 70%;
+    margin-right: 10px;
+    list-style: none;
+    background-color: #fff;
+    border: solid 2px #f3dcd0;
+    margin-bottom: 17px;
+    border-radius: 2px;
+    padding: 3px 0px 5px;
+	-webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.or-sok-politiker ul li:hover {
+    background-color: #e83c23;
+}
+
+.or-sok-politiker ul li:hover a {
+    color: #fff;
+}
+
+.or-sok-politiker ul li a{
+    text-align: center;
+    padding: 0px 11px;
+    color:#E83C23;
+    font-family: "leaguespartan webfont",sans-serif;
+    font-size: 11px !important;
+}
+
+.or-sok-politiker strong {
+    margin-top: 20px;
+    
+}
+
+.or-sokt-politiker h1 {
+    margin-left: 1.2em;
+}
+
+.or-sokt-politiker .or-sok-politiker tr td div strong {
+  display: none;
+}
+.or-sokt-politiker .or-sok-politiker hr{
+  background-color: rgba(133, 118, 114, 0.2);
+  position: relative;
+  top: 0;
+  box-sizing: border-box; 
+  margin-left: -1.8em
+}
+
+.or-sokt-politiker .or-sok-politiker b a{
+  font-weight: normal;
+  font-style: normal;
+  font-size: 12px;
+  color: #35383b;
+  text-decoration: none;
+  line-height: 16px;
+  box-shadow: rgba(174, 222, 239, 0.65)0px -14px 0px -10px inset;
+  display: inline-block;
+  margin-bottom: 10px;
+  	-webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.or-sokt-politiker .or-sok-politiker b a:hover {
+    box-shadow: rgba(174, 222, 239, 0.65)0px -16px 0px 1px inset;
+}
+
+.or-sokt-politiker .or-sok-politiker b{
+	color:black;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 12px;
+  color: #35383b;
+  text-decoration: none;
+  line-height: 16px;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+.or-sokt-politiker .or-sok-politiker div a{
+    background-color: #857672;
+    display: inline-block;
+    padding: 8px 20px 6px;
+    margin-bottom: 0;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 0px solid #ccc;
+    border-radius: 2px;
+    color: #f5f5f5;
+    background-color: #35383B;
+    border-color: transparent;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    border-bottom: 4px solid #5E5E5E;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    margin-top: 11px;
+    margin-bottom: 1px;
+    
+    position:absolute;
+    bottom: 20px;
+    left:20px;
+    margin-top: 20px;
+}
+
+.or-sokt-politiker .or-sok-politiker td{
+	padding-left: 0em;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 12px;
+  text-decoration: none;
+  line-height: 16px;
+  /*font-family: sans-serif;
+  font-family: ;*/
+}
+
+.or-utsokt-politiker .or-sok-politiker td li a {
+    box-shadow: none;
+}
+
+.or-sokt-politiker .or-sok-politiker{
+	position:relative;
+	padding-bottom: 50px;
+	padding-left: 1.7em;
+  color:black;
+}
+
+.or-sok-politiker div, .or-sok-politiker table {
+    color: black;
+}
+
+.or-sokt-politiker .or-sok-politiker tr{
+  display: table-row;
+  margin-top: -20px;
+}
+
+
+.or-sok-politiker hr{
+  margin-left: -2.2em;
+  height: 1px;
+  border: none;
+  background-color: rgba(133, 118, 114, 0.2);
+  margin-bottom: 23px;
+}
+/* wrapper runt formulären */
+.or-sok-politiker form{
+  padding-bottom: 20px;
+  margin-bottom: 14px;
+  
+}
+.or-sok-politiker form input[type="text"]{
+    width: 70%;
+    padding: 10px 55px 10px 12px;
+    margin-bottom: -14px;
+    line-height: 1.428571429;
+    border: 0px 1px 1px 1px solid #cccccc;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(133, 118, 114);
+    border-color: rgba(133, 118, 114, 0.2);
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    vertical-align: middle;
+    background-color: #ffffff;
+    font-size: 16px;
+    font-weight: 100;
+    color: #717171;
+    -webkit-appearance: none;
+    letter-spacing: 0.01em;
+    box-sizing: border-box;
+    /*font-family: "open sans",sans-serif; */
+}
+
+.or-sok-politiker form input[type="submit"]{
+    background-color: #857672;
+    display: inline-block;
+    padding: 8px 20px 6px;
+    margin-bottom: 0;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 0px solid #ccc;
+    border-radius: 2px;
+    color: #f5f5f5;
+    background-color: #35383B;
+    border-color: transparent;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    border-bottom: 4px solid #5E5E5E;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    margin-top: 11px;
+    margin-bottom: 1px;
+    font-family: "open sans",sans-serif;
+}
+
+.or-sok-politiker form input[type="submit"]:hover{
+  background-color: #5E5E5E;
+  border-color: #000;
+}
+/* sök namn + och/eller välj ort*/
+.or-sok-politiker form strong{
+  display: block;
+  font-size: 12px;
+  margin-bottom: -10px;
+}
+
+.or-sok-politiker select{
+  width: 70%;
+  padding: 10px 55px 10px 12px;
+  margin-bottom: 10px;
+  line-height: 1.428571429;
+  border: 1px solid #cccccc;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(133, 118, 114);
+  border-color: rgba(133, 118, 114, 0.2);
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  vertical-align: middle;
+  background-color: #ffffff;
+  font-size: 16px;
+  font-weight: 100;
+  color: #717171;
+  letter-spacing: 0.01em;
+} 
+    
+/* Utsökt politiker */
+.or-utsokt-politiker .or-sok-politiker td {
+    line-height: 20px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.or-utsokt-politiker .or-sok-politiker td p{
+    line-height: 18px;
+}
+
+.or-utsokt-politiker h3{
+  font-size: 14px;
+}
+
+.or-utsokt-politiker .or-sok-politiker td a {
+    font-style: normal;
+    font-size: 15px;
+    text-decoration: none;
+    line-height: normal;
+    font-weight: 300;
+    box-shadow: rgba(174, 222, 239, 0.65)0px -14px 0px -10px inset;
+	-webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.or-utsokt-politiker .or-sok-politiker td a:hover {
+    box-shadow: rgba(174, 222, 239, 0.65)0px -16px 0px 7px inset;
+}
+
+
+.or-ny-sokning{
+  visibility: visible;
+  display: block;
+  
+  background-color: #857672;
+  padding: 8px 20px 6px;
+  margin-bottom: 0;
+  font-weight: normal;
+  line-height: 1.42857143;
   text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 0px solid #ccc;
+  border-radius: 2px;
+  color: #f5f5f5;
+  background-color: #35383B;
+  border-color: transparent;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  border-bottom: 4px solid #5E5E5E;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+  margin-top: -103px;
+  position: absolute;
+  margin-left: 2.2em;
 }
-.sol-desc{
-  height: auto;
+.or-sokt-politiker a.or-ny-sokning{
+  visibility: hidden;
 }
-.sol-desc-text{
-  text-align: center;
+
+
+/* Driftstörningsnyheter */
+.or-news-newslist{
+  background-color: #f4f3f1;
 }
- .fa-arrow-right{
-   float: right;
- }
 
 /* Länkpuff*/
 
@@ -3249,7 +4053,7 @@ section.or-bg-one {
     margin-bottom: 30px;
     margin-right: 1%;
     margin-left: 1%;
-    padding: 8px 5px 8px 13px;
+    padding: 8px 20px 8px 13px;
     position: relative;
     min-height: 35px;
     float: left;
@@ -3260,26 +4064,32 @@ section.or-bg-one {
     padding-left: 8px;
 }
 
-body .or-puff-link .normal a:link {
+body .or-puff-link .normal a {
     font-family: "leaguespartan webfont",sans-serif;
     box-shadow: rgba(174, 222, 239, 0.0)0px 0px 0px 0px inset;
     color: #e83c23;
     font-size: 14px;
+    margin-bottom: 4px;
+    display: inline-block;
 }
 
-body .or-puff-link:hover .normal a:link {
+body .or-puff-link .normal a:hover {
+    font-family: "leaguespartan webfont",sans-serif;
+    box-shadow: rgba(174, 222, 239, 0.0)0px 0px 0px 0px inset;
+    color: #35383b;
+    font-size: 14px;
+    margin-bottom: 4px;
+    display: inline-block;
+}
+
+body .or-puff-link:hover .normal a{
 	text-decoration: underline;
     color: #35383b;
 }
 
-body .or-puff-link a:link{
-	font-family: "leaguespartan webfont",sans-serif;
-	box-shadow: rgba(174, 222, 239, 0.0)0px 0px 0px 0px inset;
-	color: #e83c23;
-}
-
 body .or-puff-link .normal{
-	color: #e83c23;
+	/*color: #e83c23;*/
+  color:black;
 	margin-bottom: 0px;
 }
 
@@ -3316,7 +4126,6 @@ body .or-puff-link .normal{
     padding: 5px;
     text-align: center;
     vertical-align: middle;
-    float: left;
     min-height: 270px;
 }
 
@@ -3333,6 +4142,7 @@ body .or-puff-link .normal{
 
 .or-puff-icon-header-text .normal {
     line-height: 1.2em;
+    text-align: left;
 }
 
 .or-puff-icon-header-text::after {
@@ -3353,29 +4163,35 @@ body .or-puff-link .normal{
     border-color: transparent;
     border-style: solid;
     border-width: 17px;
-    border-right-color: #DF9D50;
-    border-bottom-color: #DF9D50;
+    border-right-color: #F28C00;
+    border-bottom-color: #F28C00;
 }
 .or-puff-icon-header-text > div:first-of-type {
     background-color: #FCF5EC;
-    padding: 20px 35px 25px 35px;
+    padding: 13px 35px 19px 35px;
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
 }
 
 .or-puff-icon-header-text .sv-use-margins .rubrikx4, .sv-use-margins h4{
 	margin: 0px;
 	font-size: 15px;
+	width: 100%:
 }
 
 .or-puff-icon-header-text > div:last-of-type {
-    margin: 10px;     
+    margin: 10px;
+    float: left;     
 }
 
-.or-puff-icon-header-text .ikonxorange {    
+.or-puff-icon-header-text .ikonxorange {
     font-size: 40px;
     display: block;
-    margin: 10px
+    margin: 10px;
+    text-align: center;
 }
-
 /* Toppbildsyta standardsida */
 .or-standard-page .or-top-img-area {
 	max-width:1150px;
@@ -3393,7 +4209,19 @@ table.or-bath-water th:not(:first-child)  {
 }
 
 .or-bath-water-info {
-	display:inline-block;
+    display: inline-block;
+    font-family: "leaguespartan webfont",sans-serif;
+    font-size: 11px;
+    margin-right: 20px;
+}
+
+.or-bath-water-info i:before {
+    position: relative;
+    top: -2px;
+}
+
+.or-bath-water-info span {
+    width: 30px;
 }
 
 .or-bath-water-icon-border {
@@ -3412,7 +4240,996 @@ table.or-bath-water th:not(:first-child)  {
 	color:#CC553F;	
 }
 
+
+/* snödagbok */
+
+.or-snow-book ul li h3 {
+    display: inline-block;
+    margin-bottom: 0px;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.or-snow-book ul li .date {
+    background-color: #f2f0f0;
+    padding: 2px 7px;
+    border-radius: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    font-weight: 300;
+    font-size: 11px;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+.or-article-main .or-snow-book li:before {
+    display: none;
+}
+
+.or-article-main .or-snow-book ul li {
+    margin-bottom: 10px;
+    text-indent: 0;
+    font-size: 17px;
+    line-height: 1.4em;
+    list-style: none;
+}
+
+.or-snow-book ul li{
+    background-color: #fff;
+    padding: 10px 20px 10px 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 4px #E2E2E2;
+    border-radius: 2px;
+    position: relative;
+}
+
+.or-snow-book ul li .normal {
+    font-size: 14px;
+    line-height: 1.5em;
+    margin-top: 8px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.or-snow-book .or-update-date {
+    font-weight: bold;
+}
+
+
+/* livsmedelsrapport */
+
+.livsmedelsrapport .search-field {
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.livsmedelsrapport .search-field label {
+    display: block;
+    font-family: "leaguespartan webfont",sans-serif;
+    font-size: 12px;
+    margin-bottom: 0px;
+    margin-top: 25px;
+}
+
+
+.livsmedelsrapport .search-field input {
+    padding: 10px 55px 10px 12px;
+    margin-bottom: 10px;
+    line-height: 1.428571429;
+    border: 1px solid #cccccc;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(133, 118, 114);
+    border-color: rgba(133, 118, 114, 0.2);
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    vertical-align: middle;
+    background-color: #ffffff;
+    font-size: 16px;
+    font-weight: 100;
+    color: #717171;
+    -webkit-appearance: none;
+    letter-spacing: 0.01em;
+    font-family: "open sans",sans-serif;
+    width: 40%;
+}
+
+.livsmedelsrapport .search-field-submit.form-button {
+    position: relative;
+    -webkit-appearance: none;
+    left: -28px;
+    top: -2px;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border: 0px none;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    background-color: #E83C23;
+    padding: 0px;
+}
+
+.livsmedelsrapport .search-field-submit.form-button:before {
+	font: normal normal normal 14px/1 FontAwesome; 
+	content: "\f002";
+	color: #000;
+	left:0;
+	top:0;
+	width: 20px;
+	height: 20px;
+	background-color: black;
+}
+
+.livsmedelsrapport .search-field-submit.form-button:after {
+	font: normal normal normal 14px/1 FontAwesome; 
+	content: "\f16a";
+	color: #000;
+	left:0;
+	top:0;
+	width: 20px;
+	height: 20px;
+	background-color: black;
+}
+
+.livsmedelsrapport .search-field-submit:before {
+	font: normal normal normal 14px/1 FontAwesome; 
+	content: "\f002";
+	color: #000;
+	left:0;
+	top:0;
+	width: 20px;
+	height: 20px;
+	background-color: black;
+}
+
+.livsmedelsrapport .search-field-submit:after {
+	font: normal normal normal 14px/1 FontAwesome; 
+	content: "\f16a";
+	color: #000;
+	left:0;
+	top:0;
+	width: 20px;
+	height: 20px;
+	background-color: black;
+}
+
+
+.livsmedelsrapport .search-categories label {
+    display: inline-block;
+    margin-bottom: 8px;
+    margin-right: 20px;
+}
+
+.livsmedelsrapport .search-categories label:hover a{
+    text-decoration: underline;
+}
+
+.livsmedelsrapport .search-categories label a {
+    font-family: "leaguespartan webfont",sans-serif;
+    font-size: 12px;
+    position: relative;
+    top: 2px;
+    padding-left: 3px;
+}
+
+.livsmedelsrapport .search-results table tr th:first-child {
+    border-right: solid 2px rgba(255, 255, 255, 0.25);
+}
+
+.livsmedelsrapport table {
+    border: 1px solid #f3dcd0;
+    border-spacing: 0px;
+    margin-top: 15px;
+    width: 100%;
+    max-width: 650px;
+}
+
+.livsmedelsrapport .search-results table tr th {
+    font-family: "leaguespartan webfont",sans-serif;
+    background-color: #e83c23;
+    font-style: normal;
+    text-align: left;
+    padding: 4px 8px;
+    color: #fff;
+    letter-spacing: 0.04em;
+    font-size: 12px;
+}
+
+.livsmedelsrapport td {
+    padding: 5px 10px;
+    border-bottom: 1px solid #f3dcd0;
+    background-color: #fdf7f1;
+    font-style: normal;
+}
+
+.livsmedelsrapport td a{
+    font-family: Open sans;
+    color: #35383b;
+    font-weight: normal;
+    font-size: 100%;
+    font-style: normal;
+    line-height: normal;
+    text-decoration: none;
+    box-shadow: rgba(174, 222, 239, 0.65) 0px -28px 0px -23px inset;
+    -webkit-transition: all 100ms ease;
+    -moz-transition: all 100ms ease;
+    -o-transition: all 100ms ease;
+    transition: all 100ms ease;
+}
+
+.livsmedelsrapport td a:hover{
+    font-family: Open sans;
+    color: #35383b;
+    font-weight: normal;
+    font-size: 100%;
+    font-style: normal;
+    line-height: normal;
+    text-decoration: none;
+    box-shadow: rgba(174, 222, 239, 0.65) 0px -43px 0px -23px inset;
+    -webkit-transition: all 100ms ease;
+    -moz-transition: all 100ms ease;
+    -o-transition: all 100ms ease;
+    transition: all 100ms ease;
+}
+
+.livsmedelsrapport .odd td {
+    background: #fafafa;
+    font-style: normal;
+}
+
+.livsmedelsrapport .odd td {
+    background: #fafafa;
+    font-style: normal;
+}
+
+.livsmedelsrapport .search-results .odd tr {
+	    background-color: #fdf7f1;
+    border-bottom: solid 1px #f3dcd0;
+}
+
+.livsmedelsrapport .search-results table .even tr {
+	background-color: #fff;
+}
+
+#PanelReportList table thead tr th{
+	font-family: "leaguespartan webfont",sans-serif;
+    background-color: #e83c23;
+    font-style: normal;
+    text-align: left;
+    padding: 4px 8px;
+    color: #fff;
+    letter-spacing: 0.04em;
+    font-size: 12px;
+}
+
+.oversight-matters table thead tr th{
+	font-family: "leaguespartan webfont",sans-serif;
+    background-color: #e83c23;
+    font-style: normal;
+    text-align: left;
+    padding: 4px 8px;
+    color: #fff;
+    letter-spacing: 0.04em;
+    font-size: 12px;
+}
+
+/* social media */
+
+.or-social-media-content .or-social-media-content .or-header
+{
+	color:#0090b4;
+	margin-bottom:10px;
+}
+
+.or-follow .normal a:link
+{
+	font-family:"leaguespartan webfont",sans-serif;
+	font-size:11px;
+	letter-spacing:.02em;
+}
+
+.or-social-media-content {
+    border-bottom: 2px #F7F3F3 solid;
+    box-sizing: border-box;
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 0 10px 25px;
+    width: 100%;
+    margin-top: -10px;
+    float: left;
+}
+
+.or-news-social-section-startpage .or-social-media-content {
+    margin: 10px 20px;
+    max-width: 530px;
+    float: right;
+    margin-top: -10px;
+    padding-top: 7px;
+}
+
+.or-social-media-content .or-content img
+{
+	border-radius:2px;
+	float:right;
+	margin-left:20px;
+	width:25%;
+}
+
+.or-social-media-content.youtube .or-content img
+{
+	position:relative;
+	width:165px;
+	z-index:0;
+}
+
+.or-social-media-content.youtube .or-social-image
+{
+	cursor:pointer;
+	float:left;
+	position:relative;
+}
+
+.or-social-media-content.youtube .or-social-image:after
+{
+	background-color:#FFF;
+	border-radius:5px;
+	box-shadow:0 0 6px 2px rgba(0,0,0,0.2);
+	color:#C83E30;
+	content:"\f16a";
+	font:normal normal normal 35px/.7 FontAwesome;
+	height:23px;
+	left:50%;
+	margin-left:-27px;
+	margin-top:-14px;
+	position:absolute;
+	top:50%;
+	width:34px;
+}
+
+.or-social-media-content .or-content a
+{
+	font-size:15px;
+	font-weight:300;
+}
+
+.or-social-media-content:hover .or-content a
+{
+	text-decoration:underline;
+}
+
+.or-social-media-content .or-content
+{
+	box-sizing:border-box;
+	float:left;
+	width:100%;
+}
+
+.or-social-media-content.instagram .or-header .fa-circle {
+    color: transparent;
+    background-color: #D5378C;
+    background: linear-gradient(190deg, #8462C5 0%,#D5378C 41%,#f87436 75%,#E6B454 100%);
+    border-radius: 32px;
+}
+
+.or-social-media-content.instagram .fa-instagram:before {
+    content: "\f16d";
+    font-size: 20px;
+}
+
+.or-social-media-content.facebook .or-header .fa-circle
+{
+	color:#0090b4;
+}
+
+.or-social-media-content.youtube .or-header .fa-circle
+{
+	color:#c83e30;
+}
+
+.or-social-media-content .or-header {
+    color: #857672;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 7px;
+    margin-left: -5px;
+}
+
+.or-social-media-content.youtube .or-header
+{
+	color:#35383b;
+	font-family:"leaguespartan webfont",sans-serif;
+	font-size:12px;
+	font-weight:700;
+	letter-spacing:.02em;
+}
+
+.or-social-media-content .or-header .fa-clock-o {
+    color: #857672;
+    margin-left: 5px;
+}
+.or-social-media-content .or-stats {
+    background-color: #f9f9f8;
+    border: 2px solid #eeeceb;
+    border-radius: 2px;
+    box-sizing: border-box;
+    color: #857672;
+    display: block;
+    float: left;
+    font-family: "leaguespartan webfont",sans-serif;
+    font-size: 10px;
+    margin-bottom: 3px;
+    margin-top: 10px;
+    padding: 4px 10px;
+    width: 100%;
+}
+
+.or-social-media-content .or-stats .fa
+{
+	font:normal normal normal 14px/1 FontAwesome;
+	margin-left:15px;
+	margin-right:5px;
+}
+
+.or-social-media-content .or-stats .fa:first-child
+{
+	margin-left:0;
+}
+
+.or-social-media-content.facebook .fa-reactions
+{
+	background-image:url(http://ptsrv3007.orebro.se/images/18.5ab4ab37154229e2ec8753e/1462525596156/reaction-orebro.png);
+	background-repeat:no-repeat;
+	background-size:58px;
+	height:16px;
+	position:relative;
+	top:3px;
+	width:60px;
+}
+
+.or-media-popup
+{
+	display:none;
+	float:left;
+	position:relative;
+	transition:.3s ease;
+}
+
+.show-popup .or-media-popup
+{
+	display:block;
+}
+
+.show-popup .or-social-image,.show-popup a
+{
+	display:none;
+}
+
+.youtube .or-content
+{
+	position:relative;
+}
+
+.or-media-close
+{
+	background-color:#e83c23;
+	border-bottom-left-radius:3px;
+	border-top-right-radius:0px;
+	box-shadow:3px 0 6px -3px rgba(0,0,0,0.4) inset;
+	color:#fff;
+	display:block;
+	font-size:11px;
+	font-weight:700;
+	height:45px;
+	right:0px;
+	position:absolute;
+	text-align:center;
+	width:50px;
+}
+
+.or-media-close:hover
+{
+	background-color:#35383b;
+	cursor:pointer;
+}
+
+.or-media-close .fa-close
+{
+	color:#FFF;
+	font-size:17px;
+	padding-top:5px;
+	text-align:center;
+	width:100%;
+}
+
+
+.or-content.show-popup iframe{
+    width: 100%;
+    height: 315px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+}
+
+.show-popup .or-media-popup {
+    display: block;
+    width: 100%;
+
+}
+
+
+/* social media undersida */
+.or-social-media-subpage .or-social-media-content {
+    border-bottom: 0px #F7F3F3 solid;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    max-width: 670px;
+    padding: 20px 25px 15px;
+    background-color: #fff;
+    box-shadow: 0px 0px 4px #E2E2E2;
+    border-radius: 2px;
+}
+
+.or-social-media-subpage .or-follow .normal a:link {
+    float: left;
+    clear: both;
+}
+
+.or-social-media-subpage .or-social-media-content .or-content img {
+ width: auto;
+ max-height: 160px;
+}
+
+.or-social-media-subpage .or-social-media-content.facebook .or-header .fa-circle {
+    color: #0090b4;
+    font-size: 24px;
+    top:2px;
+}
+
+.or-social-media-subpage .or-social-media-content .fa-inverse {
+    font-size: 13px;
+    position: relative;
+    top: -2px;
+}
+
+.or-social-media-subpage .or-social-media-content .or-header {
+    margin-bottom: 0px;
+}
+
+.or-social-media-subpage .or-social-media-content .or-header .fa-clock-o {
+    margin-left: 0px;
+}
+
+
+/* Faktarutor */
+.or-facts-block
+{
+	background-color:#fff;
+	border-color:rgba(242,140,0,0.55);
+	border-radius:2px;
+	box-sizing:border-box;
+	width:100%;
+}
+
+.or-facts-block h2
+{
+	color:#F28C00;
+	margin-top:0!important;
+}
+
+/* Pilavdelare genomgångsida 2 */
+.or-content-page-2 .or-arrow-box::after
+{
+	left:40%;
+}
+
+/* Processkarta nya tabs */
+.sol-js-tabs-container
+{
+	margin-bottom:25px;
+	width:100%;
+}
+
+.sol-tab-button-container .sol-tab-button
+{
+	background:#fff;
+	cursor:pointer;
+	display:table-cell;
+	font-family:"leaguespartan webfont",sans-serif;
+	font-size:11px;
+	line-height:1.2em;
+	padding:10px 20px;
+	text-align:center;
+}
+
+.sol-tab-button
+{
+	border:1px solid rgba(255,0,0,0.12);
+}
+
+.sol-tab-button.sol-tab-active
+{
+	background:#e83c23;
+	border-bottom:0;
+	border-left:0;
+	border-right:0;
+	border-top:5px solid #cf311a;
+	color:#fff;
+}
+
+.sol-tabs-decoration-content
+{
+	background-color:#fff;
+	border-bottom:1px solid rgba(232,60,35,0.20);
+	border-left:1px solid rgba(232,60,35,0.2);
+	border-right:1px solid rgba(232,60,35,0.2);
+	border-top:5px solid #e83c23;
+	padding:12px;
+}
+
+.sol-js-tabs-container .sv-responsive .sv-image-portlet img
+{
+	height:auto;
+	max-width:100%;
+	width:auto;
+}
+
+.sol-tabs-decoration-content .or-facts-block
+{
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:35px;
+	padding-top:30px;
+	width:90%;
+}
+
+.sol-tab-button-container
+{
+	display:table;
+	width:100%;
+}
+
+.sol-js-tabs-container ul
+{
+	margin:0;
+	padding:0;
+}
+
+.sol-accordion-heading
+{
+	display:none;
+}
+
+>>>>>>> master
 /* Snödagsboken */
 .or-snow-book .or-update-date {
     font-weight: bold;
 }
+<<<<<<< HEAD
+=======
+
+/* KRISRUTA */
+#alertInfo {
+    padding: 20px 10px 20px;
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.or-alert-icon {
+    font-size: 45px;
+    width: 100px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+.or-alert-icon.small {
+    font-size: 30px;
+    width: 65px;
+}
+
+
+.or-alert-message-wrapper {
+ display: inline-block;
+ margin-left: 2%;
+ width: 55%;
+ padding-right: 35px;
+  margin-left: 100px;
+}
+
+.or-alert-message-wrapper.small {
+    margin-left: 65px;
+}
+
+.or-alert-info {
+    font-size: 13px;
+    letter-spacing: 0.04em;
+    margin-bottom: 3px;
+}
+
+.or-alert-header.small{
+font-size:15px;
+}
+
+
+
+.or-alert-info.small,
+.or-alert-header.small,
+.or-alert-link {
+   display:inline-block;   
+}
+
+.or-alert-icon .fa-circle {
+    color: #e83c23;
+}
+
+.or-alert-icon .fa-exclamation-triangle{
+   color:white;
+}
+
+.or-alert-header {
+    font-family: "leaguespartan webfont",sans-serif;
+    font-size: 20px;
+    line-height: 1.3em;
+    margin-bottom: 5px;
+}
+
+.or-alert-text {}
+
+.or-alert-link {
+    margin-left: 0%;
+    width: 200px;
+    margin-top: 0px;
+    top: -18px;
+    position: relative;
+    text-align: left;
+}
+
+.or-alert-link .small{
+padding-top: 3px;
+ padding-bottom: 4px;
+ font-size: 11px;
+}
+
+.or-alert-button {
+ display: inline-block;
+ min-width: 59px;
+ margin-right: 21px;
+ padding-top: 5px;
+ padding-bottom: 3px;
+ float: none;
+ border-bottom-style: solid;
+ border-bottom-color: #000;
+ border-top: 6px solid #4A4B4C;
+ border-radius: 2px;
+ background-color: #4A4B4C;
+ transition: all 500ms ease 0s;
+ color: #FFF;
+ font-weight: 600;
+ text-align: center;
+ border-bottom-width: 6px;
+ padding-top: 5px;
+ padding-right: 15px;
+ padding-left: 15px;
+ padding-bottom: 6px;
+ font-size: 12px;
+}
+
+.or-alert-button:hover {
+ background-color: #000;
+ border-top: 6px solid #4A4B4C;
+ border-bottom: 6px solid #000;
+}
+
+.or-alert-button:active {
+ background-color: #4A4B4C;
+ border-top: 6px solid #000;
+ border-bottom: 6px solid #4A4B4C;
+}
+
+.cookieAlert {
+    background-color: #35383B;
+    margin-top: -11px;
+    padding: 4px 0px;
+    text-align: center;
+}
+   
+.cookieAlert .normal {
+    color: #FFF;
+    font-size: 11px;
+    text-align: center;
+    line-height: 1.25em;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.cookieAlert .normal a{
+    color: #fff;
+    font-size: 11px;
+    text-align: center;
+    box-shadow: 0px -14px 0px -11px rgba(174, 222, 239, 0.65) inset;
+}
+
+.cookieAlert .normal a:link:hover{
+box-shadow: 0px -48px 0px -30px rgba(174, 222, 239, 0.65) inset;
+}
+
+     
+#cookieClose {
+    background-color: #FFF;
+    color: #35383B;
+    display: inline-block;
+    padding: 4px 13px;
+    margin: 2px 7px;
+    border-radius: 1px;
+    font-weight: 700;
+    border-bottom: 3px solid #C8C5C5;
+    box-shadow: 0px -16px 0px -11px rgba(174, 222, 239, 0) inset;
+}
+
+#cookieClose:hover {
+
+}
+
+/* Listan med knappar */ 
+
+.sharebuttonlist {
+    list-style-type: none;
+    margin: 0;
+    background-color: white;
+    padding: 5px 4px 1px 6px;
+    position: absolute;
+    width: 139px;
+    right: 170px;
+    top: 48px;
+}
+
+.sharebuttonlist--horizontal .sharebuttonlist__item {
+    display: inline-block;
+}
+
+
+/* Delaknappar */
+
+.sharebutton {
+    display: inline-block;
+    height: 32px;
+    width: 32px;    
+    background-size: 32px auto;    
+    background-repeat: no-repeat;
+}
+
+.sharebutton--facebook,
+.sharebutton--twitter,
+.sharebutton--twitter
+ {
+    background-color: white;
+}
+
+/* Ikoner på delaknapparna */
+
+.sharebutton--icon-facebook {            
+   	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAAHdbkFIAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIpSURBVGhD7ZpPSsQwFMYHl67cegNBUFCMegFXgpuhHXEzR5gbjCcQN+Iks/AG6jF04xFExCsIIsKYhFdtM69pm6ad6eQ9+CF5fXn5+vXPtNjeYSxmNqoXsHhykh7PFfRkZMbpgU7ULjBZRMHu2d1GepwpMPdA5zKD2gUY9QuKaLjBYLqjdlwFul2S3yDijzBXB1ojsSqAufYaLJkA890blIEaNN4gEt/qCjev8jTWBnAa6MC2KwobsEhcY9sS8jsbgdUomlOgWIEGZaAG9SEB3RXAYvGlLjQzsFobzgJgPR3yah9hNWWoLIBF/EX+HcLaOo76U6ZyADovj+oOGM88ZqBzLPg6BNYbrg0S0F0BviABJIAEkAAS0G0BLOZi72Ky+f8ezW+xOhvOAo7P+Rb8GP6Fy6+iswBYMxOtCZAPpm+wpg6spiydFDBkA9GHtXWoHPAANaWpLADWREM+st9jc2x4FSBf1z6wOTacjl/wJyEJIAEkwCskgASQABKwaMgALBkSZACWDAkyAEuGBBmAJZuHvx4MxDa8z+RGnX+ClaV9AyJxBftXGKtowGdvPF6D/cvE/ilflzs8kmfHZYIcPyE9vNKqAea7fDraONoYZACW9ErBVx62YLG4QXt6ZMkN4M9oT48srwHyZikN+EF7eoTuAViyKcgAMoAMIANgf+eCDAjBAPlM8J58WmPi8qmND9o1YAkhA7BkSJABWDIkyAAsGRKBGyBmvxwMVQhQ9nrSAAAAAElFTkSuQmCC');                 
+}
+
+.sharebutton--icon-twitter {    
+    	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAAHdbkFIAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAQLSURBVGhD7VpLaxRBEI4IvkAUUQ8KmqMPPMVkZ5NAruLBg5CLiBc9CSJe/AF6URHENz5AELMzu+KDCCLBg3jwdRJUjMtOTxIweBEUctAQWatma5PZnpqdnp3eZGH6g4/dqa6q/qamu6dndrssx6s2Yxscugjzx1wjgnWwimIo2IhsdGDYUQ519fiJYB3qqNsaHPwDQoMteMAxvUMcFycBnTv6vg61yQZk/9OvaymmAX2OZ8m+UQrOUEwDGL/IBFP9hcktVrGyx3LEP6Z9nlEJlGkSdGYCW9jB45zj7adBdLm3UNkbbEOGEqBz/oHYHjyuI2d7n4K+frtsgB6fkX8Isi+SM5bJPwTGly8i+TcA5P9hfTkjkuJ8QPAVzgfJJ7AnjuKaYNneWbY9wEgFqjQJ0tMIMAKUBPjLgeNd5drAfsFfLyT0jIxvhPYxLfdlWIu6Ka+PnpK7DpaZ25B8hkwhDD3x1nO5ZCpXIClA3A0ul8wEY0BM452K8jeF6tkjEwjw6VAfkYDLdYeJi2SsAEj4Xh4DMnaVPq+AMfGLi49j0gpopxFgBBgBRoARYAQYASoCZhnbAmEfQNsCH7g3yNliDjarx+M2pEgFAeLEcKm6nG+DBBGATUzRssVFLiZIJQGUE30fBtugk3FqCsF/XRbwjaLSJaCc84CyHwJ+hDP8QqYQmDwsVSpwDT5vUV5lhPPwjHWEMr+gnInA5eKo5DhYLG+ivEqovSrlc8lUVfobptZNyh8L9JfiI6leKkXkR7wdXHwUlQUgYTzspH4iwcU1Y9KAd9RPCM0Wq2aMFQBnfXDonreK+mGBixUXq0LlCuQccRd/esAnX1zl8o4YhoH5hvNNwsTXTDeNACPACDACllzAUtMUgDNmiaYAnDFLNAXgjFmiKQBnzBI7qgDw/DuKz8ADJXebVZza0FuY3G0VvFPwzOuGfcXPVn+iDFJLAeB5+TG+FQBRBa49hrO5kjtIz/dNAUVZjZ/7npdXWrZ4y+RKTD0FKLqHfYUEuGJHgDOcr0x8wUBhSvD/K1mtLsPXdRD/Tc6XlJqmgHhE+kLAv87BCBmB4fpXjoPh/orclIGjAGJ/yLlapbY1AE7yJU4D0qmEntHva+irMqBo3Vz/rVLPFLDFSdLXdtSmF6+jFWobAVbR7SONbQX0lXreB6mvADWW847bS1q1A0baJabPVNRcADGNtyjSqxUw98/zfaaj7hFAdI+R7tSo/e7qfeD7Sc82FWCBcHeo5AriAJ1PIkD8OTmfbmovAFytcdilXVfd3cmA+/xWyDMm520XtRQAFqc5f7PjTAzgLo3ORQn5+5XNsHachjxTct7FYNunQKfTFIAzZommAJwxSzQF4IxZoikAZ8wSM14Ar/ofkKMVg9fBsiUAAAAASUVORK5CYII=');
+}
+
+.sharebutton--icon-linkedin {        
+	 background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAAHdbkFIAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAOQSURBVGhD7Zs7aBRBHIdXEUHQxkcl+GitbGy1EwRBEKKtj9ysRBC0Fq61sfABmTkTEDvFwlIQScBGQW1txUZsxErFBOPu7ezdf3e+vbu5u4yBuR983O43/52dGzZ7e5MkSVKzMRCUEpQSlJLexnzneCGyzHeODi4oXXdf7hAoJSglKCX9Hf2p0lCCUtLfsCm3/QuaQClB6QNKH1xhU/dNOCK/asoOKPV6R1AHZZvc7rm6mLgDX1D6gNIHlD6g9AGlD45Q5qvjBuEKm7pvAqUPrrBJzY/uq9Ivu695lFlz6x1hU3Zw/cG+mq/VO8Im1evFa92L2q53hE05AtfX6h1hM3YHvqD0AaUPKH1AGRKUIUEZEpQhQSlpmTP2RyhJLi8fwJpJQClRumNPn9/ZLmLNJKCUKLOS8aJH4dbA/UzSzqVskCez/fu944eBUlI+aZQpfHGfG5abd3dV+iJQSkYZgKxX5re1RWQbgVLCA8gOFJH1w9rqoJT4zkCOTL2tDkrJfx/AZoMyJChDgjIkKEOCMiQoQ4IyJChDgjIkKEOCMiQoHfQb9lMApUQm/xSkmklAWaLMR3vqIqm549RMCkpJsrHNnn547TigDAlKiXz8Llc5qm6lcPpJ9iXmVPZofiFzXyp9DAKlRKa8CGXyR7a5ZzvtXj8tfbrSTxMoJTI0gEFR5lulLwKlRKZpAMq863qlP1tTROnzvX6aQCmRoQEos79S327vsC1JsvBwd6WNQCmRaboGKscsHrEtRSptAEqJzGwAswH8lwFsNihDgjIkKEOCMiQoQ4IyJChDgjImUMYEyphAGRMoYwJlTKCMCZQxgdIHZb5nX0LOVRexFo8lqf6A9VsNlKOSr0ENSmoeO8dsNVCOjP6VXFnaY9+um1Sv8nFbCJS+KP26uyrZMieSa52z2f5y9ub/Yu1WA2VMoPQhX5VpSrmKU9D8lx69lR39KruBHrTWTb7uqfStrO6P6HcyUPowjQlYWDqcXH201+6NFqVvi77HB6UP05iAMu329u4vFlr6RvYJM9dd3R6UVN8T/Y8HSh+mNQFKPxW1fZR+bivcyP9FGBeUPkz1HtCAModspRuq9wGlD6NPQHayhgybgPpytwzWe4DShxBXwGwCZhMwmwBb6QbrPUDpg9Lviy89yHq/Nt/GmtWiD9Gng37rHNOD6j1AGRMoYwJlTKCMCZQxgTImUMYEymgwG/8ALLVph84NRLUAAAAASUVORK5CYII=');
+}
+
+.sharebutton--icon-email {    
+	 background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAFSDNYfAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARWSURBVFhH7ZnbbxNHFMb7Z9G0BREqtSEJqUKklhCgUR+AShBBeaJcHkAtN0VIITwBUaWqBfHQCopAXEVbgYTUhLuobyQhJjZO5DgmduLLLt/mbMabs2PPem3HAe3RT9b4XObb4x2vd9Yf+ZpWSFEF9MVWCPiaG8zBfBJeC1PRe3oFKo3QxhYrhYAdd4HUkyHj4BesEBBviImB03g1A5HeQ/KA8IJCALAmCgE7RQPFqKCAHTKDOgCLCmCxhYDVH+pqlRdYx/RxC4+iwE7sXD8NKmjaIR9WAT7WYpZLTIk0s0CsUimoEeNCgdXLkBf41n5srxnt6YazSMH8ADF/yyc0zk0nkv/cIid5gKQHLZPJxqJICrSvJo+iwI6kINjZLFx2JAUAIsWwXjYLBQ5ZhgXl4gko4QKB9kYss5nBB2/v3y0XFEZ6D7MJuQCWJfLenD7B/EqCG5pQKK7vArkAWWhzG4vKaW4wC5wL0HjW/wLjTHhURBmJa5eQoM2m6W3ZAkRww1p4YCPfd5HH37aKPOH9u0QagMeNgGDy1zPz0+o4nyxEIFSRgBJHAsA4SLcW2rSOzSYRqC6egBJPQIknoOTDEwh+86V53Srfwgd2s9kAF6BU60+5Q3JTcRSy2YBEIPN6jDmdED11zKmANE9JPp0qQyB5T/6jWIxo3xEqZH4gF4Cl/3/OQsWYvPCLWeNQIPV4cPK3s0a6lsdeiSUwsm8iSEy/eBbpPVSGAAYvu9sNDV0f3tZpTRD421ZSwvjRA3hbtgChzc3BE//jvPAQY3t3GnMbW7NG8rgUAPR0ITMeFp7pW1fhyb9NCg9wLwCoGJa4cYUGyX9vS3OYEzgSANil4pCNuTVtZPtGFgWVCihZTgJY1MzpBPoyMyfgAqlH/yHPnWmZDJsNcAEQ6Pgc99jlgi0Um4eQCFQXT0CJJ6Ck5gK1xmug3ngN1BuvgXrjtAF39xjuwBbX+mdFadQNVHILVonh9s3+aNGOooFgZzNNNxv0sVDtoJ02TPwhWgJFAzihNBf2mcGvv2DRGpG4/hdp2p8e23HcgK5nJ2KB9WtYQtWZvnPd1Kt6A2TJv2/6133G0qrC+M/7tGzWlJm3ajaQevqQttxkuUR8bO8OluwOrMyZwQfmvDjPsejk7wM0rmoDC7vZ8MEf8slpcsKS9+66XlfRkz/hUmNOpOvxyxf9rca5pT0wrCYNEP62lVNX/6QQLJ9OYQFYE0oQ2vJV2vfcrNT1uVcj7BHRUjQgGNnxLT3kIks9GSpxsYqd7cPVzEzV8jEcn+wJ2pI2QPhbP41fukiZMCwMHCutB/Bqz9a50WEzho98OPjyuw5Ra6cODQhGe7qtJ2SR5fPGAakeWoJ6NiDApXbsx55o/3F8N0JdLSxammXRQCV4DVgItDfSXDD83LA/UGoEfiVJMdJ7mB2PHUUDAHfn9CB8KS2XmJL+eWVH3cAyx2ug3ngN1BuvgXrznjfQtOIdL7L9RhFp6jEAAAAASUVORK5CYII=');
+}
+
+.sharebutton--icon-gplus {
+    padding: 0 16px 0 37px;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NDAiIGhlaWdodD0iNjQwIiB2aWV3Qm94PSIwIDAgNjQwIDY0MCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTYzLjY0OCAxNzguODQ4YzAgNDcuODA4IDE1Ljk2OCA4Mi4zMDQgNDcuNDI0IDEwMi41NiAyNS43OTIgMTYuNjQgNTUuNjggMTkuMTM2IDcxLjIzMiAxOS4xMzYgMy43NzYgMCA2LjgxNi0uMTkyIDguOTI4LS4zMiAwIDAtNC45MjggMzIuMTI4IDE4Ljg4IDYzLjg3MmgtMS4wODhjLTQxLjI0OCAwLTE3NS43NzYgOC42MDgtMTc1Ljc3NiAxMTkuMjY0IDAgMTEyLjUxMiAxMjMuNTUyIDExOC4yNCAxNDguMzUyIDExOC4yNCAxLjk1MiAwIDMuMTA0LS4wNjQgMy4xMDQtLjA2NC4yNTYgMCAyLjAxNi4wNjQgNS4wNTYuMDY0IDE1LjkwNCAwIDU3LjAyNC0xLjk4NCA5NS4yLTIwLjU3NiA0OS41MzYtMjQgNzQuNjU2LTY1Ljg4OCA3NC42NTYtMTI0LjMyIDAtNTYuNDQ4LTM4LjI3Mi05MC4wNDgtNjYuMjA4LTExNC42MjQtMTcuMDU2LTE1LjAwOC0zMS44MDgtMjcuOTM2LTMxLjgwOC00MC41MTIgMC0xMi44IDEwLjc4NC0yMi40MzIgMjQuMzg0LTM0LjYyNCAyMi4wNDgtMTkuNjggNDIuODQ4LTQ3Ljc0NCA0Mi44NDgtMTAwLjggMC00Ni42MjQtNi4wNDgtNzcuOTUyLTQzLjMyOC05Ny44MjQgMy44NzItMS45ODQgMTcuNjMyLTMuNDI0IDI0LjQxNi00LjM4NCAyMC4xOTItMi43NTIgNDkuNzI4LTUuODg4IDQ5LjcyOC0yMi4zNjh2LTMuMTY4aC0xNDcuMTY4Yy0xLjQ3Mi4wNjQtMTQ4LjgzMiA1LjUwNC0xNDguODMyIDE0MC40NDh6bTIzNy41NjggMjg4LjQxNmMyLjgxNiA0NC45OTItMzUuNjggNzguMTc2LTkzLjUwNCA4Mi4zNjgtNTguNzIgNC4zMi0xMDcuMDQtMjIuMTEyLTEwOS44NTYtNjcuMDcyLTEuMzc2LTIxLjYzMiA4LjEyOC00Mi43NTIgMjYuNzItNTkuNjE2IDE4Ljg0OC0xNy4wNTYgNDQuNzM2LTI3LjYxNiA3Mi44OTYtMjkuNjk2IDMuMzI4LS4xOTIgNi42MjQtLjM4NCA5LjkyLS4zODQgNTQuMzY4LjAzMiA5MS4xNjggMzEuOTY4IDkzLjgyNCA3NC40em0tMzguNDMyLTMxOS4yMzJjMTQuNDMyIDUwLjgxNi03LjM2IDEwMy44NzItNDIuMTEyIDExMy42OTYtNCAxLjEyLTguMDk2IDEuNjY0LTEyLjI4OCAxLjY2NC0zMS44MDggMC02My4zMjgtMzIuMTkyLTc1LjA0LTc2LjU3Ni02LjUyOC0yNC44MzItNS45ODQtNDYuNjU2IDEuNTA0LTY3LjU4NCA3LjMyOC0yMC42NCAyMC41NzYtMzQuNDk2IDM3LjIxNi0zOS4yIDQtMS4xMiA4LjEyOC0xLjY5NiAxMi4zMi0xLjY5NiAzOC40IDAgNjMuMTA0IDE1LjkzNiA3OC40IDY5LjY5NnptMjQ5LjIxNiAxMDcuOTY4di05NmgtNjR2OTZoLTk2djY0aDk2djk2aDY0di05Nmg5NnYtNjRoLTk2eiIvPjwvc3ZnPg==');
+}
+
+
+/* Mobility guard inloggning */
+
+.or-mobility-guard-box {
+	height: 16em;
+}
+
+/* Återvinningsguide */
+
+
+.ess-result .sort-results .heading{
+	font-size: 12px;
+	margin-top: 0px;
+}
+
+.ess-result .sort-results p{
+	font-size: 13px;
+	margin-top: 7px;
+}
+
+.ess-result{
+	margin-bottom: 30px;
+}
+
+.ess-result table{
+	margin-bottom: 35px;
+	width: 100%;
+    border-collapse: collapse;
+}
+
+.sort-results tbody {
+	margin-bottom: 15px;
+}
+
+.ess-result .antaltraffar h2{
+	
+}
+
+.portlet-section-header.antaltraffar h2{
+	
+}
+
+.antaltraffar {
+    font-family: "leaguespartan webfont",sans-serif;
+    font-size: 11px!important;
+    margin-top: 20px!important;
+    font-style: normal;
+}
+
+.antaltraffar span{
+    font-style: normal;
+}
+
+.antaltraffar strong{
+    color: #857672;
+}
+
+
+.portlet-section-header.antaltraffar {
+    color: #35383b;
+    font-size: 11px;
+    margin-bottom: 30px;
+}
+
+.antaltraffar {
+    font-family: "leaguespartan webfont",sans-serif !important;
+}
+.sort-results tr td {
+	padding: 10px;
+	vertical-align: initial;
+}
+
+.sort-results tr th {
+    padding: 10px 0px 5px;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-family: "leaguespartan webfont",sans-serif;
+    letter-spacing: 0.03em;
+}
+
+.ess-result{ 
+width: 100%!important;
+}
+
+/* Lediga jobb - Reachmee */
+.or-lediga-jobb p {
+	font-family: "open sans",sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 17px;
+	color: #35383b;
+	line-height: normal;
+	font-weight: 400;	
+}
+
+>>>>>>> master

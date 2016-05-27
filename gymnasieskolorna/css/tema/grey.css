@@ -200,7 +200,7 @@ h4.plusboxxrubrik.or-plus-box-active {
    color:white;
 }
 
-.or-collpase-button.or-colorbg.or-plus-box-active {
+.or-collapse-button.or-colorbg.or-plus-box-active {
   background-color: rgba(255,255,255,0.25);
 }
 
@@ -221,7 +221,7 @@ h4.plusboxxrubrik.or-plus-box-active {
   color: #fff;
 }
 
-.or-plus-box-program .or-collpase-button {
+.or-plus-box-program .or-collapse-button {
     background-color: #dcdcdc;
 }
 
@@ -231,7 +231,7 @@ h4.plusboxxrubrik.or-plus-box-active {
 }
 
 
-.or-plus-box-program .or-collpase-button.or-plus-box-active {
+.or-plus-box-program .or-collapse-button.or-plus-box-active {
     background-color: #dcdcdc !important;
 }
 
@@ -315,6 +315,11 @@ h4.plusboxxrubrik.or-plus-box-active {
 .or-puff-bild-text h4{
 color: #857672;
 }
+
+.or-puff-bild-text h4 a{
+color: #857672;
+}
+
 
 .or-stor-bild-text-tv > div:nth-child(2) h2 {
     color: #857672;
@@ -610,6 +615,10 @@ li.sol-selected-facet:hover {
 }
 /* Slut Ny action */
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
 /* Ny action formatmall */
 .sv-font-action-penna:before, .sv-font-action-pil:before, .sv-font-action-karta:before, .sv-font-action-facebook:before, .sv-font-action-twitter:before {
     background-color: #857672;

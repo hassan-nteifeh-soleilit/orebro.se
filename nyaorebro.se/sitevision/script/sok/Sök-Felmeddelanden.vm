@@ -6,7 +6,8 @@
 #else
    #set ($scriptUtil = $sitevisionUtils.scriptUtil)
    #set ($searchPhrase = $endecUtil.escapeXML(${searchResult.getDisplayQuery()}))
-   #set ($pattern = $propertyUtil.getString($bundle, 'noHitsPatternText'))
+   ##set ($pattern = $propertyUtil.getString($bundle, 'noHitsPatternText'))
+   #set ($pattern = "Din sökning <strong>{0}</strong> gav ingen träff") 
    #set ($argsList = $sitevisionUtils.instanceCreatorUtil.listWrapper)
    $argsList.add($searchPhrase)
  
@@ -130,7 +131,8 @@
    #if($totalhits>0)  
     <div class="sv-noleft or-total-link" style="margin-bottom:${facetItemSpacing}">
         #set ($totalsearchpagelink = "/ovrigt/soktotal.4.720a5aaf1524e3420a818e.html")
-        <a href="$totalsearchpagelink#query/$searchResult.getDisplayQuery()"><strong>Utvidga din sökning:</strong> Du har fått <strong>$totalhits</strong> träffar på alla våra webbplatser</a>                  
+        #set ($searchResultEncoded = $endecUtil.encodeURL(${searchResult.getDisplayQuery()}))
+        <a href="$totalsearchpagelink#query/$searchResultEncoded"><strong>Utvidga din sökning:</strong> Du har fått <strong>$totalhits</strong> träffar på alla våra webbplatser</a>                  
     </div>
     #end
    </div>

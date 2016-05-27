@@ -15,12 +15,12 @@
 .or-total-link {
     float: left;
     width: 100%;
+    box-sizing: border-box;
 }
 
 #or-search-form {
     margin-left: 15px!important;
 }
-
 
 /* Navigationskort */
 section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-title {
@@ -45,7 +45,7 @@ nav.or-secondary h2 {
 }
 
 nav.or-secondary {
-    max-width: 750px;
+    /*max-width: 750px;*/
 }
 
 nav.or-secondary .or-content ul li a h3 {
@@ -58,7 +58,7 @@ body .or-puff-link .normal a:link {
 }
 
 /* Tjänster puff */
-.or-puff-icon-header-text .ikonxorange {
+section.or-nav-content-section .or-puff-icon-header-text .ikonxorange {
     float: left;
     background-color: #FCF5EC;
     position: absolute;
@@ -73,14 +73,19 @@ body .or-puff-link .normal a:link {
     font-size: 30px;
 }
 
-.or-puff-icon-header-text > div:first-of-type {
+section.or-nav-content-section .or-puff-icon-header-text {
+    margin-top: 5px;
+}
+
+section.or-nav-content-section .or-puff-icon-header-text > div:first-of-type {
     background-color: #fff;
     float: left;
     padding: 0px 0px 0px 0px;
+    margin-bottom: 2px;
 
 }
 
-.or-puff-icon-header-text {
+section.or-nav-content-section .or-puff-icon-header-text {
     padding: 10px 30px 0px 85px;
     text-align: left;
     border: 5px solid #fff;
@@ -88,37 +93,212 @@ body .or-puff-link .normal a:link {
     margin-right: 1%;
     width: 98%;
     box-sizing: border-box;
-    min-height: auto;
-    max-height: 75px;
-    min-height: 75px;
+    min-height: 0px;
+    float: left;
 }
 
-.or-puff-icon-header-text .sv-use-margins .rubrikx4, .sv-use-margins h4 {
+section.or-nav-content-section .or-puff-icon-header-text .sv-use-margins .rubrikx4, .sv-use-margins h4 a{
     float: left;
-    margin-bottom: 3px;
+    margin-bottom: 0px;
     font-size: 12px;
 }
 
-.or-puff-icon-header-text .normal a:link {
+section.or-nav-content-section .or-puff-icon-header-text .normal a:link {
     float: left;
     overflow: hidden;
-    height: 21px;
     font-size: 14px;
 }
 
-.or-puff-icon-header-text .normal {
+section.or-nav-content-section .or-puff-icon-header-text .normal {
     float: left;
-    max-height: 25px;
     overflow: hidden;
 }
 
-.or-puff-icon-header-text > div:last-of-type {
+section.or-nav-content-section .or-puff-icon-header-text > div:last-of-type {
     margin: 0px;
 }
+
+.or-content-page-2 .or-arrow-box::after {
+    left: 50%;
+}
+
+.or-arrow-box:after {
+    border-width: 17px;
+    margin-left: -14px;
+}
+
+/* startsida */
+
+.sol-meny-startsida {
+    padding: 0 0% 0% 0%;
+}
+
+.hero-startsida .or-secondary .or-content ul li a h3 {
+    font-size: 17px;
+    margin-bottom: 8px;
+}
+
+.or-start-heading-divider.or-right {
+    left: 50%;
+    top: -41px;
+}
+
+.or-start-white-divider {
+    margin-top: 10px;
+}
+
+.or-start-heading-divider {
+    width: 300px;
+    margin-left: -150px;
+    position: relative;
+    left: 50%;
+    top: -38px;
+}
+
+
+
+/* startsida puffar */
+.or-start-white-divider .or-puff-icon-header-text {
+    margin: 0px 1%;
+    float: left;
+    width: 29.5%;
+}
+
+.or-start-bottom-tabs ul li {
+    padding: 10px 5px;
+}
+
+.or-puff-icon-header-text .sv-use-margins .rubrikx4, .sv-use-margins h4 {
+    font-size: 13px;
+}
+
+.or-puff-startpage-footer {
+    border-top: 0px solid #fff;
+}
+
+/* startsida kontakt/drift */
+.or-start-bottom-tabs ul {
+    padding: 10px 3px;
+}
+
+
+/* startsida nyhetsflöde */
+.or-start-white-divider .or-news-list li p {
+    padding-left: 55px;
+}
+
+.or-news-list.or-small {
+    margin: -40px auto 0 auto;
+}
+
+.or-start-heading-divider.or-left {
+    left: 50%;
+    top: -38px;
+}
+
+.or-news-social-section-startpage .or-social-media-content {
+    margin: 10px 0px;
+    max-width: 600px;
+    float: none;
+    width: 100%;
+    margin: 10px auto;
+    margin-top: -5px;
+}
+.or-news-social-section-startpage.or-start-white-divider {
+    margin-bottom: 0px;
+    padding: 0px 0px 0px;
+}
+
+.or-news-list.or-small h3 a {
+    font-size: 14px;
+}
+
+.or-start-white-divider .or-news-date {
+    margin-top: 1px;
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+.or-news-list.or-small li {
+    padding: 0px 20px 15px 15px;
+}
+
+.or-news-container-startpage{
+	border-bottom: 60px solid #F6F4F2;
+}
+
+.or-start-white-divider {
+    margin-bottom: 60px;
+    padding: 0px 0px 30px;
+    margin-top: 40px;
+}
+
+/* startsida socialtflöde */
+
+.or-start-heading-divider.or-right {
+    left: 50%;
+    top: -41px;
+}
+.or-follow .normal a:link {
+    margin-top: 10px;
+    display: inline-block;
+}
+
+/* Standarsida toppbild */
+
+body section.or-top-img-area .or-top-img-text-area h1 {
+    font-size: 24px;
+}
+
+
+
+
+
+
 
 
 } /* en 991 */
 
+
+@media (max-width: 945px) {
+	
+.or-start-bottom-tabs ul li {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: left;
+    padding: 8px 9px;
+}
+
+.or-start-bottom-tabs ul li:first-child {
+    border-radius: 0px;
+}
+
+.or-start-bottom-tabs ul {
+    padding: 0px 0px;
+}
+
+.or-start-bottom-tabs{
+	margin-bottom: 20px;
+}
+
+.or-red-header-box.or-startpage-driftstorningar .or-start-bottom-tabs ul li {
+    display: inline;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.or-red-header-box.or-startpage-driftstorningar .or-start-bottom-tabs ul {
+    padding: 10px 3px;
+}
+
+.or-red-header-box.or-startpage-driftstorningar .or-start-bottom-tabs ul li:first-child {
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+}
 
 
 @media (max-width: 900px) {
@@ -128,14 +308,21 @@ ul.or-nav-list li .or-list-wrapper {
     box-shadow: 0 0 5px #C7C7C7;
     float: left;
     min-height: 140px;
-    width: 48%;
-    margin-right: 1%;
-    margin-left: 1%;
+    width: 46%;
+    margin-right: 2%;
+    margin-left: 2%;
     margin-bottom: 20px;
 }
 
+form.or-search-field input {
+    width: 55%;
+    font-size: 14px;
+}
 
-}  /* en 900 */
+
+}  
+
+/* en 900 */
 
 
 /*

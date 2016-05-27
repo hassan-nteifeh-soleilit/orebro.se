@@ -1,4 +1,5 @@
 node_modules
+<<<<<<< HEAD
 .vscode/settings.json
 *.asp
 Badvattenkvalité/~$dvattenkvalitet-dokumentation.doc
@@ -9,3 +10,15 @@ Badvattenkvalité/images/3rod.jpg
 Badvattenkvalité/Badvatten_db_201111282100.BAK
 Badvattenkvalité/Badvattenkvalitet-dokumentation.doc
 Badvattenkvalité/images/Thumbs.db
+=======
+
+*.asp
+Badvattenkvalité/images/1gron.jpg
+*.jpg
+Badvattenkvalité/Admin/asp/waterqualityDB.sql
+Badvattenkvalité/Badvattenkvalitet-dokumentation.doc
+Badvattenkvalité/images/Thumbs.db
+Badvattenkvalité/Badvatten_db_201111282100.BAK
+Badvattenkvalité/~$dvattenkvalitet-dokumentation.doc
+.vscode/settings.json
+>>>>>>> master

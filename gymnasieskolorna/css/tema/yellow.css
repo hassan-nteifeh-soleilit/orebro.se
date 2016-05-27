@@ -203,7 +203,7 @@ h4.plusboxxrubrik.or-plus-box-active {
    color:white;
 }
 
-.or-collpase-button.or-colorbg.or-plus-box-active {
+.or-collapse-button.or-colorbg.or-plus-box-active {
   background-color: rgba(255,255,255,0.25);
 }
 
@@ -224,11 +224,11 @@ h4.plusboxxrubrik.or-plus-box-active {
   color: #35383B;
 }
 
-.or-plus-box-program .or-collpase-button {
+.or-plus-box-program .or-collapse-button {
     background-color: #FFF484;
 }
 
-.or-plus-box-program .or-collpase-button.or-plus-box-active {
+.or-plus-box-program .or-collapse-button.or-plus-box-active {
     background-color: #FFF484!important;
 }
 
@@ -323,6 +323,11 @@ h4.plusboxxrubrik.or-plus-box-active {
 .or-puff-bild-text h4{
 color: #35383B;
 }
+
+.or-puff-bild-text h4 a{
+color: #35383B;
+}
+
 
 .or-stor-bild-text-tv > div:nth-child(2) h2 {
     color: #fff484;

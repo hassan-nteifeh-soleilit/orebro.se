@@ -255,16 +255,17 @@ $linkRenderer.setFontClass($linkRendererClass)
 
 #if (!$isAjaxPagingResult)
 </div>
-
-#end
 #if($totalhits>0)
 <div class="sv-column-8">
     <div class="sv-noleft or-total-link" style="margin-bottom:${facetItemSpacing}">
         #set ($totalsearchpagelink = "/ovrigt/soktotal.4.720a5aaf1524e3420a818e.html")
-        <a href="$totalsearchpagelink#query/$searchResult.getDisplayQuery()"><strong>Utvidga din sökning:</strong> Du har fått <strong>$totalhits</strong> träffar på alla våra webbplatser</a>                  
+        #set ($searchResultEncoded = $endecUtil.encodeURL(${searchResult.getDisplayQuery()}))
+        <a href="$totalsearchpagelink#query/$searchResultEncoded"><strong>Utvidga din sökning:</strong> Du har fått <strong>$totalhits</strong> träffar på alla våra webbplatser</a>                  
     </div>
 </div>
 #end
+#end
+
 
 
 

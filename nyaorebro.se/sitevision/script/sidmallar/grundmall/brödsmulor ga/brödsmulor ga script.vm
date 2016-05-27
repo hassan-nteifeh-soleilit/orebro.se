@@ -1,0 +1,47 @@
+#if (!$root.equals($currentPage))
+ ## Get all nodes from here to the site page
+ #set ($pathList = $nodeTreeUtil.getWebPathNodes($currentPage))
+    ## Iterate the nodes in the list with a LinkRenderer
+    #if (!$pathList.isEmpty())
+       <nav class="or-breadcrumbs">
+       <ul>          
+       #foreach ($node in $pathList)
+         #if ($nodeTreeUtil.isDescendantOf($node,$root) || $node.equals($root))            
+            <li>                        
+            #set ($gaPath = "$gaPath$node.name/")    
+            #if ($node.equals($currentPage))  
+               <span class="or-path-text">$currentPage.name</span>
+            #else
+               $linkRenderer.update($node)             
+               #if ($node.equals($root))
+                  $linkRenderer.setText("Start")                           	
+               #end                         	               
+               $linkRenderer.render()   
+               <span class="or-path-divider">/</span>
+            #end
+            </li>         
+         #end         
+       #end
+       </ul>
+       </nav>
+    #end
+#else
+    #set ($gaPath = "/$currentPage.name")
+#end
+
+
+#if ($gaId)
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '$gaId', 'auto');  
+  ga('set', 'page', '$gaPath' + document.location.search);
+  ga('send', 'pageview');
+</script>
+#else
+ <!-- Google analytics id missing! $gaPath -->
+#end
+

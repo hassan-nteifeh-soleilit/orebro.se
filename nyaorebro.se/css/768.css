@@ -1,3 +1,19 @@
+@media all and (max-width: 768px){
+.or-contact-block-startpage{
+	display: none!important;
+}
+
+.or-red-header-box {
+    margin-top: 0px;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 55px!important;
+    max-width: 100%;
+}
+
+}
+
 @media all and (min-width: 767px){
 .or-news-filter .or-plus-box-diskret-header.or-plus-box-active .or-collapse-button {
     display: none;
@@ -49,6 +65,10 @@ h4, h4 a, .rubrikx4 a{
     line-height: 1.5em;
 }
 
+a.ingress:link, .ingress a:link, a.ingress:visited, .ingress a:visited, a.ingress:active, .ingress a:active {
+    font-size: 18px;
+}
+
 ul li {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.2em;
@@ -78,6 +98,26 @@ header {
     display: none;
 }
 
+/* Sök i mobil */
+
+header.or-search-mobile {
+    display: block;
+}
+
+header.or-search-mobile form.or-search-field input {
+    width: 85%;
+    box-sizing: border-box;
+}
+
+header.or-search-mobile .sv-row:first-of-type  > div  {
+	display:none;
+}
+
+header.or-search-mobile .sv-row:first-of-type  > div:nth-of-type(2n)  {
+	display:block;	
+	width:100%;
+	margin: 0 auto;
+}
 
 
 /* cookie */
@@ -106,11 +146,15 @@ section.or-breadcrumbs-area {
     top: -4px;
 }
 
+.or-tree > ul.or-depth-0 {
+    padding-bottom: 85px;
+}
+
 body section.or-nav-content-section .or-grid-12-col.or-wider h2 {
     font-size: 12px;
 }
 
-.nav-footer-container {
+.or-mobile-nav-container {
     position: absolute;
     left: 0px;
     right: 0px;
@@ -167,6 +211,10 @@ body .or-content-container .or-tir p {
     margin-left: 0!important;
     margin-top: 0!important;
     height: 100%;
+}
+
+#alertInfo {
+    padding: 20px 10px 5px;
 }
 
 /* mobilmeny */
@@ -284,7 +332,7 @@ nav.or-secondary .or-content ul li {
 }
 
 nav.or-secondary {
-    margin: 0px auto 80px auto;
+    margin: 0px auto 0px auto;
 }
 
 nav.or-secondary h2 {
@@ -327,23 +375,42 @@ body .or-article-main .or-openhours-contact .sv-responsiveTable--stacked__headRo
 
 /* Genomgangssida 2 */
 section.or-top-img-area {
-    height: 270px;
-    background-position: 0px 75px;
+    height: 260px;
+    background-position: 0px 0px;
+    width: 100%;
 }
 
 .or-top-img-text-area {
     position: absolute;
     left: 0px;
-    top: 0px;
-    bottom: auto;
+    bottom: 0;
     max-width: 100%;
     width: 100%;
     background-size: contain;
     box-sizing: border-box;
+    padding: 15px 20px 5px;
+    border-radius: 0px;
+    top: auto;
+}
+
+section.or-top-header {
+    padding: 0px 20px 5px;
+}
+
+/* puffar innehåll */
+.or-puff-link::before{
+    border-width: 13px;
+}
+
+.or-puff-link::after {
+    font-size: 9px;
 }
 
 .or-puff-link {
-    width: 48%;
+    width: 96%;
+    margin-bottom: 16px;
+    margin-right: 2%;
+    margin-left: 2%;
 }
 
 body .or-puff-link .normal a:link {
@@ -354,14 +421,185 @@ body .or-puff-link .normal a:link {
     font-size: 13px;
 }
 
-body section.or-top-img-area .or-top-img-text-area h1 {
-    font-size: 18px;
-    margin-bottom: 5px;
+body section.or-top-img-area .or-top-img-text-area h2{
+	font-size: 14px;
+}
 
+body section.or-top-header .sv-use-margins h2{
+	font-size: 14px;
+}
+
+/* puffar tjänst */
+
+.or-puff-icon-header-text {
+    box-shadow: 0 0 3px #D7D5D5;
+}
+
+
+
+/* Standarsida toppbild */
+
+body section.or-top-img-area .or-top-img-text-area h1 {
+    font-size: 20px;
 }
 
 body section.or-top-img-area .brodtextxxfetx {
     font-size: 13px;
+}
+
+/* Startsida navigering */
+.hero-startsida{
+    width: 100%;
+    background-size: contain;
+    position: relative;
+    background-position: top center;
+    padding-top: 1px;
+}
+
+.sol-meny-startsida {
+    padding: 0% 0% 0%;
+}
+
+.sol-meny-startsida nav.or-secondary {
+    margin: 135px auto 30px auto;
+}
+
+.hero-startsida nav.or-secondary .or-content {
+    border: 0px solid rgb(249, 228, 225);
+}
+
+/* driftstörningar/kontakt startsida */
+
+.or-red-header-box .box-header p {
+    font-size: 13px;
+}
+
+.or-red-header-box .box-header p i {
+    font-size: 20px;
+    position: relative;
+    top: 1px;
+}
+
+.driftstorningar-container.or-bg-white {
+    padding: 5px 20px 2px 20px;
+    margin-bottom: 0px;
+}
+
+.or-oh-start-page .or-oh-open, .or-oh-start-page .or-oh-closed, .or-oh-start-page .or-oh-status {
+    padding: 4px 5px 4px!important;
+}
+
+.visa-fler-driftstorningar {
+    bottom: -29px;
+}
+
+.or-bg-white ul li a.normal:link {
+    font-size: 15px;
+}
+
+.or-bg-white ul li {
+    margin-bottom: 4px;
+}
+
+.or-red-header-box .box-header {
+    padding: 6px 8px 7px 10px;
+    background-color: #e83c23;
+}
+
+.or-red-header-box .box-header {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+
+.or-start-white-divider {
+    margin-top: 10px;
+}
+
+.or-start-heading-divider {
+    width: 300px;
+    margin-left: -150px;
+    position: relative;
+    left: 50%;
+    top: -38px;
+}
+
+
+/* puffar startsida */
+
+.or-puff-startpage-footer {
+    padding-top: 10px;
+}
+
+.or-puff-icon-header-text::before {
+    border-width: 13px;
+}
+
+.or-puff-icon-header-text::after {
+    font-size: 9px;
+}
+
+
+.or-start-white-divider .or-puff-icon-header-text .ikonxorange {
+    float: left;
+    background-color: #FCF5EC;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0px;
+    height: 100%;
+    width: 70px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 15px;
+    font-size: 30px;
+}
+
+.or-start-white-divider .or-puff-icon-header-text > div:first-of-type {
+    background-color: #fff;
+    float: left;
+    padding: 0px 0px 0px 0px;
+    margin-bottom: 1px;
+}
+
+.or-start-white-divider .or-puff-icon-header-text {
+    padding: 10px 30px 0px 85px;
+    text-align: left;
+    border: 4px solid #fff;
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 94%;
+    box-sizing: border-box;
+    min-height: 0px;
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+.or-start-white-divider .or-puff-icon-header-text .sv-use-margins .rubrikx4, .sv-use-margins h4 {
+    float: left;
+    margin-bottom: 3px;
+    font-size: 12px;
+}
+
+.or-start-white-divider .or-puff-icon-header-text .normal a:link {
+    float: left;
+    overflow: hidden;
+    font-size: 14px;
+}
+
+.or-start-white-divider .or-puff-icon-header-text .normal {
+    float: left;
+    overflow: hidden;
+}
+
+.or-start-white-divider .or-puff-icon-header-text > div:last-of-type {
+    margin: 0px;
+}
+
+
+
+.hero-startsida nav.or-secondary .or-content ul li:nth-last-child(-n+3) a {
+    border-bottom: 3px solid #ffffff;
 }
 
 
@@ -376,6 +614,10 @@ ul.or-nav-list li .or-list-wrapper p {
     display: none;
 }
 
+.sol-meny-startsida nav.or-secondary {
+    margin: 135px auto 0px auto;
+}
+
 section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-title:before {
     top: 6px;
     left: 5px;
@@ -384,6 +626,8 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-t
 body section.or-nav-content-section .sv-fluid-grid.or-wider .or-nav-list .or-list-wrapper.or-single .or-title:before {
     top: 6px;
 }
+
+
 
 ul.or-nav-list li .or-list-wrapper {
     border: 3px solid #fff;
@@ -432,6 +676,7 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a {
     padding: 6px 6px 6px 11px;
     width: 99%;
     box-sizing: border-box;
+    min-height: 0px;
 }
 
 .or-nav-list{
@@ -474,12 +719,17 @@ nav.or-secondary .or-content ul li {
     margin-bottom: 3px;
 }
 
+nav.or-secondary .or-content ul li a h3 {
+    font-size: 11px;
+    margin: 0px;
+}
+
 nav.or-secondary .or-content ul li a {
     border-bottom: 0px dotted #eae9e8;
     float: left;
     height: auto;
     border-radius: 3px;
-    box-shadow: 0 0 5px #C7C7C7;
+    box-shadow: 0 0 2px #C7C7C7;
     width: 100%;
     border: 3px solid #FFFFFF;
     position: relative;
@@ -489,6 +739,11 @@ nav.or-secondary .or-content ul li a {
     box-sizing: border-box;
     position: relative;
     line-height: 1em;
+}
+
+.hero-startsida nav.or-secondary .or-content ul li:nth-last-child(-n+3) a {
+    border-bottom: 3px solid #ffffff;
+    padding-bottom: 7px;
 }
 
 nav.or-secondary .or-content ul li a:before {
@@ -504,10 +759,9 @@ nav.or-secondary .or-content ul li a:before {
     margin-top: -6px;
 }
 
-nav.or-secondary .or-content ul li a h3 {
+.hero-startsida .or-secondary .or-content ul li a h3 {
     font-size: 11px;
-    color: #e83c23;
-    margin: 0px;
+    margin-bottom: 0px;
 }
 
 nav.or-secondary .or-content ul.or-extra li a h3{
@@ -580,6 +834,7 @@ nav.or-secondary .or-content ul.or-extra {
 }
 
 
+<<<<<<< HEAD
 .or-content.show-popup iframe[Attributes Style] {
     width: 100%;
     height: 315px;
@@ -589,10 +844,43 @@ nav.or-secondary .or-content ul.or-extra {
     border-left-width: 0px;
 }
 
+=======
+
+/* återvinningsguide */
+
+.sv-siteseeker-search-portlet form.or-search-field {
+    padding: 0 0px!important;
+}
+
+.ess-result table{
+	margin-bottom: 35px;
+	width: 100%;
+    border-collapse: collapse;
+    display: block;
+	overflow-x: auto;
+}
+
+
+/* genomgangssida standard toppbild rubrik */
+
+
+
+>>>>>>> master
 }	   /* end 680px */
 
 
+
 @media all and (max-width: 550px){
+
+
+/* social media undersida */
+.or-social-media-subpage .or-social-media-content .or-content img {
+    max-height: inherit;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
 
 
 /* footer */
@@ -639,7 +927,7 @@ section.or-breadcrumbs-area {
   }      
 
   /*  
-  .nav-footer-container {
+  .or-mobile-nav-container {
     position: fixed;
     left: 0px;
     right: 0px;
@@ -1196,7 +1484,7 @@ p.or-close-text {
 
 
 /*
-.nav-footer-container {
+.or-mobile-nav-container {
     position: fixed;
     left: 0px;
     right: 0px;
@@ -1425,11 +1713,19 @@ width:65%;
 
 .or-alert-message-wrapper {
     width: 80%;
+    display: inline-block;
+    margin-left: 75px;
+
 }
+
+.or-alert-icon {
+    font-size: 35px;
+}
+
 
 /*
 
-.nav-footer-container {
+.or-mobile-nav-container {
     position: fixed;
     left: 0px;
     right: 0px;
@@ -1445,7 +1741,7 @@ width:65%;
 
 
 /* Mobilmenyrad */
-.phone-nav-column {
+.or-mobile-nav-column {
     width: 150px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -1456,44 +1752,52 @@ width:65%;
 	height: 41px;
 }
 
-.phone-nav-column h4 {
-    font-size: 14px;
+.or-mobile-nav-column h4 {
+    font-size: 13px;
     text-align: left;
-    padding: 6px 5px 5px 10px;
+    padding: 6px 5px 5px 15px;
     color: #35383b;
     line-height: 1.1em;
+    margin-top: 1px;
 }
 
-.phone-nav-column.search-column:first-child{
-	width: 99px;
-	float: left;
-	border-left-style: none;    
+.or-mobile-nav-column.search-column:first-child {
+    width: 110px;
+    float: left;
+    border-left-style: none;
 }
 
-.phone-nav-column.search-column {
+.or-mobile-nav-column .or-logo{
+	width: 24px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.or-mobile-nav-column.search-column {
     width: 65px;        
 }
 
-.phone-nav-column i.fa{
+.or-mobile-nav-column i.fa{
     color: #e83c23;
     font-size: 24px;
     margin-bottom: 5px;
 }
 
-.phone-nav-text{
+.or-mobile-nav-text {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 9px;
+    line-height: 1.1em;
 }
 
-
-.phone-nav-column.or-colorbg{
+.or-mobile-nav-column.or-colorbg{
 	background-color: #E83C23;
 	color: #fff;
 	position: relative;
 }
 
-.phone-nav-column:not(#mobileMenuBtn).or-colorbg:before {
+.or-mobile-nav-column:not(#mobileMenuBtn).or-colorbg:before {
     content: " ";
     position: absolute;
     width: 0;
@@ -1507,12 +1811,12 @@ width:65%;
 }
 
 
-.phone-nav-column.or-colorbg .fa{
+.or-mobile-nav-column.or-colorbg .fa{
 	color: #fff;
 }
 
 
-.phone-nav-column::after {
+.or-mobile-nav-column::after {
     left: 50%;
     top: 100%;
     border-style: solid;
