@@ -5213,7 +5213,8 @@ width: 100%!important;
 }
 
 /* Lediga jobb - Reachmee */
-.or-lediga-jobb p {
+.or-lediga-jobb p,
+.or-lediga-jobb .welcome p {
 	font-family: "open sans",sans-serif;
 	font-weight: normal;
 	font-style: normal;
@@ -5223,6 +5224,15 @@ width: 100%!important;
 	font-weight: 400;	
 }
 
+.or-lediga-jobb .welcome h1 {
+	font-family: "leaguespartan webfont",sans-serif;
+	font-weight: normal;
+	font-style: normal;
+    font-size: 24px;
+    color: #e83c23;
+    line-height: 1.2em;
+    font-weight: 700;
+}
 
 .or-lediga-jobb .sv-text-portlet table.sv-standard thead th {
     color: #fff;
@@ -5264,7 +5274,8 @@ width: 100%!important;
 .or-lediga-jobb .container {
 	padding: 0;
 }
-.or-lediga-jobb a.button.apply {
+.or-lediga-jobb a.button.apply,
+.or-lediga-jobb .fbutton {
 	background-color: #857672;
     display: inline-block;
     padding: 8px 20px 6px;
