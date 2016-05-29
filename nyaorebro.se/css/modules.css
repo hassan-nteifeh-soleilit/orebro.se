@@ -4830,10 +4830,10 @@ table.or-bath-water th:not(:first-child)  {
 }
 
 /* Processkarta nya tabs */
-.sol-js-tabs-container
-{
-	margin-bottom:25px;
-	width:100%;
+.sol-js-tabs-container {
+    margin-bottom: 25px;
+    width: 100%;
+    margin-top: 20px;
 }
 
 .sol-tab-button-container .sol-tab-button
