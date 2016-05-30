@@ -7503,10 +7503,8 @@ color: #35383B;
 }
 
 /* Plusbox program */
-.or-plus-box-header.or-plus-box-program {
-  /*width: 80%;*/
-  margin: 20px auto 0px;
-  /* padding: 8px 50px 9px 10px; h4*/
+.or-plus-box-header.or-plus-box-program {  
+  margin: 20px auto 0px;  
   padding: 0px 50px 0px 10px;
   border-style: solid;
   border-width: 2px;
@@ -7607,6 +7605,96 @@ color: #35383B;
 .or-plus-box-active .or-icon-plus {
   transform: rotate(45deg);
 }
+
+/* PLUSBOX V2*/
+.or-plus-box-v2.or-plus-box-header {
+    width: 100%;
+    margin-top: 13px;
+    margin-bottom: 0px;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 14px;
+    min-height: 40px;
+    padding-left: 14px;
+    position: relative;
+    padding-right: 45px;
+    box-sizing: border-box;
+}
+
+.or-plus-box-v2.or-plus-box-header:hover .plusboxxrubrik {    
+    text-decoration: underline;
+}
+
+.or-plus-box-v2.or-plus-box-content {
+    background-color: #fff;
+    padding: 15px;
+}
+
+.or-plus-box-v2.or-colorborder.or-wrapper-click.or-plus-box-header.or-plus-box-active .plusboxxrubrik{
+	color: #fff;
+}
+
+.or-plus-box-v2.or-plus-box-header .or-collapse-button {
+    position: absolute;
+    right: 0px;
+    width: 45px;
+    height: 100%;
+    top: 0px;
+}
+
+.or-plus-box-v2 .or-collapse-button.or-colorbg.or-plus-box-active{
+	background-color: #F9F9F8;
+}
+
+.or-plus-box-v2.or-plus-box-active .or-collapse-button {
+    background-color: #f9f9f8;
+}
+
+.or-plus-box-v2.or-plus-box-active .or-icon-plus:before {
+    color: #857672;
+}
+
+.or-plus-box-v2 .or-collapse-button {
+    position: absolute;
+    right: 0px;
+    width: 50px;
+    height: 100%;
+    float: right;
+}
+
+.or-plus-box-v2 .or-icon-area {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.or-plus-box-v2 .or-icon-plus:before{
+	  content: "\f067";
+    font-family: FontAwesome;
+    color: #fff;
+    position: relative;
+}
+
+.or-plus-box-v2.or-plus-box-header.or-colorborder.or-wrapper-click.or-plus-box-header.or-plus-box-active .or-icon-plus:before{
+	    content: "\f068";
+}
+
+.or-plus-box-v2 .or-icon-plus {
+    display: table-cell;
+    font: normal normal normal 20px/1 FontAwesome;
+    text-align: center;
+    vertical-align: middle;
+    transition: transform 500ms;
+    -webkit-transition: transform 500ms;
+    color: white;
+    opacity: 0.92;
+}
+
 
 /*Plusbox Diskret */
 .or-plus-box-diskret-header .or-icon-plus:before {
