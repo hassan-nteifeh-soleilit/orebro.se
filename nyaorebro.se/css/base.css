@@ -93,13 +93,13 @@ header
 	background:#FFF;
 	min-height:90px;
 	margin-bottom:5px;
-	padding:10px 15px 5px;
+	padding:10px 15px 1px;
 }
 
 .or-header-text {
     display: inline-block;
     position: relative;
-    top: -12px;
+    top: -8px;
     left: 4px;
 }
 
@@ -209,7 +209,7 @@ h4 a:hover{
 header .or-logo {
     display: inline-block;
     float: left;
-    margin-top: 5px;
+    margin-top: 8px;
     max-height: 75px;
     margin-right: 8px;
     margin-left: -12px;
@@ -753,28 +753,16 @@ body p.sv-portlet-image-caption {
 
 .or-article-main ol.normal li {
     margin-bottom: 10px;
-    text-indent: -20px;
-    padding-left: 22px;
+    text-indent: -2px;
+    padding-left: 5px;
     font-size: 17px;
     line-height: 1.4em;
-    counter-increment: step-counter;
 }
 
-.or-article-main ol.normal li:before {
-    content: counter(step-counter);
-    margin-right: 9px;
-    font-size: 16px;
-    color: #857672;
-    font-weight: bold;
-    border-radius: 35px;
-    width: 12px;
-    position: relative;
-}
 
 .or-article-main ol.normal {
-    margin: 0px;
+    margin: 25px;
     padding: 5px 0px;
-     list-style: none;
 }
 
 
