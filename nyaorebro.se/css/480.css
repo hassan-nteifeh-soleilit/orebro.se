@@ -370,6 +370,7 @@ body .or-start-heading-divider .normal {
 .or-start-bottom-tabs ul {
     width: 100%;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 .or-puff-startpage-footer .or-puff-link {
