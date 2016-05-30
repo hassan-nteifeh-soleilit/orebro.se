@@ -4989,9 +4989,9 @@ font-size:15px;
 }
 
 .or-alert-link .small{
-padding-top: 3px;
- padding-bottom: 4px;
  font-size: 11px;
+ top: 16px;
+ position:relative;
 }
 
 .or-alert-button {
@@ -5002,32 +5002,27 @@ padding-top: 3px;
  padding-bottom: 3px;
  float: none;
  border-bottom-style: solid;
- border-bottom-color: #000;
- border-top: 6px solid #4A4B4C;
+ border-bottom: 4px solid #5E5E5E;
  border-radius: 2px;
- background-color: #4A4B4C;
+ background-color: #35383B;
  transition: all 500ms ease 0s;
  color: #FFF;
  font-weight: 600;
  text-align: center;
- border-bottom-width: 6px;
- padding-top: 5px;
- padding-right: 15px;
- padding-left: 15px;
- padding-bottom: 6px;
+ padding: 8px 20px 6px;
  font-size: 12px;
+ font-family: "leaguespartan webfont",sans-serif;
+ font-weight: 700;
+ letter-spacing: 0.06em;
+ border-radius: 2px;
 }
 
 .or-alert-button:hover {
- background-color: #000;
- border-top: 6px solid #4A4B4C;
- border-bottom: 6px solid #000;
+    background-color: #5E5E5E;
+    border-color: #000;
 }
 
 .or-alert-button:active {
- background-color: #4A4B4C;
- border-top: 6px solid #000;
- border-bottom: 6px solid #4A4B4C;
 }
 
 .cookieAlert {

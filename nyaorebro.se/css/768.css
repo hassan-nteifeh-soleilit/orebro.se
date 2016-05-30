@@ -1699,6 +1699,14 @@ width:65%;
     top: 0px;
 }
 
+.or-alert-link .small{
+	top:0px;
+}
+
+.or-alert-link.small{
+	margin-left: 65px;
+}
+
 .or-alert-message-wrapper {
     width: 80%;
     display: inline-block;
