@@ -4134,6 +4134,10 @@ body .or-puff-link .normal{
     font-size: 15px;
 }
 
+.or-puff-icon-header-text .normal a:link:hover {
+    box-shadow: rgba(255, 255, 255, 0)0px 0px 0px 0px inset;
+}
+
 .or-puff-icon-header-text .normal {
     line-height: 1.2em;
     text-align: left;
