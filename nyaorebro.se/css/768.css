@@ -1739,7 +1739,7 @@ width:65%;
 /* Mobilmenyrad */
 .or-mobile-nav-column {
     width: 100px;
-    padding-top: 5px;
+    padding-top: 7px;
     padding-bottom: 5px;
     text-align: center;
     text-decoration: none;
@@ -1777,7 +1777,7 @@ width:65%;
 .or-mobile-nav-column i.fa{
     color: #e83c23;
     font-size: 24px;
-    margin-bottom: 5px;
+    margin-bottom: 6px;
 }
 
 .or-mobile-nav-text {
