@@ -200,6 +200,7 @@ h4.plusboxxrubrik.or-plus-box-active {
    color:white;
 }
 
+.or-collpase-button.or-colorbg.or-plus-box-active,
 .or-collapse-button.or-colorbg.or-plus-box-active {
   background-color: rgba(255,255,255,0.25);
 }
@@ -221,6 +222,7 @@ h4.plusboxxrubrik.or-plus-box-active {
   color: #fff;
 }
 
+.or-plus-box-program .or-collpase-button,
 .or-plus-box-program .or-collapse-button {
     background-color: #F4E4F4;
 }
@@ -230,6 +232,7 @@ h4.plusboxxrubrik.or-plus-box-active {
     color: #D196C1;
 }
 
+.or-plus-box-program .or-collpase-button.or-plus-box-active,
 .or-plus-box-program .or-collapse-button.or-plus-box-active {
     background-color: #F4E4F4 !important;
 }

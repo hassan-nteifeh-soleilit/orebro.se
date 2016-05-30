@@ -5494,6 +5494,7 @@ color: rgba(53, 56, 59, 0.85);
 
 /* Plusbox */
 
+.or-collapse-button
 .or-collpase-button {
   position: absolute;
   right: 0px;
@@ -5502,6 +5503,7 @@ color: rgba(53, 56, 59, 0.85);
   float: right;
 }
 
+.or-collapse-button.or-colorbg.or-plus-box-active ,
 .or-collpase-button.or-colorbg.or-plus-box-active {
   background-color: rgb(255,255,255);
   background-color: rgba(255,255,255,0.35);
@@ -5569,6 +5571,7 @@ color: rgba(53, 56, 59, 0.85);
     margin-top: 0px;
 }
 
+.or-plus-box-header:hover .or-collapse-button,
 .or-plus-box-header:hover .or-collpase-button{
   	opacity: 0.9;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
@@ -6090,7 +6093,24 @@ width: 60%;
     background-color: #E5EEF0;
     margin-top: 20px;
     margin-bottom: 30px;
-    
+}
+
+.or-stor-bild-text-actions .sv-defaultFormTheme .sv-field-title-container.sv-bold label{
+   display:none;
+}
+
+.or-stor-bild-text-actions .sv-field-title-container.sv-bold{
+   display:none;
+}
+
+.or-stor-bild-text-actions .sv-use-margins h2 {
+   margin-top: 10px;
+   font-size: 16px;
+ }
+ 
+ .or-stor-bild-text-actions .sv-formField {
+    border-bottom: 0px dotted #e4e4e4;
+    padding-bottom: 0px;
 }
 
 .or-stor-bild-text-actions > div:nth-child(1) {
@@ -6119,7 +6139,7 @@ position: absolute;   left: 25px;   bottom: 25px;   width: 80%;
 
 .or-stor-bild-text-actions > div:nth-child(2) {
   width: 40%;
-  padding: 45px 20px 20px 30px;
+  padding: 25px 20px 20px 30px;
   float: left;
 }
 
@@ -6543,6 +6563,12 @@ text-decoration: underline;
    font-size: 16px;
    line-height: 1.3em;
 }
+
+.or-puff-bild-text h4 a {
+    font-size: 16px;
+    line-height: 1.3em;
+    text-decoration: none;
+ }
 
 .or-puff-bild-text p{
 	font-size: 14px;
@@ -7519,6 +7545,7 @@ color: #35383B;
 }
 
 
+.or-plus-box-program .or-collapse-button,
 .or-plus-box-program .or-collpase-button {
   position: absolute;
   right: 0px;
@@ -7533,6 +7560,7 @@ color: #35383B;
 	color: #35383b;
 }
 
+.or-plus-box-program .or-collapse-button.or-plus-box-active,
 .or-plus-box-program .or-collpase-button.or-plus-box-active {
    background-color: #dcedbb!important;    /*TODO default temafärg */ 
 }
@@ -7811,6 +7839,8 @@ color: #35383B;
 
 .normal .or-action-text a:hover {
     letter-spacing: inherit;
+    text-decoration: underline;
+
 }
 
 .or-action-link-small p.normal {
@@ -8635,9 +8665,10 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
     border-radius: 2px;
     box-shadow: inset 0 0px 0px rgba(0,0,0,.0);
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-    font-size: 12px;
-    font-family: "leaguespartan webfont",sans-serif;
     height: 35px;
+    font-size: 16px;
+    font-family: "open sans",sans-serif;
+    font-weight: 300		
 }
 
 
@@ -8645,7 +8676,7 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
     font-size: 16px;
     font-family: "open sans",sans-serif;
     font-weight: 300;
-    margin-bottom: 7px;
+    margin-bottom: 0;
 }
 
 .sv-defaultFormTheme input[type=text]:focus, textarea:focus {

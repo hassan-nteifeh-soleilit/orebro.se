@@ -200,6 +200,7 @@ h4.plusboxxrubrik.or-plus-box-active {
    color:white;
 }
 
+.or-collpase-button.or-colorbg.or-plus-box-active, 
 .or-collapse-button.or-colorbg.or-plus-box-active {
   background-color: rgba(255,255,255,0.25);
 }
@@ -222,6 +223,7 @@ h4.plusboxxrubrik.or-plus-box-active {
     color: #FFF;
 }
 
+.or-plus-box-program .or-collpase-button,
 .or-plus-box-program .or-collapse-button {
     background-color: #FBEDDA;
 }
@@ -231,6 +233,7 @@ h4.plusboxxrubrik.or-plus-box-active {
     color: #F28C00;
 }
 
+.or-plus-box-program .or-collpase-button.or-plus-box-active ,
 .or-plus-box-program .or-collapse-button.or-plus-box-active {
     background-color: #FBEDDA !important;
 }
@@ -586,4 +589,3 @@ body .sv-font-action-penna.or-wrapper-click:hover, body .sv-font-action-pil.or-w
 }
 
 /* Slut ny action formatmall */
-
