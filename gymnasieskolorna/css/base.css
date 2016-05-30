@@ -6113,11 +6113,6 @@ width: 60%;
     padding-bottom: 0px;
 }
 
- .or-stor-bild-text-actions .sv-formField {
-    border-bottom: 0px dotted #e4e4e4;
-    padding-bottom: 0px;
-}
-
 .or-stor-bild-text-actions > div:nth-child(1) {
   float: left;
   width: 60%;
