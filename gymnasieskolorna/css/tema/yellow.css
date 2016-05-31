@@ -230,6 +230,13 @@ h4.plusboxxrubrik.or-plus-box-active {
     background-color: #FFF484;
 }
 
+.or-icon-plus::before {
+    content: "\f067";
+    font-family: FontAwesome;
+    color: #35383b;
+    position: relative;
+}
+
 .or-plus-box-program .or-collpase-button.or-plus-box-active,
 .or-plus-box-program .or-collapse-button.or-plus-box-active {
     background-color: #FFF484!important;
