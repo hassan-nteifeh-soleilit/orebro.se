@@ -5216,6 +5216,12 @@ width: 100%!important;
 }
 
 /* Lediga jobb - Reachmee */
+.or-lediga-jobb #r_wrapper {
+	width: 100%;
+}
+.or-lediga-jobb .showbox .control {
+	position: initial;
+}
 .or-lediga-jobb .welcome p {
 	font-family: "open sans",sans-serif;
 	font-weight: normal;
@@ -5287,7 +5293,8 @@ width: 100%!important;
 }
 
 .or-lediga-jobb .share,
-.or-lediga-jobb a.button.deny {
+.or-lediga-jobb a.button.deny,
+.or-lediga-jobb .welcome h1 {
     display: none;
 }
 
@@ -5296,7 +5303,9 @@ width: 100%!important;
 }
 .or-lediga-jobb a.button.apply,
 .or-lediga-jobb .fbutton,
-.or-lediga-jobb .addbutton {
+.or-lediga-jobb .addbutton,
+.or-lediga-jobb .button-big,
+.or-lediga-jobb .button-med {
 	background-color: #857672;
     display: inline-block;
     padding: 8px 20px 6px;
@@ -5330,6 +5339,9 @@ width: 100%!important;
     margin-top: 11px;
     margin-bottom: 1px;
 }
+.or-lediga-jobb .button-big {
+	height: 20px;
+}
 
 .or-lediga-jobb p.app-label {
 	font-size: 12px;
@@ -5361,10 +5373,10 @@ width: 100%!important;
     letter-spacing: 0.01em;
     box-sizing: border-box;
 	padding: 20px;
+	height: 20px;
 }
 
 .or-lediga-jobb select {
-    width: 70%;
     padding: 10px 55px 10px 12px;
     margin-bottom: 10px;
     line-height: 1.428571429;
@@ -5383,4 +5395,12 @@ width: 100%!important;
     color: #717171;
     letter-spacing: 0.01em;
 	height: 25px;
+}
+
+.or-lediga-jobb select.appinput {
+    height: 25px;
+}
+.or-lediga-jobb select.chosenFilter {
+	height: 125px;
+	width: 100%;
 }
