@@ -1,4 +1,4 @@
-﻿/* 2. Liten kalender info ruta */
+﻿1/* 2. Liten kalender info ruta */
 /* 3. Kalender faktaruta */
 
 /*cookie*/
@@ -1131,7 +1131,7 @@ label.or-fieldlabelhelpus
     color: white;
     text-align: center;
     background-color: #E83C23;
-    padding-right: 10px;
+    padding-right: 5px;
 }
 
 .or-hit-count {

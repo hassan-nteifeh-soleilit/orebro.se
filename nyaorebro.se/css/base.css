@@ -1100,16 +1100,20 @@ nav.or-secondary .or-content ul li a:hover h3 {
     text-decoration: underline;
 }
 
+
 nav.or-secondary .or-content ul li a:hover p {
     color: #35383b;
     text-decoration: underline;
 }
 
-nav.or-secondary .or-content ul.or-extra li:nth-of-type(-n+3) {
-    /*margin-top: 0px;*/
+nav.or-secondary .or-content ul li a:focus h3 {
+    color: #35383b;
+    text-decoration: underline;
 }
 
-nav.or-secondary .or-content ul li:nth-last-child(-n+3) a {
-    /*border-bottom: 0px solid #ffffff;*/
+nav.or-secondary .or-content ul li a:focus {
+    border: 2px solid #f28c00;
+    outline: none;
+    background-color: #f9f9f9;
 }
 
