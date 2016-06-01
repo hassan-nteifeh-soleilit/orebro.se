@@ -28,6 +28,16 @@
 }
 
 
+/* mobilmeny */
+
+.or-mobile-nav-column.search-column {
+    width: 47px;
+}
+
+.or-mobile-nav-column {
+    width: 57px;
+}
+
 
 
 }
