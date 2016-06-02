@@ -483,6 +483,7 @@ body section.or-top-img-area .brodtextxxfetx {
 .driftstorningar-container.or-bg-white {
     padding: 5px 20px 2px 20px;
     margin-bottom: 0px;
+    min-height: auto;
 }
 
 .or-oh-start-page .or-oh-open, .or-oh-start-page .or-oh-closed, .or-oh-start-page .or-oh-status {

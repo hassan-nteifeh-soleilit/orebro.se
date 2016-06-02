@@ -1,4 +1,4 @@
-﻿1/* 2. Liten kalender info ruta */
+﻿321/* 2. Liten kalender info ruta */
 /* 3. Kalender faktaruta */
 
 /*cookie*/
@@ -3250,6 +3250,7 @@ section.or-bg-one {
 
 .driftstorningar-container.or-bg-white {
     padding: 5px 20px 8px 20px;
+    min-height: 156px;
 }
 
 .box-content.driftstorningar-container ul li a.normal:link ,
