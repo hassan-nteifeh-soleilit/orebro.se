@@ -12,6 +12,12 @@
     max-width: 100%;
 }
 
+.driftstorningar-container.or-bg-white {
+    padding: 5px 20px 2px 20px;
+    margin-bottom: 0px;
+    min-height: 75px;
+}
+
 }
 
 @media all and (min-width: 767px){
@@ -27,7 +33,7 @@
 }
 }
 
-@media all and (max-width: 767px){
+@media all and (max-width: 768px){
 
 
 /*base*/
@@ -478,12 +484,6 @@ body section.or-top-img-area .brodtextxxfetx {
     font-size: 20px;
     position: relative;
     top: 1px;
-}
-
-.driftstorningar-container.or-bg-white {
-    padding: 5px 20px 2px 20px;
-    margin-bottom: 0px;
-    min-height: 75px;
 }
 
 .or-oh-start-page .or-oh-open, .or-oh-start-page .or-oh-closed, .or-oh-start-page .or-oh-status {
