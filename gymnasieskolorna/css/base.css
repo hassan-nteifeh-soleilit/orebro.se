@@ -1,4 +1,4 @@
-/* Grunddesign */
+5/* Grunddesign */
 
 .or-grid-12-col.sv-fluid-grid, .or-grid-12-col.sv-fixed-fluid-grid {
 padding-right:10px;
@@ -5912,6 +5912,13 @@ box-shadow: rgba(255, 255, 255, 1)0px -33px 0px -11px inset;
 .sv-text-portlet table.sv-programtabell td p a{
     font-size: 15px;
     line-height: 1.2em;
+    display: inline;
+	 padding-right: 1px;
+	 padding-bottom: 0px;
+	 padding-left: 1px;
+	 background-color: transparent;
+	 box-shadow: rgba(174, 222, 239, 0.65)0px -16px 0px -11px inset;
+	 transition: all 100ms ease;
 }
 
 .pagecontent .sv-linklist-portlet table.sv-programtabell td p, 
@@ -5920,6 +5927,8 @@ box-shadow: rgba(255, 255, 255, 1)0px -33px 0px -11px inset;
 .sv-text-portlet table.sv-programtabell td p a:hover{
     font-size: 15px;
     line-height: 1.2em;
+    box-shadow: rgba(174, 222, 239, 0.65) 0px -48px 0px -30px inset;
+	color: #35383b;
 }
 
 .sv-table-portlet table,
