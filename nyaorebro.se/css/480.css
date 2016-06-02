@@ -395,6 +395,11 @@ body .or-start-heading-divider .normal {
 	border-bottom: 20px solid #F6F4F2;
 }
 
+.box-content.driftstorningar-container ul li a.normal:link, .box-content.driftstorningar-container span {
+	width: 90%;
+	box-sizing: border-box;
+}
+
 /* startsida nyheter */
 .or-start-white-divider .or-news-list li p {
     padding-left: 8px;

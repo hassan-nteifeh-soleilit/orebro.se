@@ -3253,11 +3253,17 @@ section.or-bg-one {
     min-height: 156px;
 }
 
-.box-content.driftstorningar-container ul li a.normal:link ,
-.box-content.driftstorningar-container span{
+.box-content.driftstorningar-container ul li a.normal:link, .box-content.driftstorningar-container span {
     font-family: "leaguespartan webfont",sans-serif;
     font-size: 12px;
     display: inline;
+    border: 2px solid rgba(242, 140, 0, 0.19);
+    background-color: #fefdee;
+    padding: 6px 15px;
+    border-radius: 3px;
+    position: absolute;
+    top: 20px;
+    margin: 0 auto;
 }
 
 .box-content.driftstorningar-container ul li a.normal:link span
