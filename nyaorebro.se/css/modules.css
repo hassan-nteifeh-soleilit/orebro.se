@@ -5255,9 +5255,6 @@ width: 100%!important;
 	font-weight: 400;	
 }
 
-.or-lediga-jobb a:hover {
-	box-shadow: rgba(174, 222, 239, 0.65) 0px -47px 0px -23px inset;
-}
 
 .or-lediga-jobb div#cv-add, 
 .or-lediga-jobb a.a-open-block {
@@ -5316,8 +5313,7 @@ width: 100%!important;
 }
 
 .or-lediga-jobb .share,
-.or-lediga-jobb a.button.deny,
-.or-lediga-jobb .welcome h1 {
+.or-lediga-jobb a.button.deny {
     display: none;
 }
 
@@ -5364,6 +5360,14 @@ width: 100%!important;
 }
 .or-lediga-jobb .button-big {
 	height: 40px;
+}
+.or-lediga-jobb a.button.apply:hover,
+.or-lediga-jobb .fbutton:hover,
+.or-lediga-jobb .addbutton:hover,
+.or-lediga-jobb .button-big:hover,
+.or-lediga-jobb .button-med:hover {
+    background-color: #5E5E5E;
+    border-color: #000;
 }
 
 .or-lediga-jobb p.app-label {
