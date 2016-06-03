@@ -5440,3 +5440,8 @@ width: 100%!important;
 	width: auto;
 	
 }
+@media (max-width: 768px) {
+.or-lediga-jobb {
+    margin-top: 70px;
+}
+}
