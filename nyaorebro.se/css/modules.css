@@ -5377,6 +5377,9 @@ width: 100%!important;
 	font-weight: bold;
 	color: black;
 }
+.or-lediga-jobb .appbox1 {
+    width: 100%;
+}
 
 .or-lediga-jobb input[type=text],
 .or-lediga-jobb textarea {
