@@ -85,6 +85,40 @@ a.ingress:link, .ingress a:link, a.ingress:visited, .ingress a:visited, a.ingres
     font-size: 23px;
 }
 
+
+/* startsida */
+.or-service-contact-startpage {
+    max-width: 1150px;
+}
+
+.sol-meny-startsida nav.or-secondary {
+    max-width: 1250px;
+}
+
+nav.or-secondary .or-content ul li a {
+    padding: 10px 10px 15px;
+}
+
+.or-bg-white ul li a.normal:link {
+    font-size: 16px;
+}
+
+.or-start-white-divider .or-news-list li p {
+    font-size: 16px;
+}
+
+.or-social-media-content .or-content a {
+    font-size: 16px;
+}
+
+.or-puff-startpage-footer .or-puff-link .normal {
+    font-size: 16px;
+}
+
+or-start-bottom-tabs ul li a {
+    font-size: 12px;
+}
+
 /* navigering nivå 1 */
 
 nav.or-secondary {
@@ -237,6 +271,19 @@ body .or-content-container .or-tir p {
     font-size: 18px;
 }
 
+/* startsida */
+
+.sol-meny-startsida nav.or-secondary {
+    max-width: 1350px;
+}
+
+nav.or-secondary .or-content ul li a {
+    padding: 10px 10px 25px;
+}
+
+.or-service-contact-startpage {
+    max-width: 1250px;
+}
 
 /* navigering nivå 1 */
 

@@ -3281,6 +3281,9 @@ section.or-bg-one {
     display: inline-block;
 }*/
 
+.or-service-contact-startpage{
+	max-width: 1150px;
+}
 
 .or-bg-white ul li {
     border-top: dotted 2px #ECECEC;
@@ -4086,12 +4089,8 @@ body .or-puff-link .normal a {
 }
 
 body .or-puff-link .normal a:hover {
-    font-family: "leaguespartan webfont",sans-serif;
     box-shadow: rgba(174, 222, 239, 0.0)0px 0px 0px 0px inset;
     color: #35383b;
-    font-size: 14px;
-    margin-bottom: 4px;
-    display: inline-block;
 }
 
 body .or-puff-link:hover .normal a{
