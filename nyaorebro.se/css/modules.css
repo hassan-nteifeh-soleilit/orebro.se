@@ -5312,7 +5312,8 @@ width: 100%!important;
 }
 
 .or-lediga-jobb .share,
-.or-lediga-jobb a.button.deny {
+.or-lediga-jobb a.button.deny,
+.or-lediga-jobb .ProfileImportContainer {
     display: none;
 }
 
