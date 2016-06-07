@@ -65,6 +65,10 @@ section.or-top-img-area {
 
 
 @media (min-width: 1350px) {
+	
+h1, .heading {
+    font-size: 26px;
+}
 
 section.or-article-main .or-content-padding {
     max-width: 800px;
@@ -91,7 +95,21 @@ nav.or-secondary .or-content ul li a h3 {
 }
 
 nav.or-secondary .or-content ul li a p {
-    font-size: 15px;
+    font-size: 16px;
+}
+
+
+/* navigering nivå 2 */
+section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-title {
+    font-size: 16px;
+}
+
+ul.or-nav-list li .or-list-wrapper p {
+    font-size: 16px;
+}
+
+section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li .or-list-wrapper.or-single .or-title {
+    font-size: 14px;
 }
 
 
@@ -99,6 +117,20 @@ nav.or-secondary .or-content ul li a p {
 
 body .or-wrapper-click.or-puff-bild-text h3 {
     font-size: 18px;
+}
+
+body .or-puff-link .normal a {
+    font-size: 15px;
+}
+
+/* tjäntepuff */
+
+.or-puff-icon-header-text .sv-use-margins .rubrikx4, .sv-use-margins h4 {
+    font-size: 16px;
+}
+
+.or-puff-icon-header-text .normal a:link {
+    font-size: 16px;
 }
 
 /* Temporär info ruta */
@@ -132,16 +164,14 @@ body .or-content-container .or-tir p {
     font-size: 19px;
 }
 
-
-
-
-
 }  /* end 1350 */
 
 
 @media (min-width: 1550px) {
 	
-
+h1, .heading {
+    font-size: 27px;
+}
 
 section.or-article-main .or-content-padding {
     max-width: 900px;
@@ -172,9 +202,6 @@ section.or-article-main .or-content-padding {
 	box-shadow: rgba(174, 222, 239, 0.65) 0px -41px 0px -15px inset;
 }
 
-
-
-
 /* puffar */
 
 body .or-wrapper-click.or-puff-bild-text h3 {
@@ -182,10 +209,54 @@ body .or-wrapper-click.or-puff-bild-text h3 {
 }
 
 
+/* tjäntepuff */
+
+.or-puff-icon-header-text .sv-use-margins .rubrikx4, .sv-use-margins h4 {
+    font-size: 17px;
+}
+
+.or-puff-icon-header-text .normal a:link {
+    font-size: 17px;
+}
+
+/* lyssna, lättläst dela */
+
+.or-tool-area a {
+    font-size: 11px;
+}
+
+
 /* Temporär info ruta */
 
 body .or-content-container .or-tir p {
     font-size: 18px;
+}
+
+
+/* navigering nivå 1 */
+
+nav.or-secondary .or-content ul li a h3 {
+    font-size: 19px;
+}
+
+nav.or-secondary .or-content ul li a p {
+    font-size: 17px;
+}
+
+
+
+/* navigering nivå 2 */
+section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-title {
+    font-size: 17px;
+    padding-left: 11px;
+}
+
+ul.or-nav-list li .or-list-wrapper p {
+    font-size: 16px;
+}
+
+section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li .or-list-wrapper.or-single .or-title {
+    font-size: 15px;
 }
 
 

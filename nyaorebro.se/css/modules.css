@@ -3263,7 +3263,7 @@ section.or-bg-one {
     min-height: 156px;
 }
 
-.box-content.driftstorningar-container ul li a.normal:link, .box-content.driftstorningar-container span {
+/*.box-content.driftstorningar-container ul li a.normal:link, .box-content.driftstorningar-container span {
     font-family: "leaguespartan webfont",sans-serif;
     font-size: 12px;
     display: inline;
@@ -3279,7 +3279,7 @@ section.or-bg-one {
 .box-content.driftstorningar-container ul li a.normal:link span
 {
     display: inline-block;
-}
+}*/
 
 
 .or-bg-white ul li {
@@ -4194,12 +4194,11 @@ body .or-puff-link .normal{
 .or-puff-icon-header-text .sv-use-margins .rubrikx4, .sv-use-margins h4{
 	margin: 0px;
 	font-size: 15px;
-	width: 100%:
 }
 
 .or-puff-icon-header-text > div:last-of-type {
-    margin: 10px;
-    float: left;     
+    margin: 0px 10px;
+    float: left;
 }
 
 .or-puff-icon-header-text .ikonxorange {
