@@ -74,10 +74,7 @@ section.or-article-main .or-content-padding {
     max-width: 800px;
 }
 
-nav.or-secondary {
-    max-width: 1050px;
-    margin: 80px auto 80px auto;
-}
+
 
 .ingress {
     font-size: 23px;
@@ -89,6 +86,10 @@ a.ingress:link, .ingress a:link, a.ingress:visited, .ingress a:visited, a.ingres
 }
 
 /* navigering nivå 1 */
+
+nav.or-secondary {
+    max-width: 1250px;
+}
 
 nav.or-secondary .or-content ul li a h3 {
     font-size: 18px;
@@ -235,12 +236,16 @@ body .or-content-container .or-tir p {
 
 /* navigering nivå 1 */
 
+nav.or-secondary {
+    max-width: 1350px;
+}
+
 nav.or-secondary .or-content ul li a h3 {
-    font-size: 19px;
+    font-size: 18px;
 }
 
 nav.or-secondary .or-content ul li a p {
-    font-size: 17px;
+    font-size: 16px;
 }
 
 
