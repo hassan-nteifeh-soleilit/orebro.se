@@ -1106,14 +1106,5 @@ nav.or-secondary .or-content ul li a:hover p {
     text-decoration: underline;
 }
 
-nav.or-secondary .or-content ul li a:focus h3 {
-    color: #35383b;
-    text-decoration: underline;
-}
 
-nav.or-secondary .or-content ul li a:focus {
-    border: 2px solid #f28c00;
-    outline: none;
-    background-color: #f9f9f9;
-}
 

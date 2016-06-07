@@ -92,11 +92,15 @@ nav.or-secondary {
 }
 
 nav.or-secondary .or-content ul li a h3 {
-    font-size: 18px;
+    font-size: 17px;
 }
 
 nav.or-secondary .or-content ul li a p {
     font-size: 16px;
+}
+
+nav.or-secondary .or-content ul.or-extra li a h3 {
+    font-size: 14px;
 }
 
 
@@ -242,6 +246,7 @@ nav.or-secondary {
 
 nav.or-secondary .or-content ul li a h3 {
     font-size: 18px;
+    margin-bottom: 5px;
 }
 
 nav.or-secondary .or-content ul li a p {
