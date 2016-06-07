@@ -16,7 +16,7 @@
 		init($(this));                     		
 		
 		$("a[href*='"+ options.ref +"']").click(function(event) {						
-			if ( $('.or-mobile-nav-container').css('display') === 'none') {
+			if ( $('.or-mobile-menu-bar').css('display') === 'none') {
 				$('.or-backdrop').show();			
 				$('.or-modal').fadeIn();
 			} else {
