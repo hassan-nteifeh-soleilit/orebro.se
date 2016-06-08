@@ -16,6 +16,8 @@
     float: left;
     width: 100%;
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
 }
 
 #or-search-form {
@@ -69,6 +71,8 @@ section.or-nav-content-section .or-puff-icon-header-text .ikonxorange {
     width: 70px;
     text-align: center;
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     padding-top: 15px;
     font-size: 30px;
 }
@@ -93,6 +97,8 @@ section.or-nav-content-section .or-puff-icon-header-text {
     margin-right: 1%;
     width: 98%;
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     min-height: 0px;
     float: left;
 }
@@ -267,6 +273,8 @@ body section.or-top-img-area .or-top-img-text-area h1 {
     width: 100%;
     margin: 0;
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     text-align: left;
     padding: 8px 9px;
 }

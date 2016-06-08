@@ -838,6 +838,8 @@ ul.or-teaser-list {
     display: inline-block;
     width: 100%;
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
 }
 
 .kontakta-ruta .or-more-news {
@@ -1999,6 +2001,8 @@ body .or-content-container .or-tir p {
     letter-spacing: 0.02em;
     float: none;
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     text-decoration: none;
     border: 1px solid rgb(237, 234, 234);
     margin-bottom: 5px;
@@ -2092,6 +2096,8 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
     position: relative;
     padding-right: 45px;
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
 }
 
 .or-plus-box-header:hover .plusboxxrubrik {
@@ -2309,6 +2315,8 @@ ul > li.kontaktaxossxxxbrodtext:last-child{
 .sv-defaultFormTheme input[type=text], .sv-defaultFormTheme input[type=email], .sv-defaultFormTheme input[type=url], .sv-defaultFormTheme input[type=tel], .sv-defaultFormTheme input[type=number], .sv-defaultFormTheme textarea, .sv-defaultFormTheme select {
     display: block;
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     color: #555;
     background-color: #fff;
     background-image: none;
@@ -2421,6 +2429,8 @@ button, input[type="button" i], input[type="submit" i], input[type="reset" i], i
     color: buttontext;
     background-color: buttonface;
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     padding: 2px 6px 3px;
     border: 0px outset buttonface;
 
@@ -2840,6 +2850,8 @@ body .or-news-filter .or-colorborder.or-wrapper-click.or-plus-box-header.or-plus
     display: inline-block;
     width: 100%;
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     padding: 6px 18px;
     border-bottom: solid 1px #EEEEEE;
     min-height: 32px;
@@ -3152,6 +3164,8 @@ section.or-bg-one {
     box-shadow: inset 3px 0px 10px -3px rgba(133, 118, 114, 0.25);
     padding-bottom: 20px;
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
 }
 
 .or-openhours-contact > div:last-child h4 {
@@ -3164,6 +3178,8 @@ section.or-bg-one {
     letter-spacing: 0.03em;
     width: 100%;
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
 }
 .or-openhours-contact > div:last-child p {
     font-size: 14px;
@@ -3511,6 +3527,8 @@ section.or-bg-one {
     margin-left: 1%!important;
     margin-right: 1%;
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     width: 47%!important;
 }
 
@@ -3808,7 +3826,9 @@ body .or-start-heading-divider .normal{
   background-color: rgba(133, 118, 114, 0.2);
   position: relative;
   top: 0;
-  box-sizing: border-box; 
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
   margin-left: -1.8em
 }
 
@@ -3952,6 +3972,8 @@ body .or-start-heading-divider .normal{
     -webkit-appearance: none;
     letter-spacing: 0.01em;
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     /*font-family: "open sans",sans-serif; */
 }
 
@@ -4125,6 +4147,8 @@ body .or-start-heading-divider .normal{
     min-height: 35px;
     float: left;
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
 }
 
 .or-puff-link .sv-linkicon {
@@ -4241,6 +4265,8 @@ body .or-puff-link .normal{
     float: left;
     width: 100%;
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     margin-bottom: 10px;
 }
 
@@ -4608,6 +4634,8 @@ table.or-bath-water th:not(:first-child)  {
 .or-social-media-content {
     border-bottom: 2px #F7F3F3 solid;
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     display: block;
     margin-bottom: 20px;
     margin-top: 10px;
@@ -4682,6 +4710,8 @@ table.or-bath-water th:not(:first-child)  {
 .or-social-media-content .or-content
 {
 	box-sizing:border-box;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
 	float:left;
 	width:100%;
 }
@@ -4738,6 +4768,8 @@ table.or-bath-water th:not(:first-child)  {
     -moz-border-radius: 2px;
 	-webkit-border-radius: 2px;
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     color: #857672;
     display: block;
     float: left;
@@ -4898,6 +4930,8 @@ table.or-bath-water th:not(:first-child)  {
 	-moz-border-radius: 2px;
 	-webkit-border-radius: 2px;
 	box-sizing:border-box;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
 	width:100%;
 }
 
