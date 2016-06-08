@@ -1008,6 +1008,13 @@ nav.or-secondary .or-content {
 	-webkit-border-radius: 3px;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
+}
+
+nav.or-secondary .or-content ul {
+    background: #ffffff;
+    /* float: left; */
+    width: 100%;
+    
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -1015,12 +1022,8 @@ nav.or-secondary .or-content {
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-}
-
-nav.or-secondary .or-content ul {
-    background: #ffffff;
-    /* float: left; */
-    width: 100%;
+    
+     /*
     flex-wrap: wrap;
     -webkit-flex-wrap: wrap;
     display: -webkit-box;
@@ -1029,7 +1032,7 @@ nav.or-secondary .or-content ul {
     display: -webkit-flex;
     display: flex;
     display: -ms-flexbox;
-    -ms-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;*/
 }
 
 nav.or-secondary .or-content ul li {
