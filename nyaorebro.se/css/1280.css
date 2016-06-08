@@ -120,6 +120,25 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
     font-size: 13px;
 }
 
+.or-content-container .sv-text-portlet table caption {
+    font-size: 12px;
+}
+
+/* fildelningsmodul */
+.or-contentlinks a.normal {
+    font-size: 14px;
+}
+
+/* länkarbox */
+.or-teaser-box.or-related-documents .or-text-content .or-teaser-list li a .or-link-name {
+    font-size: 14px;
+}
+
+
+body .sv-text-portlet table.sv-standard td p {
+    font-size: 14px;
+}
+
 /* startsida */
 .or-service-contact-startpage {
     max-width: 1150px;
@@ -182,7 +201,7 @@ ul.or-nav-list li .or-list-wrapper p {
     font-size: 16px;
 }
 
-section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li .or-list-wrapper.or-single .or-title {
+section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li .or-list-wrapper.or-single .or-title, .or-teaser-box.or-related-links .or-text-content .or-teaser-list li a .or-link-name {
     font-size: 14px;
 }
 
@@ -329,6 +348,19 @@ body .or-content-container .or-tir p {
     font-size: 18px;
 }
 
+/* tabell */
+.sv-text-portlet table.sv-standard thead th p {
+    font-size: 14px;
+}
+
+body .sv-text-portlet table.sv-standard td p {
+    font-size: 15px;
+}
+
+.or-content-container .sv-text-portlet table caption {
+    font-size: 14px;
+}
+
 /* action */
 body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-font-action-karta a:link, body .sv-font-action-facebook a:link, body .sv-font-action-twitter a:link {
     font-size: 14px;
@@ -349,9 +381,14 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
     font-size: 13px;
 }
 
-/* tabell */
-.sv-text-portlet table.sv-standard thead th p {
-    font-size: 14px;
+/* fildelningsmodul */
+.or-contentlinks a.normal {
+    font-size: 15px;
+}
+
+/* länkarbox */
+.or-teaser-box.or-related-documents .or-text-content .or-teaser-list li a .or-link-name, .or-teaser-box.or-related-links .or-text-content .or-teaser-list li a .or-link-name {
+    font-size: 15px;
 }
 
 /* startsida */

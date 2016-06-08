@@ -797,6 +797,7 @@ ul.or-teaser-list {
     background-color: transparent;
     box-shadow: 0px -16px 0px -11px rgba(174, 222, 239, 0.65) inset;
     margin-right: 4px;
+    font-size: 13px;
 }
 
 .or-teaser-box.or-related-links .or-text-content .or-teaser-list li a .or-link-name:hover {
@@ -815,6 +816,7 @@ ul.or-teaser-list {
     background-color: transparent;
     box-shadow: 0px -16px 0px -11px rgba(174, 222, 239, 0.65) inset;
     margin-right: 4px;
+    font-size: 13px;
 }
 
 .or-teaser-box.or-related-documents .or-text-content .or-teaser-list li a .or-link-name:hover {
