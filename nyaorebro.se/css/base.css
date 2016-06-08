@@ -424,6 +424,8 @@ body section.or-top-img-area .or-top-img-text-area h1 {
     bottom: 20px;
     padding: 20px 60px 20px 20px;
     border-radius: 2px;
+    -moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
     max-width: 50%;
 }
 
@@ -438,6 +440,8 @@ body section.or-top-img-area .brodtextxxfetx {
 	bottom:20px;
 	padding: 20px 20px;
     border-radius: 2px;
+    -moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
     max-width: 50%;
 }
 
@@ -556,6 +560,8 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-t
 ul.or-nav-list li .or-list-wrapper {
     border: 5px solid #fff;
     border-radius: 3px;
+    -moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
     box-shadow: 0 0 5px #C7C7C7;
     float: left;
     min-height: 130px;
@@ -870,6 +876,8 @@ body p.sv-portlet-image-caption {
     border-width: 1px;
     border-color: rgba(255, 255, 255, 0.44);
     border-radius: 2px;
+    -moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
     margin-top: 2px;
     margin-bottom: 2px;
     background-color: rgba(255, 255, 255, 0.2);
@@ -996,6 +1004,8 @@ nav.or-secondary .or-content {
     /* float: left; */
     border: 2px solid #f9c9c2;
     border-radius: 3px;
+    -moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
     flex-wrap: wrap;
