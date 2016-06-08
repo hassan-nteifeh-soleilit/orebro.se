@@ -273,6 +273,8 @@ body section.or-top-img-area .or-top-img-text-area h1 {
 
 .or-start-bottom-tabs ul li:first-child {
     border-radius: 0px;
+    -moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
 }
 
 .or-start-bottom-tabs ul {
@@ -305,6 +307,8 @@ body section.or-top-img-area .or-top-img-text-area h1 {
 ul.or-nav-list li .or-list-wrapper {
     border: 5px solid #fff;
     border-radius: 3px;
+    -moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
     box-shadow: 0 0 5px #C7C7C7;
     float: left;
     min-height: 140px;
@@ -319,189 +323,8 @@ form.or-search-field input {
     font-size: 14px;
 }
 
-
 }  
 
-/* en 900 */
-
-
-/*
-
-   .or-col-logo-header {
-     width: 41%;
-   }
-   
-   .or-col-search-header {
-     width: 49%;
-   }
-
-  .circlebutton {
-    right: 8px;
-    margin-top: 90px;
-  }
-  .navbar {
-    right: 0px;
-  }
-  .searchform {
-    width: 75%;
-  }
-  .headersection {
-    padding-top: 20px;
-    padding-bottom: 15px;
-  }
-  .column1header {
-    width: 41%;
-  }
-  .column2header {
-    width: 49%;
-  }
-  .socialiconswrapper {
-    float: left;
-  }
-  .senderwrapper {
-    margin-left: 15px;
-  }
-  .scrollnav {
-    right: 17px;
-  }
-  ._100procentown {
-    font-size: 13px;
-  }
-  ._100procentownheading.bluetext {
-    font-size: 22px;
-  }
-  .herosectiontext.lightbluebg {
-    position: relative;
-  }
-  .bgtext {
-    position: relative;
-    font-size: 33px;
-    line-height: 36px;
-  }
-  .herobgtext {
-    width: 100%;
-  }
-  .commenttextfield {
-    width: 88%;
-  }
-  .commnettextarea {
-    width: 88%;
-  }
-  .commentsfavicon {
-    width: 60px;
-    height: 60px;
-  }
-  .commentstext {
-    float: left;
-  }
-  .leftcolumnslideshow {
-    padding-right: 35px;
-    padding-left: 35px;
-  }
-  .slideshowtext {
-    font-size: 16px;
-    line-height: 24px;
-  }
-  .calenderfeedcontent.no-image {
-    width: 54%;
-  }
-  .calenderdate {
-    box-shadow: none;
-  }
-  .herobloggh1 {
-    margin-top: 7%;
-    font-size: 23px;
-    line-height: 25px;
-  }
- 
-  .quotewrapper {
-    margin-left: 0px;
-  }
-}
-
-
-
-
-@media all and (max-width: 960px)
-{
-	
-
-.or-kontakta-kontaktpersoner-vanster > div:nth-child(1) {
-    border-right-width: 0px;
-    padding-bottom: 0%;
-}
-
-.or-left-nav-menu{
-	display: none;
-}
-
-
-.main-nav{
-	display: none;
-}
-
-.bloggcontent {
-  display: block;
-  width: 90%;
-  margin-right: auto;
-  margin-left: auto;
-  padding-top: 15px;
-}
-
-.bloggcontent .kontakta-ruta {
-  width: 86%;
-  margin: 20px auto 35px auto;
-}
-
-.bloggcontent .findwrapper {
-  width: 100%;
-}
-
-.or-calendar-filter-container {
-  width: 95%;
-  margin-bottom: 40px;
-  float: left;
-  border: 1px solid #ffcdc7;
-  border-radius: 1px;
-  background-color: #e83c23;
-}*/
-
-/* puffar */
-
-/*
-.or-puff-text-bild-lanklista {
-	  margin-bottom: 25px;
-}
-
-.or-puff-bild-trans-text {
-	  margin-bottom: 25px;
-}
-
-.or-puff-text-icon-lanklista {
-	  margin-bottom: 25px;
-}
-
-.or-puff-program {
-    width: 40%;
-    margin-right: 2%;
-    margin-left: 4%;
-}
-
-.or-puff-program > div:nth-child(1) {
-    position: relative;
-    float: right;
-    width: 70%;
-}
-
-.or-puff-program > div:nth-child(2) {
-    max-width: 30%;
-}
-
-.or-puff-program > div:nth-child(1) {
- background-color: rgb(255, 255, 255);
-}
- 
- */
 
 .or-search-link a{
 box-shadow: 0px -16px 0px -12px rgba(174, 222, 239, 0.0) inset;
@@ -544,70 +367,3 @@ line-height: 24px;
   margin-bottom: 25px;
 }
 
-*/
-
-/* Social flödet */
-
-/*
-.sv-clearfix.or-facebook-container.or-wrapper-click {
-    width: 98%;
-    margin-left: 1%;
-    margin-right: 1%;
-}
-
-.or-instagram-block {
-    display: inline-block;
-    width: 100%;
-    margin-top: 30px;
-}
-
-.or-instagram-container {
-    min-height: 290px;
-}
-
-.or-instagram-container.or-instagram-container-subpage {
-    width: 31%;
-    margin-bottom: 17px;
-    min-height: 325px;
-}
-
-
-
-/* Steg för Steg puff */
-
-/*
-.or-school-advantages-container {
-width:100%;
-}
-.sv-grid-utanxmellanrum.sv-fixed-fluid-grid .sv-column-4.or-school-col {
-  width: 33.3333% !important;
-  margin-top:0px;
-  margin-bottom:0px;
-}
-
-/* kampanjmall */
-
-/*
-.or-puff-instagram p.normal {
- font-size: 13px;
-}
-
-.or-puff-instagram > div:nth-child(1){
- padding-left: 13px;
-}
-
-.or-campaign-logo{
-    display: inline-block!important;
-}
-
-#cookieClose {
- width: 100px;
- margin: 6px auto 4px;
- display: block;
-}
-
-
-
-}
-
-*/

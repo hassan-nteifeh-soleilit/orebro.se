@@ -40,6 +40,8 @@
     padding: 4px 13px;
     margin: 2px 7px;
     border-radius: 1px;
+    -moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
     font-weight: 700;
     border-bottom: 3px solid #C8C5C5;
     box-shadow: 0px -16px 0px -11px rgba(174, 222, 239, 0) inset;
@@ -135,6 +137,8 @@ form.or-search-field button{
 .or-menu-button-container .fa{
 	background: #E83C23;
     border-radius: 40px;
+    -moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
     width: 60px;
     height: 60px;
     margin-top: 3px;
@@ -168,6 +172,8 @@ form.or-search-field button{
   float: left;
   border: 2px solid #f0eded;
   border-radius: 3px 3px 2px 2px;
+  -moz-border-radius: 3px 3px 2px 2px;
+  -webkit-border-radius: 3px 3px 2px 2px;
   background-color: white;
   box-shadow: none;
 }
@@ -318,6 +324,8 @@ form.or-search-field button{
   float: left;
   border: 1px solid #ffcdc7;
   border-radius: 1px;
+  -moz-border-radius: 1px;
+  -webkit-border-radius: 1px;
   background-color: #e83c23;
 }
 
@@ -369,6 +377,8 @@ form.or-search-field button{
   width: 29px;
   height: 29px;
   border-radius: 15px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
   background-color: transparent;
   font-size: 13px;
   font-weight: bold;
@@ -405,6 +415,8 @@ form.or-search-field button{
   margin-top: -11px;
   margin-left: -13px;
   border-radius: 13px;
+  -moz-border-radius: 13px;
+  -webkit-border-radius: 13px;
   background-color: white;
   -webkit-transition: all 100ms ease;
   -moz-transition: all 100ms ease;
@@ -427,6 +439,8 @@ form.or-search-field button{
   padding-top: 2px;
   border: 2px solid #f0c3bb;
   border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
   background-color: #e83c23;
   -webkit-transition: all 300ms ease;
   -moz-transition: all 3100ms ease;
@@ -508,11 +522,11 @@ form.or-search-field button{
 /* Actions */
 or-action-link
 {
+	border-radius:1px;
 	-moz-border-radius:1px;
 	-webkit-border-radius:1px;
 	background-color:#FFF;
 	border-color:rgba(133,118,114,0.4);
-	border-radius:1px;
 	border-style:solid;
 	border-width:1px;
 	margin-bottom:20px;
@@ -815,6 +829,8 @@ ul.or-teaser-list {
     background-color: #FFF;
     padding: 20px;
     border-radius: 3px;
+    -moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
     margin-top: 30px;
     margin-bottom: 40px;
     float: none;
@@ -862,6 +878,7 @@ body .or-update-date {
 
 .or-thumbup
 {
+	border-radius:2px;
 	-moz-border-radius:2px;
 	-webkit-border-radius:2px;
 	-webkit-transition: all 500ms ease;
@@ -871,7 +888,6 @@ body .or-update-date {
 	background-color:#857672;
 	border-bottom-color:rgba(255,255,255,0.09);
 	border-bottom-style:solid;
-	border-radius:2px;
 	color:#FFF;
 	display:inline-block;
 	float:none;
@@ -1058,6 +1074,8 @@ label.or-fieldlabelhelpus
 	border-bottom:6px solid #000;
 	border-left:0;
 	border-radius:2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
 	border-right:0;
 	border-top:6px solid #35383b;
 	color:#FFF;
@@ -1458,6 +1476,8 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
     padding: 9px 12px;
     box-shadow: rgba(174, 222, 239, 0.0)0px -16px 0px -11px inset;
     border-radius: 40px;
+    -moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
     border: 2px solid rgba(133, 118, 114, 0.24);
 }
 
@@ -1471,6 +1491,8 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
     font-size: 13px;
     background: none repeat scroll 0 0 #e83c23;
     border-radius: 40px;
+    -moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
     border: 1px solid #e83c23;
 }
 
@@ -1786,6 +1808,8 @@ footer {
     border: 2px solid rgba(242, 140, 0, 0.19);
     background-color: #fefdee;
     border-radius: 4px;
+    -moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
     padding: 22px 20px 10px 53px;
     position: relative;
     margin-bottom: 20px;
@@ -2253,6 +2277,8 @@ ul > li.kontaktaxossxxxbrodtext:last-child{
     padding: 5px 10px;
     margin: 30px 0px 30px 0px;
     border-radius: 3px;
+    -moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
 }
 
 .or-more-news p.normal:before  {
@@ -2292,6 +2318,8 @@ ul > li.kontaktaxossxxxbrodtext:last-child{
     height: auto;
     border: 1px solid #EDEAEA;
     border-radius: 2px;
+    -moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
     box-shadow: inset 0 0px 0px rgba(0,0,0,.0);
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
     font-size: 12px;
@@ -2331,6 +2359,8 @@ ul > li.kontaktaxossxxxbrodtext:last-child{
     user-select: none;
     border: 0px solid #ccc;
     border-radius: 2px;
+    -moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
     color: #f5f5f5;
     background-color: #35383B;
     border-color: transparent;
@@ -2404,6 +2434,8 @@ input[type="file" i]::-webkit-file-upload-button {
     margin: 0px;
     background-color: #35383B;
 	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
 	font-family: "leaguespartan webfont",sans-serif;
 	color: #fff;
 	font-size: 10px;
@@ -2670,6 +2702,8 @@ body .or-news-filter .or-colorborder.or-wrapper-click.or-plus-box-header.or-plus
     margin-top: 25px;
     box-shadow: 0px 0px 4px #E2E2E2;
     border-radius: 2px;
+    -moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
     position: relative;
 
 }
@@ -2708,6 +2742,8 @@ body .or-news-filter .or-colorborder.or-wrapper-click.or-plus-box-header.or-plus
     background-color: #f2f0f0;
     padding: 0px 4px;
     border-radius: 2px;
+    -moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
     border: 1px solid rgba(0, 0, 0, 0.05);
     font-weight: 300;
     font-size: 11px;
@@ -2722,6 +2758,8 @@ body .or-news-filter .or-colorborder.or-wrapper-click.or-plus-box-header.or-plus
     color: #fff;
     font-family: "leaguespartan webfont",sans-serif;
     border-radius: 2px;
+    -moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
     margin-left: 4px;
     padding: 8px 15px;
     margin: 30px auto;
@@ -3194,6 +3232,8 @@ section.or-bg-one {
     box-shadow: 0px 0px 15px rgba(133, 118, 114, 0.25);
     background-color: white;
     border-radius: 2px;
+    -moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
     position: relative;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -3650,6 +3690,8 @@ body .or-start-heading-divider .normal{
     padding: 6px 15px;
     margin: 30px 0px 30px 0px;
     border-radius: 3px;
+    -moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
     border: 2px solid rgba(133, 118, 114, 0.3);
     font-family: "leaguespartan webfont",sans-serif;
     font-size: 12px;
@@ -3725,6 +3767,8 @@ body .or-start-heading-divider .normal{
     border: solid 2px #f3dcd0;
     margin-bottom: 17px;
     border-radius: 2px;
+    -moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
     padding: 3px 0px 5px;
 	-webkit-transition: all 500ms ease;
     -moz-transition: all 500ms ease;
@@ -3819,6 +3863,8 @@ body .or-start-heading-divider .normal{
     user-select: none;
     border: 0px solid #ccc;
     border-radius: 2px;
+    -moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
     color: #f5f5f5;
     background-color: #35383B;
     border-color: transparent;
@@ -3928,6 +3974,8 @@ body .or-start-heading-divider .normal{
     user-select: none;
     border: 0px solid #ccc;
     border-radius: 2px;
+    -moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
     color: #f5f5f5;
     background-color: #35383B;
     border-color: transparent;
@@ -4031,6 +4079,8 @@ body .or-start-heading-divider .normal{
   user-select: none;
   border: 0px solid #ccc;
   border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
   color: #f5f5f5;
   background-color: #35383B;
   border-color: transparent;
@@ -4064,6 +4114,8 @@ body .or-start-heading-divider .normal{
     border: 1px solid #fff;
     box-shadow: 0 0 5px rgba(199, 199, 199, 0.55);
     border-radius: 2px;
+    -moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
     width: 31%;
     margin-bottom: 30px;
     margin-right: 1%;
@@ -4134,6 +4186,8 @@ body .or-puff-link .normal{
     border: 0px solid #fff;
     box-shadow: 0 0 6px #E6E6E6;
     border-radius: 3px;
+    -moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
     padding: 5px;
     text-align: center;
     vertical-align: middle;
@@ -4268,6 +4322,8 @@ table.or-bath-water th:not(:first-child)  {
     background-color: #f2f0f0;
     padding: 2px 7px;
     border-radius: 2px;
+    -moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
     border: 1px solid rgba(0, 0, 0, 0.05);
     font-weight: 300;
     font-size: 11px;
@@ -4295,6 +4351,8 @@ table.or-bath-water th:not(:first-child)  {
     margin-top: 20px;
     box-shadow: 0px 0px 4px #E2E2E2;
     border-radius: 2px;
+    -moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
     position: relative;
 }
 
@@ -4570,6 +4628,8 @@ table.or-bath-water th:not(:first-child)  {
 .or-social-media-content .or-content img
 {
 	border-radius:2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
 	float:right;
 	margin-left:20px;
 	width:25%;
@@ -4593,6 +4653,8 @@ table.or-bath-water th:not(:first-child)  {
 {
 	background-color:#FFF;
 	border-radius:5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 	box-shadow:0 0 6px 2px rgba(0,0,0,0.2);
 	color:#C83E30;
 	content:"\f16a";
@@ -4629,6 +4691,8 @@ table.or-bath-water th:not(:first-child)  {
     background-color: #D5378C;
     background: linear-gradient(190deg, #8462C5 0%,#D5378C 41%,#f87436 75%,#E6B454 100%);
     border-radius: 32px;
+    -moz-border-radius: 32px;
+	-webkit-border-radius: 32px;
 }
 
 .or-social-media-content.instagram .fa-instagram:before {
@@ -4671,6 +4735,8 @@ table.or-bath-water th:not(:first-child)  {
     background-color: #f9f9f8;
     border: 2px solid #eeeceb;
     border-radius: 2px;
+    -moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
     box-sizing: border-box;
     color: #857672;
     display: block;
@@ -4788,6 +4854,8 @@ table.or-bath-water th:not(:first-child)  {
     background-color: #fff;
     box-shadow: 0px 0px 4px #E2E2E2;
     border-radius: 2px;
+    -moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
 }
 
 .or-social-media-subpage .or-follow .normal a:link {
@@ -4827,6 +4895,8 @@ table.or-bath-water th:not(:first-child)  {
 	background-color:#fff;
 	border-color:rgba(242,140,0,0.55);
 	border-radius:2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
 	box-sizing:border-box;
 	width:100%;
 }
@@ -5020,6 +5090,8 @@ font-size:15px;
  border-bottom-style: solid;
  border-bottom: 4px solid #5E5E5E;
  border-radius: 2px;
+ -moz-border-radius: 2px;
+-webkit-border-radius: 2px;
  background-color: #35383B;
  transition: all 500ms ease 0s;
  color: #FFF;
@@ -5030,7 +5102,6 @@ font-size:15px;
  font-family: "leaguespartan webfont",sans-serif;
  font-weight: 700;
  letter-spacing: 0.06em;
- border-radius: 2px;
 }
 
 .or-alert-button:hover {
@@ -5076,6 +5147,8 @@ box-shadow: 0px -48px 0px -30px rgba(174, 222, 239, 0.65) inset;
     padding: 4px 13px;
     margin: 2px 7px;
     border-radius: 1px;
+    -moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
     font-weight: 700;
     border-bottom: 3px solid #C8C5C5;
     box-shadow: 0px -16px 0px -11px rgba(174, 222, 239, 0) inset;
@@ -5119,6 +5192,8 @@ box-shadow: 0px -48px 0px -30px rgba(174, 222, 239, 0.65) inset;
     background-size: 32px auto;    
     background-repeat: no-repeat;
     border-radius: 50%;
+    -moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
 }
 
 .sharebutton--facebook,
@@ -5342,6 +5417,8 @@ width: 100%!important;
     user-select: none;
     border: 0px solid #ccc;
     border-radius: 2px;
+    -moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
     color: #f5f5f5;
     background-color: #35383B;
     border-color: transparent;
