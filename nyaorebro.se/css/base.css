@@ -527,6 +527,7 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li {
     -ms-flex: 3 28.333%;
     flex: 3 28.333%;
     display: inline-block;
+    max-width: 30.333%;
 
   	/*
   	width: 33%;
@@ -1041,6 +1042,7 @@ nav.or-secondary .or-content ul {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     
+    
      /*
     flex-wrap: wrap;
     -webkit-flex-wrap: wrap;
@@ -1067,13 +1069,16 @@ nav.or-secondary .or-content ul li {
     -webkit-flex: 3 28.333%;
     -ms-flex: 3 28.333%;
     flex: 3 28.333%;
+    border-bottom: 2px dotted #eae9e8;
+    max-width: 30.333%;
+
 }
 
 nav.or-secondary .or-content ul li a {
-    border-bottom: 2px dotted #eae9e8;
     transition: all 0.3s ease-out;
     padding: 10px;
     width: 100%;
+
 }
 
 nav.or-secondary .or-content ul li a h3 {
@@ -1088,7 +1093,6 @@ nav.or-secondary .or-content ul li a h3 {
     line-height: 1.1em;
     margin-bottom: 4px;
     margin-top: 2px;
-    display: inline-block;
 }
 
 nav.or-secondary .or-content ul li a .sv-linkicon{
@@ -1119,7 +1123,6 @@ nav.or-secondary .or-content ul.or-extra li {
 
 nav.or-secondary .or-content ul.or-extra li a {
     height: auto;
-    border-bottom: 2px dotted #D5D5D5;
     width: 95%;
 }
 
