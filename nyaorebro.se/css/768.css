@@ -742,6 +742,14 @@ nav.or-secondary .or-content ul li {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     margin-bottom: 3px;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 100%;
+    -ms-flex: 1 100%;
+    flex: 1 100%;
+    border-bottom: 0px dotted #eae9e8;
+    max-width: 100%;
+}
+    
 }
 
 nav.or-secondary .or-content ul li a h3 {
