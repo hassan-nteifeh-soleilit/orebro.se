@@ -1008,15 +1008,13 @@ nav.or-secondary .or-content {
 	-webkit-border-radius: 3px;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
-    flex-wrap: wrap;
-    -webkit-flex-wrap: wrap;
     display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
     display: -webkit-flex;
-    display: flex;
     display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 nav.or-secondary .or-content ul {
@@ -1035,14 +1033,21 @@ nav.or-secondary .or-content ul {
 }
 
 nav.or-secondary .or-content ul li {
-    width: 30.33333%;
-    /* float: left; */
+    /* float: left; */ 
     padding: 10px 10px 0px 10px;
-    display: -webkit-box;
+    /* display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
-    display: flex;
+    display: flex;*/
+        margin-right: 1%;
+    margin-bottom: 30px;
+    margin-left: 1%;
+    -webkit-box-flex: 3;
+    -webkit-flex: 3 28.333%;
+    -ms-flex: 3 28.333%;
+    flex: 3 28.333%;
+    background-color: aqua;
 }
 
 nav.or-secondary .or-content ul li a {
