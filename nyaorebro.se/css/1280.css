@@ -66,15 +66,25 @@ section.or-top-img-area {
 
 @media (min-width: 1350px) {
 	
-h1, .heading {
+body .pagecontent h1 {
     font-size: 26px;
+}
+
+body .pagecontent h2 {
+    font-size: 22px;
+}
+
+body .pagecontent h3 {
+	font-size: 19px;
+}
+
+body .pagecontent h4 {
+	font-size: 16px;
 }
 
 section.or-article-main .or-content-padding {
     max-width: 800px;
 }
-
-
 
 .ingress {
     font-size: 23px;
@@ -85,6 +95,30 @@ a.ingress:link, .ingress a:link, a.ingress:visited, .ingress a:visited, a.ingres
     font-size: 23px;
 }
 
+/* action */
+body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-font-action-karta a:link, body .sv-font-action-facebook a:link, body .sv-font-action-twitter a:link {
+    font-size: 13px;
+}
+
+/* plusbox */
+.plusboxxrubrik {
+    font-size: 14px;
+}
+
+/* plusbox diskret */
+.or-plus-box-diskret-header .plusboxxrubrik {
+    font-size: 12px;
+}
+
+/* processlista */
+.sol-tab-button-container .sol-tab-button {
+    font-size: 12px;
+}
+
+/* tabell */
+.sv-text-portlet table.sv-standard thead th p {
+    font-size: 13px;
+}
 
 /* startsida */
 .or-service-contact-startpage {
@@ -208,13 +242,36 @@ body .or-content-container .or-tir p {
 
 
 @media (min-width: 1550px) {
+	section.or-article-main .or-content-padding {
+	    max-width: 925px;
+	}
+}
+
+
+@media (min-width: 1650px) {
 	
-h1, .heading {
-    font-size: 27px;
+body .pagecontent h1 {
+    font-size: 28px;
+}
+
+body .pagecontent h2 {
+    font-size: 24px;
+}
+
+body .pagecontent h3 {
+	font-size: 21px;
+}
+
+body .pagecontent h4 {
+	font-size: 18px;
+}
+
+.or-article-main ul.normal li:before {
+    top: -4px;
 }
 
 section.or-article-main .or-content-padding {
-    max-width: 900px;
+    max-width: 950px;
 }
 
 .sv-use-margins .normal {
@@ -270,6 +327,31 @@ body .or-wrapper-click.or-puff-bild-text h3 {
 
 body .or-content-container .or-tir p {
     font-size: 18px;
+}
+
+/* action */
+body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-font-action-karta a:link, body .sv-font-action-facebook a:link, body .sv-font-action-twitter a:link {
+    font-size: 14px;
+}
+
+/* plusbox */
+.plusboxxrubrik {
+    font-size: 14px;
+}
+
+/* plusbox diskret */
+.or-plus-box-diskret-header .plusboxxrubrik {
+    font-size: 12px;
+}
+
+/* processlista */
+.sol-tab-button-container .sol-tab-button {
+    font-size: 13px;
+}
+
+/* tabell */
+.sv-text-portlet table.sv-standard thead th p {
+    font-size: 14px;
 }
 
 /* startsida */
