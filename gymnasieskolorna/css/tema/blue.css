@@ -348,7 +348,7 @@ color: #0098bd;
 }
 
 /* ny tabell */
-.sv-table-portlet tbody tr:nth-child(2n), .sv-text-portlet table.sv-programtabell tbody tr:nth-child(2n) {
+.sv-table-portlet tbody tr:nth-child(2n), .sv-text-portlet table.sv-programtabell tbody tr:nth-child(2n), .sv-text-portlet table.sv-standard tbody tr:nth-child(2n) {
     background-color: #E8F5F8;
 }
 
@@ -362,6 +362,11 @@ color: #0098bd;
 .sv-table-portlet th, .sv-text-portlet table.sv-programtabell th p{
    color: #fff;
    font-weight: 700;
+}
+
+
+.sv-text-portlet table.sv-standard th {
+	background-color: #0098bd;
 }
 
 

@@ -385,7 +385,7 @@ color: #857672;
 }
 
 /* ny tabell */
-.sv-table-portlet tbody tr:nth-child(2n), .sv-text-portlet table.sv-programtabell tbody tr:nth-child(2n) {
+.sv-table-portlet tbody tr:nth-child(2n), .sv-text-portlet table.sv-programtabell tbody tr:nth-child(2n), .sv-text-portlet table.sv-standard tbody tr:nth-child(2n)  {
     background-color: #F2F2F2;
 }
 
@@ -401,6 +401,9 @@ color: #fff;
 font-weight: 700;
 }
 
+.sv-text-portlet table.sv-standard th {
+    background-color: #857672;
+}
 
 
 
