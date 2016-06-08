@@ -526,9 +526,9 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li {
     -webkit-flex: 3 28.333%;
     -ms-flex: 3 28.333%;
     flex: 3 28.333%;
-    background-color: red;
+    background-color: black;
     display: inline-block;
-    max-width: 32%;
+    max-width: 30%;
 
   	/*
   	width: 33%;
