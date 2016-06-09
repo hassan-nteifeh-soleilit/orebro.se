@@ -350,8 +350,17 @@ nav.or-secondary .or-content ul li {
     max-width: 45%;
 }
 
+nav.or-secondary .or-content ul li:nth-child(n+1) {
+    border-bottom: 2px dotted #eae9e8;
+}
+
 .hero-startsida .or-secondary .or-content ul li a h3 {
    	font-size: 14px;
+    margin-bottom: 6px;
+}
+
+nav.or-secondary .or-content ul li a h3 {
+    font-size: 14px;
     margin-bottom: 6px;
 }
 
@@ -784,6 +793,10 @@ nav.or-secondary .or-content ul li a {
     position: relative;
     line-height: 1em;
 }
+
+nav.or-secondary .or-content ul li:nth-child(n+1) {
+    border-bottom: 0px dotted #eae9e8;
+}
     
 .hero-startsida .or-secondary .or-content ul li a h3 {
     font-size: 11px;
@@ -821,6 +834,7 @@ nav.or-secondary .or-content ul.or-extra li a h3{
 	font-family: "open sans",sans-serif;
 	font-weight: 400;
 	font-size: 12px;
+	display: inline;
 }
 
 nav.or-secondary .or-content ul.or-extra li a {

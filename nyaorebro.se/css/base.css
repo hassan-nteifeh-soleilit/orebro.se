@@ -1031,9 +1031,7 @@ nav.or-secondary .or-content {
 
 nav.or-secondary .or-content ul {
     background: #ffffff;
-    /* float: left; */
     width: 100%;
-    
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -1041,28 +1039,10 @@ nav.or-secondary .or-content ul {
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    
-    
-     /*
-    flex-wrap: wrap;
-    -webkit-flex-wrap: wrap;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    display: -ms-flexbox;
-    -ms-flex-wrap: wrap;*/
 }
 
 nav.or-secondary .or-content ul li {
-    /* float: left; */ 
     padding: 10px 10px 0px 10px;
-    /* display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;*/
         margin-right: 1%;
     margin-left: 1%;
     -webkit-box-flex: 3;
@@ -1071,7 +1051,10 @@ nav.or-secondary .or-content ul li {
     flex: 3 28.333%;
     border-bottom: 2px dotted #eae9e8;
     max-width: 30.333%;
+}
 
+nav.or-secondary .or-content ul li:nth-child(n+4) {
+    border-bottom: 0px dotted #eae9e8;
 }
 
 nav.or-secondary .or-content ul li a {
