@@ -3327,14 +3327,14 @@ section.or-bg-one {
 .box-content.driftstorningar-container .kontaktaxossxxxbrodtext {
     font-family: "leaguespartan webfont",sans-serif;
     font-size: 12px;
-    display: inline;
     border: 2px solid rgba(242, 140, 0, 0.19);
     background-color: #fefdee;
     padding: 6px 15px;
     border-radius: 3px;
-    position: absolute;
-    top: 20px;
+    position: relative;
+    top: 16px;
     margin: 0 auto;
+    float: left;
 }
 
 .box-content.driftstorningar-container .kontaktaxossxxxbrodtext
@@ -3383,6 +3383,7 @@ section.or-bg-one {
     padding: 10px 10px 9px 10px;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
+    position: relative;
 }
 .or-red-header-box .box-header p {
     margin: 0px;

@@ -18,6 +18,19 @@
     min-height: 75px;
 }
 
+.or-red-header-box .box-header:before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 9px 9px 0 9px;
+    border-color: #e83c23 transparent transparent transparent;
+    position: absolute;
+    bottom: -8px;
+    left: 15px;
+    z-index: 1;
+}
+
 }
 
 @media all and (min-width: 767px){
@@ -674,7 +687,7 @@ ul.or-nav-list li .or-list-wrapper {
     border-radius: 3px;
     -moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
-    box-shadow: 0 0 5px #C7C7C7;
+    box-shadow: 0 0 2px #C7C7C7;
     float: none;
     min-height: 0px;
     width: auto;
