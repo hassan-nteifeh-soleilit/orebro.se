@@ -547,6 +547,10 @@ body .or-start-heading-divider .normal {
     min-height: 42px;
 }
 
+.or-plus-box-header .or-collapse-button {
+    width: 43px;
+}
+
 
 /* processteg */
 .sol-accordion-heading {
