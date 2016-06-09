@@ -1,4 +1,4 @@
-﻿321/* 2. Liten kalender info ruta */
+﻿/* 2. Liten kalender info ruta */
 /* 3. Kalender faktaruta */
 
 /*cookie*/
@@ -2908,6 +2908,7 @@ body .or-news-filter .or-colorborder.or-wrapper-click.or-plus-box-header.or-plus
     padding: 9px 10px 3px;
     float: left;
     width: 100%;
+    box-sizing: border-box;
 }
 
 .or-document-icon-container {
@@ -3030,6 +3031,7 @@ box-shadow: rgba(255, 255, 255, 1)0px -33px 0px -11px inset;
 	line-height: 1.3em;
 	font-family: "leaguespartan webfont",sans-serif;
 	font-size: 12px;
+	padding-left: 3px;
 }
 
 .sv-text-portlet table td{
