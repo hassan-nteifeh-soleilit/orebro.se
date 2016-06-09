@@ -584,6 +584,16 @@ body section.or-top-img-area .brodtextxxfetx {
     border-width: 13px;
 }
 
+.or-puff-icon-header-text::before {
+    bottom: -4px;
+    right: -4px;
+}
+
+.or-puff-icon-header-text::after {
+    bottom: 0px;
+    right: 0px;
+}
+
 .or-puff-icon-header-text::after {
     font-size: 9px;
 }
