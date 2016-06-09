@@ -338,7 +338,21 @@ body .or-content-container .or-tir p {
 
 /* genomgångssida nivå 1*/
 nav.or-secondary .or-content ul li {
-    width: 46%;
+        /* float: left; */
+    padding: 10px 10px 0px 10px;
+    margin-right: 1%;
+    margin-left: 1%;
+    -webkit-box-flex: 2;
+    -webkit-flex: 3 45.333%;
+    -ms-flex: 2 45.333%;
+    flex: 2 45.333%;
+    border-bottom: 2px dotted #eae9e8;
+    max-width: 45%;
+}
+
+.hero-startsida .or-secondary .or-content ul li a h3 {
+   	font-size: 14px;
+    margin-bottom: 6px;
 }
 
 nav.or-secondary {
@@ -749,13 +763,6 @@ nav.or-secondary .or-content ul li {
     border-bottom: 0px dotted #eae9e8;
     max-width: 100%;
 }
-    
-}
-
-nav.or-secondary .or-content ul li a h3 {
-    font-size: 11px;
-    margin: 0px;
-}
 
 nav.or-secondary .or-content ul li a {
     border-bottom: 0px dotted #eae9e8;
@@ -777,6 +784,18 @@ nav.or-secondary .or-content ul li a {
     position: relative;
     line-height: 1em;
 }
+    
+.hero-startsida .or-secondary .or-content ul li a h3 {
+    font-size: 11px;
+    margin-bottom: 0px;
+}
+
+nav.or-secondary .or-content ul li a h3 {
+    font-size: 11px;
+    margin: 0px;
+}
+
+
 
 .hero-startsida nav.or-secondary .or-content ul li:nth-last-child(-n+3) a {
     border-bottom: 3px solid #ffffff;
@@ -796,10 +815,6 @@ nav.or-secondary .or-content ul li a:before {
     margin-top: -6px;
 }
 
-.hero-startsida .or-secondary .or-content ul li a h3 {
-    font-size: 11px;
-    margin-bottom: 0px;
-}
 
 nav.or-secondary .or-content ul.or-extra li a h3{
 	color: #35383b;
