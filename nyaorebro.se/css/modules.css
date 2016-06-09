@@ -781,9 +781,10 @@ ul.or-teaser-list {
 }
 
 .or-teaser-box .or-text-content .or-teaser-list li a i span {
-    font-size: 10px;
-    font-weight: 600;
-    font-family: "open sans",sans-serif;
+    font-size: 11px;
+	font-weight: 300;
+	font-family: "open sans",sans-serif;
+	color: #333;
 }
 
 .or-teaser-box.or-related-links .or-text-content .or-teaser-list li a .or-link-name {

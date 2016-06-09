@@ -92,6 +92,21 @@ body .or-content-container .or-tir p {
 }
 
 
+/* fillista */
+.or-file-list-row.or-simple-file-list-row {
+    margin-top: 4px;
+}
+
+.or-teaser-box {
+    margin-top: 15px;
+}
+
+/* tyck till om innehållet */
+.kontakta-ruta {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
 
 /* sök */
 
@@ -196,7 +211,8 @@ section.or-top-img-area {
 }
 
 section.or-nav-content-section {
-    padding-bottom: 30px;
+    padding-bottom: 20px;
+    padding-top: 25px;
 }
 
 .or-divider-heading {
