@@ -558,11 +558,11 @@ body .or-start-heading-divider .normal {
 -webkit-border-radius: 2px;
 }
 
-.sol-accordion-heading:after {
+.sol-accordion-heading::after {
     content: "\f067";
     font-family: FontAwesome;
     padding-right: 6px;
-    color: #35383b;
+    color: #fff;
     position: absolute;
     right: 35px;
     font-size: 20px;
