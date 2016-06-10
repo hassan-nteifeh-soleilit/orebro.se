@@ -4974,6 +4974,14 @@ table.or-bath-water th:not(:first-child)  {
 	text-align:center;
 }
 
+.sol-tab-button-container .sol-tab-button:hover {
+    color: #e83c23;
+}
+
+.sol-tab-button.sol-tab-active:hover {
+	color: #fff;
+}
+
 .sol-tab-button
 {
 	border:1px solid rgba(255,0,0,0.12);
