@@ -3623,6 +3623,7 @@ section.or-bg-one {
 .or-start-white-divider .or-puff-icon-header-text {
     max-width: 375px;
     margin: 0px 5%;
+    min-height: 270px;
 }
 .or-start-heading-divider {
     display: inline-block;
@@ -4222,7 +4223,7 @@ body .or-puff-link .normal{
     padding: 5px;
     text-align: center;
     vertical-align: middle;
-    min-height: 270px;
+    float: left;
 }
 
 .or-puff-icon-header-text:hover .normal a:link, .or-puff-icon-header-text:hover h4  {
