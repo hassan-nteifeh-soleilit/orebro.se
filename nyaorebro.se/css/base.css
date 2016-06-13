@@ -1079,7 +1079,7 @@ nav.or-secondary .or-content ul li a {
     transition: all 0.3s ease-out;
     padding: 10px;
     width: 100%;
-
+    display: inherit;
 }
 
 nav.or-secondary .or-content ul li a h3 {
