@@ -455,18 +455,8 @@ body .or-start-heading-divider .normal {
 }
 
 .sv-font-action-penna::before, .sv-font-action-pil::before, .sv-font-action-karta::before, .sv-font-action-facebook::before, .sv-font-action-twitter::before {
-    width: 40px;
-    font: normal normal normal 17px/43px FontAwesome;
-}
-
-.sv-font-action-penna:before, .sv-font-action-pil:before, .sv-font-action-karta:before, .sv-font-action-facebook:before, .sv-font-action-twitter:before {
-    width: 40px;
-    font: normal normal normal 17px/43px FontAwesome;
-}
-
-.sv-font-action-penna, .sv-font-action-pil, .sv-font-action-karta, .sv-font-action-facebook, .sv-font-action-twitter {
-    padding-bottom: 10px;
-    padding-top: 10px;
+    width: 38px;
+    font: normal normal normal 17px/40px FontAwesome;
 }
 
 .sv-font-action-penna:after, .sv-font-action-pil:after, .sv-font-action-karta:after, .sv-font-action-facebook:after, .sv-font-action-twitter:after {
@@ -484,7 +474,7 @@ body .or-start-heading-divider .normal {
 }
 
 .or-plus-box-header .or-collapse-button {
-    width: 43px;
+    width: 41px;
 }
 
 

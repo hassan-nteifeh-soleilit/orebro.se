@@ -320,7 +320,6 @@ header .or-logo {
 section.or-breadcrumbs-area
 {
 	background:#fff;
-	min-height: 30px;
 	padding-left: 20px;
 }
 
@@ -669,7 +668,7 @@ ul.or-nav-list li .or-list-wrapper p {
 nav.or-breadcrumbs
 {
 	background:#fff;
-	min-height: 30px;
+	min-height: 27px;
 	padding-right: 300px;
 }
 
