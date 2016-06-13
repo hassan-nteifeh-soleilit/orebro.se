@@ -30,8 +30,12 @@
 
 /* mobilmeny */
 
-.or-mobile-nav-column.search-column {
-    width: 47px;
+.or-mobile-nav-column.search-column:first-child {
+    width: 96px;
+}
+
+.or-mobile-nav-column h4 {
+    font-size: 10px;
 }
 
 .or-mobile-nav-column {
