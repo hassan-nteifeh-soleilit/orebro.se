@@ -3429,6 +3429,9 @@ section.or-bg-one {
     width: 90%;
 }
 
+.or-red-header-box .sv-font-action-pil a:link{
+    font-size: 12px;
+}
 
 /* Öppettider startsida */
 
