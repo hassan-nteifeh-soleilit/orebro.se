@@ -1208,7 +1208,7 @@ body {
     padding-top: 0px;
 }
 
-@media all and (max-width: 767px){
+@media all and (max-width: 768px){
 body {
     padding-top: 50px;
 }
