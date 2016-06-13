@@ -266,6 +266,10 @@ body section.or-top-header .sv-use-margins h2{
 }
 
 /* startsida */
+.hero-startsida {
+    padding-top: 30px;
+}
+
 .or-start-heading-divider.or-right {
     left: 0;
     top: -25px;
