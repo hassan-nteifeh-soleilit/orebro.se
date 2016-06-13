@@ -1061,8 +1061,8 @@ nav.or-secondary .or-content ul {
 
 nav.or-secondary .or-content ul li {
     padding: 10px 10px 0px 10px;
-        margin-right: 1%;
-    margin-left: 1%;
+        margin-right: 0%;
+    margin-left: 0%;
     -webkit-box-flex: 3;
     -webkit-flex: 3 28.333%;
     -ms-flex: 3 28.333%;
@@ -1126,7 +1126,8 @@ nav.or-secondary .or-content ul.or-extra li a {
     height: auto;
     width: 95%;
     display: inherit;
-
+    padding-bottom: 3px;
+    padding-top: 3px;
 }
 
 nav.or-secondary .or-content ul.or-extra li a h3 {
