@@ -24,52 +24,6 @@
     margin-left: 15px!important;
 }
 
-/* Header */
-
-.or-menu-button-container .fa {
-    width: 50px;
-    height: 50px;
-    margin-top: 8px;
-}
-
-.or-menu-button-container .fa:before {
-    top: -11px;
-    font-size: 28px;
-}
-
-.or-menu-button-container .fa-stack {
-    width: 50px;
-    height: 60px;
-}
-
-form.or-search-field button {
-    width: 50px;
-    height: 50px;
-    top: -5px;
-}
-
-.or-search-button-wrapper .fa-search, #or-id-search-icon {
-    font-size: 28px;
-}
-
-.or-search-button-wrapper {
-    bottom: 11px;
-    left: 14px;
-}
-
-.or-header-topptext {
-    font-size: 14px;
-}
-
-.or-header-bottomtext {
-    font-size: 15px;
-}
-
-header .or-logo {
-    margin-left: 0px;
-    width: 48px;
-    height: 63px;
-}
 
 /* Navigationskort */
 section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-title {
