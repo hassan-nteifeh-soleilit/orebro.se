@@ -1125,11 +1125,14 @@ nav.or-secondary .or-content ul.or-extra li {
 nav.or-secondary .or-content ul.or-extra li a {
     height: auto;
     width: 95%;
+    display: inherit;
+
 }
 
 nav.or-secondary .or-content ul.or-extra li a h3 {
     font-size: 13px;
     margin-bottom: 3px;
+    display: inline;
 }
 
 
