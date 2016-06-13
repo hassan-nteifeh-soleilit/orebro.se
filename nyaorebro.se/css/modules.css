@@ -5398,7 +5398,7 @@ width: 100%!important;
 	font-weight: normal;
 	font-style: normal;
     font-size: 24px;
-    color: #e83c23;
+    color: #F28C00;
     line-height: 1.2em;
     font-weight: 700;
 }
@@ -5408,6 +5408,7 @@ width: 100%!important;
     line-height: 1.3em;
     font-family: "leaguespartan webfont",sans-serif;
     font-size: 12px;
+	background-color: #F28C00;
 }
 .or-lediga-jobb .sv-text-portlet table.sv-standard td {
     font-family: Open sans;
@@ -5433,6 +5434,10 @@ width: 100%!important;
 .or-lediga-jobb .sv-text-portlet table.sv-standard td a:hover {
     box-shadow: rgba(174, 222, 239, 0.65) 0px -47px 0px -23px inset;
     color: #35383b;
+}
+
+.or-lediga-jobb table tbody tr:nth-child(2n) {
+    background-color: #fef0dd;
 }
 
 .or-lediga-jobb .share,
