@@ -487,6 +487,10 @@ body .or-start-heading-divider .normal {
 
 /* mobilmeny */
 
+body {
+    padding-top: 55px;
+}
+
 .or-mobile-nav-column h4 {
     font-size: 11px;
 }
