@@ -5570,3 +5570,32 @@ width: 100%!important;
     margin-top: 70px;
 }
 }
+
+/* Tillståndsenheten */
+.or-tillstand-restaurang #Top1_lblKommun,
+.or-tillstand-restaurang #Top1_TDMobileLink,
+.or-tillstand-restaurang .FlikValdBg img,
+.or-tillstand-restaurang .FlikEjValdBg img {
+	display:none;
+}
+.or-tillstand-restaurang .FlikValdBg {
+    background: #e83c23;
+}
+.or-tillstand-restaurang .FlikValdBg:first-child {
+    background: #e83c23;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 5px solid #cf311a;
+    color: #fff;
+}
+.or-tillstand-restaurang .FlikEjValdBg {
+    background: #fff;
+    cursor: pointer;
+    display: table-cell;
+    font-family: "leaguespartan webfont",sans-serif;
+    font-size: 11px;
+    line-height: 1.2em;
+    padding: 10px 20px;
+    text-align: center;
+}
