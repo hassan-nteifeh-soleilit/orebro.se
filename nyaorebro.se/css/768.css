@@ -516,6 +516,8 @@ body section.or-top-img-area .brodtextxxfetx {
 
 .sol-meny-startsida nav.or-secondary {
     margin: 135px auto 30px auto;
+    max-width: 100%;
+    width: 100%;
 }
 
 .hero-startsida nav.or-secondary .or-content {

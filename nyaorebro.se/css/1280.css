@@ -34,6 +34,10 @@ padding-right: 20px;
     max-width: 500px;
 }
 
+.sol-meny-startsida nav.or-secondary {
+    max-width: 95%;
+}
+
 }  /* end 1280 */
 
 
