@@ -438,6 +438,56 @@ body .or-start-heading-divider .normal {
     font-size: 15px;
 }
 
+/*actions */
+
+.or-ny-action .or-action-text {
+	padding-right:30px;
+}
+
+.or-action-right-icon {
+	width:35px;
+}
+
+.sv-font-action-penna, .sv-font-action-pil, .sv-font-action-karta, .sv-font-action-facebook, .sv-font-action-twitter {
+    padding-bottom: 9px;
+    padding-top: 10px;
+    padding-left: 53px;
+}
+
+.sv-font-action-penna::before, .sv-font-action-pil::before, .sv-font-action-karta::before, .sv-font-action-facebook::before, .sv-font-action-twitter::before {
+    width: 40px;
+    font: normal normal normal 17px/43px FontAwesome;
+}
+
+.sv-font-action-penna:before, .sv-font-action-pil:before, .sv-font-action-karta:before, .sv-font-action-facebook:before, .sv-font-action-twitter:before {
+    width: 40px;
+    font: normal normal normal 17px/43px FontAwesome;
+}
+
+.sv-font-action-penna, .sv-font-action-pil, .sv-font-action-karta, .sv-font-action-facebook, .sv-font-action-twitter {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.sv-font-action-penna:after, .sv-font-action-pil:after, .sv-font-action-karta:after, .sv-font-action-facebook:after, .sv-font-action-twitter:after {
+    font: normal normal normal 17px/41px FontAwesome;
+}
+
+/* plusbox */
+.plusboxxrubrik {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.or-plus-box-header {
+    min-height: 42px;
+}
+
+.or-plus-box-header .or-collapse-button {
+    width: 43px;
+}
+
+
 
 } /* end 480px */	
 
@@ -510,43 +560,6 @@ body .or-start-heading-divider .normal {
     margin-top: 2px !important;
 }
 
-
-/*actions */
-
-.or-ny-action .or-action-text {
-	padding-right:30px;
-}
-
-.or-action-right-icon {
-	width:35px;
-}
-
-.sv-font-action-penna, .sv-font-action-pil, .sv-font-action-karta, .sv-font-action-facebook, .sv-font-action-twitter {
-    padding-bottom: 9px;
-    padding-top: 10px;
-    padding-left: 53px;
-}
-
-.sv-font-action-penna::before, .sv-font-action-pil::before, .sv-font-action-karta::before, .sv-font-action-facebook::before, .sv-font-action-twitter::before {
-    width: 40px;
-    font: normal normal normal 17px/43px FontAwesome;
-}
-
-/* plusbox */
-.plusboxxrubrik {
-    padding-top: 12px;
-    padding-bottom: 12px;
-}
-
-.or-plus-box-header {
-    min-height: 42px;
-}
-
-.or-plus-box-header .or-collapse-button {
-    width: 43px;
-}
-
-
 /* processteg */
 .sol-accordion-heading {
  background-color: #e83c23;
@@ -597,6 +610,3 @@ body .or-start-heading-divider .normal {
     margin-left: 12px;
     width: 95%;
 }
-
-
-<

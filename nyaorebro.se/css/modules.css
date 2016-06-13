@@ -111,9 +111,9 @@ form.or-search-field button{
     width: 60px;
     height: 60px;
     float: left;
-    border-radius: 30px;
-    -moz-border-radius: 30px;
-    -webkit-border-radius: 30px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
     border: 0px none;
     cursor: pointer;
     color: white;
@@ -136,9 +136,9 @@ form.or-search-field button{
 
 .or-menu-button-container .fa{
 	background: #E83C23;
-    border-radius: 40px;
-    -moz-border-radius: 40px;
-	-webkit-border-radius: 40px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
     width: 60px;
     height: 60px;
     margin-top: 3px;
@@ -2074,7 +2074,7 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
     width: 41px;
     height: 100%;
     position: absolute;
-    font: normal normal normal 17px/45px FontAwesome;
+    font: normal normal normal 17px/49px FontAwesome;
     right: 0;
     top: 0;
     text-align: center;

@@ -55,19 +55,17 @@ h1, .heading {
     font-size: 20px;
 }
 
-h2, h2 a, .portlet-section-header, .portlet-menu-caption, .sv-portlet-table-caption, .subheading, .subheading a {
+body .pagecontent h2 {
     font-size: 16px;
 }
 
-
-h3, h3 a .portlet-section-subheader, .subheading3, .subheading3 a {
+body .pagecontent h3 {
     font-size: 14px;
 }
 
-h4, h4 a, .rubrikx4 a{
+body .pagecontent h4 {
     font-size: 12px;
 }
-
 
 .normal {
     font-size: 16px;
