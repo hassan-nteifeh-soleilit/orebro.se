@@ -72,7 +72,7 @@
 
 				try {
 					if (title && title.length > 0) {
-							title = title.replace('(', '').replace(')', '');
+							title = title.replace('(', '').replace(')', '').replace('öppnas i nytt fönster', '');							
 							var titleSplit = title.split(',');
 							icon = titleSplit[0];
 							sizeStr = titleSplit[1].replace(' ', '');
