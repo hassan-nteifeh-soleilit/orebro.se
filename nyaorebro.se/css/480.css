@@ -580,7 +580,7 @@ body {
 }
 
 .sol-accordion-heading.sol-tab-active:after{
-    content: "\f068";
+    content: "";
     font-family: FontAwesome;
     padding-right: 6px;
     color: #fff;
