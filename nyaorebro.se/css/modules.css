@@ -5445,8 +5445,7 @@ width: 100%!important;
 
 .or-lediga-jobb .share,
 .or-lediga-jobb a.button.deny,
-.or-lediga-jobb .ProfileImportContainer,
-.or-lediga-jobb .features {
+.or-lediga-jobb .ProfileImportContainer {
     display: none;
 }
 
@@ -5583,7 +5582,9 @@ width: 100%!important;
 .or-tillstand-restaurang #Top1_lblKommun,
 .or-tillstand-restaurang #Top1_TDMobileLink,
 .or-tillstand-restaurang .FlikValdBg img,
-.or-tillstand-restaurang .FlikEjValdBg img {
+.or-tillstand-restaurang .FlikEjValdBg img,
+.or-tillstand-restaurang a[href*="print"],
+.or-tillstand-restaurang .inforutaRubrik {
 	display:none;
 }
 .or-tillstand-restaurang .FlikValdBg {
@@ -5606,4 +5607,103 @@ width: 100%!important;
     line-height: 1.2em;
     padding: 10px 20px;
     text-align: center;
+}
+.or-tillstand-restaurang form input[type="text"] {
+    width: 70%;
+    padding: 10px 55px 10px 12px;
+    line-height: 1.428571429;
+    border: 0px 1px 1px 1px solid #cccccc;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(133, 118, 114);
+    border-color: rgba(133, 118, 114, 0.2);
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    vertical-align: middle;
+    background-color: #ffffff;
+    font-size: 16px;
+    font-weight: 100;
+    color: #717171;
+    -webkit-appearance: none;
+    letter-spacing: 0.01em;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+	display: block;
+}
+.or-tillstand-restaurang select {
+    width: 70%;
+    padding: 10px 55px 10px 12px;
+    margin-bottom: 10px;
+    line-height: 1.428571429;
+    border: 1px solid #cccccc;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(133, 118, 114);
+    border-color: rgba(133, 118, 114, 0.2);
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    vertical-align: middle;
+    background-color: #ffffff;
+    font-size: 16px;
+    font-weight: 100;
+    color: #717171;
+    letter-spacing: 0.01em;
+}
+.or-tillstand-restaurang form input[type="submit"] {
+    background-color: #857672;
+    display: inline-block;
+    padding: 8px 20px 6px;
+    margin-bottom: 0;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 0px solid #ccc;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    color: #f5f5f5;
+    background-color: #35383B;
+    border-color: transparent;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    border-bottom: 4px solid #5E5E5E;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    margin-top: 11px;
+    margin-bottom: 1px;
+    font-family: "open sans",sans-serif;
+}
+.or-tillstand-restaurang form input[type="submit"]:hover {
+    background-color: #5E5E5E;
+    border-color: #000;
+}
+.or-tillstand-restaurang .rubSokServNamn {
+    font-family: "open sans",sans-serif;
+	font-size: 12px;
+	margin-top: 20px;
+	font-weight: bold;
+	display: block;
+}
+.or-tillstand-restaurang .inforutaRam {
+    width: 100%;
+	border: none;
+}
+.or-tillstand-restaurang .SokTabell {
+    background: none;
 }
