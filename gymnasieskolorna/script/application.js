@@ -69,9 +69,11 @@
 			$(".or-related-documents .or-text-content a").each(function(index) {
 				var title = $(this).attr("title");
 				var icon, sizeStr;
+				var openInNewWindow = false;
 
 				try {
 					if (title && title.length > 0) {
+							openInNewWindow = title.indexOf('öppnas i nytt fönster') !== -1;
 							title = title.replace('(', '').replace(')', '').replace('öppnas i nytt fönster', '');							
 							var titleSplit = title.split(',');
 							icon = titleSplit[0];
@@ -95,8 +97,11 @@
 						default:
 							icon = '';
 					}
-					var content = '<i class="fa fa-file-' + icon + '-o"><span>' + sizeStr + '</span></i>'
-					$(this).prepend(content);
+					
+					$(this).prepend('<i class="fa fa-file-' + icon + '-o"><span>' + sizeStr + '</span></i>');									
+					if(openInNewWindow){
+						$(this).append('<i style="font-size: 10px; position:static;" class="fa fa-clone fa-flip-vertical"></i>');				
+					}	
 					$(this).next().text('');
 				}
 			});
