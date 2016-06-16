@@ -7289,6 +7289,10 @@ color: #35383B;
   display: none;
 }
 
+.or-instagram-header .or-facebook-block{
+display:block;
+}
+
 /* Instagram */
 #instafeed{
    padding-left:12px;
