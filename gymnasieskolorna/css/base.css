@@ -7427,6 +7427,7 @@ color: #35383B;
 }
 
 .or-social-link.or-social-link-facebook {
+	display:block;
     float: right;
     text-align: right;
     padding-right: 14px;
