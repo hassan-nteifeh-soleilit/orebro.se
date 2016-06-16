@@ -7269,6 +7269,7 @@ color: #35383B;
   font-family: 'Open Sans', sans-serif;
   font-size: 13px;
   font-weight: 600;
+  display:none;
 }
 
 .or-social-heading-icon {
@@ -7285,7 +7286,7 @@ color: #35383B;
 }
 
 .or-instagram-block {
-  display: inline-block;
+  display: none;
 }
 
 /* Instagram */
@@ -7422,7 +7423,7 @@ color: #35383B;
 }
 
 .or-social-link {
-  display: inline-block;
+  display: none;
   width: 49%;
   float: left;
   padding-left:12px;
@@ -7433,16 +7434,21 @@ color: #35383B;
 }
 
 .normal a.or-social-content-links {
-  display: inline-block;
+  display: none;
   margin-top: 10px;
   font-family: 'Leaguespartan webfont', sans-serif;
   font-size: 12px!important;
 }
 
 .or-social-link.or-social-link-facebook {
+	display:block;
     float: right;
     text-align: right;
     padding-right: 14px;
+}
+
+.or-social-link-facebook .normal a.or-social-content-links{
+display:block;
 }
 
 */
