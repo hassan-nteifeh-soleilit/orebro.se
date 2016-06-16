@@ -1,4 +1,4 @@
-5/* Grunddesign */
+/* Grunddesign */
 
 .or-grid-12-col.sv-fluid-grid, .or-grid-12-col.sv-fixed-fluid-grid {
 padding-right:10px;
@@ -8599,10 +8599,6 @@ display:none;
     right: 0;
     top: 30px;
 
-}
-
-#Delaknappar {
-   margin-top: 30px;
 }
 
 .or-startpage-extra .pagecontent {
