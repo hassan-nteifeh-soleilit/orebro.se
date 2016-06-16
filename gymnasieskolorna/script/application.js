@@ -55,7 +55,7 @@
             }            
          } catch(err) {}
          
-         var content = '<div class="fileiconcontainer"><div class="iconfile' + iconCss + '"></div></div>';      
+         var content = '<div class="fileiconcontainer"><div class="iconfile ' + iconCss + '"></div></div>';      
          $(this).before(content);   
          if(sizeStr){
             $(this).next().text( sizeStr );
