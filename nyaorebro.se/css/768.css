@@ -20,6 +20,14 @@ body {
     padding-top: 50px;
 }
 
+/*brödsmulor*/
+
+section.or-breadcrumbs-area {
+    display: none;
+}
+
+
+
 }
 
 
@@ -27,6 +35,12 @@ body {
 
 
 @media all and (max-width: 768px){
+	
+
+nav.or-breadcrumbs li a, nav.or-breadcrumbs li span {
+    font-size: 10px;
+}	
+
 .or-contact-block-startpage{
 	display: none!important;
 }
@@ -168,10 +182,7 @@ header.or-search-mobile .sv-row:first-of-type  > div:nth-of-type(2n)  {
     font-size: 10px;
 }
 
-/*brödsmulor*/
-section.or-breadcrumbs-area {
-    display: none;
-}
+
 
 /* puffar */
 .or-puff-bild-text {
@@ -993,11 +1004,6 @@ nav.or-secondary .or-content ul.or-extra {
 
 @media all and (max-width: 767px){
 
-/*brödsmulor*/
-
-section.or-breadcrumbs-area {
-    display: none;
-}
 
 
 
