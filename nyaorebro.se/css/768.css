@@ -1,3 +1,31 @@
+@media all and (max-width: 700px){
+/*header*/
+header {
+    display: none;
+}
+
+.or-mobile-nav-container {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    z-index: 9999;
+    width: 100%;
+    background-color: #F8F8F8;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.25);
+    height: 53px;
+}
+
+body {
+    padding-top: 50px;
+}
+
+}
+
+
+
+
+
 @media all and (max-width: 768px){
 .or-contact-block-startpage{
 	display: none!important;
@@ -110,11 +138,6 @@ section.or-article-main .or-content-padding {
 
 
 
-/*header*/
-header {
-    display: none;
-}
-
 /* Sök i mobil */
 
 header.or-search-mobile {
@@ -173,17 +196,7 @@ body section.or-nav-content-section .or-grid-12-col.or-wider h2 {
     font-size: 12px;
 }
 
-.or-mobile-nav-container {
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    z-index: 9999;
-    width: 100%;
-    background-color: #F8F8F8;
-    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.25);
-    height: 53px;
-}
+
 
 
 /* footer */
@@ -1204,15 +1217,7 @@ padding: 5px 0px;
 margin-top: -35px;
 }
 
-body {
-    padding-top: 0px;
-}
 
-@media all and (max-width: 768px){
-body {
-    padding-top: 50px;
-}
-}
 
 
 /* kampanjmall */
