@@ -670,6 +670,7 @@ nav.or-breadcrumbs
 	background:#fff;
 	min-height: 27px;
 	padding-right: 300px;
+	display: inline-block;
 }
 
 nav.or-breadcrumbs li
