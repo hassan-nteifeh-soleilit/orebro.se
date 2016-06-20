@@ -483,10 +483,12 @@ section.or-top-header {
 }
 
 .or-puff-link {
-    width: 96%;
+    width: 100%;
     margin-bottom: 16px;
-    margin-right: 2%;
-    margin-left: 2%;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+    max-width: 590px;
 }
 
 body .or-puff-link .normal a:link {
