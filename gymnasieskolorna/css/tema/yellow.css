@@ -429,6 +429,10 @@ color: #35383B;
 	background-color: #857672;
 }
 
+.sv-table-portlet th span.normal, .sv-text-portlet-content table.sv-programtabell th span.normal {
+    color: #35383b;
+}
+
 
 /* rubrik logo */
 .or-header-topptext h2 {
