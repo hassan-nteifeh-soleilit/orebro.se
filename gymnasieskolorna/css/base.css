@@ -8562,7 +8562,11 @@ display:none;
 /* Dela funktion på startsidor utan support bar */
 .or-startpage-extra .or-stor-text-actions > div:nth-child(2) {
    padding-top:25px;
-}  
+}
+
+.or-startpage-extra{
+margin-top:20px
+}
 
 .or-startpage-extra .or-tool-area {    
     width: 75px;    
