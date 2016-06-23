@@ -6125,11 +6125,12 @@ width: 60%;
 .or-stor-bild-text-actions > div:nth-child(1) {
   float: left;
   width: 60%;
-  height: 400px;
+  height: 435px;
   background-position: 50% 0px;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+  min-height: 435px;
 }
 
 .or-topp-section-school .or-stor-bild-text-actions .or-school-top-image{
@@ -6147,6 +6148,12 @@ position: absolute;   left: 25px;   bottom: 25px;   width: 80%;
 }
 
 .or-stor-bild-text-actions > div:nth-child(2) {
+ width: 40%;
+ padding: 25px 20px 20px 30px;
+ float: left;
+}
+
+.or-startpage-extra .or-stor-bild-text-actions > div:nth-child(2) {
  width: 40%;
  padding: 50px 20px 20px 30px;
  float: left;
