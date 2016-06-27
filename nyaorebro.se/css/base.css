@@ -425,31 +425,21 @@ body section.or-top-img-area .or-top-img-text-area h1 {
     margin-bottom: 0px;
 }
 
-.or-top-img-text-area {
-    position: absolute;
-    left: 20px;
-    bottom: 20px;
-    padding: 20px 60px 20px 20px;
-    border-radius: 2px;
-    -moz-border-radius: 2px;
-	-webkit-border-radius: 2px;
-    max-width: 50%;
-}
-
 body section.or-top-img-area .brodtextxxfetx {
     font-weight: bold;
     font-size: 14px;
 }
 
-.or-top-img-text-area{
+body section.or-top-img-area .or-top-img-text-area{
 	position: absolute;
 	left: 20px;
 	bottom:20px;
 	padding: 20px 20px;
-    border-radius: 2px;
-    -moz-border-radius: 2px;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
 	-webkit-border-radius: 2px;
-    max-width: 50%;
+  max-width: 50%;
+	background-color: #fff;
 }
 
 body section.or-top-img-area .or-top-img-text-area h2{
