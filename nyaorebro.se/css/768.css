@@ -491,9 +491,7 @@ section.or-top-header {
     max-width: 590px;
 }
 
-body .or-puff-link .normal a:link {
-    font-size: 13px;
-}
+
 
 .or-divider-heading {
     font-size: 13px;
@@ -971,7 +969,18 @@ nav.or-secondary .or-content ul.or-extra {
 }
 
 
-/* genomgangssida standard toppbild rubrik */
+body .or-puff-link .normal a:link {
+    font-size: 11px;
+}
+
+body .or-puff-link .normal a:link {
+    font-size: 11px;
+}
+
+.or-puff-link {
+    padding: 4px 20px 4px 11px;
+}
+
 
 
 
