@@ -1,5 +1,4 @@
-@media all and (max-width: 480px)
-{
+@media all and (max-width: 480px) {
 	
 /* font size */
 
@@ -493,7 +492,57 @@ body .or-start-heading-divider .normal {
     width: 41px;
 }
 
+.sol-tab-button-container {
+    display: none;
+}
 
+.sol-accordion-heading {
+    display: block;
+}
+
+/* processteg */
+.sol-accordion-heading {
+    background-color: #fff;
+    color: #e83c23;
+    border-top: 3px solid #F4F3F1;
+    margin: 0 0 5px;
+    padding: 5px 35px 5px 7px;
+    display: block;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border: 1px solid rgba(232, 60, 35, 0.22);
+}
+
+.sol-accordion-heading::after {
+    content: "\f067";
+    font-family: FontAwesome;
+    padding-right: 6px;
+    color: #e83c23;
+    position: absolute;
+    right: 35px;
+    font-size: 20px;
+}
+
+.sol-accordion-heading.sol-tab-active:after{
+    content: "";
+    font-family: FontAwesome;
+    padding-right: 6px;
+    color: #fff;
+    position: absolute;
+    right: 35px;
+    font-size: 20px;
+}
+
+.sol-accordion-heading.sol-tab-active {
+    background-color: #e83c23;
+    color: #fff;
+    border: 0px solid #e83c23;
+    border-top: 5px solid #cf311a;
+    padding-bottom: 8px;
+}
 
 } /* end 480px */	
 
@@ -570,56 +619,9 @@ body {
     margin-top: 2px !important;
 }
 
-/* processteg */
-.sol-accordion-heading {
-    background-color: #fff;
-    color: #e83c23;
-    border-top: 3px solid #F4F3F1;
-    margin: 0 0 5px;
-    padding: 5px 35px 5px 7px;
-    display: block;
-    cursor: pointer;
-    font-size: 12px;
-    border-radius: 2px;
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
-    border: 1px solid rgba(232, 60, 35, 0.22);
-}
-
-.sol-accordion-heading::after {
-    content: "\f067";
-    font-family: FontAwesome;
-    padding-right: 6px;
-    color: #e83c23;
-    position: absolute;
-    right: 35px;
-    font-size: 20px;
-}
-
-.sol-accordion-heading.sol-tab-active:after{
-    content: "";
-    font-family: FontAwesome;
-    padding-right: 6px;
-    color: #fff;
-    position: absolute;
-    right: 35px;
-    font-size: 20px;
-}
-
-.sol-accordion-heading.sol-tab-active {
-    background-color: #e83c23;
-    color: #fff;
-    border: 0px solid #e83c23;
-    border-top: 5px solid #cf311a;
-    padding-bottom: 8px;
-}
-
-.sol-tab-button-container {
-    display: none;
-}
-
-
 .sol-search-hits > div {
     margin-left: 12px;
     width: 95%;
+}
+
 }
