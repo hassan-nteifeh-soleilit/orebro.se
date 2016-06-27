@@ -281,6 +281,11 @@ section.or-nav-content-section .or-puff-icon-header-text .sv-use-margins .rubrik
     padding-top: 0px;
 }
 
+.or-bg-white ul li {
+    padding-top: 11px;
+    padding-bottom: 10px;
+}
+
 .or-start-heading-divider.or-right {
     left: 0;
     top: -25px;
@@ -567,24 +572,25 @@ body {
 
 /* processteg */
 .sol-accordion-heading {
- background-color: #e83c23;
- color: #fff;
- border-top: 3px solid #F4F3F1;
- margin: 0 0 5px;
- padding: 5px 35px 5px 7px;
- display: block;
- cursor: pointer;
- font-size: 12px;
- border-radius: 2px;
- -moz-border-radius: 2px;
--webkit-border-radius: 2px;
+    background-color: #fff;
+    color: #e83c23;
+    border-top: 3px solid #F4F3F1;
+    margin: 0 0 5px;
+    padding: 5px 35px 5px 7px;
+    display: block;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border: 1px solid rgba(232, 60, 35, 0.22);
 }
 
 .sol-accordion-heading::after {
     content: "\f067";
     font-family: FontAwesome;
     padding-right: 6px;
-    color: #fff;
+    color: #e83c23;
     position: absolute;
     right: 35px;
     font-size: 20px;
@@ -600,10 +606,12 @@ body {
     font-size: 20px;
 }
 
-.sol-accordion-heading.sol-tab-active{
+.sol-accordion-heading.sol-tab-active {
     background-color: #e83c23;
     color: #fff;
-    border: 2px solid #e83c23;
+    border: 0px solid #e83c23;
+    border-top: 5px solid #cf311a;
+    padding-bottom: 8px;
 }
 
 .sol-tab-button-container {

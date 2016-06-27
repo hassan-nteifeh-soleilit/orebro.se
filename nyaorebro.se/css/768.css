@@ -981,7 +981,9 @@ body .or-puff-link .normal a:link {
     padding: 4px 20px 4px 11px;
 }
 
-
+.or-start-white-divider .or-puff-icon-header-text .sv-use-margins .rubrikx4, .sv-use-margins h4 {
+    font-size: 12px;
+}
 
 
 }	   /* end 680px */
