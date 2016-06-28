@@ -122,11 +122,11 @@ body .pagecontent h1 {
 }
 
 body .pagecontent h2 {
-    font-size: 22px;
+    font-size: 20px;
 }
 
 body .pagecontent h3 {
-	font-size: 19px;
+	font-size: 17px;
 }
 
 body .pagecontent h4 {
@@ -142,8 +142,10 @@ section.or-article-main .or-content-padding {
     line-height: 1.5em;
 }
 
-a.ingress:link, .ingress a:link, a.ingress:visited, .ingress a:visited, a.ingress:active, .ingress a:active {
-    font-size: 23px;
+
+body .or-content-container .or-tir h2 {
+    margin-top: 0px;
+    font-size: 20px;
 }
 
 /* action */
@@ -325,15 +327,20 @@ body .pagecontent h1 {
 }
 
 body .pagecontent h2 {
-    font-size: 24px;
+    font-size: 22px;
 }
 
 body .pagecontent h3 {
-	font-size: 21px;
+	font-size: 18px;
 }
 
 body .pagecontent h4 {
 	font-size: 18px;
+}
+
+body .or-content-container .or-tir h2 {
+    margin-top: 0px;
+    font-size: 22px;
 }
 
 .or-article-main ul.normal li:before {
