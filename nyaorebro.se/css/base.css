@@ -1084,7 +1084,7 @@ nav.or-secondary .or-content ul li {
     flex: 29%;
     max-width: 29%;
     float: left;
-    min-height:	150px;
+    min-height:	130px;
 }
 
 /*nav.or-secondary .or-content ul li {
@@ -1153,6 +1153,7 @@ nav.or-secondary .or-content ul.or-extra {
 nav.or-secondary .or-content ul.or-extra li {
     padding-top: 5px;
     padding-bottom: 5px;
+    min-height: 50px;
 }
 
 nav.or-secondary .or-content ul.or-extra li a {
