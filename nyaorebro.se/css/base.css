@@ -1060,16 +1060,28 @@ nav.or-secondary .or-content ul {
     flex-wrap: wrap;
 }
 
-nav.or-secondary .or-content ul li {
+/*nav.or-secondary .or-content ul li {
     padding: 10px 10px 0px 10px;
-        margin-right: 0%;
-    margin-left: 0%;
     -webkit-box-flex: 3;
     -webkit-flex: 3 28.333%;
     -ms-flex: 3 28.333%;
     flex: 3 28.333%;
     border-bottom: 2px dotted #eae9e8;
     max-width: 30.333%;
+}*/
+
+nav.or-secondary .or-content ul li {
+    padding: 10px 10px 0px 10px;
+    border-bottom: 2px dotted #eae9e8;
+    margin-bottom: 30px;
+    display: block;
+    margin-right: 1%;
+    margin-left: 1%;
+    -webkit-box-flex: 29%;
+    -webkit-flex: 29%;
+    -ms-flex: 29%;
+    flex: 29%;
+    max-width: 29%;
 }
 
 /*nav.or-secondary .or-content ul li {
