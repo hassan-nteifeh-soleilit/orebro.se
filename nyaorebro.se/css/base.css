@@ -1050,6 +1050,7 @@ nav.or-secondary .or-content {
 nav.or-secondary .or-content ul {
     background: #ffffff;
     width: 100%;
+    display: table-cell;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
