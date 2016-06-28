@@ -631,50 +631,13 @@ ul.or-teaser-list {
 	border-right:solid 2px rgba(255, 255, 255, 0.25);
 }
 
-.sv-text-portlet table.sv-standard th {
-    text-align: left;
-    background-color: #e83c23;
-    border-bottom: solid 2px rgba(255, 255, 255, 0.25);
-    padding-left: 6px;
-}
-
-
-
-.sv-text-portlet table.sv-standard th p{
-	color: #fff;
-	line-height: 1.3em;
-	font-family: "leaguespartan webfont",sans-serif;
-	font-size: 12px;
-}
-
 .sv-text-portlet table td{
 	padding: 8px 6px;
-}
-
-body .sv-text-portlet table.sv-standard td p {
-    font-size: 13px;
-}
-
-body .sv-text-portlet table.sv-standard td p span {
-    font-size: 11px;
-    font-weight: 300;
-    color: #857672;
-    display: block;
-    margin-top: 3px;
-}
-
-
-.sv-text-portlet table.sv-standard thead th p{
-	color: #fff;
-	line-height: 1.3em;
-	font-family: "leaguespartan webfont",sans-serif;
-	font-size: 12px;
 }
 
 .sv-text-portlet table p {
 font-size: 13px;
 }
-
 
 .sv-text-portlet table tbody tr:nth-child(2n) {
 	background-color: #fdf7f1;

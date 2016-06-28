@@ -5909,10 +5909,10 @@ box-shadow: rgba(255, 255, 255, 1)0px -33px 0px -11px inset;
 /* Tabeller */
 
 /* nya tabell */
-.pagecontent .sv-linklist-portlet table.sv-programtabell th p, 
-.sv-blog-portlet table.sv-programtabell th p, 
-.sv-archive-portlet table.sv-programtabell th p, 
-.sv-text-portlet table.sv-programtabell th p{
+.pagecontent .sv-linklist-portlet table.sv-standard th p, 
+.sv-blog-portlet table.sv-standard th p, 
+.sv-archive-portlet table.sv-standard th p, 
+.sv-text-portlet table.sv-standard th p{
   font-weight: 700;
   font-family: 'Leaguespartan webfont', sans-serif;
   font-size: 12px;
@@ -5920,48 +5920,48 @@ box-shadow: rgba(255, 255, 255, 1)0px -33px 0px -11px inset;
   color: #fff;
 }
 
-.pagecontent .sv-linklist-portlet table.sv-programtabell td p, 
-.sv-blog-portlet table.sv-programtabell td p, 
-.sv-archive-portlet table.sv-programtabell td p, 
-.sv-text-portlet table.sv-programtabell td p {
+.pagecontent .sv-linklist-portlet table.sv-standard td p, 
+.sv-blog-portlet table.sv-standard td p, 
+.sv-archive-portlet table.sv-standard td p, 
+.sv-text-portlet table.sv-standard td p {
     font-size: 15px;
     line-height: 1.2em;
 }
 
-.pagecontent .sv-linklist-portlet table.sv-programtabell td p, 
-.sv-blog-portlet table.sv-programtabell td p, 
-.sv-archive-portlet table.sv-programtabell td p, 
-.sv-text-portlet table.sv-programtabell td p a{
+.pagecontent .sv-linklist-portlet table.sv-standard td p, 
+.sv-blog-portlet table.sv-standard td p, 
+.sv-archive-portlet table.sv-standard td p, 
+.sv-text-portlet table.sv-standard td p a{
     font-size: 15px;
     line-height: 1.2em;
 }
 
-.pagecontent .sv-linklist-portlet table.sv-programtabell td p, 
-.sv-blog-portlet table.sv-programtabell td p, 
-.sv-archive-portlet table.sv-programtabell td p, 
-.sv-text-portlet table.sv-programtabell td p a:hover{
+.pagecontent .sv-linklist-portlet table.sv-standard td p, 
+.sv-blog-portlet table.sv-standard td p, 
+.sv-archive-portlet table.sv-standard td p, 
+.sv-text-portlet table.sv-standard td p a:hover{
     font-size: 15px;
     line-height: 1.2em;
 }
 
 .sv-table-portlet table,
-.sv-text-portlet table.sv-programtabell {
+.sv-text-portlet table.sv-standard {
   width: 100%;
   border-collapse: collapse;
 }
 
 .sv-table-portlet caption,
-.sv-programtabell caption {
+.sv-standard caption {
     display: table-caption !important;
     margin-bottom: 15px;
 }
 
 .sv-table-portlet thead tr,
-.sv-text-portlet table.sv-programtabell thead tr {
+.sv-text-portlet table.sv-standard thead tr {
   background-color: #e83c23;
 }
 
-.sv-table-portlet th, .sv-text-portlet table.sv-programtabell th {
+.sv-table-portlet th, .sv-text-portlet table.sv-standard th {
     padding: 10px 10px 11px;
 	border-right: 1px solid rgb(255, 255, 255);	
     border-right: 1px solid rgba(255, 255, 255, 0.25);	
@@ -5970,20 +5970,20 @@ box-shadow: rgba(255, 255, 255, 1)0px -33px 0px -11px inset;
 }
 
 .sv-table-portlet td,
-.sv-text-portlet table.sv-programtabell td {
+.sv-text-portlet table.sv-standard td {
    padding: 8px 10px;
    border-right: 1px solid rgb(133, 118, 114);
    border-right: 1px solid rgba(133, 118, 114, 0.09);  
 }
 
 .sv-table-portlet tr td:first-child ,
-.sv-text-portlet table.sv-programtabell tr td:first-child {
+.sv-text-portlet table.sv-standard tr td:first-child {
 border-left: 1px solid rgb(133, 118, 114);
   border-left: 1px solid rgba(133, 118, 114, 0);
 }
 
 .sv-table-portlet th span.normal,  
-.sv-text-portlet-content table.sv-programtabell th span.normal {  
+.sv-text-portlet-content table.sv-standard th span.normal {  
   color: white;
   font-family: 'Leaguespartan webfont', sans-serif;
   font-size: 12px;
@@ -5994,19 +5994,19 @@ border-left: 1px solid rgb(133, 118, 114);
 }   
 
 .sv-table-portlet tbody tr, 
-.sv-text-portlet-content table.sv-programtabell tbody tr {
+.sv-text-portlet-content table.sv-standard tbody tr {
 border-bottom: 1px solid rgb(133, 118, 114);
 border-bottom: 1px solid rgba(133, 118, 114, 0.15);
 }
 
 .sv-table-portlet tbody tr:nth-child(odd),
-.sv-text-portlet-content table.sv-programtabell tbody tr:nth-child(odd) {
+.sv-text-portlet-content table.sv-standard tbody tr:nth-child(odd) {
    background-color: white;
    
 }
 
 .sv-table-portlet tbody tr:nth-child(even),
-.sv-text-portlet-content table.sv-programtabell tbody tr:nth-child(even) {
+.sv-text-portlet-content table.sv-standard tbody tr:nth-child(even) {
   border-bottom-color: rgb(133, 118, 114);
   border-bottom-color: rgba(133, 118, 114, 0.2);
   background-color: #fdf4e7;
@@ -7504,7 +7504,7 @@ display:inline-block;
 /* Plusbox program tabell*/
 
 .or-plus-box-program.or-plus-box-content.sv-table-portlet,
-.or-plus-box-program.or-plus-box-content.sv-programtabell,
+.or-plus-box-program.or-plus-box-content.sv-standard,
 .or-program-tabell .or-plus-box-content {
   padding: 0px;
 }
@@ -7520,8 +7520,8 @@ display:inline-block;
 
 .or-plus-box-program.or-plus-box-content.sv-table-portlet tr td:first-child,
 .or-plus-box-program.or-plus-box-content.sv-table-portlet tr th:first-child,
-.or-plus-box-program.or-plus-box-content .sv-text-portlet-content table.sv-programtabell tr td:first-child,
-.or-plus-box-program.or-plus-box-content .sv-text-portlet-content table.sv-programtabell tr th:first-child  {
+.or-plus-box-program.or-plus-box-content .sv-text-portlet-content table.sv-standard tr td:first-child,
+.or-plus-box-program.or-plus-box-content .sv-text-portlet-content table.sv-standard tr th:first-child  {
   border: none;
   padding-left: 20px;  
   width: 75%;
@@ -7529,8 +7529,8 @@ display:inline-block;
 
 .or-plus-box-program.or-plus-box-content.sv-table-portlet tr td:last-child,
 .or-plus-box-program.or-plus-box-content.sv-table-portlet tr th:last-child,
-.or-plus-box-program.or-plus-box-content .sv-text-portlet-content table.sv-programtabell tr td:last-child,
-.or-plus-box-program.or-plus-box-content .sv-text-portlet-content table.sv-programtabell tr th:last-child  {
+.or-plus-box-program.or-plus-box-content .sv-text-portlet-content table.sv-standard tr td:last-child,
+.or-plus-box-program.or-plus-box-content .sv-text-portlet-content table.sv-standard tr th:last-child  {
   border: none;
   padding-right: 55px;
 }
