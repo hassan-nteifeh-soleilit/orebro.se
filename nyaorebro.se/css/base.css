@@ -1077,9 +1077,9 @@ nav.or-secondary .or-content ul li {
     display: block;
     margin-right: 1%;
     margin-left: 1%;
-    -webkit-box-flex: 29%;
-    -webkit-flex: 29%;
-    -ms-flex: 29%;
+    -webkit-box-flex: 0 29%;
+    -webkit-flex: 0 29%;
+    -ms-flex: 0 29%;
     flex: 29%;
     max-width: 29%;
 }
