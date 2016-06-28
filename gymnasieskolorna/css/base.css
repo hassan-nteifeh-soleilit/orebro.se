@@ -1,4 +1,4 @@
-/* Grunddesign */
+3/* Grunddesign */
 
 .or-grid-12-col.sv-fluid-grid, .or-grid-12-col.sv-fixed-fluid-grid {
 padding-right:10px;
@@ -5902,8 +5902,6 @@ box-shadow: rgba(255, 255, 255, 1)0px -33px 0px -11px inset;
 .sv-blog-portlet table.sv-programtabell td p, 
 .sv-archive-portlet table.sv-programtabell td p, 
 .sv-text-portlet table.sv-programtabell td p {
-    font-size: 15px;
-    line-height: 1.2em;
 }
 
 .pagecontent .sv-linklist-portlet table.sv-programtabell td p, 
