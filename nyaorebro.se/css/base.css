@@ -1082,6 +1082,7 @@ nav.or-secondary .or-content ul li {
     -ms-flex: 0 29%;
     flex: 29%;
     max-width: 29%;
+    float: left;
 }
 
 /*nav.or-secondary .or-content ul li {
