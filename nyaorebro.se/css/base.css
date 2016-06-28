@@ -1058,6 +1058,7 @@ nav.or-secondary .or-content ul {
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    float: left;
 }
 
 /*nav.or-secondary .or-content ul li {
