@@ -5728,6 +5728,12 @@ width: 100%!important;
 .or-tillstand-restaurang .flik,
 .or-tillstand-restaurang .inforutaRam #Table3 { 
 	border-top: 5px solid #e83c23;
+    padding: 10px 0;
+    border-bottom: 5px solid #e83c23;
+    margin-bottom: 10px;
+}
+.or-tillstand-restaurang table#Table1 td {
+    border: none;
 }
 
 .or-tillstand-restaurang .FlikValdText,
@@ -5754,11 +5760,12 @@ width: 100%!important;
 .or-tillstand-restaurang .SokResStyle {
 	border: solid 1px #f3dcd0;	
 }
+.or-tillstand-restaurang .SokResAltStyle td,
 .or-tillstand-restaurang .SokResStyle td {
 	padding: 8px 6px;
 }
 .or-tillstand-restaurang img[id^="ctl00"] {
-	margin-right: 10px;
+	margin-right: 5px;
 }
 
 
