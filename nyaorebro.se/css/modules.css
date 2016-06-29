@@ -5735,6 +5735,7 @@ width: 100%!important;
 .or-tillstand-restaurang .FlikValdText,
 .or-tillstand-restaurang .FlikEjValdText {
     font-size: 12px;
+	font-family: "leaguespartan webfont",sans-serif;
 }
 .or-tillstand-restaurang .FlikValdText {
 	padding: 0 40px;	
