@@ -564,8 +564,8 @@ ul.or-nav-list{
 section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li {
     padding: 10px 10px 0px 10px;
     display: block;
-    width: 27%;
-    max-width: 27%;
+    width: 31%;
+    max-width: 31%;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -webkit-flex-direction: row;
@@ -599,6 +599,7 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li {
     margin-left: 1%;
     margin-bottom: 20px;
 	margin-right: 1%;
+	box-sizing: border-box;
 }
 
 
@@ -1094,8 +1095,8 @@ nav.or-secondary .or-content ul {
 nav.or-secondary .or-content ul li {
      padding: 10px 10px 0px 10px;
      display: block;
-    width: 31%;
-    max-width: 31%;
+    width: 33%;
+    max-width: 33%;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -webkit-flex-direction: row;
@@ -1120,6 +1121,7 @@ nav.or-secondary .or-content ul li {
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
     border-bottom: 2px dotted #eae9e8;
+    box-sizing: border-box;
 }    
     
 /*nav.or-secondary .or-content ul li {
