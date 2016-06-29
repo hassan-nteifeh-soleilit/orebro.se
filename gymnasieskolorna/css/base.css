@@ -1,4 +1,4 @@
-3/* Grunddesign */
+/* Grunddesign */
 
 .or-grid-12-col.sv-fluid-grid, .or-grid-12-col.sv-fixed-fluid-grid {
 padding-right:10px;
@@ -5902,6 +5902,8 @@ box-shadow: rgba(255, 255, 255, 1)0px -33px 0px -11px inset;
 .sv-blog-portlet table.sv-programtabell td p, 
 .sv-archive-portlet table.sv-programtabell td p, 
 .sv-text-portlet table.sv-programtabell td p {
+    font-size: 15px;
+    line-height: 1.2em;
 }
 
 .pagecontent .sv-linklist-portlet table.sv-programtabell td p, 
@@ -8565,13 +8567,13 @@ display:none;
 }
 
 /* Dela funktion på startsidor utan support bar */
-.or-startpage-extra .or-stor-text-actions > div:nth-child(2) {
-   padding-top:25px;
-}
-
 .or-startpage-extra{
 margin-top:20px
 }
+
+.or-startpage-extra .or-stor-text-actions > div:nth-child(2) {
+   padding-top:25px;
+}  
 
 .or-startpage-extra .or-tool-area {    
     width: 75px;    
