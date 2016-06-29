@@ -584,11 +584,10 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li {
     -webkit-flex: 0 0 auto;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
-    -js-display: flex;
-     display: -webkit-box;
+    /* display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
-    display: flex;
+    display: flex;*/
 
 }
 
