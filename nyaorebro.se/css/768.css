@@ -745,8 +745,11 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li {
     max-width: 100%;
     width: 100%;
     padding: 0;
-    border: 2px solid #fff;
     padding: 5px 5px;
+    box-shadow: 0 0 2px #C7C7C7;
+    border: 3px solid #FFFFFF;
+    padding: 6px 0px;
+    min-height: 0px;
 }
 
 section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li .or-single a .or-title {
