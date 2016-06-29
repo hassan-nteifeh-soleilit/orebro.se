@@ -5729,7 +5729,7 @@ width: 100%!important;
     font-size: 12px;
 }
 .or-tillstand-restaurang .FlikValdText {
-	margin-left: 40%;	
+	padding: 0 40px;	
 }
 .or-tillstand-restaurang table {
     font-family: "open sans",sans-serif;
