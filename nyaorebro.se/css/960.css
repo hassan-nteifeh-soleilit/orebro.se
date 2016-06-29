@@ -313,19 +313,6 @@ body section.or-top-img-area .or-top-img-text-area h1 {
 
 
 @media (max-width: 900px) {
-ul.or-nav-list li .or-list-wrapper {
-    border: 5px solid #fff;
-    border-radius: 3px;
-    -moz-border-radius: 3px;
-	-webkit-border-radius: 3px;
-    box-shadow: 0 0 5px #C7C7C7;
-    float: left;
-    min-height: 140px;
-    width: 46%;
-    margin-right: 2%;
-    margin-left: 2%;
-    margin-bottom: 20px;
-}
 
 form.or-search-field input {
     width: 55%;
