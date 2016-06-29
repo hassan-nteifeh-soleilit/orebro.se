@@ -753,15 +753,15 @@ margin-top: -35px;
 
 /* ny tabell */
 
-.pagecontent .sv-linklist-portlet table.sv-programtabell td p, .sv-blog-portlet table.sv-programtabell td p, .sv-archive-portlet table.sv-programtabell td p, .sv-text-portlet table.sv-programtabell td p {
+.pagecontent .sv-linklist-portlet table.sv-standard td p, .sv-blog-portlet table.sv-standard td p, .sv-archive-portlet table.sv-standard td p, .sv-text-portlet table.sv-standard td p {
     font-size: 14px;
 }
 
-.sv-linklist-portlet table.sv-programtabell td p a, .sv-blog-portlet table.sv-programtabell td p a, .sv-archive-portlet table.sv-programtabell td p a, .sv-text-portlet table.sv-programtabell td p a {
+.sv-linklist-portlet table.sv-standard td p a, .sv-blog-portlet table.sv-standard td p a, .sv-archive-portlet table.sv-standard td p a, .sv-text-portlet table.sv-standard td p a {
     font-size: 14px;
 }
 
-.sv-linklist-portlet table.sv-programtabell td p a, .sv-blog-portlet table.sv-programtabell td p a, .sv-archive-portlet table.sv-programtabell td p a, .sv-text-portlet table.sv-programtabell td p a:hover {
+.sv-linklist-portlet table.sv-standard td p a, .sv-blog-portlet table.sv-standard td p a, .sv-archive-portlet table.sv-standard td p a, .sv-text-portlet table.sv-standard td p a:hover {
     font-size: 14px;
 }
 
