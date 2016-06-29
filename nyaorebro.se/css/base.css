@@ -1058,7 +1058,6 @@ nav.or-secondary .or-content ul {
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    float: left\9\0;
 }
 
 /*nav.or-secondary .or-content ul li {
@@ -1083,7 +1082,6 @@ nav.or-secondary .or-content ul li {
     -ms-flex: 0 29%;
     flex: 29%;
     max-width: 29%;
-    float: left\9\0;
 }
 
 /*nav.or-secondary .or-content ul li {
@@ -1152,7 +1150,6 @@ nav.or-secondary .or-content ul.or-extra {
 nav.or-secondary .or-content ul.or-extra li {
     padding-top: 5px;
     padding-bottom: 5px;
-    float: left\9\0;
 }
 
 nav.or-secondary .or-content ul.or-extra li a {
