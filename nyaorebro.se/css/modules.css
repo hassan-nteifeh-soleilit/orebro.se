@@ -5721,7 +5721,8 @@ width: 100%!important;
 .or-tillstand-restaurang .SokTabell {
     background: none;
 }
-.or-tillstand-restaurang .flik {
+.or-tillstand-restaurang .flik,
+.or-tillstand-restaurang .inforutaRam#Table3 { {
 	border-top: 5px solid #e83c23;
 }
 .or-tillstand-restaurang .FlikValdText,
@@ -5741,6 +5742,9 @@ width: 100%!important;
 .or-tillstand-restaurang .SokResAltStyle,
 .or-tillstand-restaurang .SokResStyle {
 	border: solid 1px #f3dcd0;	
+}
+.or-tillstand-restaurang img[id^="ctl00"] {
+	margin-right: 10px;
 }
 
 
