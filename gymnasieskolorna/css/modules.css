@@ -649,6 +649,7 @@ font-size: 13px;
 	border-bottom: solid 1px #f3dcd0;
 }
 
+/*
 body .sv-responsiveTable--stacked__headRow{
 	background-color: #E83C23!important;
 }
@@ -656,7 +657,7 @@ body .sv-responsiveTable--stacked__headRow{
 body .sv-responsiveTable--stacked__headRow--main{
 	background-color: #E83C23!important;
 }
-
+*/
 body .or-article-main .sv-responsiveTable--stacked__headRow th p{
 	color:#fff;
 	font-family: "leaguespartan webfont",sans-serif;

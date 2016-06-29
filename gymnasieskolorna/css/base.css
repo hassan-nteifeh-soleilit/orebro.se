@@ -5951,9 +5951,10 @@ box-shadow: rgba(255, 255, 255, 1)0px -33px 0px -11px inset;
 }
 
 .sv-table-portlet caption,
-.sv-standard caption {
+.sv-text-portlet table.sv-standard caption {
     display: table-caption !important;
     margin-bottom: 15px;
+		font-weight: 800;
 }
 
 .sv-table-portlet thead tr,
