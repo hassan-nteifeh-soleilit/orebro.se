@@ -62,6 +62,17 @@ section.or-top-img-area {
     padding: 10px 0px;
 }
 
+nav.or-secondary .or-content ul li {
+    width: 30%;
+    max-width: 30%;
+}    
+
+section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li {
+	    width: 30%;
+    max-width: 30%;
+}
+
+
 
 }
 

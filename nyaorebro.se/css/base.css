@@ -517,7 +517,7 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li
   	*/
 }
 
-section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li {
+/*section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li {
   	margin-right: 1%;
     margin-left: 1%;
     -webkit-box-flex: 3;
@@ -540,11 +540,11 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li {
     /* margin-left: 1%; */
     /* -webkit-box-flex: 3; */
     /* -webkit-flex: 3 28.333%; */
-    -ms-flex: 3 28.333%;
+    /*-ms-flex: 3 28.333%;
     /* flex: 3 28.333%; */
     /* display: inline-block; */
     /* max-width: 30.333%; */
-    display: -webkit-box;
+    /*display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
 	-js-display: flex;
@@ -554,7 +554,45 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li {
     -ms-flex: 0 0 33%;
     flex: 0 0 33%;
 
+}*/
+
+section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li {
+     padding: 10px 10px 0px 10px;
+     display: block;
+    width: 31%;
+    max-width: 31%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    -js-display: flex;
+     display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+
 }
+
+
 
 section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a
 {
@@ -1061,10 +1099,10 @@ nav.or-secondary .or-content ul {
 }
 
 nav.or-secondary .or-content ul li {
-        padding: 10px 10px 0px 10px;
+     padding: 10px 10px 0px 10px;
      display: block;
-    width: 29%;
-    max-width: 29%;
+    width: 31%;
+    max-width: 31%;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -webkit-flex-direction: row;

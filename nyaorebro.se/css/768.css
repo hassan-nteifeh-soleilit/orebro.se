@@ -373,16 +373,9 @@ body .or-content-container .or-tir p {
 
 /* genomgångssida nivå 1*/
 nav.or-secondary .or-content ul li {
-        /* float: left; */
     padding: 10px 10px 0px 10px;
-    margin-right: 1%;
-    margin-left: 1%;
-    -webkit-box-flex: 2;
-    -webkit-flex: 3 45.333%;
-    -ms-flex: 2 45.333%;
-    flex: 2 45.333%;
-    border-bottom: 2px dotted #eae9e8;
-    max-width: 45%;
+    width: 47%;
+    max-width: 47%;
 }
 
 nav.or-secondary .or-content ul li:nth-child(n+1) {
@@ -752,14 +745,16 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-t
 }
 
 section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li {
-    margin-right: 1%;
-    margin-left: 1%;
+    margin-right: 0%;
+    margin-left: 0%;
     -webkit-box-flex: 1;
-    -webkit-flex:  1 100%;
-    -ms-flex:  1 100%;;
+    -webkit-flex: 1 100%;
+    -ms-flex: 1 100%;
     flex: 1 100%;
     display: block;
     max-width: 100%;
+    width: 100%;
+    padding: 0;
 }
 
 section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li .or-single a .or-title {
