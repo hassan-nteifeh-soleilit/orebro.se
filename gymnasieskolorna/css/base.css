@@ -7510,7 +7510,7 @@ display:inline-block;
 }
 
 
-.or-plus-box-program.or-plus-box-content caption, .or-plus-box-content thead {
+body:not(.sv-editing-mode) .or-plus-box-program.or-plus-box-content caption, body:not(.sv-editing-mode) .or-plus-box-content thead {	
   display: none!important;
 }	 
 
