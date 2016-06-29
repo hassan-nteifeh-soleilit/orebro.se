@@ -5587,6 +5587,17 @@ width: 100%!important;
 .or-tillstand-restaurang .inforutaRubrik {
 	display:none;
 }
+.or-tillstand-restaurang .flik a {
+	text-decoration: none;
+	box-shadow: rgba(174, 222, 239, 0.65) 0px -28px 0px -23px inset;
+    -webkit-transition: all 100ms ease;
+    -moz-transition: all 100ms ease;
+    -o-transition: all 100ms ease;
+    transition: all 100ms ease;
+}
+.or-tillstand-restaurang .flik a:hover {
+	box-shadow: rgba(174, 222, 239, 0.65) 0px -47px 0px -23px inset;
+}
 .or-tillstand-restaurang .FlikValdBg {
     background: #e83c23;
 }
@@ -5597,6 +5608,7 @@ width: 100%!important;
     border-right: 0;
     border-top: 5px solid #cf311a;
     color: #fff;
+	width: 30%;
 }
 .or-tillstand-restaurang .FlikEjValdBg {
     background: #fff;
@@ -5693,17 +5705,43 @@ width: 100%!important;
     background-color: #5E5E5E;
     border-color: #000;
 }
-.or-tillstand-restaurang .rubSokServNamn {
+.or-tillstand-restaurang span[class^="rubSok"] {
     font-family: "open sans",sans-serif;
 	font-size: 12px;
-	margin-top: 20px;
+	margin: 10px 0;
 	font-weight: bold;
 	display: block;
 }
-.or-tillstand-restaurang .inforutaRam {
+
+.or-tillstand-restaurang .inforutaRam,
+.or-tillstand-restaurang .huvudTabell {
     width: 100%;
 	border: none;
 }
 .or-tillstand-restaurang .SokTabell {
     background: none;
 }
+.or-tillstand-restaurang .flik {
+	border-top: 5px solid #e83c23;
+}
+.or-tillstand-restaurang .FlikValdText,
+.or-tillstand-restaurang .FlikEjValdText {
+    font-size: 12px;
+}
+.or-tillstand-restaurang .FlikValdText {
+	margin-left: 40%;	
+}
+.or-tillstand-restaurang table {
+    font-family: "open sans",sans-serif;
+	font-size: 14px;
+}
+.or-tillstand-restaurang .SokResAltStyle {
+	background-color: #fdf7f1;
+}
+.or-tillstand-restaurang .SokResAltStyle,
+.or-tillstand-restaurang .SokResStyle {
+	border: solid 1px #f3dcd0;	
+}
+
+
+
