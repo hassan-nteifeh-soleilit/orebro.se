@@ -445,6 +445,16 @@ section.or-top-img-area {
     width: 100%;
 }
 
+body section.or-top-img-area .or-top-img-text-area {
+    left: 0px;
+    bottom: 0;
+    padding: 10px 10px;
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    max-width: 100%;
+}
+
 .or-top-img-text-area {
     position: absolute;
     left: 0px;

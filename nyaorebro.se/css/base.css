@@ -564,8 +564,8 @@ ul.or-nav-list{
 section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li {
     padding: 10px 10px 0px 10px;
     display: block;
-    width: 28%;
-    max-width: 28%;
+    width: 27%;
+    max-width: 27%;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -webkit-flex-direction: row;
@@ -597,7 +597,8 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li {
     -webkit-border-radius: 3px;
     box-shadow: 0 0 5px #C7C7C7;
     margin-left: 1%;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+	margin-right: 1%;
 }
 
 
