@@ -5612,13 +5612,17 @@ width: 100%!important;
 }
 .or-tillstand-restaurang .FlikEjValdBg {
     background: #fff;
-    cursor: pointer;
     display: table-cell;
     font-family: "leaguespartan webfont",sans-serif;
     font-size: 11px;
     line-height: 1.2em;
     padding: 10px 20px;
     text-align: center;
+}
+.or-tillstand-restaurang .FlikEjValdBg a:hover {
+    cursor: pointer;
+    color: #e83c23;
+	text-decoration: none;
 }
 .or-tillstand-restaurang form input[type="text"] {
     width: 70%;
@@ -5722,9 +5726,10 @@ width: 100%!important;
     background: none;
 }
 .or-tillstand-restaurang .flik,
-.or-tillstand-restaurang .inforutaRam#Table3 { {
+.or-tillstand-restaurang .inforutaRam#Table3 { 
 	border-top: 5px solid #e83c23;
 }
+
 .or-tillstand-restaurang .FlikValdText,
 .or-tillstand-restaurang .FlikEjValdText {
     font-size: 12px;
@@ -5732,7 +5737,13 @@ width: 100%!important;
 .or-tillstand-restaurang .FlikValdText {
 	padding: 0 40px;	
 }
-.or-tillstand-restaurang table {
+.or-tillstand-restaurang a.FlikEjValdText,
+.or-tillstand-restaurang a.FlikEjValdText:visited,
+.or-tillstand-restaurang a.FlikEjValdText:link {
+	color: #35383b;
+}
+.or-tillstand-restaurang table,
+.or-tillstand-restaurang table p {
     font-family: "open sans",sans-serif;
 	font-size: 14px;
 }
@@ -5742,6 +5753,9 @@ width: 100%!important;
 .or-tillstand-restaurang .SokResAltStyle,
 .or-tillstand-restaurang .SokResStyle {
 	border: solid 1px #f3dcd0;	
+}
+.or-tillstand-restaurang .SokResStyle td {
+	padding: 8px 6px;
 }
 .or-tillstand-restaurang img[id^="ctl00"] {
 	margin-right: 10px;
