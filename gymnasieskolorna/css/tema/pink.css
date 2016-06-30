@@ -200,7 +200,6 @@ h4.plusboxxrubrik.or-plus-box-active {
    color:white;
 }
 
-.or-collpase-button.or-colorbg.or-plus-box-active,
 .or-collapse-button.or-colorbg.or-plus-box-active {
   background-color: rgba(255,255,255,0.25);
 }
@@ -222,7 +221,6 @@ h4.plusboxxrubrik.or-plus-box-active {
   color: #fff;
 }
 
-.or-plus-box-program .or-collpase-button,
 .or-plus-box-program .or-collapse-button {
     background-color: #D196C1;
 }
@@ -232,7 +230,6 @@ h4.plusboxxrubrik.or-plus-box-active {
     color: #D196C1;
 }
 
-.or-plus-box-program .or-collpase-button.or-plus-box-active,
 .or-plus-box-program .or-collapse-button.or-plus-box-active {
     background-color: #F4E4F4 !important;
 }
@@ -275,7 +272,7 @@ h4.plusboxxrubrik.or-plus-box-active {
   text-decoration:underline;
 }
 
-.or-action-link-small:hover .normal .or-action-text a {
+.or-action-link-small:hover .normal .or-action-text a:link {
  color: #D196C1;
 }
  
@@ -388,23 +385,28 @@ background-color: #fff;
 
 /* ny tabell */
 
-.sv-table-portlet tbody tr:nth-child(2n), .sv-text-portlet table.sv-programtabell tbody tr:nth-child(2n) {
+.sv-table-portlet tbody tr:nth-child(2n), .sv-text-portlet table.sv-standard tbody tr:nth-child(2n) {
     border-bottom-color: rgba(133, 118, 114, 0.2);
     background-color: #F9F1F9;
 }
 
-.sv-table-portlet th, .sv-text-portlet table.sv-programtabell th {
+.sv-table-portlet th, .sv-text-portlet table.sv-standard th {
     padding: 10px 10px 11px;
     border-right: 1px solid rgba(255, 255, 255, 0.45);
     background-color: #D196C1;
     border-bottom: 1px solid rgba(255, 255, 255, 0.45);
 }
 
-.sv-table-portlet th, .sv-text-portlet table.sv-programtabell th p{
+.sv-table-portlet th, .sv-text-portlet table.sv-standard th p{
 color: #fff;
 font-weight: 700;
 }
 
+.sv-text-portlet table.sv-standard th {
+    padding: 10px 10px 11px;
+    border-right: 1px solid rgba(255, 255, 255, 0.45);
+    background-color: #D196C1;
+}
 
 /* end ny tabell */
 

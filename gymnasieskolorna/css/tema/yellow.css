@@ -203,7 +203,6 @@ h4.plusboxxrubrik.or-plus-box-active {
    color:white;
 }
 
-.or-collpase-button.or-colorbg.or-plus-box-active,
 .or-collapse-button.or-colorbg.or-plus-box-active {
   background-color: rgba(255,255,255,0.25);
 }
@@ -225,7 +224,6 @@ h4.plusboxxrubrik.or-plus-box-active {
   color: #35383B;
 }
 
-.or-plus-box-program .or-collpase-button,
 .or-plus-box-program .or-collapse-button {
     background-color: #FFF484;
 }
@@ -237,7 +235,6 @@ h4.plusboxxrubrik.or-plus-box-active {
     position: relative;
 }
 
-.or-plus-box-program .or-collpase-button.or-plus-box-active,
 .or-plus-box-program .or-collapse-button.or-plus-box-active {
     background-color: #FFF484!important;
 }
@@ -289,7 +286,7 @@ h4.plusboxxrubrik.or-plus-box-active {
     box-shadow: 0px 0px 6px 0px #E7E7E7;
 }
  
-.or-action-link-small:hover .normal .or-action-text a {
+.or-action-link-small:hover .normal .or-action-text a{
  color: #35383b;
 }
  
@@ -402,36 +399,35 @@ color: #35383B;
     background-color: #857672;
 }
 
-.or-plus-box-program.or-plus-box-content.sv-table-portlet th {
+.or-plus-box-program.or-plus-box-content.sv-table-portlet th,
+.or-plus-box-program.or-plus-box-content .sv-text-portlet-content th {
     background-color: #857672;
 }
 
 /* ny tabell */
-.sv-table-portlet tbody tr:nth-child(2n), .sv-text-portlet table.sv-programtabell tbody tr:nth-child(2n) {
+.sv-table-portlet tbody tr:nth-child(2n),, .sv-text-portlet table.sv-standard tbody tr:nth-child(2n) {
     border-bottom-color: rgba(133, 118, 114, 0.2);
     background-color: #F2F2F2;
-;
 }
 
-.sv-table-portlet th, .sv-text-portlet table.sv-programtabell th {
+.sv-table-portlet th, .sv-text-portlet table.sv-standard th {
     padding: 10px 10px 11px;
     border-right: 1px solid rgba(0, 0, 0, 0.1);
     background-color: #fff484;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+		color: #35383b;
+    font-weight: 700;
 }
 
-.sv-table-portlet th, .sv-text-portlet table.sv-programtabell th p{
-	color: #fff;
-	font-weight: 700;
+.sv-table-portlet th span.normal,
+.sv-text-portlet table.sv-standard thead th p,{
+	color: #35383b;
+  font-weight: 700;
 }
 
-.sv-text-portlet table.sv-programtabell th {
-	background-color: #857672;
-}
-
-.sv-table-portlet th span.normal, .sv-text-portlet-content table.sv-programtabell th span.normal {
-    color: #35383b;
-}
+.sv-text-portlet table.sv-standard th {    
+    background-color: #fff484;
+}    
 
 
 /* rubrik logo */
