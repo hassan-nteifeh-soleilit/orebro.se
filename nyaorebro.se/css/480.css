@@ -500,7 +500,7 @@ body .or-start-heading-divider .normal {
 }
 
 /* processteg */
-.sol-accordion-heading {
+body .sol-accordion-heading {
     background-color: #fff;
     color: #e83c23;
     border-top: 3px solid #F4F3F1;
@@ -513,6 +513,8 @@ body .or-start-heading-divider .normal {
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
     border: 1px solid rgba(232, 60, 35, 0.22);
+    font-size: 13px!important;
+
 }
 
 .sol-accordion-heading::after {

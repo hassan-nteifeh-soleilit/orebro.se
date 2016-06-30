@@ -175,6 +175,9 @@ header.or-search-mobile .sv-row:first-of-type  > div:nth-of-type(2n)  {
 	margin: 0 auto;
 }
 
+.sol-tab-button-container .sol-tab-button {
+    font-size: 11px;
+}
 
 /* cookie */
 #cookieClose {

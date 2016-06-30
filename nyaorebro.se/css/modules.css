@@ -2026,7 +2026,7 @@ body .sv-font-action-penna.or-wrapper-click:hover,body .sv-font-action-pil.or-wr
 body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-font-action-karta a:link, body .sv-font-action-facebook a:link, body .sv-font-action-twitter a:link {
     text-decoration: none;
     font-family: "leaguespartan webfont",sans-serif;
-    font-size: 12px;
+    font-size: 13px;
     box-shadow: rgba(255, 255, 255, 0.0)0 0 0 0 inset!important;
 }
 
@@ -2191,7 +2191,7 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
 .or-plus-box-diskret-header .plusboxxrubrik {
     padding-top: 8px;
 	padding-bottom: 8px;
-	font-size: 11px;
+	font-size: 12px;
 }
 
 .or-plus-box-diskret-header .or-icon-plus::before {
@@ -4972,7 +4972,7 @@ table.or-bath-water th:not(:first-child)  {
 	cursor:pointer;
 	display:table-cell;
 	font-family:"leaguespartan webfont",sans-serif;
-	font-size:11px;
+	font-size:12px;
 	line-height:1.2em;
 	padding:10px 20px;
 	text-align:center;
