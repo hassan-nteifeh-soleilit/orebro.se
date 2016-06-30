@@ -5765,7 +5765,7 @@ width: 100%!important;
 	margin-right: 5px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
 	.or-tillstand-restaurang .FlikValdText,
 	.or-tillstand-restaurang .FlikEjValdBg,
 	.or-tillstand-restaurang .FlikValdBg:first-child {
