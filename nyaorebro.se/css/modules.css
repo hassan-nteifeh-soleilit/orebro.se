@@ -5765,5 +5765,38 @@ width: 100%!important;
 	margin-right: 5px;
 }
 
+@media (max-width: 768px) {
+	.or-tillstand-restaurang .FlikValdText,
+	.or-tillstand-restaurang .FlikEjValdBg,
+	.or-tillstand-restaurang .FlikValdBg:first-child {
+		padding: 3px 1px;
+		font-size: 14px;
+		border-radius: 2px;
+		display: block;
+		width: 100%;
+	}
+	
+	.or-tillstand-restaurang table#Flikar1_FlikList {
+		display: table;
+		width: 100%;
+	}
+	/**
+	
+	.or-tillstand-restaurang #Flikar1_FlikList tbody tr td.FlikEjValdBg:first-child {
+		border: 1px solid rgba(232, 60, 35, 0.22);
+	}
+	.or-tillstand-restaurang td.FlikEjValdBg::after {
+	    content: "\f067";
+	    font-family: FontAwesome;
+	    padding-right: 6px;
+	    color: #e83c23;
+	    position: absolute;
+	    right: 35px;
+	    font-size: 20px;
+	}
+	*/
+	
+}
+
 
 
