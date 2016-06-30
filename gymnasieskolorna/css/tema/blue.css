@@ -1,6 +1,6 @@
-﻿/* Färg tema */
+﻿﻿/* Färg tema */
 
- .colortext{
+.colortext{
 color:#0098bd;
 }
 
@@ -115,7 +115,7 @@ li.or-comment.or-colorborder {
 }
 
 .or-action-content span.fa {   
-   background-color: #0098bd   
+   background-color: #0098bd;
 }
 
 .or-action-content span.fa:after {
@@ -199,7 +199,6 @@ h4.plusboxxrubrik.or-plus-box-active {
    color:white;
 }
 
-.or-collpase-button.or-colorbg.or-plus-box-active,
 .or-collapse-button.or-colorbg.or-plus-box-active {
   background-color: rgba(255,255,255,0.25);
 }
@@ -221,7 +220,6 @@ h4.plusboxxrubrik.or-plus-box-active {
 	border-color: rgba(0,152,189,0.15);
 }
 
-.or-plus-box-program .or-collpase-button,
 .or-plus-box-program .or-collapse-button {
 	background-color: #0098BD;
 }
@@ -230,7 +228,6 @@ h4.plusboxxrubrik.or-plus-box-active {
     color: #0098BD;
 }
 
-.or-plus-box-program .or-collpase-button.or-plus-box-active,
 .or-plus-box-program .or-collapse-button.or-plus-box-active {
     background-color: #D0E9F2 !important;
 }
@@ -286,7 +283,7 @@ or-plus-box-content.or-plus-box-program {
   text-decoration:underline;
 }
 
-.or-action-link-small:hover .normal .or-action-text a{
+.or-action-link-small:hover .normal .or-action-text a:link{
  color: #0098bd;
 }
  
@@ -313,7 +310,6 @@ color: #0098bd;
 .or-puff-bild-text h4 a{
 color: #0098bd;
 }
-
 
 .or-stor-bild-text-tv > div:nth-child(2) h2 {
     color: #0098bd;
@@ -352,22 +348,25 @@ color: #0098bd;
 }
 
 /* ny tabell */
-.sv-table-portlet tbody tr:nth-child(2n), .sv-text-portlet table.sv-programtabell tbody tr:nth-child(2n) {
+.sv-table-portlet tbody tr:nth-child(2n), .sv-text-portlet table.sv-standard tbody tr:nth-child(2n) {
     background-color: #E8F5F8;
 }
 
-.sv-table-portlet th, .sv-text-portlet table.sv-programtabell th {
+.sv-table-portlet th, .sv-text-portlet table.sv-standard th {
     padding: 10px 10px 11px;
     border-right: 1px solid rgba(255, 255, 255, 0.3);
     background-color: #0098bd;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-.sv-table-portlet th, .sv-text-portlet table.sv-programtabell th p{
+.sv-table-portlet th, .sv-text-portlet table.sv-standard th p{
    color: #fff;
    font-weight: 700;
 }
 
+.sv-text-portlet table.sv-standard th {
+	background-color: #0098bd;
+}
 
 /* rubrik logo */
 .or-header-topptext h2 {
