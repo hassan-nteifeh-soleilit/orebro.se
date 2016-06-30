@@ -200,11 +200,9 @@ h4.plusboxxrubrik.or-plus-box-active {
    color:white;
 }
 
-.or-collpase-button.or-colorbg.or-plus-box-active, 
 .or-collapse-button.or-colorbg.or-plus-box-active {
   background-color: rgba(255,255,255,0.25);
 }
-
 
 .or-plus-box-header.or-colorborder {
   border-color: #FCE0B9;
@@ -223,7 +221,6 @@ h4.plusboxxrubrik.or-plus-box-active {
     color: #FFF;
 }
 
-.or-plus-box-program .or-collpase-button,
 .or-plus-box-program .or-collapse-button {
     background-color: #F28C00;
 }
@@ -233,7 +230,6 @@ h4.plusboxxrubrik.or-plus-box-active {
     color: #F28C00;
 }
 
-.or-plus-box-program .or-collpase-button.or-plus-box-active ,
 .or-plus-box-program .or-collapse-button.or-plus-box-active {
     background-color: #FBEDDA !important;
 }
@@ -286,7 +282,7 @@ h4.plusboxxrubrik.or-plus-box-active {
     border-color: rgba(136, 183, 213, 0) rgba(136, 183, 213, 0) rgba(136, 183, 213, 0) #F28C00;
 }
 
-.or-action-link-small:hover .normal .or-action-text a {
+.or-action-link-small:hover .normal .or-action-text a:link {
  color: #F28C00;
 }
  
@@ -373,22 +369,25 @@ color: #F28C00;
 }
 
 /* ny tabell */
-.sv-table-portlet tbody tr:nth-child(2n), .sv-text-portlet table.sv-programtabell tbody tr:nth-child(2n) {
+.sv-table-portlet tbody tr:nth-child(2n), .sv-text-portlet table.sv-standard tbody tr:nth-child(2n) {
     background-color: #fef0dd;
 }
 
-.sv-table-portlet th, .sv-text-portlet table.sv-programtabell th {
+.sv-table-portlet th, .sv-text-portlet table.sv-standard th {
     padding: 10px 10px 11px;
     border-right: 1px solid rgba(255, 255, 255, 0.25);
     background-color: #F28C00;
     border-bottom: 1px solid rgba(255, 255, 255, 0.25);
 }
 
-.sv-table-portlet th, .sv-text-portlet table.sv-programtabell th p{
+.sv-table-portlet th, .sv-text-portlet table.sv-standard th p{
    color: #fff;
    font-weight: 700;
 }
 
+.sv-text-portlet table.sv-standard th {    
+    background-color: #F28C00;
+}
 
 /* rubrik logo */
 .or-header-topptext h2 {

@@ -238,7 +238,7 @@ h4, .rubrikx4 {
 }
 
 .normal a:link{
-  font-size: 14px;
+  font-size: 14px!important;
 }
 .sv-text-portlet li {
   margin-bottom: 9px;
@@ -550,11 +550,9 @@ a.or-action-text, .or-action-text a:hover {
     width: 90px;
     text-align: center;
 }
-
 .or-collapse-button, .or-collpase-button {
     width: 37px;
 }
-
 
 /* relaterade filer */
 .iconfile {
@@ -757,15 +755,15 @@ margin-top: -35px;
 
 /* ny tabell */
 
-.pagecontent .sv-linklist-portlet table.sv-programtabell td p, .sv-blog-portlet table.sv-programtabell td p, .sv-archive-portlet table.sv-programtabell td p, .sv-text-portlet table.sv-programtabell td p {
+.pagecontent .sv-linklist-portlet table.sv-standard td p, .sv-blog-portlet table.sv-standard td p, .sv-archive-portlet table.sv-standard td p, .sv-text-portlet table.sv-standard td p {
     font-size: 14px;
 }
 
-.sv-linklist-portlet table.sv-programtabell td p a, .sv-blog-portlet table.sv-programtabell td p a, .sv-archive-portlet table.sv-programtabell td p a, .sv-text-portlet table.sv-programtabell td p a {
+.sv-linklist-portlet table.sv-standard td p a, .sv-blog-portlet table.sv-standard td p a, .sv-archive-portlet table.sv-standard td p a, .sv-text-portlet table.sv-standard td p a {
     font-size: 14px;
 }
 
-.sv-linklist-portlet table.sv-programtabell td p a, .sv-blog-portlet table.sv-programtabell td p a, .sv-archive-portlet table.sv-programtabell td p a, .sv-text-portlet table.sv-programtabell td p a:hover {
+.sv-linklist-portlet table.sv-standard td p a, .sv-blog-portlet table.sv-standard td p a, .sv-archive-portlet table.sv-standard td p a, .sv-text-portlet table.sv-standard td p a:hover {
     font-size: 14px;
 }
 

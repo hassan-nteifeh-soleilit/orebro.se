@@ -404,7 +404,6 @@ h2.subheading {
     padding: 20px 20px 20px 20px;
 }
 
-
 .toppxxrubrikxinverteradxtext {
   margin-left: 0%;
   margin-top: 2%;
@@ -694,16 +693,16 @@ p.or-close-text {
 
 .or-plus-box-program.or-plus-box-content.sv-table-portlet tr td:last-child, 
 .or-plus-box-program.or-plus-box-content.sv-table-portlet tr th:last-child ,
-.or-plus-box-program.or-plus-box-content .sv-text-portlet-content table.sv-programtabell tr td:last-child,
-.or-plus-box-program.or-plus-box-content .sv-text-portlet-content table.sv-programtabell tr th:last-child
+.or-plus-box-program.or-plus-box-content .sv-text-portlet-content table.sv-standard tr td:last-child,
+.or-plus-box-program.or-plus-box-content .sv-text-portlet-content table.sv-standard tr th:last-child
 {
   padding-right: 5px;
 }
 
 .or-plus-box-program.or-plus-box-content.sv-table-portlet tr td:first-child, 
 .or-plus-box-program.or-plus-box-content.sv-table-portlet tr th:first-child ,
-.or-plus-box-program.or-plus-box-content .sv-text-portlet-content table.sv-programtabell tr td:first-child,
-.or-plus-box-program.or-plus-box-content .sv-text-portlet-content table.sv-programtabell tr th:first-child{
+.or-plus-box-program.or-plus-box-content .sv-text-portlet-content table.sv-standard tr td:first-child,
+.or-plus-box-program.or-plus-box-content .sv-text-portlet-content table.sv-standard tr th:first-child{
   padding-left: 5px;
   width: 70%;
 }
