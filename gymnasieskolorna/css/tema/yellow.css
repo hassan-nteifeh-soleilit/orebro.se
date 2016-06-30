@@ -228,6 +228,13 @@ h4.plusboxxrubrik.or-plus-box-active {
     background-color: #FFF484;
 }
 
+.or-icon-plus::before {
+    content: "\f067";
+    font-family: FontAwesome;
+    color: #35383b;
+    position: relative;
+}
+
 .or-plus-box-program .or-collapse-button.or-plus-box-active {
     background-color: #FFF484!important;
 }
@@ -279,7 +286,7 @@ h4.plusboxxrubrik.or-plus-box-active {
     box-shadow: 0px 0px 6px 0px #E7E7E7;
 }
  
-.or-action-link-small:hover a {
+.or-action-link-small:hover .normal .or-action-text a{
  color: #35383b;
 }
  

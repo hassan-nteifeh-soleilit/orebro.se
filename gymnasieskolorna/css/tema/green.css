@@ -276,7 +276,7 @@ h4.plusboxxrubrik.or-plus-box-active {
   text-decoration:underline;
 }
 
-.or-action-link-small:hover a {
+.or-action-link-small:hover .normal .or-action-text a{
  color: #6F9333;
 }
  
@@ -572,7 +572,6 @@ li.sol-selected-facet:hover {
 	border-color: rgba(136, 183, 213, 0) rgba(136, 183, 213, 0) rgba(136, 183, 213, 0) #6F9333;
 }
 /* Slut ny action */
-
 
 /* Ny action formatmall */
 .sv-font-action-penna:before, .sv-font-action-pil:before, .sv-font-action-karta:before, .sv-font-action-facebook:before, .sv-font-action-twitter:before {

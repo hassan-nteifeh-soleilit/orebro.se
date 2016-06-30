@@ -222,14 +222,13 @@ h4.plusboxxrubrik.or-plus-box-active {
 }
 
 .or-plus-box-program .or-collapse-button {
-    background-color: #dcdcdc;
+    background-color: #857672;
 }
 
 .or-programpoang {
     border-color:#857672;
     color:#857672;
 }
-
 
 .or-plus-box-program .or-collapse-button.or-plus-box-active {
     background-color: #dcdcdc !important;
@@ -385,7 +384,7 @@ color: #857672;
 }
 
 /* ny tabell */
-.sv-table-portlet tbody tr:nth-child(2n), .sv-text-portlet table.sv-standard tbody tr:nth-child(2n)  {
+.sv-table-portlet tbody tr:nth-child(2n), .sv-text-portlet table.sv-standard tbody tr:nth-child(2n){
     background-color: #F2F2F2;
 }
 
@@ -404,8 +403,6 @@ font-weight: 700;
 .sv-text-portlet table.sv-standard th {
     background-color: #857672;
 }
-
-
 
 /* rubrik logo */
 .or-header-topptext h2 {
@@ -617,7 +614,6 @@ li.sol-selected-facet:hover {
 	border-color:rgba(136,183,213,0) rgba(136,183,213,0) rgba(136,183,213,0) #857672;
 }
 /* Slut Ny action */
-
 
 /* Ny action formatmall */
 .sv-font-action-penna:before, .sv-font-action-pil:before, .sv-font-action-karta:before, .sv-font-action-facebook:before, .sv-font-action-twitter:before {

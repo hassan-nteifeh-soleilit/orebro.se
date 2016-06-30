@@ -1,6 +1,6 @@
 ﻿/* Färg tema */
 
- .colortext{
+.colortext{
 color:#0098bd;
 }
 
@@ -115,7 +115,7 @@ li.or-comment.or-colorborder {
 }
 
 .or-action-content span.fa {   
-   background-color: #0098bd;  
+   background-color: #0098bd;
 }
 
 .or-action-content span.fa:after {
@@ -307,8 +307,8 @@ background-color: rgba(0, 152, 219, 0.8);
 color: #0098bd;
 }
 
-.or-puff-bild-text h4 a {
-   color: #0098bd;
+.or-puff-bild-text h4 a{
+color: #0098bd;
 }
 
 .or-stor-bild-text-tv > div:nth-child(2) h2 {
@@ -363,7 +363,6 @@ color: #0098bd;
    color: #fff;
    font-weight: 700;
 }
-
 
 .sv-text-portlet table.sv-standard th {
 	background-color: #0098bd;

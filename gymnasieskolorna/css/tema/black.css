@@ -203,7 +203,7 @@ h4.plusboxxrubrik.or-plus-box-active {
 }
 
 .or-plus-box-program .or-collapse-button {
-    background-color: #D1CFCF!important;
+    background-color: #35383b!important;
 }
 
 .or-plus-box-program .or-collapse-button.or-plus-box-active {
@@ -594,7 +594,6 @@ li.sol-selected-facet:hover {
 	border-color:rgba(136,183,213,0) rgba(136,183,213,0) rgba(136,183,213,0) #35383b;
 }
 /* Slut ny action */
-
 
 /* Ny action formatmall */
 .sv-font-action-penna:before, .sv-font-action-pil:before, .sv-font-action-karta:before, .sv-font-action-facebook:before, .sv-font-action-twitter:before {
