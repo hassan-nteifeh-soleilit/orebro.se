@@ -5585,7 +5585,7 @@ width: 100%!important;
 .or-tillstand-restaurang .FlikEjValdBg img,
 .or-tillstand-restaurang a[href*="print"],
 .or-tillstand-restaurang .inforutaRubrik,
-.or-tillstand-restaurang .FlikEjValdBg:last-child  {
+.or-tillstand-restaurang td.FlikEjValdBg:last-child  {
 	display:none;
 }
 .or-tillstand-restaurang .flik a {
