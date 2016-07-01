@@ -425,6 +425,14 @@ color: #35383B;
   font-weight: 700;
 }
 
+.sv-table-portlet th span.normal, .sv-text-portlet-content table.sv-standard th span.normal {
+    color: #35383b;
+}
+
+.st-head-row.st-head-row-main span.normal {
+     color: #35383b;
+}
+
 .sv-text-portlet table.sv-standard th {    
     background-color: #fff484;
 }    
