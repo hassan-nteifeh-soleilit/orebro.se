@@ -182,7 +182,7 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
 }
 
 .or-content-container .sv-text-portlet table caption {
-    font-size: 17px;
+    font-size: 20px;
 }
 
 /* fildelningsmodul */
@@ -426,7 +426,7 @@ body .sv-text-portlet table.sv-standard td p {
 }
 
 .or-content-container .sv-text-portlet table caption {
-    font-size: 18px;
+    font-size: 22px;
 }
 
 /* action */
