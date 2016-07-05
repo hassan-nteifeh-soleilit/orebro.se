@@ -72,7 +72,7 @@ MENY
 }
 
 .or-tree {  
-  background: #fff;
+    background: #e83c23;
 }
 
 .or-tree ul li a {    
@@ -88,6 +88,15 @@ MENY
     display: block;
     font-size: 13px;
     font-weight: 700;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+
+}
+
+.or-tree ul li a:hover {    
+	background-color: #bc3925;
 }
 
 
@@ -215,6 +224,11 @@ MENY
     border-bottom: 1px solid #EAEAEA;
     padding-left: 20px;
     font-size: 13px;
+        -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+
 }
 
 .or-tree .or-depth-1 > li > a:hover {
@@ -351,14 +365,15 @@ MENY
 	color: #e83c23;
 }
 
-.or-mobile-nav-bar a.or-menu-title{
-    color: #E83C23;
-    font-size: 19px;
+.or-mobile-nav-bar a.or-menu-title {
+    color: #857672;
+    font-size: 15px;
     font-family: "leaguespartan webfont",sans-serif;
     width: 100%;
     text-align: left;
-    margin-left: 20px;
+    margin-left: 13px;
     cursor: pointer;
+    margin-top: 2px;
 }
 
 .or-mobile-nav-bar i{
