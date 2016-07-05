@@ -7742,7 +7742,7 @@ body:not(.sv-editing-mode) .or-plus-box-program.or-plus-box-content caption, bod
 .or-plus-box-diskret-header .plusboxxrubrik {
     padding-top: 8px;
     padding-bottom: 8px;
-    font-size: 11px;
+    font-size: 12px;
 }
 .or-plus-box-diskret-header .or-icon-plus::before {
     content: "\f067";
@@ -7755,6 +7755,10 @@ body:not(.sv-editing-mode) .or-plus-box-program.or-plus-box-content caption, bod
     background-color: #f9f9f8;
     width: 35px;
     border-left: 1px solid rgb(237, 234, 234);
+}
+
+.or-plus-box-header.or-plus-box-diskret-header.or-colorborder{
+border-color: rgb(237, 234, 234);
 }
 
 .or-plus-box-diskret-content {
