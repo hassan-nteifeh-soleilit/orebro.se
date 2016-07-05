@@ -3623,7 +3623,7 @@ section.or-bg-one {
     margin-top: 80px;
 }
 
-.or-startpage-service-block{    
+.or-start-white-divider .or-puff-icon-header-text {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -3735,7 +3735,7 @@ body .or-start-heading-divider .normal{
 }
 
 .or-news-list.or-small li {
-    padding: 7px 20px 10px 15px;
+    padding: 12px 20px 17px 15px;
 }
 
 .or-news-list.or-small h3 a {
@@ -3769,11 +3769,7 @@ body .or-start-heading-divider .normal{
     float: none;
     margin-top: 5px;
     display: inline-block;
-    -webkit-transition: all 0.3s ease-in;
-    -moz-transition: all 0.3s ease-in;
-    -o-transition: all 0.3s ease-in;
-    -ms-transition: all 0.3s ease-in;
-    transition: all 0.3s ease-in;
+    transition: all 100ms ease;
 }
 
 .or-news-list.or-small .or-more-news:hover {
@@ -4218,11 +4214,6 @@ body .or-puff-link .normal a {
     font-size: 14px;
     margin-bottom: 4px;
     display: inline-block;
-    -webkit-transition: color 0.3s ease-in;
-    -moz-transition: color 0.3s ease-in;
-    -o-transition: color 0.3s ease-in;
-    -ms-transition: color 0.3s ease-in;
-    transition: color 0.3s ease-in;
 }
 
 body .or-puff-link .normal a:hover {
@@ -4277,10 +4268,15 @@ body .or-puff-link .normal{
     text-align: center;
     vertical-align: middle;
     float: left;
+    -webkit-transition: color 0.3s ease-in;
+    -moz-transition: color 0.3s ease-in;
+    -o-transition: color 0.3s ease-in;
+    -ms-transition: color 0.3s ease-in;
+    transition: color 0.3s ease-in;
 }
 
 .or-puff-icon-header-text:hover .normal a:link, .or-puff-icon-header-text:hover h4  {
-    text-decoration: underline;
+    color: #f28c00;
 }
 
 
@@ -4329,11 +4325,17 @@ body .or-puff-link .normal{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     margin-bottom: 10px;
+    
 }
 
 .or-puff-icon-header-text .sv-use-margins .rubrikx4, .sv-use-margins h4{
 	margin: 0px;
 	font-size: 15px;
+	-webkit-transition: color 0.3s ease-in;
+    -moz-transition: color 0.3s ease-in;
+    -o-transition: color 0.3s ease-in;
+    -ms-transition: color 0.3s ease-in;
+    transition: color 0.3s ease-in;
 }
 
 .or-puff-icon-header-text > div:last-of-type {
