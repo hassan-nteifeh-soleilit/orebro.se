@@ -4212,7 +4212,7 @@ body .or-start-heading-divider .normal{
 body .or-puff-link .normal a {
     font-family: "leaguespartan webfont",sans-serif;
     box-shadow: rgba(174, 222, 239, 0.0)0px 0px 0px 0px inset;
-    color: #e83c23;
+    color: #857672;
     font-size: 14px;
     margin-bottom: 4px;
     display: inline-block;
@@ -4252,8 +4252,8 @@ body .or-puff-link .normal{
     border-color: transparent;
     border-style: solid;
     border-width: 17px;
-    border-right-color: #e83c23;
-    border-bottom-color: #e83c23;
+    border-right-color: rgba(133, 118, 114, 0.5);
+    border-bottom-color: rgba(133, 118, 114, 0.5);
 }
 
 /* Puff med ikon, rubrik och textyta */
