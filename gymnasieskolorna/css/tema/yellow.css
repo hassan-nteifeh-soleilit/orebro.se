@@ -437,6 +437,10 @@ color: #35383B;
     background-color: #fff484;
 }    
 
+.sv-text-portlet table.sv-standard th p {
+    color: #35383b;
+}
+
 
 /* rubrik logo */
 .or-header-topptext h2 {
