@@ -256,7 +256,6 @@ body .or-content-container .or-tir p {
 	-webkit-border-radius: 0px!important;
     margin-left: 0!important;
     margin-top: 0!important;
-    height: 100%;
 }
 
 #alertInfo {
@@ -491,7 +490,7 @@ section.or-top-header {
 }
 
 .or-puff-link {
-    width: 100%;
+    width: 97%;
     margin-bottom: 16px;
     margin-right: auto;
     margin-left: auto;
