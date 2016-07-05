@@ -71,8 +71,9 @@ MENY
   position: fixed;
 }
 
-.or-tree {  
+.or-tree {
     background: #e83c23;
+    box-shadow: -3px 0px 10px 0px rgba(0, 0, 0, 0.4);
 }
 
 .or-tree ul li a {    
@@ -88,6 +89,7 @@ MENY
     display: block;
     font-size: 13px;
     font-weight: 700;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     -webkit-transition: all 300ms ease;
     -moz-transition: all 300ms ease;
     -o-transition: all 300ms ease;
@@ -371,9 +373,10 @@ MENY
     font-family: "leaguespartan webfont",sans-serif;
     width: 100%;
     text-align: left;
-    margin-left: 13px;
     cursor: pointer;
-    margin-top: 2px;
+    padding-left: 12px;
+    padding-top: 11px;
+    padding-bottom: 10px;
 }
 
 .or-mobile-nav-bar i{
