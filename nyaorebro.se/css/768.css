@@ -721,7 +721,7 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-t
 }
 
 body section.or-nav-content-section .sv-fluid-grid.or-wider .or-nav-list .or-list-wrapper.or-single .or-title:before {
-    top: 6px;
+    top: 1px;
 }
 
 
@@ -767,6 +767,7 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li {
     border: 3px solid #FFFFFF;
     padding: 6px 0px;
     min-height: 0px;
+    margin-bottom: 10px;
 }
 
 section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li .or-single a .or-title {
@@ -790,8 +791,8 @@ list-style-type: none;
 
 ul.or-nav-list li .or-list-wrapper.or-single {
     min-height: auto;
-    padding-top: 6px!important;
-    padding-bottom: 6px!important;
+    padding-top: 0px!important;
+    padding-bottom: 0px!important;
 }
 
 .or-list-wrapper .sv-linkicon {

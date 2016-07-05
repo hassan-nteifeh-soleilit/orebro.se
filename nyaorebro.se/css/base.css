@@ -648,13 +648,17 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-t
 /* single list */
 
 ul.or-nav-list li .or-list-wrapper.or-single {
-    min-height: 60px;
-    padding-top: 16px!important;
-    padding-bottom: 7px!important;
+    min-height: 22px;
+    padding-top: 0px!important;
+    padding-bottom: 0px!important;
 }
 
 body section.or-nav-content-section .sv-fluid-grid.or-wider .or-nav-list .or-list-wrapper.or-single .or-title:before {
-    top: 15px;
+    top: 0px;
+}
+
+.or-list-wrapper.or-single .sv-linkicon {
+    top: 4px;
 }
 
 section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li .or-list-wrapper.or-single .or-title
@@ -663,6 +667,7 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li .or-lis
     margin-bottom: 0px;
     font-size: 13px;
     padding-right: 17px;
+    padding-bottom: 0px;
 }
 
 
