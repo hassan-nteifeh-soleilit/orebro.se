@@ -103,7 +103,6 @@ form.or-search-field input {
     font-family: "open sans",sans-serif;
 }
 form.or-search-field button{
-  /* test */
     position: relative;
     -webkit-appearance: none;
     left: -28px;
@@ -119,6 +118,14 @@ form.or-search-field button{
     color: white;
     text-align: center;
     background-color: #E83C23;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+form.or-search-field button:hover {
+    background-color: #857672;
 }
 
 .or-search-button-wrapper {
@@ -142,6 +149,15 @@ form.or-search-field button{
     width: 60px;
     height: 60px;
     margin-top: 3px;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+
+}
+
+.or-menu-button-container .fa:hover{
+	background-color: #857672;
 }
 
 .or-menu-button-container .fa :before{
