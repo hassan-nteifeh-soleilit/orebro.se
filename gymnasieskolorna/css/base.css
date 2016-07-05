@@ -1,4 +1,4 @@
-5/* Grunddesign */
+595/* Grunddesign */
 
 .or-grid-12-col.sv-fluid-grid, .or-grid-12-col.sv-fixed-fluid-grid {
 padding-right:10px;
@@ -5942,6 +5942,7 @@ box-shadow: rgba(255, 255, 255, 1)0px -33px 0px -11px inset;
 	font-weight: 800;
 	font-size: 20px;
 	margin-top: 10px;
+	font-family: "leaguespartan webfont",sans-serif;
 }
 
 .sv-table-portlet thead tr,
