@@ -4275,7 +4275,11 @@ body .or-puff-link .normal{
     transition: color 0.3s ease-in;
 }
 
-.or-puff-icon-header-text:hover .normal a:link, .or-puff-icon-header-text:hover h4  {
+.or-puff-icon-header-text:hover .normal a:link{
+    text-decoration: underline;
+}
+
+.or-puff-icon-header-text:hover h4  {
     color: #f28c00;
 }
 
