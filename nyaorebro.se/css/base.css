@@ -617,10 +617,11 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-t
     line-height: 1.3em;
     padding-left: 22px;
     margin-bottom: 9px;
-        -webkit-transition: all 100ms ease-in-out;
-    -moz-transition: all 100ms ease-in-out
-    -o-transition: all 100ms ease-in-out
-    transition: all 100ms ease-in-out
+        -webkit-transition: color 0.3s ease-in;
+    -moz-transition: color 0.3s ease-in;
+    -o-transition: color 0.3s ease-in;
+    -ms-transition: color 0.3s ease-in;
+    transition: color 0.3s ease-in;
 }
 
 section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-title:before
