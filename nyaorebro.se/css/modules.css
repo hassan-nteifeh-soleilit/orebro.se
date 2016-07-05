@@ -3623,10 +3623,51 @@ section.or-bg-one {
     margin-top: 80px;
 }
 
+.or-startpage-service-block{    
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
 .or-start-white-divider .or-puff-icon-header-text {
-    max-width: 375px;
-    margin: 0px 5%;
-    min-height: 270px;
+    /* max-width: 375px; */
+    /* margin: 0px 5%; */
+    /* min-height: 270px; */
+    width: 31%;
+    max-width: 31%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    float: none;
+    box-sizing: border-box;
 }
 .or-start-heading-divider {
     display: inline-block;
@@ -3694,7 +3735,7 @@ body .or-start-heading-divider .normal{
 }
 
 .or-news-list.or-small li {
-    padding: 12px 20px 17px 15px;
+    padding: 7px 20px 10px 15px;
 }
 
 .or-news-list.or-small h3 a {
@@ -3728,7 +3769,11 @@ body .or-start-heading-divider .normal{
     float: none;
     margin-top: 5px;
     display: inline-block;
-    transition: all 100ms ease;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
 }
 
 .or-news-list.or-small .or-more-news:hover {
@@ -4173,6 +4218,11 @@ body .or-puff-link .normal a {
     font-size: 14px;
     margin-bottom: 4px;
     display: inline-block;
+    -webkit-transition: color 0.3s ease-in;
+    -moz-transition: color 0.3s ease-in;
+    -o-transition: color 0.3s ease-in;
+    -ms-transition: color 0.3s ease-in;
+    transition: color 0.3s ease-in;
 }
 
 body .or-puff-link .normal a:hover {
