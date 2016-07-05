@@ -617,6 +617,10 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-t
     line-height: 1.3em;
     padding-left: 22px;
     margin-bottom: 9px;
+        -webkit-transition: all 100ms ease-in-out;
+    -moz-transition: all 100ms ease-in-out
+    -o-transition: all 100ms ease-in-out
+    transition: all 100ms ease-in-out
 }
 
 section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-title:before

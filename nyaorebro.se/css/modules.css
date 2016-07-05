@@ -2074,7 +2074,7 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
     width: 41px;
     height: 100%;
     position: absolute;
-    font: normal normal normal 17px/45px FontAwesome;
+    font: normal normal normal 17px/40px FontAwesome;
     right: 0;
     top: 0;
     text-align: center;
