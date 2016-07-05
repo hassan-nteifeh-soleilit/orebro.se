@@ -334,7 +334,7 @@ a.or-action-text, .or-action-text a:hover {
 
 
 .normal .or-action-text a:link {
- font-size: 11px;
+ font-size: 11px!important;
   line-height: 16px;
   letter-spacing:0.04em;
 }
@@ -765,6 +765,11 @@ margin-top: -35px;
 
 .sv-linklist-portlet table.sv-standard td p a, .sv-blog-portlet table.sv-standard td p a, .sv-archive-portlet table.sv-standard td p a, .sv-text-portlet table.sv-standard td p a:hover {
     font-size: 14px;
+}
+
+.sv-table-portlet caption,
+.sv-text-portlet table.sv-standard caption {
+	font-size: 16px;
 }
 
 

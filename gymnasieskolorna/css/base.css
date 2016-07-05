@@ -5940,7 +5940,8 @@ box-shadow: rgba(255, 255, 255, 1)0px -33px 0px -11px inset;
     display: table-caption !important;
     margin-bottom: 15px;
 	font-weight: 800;
-	font-size: 14px;
+	font-size: 20px;
+	margin-top: 10px;
 }
 
 .sv-table-portlet thead tr,
