@@ -3804,7 +3804,7 @@ body .or-start-heading-divider .normal{
 /* Startsida puffar */
 
 .or-puff-startpage-footer {
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.4);
     padding-top: 45px;
     border-top: 6px solid #F6F4F2;
 }
