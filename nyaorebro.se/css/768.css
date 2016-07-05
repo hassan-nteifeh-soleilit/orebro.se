@@ -617,13 +617,13 @@ body section.or-top-img-area .brodtextxxfetx {
 }
 
 .or-puff-icon-header-text::before {
-    bottom: -4px;
-    right: -4px;
+    bottom: -5px;
+    right: -5px;
 }
 
 .or-puff-icon-header-text::after {
-    bottom: 0px;
-    right: 0px;
+    bottom: -1px;
+    right: -1px;
 }
 
 .or-puff-icon-header-text::after {
