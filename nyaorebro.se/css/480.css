@@ -524,7 +524,8 @@ body .sol-accordion-heading {
     color: #e83c23;
     position: absolute;
     right: 35px;
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .sol-accordion-heading.sol-tab-active:after{

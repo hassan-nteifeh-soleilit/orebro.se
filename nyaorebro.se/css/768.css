@@ -716,7 +716,7 @@ ul.or-nav-list li .or-list-wrapper p {
 }
 
 section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-title:before {
-    top: 1px;
+    top: 0px;
     left: 5px;
 }
 
