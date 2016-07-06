@@ -1103,6 +1103,7 @@ nav.or-secondary .or-content ul li {
      display: block;
     width: 33%;
     max-width: 33%;
+    min-width: 33%;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -webkit-flex-direction: row;
