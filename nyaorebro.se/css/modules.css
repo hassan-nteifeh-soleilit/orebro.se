@@ -3411,6 +3411,15 @@ section.or-bg-one {
     font-weight: 700;
 }
 
+.or-red-header-box .box-header .or-tool-service {
+    width: 20px;
+    height: 20px;
+    background-color: currentcolor;
+    display: inline-block;
+    float: left;
+    margin-right: 8px;
+}
+
 .or-red-header-box .box-header p i {
     color: rgba(255, 255, 255, 0.8);
     font-size: 22px;
