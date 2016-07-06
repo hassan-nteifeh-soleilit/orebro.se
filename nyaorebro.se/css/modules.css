@@ -3663,6 +3663,7 @@ section.or-bg-one {
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    background-color: aquamarine;
 }
     
 
