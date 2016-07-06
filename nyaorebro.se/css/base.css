@@ -218,14 +218,13 @@ header .or-logo {
     display: inline-block;
     float: left;
     margin-top: 8px;
-    max-height: 75px;
     margin-right: 8px;
     margin-left: -12px;
-    width: 45px;
     height: 75px;
     border:0px;
-
 }
+
+
 
 .or-header-topptext{
     color: #E83C23;
