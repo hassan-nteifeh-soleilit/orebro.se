@@ -3654,9 +3654,6 @@ section.or-bg-one {
 }
 
 .or-start-white-divider .or-puff-icon-header-text {
-    /* max-width: 375px; */
-    /* margin: 0px 5%; */
-    /* min-height: 270px; */
     width: 31%;
     max-width: 31%;
     -webkit-box-orient: horizontal;
