@@ -3412,9 +3412,8 @@ section.or-bg-one {
 }
 
 .or-red-header-box .box-header .or-tool-service {
-    width: 20px;
-    height: 20px;
-    background-color: currentcolor;
+    width: 24px;
+    height: 24px;
     display: inline-block;
     float: left;
     margin-right: 8px;
