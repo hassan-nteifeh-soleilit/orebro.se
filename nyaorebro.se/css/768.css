@@ -555,6 +555,11 @@ body section.or-top-img-area .brodtextxxfetx {
 
 /* driftstörningar/kontakt startsida */
 
+.or-red-header-box .box-header .or-tool-service {
+    width: 18px;
+    height: 18px;
+}
+
 .or-red-header-box .box-header p {
     font-size: 13px;
 }
