@@ -4864,7 +4864,8 @@ table.or-bath-water th:not(:first-child)  {
     font-size: 20px;
 }
 
-.or-social-media-content.facebook .or-header .fa-circle
+.or-social-media-content.facebook .or-header .fa-circle,
+.or-social-media-header.facebook .fa-circle
 {
 	color:#0090b4;
 }
@@ -5050,10 +5051,6 @@ table.or-bath-water th:not(:first-child)  {
 .or-social-media-subpage .or-social-media-content .or-header {
     margin-bottom: 4px;
     padding-left: 5px;
-}
-
-.or-social-media-subpage .fa-stack.fa-lg{
-	display: none;
 }
 
 .or-social-media-subpage .or-social-media-content .or-header .fa-clock-o {
