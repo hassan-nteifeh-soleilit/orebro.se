@@ -5510,8 +5510,8 @@ color: rgba(53, 56, 59, 0.85);
     margin-top: 0px;
 }
 
-.or-plus-box-header:not(.or.plus-box-v2):hover .or-collapse-button{
-  	opacity: 0.9;
+.or-plus-box-header:not(.or-plus-box-v2):hover .or-collapse-button{
+  opacity: 0.9;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
 	filter: alpha(opacity=90);
 	-moz-opacity: 0.9;
@@ -5863,10 +5863,10 @@ box-shadow: rgba(255, 255, 255, 1)0px -33px 0px -11px inset;
 .sv-blog-portlet table.sv-standard td p, 
 .sv-archive-portlet table.sv-standard td p, 
 .sv-text-portlet table.sv-standard td p a:hover{
-    font-size: 15px;
-    line-height: 1.2em;
-    box-shadow: rgba(174, 222, 239, 0.65) 0px -48px 0px -30px inset;
-	color: #35383b;		
+  font-size: 15px;
+  line-height: 1.2em;
+  box-shadow: rgba(174, 222, 239, 0.65) 0px -48px 0px -30px inset;
+	color: #35383b;
 }
 
 .sv-table-portlet table,
@@ -5877,9 +5877,12 @@ box-shadow: rgba(255, 255, 255, 1)0px -33px 0px -11px inset;
 
 .sv-table-portlet caption,
 .sv-text-portlet table.sv-standard caption {
-    display: table-caption !important;
-    margin-bottom: 15px;
-		font-weight: 800;
+  display: table-caption !important;
+  margin-bottom: 15px;
+	font-weight: 800;
+	font-size: 20px;
+	margin-top: 10px;
+	font-family: "leaguespartan webfont",sans-serif;
 }
 
 .sv-table-portlet thead tr,
@@ -5925,17 +5928,17 @@ border-bottom: 1px solid rgb(133, 118, 114);
 border-bottom: 1px solid rgba(133, 118, 114, 0.15);
 }
 
-.sv-table-portlet tbody tr:nth-child(odd),
+.sv-table-portlet tbody tr:nth-child(odd), 
 .sv-text-portlet-content table.sv-standard tbody tr:nth-child(odd) {
-   background-color: white;
-   
+    background-color: white;
+    border-top: 1px solid rgba(133, 118, 114, 0.3);
 }
 
-.sv-table-portlet tbody tr:nth-child(even),
+.sv-table-portlet tbody tr:nth-child(even), 
 .sv-text-portlet-content table.sv-standard tbody tr:nth-child(even) {
-  border-bottom-color: rgb(133, 118, 114);
-  border-bottom-color: rgba(133, 118, 114, 0.2);
-  background-color: #fdf4e7;
+    border-bottom-color: rgb(133, 118, 114);
+    border-bottom-color: rgba(133, 118, 114, 0.2);
+    background-color: #f3f3f3;
 }
 
 /* Plusboxar */
@@ -6043,29 +6046,33 @@ width: 60%;
     margin-bottom: 30px;
 }
 
-.or-stor-bild-text-actions
-.sv-defaultFormTheme .sv-field-title-container.sv-bold label{
-display:none;
+.or-stor-bild-text-actions .sv-defaultFormTheme .sv-field-title-container.sv-bold label{
+   display:none;
 }
 
-.or-stor-bild-text-actions
-.sv-field-title-container.sv-bold{
-display:none;
+.or-stor-bild-text-actions .sv-field-title-container.sv-bold{
+   display:none;
 }
 
-.sv-formField {
-    border-bottom: 2px dotted #e4e4e4;
-    padding-bottom: 10px;
+.or-stor-bild-text-actions .sv-use-margins h2 {
+   margin-top: 10px;
+   font-size: 16px;
+ }
+ 
+ .or-stor-bild-text-actions .sv-formField {
+    border-bottom: 0px dotted #e4e4e4;
+    padding-bottom: 0px;
 }
 
 .or-stor-bild-text-actions > div:nth-child(1) {
   float: left;
   width: 60%;
-  height: 400px;
+  height: 435px;
   background-position: 50% 0px;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+  min-height: 435px;
 }
 
 .or-topp-section-school .or-stor-bild-text-actions .or-school-top-image{
@@ -6088,13 +6095,14 @@ position: absolute;   left: 25px;   bottom: 25px;   width: 80%;
   float: left;
 }
 
-.or-stor-bild-text-actions p{
-	font-size: 13px;
+.or-startpage-extra .or-stor-bild-text-actions > div:nth-child(2) {
+ width: 40%;
+ padding: 50px 20px 20px 30px;
+ float: left;
 }
 
-.or-stor-bild-text-actions .sv-use-margins h2 {
-	margin-top: 10px;
-	font-size: 16px;
+.or-stor-bild-text-actions p{
+	font-size: 13px;
 }
 
 .topp-actions div.or-action-link {
@@ -6499,12 +6507,6 @@ text-decoration: underline;
  float:left;
 }
 
-.or-puff-bild-text h4 a {
-	font-size: 16px;
-	line-height: 1.3em;
-	text-decoration: none;
-}
-
 .or-puff-bild-text:hover.or-puff-bild-text a:link{
 text-decoration: underline;
 }
@@ -6517,6 +6519,12 @@ text-decoration: underline;
 	color: #E83C23;
    font-size: 16px;
    line-height: 1.3em;
+}
+
+.or-puff-bild-text h4 a {
+	font-size: 16px;
+	line-height: 1.3em;
+	text-decoration: none;
 }
 
 .or-puff-bild-text p{
@@ -6688,8 +6696,8 @@ text-decoration: underline;
 
 /* TEST FÖR ACTION */
 .or-action-content a:link {
-    box-shadow: none;
-    font-size: 12px;
+  box-shadow: none;
+  font-size: 12px;
 }
 
 
@@ -7381,7 +7389,7 @@ display:block;
 display:inline-block;
 }
 
-*/
+/*
 .sv-clearfix.or-facebook-container.or-wrapper-click {
     width: 97%;
 }
@@ -7463,9 +7471,7 @@ display:inline-block;
 
 /* Plusbox program */
 .or-plus-box-header.or-plus-box-program {
-  /*width: 80%;*/
   margin: 20px auto 0px;
-  /* padding: 8px 50px 9px 10px; h4*/
   padding: 0px 50px 0px 10px;
   border-style: solid;
   border-width: 2px;
@@ -7550,7 +7556,7 @@ display:inline-block;
     opacity: 0.92;
 }
 
-.or-icon-plus:before {
+.or-icon-plus::before {
 	content: "\f067";
   font-family: FontAwesome;
   color: #fff;
@@ -7633,15 +7639,8 @@ display:inline-block;
     width: 100%;
 }
 
-.or-plus-box-v2 .or-icon-plus:before{
-	  content: "\f067";
-    font-family: FontAwesome;
-    color: #fff;
-    position: relative;
-}
-
 .or-plus-box-v2.or-plus-box-header.or-colorborder.or-wrapper-click.or-plus-box-header.or-plus-box-active .or-icon-plus:before{
-	    content: "\f068";
+	    content: "\f067";
 }
 
 .or-plus-box-v2 .or-icon-plus {
@@ -7678,7 +7677,7 @@ display:inline-block;
 .or-plus-box-diskret-header .plusboxxrubrik {
     padding-top: 8px;
     padding-bottom: 8px;
-    font-size: 11px;
+    font-size: 12px;
 }
 .or-plus-box-diskret-header .or-icon-plus::before {
     content: "\f067";
@@ -7691,6 +7690,10 @@ display:inline-block;
     background-color: #f9f9f8;
     width: 35px;
     border-left: 1px solid rgb(237, 234, 234);
+}
+
+.or-plus-box-header.or-plus-box-diskret-header.or-colorborder{
+border-color: rgb(237, 234, 234);
 }
 
 .or-plus-box-diskret-content {
@@ -8400,7 +8403,6 @@ box-shadow: 0px -48px 0px -30px rgba(174, 222, 239, 0.65) inset;
    cursor: default;
 }
 
-
 /********** OBS tar bort "facetten" Alla i sök *********/
 .or-total-count {
     display: none;
@@ -8436,6 +8438,10 @@ box-shadow: 0px -48px 0px -30px rgba(174, 222, 239, 0.65) inset;
 }
 
 /* Dela funktion på startsidor utan support bar */
+.or-startpage-extra{
+	margin-top:20px
+}
+
 .or-startpage-extra .or-stor-text-actions > div:nth-child(2) {
    padding-top:25px;
 }  
@@ -8631,7 +8637,6 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
     text-align: center;
 }
 
-
 /* formulär */
 .sv-formFieldRow, .sv-formField {
    margin-top: 20px;
@@ -8653,8 +8658,8 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
     height: 35px;
     font-size: 16px;
-	font-family: "open sans",sans-serif;
-	font-weight: 300
+    font-family: "open sans",sans-serif;
+    font-weight: 300		
 }
 
 
@@ -8662,7 +8667,7 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
     font-size: 16px;
     font-family: "open sans",sans-serif;
     font-weight: 300;
-    margin-bottom: 7px;
+    margin-bottom: 0;
 }
 
 .sv-defaultFormTheme input[type=text]:focus, textarea:focus {

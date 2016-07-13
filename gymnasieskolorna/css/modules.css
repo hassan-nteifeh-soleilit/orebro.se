@@ -388,8 +388,9 @@
  padding-bottom: 14px;
  padding-top: 14px;
  font-weight: 800;
- letter-spacing: 0.02em; 
+ letter-spacing: 0.02em;
  float: none;
+ padding-right: 40px;
 }
 
 .or-ny-action .or-action-text:first-letter {
@@ -428,7 +429,6 @@ margin-bottom: 10px;
 .or-ny-action:hover .or-action-text a:link{
 text-decoration:underline;
 }
-
 
 /* Relaterade länkar/dokument */
 .or-teaser-box {
@@ -611,7 +611,6 @@ ul.or-teaser-list {
     color: #35383b;
 } 
 
-
 /* tabeller */
 
 .sv-text-portlet table {
@@ -671,7 +670,6 @@ body .or-article-main .sv-responsiveTable--stacked__headRow p{
 	font-size: 14px;
 	padding: 5px 5px 5px 8px;
 }
-
 
 /**************************
 Process verktyg (gamla) 
@@ -844,6 +842,3 @@ div.sol_process_flow_container > div > div > div {
 {
 	display:none;
 }
-
-
-

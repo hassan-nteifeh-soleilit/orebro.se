@@ -334,7 +334,7 @@ a.or-action-text, .or-action-text a:hover {
 
 
 .normal .or-action-text a:link {
- font-size: 11px;
+ font-size: 11px!important;
   line-height: 16px;
   letter-spacing:0.04em;
 }
@@ -767,6 +767,11 @@ margin-top: -35px;
     font-size: 14px;
 }
 
+.sv-table-portlet caption,
+.sv-text-portlet table.sv-standard caption {
+	font-size: 16px;
+}
+
 /* processteg */
 .sol-accordion-heading {
  
@@ -829,7 +834,6 @@ margin-top: -35px;
 .sol-accordion-heading {
     display: block;
 }
-
 
 @media all and (max-width: 360px)
 {
@@ -938,12 +942,10 @@ width: 100%;
 }
 
 /* teaser box new metadata*/
-
 .or-teaser-box {
     margin-bottom: 10px;
     width: 100%;
     margin-top: 10px;
 }
-
 
 } /* End media break */
