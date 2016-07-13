@@ -666,3 +666,175 @@ body .or-article-main .sv-responsiveTable--stacked__headRow p{
 	font-size: 14px;
 	padding: 5px 5px 5px 8px;
 }
+
+/**************************
+Process verktyg (gamla) 
+**************************/
+/*
+.sol_process_flow_container{
+   height: auto;
+   position: relative;
+   width: auto;
+   padding-top: 19px;
+   padding-bottom: 10px;
+   padding-left: 2px;
+   padding: 15px;
+   border-style: solid;
+   border-width: 6px 1px 1px;
+   border-bottom-left-radius: 2px;
+   border-bottom-right-radius: 2px;
+}
+
+ul.sol_steps.clearfix {
+    background-color: #F4F3F1;
+    font-family: "Open Sans",sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    display: inline-block;
+    padding-left: 0px;
+      -webkit-padding-start: 0px;
+   -webkit-margin-after: -5px;
+   width:100%;
+}
+
+
+.sol_step {
+    font-weight: 400;
+    position: relative;
+    min-height: 60px;
+    width: 20%;
+    border-top-right-radius: 0px;
+    color: #35383B;
+    list-style-type: disc;
+    background-color: #F4F3F1;
+    cursor: pointer;
+    padding: 20px 11px 11px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.15em;
+    display: inline-block;
+    float: left;
+}
+
+ul.sol_steps.clearfix > li > span {
+    text-align: center;
+    line-height: 1.15em;
+    font-size: 12px;
+    font-family: "leaguespartan webfont",sans-serif;
+}
+
+.sol_step active{
+   float: left; 
+}
+
+li.sol_step.active {
+    color: #FFF;
+    font-weight: 700;
+    padding-top: 14px;
+    border: medium none;
+}
+
+.sol_process_flow_outer {
+    background-color: #FFF;
+    margin-bottom: 25px;
+    margin-top: -5px;
+}
+
+li.sol_step {
+   background-color: white;
+}
+
+div.sol_process_flow_container > div > div > div {
+   padding: 5px 0px 5px 15px;
+}
+
+.or-process-container{
+   position:relative!important;
+}
+*/
+
+/* Processkarta nya tabs */
+.sol-js-tabs-container 
+{
+	margin-bottom:25px;
+	width:100%;
+	margin-top: 20px;
+}
+
+.sol-tab-button-container .sol-tab-button
+{
+	background:#fff;
+	cursor:pointer;
+	display:table-cell;
+	font-family:"leaguespartan webfont",sans-serif;
+	font-size:12px;
+	line-height:1.2em;
+	padding:10px 20px;
+	text-align:center;
+}
+
+.sol-tab-button-container .sol-tab-button:hover {
+    color: #e83c23;
+}
+
+.sol-tab-button.sol-tab-active:hover {
+	color: #fff;
+}
+
+.sol-tab-button
+{
+	border:1px solid rgba(255,0,0,0.12);
+}
+
+.sol-tab-button.sol-tab-active
+{
+	background:#e83c23;
+	border-bottom:0;
+	border-left:0;
+	border-right:0;
+	border-top:5px solid #cf311a;
+	color:#fff;
+}
+
+.sol-tabs-decoration-content
+{
+	background-color:#fff;
+	border-bottom:1px solid rgba(232,60,35,0.20);
+	border-left:1px solid rgba(232,60,35,0.2);
+	border-right:1px solid rgba(232,60,35,0.2);
+	border-top:5px solid #e83c23;
+	padding:12px;
+}
+
+.sol-js-tabs-container .sv-responsive .sv-image-portlet img
+{
+	height:auto;
+	max-width:100%;
+	width:auto;
+}
+
+.sol-tabs-decoration-content .or-facts-block
+{
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:35px;
+	padding-top:30px;
+	width:90%;
+}
+
+.sol-tab-button-container
+{
+	display:table;
+	width:100%;
+}
+
+.sol-js-tabs-container ul
+{
+	margin:0;
+	padding:0;
+}
+
+.sol-accordion-heading
+{
+	display:none;
+}
