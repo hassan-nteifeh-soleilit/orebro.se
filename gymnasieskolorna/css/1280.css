@@ -17,7 +17,22 @@
   right: 0px;
 }
 
+} /* end 1280 */
 
-
-
+@media (max-width: 1024px) {
+	
+/* processlista */
+.sol-tab-button-container .sol-tab-button {
+    font-size: 12px;
 }
+
+} /* end 1024 */
+
+@media (min-width: 1350px) {
+	
+/* processlista */
+.sol-tab-button-container .sol-tab-button {
+    font-size: 13px;
+}
+
+} /* end 1350 */

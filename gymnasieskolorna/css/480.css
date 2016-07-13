@@ -767,9 +767,68 @@ margin-top: -35px;
     font-size: 14px;
 }
 
+/* processteg */
+.sol-accordion-heading {
+ 
+ border-top: 3px solid #F4F3F1;
+ margin: 0 0 5px; 
+ display: block;
+ cursor: pointer; 
+ border-radius: 2px;
+ /*background-color: #e83c23;
+ color: #fff;
+ padding: 5px 35px 5px 7px;
+ font-size: 12px;*/
+ background-color: #fff;
+ color: #e83c23;
+ padding: 8px 35px 8px 10px;
+ -moz-border-radius: 2px;
+ -webkit-border-radius: 2px;
+ border: 1px solid rgba(232, 60, 35, 0.22);
+ font-size: 13px!important;
+}
+
+.sol-accordion-heading:after {
+    content: "\f067";
+    font-family: FontAwesome;
+    padding-right: 6px;
+    color: #35383b;
+    position: absolute;
+    right: 35px;
+    /*font-size: 20px; */		
+		font-size: 18px;
+    font-weight: 400;	
+}
+
+.sol-accordion-heading.sol-tab-active:after{
+    font-family: FontAwesome;
+    padding-right: 6px;
+    color: #fff;
+    position: absolute;
+    right: 35px;
+    font-size: 20px;
+		/*content: "\f068";*/
+		content: "";
+}
 
 
+.sol-accordion-heading.sol-tab-active{
+    background-color: #e83c23;
+    color: #fff;
+    /*border: 2px solid #e83c23;*/
+		border: 0px solid #e83c23;
+		border-top: 5px solid #cf311a;
+    padding-bottom: 8px;
+}
 
+
+.sol-tab-button-container {
+    display: none;
+}
+
+.sol-accordion-heading {
+    display: block;
+}
 
 
 @media all and (max-width: 360px)
@@ -877,50 +936,6 @@ width: 100%;
     padding-right: 7px;
     padding-left: 7px;
 }
-
-/* processteg */
-.sol-accordion-heading {
- background-color: #e83c23;
- color: #fff;
- border-top: 3px solid #F4F3F1;
- margin: 0 0 5px;
- padding: 5px 35px 5px 7px;
- display: block;
- cursor: pointer;
- font-size: 12px;
- border-radius: 2px;
-}
-
-.sol-accordion-heading:after {
-    content: "\f067";
-    font-family: FontAwesome;
-    padding-right: 6px;
-    color: #35383b;
-    position: absolute;
-    right: 35px;
-    font-size: 20px;
-}
-
-.sol-accordion-heading.sol-tab-active:after{
-    content: "\f068";
-    font-family: FontAwesome;
-    padding-right: 6px;
-    color: #fff;
-    position: absolute;
-    right: 35px;
-    font-size: 20px;
-}
-
-.sol-accordion-heading.sol-tab-active{
-    background-color: #e83c23;
-    color: #fff;
-    border: 2px solid #e83c23;
-}
-
-.sol-tab-button-container {
-    display: none;
-}
-
 
 /* teaser box new metadata*/
 
