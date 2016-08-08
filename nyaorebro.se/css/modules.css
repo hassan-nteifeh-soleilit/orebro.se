@@ -5,7 +5,7 @@
 
 .cookieAlert {
     background-color: #35383B;
-    margin-top: -11px;
+    margin-top: -11px;4
     padding: 4px 0px;
     text-align: center;
 }
@@ -4279,7 +4279,7 @@ body .or-start-heading-divider .normal{
 body .or-puff-link .normal a {
     font-family: "leaguespartan webfont",sans-serif;
     box-shadow: rgba(174, 222, 239, 0.0)0px 0px 0px 0px inset;
-    color: #857672;
+    color: #f28c00;
     font-size: 13px;
     margin-bottom: 4px;
     display: inline-block;
@@ -4319,8 +4319,8 @@ body .or-puff-link .normal{
     border-color: transparent;
     border-style: solid;
     border-width: 17px;
-    border-right-color: rgba(133, 118, 114, 0.5);
-    border-bottom-color: rgba(133, 118, 114, 0.5);
+    border-right-color: #f28c00;
+    border-bottom-color: #f28c00;
 }
 
 /* Puff med ikon, rubrik och textyta */
@@ -4407,6 +4407,25 @@ body .or-puff-link .normal{
     -o-transition: color 0.3s ease-in;
     -ms-transition: color 0.3s ease-in;
     transition: color 0.3s ease-in;
+}
+
+.or-puff-icon-header-text .sv-use-margins .rubrikx4, .sv-use-margins h4 a{
+	margin: 0px;
+	font-size: 15px;
+	-webkit-transition: color 0.3s ease-in;
+    -moz-transition: color 0.3s ease-in;
+    -o-transition: color 0.3s ease-in;
+    -ms-transition: color 0.3s ease-in;
+    transition: color 0.3s ease-in;
+    box-shadow: rgba(174, 222, 239, 0.0)0px -14px 0px -10px inset;
+}
+
+.or-puff-icon-header-text .sv-use-margins .rubrikx4, .sv-use-margins h4 a:hover{
+	color: #f28c00;
+}
+
+.or-puff-icon-header-text:hover h4 a{
+	color: #f28c00;
 }
 
 .or-puff-icon-header-text > div:last-of-type {
