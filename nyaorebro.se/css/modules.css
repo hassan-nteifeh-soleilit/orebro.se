@@ -5731,6 +5731,10 @@ width: 100%!important;
 .or-tillstand-restaurang td.FlikEjValdBg:last-child  {
 	display:none;
 }
+.or-tillstand-restaurang .rubSokOmrade, 
+.or-tillstand-restaurang .inputSokOmrade {
+    display: none !important;
+}
 .or-tillstand-restaurang .flik a {
 	text-decoration: none;
 	box-shadow: rgba(174, 222, 239, 0.65) 0px -28px 0px -23px inset;
