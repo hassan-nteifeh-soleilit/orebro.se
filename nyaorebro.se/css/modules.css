@@ -5760,7 +5760,7 @@ width: 100%!important;
 }
 .or-tillstand-restaurang .FlikEjValdBg {
     background: #fff;
-    display: table-cell;
+    display: inline-block;
     font-family: "leaguespartan webfont",sans-serif;
     font-size: 11px;
     line-height: 1.2em;
