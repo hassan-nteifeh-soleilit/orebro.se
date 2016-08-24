@@ -1,3 +1,10 @@
+@media (min-width: 991px) {
+section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li {
+    padding: 10px 10px 0px 10px;
+    display: block;
+    width: 48%;
+    max-width: 48%;
+}}
 
 @media (max-width: 991px) {
   

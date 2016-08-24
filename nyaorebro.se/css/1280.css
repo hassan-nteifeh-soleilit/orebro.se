@@ -1,5 +1,20 @@
 
 
+@media (max-width: 1180px) {
+section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li {
+    padding: 10px 10px 0px 10px;
+    display: block;
+    width: 48%;
+    max-width: 48%;
+}}
+
+
+@media (min-width: 1180px) {
+section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-title {
+    font-size: 13px;
+}
+}
+
 
 @media (min-width: 1280px) {
 
@@ -11,6 +26,11 @@
 .or-social-badge {
   right: 0px;
 }
+
+section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-title {
+    font-size: 15px;
+}
+
 
 }  /* end 1280 */
 
@@ -38,6 +58,8 @@ padding-right: 20px;
     max-width: 95%;
 }
 
+
+
 }  /* end 1280 */
 
 
@@ -61,8 +83,6 @@ section.or-top-img-area {
 .or-start-bottom-tabs ul {
     padding: 10px 0px;
 }
-
-
 
 
 }
@@ -492,7 +512,7 @@ nav.or-secondary .or-content ul li a p {
 
 /* navigering nivå 2 */
 section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-title {
-    font-size: 17px;
+    font-size: 16px;
     padding-left: 25px;
 }
 
