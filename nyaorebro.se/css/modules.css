@@ -5886,7 +5886,8 @@ width: 100%!important;
 	font-family: "leaguespartan webfont",sans-serif;
 }
 .or-tillstand-restaurang .FlikValdText {
-	padding: 0 40px;	
+	padding: 0 40px;
+	color: #fff;	
 }
 .or-tillstand-restaurang a.FlikEjValdText,
 .or-tillstand-restaurang a.FlikEjValdText:visited,
