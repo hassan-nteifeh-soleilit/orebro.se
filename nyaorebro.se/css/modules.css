@@ -3054,6 +3054,7 @@ box-shadow: rgba(255, 255, 255, 1)0px -33px 0px -11px inset;
 
 .sv-text-portlet table td{
 	padding: 8px 6px;
+	vertical-align: top;
 }
 
 body .sv-text-portlet table.sv-standard td p {
