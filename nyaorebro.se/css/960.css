@@ -102,6 +102,7 @@ section.or-nav-content-section .or-puff-icon-header-text {
     -moz-box-sizing: border-box;
     min-height: 0px;
     float: left;
+    min-height: 70px;
 }
 
 section.or-nav-content-section .or-puff-icon-header-text .sv-use-margins .rubrikx4, .sv-use-margins h4 a{
@@ -123,6 +124,8 @@ section.or-nav-content-section .or-puff-icon-header-text .normal {
 
 section.or-nav-content-section .or-puff-icon-header-text > div:last-of-type {
     margin: 0px;
+    float: left;
+    width: 100%;
 }
 
 .or-content-page-2 .or-arrow-box::after {
