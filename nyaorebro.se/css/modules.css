@@ -5901,6 +5901,9 @@ width: 100%!important;
 .or-tillstand-restaurang .SokResAltStyle {
 	background-color: #fdf7f1;
 }
+.or-tillstand-restaurang .SokResStyle {
+	background-color: #fff;
+}
 .or-tillstand-restaurang .SokResAltStyle,
 .or-tillstand-restaurang .SokResStyle {
 	border: solid 1px #f3dcd0;	
