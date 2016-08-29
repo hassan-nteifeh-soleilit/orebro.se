@@ -563,8 +563,8 @@ ul.or-nav-list{
 section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li {
     padding: 10px 10px 0px 10px;
     display: block;
-    width: 32%;
-    max-width: 32%;
+    width: 31%;
+    max-width: 31%;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -webkit-flex-direction: row;

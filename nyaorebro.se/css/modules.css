@@ -2054,10 +2054,10 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
 .sv-font-action-penna:before, .sv-font-action-pil:before, .sv-font-action-karta:before, .sv-font-action-facebook:before, .sv-font-action-twitter:before {
     background-color: #E83C23;
     color: #fff;
-    width: 45px;
+    width: 50px;
     height: 100%;
     position: absolute;
-    font: normal normal normal 20px/46px FontAwesome;
+    font: normal normal normal 20px/50px FontAwesome;
     left: 0;
     top: 0;
     text-align: center;
@@ -2921,12 +2921,13 @@ body .or-news-filter .or-colorborder.or-wrapper-click.or-plus-box-header.or-plus
 }
 
 .or-file-list-row.or-simple-file-list-row {
-    margin-top: 10px;
-    margin-bottom: 5px;
-    padding: 9px 10px 3px;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    padding: 12px 10px 7px;
     float: left;
     width: 100%;
     box-sizing: border-box;
+    border-radius: 2px;
 }
 
 .or-document-icon-container {
