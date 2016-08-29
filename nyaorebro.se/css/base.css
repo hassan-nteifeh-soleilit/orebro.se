@@ -201,12 +201,7 @@ h4 a:hover{
 */
 
 /* bilder */
-.sv-responsive .sv-image-portlet img {
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-    max-height: none;
-}
+
 
 .or-full-width-max .pagecontent {
     max-width: 1140px;
@@ -795,8 +790,8 @@ body p.sv-portlet-image-caption {
     text-align: right;
     position: absolute;
     bottom: 0px;
-    right: 0px;
-    border-top-left-radius: 3px;
+    left: 0px;
+    border-top-left-radius: 0px;
 }
 
 .sv-image-portlet, .sv-image-portlet a {
