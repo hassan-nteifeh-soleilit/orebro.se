@@ -787,7 +787,7 @@ body p.sv-portlet-image-caption {
     background: rgba(255, 255, 255, 0.9);
     padding: 6px 11px;
     margin-top: 0px;
-    text-align: right;
+    text-align: left;
     position: absolute;
     bottom: 0px;
     left: 0px;
