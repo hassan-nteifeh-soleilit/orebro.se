@@ -450,6 +450,7 @@ section.or-top-img-area {
 }
 
 body section.or-top-img-area .or-top-img-text-area {
+	position: absolute;
     left: 0px;
     bottom: 0;
     padding: 10px 10px;
@@ -460,9 +461,6 @@ body section.or-top-img-area .or-top-img-text-area {
 }
 
 .or-top-img-text-area {
-    position: absolute;
-    left: 0px;
-    bottom: 0;
     max-width: 100%;
     width: 100%;
     background-size: contain;
