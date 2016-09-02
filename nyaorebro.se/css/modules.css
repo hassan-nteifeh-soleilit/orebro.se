@@ -4356,11 +4356,12 @@ body .or-puff-link .normal{
 }
 
 
-.or-puff-icon-header-text .normal a:link {
+.or-puff-icon-header-text .normal a:link, .or-puff-icon-header-text p{
     box-shadow: rgba(255, 255, 255, 0)0px 0px 0px 0px inset;
     font-weight: 300;
     font-size: 15px;
 }
+
 
 .or-puff-icon-header-text .normal a:link:hover {
     box-shadow: rgba(255, 255, 255, 0)0px 0px 0px 0px inset;
