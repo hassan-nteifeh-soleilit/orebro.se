@@ -16,11 +16,12 @@
 		init($(this));                     		
 		
 		$("a[href*='"+ options.ref +"']").click(function(event) {						
-			if ( $('.or-mobile-menu-bar').css('display') === 'none') {
-				$('.or-backdrop').show();			
-				$('.or-modal').fadeIn();
+			if ( $('.or-mobile-menu-bar').css('display') == 'none' ) {
+                $('.or-backdrop').show();			
+				$('.or-modal').fadeIn();				
+
 			} else {
-				$('#contactBtn').click();				
+                $('#contactBtn').click();				
 			}						
 		});
 		
