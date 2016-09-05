@@ -2924,7 +2924,7 @@ body .or-news-filter .or-colorborder.or-wrapper-click.or-plus-box-header.or-plus
     margin-top: 6px;
     margin-bottom: 15px;
     padding: 12px 10px 7px;
-    float: left;
+		height: 40px;
     width: 100%;
     box-sizing: border-box;
     border-radius: 2px;
