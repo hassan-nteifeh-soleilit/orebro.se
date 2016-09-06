@@ -590,6 +590,11 @@ li.sol-selected-facet:hover {
  border-top: 5px solid #f1ddec;
 }
 
+.sol-tab-button-container .sol-tab-button:hover {
+    color: #D196C1;    
+}
+
+
 .sol-accordion-heading.sol-tab-active {
  background-color: #D196C1;
  border: 2px solid #D196C1;

@@ -530,6 +530,9 @@ border: 1px solid rgba(246, 217, 177, 0.5);
  background: #F28C00;
  border-top: 5px solid #f3cd98;
 }
+.sol-tab-button-container .sol-tab-button:hover {
+    color: #F28C00;    
+}
 
 .sol-accordion-heading.sol-tab-active {
  background-color: #F28C00;
