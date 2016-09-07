@@ -5069,14 +5069,28 @@ table.or-bath-water th:not(:first-child)  {
 }
 
 .or-social-media-subpage .or-social-media-content .or-header {
-    margin-bottom: 4px;
+    margin-bottom: 9px;
     padding-left: 5px;
+    margin-top: -5px;
 }
 
 .or-social-media-subpage .or-social-media-content .or-header .fa-clock-o {
     margin-left: 0px;
 }
 
+.or-social-media-header.facebook{
+	font-family: "leaguespartan webfont",sans-serif; 
+	font-weight: 700; 
+	font-size: 13px; 
+	margin-top: 25px; 
+	margin-bottom: 3px;
+}
+
+.or-social-media-header.facebook .fa-stack {
+    margin-right: 5px;
+    position: relative;
+    top: -2px;
+}
 
 /* Faktarutor */
 .or-facts-block
