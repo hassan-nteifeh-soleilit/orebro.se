@@ -657,9 +657,11 @@ border-top: 5px solid #FFFBCF;
 color: #35383B;
 }
 
-.sol-tab-button-container .sol-tab-button:hover {
+.sol-tab-button-container .sol-tab-button:not(.sol-tab-active):hover {
     color: #FFF484;    
 }
+
+
 
 
 .sol-tabs-decoration-content{

@@ -551,7 +551,7 @@ li.sol-selected-facet:hover {
  border-top: 5px solid #606060;
 }
 
-.sol-tab-button-container .sol-tab-button:hover {
+.sol-tab-button-container .sol-tab-button:not(.sol-tab-active):hover {
     color: #35383b;    
 }
 

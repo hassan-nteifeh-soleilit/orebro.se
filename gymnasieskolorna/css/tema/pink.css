@@ -590,7 +590,7 @@ li.sol-selected-facet:hover {
  border-top: 5px solid #f1ddec;
 }
 
-.sol-tab-button-container .sol-tab-button:hover {
+.sol-tab-button-container .sol-tab-button:not(.sol-tab-active):hover {
     color: #D196C1;    
 }
 
