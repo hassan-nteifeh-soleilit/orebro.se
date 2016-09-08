@@ -215,7 +215,7 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
 }
 
 
-body .sv-text-portlet table.sv-standard td p {
+body .sv-text-portlet table.sv-standard td p, body .sv-text-portlet table.sv-standard td {
     font-size: 14px;
 }
 

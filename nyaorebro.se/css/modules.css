@@ -3043,6 +3043,15 @@ box-shadow: rgba(255, 255, 255, 1)0px -33px 0px -11px inset;
     padding-left: 6px;
 }
 
+.sv-responsiveTable--stacked__headRow th {
+    color: #fff;
+    line-height: 1.3em;
+    font-family: "leaguespartan webfont",sans-serif;
+    font-size: 12px;
+    padding-left: 3px;
+    padding-top: 2px;
+}
+
 
 
 .sv-text-portlet table.sv-standard th p{
@@ -3058,7 +3067,7 @@ box-shadow: rgba(255, 255, 255, 1)0px -33px 0px -11px inset;
 	vertical-align: top;
 }
 
-body .sv-text-portlet table.sv-standard td p {
+body .sv-text-portlet table.sv-standard td p, body .sv-text-portlet table.sv-standard td{
     font-size: 13px;
 }
 
@@ -3093,8 +3102,14 @@ font-size: 13px;
 	border-bottom: solid 1px #f3dcd0;
 }
 
-body .sv-responsiveTable--stacked__headRow{
+body .sv-text-portlet table.sv-standard .sv-responsiveTable--stacked__headRow{
 	background-color: #E83C23!important;
+	color: #fff;
+    line-height: 1.3em;
+    font-family: "leaguespartan webfont",sans-serif;
+    font-size: 12px;
+    padding-left: 3px;
+    padding-top: 2px;
 }
 
 body .sv-responsiveTable--stacked__headRow--main{
