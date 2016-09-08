@@ -4303,11 +4303,11 @@ body .or-puff-link .normal a {
     display: inline-block;
 }
 
-body .level-2-puff .or-puff-link .normal a{
+body .or-content-page-2 .or-puff-link .normal a{
 	color: #857672;
 }
 
-body .level-2-puff .or-puff-link::before {
+body .or-content-page-2 .or-puff-link::before {
     border-right-color: #857672;
     border-bottom-color: #857672;
 }
