@@ -26,54 +26,9 @@ section.or-breadcrumbs-area {
     display: none;
 }
 
-
-
 }
 
 
-
-
-
-@media all and (max-width: 768px){
-	
-
-nav.or-breadcrumbs li a, nav.or-breadcrumbs li span {
-    font-size: 10px;
-}	
-
-.or-contact-block-startpage{
-	display: none!important;
-}
-
-.or-red-header-box {
-    margin-top: 0px;
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 55px!important;
-    max-width: 100%;
-}
-
-.driftstorningar-container.or-bg-white {
-    padding: 5px 20px 2px 20px;
-    margin-bottom: 0px;
-    min-height: 75px;
-}
-
-.or-red-header-box .box-header:before {
-    content: "";
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 9px 9px 0 9px;
-    border-color: #e83c23 transparent transparent transparent;
-    position: absolute;
-    bottom: -8px;
-    left: 15px;
-    z-index: 1;
-}
-
-}
 
 @media all and (min-width: 767px){
 .or-news-filter .or-plus-box-diskret-header.or-plus-box-active .or-collapse-button {
@@ -150,8 +105,9 @@ section.or-article-main .or-content-padding {
     padding-right: 10px;
 }
 
-
-
+nav.or-breadcrumbs li a, nav.or-breadcrumbs li span {
+    font-size: 10px;
+}	
 /* Sök i mobil */
 
 header.or-search-mobile {
@@ -241,7 +197,7 @@ body .or-content-container .or-tir h2 {
     font-size: 16px;
 }
 
-body .or-content-container .or-tir p, body .or-content-container .or-tir p a{
+body .or-content-container .or-tir p, body .or-content-container .or-tir p a:link{
     font-size: 15px;
 }
 
@@ -552,6 +508,40 @@ body section.or-top-img-area .brodtextxxfetx {
 }
 
 /* driftstörningar/kontakt startsida */
+
+.driftstorningar-container.or-bg-white {
+    padding: 5px 20px 2px 20px;
+    margin-bottom: 0px;
+    min-height: 75px;
+}
+
+.or-contact-block-startpage{
+	display: none!important;
+}
+
+.or-red-header-box {
+    margin-top: 0px;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 55px!important;
+    max-width: 100%;
+}
+
+
+
+.or-red-header-box .box-header:before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 9px 9px 0 9px;
+    border-color: #e83c23 transparent transparent transparent;
+    position: absolute;
+    bottom: -8px;
+    left: 15px;
+    z-index: 1;
+}
 
 .or-red-header-box .box-header .or-tool-service {
     width: 18px;

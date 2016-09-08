@@ -308,7 +308,7 @@ body .or-puff-link .normal a {
 
 /* Temporär info ruta */
 
-body .or-content-container .or-tir p, body .or-content-container .or-tir p a {
+body .or-content-container .or-tir p, body .or-content-container .or-tir p a:link {
     font-size: 17px;
 }
 
