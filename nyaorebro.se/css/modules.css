@@ -4303,6 +4303,15 @@ body .or-puff-link .normal a {
     display: inline-block;
 }
 
+body .level-2-puff .or-puff-link .normal a{
+	color: #857672;
+}
+
+body .level-2-puff .or-puff-link::before {
+    border-right-color: #857672;
+    border-bottom-color: #857672;
+}
+
 body .or-puff-link .normal a:hover {
     box-shadow: rgba(174, 222, 239, 0.0)0px 0px 0px 0px inset;
     color: #35383b;
