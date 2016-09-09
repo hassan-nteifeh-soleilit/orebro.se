@@ -4303,6 +4303,10 @@ body .or-puff-link .normal a {
 	 display: inline-block;
 }
 
+body .or-content-page-2 .or-puff-link {
+    background-color: #fff;
+}
+
 body .or-content-page-2 .or-puff-link .normal a{
 	color: #857672;
 }
@@ -4310,6 +4314,13 @@ body .or-content-page-2 .or-puff-link .normal a{
 body .or-content-page-2 .or-puff-link::before {
     border-right-color: #857672;
     border-bottom-color: #857672;
+    bottom: -4px;
+    right: -4px;
+}
+
+body .or-content-page-2 .or-puff-link::after {
+    bottom: 1px;
+    right: 1px;
 }
 
 body .or-puff-link .normal a:hover {
