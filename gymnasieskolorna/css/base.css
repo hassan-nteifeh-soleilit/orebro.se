@@ -6051,7 +6051,10 @@ width: 60%;
 }
 
 .or-stor-bild-text-actions .sv-field-title-container.sv-bold{
-   display:none;
+    font-size: 11px;
+    margin-bottom: 3px;
+    line-height: 1em;
+    margin-top: 5px;
 }
 
 .or-stor-bild-text-actions .sv-use-margins h2 {
