@@ -3041,6 +3041,8 @@ box-shadow: rgba(255, 255, 255, 1)0px -33px 0px -11px inset;
     background-color: #e83c23;
     border-bottom: solid 2px rgba(255, 255, 255, 0.25);
     padding-left: 6px;
+    font-family: "leaguespartan webfont",sans-serif;
+    color: #fff;
 }
 
 .sv-responsiveTable--stacked__headRow th {
