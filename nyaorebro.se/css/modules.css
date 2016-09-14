@@ -2427,7 +2427,8 @@ ul > li.kontaktaxossxxxbrodtext:last-child{
     margin-bottom: 0px;
 }
 
-.sv-defaultFormTheme .sv-form-singleselectionfield label, .sv-defaultFormTheme .sv-form-multipleselectionfield label {
+
+.sv-defaultFormTheme .sv-form-singleselectionfield label, .sv-defaultFormTheme .sv-form-multipleselectionfield label, .sv-formFieldRow span{
     font-size: 14px;
     font-weight: 300;
     position: relative;
