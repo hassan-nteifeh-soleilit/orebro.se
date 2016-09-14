@@ -16,6 +16,15 @@ header {
     height: 53px;
 }
 
+.or-header-bottomtext{
+    font-size: 13px;
+    text-align: left;
+    padding: 6px 5px 5px 15px;
+    color: #35383b;
+    line-height: 1.1em;
+    margin-top: 1px;
+}
+
 body {
     padding-top: 50px;
 }
@@ -1083,14 +1092,7 @@ body .or-puff-link .normal a:link {
 	height: 41px;
 }
 
-.or-mobile-nav-column h4 {
-    font-size: 13px;
-    text-align: left;
-    padding: 6px 5px 5px 15px;
-    color: #35383b;
-    line-height: 1.1em;
-    margin-top: 1px;
-}
+
 
 .or-mobile-nav-column.search-column:first-child {
     width: 110px;
