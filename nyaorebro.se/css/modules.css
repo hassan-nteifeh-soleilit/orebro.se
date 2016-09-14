@@ -3555,6 +3555,7 @@ section.or-bg-one {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: top;
 }
 
 .hero-startsida .or-secondary .or-content ul li a h3 {

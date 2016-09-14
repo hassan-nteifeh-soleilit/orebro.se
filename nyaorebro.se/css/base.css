@@ -788,14 +788,16 @@ nav.or-breadcrumbs li:last-child  a:after
 
 body p.sv-portlet-image-caption {
     font-size: 12px;
-    background: rgba(255, 255, 255, 0.9);
-    padding: 6px 11px;
+    /* background: rgba(255, 255, 255, 0.9); */
+    /* padding: 6px 11px; */
     margin-top: 0px;
     text-align: left;
-    position: absolute;
+    /* position: absolute; */
     bottom: 0px;
     left: 0px;
     border-top-left-radius: 0px;
+    margin-bottom: 15px;
+    margin-top: 10px;
 }
 
 .sv-image-portlet, .sv-image-portlet a {
