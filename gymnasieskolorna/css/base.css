@@ -3939,8 +3939,8 @@ filter: alpha(opacity=90);
 
 /* Pil efter ikonrutan */
 .or-action-content span.fa:after {
-  left: 100%;
-  top: 50%;
+  left: 94%;
+  top: 53%;
   border: solid transparent;
   content: " ";
   height: 0;
@@ -6047,11 +6047,18 @@ width: 60%;
 }
 
 .or-stor-bild-text-actions .sv-defaultFormTheme .sv-field-title-container.sv-bold label{
-   display:none;
+    font-size: 11px;
+    margin-bottom: 0px;
+    line-height: 1em;
+    margin-top: 5px;
 }
 
 .or-stor-bild-text-actions .sv-field-title-container.sv-bold{
-   display:none;
+     /* display: none; */
+    font-size: 11px;
+    margin-bottom: 3px;
+    line-height: 1em;
+    margin-top: 5px;
 }
 
 .or-stor-bild-text-actions .sv-use-margins h2 {
@@ -6097,7 +6104,7 @@ position: absolute;   left: 25px;   bottom: 25px;   width: 80%;
 
 .or-startpage-extra .or-stor-bild-text-actions > div:nth-child(2) {
  width: 40%;
- padding: 50px 20px 20px 30px;
+ padding: 30px 20px 20px 30px;
  float: left;
 }
 
@@ -7140,7 +7147,7 @@ color: #35383B;
 
 .or-sketch-text {
   width: 30%;
-  margin-top: 5px;
+  margin-top: 30px;
   float: right;
   border-radius: 50px;
   background-color: #f4f3f1;
@@ -7444,7 +7451,7 @@ display:inline-block;
 }
 
 
-.or-plus-box-program.or-plus-box-content caption, .or-plus-box-program.or-plus-box-content thead {	
+body:not(.sv-editing-mode) .or-plus-box-program.or-plus-box-content caption, body:not(.sv-editing-mode) .or-plus-box-content thead {	
   display: none!important;
 }	 
 
@@ -7572,7 +7579,6 @@ display:inline-block;
 }
 
 /* PLUSBOX V2*/
-/*
 .or-plus-box-v2.or-plus-box-header {
     width: 100%;
     margin-top: 13px;
@@ -7591,7 +7597,7 @@ display:inline-block;
     padding-right: 45px;
     box-sizing: border-box;
 }
-*/
+
 .or-plus-box-v2.or-plus-box-header:hover .plusboxxrubrik {    
     text-decoration: underline;
 }
@@ -7883,11 +7889,10 @@ border-color: rgb(237, 234, 234);
 }
 
 
-.normal .or-action-text a:link {
+.normal .or-action-text a {
   font-family: "leaguespartan webfont",sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #35383b;
   text-decoration: none;
   line-height: 20px;
   font-size: 12px;
