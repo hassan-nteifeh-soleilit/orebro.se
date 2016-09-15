@@ -92,7 +92,6 @@ header
 {
 	background:#FFF;
 	min-height:90px;
-	margin-bottom:5px;
 	padding:10px 15px 1px;
 }
 
@@ -327,6 +326,7 @@ section.or-breadcrumbs-area
 {
 	background:#fff;
 	padding-left: 20px;
+	margin-top: 5px;
 }
 
 .or-breadcrumbs-area .or-wider
