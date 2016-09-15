@@ -107,7 +107,10 @@
 			});
 		 
 					
-
+			/* Expandera meny items */
+			$(".or-tree .or-toggle-panel").click(function() {
+				$(this).parent().toggleClass("or-expanded");
+			});
              
       /* Responsiva tabeller */  
       $(".sv-table-portlet table").stacktable({myClass:'stacktable small-only'});

@@ -838,3 +838,87 @@ div.sol_process_flow_container > div > div > div {
 {
 	display:none;
 }
+
+/* Modal popup */
+.or-modal {
+    position: fixed;
+    display: none;
+    border: 1px solid #fff;
+    box-shadow: 0px 2px 7px rgba(41, 41, 41, 0.2);
+    -moz-box-shadow: 0px 2px 7px rgba(41, 41, 41, 0.2);
+    -webkit-box-shadow:0px 2px 7px rgba(41, 41, 41, 0.2);
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    background: #f2f2f2;
+    z-index: 9997;
+}
+
+
+.or-modal-close {
+    position: absolute;
+    top: 20px;
+    right: -51px;
+    float: left;
+    display: block;
+    height: 45px;
+    width: 50px;
+    font-weight: bold;
+    font-size: 11px;
+    background-color: #e83c23;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    box-shadow: 3px 0px 6px -3px rgba(0, 0, 0, 0.4) inset;
+    text-align: center;
+    color: #fff;
+}
+
+.or-modal-close:hover {
+    background-color: #35383b;
+}
+
+.or-modal-close .fa-close {
+    color: #FFFFFF;
+    font-size: 17px;
+    width: 100%;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.or-modal-content {
+    background-color: #fff;
+    padding: 35px 10px 10px 10px;
+    margin: 7px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.or-modal-content-right-column{
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.or-modal-content-left-column{
+	margin-left: 0px;
+	border-right: 2px dotted rgb(192, 192, 192);
+	padding-left: 10px;
+	padding-bottom: 20px;
+	margin-right: 20px;
+	min-height: 100%;
+}
+
+.or-modal .or-kontakt-och-tyck-till h3 {
+    color: #e83c23;
+    margin-top: 0px;
+}
+
+.or-backdrop, .or-menu-backdrop{
+	position:fixed;
+	top:0;
+	left:0;
+	background-color:rgba(0,0,0,0.6);
+	height:100%;
+	width:100%;
+	z-index:9995;
+}
