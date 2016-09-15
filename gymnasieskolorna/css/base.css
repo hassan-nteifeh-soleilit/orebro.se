@@ -6047,7 +6047,10 @@ width: 60%;
 }
 
 .or-stor-bild-text-actions .sv-defaultFormTheme .sv-field-title-container.sv-bold label{
-   display:none;
+    font-size: 11px;
+    margin-bottom: 0px;
+    line-height: 1em;
+    margin-top: 5px;
 }
 
 .or-stor-bild-text-actions .sv-field-title-container.sv-bold{
