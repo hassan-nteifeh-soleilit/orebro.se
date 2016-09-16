@@ -1,0 +1,84 @@
+##
+## Utility API
+#set ($endecUtil = $sitevisionUtils.endecUtil)
+#set ($propertyUtil = $sitevisionUtils.propertyUtil)
+
+##
+## Portlet properties
+#set ($useLinkImage = $propertyUtil.getBoolean($portlet, 'useLinkImage'))
+#set ($linkImageURL = $propertyUtil.getString($portlet,'linkImageURL'))
+#set ($useLinkText = $propertyUtil.getBoolean($portlet, 'useLinkText'))
+#set ($linkText = $propertyUtil.getString($portlet, 'linkText'))
+#set ($linkTextFont = $propertyUtil.getNestedString($portlet, 'linkTextFont', 'selectorText'))
+#set ($linkURL = $propertyUtil.getString($portlet, 'linkURL'))
+#set ($jsURL = $propertyUtil.getString($portlet, 'jsURL'))
+#set ($playerDivId = $propertyUtil.getString($portlet, 'playerDivId'))
+#set ($isOnline = $propertyUtil.getBoolean($portlet, 'isOnline'))
+#set ($useClassicLook = $propertyUtil.getBoolean($portlet, 'useClassicLook'))
+
+#set ($linkURL = $linkURL.replace('gymnasieskolor.orebro.se', 'www.orebro.se'))
+#set ($linkURL = $linkURL.replace('///', '//www.orebro.se/'))
+
+
+
+
+
+
+
+
+##
+## Link tooltip
+#if ($propertyUtil.getBoolean($portlet,'useLinkTooltip'))
+   #set ($linkToolTip = $propertyUtil.getString($portlet,'linkToolTip'))
+#else
+   #set ($linkTooltip = "")
+#end
+
+
+
+##
+## Classic look before ReadSpeaker 2013 upgrade
+#if ($useClassicLook)
+   ##
+   ## Link and JavaScript
+   #if ($isOnline)
+      <script type="text/JavaScript" src="$jsURL"></script>        
+        <a accesskey="L" class="w-inline-block or-support-nav lyssna rs_skip" href="$linkURL" onclick="readpage(this.href,'readspeaker_player_div'); return false;">        
+   #else
+      <a accesskey="L" class="w-inline-block or-support-nav lyssna rs_skip" href="$linkURL" onclick="return false;">
+   #end
+
+   ##
+   ## Icon
+   #if ($useLinkImage && $useLinkText)
+      ###<img class="sv-noborder sv-vamiddle" src="$linkImageURL" alt="$linkToolTip" title="$linkToolTip" />&nbsp;$endecUtil.escapeXML($linkText)
+      <i class="fa fa-volume-up" style="font-size:17px;"></i>
+      <!--img class="sv-noborder" src="/images/18.e7f0d3414b171bc46c10b3/1422370947401/listen.svg" width="17"  alt="Lyssna"--><div class="supportlinks">Lyssna</div>   
+   #elseif ($useLinkImage)
+      <img class="sv-noborder" src="$linkImageURL" alt="$linkToolTip" title="$linkToolTip" />
+   #else
+      $endecUtil.escapeXML($linkText)
+   #end
+   </a>
+
+   ##
+   ## The player will show up in this DIV, it can be moved, but not inside the read area.
+   <div id='$playerDivId' class="rs_skip rs_preserve"></div>
+#else
+   ##
+   ## Only render JavaScript in online
+   #if ($isOnline)
+      <script type="text/JavaScript" src="$jsURL"></script>
+   #end
+
+   <div id="readspeaker_button1" class="rs_skip rsbtn rs_preserve">
+      <a accesskey="L" class="rsbtn_play" title="$linkToolTip" href="$linkURL"#if(!$isOnline) onclick="return false;"#end>
+         <span class="rsbtn_left rsimg rspart">
+            <span class="rsbtn_text">
+               <span>$endecUtil.escapeXML($linkText)</span>
+            </span>
+         </span>
+         <span class="rsbtn_right rsimg rsplay rspart"></span>
+      </a>
+   </div>
+#end

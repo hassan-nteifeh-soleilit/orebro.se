@@ -1,24 +1,17 @@
-// Soleil IT
-//
-// Följande css-klasser sätts: ....
-//
 // Globala variabler
-var SESSION = request.getAttribute("sitevision.jcr.session");
-var SV_UTILS = request.getAttribute("sitevision.utils");
-var CURRENT_PAGE = SV_UTILS.getPortletContextUtil().getCurrentPage();
-var propertyUtil = require('PropertyUtil');
+var PropertyUtil = require('PropertyUtil');
 var linkRenderer = require('LinkRenderer');
-var output = require('OutputUtil');
-var nodeIteratorUtil = require('NodeIteratorUtil');
-var nodeTreeUtil = require('NodeTreeUtil');
-var nodeTypeUtil = require('NodeTypeUtil');
+var NodeIteratorUtil = require('NodeIteratorUtil');
+var NodeTreeUtil = require('NodeTreeUtil');
+var NodeTypeUtil = require('NodeTypeUtil');
+var PortletContextUtil = require('PortletContextUtil');
 
-
-var ROOT = propertyUtil.getNode(CURRENT_PAGE, "menustart");
+var currentPage = PortletContextUtil.getCurrentPage();
+var menuStart = PropertyUtil.getNode(currentPage, "menustart");
 
 // Loopar över alla undernoder och anropar callback
 var forEachChild = function(node, callback) {
-    var children = nodeIteratorUtil.getMenuItems(node);
+    var children = NodeIteratorUtil.getMenuItems(node);
     while (children.hasNext()) {
         var child = children.next();
         callback(child);
@@ -26,30 +19,28 @@ var forEachChild = function(node, callback) {
 };
 
 var hasChildren = function(node) {
-    return nodeIteratorUtil.getMenuItems(node).hasNext();
+    return NodeIteratorUtil.getMenuItems(node).hasNext();
 };
 
-// En nod är expanderad om CURRENT_PAGE är ättling till noden.
+// En nod är expanderad om currentPage är ättling till noden.
 var isNodeExpanded = function(node) {
-    return (node != CURRENT_PAGE) && nodeTreeUtil.isDescendantOf(CURRENT_PAGE, node);
+    return (node != currentPage) && NodeTreeUtil.isDescendantOf(currentPage, node);
 };
 
-// Returnerar om node är en länk till CURRENT_PAGE
+// Returnerar om node är en länk till currentPage
 var isNodeLinkToCurrentPage = function(node) {
-
-    if (nodeTypeUtil.isLink(node)) {
-        var currentURL = propertyUtil.getString(CURRENT_PAGE, "URL");
-        var nodeURL = propertyUtil.getString(node, "URL");
+    if (NodeTypeUtil.isLink(node)) {
+        var currentURL = PropertyUtil.getString(currentPage, "URL");
+        var nodeURL = PropertyUtil.getString(node, "URL");
         if (nodeURL.equals(currentURL)) {
             return true;
         }
     }
-
     return false;
 };
 
 var getProperty = function(node, property) {
-    return propertyUtil.getString(node, property);
+    return PropertyUtil.getString(node, property);
 };
 
 var getURI = function(node) {
@@ -69,14 +60,14 @@ var getMetadata = function(node) {
 var createLiCssClass = function(node) {
     var css = [];
 
-    if (node == CURRENT_PAGE || isNodeLinkToCurrentPage(node)) {
-        css.push(CSS_PREFIX + "current");
+    if (node == currentPage || isNodeLinkToCurrentPage(node)) {
+        css.push("or-current");
     }
 
     if (hasChildren(node)) {
-        css.push(CSS_PREFIX + "parent");
+        css.push("or-parent");
         if (isNodeExpanded(node)) {
-            css.push(CSS_PREFIX + "expanded");
+            css.push("or-expanded");
         }
     }
 
@@ -91,12 +82,12 @@ var createMenuRecursive = function(node, depth) {
         var displayName = getDisplayName(node);
         out.println('<li class="' + createLiCssClass(node) + '">');        
         if (hasChildren(node)) {
-            out.println('<span class="' + CSS_PREFIX + 'toggle-panel"><span class="' + CSS_PREFIX + 'toggle-icon"></span></span>');            
+            out.println('<span class="or-toggle-panel"><span class="or-toggle-icon"></span></span>');            
 
             var childDepth = depth + 1;
             linkRenderer.update(node);
             out.println(linkRenderer.render());
-            out.println('<ul class="' + CSS_PREFIX + 'depth-' + childDepth + '">');
+            out.println('<ul class="or-depth-' + childDepth + '">');
             forEachChild(node, function(child) {
                 createMenuRecursive(child, childDepth);
             });
@@ -113,20 +104,20 @@ var createMenuRecursive = function(node, depth) {
 // Skriver ut en meny
 var createMenu = function() {
     var startDeepth = 0;
-    out.println('<nav id="menu-2" class="' + CSS_PREFIX + 'tree">');
+    out.println('<nav id="menu-2" class="or-tree">');
 
-    if (ROOT) {
-        out.println('<div class="' + CSS_PREFIX + 'mobile-nav-bar">');
+    if (menuStart) {
+        out.println('<div class="or-mobile-nav-bar">');
        
-        linkRenderer.update(ROOT);
+        linkRenderer.update(menuStart);
         linkRenderer.setText("Örebro kommun");
         linkRenderer.setFontClass("or-menu-title");
         out.println(linkRenderer.render());	        
         out.println('<a href="#" class="or-push-nav-btn"><i class="fa fa-close"></i>STÄNG</a>');
         out.println('</div>');
 
-        out.println('  <ul class="' + CSS_PREFIX + 'depth-' + startDeepth + '">');
-        forEachChild(ROOT, function(child) {
+        out.println('  <ul class="or-depth-' + startDeepth + '">');
+        forEachChild(menuStart, function(child) {
             createMenuRecursive(child, startDeepth);
         });
         out.println('  </ul>');
@@ -135,8 +126,4 @@ var createMenu = function() {
 };
 
 // Start skript
-var CSS_PREFIX = "or-";
 createMenu();
-
-
-var dollar = "$";
