@@ -555,8 +555,7 @@ p.or-close-text {
 }
 
 /* Kontakt och tyck till rad */
-.or-contact-block,
-.or-contact-block.or-blogg-width {
+.or-comment-heading-container{
 	display:none;	
 }
 

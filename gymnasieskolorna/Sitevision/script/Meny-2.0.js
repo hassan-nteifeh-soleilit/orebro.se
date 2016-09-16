@@ -109,8 +109,7 @@ var createMenu = function() {
     if (menuStart) {
         out.println('<div class="or-mobile-nav-bar">');
        
-        linkRenderer.update(menuStart);
-        linkRenderer.setText("Örebro kommun");
+        linkRenderer.update(menuStart);        
         linkRenderer.setFontClass("or-menu-title");
         out.println(linkRenderer.render());	        
         out.println('<a href="#" class="or-push-nav-btn"><i class="fa fa-close"></i>STÄNG</a>');
