@@ -1245,5 +1245,7 @@ nav.or-secondary .or-content ul li a:hover p {
     text-decoration: underline;
 }
 
-
+.or-no-scroll {
+    overflow-y: hidden;
+}
 
