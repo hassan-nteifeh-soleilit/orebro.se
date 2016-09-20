@@ -313,6 +313,10 @@ MENY
 	background-color: #F4F4F4;
 }
 
+.or-tree .or-depth-3>li> a:hover{
+	background-color: #F4F4F4;
+}
+
 .or-tree .or-depth-3 > li > a:hover{
 	background-color: #F4F4F4;
 }
