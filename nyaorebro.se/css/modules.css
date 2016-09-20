@@ -1015,6 +1015,10 @@ label.or-fieldlabelhelpus
 	padding:0;
 }
 
+.or-helpus .or-forms label {
+    padding-left: 0px;
+}
+
 .or-helpusinput
 {
 	background-color:#FFF;
@@ -1837,7 +1841,7 @@ footer {
     margin-top: 5px;
 }
 
-body .or-content-container .or-tir h2 {
+body .pagecontent .or-tir h2 {
     margin-top: 0px;
     font-size: 17px;
 }
