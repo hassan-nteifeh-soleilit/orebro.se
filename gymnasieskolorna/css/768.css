@@ -20,6 +20,10 @@ header {
 	display: block;
 }
 
+.or-mobile-nav-bar{
+	display: none;
+}
+
 } /* End max-width: 700px */
 
 @media all and (max-width: 767px)
@@ -859,7 +863,7 @@ width:65%;
     text-decoration: none;
     float: right;
     border-left: 1px solid #E8E8E8;
-		height: 41px;
+		height: 53px;
 		/*line-height:normal;*/
 }
 
@@ -1037,9 +1041,7 @@ body {
 .or-puff-instagram > div:nth-child(1) {
     padding-left: 0px;
 }
-.or-mobile-nav-bar{
-	display: none;
-}
+
 
 
 }
