@@ -361,6 +361,7 @@ MENY
     border-bottom: 0px;
     padding: 8px 0px 8px;
     font-weight: 700;
+    line-height: 1.3em;
 }
 
 .or-mobile-nav-bar > a:hover{
