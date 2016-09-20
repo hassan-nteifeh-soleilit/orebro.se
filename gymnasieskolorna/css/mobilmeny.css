@@ -174,7 +174,7 @@ MENY
     width: 14px;
     line-height: 1.4em;
     margin-left: -7px;
-    margin-top: -7px;
+    margin-top: -8px;
 }
 
 
@@ -375,8 +375,8 @@ MENY
     text-align: left;
     cursor: pointer;
     padding-left: 12px;
-    padding-top: 11px;
-    padding-bottom: 10px;
+    padding-top: 13px;
+    padding-bottom: 13px;
 }
 
 .or-mobile-nav-bar i{
