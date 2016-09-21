@@ -50,12 +50,14 @@
 			if (sizeStr) {
 				switch (icon) {
 					case 'doc':
+					case 'docx':
 						icon = 'word';
 						break;
 					case 'pdf':
 						icon = 'pdf';
 						break;
 					case 'xls':
+					case 'xlsx':
 						icon = 'excel';
 						break;
 					default:
