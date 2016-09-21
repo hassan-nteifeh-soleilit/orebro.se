@@ -1020,15 +1020,6 @@ body .or-puff-link .normal a:link {
 }
 
 
-@media all and (max-width: 767px){
-
-
-
-
-
-} /* end 767 */
-	
-
 	
 /* mobilmeny */
 
@@ -1193,7 +1184,7 @@ body .or-puff-link .normal a:link {
 
 
 
-}   /* end 768 */
+
 
 
 @media (min-width: 766px) {
