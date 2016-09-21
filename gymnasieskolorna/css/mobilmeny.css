@@ -197,7 +197,7 @@ MENY
    -ms-transform: rotate(180deg);
    transform: rotate(180deg);
    content: '\f068';
-   top: 15px;
+   top: 14px;
 }
 
 .or-current.or-parent.or-expanded{
@@ -424,3 +424,7 @@ MENY
 .sc-landing-page-card .sc-arrow-read-more {
     border-width: 0 0 40px 40px;
 }
+
+
+
+

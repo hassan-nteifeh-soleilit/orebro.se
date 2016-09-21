@@ -1,5 +1,52 @@
 ﻿/* Färg tema */
 
+/* ny mobilmeny */
+.or-mobile-nav-column i.fa {
+    color: #0098bd;
+    font-size: 24px;
+    margin-bottom: 6px;
+}
+
+.or-tree {
+    background: #0098bd;
+}
+
+.or-tree ul li a {
+    background-color: #0098bd;
+}
+
+.or-tree ul li a:hover {
+    background-color: #02809e;
+}
+
+.or-depth-1 li.or-current a {
+    border-left: 4px solid #0098bd;
+}
+
+.or-tree .or-current a {
+background-color: #B92E18;
+solid #B92E18;
+}
+
+.or-tree .or-depth-1 .or-parent .or-toggle-icon:before {
+color: #0098bd;
+}
+
+.or-tree .or-depth-2 .or-parent .or-toggle-icon:before {
+color: #0098bd;
+}
+
+.or-tree .or-depth-1 .or-parent .or-toggle-icon, .or-tree .or-depth-2 .or-parent .or-toggle-icon, .or-tree .or-depth-3 .or-parent .or-toggle-icon, .or-tree .or-depth-4 .or-parent .or-toggle-icon, .or-tree .or-depth-5 .or-parent .or-toggle-icon {
+border: 2px solid #fbb3a9;
+}
+
+/* end ny mobilmeny */
+
+
+.or-mobile-nav-bar .or-push-nav-btn {
+    background-color: #0098bd;
+}
+
 .colortext{
 color:#0098bd;
 }
@@ -585,48 +632,6 @@ body .sv-font-action-penna.or-wrapper-click:hover, body .sv-font-action-pil.or-w
 }
 
 
-/* nya mobilmenyn */
-
-.or-tree {
-	background: #0098bd;
-}
-
-.or-mobile-nav-bar .or-push-nav-btn {
-	background-color:#0098bd;
-}
-
-.or-mobile-nav-bar .or-push-nav-btn:hover {
-	background-color: #bc3925;
-}
-
-.or-tree ul li a {
-	background-color: #0098bd;
-}
-
-.or-tree ul li a:hover {
-	background-color: #bc3925;
-}
-
-.or-depth-1 li.or-current a {
-	border-left: 4px solid #0098bd;
-}
-
-.or-tree .or-current a {
-	 background-color: #B92E18;
-	solid #B92E18;
-}
-
-.or-tree .or-depth-1 .or-parent .or-toggle-icon:before {
-	color: #0098bd;
-}
-
-.or-tree .or-depth-2 .or-parent .or-toggle-icon:before {
-	color: ##0098bd;
-}
-
-.or-tree .or-depth-1 .or-parent .or-toggle-icon, .or-tree .or-depth-2 .or-parent .or-toggle-icon, .or-tree .or-depth-3 .or-parent .or-toggle-icon, .or-tree .or-depth-4 .or-parent .or-toggle-icon, .or-tree .or-depth-5 .or-parent .or-toggle-icon {
-	border: 2px solid #fbb3a9;
-}
 
 
 /* Slut ny action formatmall */
