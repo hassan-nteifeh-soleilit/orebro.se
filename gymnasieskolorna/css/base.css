@@ -6891,9 +6891,9 @@ label.or-fieldlabelhelpus{
 }
 
 
-/*.or-mobile-menu-bar {
+.or-mobile-menu-bar {
 	display: none;
-}*/
+}
 
 .lattlast{
 	display: none;
@@ -8411,6 +8411,7 @@ box-shadow: 0px -48px 0px -30px rgba(174, 222, 239, 0.65) inset;
 }
 
 /* Dela funktion på startsidor utan support bar */
+/*
 .or-startpage-extra{
 	margin-top:20px
 }
@@ -8469,7 +8470,7 @@ box-shadow: 0px -48px 0px -30px rgba(174, 222, 239, 0.65) inset;
    position: relative;
    top: -50px;
 }
-
+*/
 /* formulär-toppbild sjuksköterskewebben*/
 
 .or-form-column{
