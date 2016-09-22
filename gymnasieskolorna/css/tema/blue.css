@@ -29,6 +29,11 @@
 
 .or-tree ul li a:hover {
     background-color: #02809e;
+    border-bottom: 2px solid #02809e;
+}
+
+.or-tree .or-current a {
+    background-color: #02809e;
 }
 
 .or-depth-1 li.or-current a {
