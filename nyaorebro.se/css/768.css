@@ -1,7 +1,18 @@
-@media all and (max-width: 700px){
+@media all and (max-width: 768px){
+
+body {
+    padding-top: 50px;
+}
+
 /*header*/
 header {
     display: none;
+}
+
+/* mobilmeny */
+.or-mobile-menu-bar {
+	display: block;
+	
 }
 
 .or-mobile-nav-container {
@@ -25,12 +36,7 @@ header {
     margin-top: 1px;
 }
 
-body {
-    padding-top: 50px;
-}
-
 /*brödsmulor*/
-
 section.or-breadcrumbs-area {
     display: none;
 }
@@ -1021,12 +1027,6 @@ body .or-puff-link .normal a:link {
 
 
 	
-/* mobilmeny */
-
-.or-mobile-menu-bar {
-	display: block;
-	
-}
 
 
 

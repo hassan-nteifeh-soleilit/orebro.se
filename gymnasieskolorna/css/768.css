@@ -24,47 +24,25 @@ header {
 	display: none;
 }
 
-} /* End max-width: 700px */
-
-@media all and (max-width: 767px)
-{
 	/* från base */
-	
   .stacktable.large-only { display: none; }
   .stacktable.small-only { display: table; }
   
-  
-  #menu {
-    display: none !important;
-  }
-
   .or-menu-button-container{ 
     display: none;  
   }      
 
-  #mm-blocker {
-     height:93% !important;
-  }
-  
-  
-  .mm-menu.mm-front {
-    transition: none; 
-    transform: none; 
-  }
-	
-	
-   .or-stor-bild-text-2 > div:nth-child(1) {
-     float: none;
-     max-width: 100%;
-     width: inherit !important;
-   }
+  .or-stor-bild-text-2 > div:nth-child(1) {
+		float: none;
+		max-width: 100%;
+		width: inherit !important;
+	}
 
-   .or-stor-bild-text-2 > div:nth-child(2) {
-     float: none;
-     max-width: 100%;
-     padding-bottom: 30px;
-   }
-	
+	.or-stor-bild-text-2 > div:nth-child(2) {
+		float: none;
+		max-width: 100%;
+		padding-bottom: 30px;
+	}	
 
   p {
     text-align: left;
@@ -258,15 +236,6 @@ header {
   margin-left: 20px;
 }
 
-.mm-header {
-    padding: 55px 25px 0px 25px;
-    height: 120px;
-}
-
-.mm-menu.mm-hasheader > .mm-panel.mm-list {
-    padding-top: 120px;
-}
-
 h1.heading{
   margin-top: 10px!important;
   font-size: 26px;
@@ -324,15 +293,7 @@ h2.subheading {
   padding-top: 15px!important;
 }
 
-
-
-
-
-
-
-
 /* table */
-
 .st-key {
   text-align: left;
 }
@@ -364,11 +325,7 @@ h2.subheading {
   padding: 5px 10px 5px;
 }
 
-
-
-
 /*puffar*/
-
 .or-puff-program {
     width: 92%;
     margin-right: 1%;
@@ -468,12 +425,7 @@ line-height: 24px;
   width: 47%;
 }
 
-
-
-
 /* sök */
-
-
 .sol-sok-ruta input.ui-autocomplete-input {
   position: relative;
   padding-top: 0px;
@@ -508,9 +460,6 @@ line-height: 24px;
 
 
 /* kontakt toppen */
-
-
-
 .lyssna{
 	
 }
@@ -568,13 +517,6 @@ p.or-close-text {
 	display:none;	
 }
 
-.mm-menu.mm-front.mm-top, .mm-menu.mm-front.mm-bottom {
-    min-height: 140px;
-    max-height: 880px;
-    height: 100%;
-    margin-top: -55px;
-}
-
 .or-menu-button-container {
   display: none;
 }
@@ -597,7 +539,53 @@ p.or-close-text {
   margin-bottom: 30px;
 }
 
-} 
+body {
+    padding-top: 55px;
+}
+} /*end max 767 */
+
+@media all and (max-width: 766px){
+/* StÃ¤nknapp i dialog */
+.or-modal-close {
+	display:none;
+}
+} /* end max 766*/
+
+/* kampanjmall */
+@media all and (max-width: 680px){
+
+.or-puff-instagram > div:nth-child(1){
+ width: 60%;
+ float: right;
+ position: relative;
+}
+
+.or-puff-instagram > div:nth-child(2){
+ max-width: 35%;
+ float: left;
+}
+
+.or-puff-instagram {
+ margin-left: 0.5%;
+ width: 100%;
+}
+
+.or-puff-instagram p.normal a {
+    font-size: 13px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+.or-puff-instagram > div:nth-child(1) {
+    padding-left: 0px;
+}
+} /* End max 680 */
+
+@media (min-width: 640px) {
+.or-puff-instagram {
+    width: 29%;
+}
+} /* End min 640 */
+
 
 /* skolwebbar */
 .or-school-heading {
@@ -774,8 +762,6 @@ width:65%;
     width: 80%;
 }
 
-
-
 .nav-footer-container {
     position: fixed;
     left: 0px;
@@ -788,32 +774,6 @@ width:65%;
     height: 55px;
     padding-bottom: 10px;
 }
-
-#mm-blocker {
-   /*height:93% !important;*/
-   top:55px;
-}
-  
-
-.mm-menu.mm-front.mm-top, .mm-menu.mm-front.mm-bottom {
-    min-height: 140px;
-    max-height: 880px;
-    height: 100%;    
-    top: 55px;
-    margin-top:0px;
-}
-
-.mm-header {
-    padding: 0px 25px 0px;
-    height: 55px;
-}
-
-
-.mm-menu.mm-hasheader > .mm-panel.mm-list {
-    padding-top: 55px;
-}
-
-
 
 .phone-nav-column.search-column {
     width: 24%;
@@ -950,25 +910,6 @@ width:65%;
     display: none;
 }
 
-}   /* end 768 */
-
-
-@media (min-width: 766px) {
- 
-  #my-mobile-menu {
-    display: none !important;
-  }
-} /* end min 766*/
-
-
-@media all and (max-width: 766px){
-/* StÃ¤nknapp i dialog */
-.or-modal-close {
-	display:none;
-}
-} /* end max 766*/
-
-
 /*Steg för Steg puff*/
 .or-school-advantages-container {
 
@@ -978,13 +919,6 @@ width:65%;
 }
 .or-school-advantages-header {
   border-right: 0px;
-}
-
-@media (min-width: 640px) {
-.or-puff-instagram {
-    width: 29%;
-}
-
 }
 
 .or-school-col{
@@ -1005,47 +939,6 @@ margin-top: -35px;
 body {
     padding-top: 0px;
 }
-
-@media all and (max-width: 767px){
-body {
-    padding-top: 55px;
-}
-}
-
-
-/* kampanjmall */
-
-@media all and (max-width: 680px){
-
-.or-puff-instagram > div:nth-child(1){
- width: 60%;
- float: right;
- position: relative;
-}
-
-.or-puff-instagram > div:nth-child(2){
- max-width: 35%;
- float: left;
-}
-
-.or-puff-instagram {
- margin-left: 0.5%;
- width: 100%;
-}
-
-.or-puff-instagram p.normal a {
-    font-size: 13px;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-}
-.or-puff-instagram > div:nth-child(1) {
-    padding-left: 0px;
-}
-
-
-
-}
-
 
 /* SÃ¶k i mobil */
 
