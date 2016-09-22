@@ -811,6 +811,10 @@ body section.or-top-img-area .brodtextxxfetx {
     display: none;
 }
 
+.or-mobile-nav-bar{
+	display: none;
+}
+
 
 /* Sökfält */
 .or-search {
@@ -1145,10 +1149,6 @@ body .or-puff-link .normal a:link {
 
 .or-start-white-divider .or-puff-icon-header-text .sv-use-margins .rubrikx4, .sv-use-margins h4 {
     font-size: 12px;
-}
-
-.or-mobile-nav-bar{
-	display: none;
 }
 
 .or-puff-instagram > div:nth-child(1){
