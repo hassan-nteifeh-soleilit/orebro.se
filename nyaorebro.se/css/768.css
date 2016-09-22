@@ -10,8 +10,6 @@ header {
     display: none;
 }
 
-
-
 h1, .heading {
     font-size: 20px;
 }
@@ -1152,10 +1150,6 @@ body .or-puff-link .normal a:link {
 .or-mobile-nav-bar{
 	display: none;
 }
-}	   /* end 680px */
-
-
-@media all and (max-width: 680px){
 
 .or-puff-instagram > div:nth-child(1){
  width: 60%;
@@ -1199,7 +1193,7 @@ body .or-puff-link .normal a:link {
     width: 100%;
 }
 
-}
+}	   /* end 680px */
 
 
 @media (min-width: 640px) {
