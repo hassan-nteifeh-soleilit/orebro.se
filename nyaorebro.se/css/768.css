@@ -391,9 +391,10 @@ body .or-article-main .or-openhours-contact .sv-responsiveTable--stacked__headRo
 
 /* Genomgangssida 2 */
 section.or-top-img-area {
-    height: 260px;
+    height: 220px;
     background-position: 0px 0px;
     width: 100%;
+    background-size: contain;
 }
 
 body section.or-top-img-area .or-top-img-text-area {
