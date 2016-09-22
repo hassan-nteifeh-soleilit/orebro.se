@@ -1,22 +1,3 @@
-@media all and (min-width: 767px){
-.or-news-filter .or-plus-box-diskret-header.or-plus-box-active .or-collapse-button {
-    display: none;
-}
-}
-
-@media all and (max-width: 766px){
-/* Stänknapp i dialog */
-.or-modal-close {
-	display:none;
-}
-
-  #my-mobile-menu {
-    display: none !important;
-  }
-
-
-}
-
 @media all and (max-width: 768px){
 /*base*/
 
@@ -138,6 +119,10 @@ header.or-search-mobile .sv-row:first-of-type  > div:nth-of-type(2n)  {
 }
 
 /*mobil navigering */
+  #my-mobile-menu {
+    display: none !important;
+  }
+
 
 .or-mobile-menu-bar {
 	display: block;
@@ -227,6 +212,11 @@ body .or-content-container .or-tir p, body .or-content-container .or-tir p a:lin
 
 #alertInfo {
     padding: 20px 10px 5px;
+}
+
+/* Stänknapp i dialog */
+.or-modal-close {
+	display:none;
 }
 
 
@@ -328,6 +318,10 @@ body .or-content-container .or-tir p, body .or-content-container .or-tir p a:lin
 
 .or-news-filter-header {
     margin-top: 0px;
+}
+
+.or-news-filter .or-plus-box-diskret-header.or-plus-box-active .or-collapse-button {
+    display: none;
 }
 
 /* genomgångssida nivå 1*/
