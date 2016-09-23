@@ -922,3 +922,38 @@ div.sol_process_flow_container > div > div > div {
 	width:100%;
 	z-index:9995;
 }
+
+
+/* Tillfällig inforuta */
+.or-tir {
+  border: 2px solid rgba(242, 140, 0, 0.19);
+  background-color: #fefdee;
+  -moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+  padding: 22px 20px 10px 53px;
+  position: relative;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+body .pagecontent .or-tir h2 {
+  margin-top: 0px;
+  font-size: 17px;
+}
+
+body .or-content-container .or-tir p, body .or-content-container .or-tir p a:link {
+  font-size: 16px;
+}
+
+.or-tir:before {
+  content: "\F05A";
+  font-family: FontAwesome;
+  font-style: initial;
+  font-size: 28px;
+  vertical-align: middle;
+  color: #f28c00;
+  position: absolute;
+  left: 15px;
+  top: 18px;
+}
