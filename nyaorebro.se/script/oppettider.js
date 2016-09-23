@@ -1,8 +1,6 @@
 //<![CDATA[
 (function($) {
-    $(function() {
-
-        console.log($().jquery);
+    $(function() {        
         // openhours definition get it by ajax?
         var openHourDateList = [];
 
