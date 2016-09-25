@@ -1,4 +1,9 @@
 @media all and (max-width: 767px){
+
+body {
+    padding-top: 55px;
+}
+
 /*header*/
 header {
 	display: none;
@@ -935,9 +940,7 @@ padding: 5px 0px;
 margin-top: -35px;
 }
 
-body {
-    padding-top: 0px;
-}
+
 
 /* SÃ¶k i mobil */
 
