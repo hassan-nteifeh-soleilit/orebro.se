@@ -15,13 +15,25 @@ archives.push("3.656fbdf156a6f695e62ad2"); // Fördjupad översiktsplan (handlinga
 archives.push("3.656fbdf156a6f695e62ad8"); // Detaljplaner
 archives.push("3.656fbdf156a6f695e62ade"); // Planprogram
 
+// Definition av kolumner
+var columns = [];
+columns.push( {sortKey:"typ", header:"Typ", width:20, title:"Sortera efter typ", objPos:1, sortByObjPos:1, reversedSort:false});
+columns.push( {sortKey:"omrade", header:"Område", width:10, title:"Sortera efter område", objPos:2, sortByObjPos:2,reversedSort:false});
+columns.push( {sortKey:"namn", header:"Beskrivning", width:20, title:"Sortera efter beskrivning",objPos:5, sortByObjPos:0, reversedSort:false});
+columns.push( {sortKey:"status", header:"Status", width:10, title:"Sortera efter status", objPos:3, sortByObjPos:3, reversedSort:false});
+columns.push( {sortKey:"datum", header:"Datum", width:5, title:"Sortera efter datum",objPos:4, sortByObjPos:6, reversedSort:true});
+
+
+
 var sortColumn, articles = [];
-var sortBy = "omrade";
-var sort = 'down';
+var sortBy = "omrade";  // Default sorterings column
+var sort = 'down';		// Inital fallande(down)/stigande(up) sortering
 var reverse = false;
 var antal = 0;
 
 
+
+// Inläsning av artiklar till objekt
 archives.forEach(function (identifier){
    var dateFrom, dateTo, obj;
    var archive = resourceUtil.getNodeByIdentifier(identifier);
@@ -32,16 +44,19 @@ archives.forEach(function (identifier){
          dateFrom = propUtil.getCalendar(n,'from');  
          dateTo = propUtil.getCalendar(n,'tom');  
          obj = [];	
-         obj[0] = propUtil.getString(n,'SV.Title','');
-         obj[1] = propUtil.getString(n,'omrade','');
-         obj[2] = propUtil.getString(n,'typ','');
+         obj[0] = propUtil.getString(n,'SV.Title','');                    
+         obj[1] = propUtil.getString(n,'typ','');
+         obj[2] = propUtil.getString(n,'omrade','');         
          obj[3] = propUtil.getString(n,'status','');
-         obj[4] = dateFrom !== null && obj[3] != "Laga kraft" ?	 dateUtil.getCalendarAsString("d MMM",dateFrom) : '';
-         obj[5] = dateTo !== null ? (obj[4] === '' ? '':' - ') + dateUtil.getCalendarAsString("d MMM yyyy",dateTo) : '';         
+         obj[4] = dateFrom !== null && obj[3] != "Laga kraft" ? dateUtil.getCalendarAsString("d MMM",dateFrom) : '';
+         out.print('Datefrom:'+dateFrom + ', obj4:'+ obj[4] + '<br>' );
+         obj[4] = obj[4] + (dateTo !== null ? (obj[4] !== '' ? ' - ':'') + dateUtil.getCalendarAsString("d MMM yyyy",dateTo) : '-');         
+         out.print('DateTo:'+dateTo + ', obj4:'+ obj[4] + '<br>' );         
          linkRenderer.update(n);
-         obj[6] = linkRenderer.render();
+         // Url-tag för artikeln - Beskrivningskolumn
+         obj[5] = linkRenderer.render();
          // Sorteringskolumn för datum i ms      
-         obj[7] = obj[5] !== '' ? Date.parse(dateUtil.getCalendarAsISO8601String(dateTo)) : 0;
+         obj[6] = dateTo !== null ? Date.parse(dateUtil.getCalendarAsISO8601String(dateTo)) : 0;
          articles.push(obj);
       }	  	
 	}
@@ -58,6 +73,7 @@ if(request.getParameter("sortBy") !== null) {
    
 }
 
+/*
 switch(sortBy) {
     case 'namn':
         sortColumn = 0;        
@@ -76,6 +92,16 @@ switch(sortBy) {
         reverse = !reverse;
         break;		
 }
+*/
+columns.forEach(function(column){
+	if(sortBy === column.sortKey) {
+      sortColumn = column.sortByObjPos;
+      if(column.reversedSort){
+         reverse = !reverse;
+      }
+   }
+});
+      
 
 
 articles.sort(function sortFunction (a, b){   
@@ -90,11 +116,6 @@ articles.sort(function sortFunction (a, b){
   return res;
 });
 
-var columns = [{sortKey:"typ", header:"Typ", width:20, title:"Sortera efter typ"},
-              {sortKey:"omrade", header:"Område", width:10, title:"Sortera efter område"},
-              {sortKey:"namn", header:"Beskrivning", width:20, title:"Sortera efter beskrivning"},
-              {sortKey:"status", header:"Status", width:10, title:"Sortera efter status"},
-              {sortKey:"datum", header:"Datum", width:5, title:"Sortera efter datum"}];
 
 out.print('<div class="or-tb or-sortable">');
 out.print(' <div class="or-tb-head">');
@@ -117,11 +138,16 @@ var col;
 articles.forEach(function(item,index){
    col = index % 2 === 0 ? "or-even" : "or-odd";
 	out.print(' <div class="or-tb-row ' + col + '">');
+   columns.forEach(function(column){
+      out.print('  <div><span class=or-tb-row-head>'+column.header+':</span>' + item[column.objPos]+ '</div>');  
+   });
+   /*
 	out.print('  <div><span class=or-tb-row-head>Typ:</span>' + item[2]+ '</div>');  
    out.print('  <div><span class=or-tb-row-head>Område:</span>' + item[1]+ '</div>');    
-   out.print('  <div><span class=or-tb-row-head>Namn:</span>' + item[6] + ' </div>'); 
+   out.print('  <div><span class=or-tb-row-head>Beskrivning:</span>' + item[6] + ' </div>'); 
    out.print('  <div><span class=or-tb-row-head>Status:</span>' + item[3]+ '</div>'); 
    out.print('  <div><span class=or-tb-row-head>Datum:</span>' + item[4] + item[5] + '</div>');  
+   */
 	out.print(' </div>');
 });
 out.print('</div>');
