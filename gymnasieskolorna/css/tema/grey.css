@@ -1,5 +1,73 @@
 /* Färg tema */
 
+/* ny mobilmeny */
+
+.or-mobile-nav-bar a.or-menu-title {
+    color: #857672;
+}
+
+.or-mobile-nav-bar .or-push-nav-btn {
+    background-color: #35383b;
+}
+
+.or-mobile-nav-column.or-colorbg {
+    background-color: #35383b;
+}
+
+.or-mobile-nav-column:not(#mobileMenuBtn).or-colorbg:before {
+    border-color: #35383b transparent transparent transparent;
+}
+
+.or-mobile-nav-column i.fa {
+    color: #35383b;
+    font-size: 24px;
+    margin-bottom: 6px;
+}
+
+.or-mobile-nav-bar .or-push-nav-btn:hover {
+    background-color: #857672;
+}
+
+.or-tree {
+    background: #ffffff;
+}
+
+.or-tree ul li a {
+    background-color: #35383b;
+}
+
+.or-tree ul li a:hover {
+    background-color: #857672;
+}
+
+
+.or-depth-1 li.or-current a {
+    border-left: 4px solid #35383b;
+}
+
+.or-tree .or-current a {
+	background-color: #857672;
+    border-bottom: #857672;
+}
+
+.or-tree .or-depth-1 .or-parent .or-toggle-icon:before {
+color: #35383b;
+}
+
+.or-tree .or-depth-2 .or-parent .or-toggle-icon:before {
+color: #35383b;
+}
+
+.or-tree .or-depth-1 .or-parent .or-toggle-icon, .or-tree .or-depth-2 .or-parent .or-toggle-icon, .or-tree .or-depth-3 .or-parent .or-toggle-icon, .or-tree .or-depth-4 .or-parent .or-toggle-icon, .or-tree .or-depth-5 .or-parent .or-toggle-icon {
+	border: 2px solid #857672;
+}
+
+.or-modal .or-kontakt-och-tyck-till h3 {
+    color: #35383b;
+}
+
+/* end ny mobilmeny */
+
  .colortext{
 color:#857672;
 }
