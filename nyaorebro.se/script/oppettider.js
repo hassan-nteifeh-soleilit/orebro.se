@@ -5,7 +5,7 @@
         var openHourDateList = [];
 
         // datepicker Swedish regional settings
-        $.datepicker.regional['sv'] = {
+        $.datepicker.regional.sv = {
             closeText: 'Stäng',
             prevText: '&laquo;Förra',
             nextText: 'Nästa&raquo;',
@@ -24,7 +24,7 @@
         };
 
         // set Swedish regional as datepicker default
-        $.datepicker.setDefaults($.datepicker.regional['sv']);
+        $.datepicker.setDefaults($.datepicker.regional.sv);
 
         var today = new Date();
 
@@ -116,8 +116,8 @@
         });
 
 
-        // show/hide station details
-        $('.or-oh-header').click(function() {
+        // show/hide station details        
+				$(document).on('click', ".or-oh-header", function () {	
             $(this).next('.or-oh-content').slideToggle('fast');
             //$(this).find('div.or-oh-chevron>i').toggleClass('fa-plus fa-minus');
             //$(this).find('div.or-oh-chevron').toggleClass('collapsed expanded');
@@ -128,8 +128,7 @@
         });
 
         // show/hide calendar
-        $('.b1').click(function() {
-
+				$(document).on('click', ".b1", function () {				
             var datePickerContainer = $(this).nextAll(".or-oh-content").find('.or-oh-datePicker');
             if (!datePickerContainer.hasClass('hasDatepicker')) {
                 var place = datePickerContainer.attr("id");
@@ -156,6 +155,17 @@
             $(this).nextAll(".or-oh-content").slideToggle('fast');
             return false;
         });
+
+			function reloadInfo(){								
+				$(openhoursContainer).load(dateListURL + "?refresh", function(){console.log('Inside ' + refreshWaitMs ); setTimeout(function(){reloadInfo();}, refreshWaitMs);});			
+				}
+		
+							 
+				console.log('nextRefreshMs = ' +  refreshWaitMs);
+				
+			setTimeout(function(){reloadInfo(); console.log('Executed first timeout');}, refreshWaitMs);
+      
+      
 
     });
 }($svjq));
