@@ -1,0 +1,50 @@
+#if($init)
+<div class="or-oh-start-page" id="or-open-hours-container">
+	<p class="or-email-info normal"><strong>Mejla oss på:</strong> <i class="fa fa-envelope-o"></i> <span><a href="mailto:servicenter@orebro.se">servicenter@orebro.se</a></span></p>   
+   <script>
+		var refreshWaitMs = 250;
+	</script>
+</div>   
+<script>
+   
+//<![CDATA[
+(function($) {
+	// Document ready
+   $(function() {      
+      
+      function reloadInfo(){
+			//$('#or-open-hours-container').load("${thisUrl}?refresh", function(response, status, xhr){
+         $('#or-open-hours-container').load("/91.194af91a153c27bde772b5f/12.5ab4ab37154229e2ec88289.html?refresh", function(response, status, xhr){            
+            if(status == 'error' && refreshWaitMs < $MIN_REFRESH_WAIT_MS) {
+            	refreshWaitMs = $MIN_REFRESH_WAIT_MS;
+            }
+            setTimeout(function(){reloadInfo();}, refreshWaitMs);
+         }); 
+      }									 
+		
+	      
+		setTimeout(function(){reloadInfo();}, refreshWaitMs);   
+   
+   }); 
+
+}($svjq));
+//]]>   
+</script>
+#else	  
+
+   #if ($business)      
+      #if ($business.open) 
+         <p class="or-phone-info normal"><strong>Ring oss på:</strong> <i class="fa fa-mobile"></i> <span class="or-phone-number">019-21 10 00</span></p>
+         <p class="or-phone-hours normal"><strong>Telefontid:</strong></p> <span class="or-oh-status"><span class="or-oh-open">Öppet</span><span class="or-oh-time-info">$business.nextHourInfo</span></span>
+      #else
+         <p class="or-phone-hours normal"><strong>Telefontid:</strong></p><span class="or-oh-status"><span class="or-oh-closed">Stängt</span><span class="or-oh-time-info">$business.nextHourInfo</span></span>     
+         <p class="or-email-info normal"><strong>Mejla oss på:</strong> <i class="fa fa-envelope-o"></i> <span><a href="mailto:servicenter@orebro.se">servicenter@orebro.se</a></span></p>
+      #end
+   #else
+      <p class="or-email-info normal"><strong>Mejla oss på:</strong> <i class="fa fa-envelope-o"></i> <span><a href="mailto:servicenter@orebro.se">servicenter@orebro.se</a></span></p>   
+   #end
+
+	<script>
+		var refreshWaitMs = $business.expires;
+	</script>
+#end
