@@ -1,31 +1,61 @@
-var propertyUtil = require('PropertyUtil');
-var dateUtil = require('DateUtil');
-var outputUtil = require('OutputUtil');
-var resourceLocatorUtil  = require("ResourceLocatorUtil");
-var page = resourceLocatorUtil.getNodeByIdentifier("4.5ab4ab37154229e2ec88610");
+var PropertyUtil = require('PropertyUtil'),
+	DateUtil = require('DateUtil'),	
+	ResourceLocatorUtil  = require("ResourceLocatorUtil");
+   //PortletContextUtil = require('PortletContextUtil'),
+   //OutputUtil = require('OutputUtil');
+	
 
-var data = propertyUtil.getString(page,"openHours");
+//Java classes
+var Calendar = Java.type('java.util.Calendar'),
+	GregorianCalendar = Java.type('java.util.GregorianCalendar'),
+	LocalDateTime = Java.type('java.time.LocalDateTime'),
+	DateTimeFormatter = Java.type('java.time.format.DateTimeFormatter');
 
-var Calendar = Java.type('java.util.Calendar');
-var LocalDateTime = Java.type('java.time.LocalDateTime');
-var DateTimeFormatter = Java.type('java.time.format.DateTimeFormatter');
+var page = ResourceLocatorUtil.getNodeByIdentifier("4.5ab4ab37154229e2ec88610"),
+	data = PropertyUtil.getString(page,"openHours");
+   //thisUrl = "/" + PortletContextUtil.getCurrentPage().getIdentifier()+"/"+ PortletContextUtil.getCurrentPortlet().getIdentifier() + ".html";
 
 
+var DAY_SWEDISH = ["", "söndag", "måndag", "tisdag", "onsdag", "torsdag", "fredag", "lördag"], // Calendar sunday starts on 1
+    DAY_SWEDISH_INIT_CAP = ["", "Söndag", "Måndag", "Tisdag", "Onsdag", "Torsdag", "Fredag", "Lördag"],
+    CHECK_DAYS_FORWARD = 8,
+    MIN_REFRESH_WAIT_MS = 5*60*1000,  // 5 minutes
+    MAX_REFRESH_WAIT_MS = 60*60*1000; // 60 minutes
 
-var DAY_SWEDISH = ["", "söndag", "måndag", "tisdag", "onsdag", "torsdag", "fredag", "lördag"]; // Calendar sunday starts on 1
-var DAY_SWEDISH_INIT_CAP = ["", "Söndag", "Måndag", "Tisdag", "Onsdag", "Torsdag", "Fredag", "Lördag"];
-var NEXT_DAYS = 8;
 
+var init = request.getParameter("refresh") === null;
 
 if (data && !data.isEmpty()){	
 	var business = JSON.parse(data);  
-   var closeinfo = propertyUtil.getString(page, 'stangtinfo');
-   var openinfo = propertyUtil.getString(page, 'openinfo');   
+   var closeinfo = PropertyUtil.getString(page, 'stangtinfo');
+   var openinfo = PropertyUtil.getString(page, 'openinfo');   
 	business = new OpenHour(business, openinfo, closeinfo, null);
 }
     
 
 // Function logic below
+
+function getNextOpenOpenHours (openingHours){
+	var daysOffset = 0;   
+  var nextOpenHours, openHours;
+		
+	var day = new GregorianCalendar();
+	var now = new Date();	  
+   
+         	
+	while (daysOffset < CHECK_DAYS_FORWARD){      
+		openHours = getOpenHoursForDay(day, openingHours);                 
+		if(openHours.opensDate !== null && (daysOffset > 0 || (daysOffset === 0 && now < openHours.opensDate))) {                          			
+			return openHours;			
+		}
+		
+		daysOffset++; 
+		day.add(Calendar.DAY_OF_YEAR,1);                              
+	} 	 
+	
+	return null;
+}
+
 
 function getNextOpenTimeInfo(currentDay, openingHours) {
     var status;
@@ -40,7 +70,7 @@ function getNextOpenTimeInfo(currentDay, openingHours) {
     var opentime, openHour, openMinute;
 
 
-    while (dayOffset < NEXT_DAYS && !foundNextOpenTime) {
+    while (dayOffset < CHECK_DAYS_FORWARD && !foundNextOpenTime) {
         openHours = getOpenHoursForDay(day, openingHours);
 
         if (openHours.opens !== null) {
@@ -83,39 +113,60 @@ function timeFormat(time) {
     return splitTime[0] + minutes;
 }
 
-function getOpenHoursForDay(day, openingHours) {
+function openHourRuleToDate(day, time){
+	var retDate = new Date(DateUtil.getCalendarAsISO8601String(day));
+	
+	var timeParts = time.split(":");
+	parseInt(timeParts[0],10);
+	parseInt(timeParts[1],10); 	
+	retDate.setHours(parseInt(timeParts[0],10));
+	retDate.setMinutes(parseInt(timeParts[1],10));
+   retDate.setSeconds(0);
+   retDate.setMilliseconds(0);
 
-    var openHours = {
-        opens: null,
-        closes: null
-    };
+	return retDate;
+}
 
+function getOpenHoursForDay(day,openingHours){
+   
+   var openHours = {opens: null, 
+                    closes: null,
+										opensDate: null,
+										closesDate: null};
+   
 
-    for (var i = 0; i < openingHours.length; i++) {
-        var openHourRule = openingHours[i];
+	for(var i = 0;i <openingHours.length ; i++) {
+		var openHourRule = openingHours[i];      
 
-        if (openHourRule.type == "closed" && isTodayInDateList(day, openHourRule.datelist)) {
-            openHours.closes = null;
-            openHours.opens = null;
-            break;
-        }
+		if (openHourRule.type == "closed" && isTodayInDateList(day, openHourRule.datelist)) {         
+			openHours.closes = null;
+			openHours.opens = null;
+			openHours.opensDate = null;
+			openhours.closesDate = null;
+			break;
+		}
 
-        if (openHourRule.type == "normal") {
-            if (openHours.opens === null && isDayRuleValid(day, openHourRule.repeat.inday) && isMonthRuleValid(day, openHourRule.repeat.inmonth)) {
-                openHours.opens = openHourRule.open;
-                openHours.closes = openHourRule.close;
-            }
-        }
+		if (openHourRule.type == "normal") {               
+			if(openHours.opens === null && isDayRuleValid(day, openHourRule.repeat.inday) && isMonthRuleValid(day, openHourRule.repeat.inmonth)){            
+				openHours.opens = openHourRule.open;
+				openHours.closes = openHourRule.close;
+				openHours.opensDate = openHourRuleToDate(day,openHourRule.open);
+				openHours.closesDate = openHourRuleToDate(day,openHourRule.close);
+				
+			}                 
+		}
 
-        if (openHourRule.type == "changed") {
-            if (isTodayInDateList(day, openHourRule.datelist)) {
-                openHours.opens = openHourRule.open;
-                openHours.closes = openHourRule.close;
-            }
-        }
-    }
+		if (openHourRule.type == "changed") {                                      
+			if(isTodayInDateList(day, openHourRule.datelist)){                       
+				openHours.opens = openHourRule.open;
+				openHours.closes = openHourRule.close;   
+				openHours.opensDate = openHourRuleToDate(day,openHourRule.open);
+				openHours.closesDate = openHourRuleToDate(day,openHourRule.close);				
+			}         
+		}
+	}              
 
-    return openHours;
+   return openHours;
 }
 
 function isOpenNow(now, openHours) {
@@ -145,7 +196,7 @@ function isOpenDuringDay(openHours) {
 function isTodayInDateList(today, dateList) {
     for (var i = 0; i < dateList.length; i++) {
         var closedate = String(dateList[i].date);
-        if (dateUtil.getCalendarAsString("yyyyMMdd", today).equals(closedate)) {
+        if (DateUtil.getCalendarAsString("yyyyMMdd", today).equals(closedate)) {
             return true;
         }
     }
@@ -200,7 +251,7 @@ function getDayOfWeekByDayName(day) {
 function getDayOfMonthForNthDayOfWeekInMonth(month, year, nth, day) {
 
     var dayNo = getDayOfWeekByDayName(day); //Gregorian sunday starts on 1
-    var gc = new java.util.GregorianCalendar();
+    var gc = new GregorianCalendar();		
     var days = 0;
 
     gc.set(Calendar.YEAR, year);
@@ -226,29 +277,26 @@ function OpenHour(business, openInfo, closeInfo, maplink) {
     this.mapLink = maplink;
     this.nextDays = [];
     this.open = null;
+    this.expires = null;	 
     this.nextHourInfo = "";
-    var day = new java.util.GregorianCalendar();
+    var day = new GregorianCalendar();		
     var openHours = getOpenHoursForDay(day, business.openinghours);
 
 
     if (closeInfo && closeInfo.length() > 0) {
         this.open = false;
         this.nextHourInfo = closeInfo;    
+				this.expires = MIN_REFRESH_WAIT_MS;
     } else if (openInfo && openInfo.equals("ÖPPET")){
        this.open = true;
        this.nextHourInfo = "tillsvidare.";
-    } else {
-       //out.print("openInfo=" + openInfo + "<br>");
+       this.expires = MIN_REFRESH_WAIT_MS;
+    } else {       
        if (openInfo){  
     		 var nowDateTime = LocalDateTime.now(); 
-          var formatter = DateTimeFormatter.ofPattern("yyyyMMdd H:m");
-          var openInfoDateTime = LocalDateTime.parse(openInfo, formatter);          
-                    
-          
-          //out.print("openInfoDateTime.toString()=" + openInfoDateTime.toString());
-          //out.print("<br>");
-          //out.print("LocalDateTime.now()=" + LocalDateTime.now());
-          
+         var formatter = DateTimeFormatter.ofPattern("yyyyMMdd H:m");
+         var openInfoDateTime = LocalDateTime.parse(openInfo, formatter);          
+                                       
           if(openInfoDateTime.isAfter(LocalDateTime.now())){
           	this.open = true;                                                      
           }
@@ -257,14 +305,25 @@ function OpenHour(business, openInfo, closeInfo, maplink) {
        
        
        if(this.open === null) {
+				var now = new Date();
        	this.open = isOpenNow(day, openHours);   
 
         if (this.open) {
             this.nextHourInfo = "stänger kl. " + timeFormat(openHours.closes);
+						this.expires = Math.ceil((openHours.closesDate.getTime() - now.getTime())/1000) * 1000;  
         } else {
+					var nextOpenHours = getNextOpenOpenHours(business.openinghours);
+					if(isOpenDuringDay(nextOpenHours)) {
+							this.expires = Math.ceil((nextOpenHours.opensDate.getTime() - now.getTime())/1000) * 1000;            
+				 }		
+
             this.nextHourInfo = getNextOpenTimeInfo(day, business.openinghours);
         }
        }
+       
+       if (this.expires > MAX_REFRESH_WAIT_MS) {
+         this.expires = MAX_REFRESH_WAIT_MS;
+      }
     }
 
 }
