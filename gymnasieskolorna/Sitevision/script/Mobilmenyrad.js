@@ -1,30 +1,37 @@
-var propertyUtil = require('PropertyUtil');
-var nodeTypeUtil = require('NodeTypeUtil');
-var portletContextUtil  = require('PortletContextUtil');
-var dollar ='$';
+var PropertyUtil = require('PropertyUtil'),
+	NodeTypeUtil = require('NodeTypeUtil'),
+	PortletContextUtil  = require('PortletContextUtil');
 
+var imagURI="",
+	dollar ='$';
 
-var currentPage = portletContextUtil.getCurrentPage();
-var linkNode = propertyUtil.getNode(currentPage, "menustart");
-var imageNode = propertyUtil.getNode(currentPage, "header-icon");
-var headerText = propertyUtil.getString(currentPage, "heder-topp-text",""); 
+var currentPage = PortletContextUtil.getCurrentPage(),
+	linkNode = PropertyUtil.getNode(currentPage, "menustart"),
+	imageNode = PropertyUtil.getNode(currentPage, "header-icon"),
+	headerTopp = PropertyUtil.getString(currentPage, "heder-topp-text",""),
+	headerBottom = PropertyUtil.getString(currentPage, "header-bottom-text",""); 
 
-if(!headerText.isEmpty()) {
+if(!headerTopp.isEmpty()) {
    //Temporay fix, TODO: remove text with html
-	headerText = headerText.replace(/<[^>]*>/g, ' ')
+	headerTopp = headerTopp.replace(/<[^>]*>/g, ' ')
                .replace(/\s{2,}/g, ' ')
                .trim();
 }
-              
 
-
-var imagURI="";
-
-if (linkNode !== null && nodeTypeUtil.isTypeOf(linkNode, [nodeTypeUtil.SITE_PAGE_TYPE, nodeTypeUtil.PAGE_TYPE] )){   
-   linkNode = propertyUtil.getString(linkNode, "URI");   
+if(!headerBottom.isEmpty()) {
+   //Temporay fix, TODO: remove text with html
+	headerBottom = headerBottom.replace(/<[^>]*>/g, ' ')
+               .replace(/\s{2,}/g, ' ')
+               .trim();
 }
 
 
-if (imageNode !== null && nodeTypeUtil.isTypeOf(imageNode, [nodeTypeUtil.IMAGE_TYPE] )){   
-   imagURI = propertyUtil.getString(imageNode, "URI");
+
+if (linkNode !== null && NodeTypeUtil.isTypeOf(linkNode, [NodeTypeUtil.SITE_PAGE_TYPE, NodeTypeUtil.PAGE_TYPE] )){   
+   linkNode = PropertyUtil.getString(linkNode, "URI");   
+}
+
+
+if (imageNode !== null && NodeTypeUtil.isTypeOf(imageNode, [NodeTypeUtil.IMAGE_TYPE] )){   
+   imagURI = PropertyUtil.getString(imageNode, "URI");
 }

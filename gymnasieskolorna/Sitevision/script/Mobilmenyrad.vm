@@ -3,8 +3,11 @@
       #if($imagURI!='')
       <img class="or-logo" src="$imagURI" alt="logotype">
       #end
-      #if($topptext!='')
-      <div class="or-header-bottomtext"><h4>$headerText</h4></div>      
+      #if($headerTopp!='')
+      <div class="or-header-topptext">$headerTopp</div>      
+      #end
+      #if($headerBottom!='')
+      <div class="or-header-bottomtext">$headerBottom</div>      
       #end
     </a>
 
