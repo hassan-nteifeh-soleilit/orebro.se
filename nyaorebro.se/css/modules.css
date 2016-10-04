@@ -1204,7 +1204,7 @@ span.sol-hit-count {
     -moz-transition: all 100ms ease;
     -o-transition: all 100ms ease;
     transition: all 100ms ease;
-    font-size: 19px;
+    font-size: 17px;
     line-height: 1.3em;
     font-weight: 700;
     margin-bottom: 10px;
@@ -1225,7 +1225,7 @@ span.sol-hit-count {
     float: left;
 }
 .sol-search-hits .sol-search-icon-wrapper {
-    width: 5%;
+    width: 7%;
 }
 
 .sol-search-hits .sol-search-icon-wrapper img {
@@ -1234,7 +1234,7 @@ span.sol-hit-count {
 
 body .sol-search-hits .sol-doc-size {
     margin-top: 0px;
-    font-size: 11px;
+    font-size: 10px;
     top: -5px;
     position: relative;
 }
@@ -1251,7 +1251,7 @@ body .sol-search-hits .sol-doc-size p{
 
 .sol-search-hits > div {
     margin-left: 17px;
-    width: 95%;
+    width: 89%;
 }
 .sol-search-hits > div > p {
     padding-bottom: 10px;
@@ -1266,7 +1266,7 @@ body .sol-search-hits .sol-doc-size p{
 }
 .sol-search-icon-wrapper {
     margin-right: 10px;
-    margin-top: 0.5em;
+    margin-top: 15px;
     float: left;
     clear: both;
     width: 100%;
