@@ -768,18 +768,25 @@ ol {
   font-weight: 700;
 }
 
-.or-header-topptext h2 {
+.or-header-topptext-container{
+	float: left;
+}
+
+.or-header-topptext {
+font-family: "leaguespartan webfont",sans-serif;
   font-size: 18px;
   margin-bottom: 0px;
   line-height: 24px;
   margin-top: 30px;
+  text-align: left;
 }
 
-.or-header-bottomtext h4 {
+.or-header-bottomtext {
   font-size: 14px;
   margin-top: 3px;
   color: #857672;
   font-weight: 700;
+  text-align: left;
 }
 
 .greentext {
