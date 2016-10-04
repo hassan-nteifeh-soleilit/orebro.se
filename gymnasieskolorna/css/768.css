@@ -18,7 +18,7 @@ header {
 	width: 100%;
 	background-color: #F8F8F8;
 	box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.25);
-	height: 55px;
+	height: 95px;
 }
 
 .or-mobile-menu-bar {
@@ -545,7 +545,7 @@ p.or-close-text {
 }
 
 body {
-    padding-top: 55px;
+    padding-top: 95px;
 }
 } /*end max 767 */
 
@@ -822,15 +822,25 @@ width:65%;
 /* Mobilmenyrad */
 .or-mobile-nav-column {
     width: 100px;
-    padding-top: 7px;
-    padding-bottom: 5px;
+    padding-top: 3px;
+    padding-bottom: 0;
     text-align: center;
     text-decoration: none;
     float: right;
     border-left: 1px solid #E8E8E8;
-    height: 55px;
-		/*line-height:normal;*/
+    height: 47px;
+    /* line-height: normal; */
 }
+
+.or-header-topptext {
+    margin-top: 0px;
+    font-size: 13px;
+}
+
+.or-header-bottomtext {
+    font-size: 11px;
+    margin-top: -3px;
+    }
 
 .or-mobile-nav-column h4 {
     font-size: 13px;
@@ -841,9 +851,10 @@ width:65%;
 }
 
 .or-mobile-nav-column.search-column:first-child {
-    width: 110px;
+    width: 100%;
     float: left;
     border-left-style: none;
+    border-bottom: 1px solid #E8E8E8;
 }
 
 .or-mobile-nav-column .or-logo{
@@ -857,10 +868,10 @@ width:65%;
     width: 75px;        
 }
 
-.or-mobile-nav-column i.fa{
-    color: #e83c23;
-    font-size: 24px;
+.or-mobile-nav-column i.fa {
+    font-size: 19px;
     margin-bottom: 6px;
+    margin-top: 2px;
 }
 
 .or-mobile-nav-text {
