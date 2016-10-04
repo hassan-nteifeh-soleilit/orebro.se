@@ -53,7 +53,7 @@
 			if(!isMenuOpen() && open) {               
 				${dollar}menu.show();
 				${dollar}menu.css('width', $( window ).width());
-				${dollar}menu.css('padding-top', '55px');
+				${dollar}menu.css('padding-top', '95px');
 				${dollar}menu.css('right', '0');                
 			} else if(isMenuOpen() && !open) {				
 				${dollar}menu.css('width', '');               
