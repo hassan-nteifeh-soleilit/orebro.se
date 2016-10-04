@@ -6693,6 +6693,7 @@ text-decoration: underline;
 
 .or-lanklista a:link:hover{
 	text-decoration: underline;
+	box-shadow: rgba(174,222,239,0.0) 0 -41px 0 -23px inset;
 }
 
 .kontakta-ruta{
@@ -6722,7 +6723,7 @@ text-decoration: underline;
 
 /* TEST FÖR ACTION */
 .or-action-content a:link {
-  box-shadow: none;
+  box-shadow: none!important;
   font-size: 12px;
 }
 
@@ -7923,6 +7924,7 @@ border-color: rgb(237, 234, 234);
 .normal .or-action-text a:hover {
     letter-spacing: inherit;
     text-decoration: underline;
+    box-shadow: rgba(174,222,239,0) 0 -41px 0 -23px inset;
 }
 
 .or-action-link-small p.normal {
