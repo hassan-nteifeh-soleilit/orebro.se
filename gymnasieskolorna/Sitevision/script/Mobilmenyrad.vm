@@ -4,11 +4,13 @@
       <img class="or-logo" src="$imagURI" alt="logotype">
       #end
       #if($headerTopp!='')
+      <div class="or-header-topptext-container">
       <div class="or-header-topptext">$headerTopp</div>      
       #end
       #if($headerBottom!='')
       <div class="or-header-bottomtext">$headerBottom</div>      
       #end
+      </div>
     </a>
 
     <a class="or-mobile-nav-column search-column" href="#" id="mobileMenuBtn">        
