@@ -68,8 +68,8 @@
 			/* Ikoner i dokumentlistningsrutorna */
 			$(".or-related-documents .or-text-content a").each(function(index) {
 				var title = $(this).attr("title"),
-				var openInNewWindow = false,
-				sizeStr;
+					openInNewWindow = false,
+					sizeStr;
 				
 
 				try {
