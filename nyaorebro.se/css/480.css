@@ -113,7 +113,8 @@ body .or-content-container .or-tir p {
 /* sök */
 
 .or-search-link a {
-    font-size: 16px;
+    font-size: 14px;
+    line-height: 1em;
 }
 
 .sol-sok-ruta input {

@@ -1180,7 +1180,7 @@ label.or-fieldlabelhelpus
     padding-right: 5px;
 }
 
-.or-hit-count {
+body .pagecontent .or-hit-count {
     margin-top: 16px;
     margin-bottom: 15px;
     padding-right: 18px;
@@ -1213,6 +1213,7 @@ span.sol-hit-count {
     display: inline!important;
     float: none;
     box-shadow: rgba(174, 222, 239, 0.65098) 0px -16px 0px -12px inset;
+    word-wrap: break-word;
 }
 .or-search-link a:hover {
     box-shadow: 0px -20px 0px 11px rgba(174, 222, 239, 0.65) inset!important;
@@ -1239,6 +1240,8 @@ body .sol-search-hits .sol-doc-size {
     top: -5px;
     position: relative;
     line-height: 1.2em;
+    margin-bottom: -10px;
+    padding-bottom: 0px;
 }
 
 body .sol-search-hits .sol-doc-size p{
