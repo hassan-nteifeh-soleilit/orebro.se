@@ -1,0 +1,23 @@
+<a class="w-clearfix w-inline-block senderwrapper" href="$linkNode">
+<div class="or-header-container">
+   #if($imagURI!='')
+   <div class="or-header-img" style="float: left;width:30%">
+      <img class="logo orebrotoplogo" src=$imagURI alt="logotype"/>
+   </div>
+   <div class="or-header-text"  style="float: right;width:70%">
+   #else
+   <div class="or-header-text"  style="float: right;width:100%">
+   #end
+      #if($headerTopp!='')
+      <div class="or-header-topptext">
+         $headerTopp
+      </div>
+      #end
+      #if($headerBottom!='')
+      <div class="or-header-bottomtext">
+         $headerBottom
+      </div>
+      #end
+   </div>
+</div>
+</a>   
