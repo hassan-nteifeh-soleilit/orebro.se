@@ -2912,6 +2912,8 @@ body .or-news-filter .or-colorborder.or-wrapper-click.or-plus-box-header.or-plus
   color: black;
   font-size: 13px;
   line-height: 16px;
+  white-space: pre-wrap;
+  word-break: break-all;
 }
 
 .or-file-list-row {
@@ -2927,25 +2929,23 @@ body .or-news-filter .or-colorborder.or-wrapper-click.or-plus-box-header.or-plus
 .or-file-list-row.or-simple-file-list-row {
     margin-top: 6px;
     margin-bottom: 15px;
-    padding: 12px 10px 7px;
-		height: 40px;
+    padding: 6px 10px 5px 40px;
     width: 100%;
     box-sizing: border-box;
     border-radius: 2px;
+    position: relative;
+    float: left;
 }
 
 .or-document-icon-container {
-  width: 30px;
-  min-height: 20px;
-  float: left;
   margin-right: 10px;
 }
 
 .or-file-icon-simple-list {
-  width: 24px;
-  margin-top: -3px;
-  margin-right: 10px;
-  float: left;
+ 	width: 24px;
+    position: absolute;
+    left: 6px;
+    top: 6px;
 }
 
 .or-file-name-container {

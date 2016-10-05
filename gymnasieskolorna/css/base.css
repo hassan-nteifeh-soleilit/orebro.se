@@ -1,4 +1,4 @@
-/* Grunddesign */
+5/* Grunddesign */
 
 .or-grid-12-col.sv-fluid-grid, .or-grid-12-col.sv-fixed-fluid-grid {
 padding-right:10px;
@@ -5724,6 +5724,8 @@ div.or-synpunkt-action .or-action-content span:after{
   color: black;
   font-size: 13px;
   line-height: 16px;
+  white-space: pre-wrap;
+  word-break: break-all;
 }
 
 .or-file-list-row {
@@ -5744,7 +5746,7 @@ div.or-synpunkt-action .or-action-content span:after{
 .or-file-list-row.or-simple-file-list-row {
     margin-top: 10px;
     margin-bottom: 15px;
-    padding: 9px 10px 7px 40px;
+    padding: 7px 10px 7px 40px;
     position: relative;
 }
 
@@ -5775,7 +5777,6 @@ div.or-synpunkt-action .or-action-content span:after{
   text-decoration: none;
   font-size: 13px;
   line-height: 16px;
-  word-break: break-all;
 }
 
 .or-file-list-row:hover .or-contentlinks a.normal{
@@ -5787,6 +5788,12 @@ div.or-synpunkt-action .or-action-content span:after{
   color: #35383b;
 }
 
+.or-file-list-row .or-contentlinks{
+   -webkit-transition: all 500ms ease;
+   -moz-transition: all 500ms ease;
+   -o-transition: all 500ms ease;
+   transition: all 500ms ease;
+}
 
 .or-docs-box-content:hover a:before {
 box-shadow: rgb(255, 255, 255)0px -33px 0px -11px inset;
