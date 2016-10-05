@@ -1,29 +1,28 @@
-## =====================================================
-## Copyright (C) SiteVision AB 2010, all rights reserved
-## This portlet uses the SiteVision Public API
-## =====================================================
 #set ($propertyUtil = $sitevisionUtils.propertyUtil)
-#set ($outputUtil = $sitevisionUtils.outputUtil)
-
 
 #if (!$related.isEmpty())
    <div class="or-teaser-box or-related-documents">
      <div class="or-title"><span><i class="fa fa-file-text-o"></i>Dokument</span></div>
-     <div class="or-text-content">
-   #set ($relatedClass = $propertyUtil.getNestedString($portlet, 'relatedFont', 'selectorText'))
+     <div class="or-text-content">         
    #set ($instanceTypeUtil = $sitevisionUtils.instanceTypeUtil)
    #set ($endecUtil = $sitevisionUtils.endecUtil)
    #set ($linkRenderer = $sitevisionUtils.linkRenderer)
+   #set ($iconRenderer = $sitevisionUtils.fileIconRenderer)
    $linkRenderer.setFontClass("")
    $linkRenderer.setUseEncoding(false)   
+   $iconRenderer.setFontClass("or-file-icon")
        <ul class="or-teaser-list">
    #foreach($item in $related)      
       #if ($instanceTypeUtil.isNode($item))            
-         #if ($linkRenderer.isValidTarget($item))                      	            
-            $linkRenderer.update($item)
-          	#set ($item = $endecUtil.unEscapeJcrName($item.name))
-            $linkRenderer.setText("<span class=""or-link-name"">${item}</span>")                            
-            <li>$linkRenderer.render()</li>
+         #if ($linkRenderer.isValidTarget($item))    
+					#if (!$iconRenderer.loadIconByURI(${propertyUtil.getString($item, 'URI')}))         		
+						#set ($ignore = $iconRenderer.loadIconByContentType(${propertyUtil.getString($item, 'mimeType')}))
+					#end          
+					#set ($icon = $iconRenderer.render())
+					$linkRenderer.update($item)         
+					#set ($item = $endecUtil.unEscapeJcrName($item.name))						
+					$linkRenderer.setText("<div class=""or-file-icon-container"">$icon<div class=""or-file-size""></div></div> <span class=""or-link-name"">$item</span>")                            
+					<li>$linkRenderer.render()</li>
          #end         
       #else
          <li>$endecUtil.escapeXML(${item})</li>

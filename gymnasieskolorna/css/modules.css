@@ -550,7 +550,7 @@ ul.or-teaser-list {
 .or-teaser-box .or-text-content .or-teaser-list li a {
     display: block;
 }
-
+/*
 .or-teaser-box .or-text-content .or-teaser-list li a i:before {
     display: block;
 }
@@ -565,19 +565,38 @@ ul.or-teaser-list {
     top: 10px;
 }
 
-.or-teaser-box .or-text-content .or-teaser-list li a i span,
-.or-file-size {
+
+.or-teaser-box .or-text-content .or-teaser-list li a i span {
     font-size: 10px;
     font-weight: 600;
     font-family: "open sans",sans-serif;
 }
+*/
 
-.or-file-icon {
+.or-teaser-box  .or-file-icon-container {
+	color: #857672;
+	font-size: 18px;
+	text-align: left;
+	line-height: 16px;
+	position: absolute;
+	left: 0;
+	top: 10px;
+}
+
+.or-teaser-box  .or-file-icon {
     width: 24px;
     margin-top: -3px;
     margin-right: 10px;
     float: left;
 }
+
+.or-teaser-box  .or-file-size {
+    font-size: 10px;
+    font-weight: 600;
+    font-family: "open sans",sans-serif;
+}
+
+
 
 .or-teaser-box.or-related-links .or-text-content .or-teaser-list li a .or-link-name {
     top: 50%;
