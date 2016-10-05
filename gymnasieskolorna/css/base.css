@@ -768,8 +768,9 @@ ol {
   font-weight: 700;
 }
 
-.or-header-topptext-container{
-	float: left;
+.or-header-topptext-container {
+    display: block;
+    width: 100%;
 }
 
 .or-header-topptext {
