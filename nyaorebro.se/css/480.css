@@ -464,18 +464,24 @@ body .or-start-heading-divider .normal {
 }
 
 .sv-font-action-penna, .sv-font-action-pil, .sv-font-action-karta, .sv-font-action-facebook, .sv-font-action-twitter {
-    padding-bottom: 9px;
-    padding-top: 10px;
-    padding-left: 53px;
+    padding-left: 60px;
 }
 
 .sv-font-action-penna::before, .sv-font-action-pil::before, .sv-font-action-karta::before, .sv-font-action-facebook::before, .sv-font-action-twitter::before {
-    width: 38px;
+    width: 46px;
     font: normal normal normal 17px/40px FontAwesome;
 }
 
 .sv-font-action-penna:after, .sv-font-action-pil:after, .sv-font-action-karta:after, .sv-font-action-facebook:after, .sv-font-action-twitter:after {
     font: normal normal normal 17px/41px FontAwesome;
+}
+
+body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-font-action-karta a:link, body .sv-font-action-facebook a:link, body .sv-font-action-twitter a:link {
+    font-size: 11px;
+}
+
+.or-ny-action .normal .or-action-text a:link {
+    font-size: 11px;
 }
 
 /* plusbox */

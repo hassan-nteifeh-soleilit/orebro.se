@@ -176,7 +176,7 @@ body .or-content-container .or-tir h2 {
 }
 
 /* action */
-body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-font-action-karta a:link, body .sv-font-action-facebook a:link, body .sv-font-action-twitter a:link {
+body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-font-action-karta a:link, body .sv-font-action-facebook a:link, body .sv-font-action-twitter a:link, .or-ny-action .normal .or-action-text a:link {
     font-size: 14px;
 }
 

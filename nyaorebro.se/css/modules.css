@@ -1886,24 +1886,6 @@ body .or-content-container .or-tir p, body .or-content-container .or-tir p a:lin
     left: 0;
 }
 
-.or-ny-action span.fa::after {
-    left: 100%;
-    top: 50%;
-    border-style: solid;
-    -moz-border-top-colors: none;
-    -moz-border-right-colors: none;
-    -moz-border-bottom-colors: none;
-    -moz-border-left-colors: none;
-    border-image: none;
-    content: " ";
-    height: 0px;
-    width: 0px;
-    position: absolute;
-    pointer-events: none;
-    border-color: rgba(136, 183, 213, 0) rgba(136, 183, 213, 0) rgba(136, 183, 213, 0) #E83C23;
-    border-width: 10px;
-    margin-top: -10px;
-}
 .or-ny-action .or-action-text {
     font-family: "leaguespartan webfont",sans-serif;
     font-style: normal;
@@ -1911,9 +1893,9 @@ body .or-content-container .or-tir p, body .or-content-container .or-tir p a:lin
     color: #35383b;
     line-height: 16px;
     display: inline-block;
-    padding-left: 67px;
-    padding-bottom: 14px;
-    padding-top: 14px;
+    padding-left: 60px;
+    padding-bottom: 13px;
+    padding-top: 13px;
     font-weight: 800;
     letter-spacing: 0.02em;
     float: none;
@@ -1929,7 +1911,8 @@ body .or-content-container .or-tir p, body .or-content-container .or-tir p a:lin
     color: #35383B;
     text-decoration: none;
     line-height: 20px;
-    font-size: 12px;
+    font-size: 13px;
+    line-height: 1em;
     font-weight: 800;
     box-shadow: none;
 }
@@ -1953,6 +1936,7 @@ body .or-content-container .or-tir p, body .or-content-container .or-tir p a:lin
     position: relative;
     background: #fff;
     padding-right: 40px;
+    border: 1px solid rgb(237, 234, 234);
 }
 
 .or-ny-action:hover{
@@ -2011,7 +1995,7 @@ body .or-content-container .or-tir p, body .or-content-container .or-tir p a:lin
 
 
 /* action formatmall */
-.sv-font-action-penna, .sv-font-action-pil, .sv-font-action-karta, .sv-font-action-facebook, .sv-font-action-twitter{
+.sv-font-action-penna, .sv-font-action-pil, .sv-font-action-karta, .sv-font-action-facebook, .sv-font-action-twitter, .sv-font-action-instagram{
     background-color: #ffffff;
     width: 100%;
     display: inline-block;
@@ -2039,35 +2023,36 @@ body .or-content-container .or-tir p, body .or-content-container .or-tir p a:lin
     font-size: 12px;
 }
 
-.sv-font-action-penna .sv-linkicon, .sv-font-action-pil .sv-linkicon, .sv-font-action-karta .sv-linkicon, .sv-font-action-facebook .sv-linkicon, .sv-font-action-twitter .sv-linkicon{
+.sv-font-action-penna .sv-linkicon, .sv-font-action-pil .sv-linkicon, .sv-font-action-karta .sv-linkicon, .sv-font-action-facebook .sv-linkicon, .sv-font-action-twitter .sv-linkicon, .sv-font-action-instagram .sv-linkicon{
 	padding-left: 10px;
 }
 
-body .sv-font-action-penna.or-wrapper-click:hover,body .sv-font-action-pil.or-wrapper-click:hover,body .sv-font-action-karta.or-wrapper-click:hover,body .sv-font-action-facebook.or-wrapper-click:hover,body .sv-font-action-twitter.or-wrapper-click:hover{
+body .sv-font-action-penna.or-wrapper-click:hover,body .sv-font-action-pil.or-wrapper-click:hover,body .sv-font-action-karta.or-wrapper-click:hover,body .sv-font-action-facebook.or-wrapper-click:hover,body .sv-font-action-twitter.or-wrapper-click:hover, .sv-font-action-instagram.or-wrapper-click:hover{
 	color: #E83C23;
     text-decoration: underline;
 }
 
 
-body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-font-action-karta a:link, body .sv-font-action-facebook a:link, body .sv-font-action-twitter a:link {
+body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-font-action-karta a:link, body .sv-font-action-facebook a:link, body .sv-font-action-twitter a:link, body .sv-font-action-instagram a:link {
     text-decoration: none;
     font-family: "leaguespartan webfont",sans-serif;
     font-size: 13px;
+    line-height: 1em;
     box-shadow: rgba(255, 255, 255, 0.0)0 0 0 0 inset!important;
 }
 
-.sv-font-action-penna:hover a, .sv-font-action-pil:hover a, .sv-font-action-karta:hover a, .sv-font-action-facebook:hover a, .sv-font-action-twitter:hover a{
+.sv-font-action-penna:hover a, .sv-font-action-pil:hover a, .sv-font-action-karta:hover a, .sv-font-action-facebook:hover a, .sv-font-action-twitter:hover a, .sv-font-action-instagram:hover a{
     color: #E83C23;
     text-decoration: underline;
 }
 
-.sv-font-action-penna:before, .sv-font-action-pil:before, .sv-font-action-karta:before, .sv-font-action-facebook:before, .sv-font-action-twitter:before {
+.sv-font-action-penna:before, .sv-font-action-pil:before, .sv-font-action-karta:before, .sv-font-action-facebook:before, .sv-font-action-twitter:before, .sv-font-action-instagram:before {
     background-color: #E83C23;
     color: #fff;
-    width: 50px;
+    width: 45px;
     height: 100%;
     position: absolute;
-    font: normal normal normal 20px/50px FontAwesome;
+    font: normal normal normal 20px/47px FontAwesome;
     left: 0;
     top: 0;
     text-align: center;
@@ -2094,7 +2079,11 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
 	content:"\f099";
 }
 
-.sv-font-action-penna:after, .sv-font-action-pil:after, .sv-font-action-karta:after, .sv-font-action-facebook:after, .sv-font-action-twitter:after {
+.sv-font-action-instagram:before{
+	content:"\f16d";
+}
+
+.sv-font-action-penna:after, .sv-font-action-pil:after, .sv-font-action-karta:after, .sv-font-action-facebook:after, .sv-font-action-twitter:after, .sv-font-action-instagram:after {
     content: "\f054";
     color: #35383B;
     width: 41px;
