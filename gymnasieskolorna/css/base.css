@@ -5742,22 +5742,17 @@ div.or-synpunkt-action .or-action-content span:after{
 }
 
 .or-file-list-row.or-simple-file-list-row {
-  margin-top: 10px;
-  margin-bottom: 15px;
-  padding: 9px 10px 7px;
-}
-
-.or-document-icon-container {
-  width: 30px;
-  min-height: 20px;
-  float: left;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 9px 10px 7px 40px;
+    position: relative;
 }
 
 .or-file-icon-simple-list {
-  width: 24px;
-  margin-top: -3px;
-  margin-right: 10px;
-  float: left;
+    width: 24px;
+    position: absolute;
+    left: 6px;
+    top: 6px;
 }
 
 .or-file-name-container {
@@ -5780,6 +5775,7 @@ div.or-synpunkt-action .or-action-content span:after{
   text-decoration: none;
   font-size: 13px;
   line-height: 16px;
+  word-break: break-all;
 }
 
 .or-file-list-row:hover .or-contentlinks a.normal{
