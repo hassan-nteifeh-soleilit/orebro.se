@@ -2253,6 +2253,23 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
 
 
 /* Kontakt och tyck till */
+a.kontaktaxossxxxbrodtext, .kontaktaxossxxxbrodtext a, a.kontaktaxossxxxbrodtext:link, .kontaktaxossxxxbrodtext a:link, a.kontaktaxossxxxbrodtext:visited, .kontaktaxossxxxbrodtext a:visited, a.kontaktaxossxxxbrodtext:active, .kontaktaxossxxxbrodtext a:active {
+    color: #000000;
+    text-decoration: none;
+    line-height: normal;
+    box-shadow: rgba(174, 222, 239, 0.65)0px -15px 0px -11px inset;
+    -webkit-transition: all 100ms ease;
+    -moz-transition: all 100ms ease;
+    -o-transition: all 100ms ease;
+    transition: all 100ms ease;
+    cursor: pointer;
+}
+
+body a.kontaktaxossxxxbrodtext:hover, body .kontaktaxossxxxbrodtext a:hover{
+    box-shadow: rgba(174, 222, 239, 0.65) 0px -41px 0px -17px inset;
+}
+
+
 .or-sok-person-action > div,
 .or-felanmalan-action > div,
 .or-synpunkter-action > div{
