@@ -5724,6 +5724,7 @@ div.or-synpunkt-action .or-action-content span:after{
   color: black;
   font-size: 13px;
   line-height: 16px;
+  
 }
 
 .or-file-list-row {
@@ -5783,9 +5784,7 @@ div.or-synpunkt-action .or-action-content span:after{
 }
 
 .or-file-list-row:hover .or-contentlinks{
-	background-color: rgba(174, 222, 239, 0.49);
-	box-shadow: rgb(174, 222, 239)0px -16px 0px -30px inset;
-  box-shadow: rgba(174, 222, 239, 0.65)0px -16px 0px -30px inset;
+	box-shadow: 0 -48px 0 -30px rgba(174,222,239,0.65) inset;
   color: #35383b;
 }
 
