@@ -824,6 +824,14 @@ body p.sv-portlet-image-caption {
     list-style: none;
 }
 
+.or-article-main ul.normal li ul li{
+}
+
+.or-article-main ul.normal li ul li:before {
+    content: "\f10c";
+}
+
+
 .or-article-main ul.normal li:before {
     content: "\f111";
     font-family: FontAwesome;

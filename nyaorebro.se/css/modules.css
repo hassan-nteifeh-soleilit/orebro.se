@@ -802,7 +802,7 @@ ul.or-teaser-list {
 
 .or-teaser-box  .or-file-size {
     font-size: 10px;
-    font-weight: 600;
+    font-weight: 300;
     font-family: "open sans",sans-serif;
 }
 
@@ -2118,6 +2118,7 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
+    float: left;
 }
 
 .or-plus-box-header:hover .plusboxxrubrik {
@@ -2128,6 +2129,12 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
 .or-plus-box-content {
     background-color: #fff;
     padding: 15px;
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+
 }
 
 .or-plus-box-header.or-colorborder.or-wrapper-click.or-plus-box-header.or-plus-box-active{
@@ -2222,6 +2229,11 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
  .or-plus-box-header.or-plus-box-diskret-header{
     min-height: 30px;
     padding-left: 13px;
+    float: left;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+
 }
 
 .or-plus-box-header.or-plus-box-diskret-header.or-colorborder.or-wrapper-click.or-plus-box-header.or-plus-box-active {
@@ -2251,6 +2263,12 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
  .or-plus-box-diskret-content{
 	background-color: #fff;
 	padding: 15px;
+	float:left;
+	width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+
 }
 
 
@@ -2945,14 +2963,15 @@ body .or-news-filter .or-colorborder.or-wrapper-click.or-plus-box-header.or-plus
 }
 
 .or-file-list-row.or-simple-file-list-row {
-    margin-top: 6px;
-    margin-bottom: 15px;
+        margin-top: 6px;
+    margin-bottom: 10px;
     padding: 6px 10px 5px 40px;
     width: 100%;
     box-sizing: border-box;
     border-radius: 2px;
     position: relative;
     float: left;
+    min-height: 35px;
 }
 
 .or-document-icon-container {
