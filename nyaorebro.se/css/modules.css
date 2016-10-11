@@ -2135,6 +2135,10 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
 
 }
 
+.or-plus-box-content h2:first-child,.or-plus-box-content h3:first-child, .or-plus-box-content h4:first-child{
+	margin-top: 0px;
+}
+
 .or-plus-box-header.or-colorborder.or-wrapper-click.or-plus-box-header.or-plus-box-active{
 	background-color: #e83c23;
 }
