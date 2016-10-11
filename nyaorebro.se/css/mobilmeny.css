@@ -62,6 +62,7 @@ MENY
   bottom: 0;  
   z-index: 9998;
   overflow: scroll;
+	-ms-overflow-style: scrollbar;
   -webkit-overflow-scrolling: touch;
   min-height: 100%;      
   width: 440px;    
