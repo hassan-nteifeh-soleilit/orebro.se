@@ -2966,7 +2966,6 @@ body .or-news-filter .or-colorborder.or-wrapper-click.or-plus-box-header.or-plus
     box-sizing: border-box;
     border-radius: 2px;
     position: relative;
-    float: left;
     min-height: 35px;
 }
 
@@ -2983,8 +2982,6 @@ body .or-news-filter .or-colorborder.or-wrapper-click.or-plus-box-header.or-plus
 
 .or-file-name-container {
     min-height: 20px;
-    float: left;
-    clear: none;
 }
 
 .or-contentlinks a.normal{
@@ -3047,12 +3044,6 @@ box-shadow: rgba(255, 255, 255, 1)0px -33px 0px -11px inset;
   margin-left: 3px;
   float: none;
 }
-
-
-.or-document-weight {
-  float: left;
-}
-
 
 /* tabeller */
 
