@@ -2118,7 +2118,6 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    float: left;
 }
 
 .or-plus-box-header:hover .plusboxxrubrik {
@@ -2129,7 +2128,6 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
 .or-plus-box-content {
     background-color: #fff;
     padding: 15px;
-    float: left;
     width: 100%;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -2229,7 +2227,6 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
  .or-plus-box-header.or-plus-box-diskret-header{
     min-height: 30px;
     padding-left: 13px;
-    float: left;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -2263,7 +2260,6 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
  .or-plus-box-diskret-content{
 	background-color: #fff;
 	padding: 15px;
-	float:left;
 	width: 100%;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;

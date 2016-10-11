@@ -1192,6 +1192,11 @@ nav.or-secondary .or-content ul li a {
     display: inherit;
 }
 
+nav.or-secondary .or-content ul li a:focus {
+    outline: solid 1px #6a1a41;
+}
+
+
 nav.or-secondary .or-content ul li a h3 {
     color: #e83c23;
     margin-bottom: 4px;
