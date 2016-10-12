@@ -1,0 +1,5 @@
+#if($imageUrl)
+<script>
+   $(".hero-startsida").css("background-image","url('$imageUrl')");   
+</script>
+#end
