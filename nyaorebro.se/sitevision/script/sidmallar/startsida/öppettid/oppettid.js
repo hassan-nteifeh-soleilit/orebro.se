@@ -1,19 +1,16 @@
 var PropertyUtil = require('PropertyUtil'),
-	DateUtil = require('DateUtil'),	
-	ResourceLocatorUtil  = require("ResourceLocatorUtil");
-   //PortletContextUtil = require('PortletContextUtil'),
-   //OutputUtil = require('OutputUtil');
+	DateUtil = require('DateUtil'),		
+   PortletContextUtil = require('PortletContextUtil');   
 	
-
 //Java classes
 var Calendar = Java.type('java.util.Calendar'),
 	GregorianCalendar = Java.type('java.util.GregorianCalendar'),
 	LocalDateTime = Java.type('java.time.LocalDateTime'),
 	DateTimeFormatter = Java.type('java.time.format.DateTimeFormatter');
 
-var page = ResourceLocatorUtil.getNodeByIdentifier("4.5ab4ab37154229e2ec88610"),
-	data = PropertyUtil.getString(page,"openHours");
-   //thisUrl = "/" + PortletContextUtil.getCurrentPage().getIdentifier()+"/"+ PortletContextUtil.getCurrentPortlet().getIdentifier() + ".html";
+var page = PortletContextUtil.getCurrentPage(),
+	data = PropertyUtil.getString(page,"openHours"),   
+	thisUrl = "/" + PortletContextUtil.getCurrentPage().getIdentifier()+"/openhours.portlet";
 
 
 var DAY_SWEDISH = ["", "söndag", "måndag", "tisdag", "onsdag", "torsdag", "fredag", "lördag"], // Calendar sunday starts on 1
@@ -23,13 +20,14 @@ var DAY_SWEDISH = ["", "söndag", "måndag", "tisdag", "onsdag", "torsdag", "fre
     MAX_REFRESH_WAIT_MS = 60*60*1000; // 60 minutes
 
 
-var init = request.getParameter("refresh") === null;
 
 if (data && !data.isEmpty()){	
 	var business = JSON.parse(data);  
    var closeinfo = PropertyUtil.getString(page, 'stangtinfo');
    var openinfo = PropertyUtil.getString(page, 'openinfo');   
 	business = new OpenHour(business, openinfo, closeinfo, null);
+      
+   var json = (JSON.stringify(business));
 }
     
 

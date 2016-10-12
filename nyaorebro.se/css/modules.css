@@ -1,4 +1,4 @@
-﻿/* 2. Liten kalender info ruta */
+﻿﻿/* 2. Liten kalender info ruta */
 /* 3. Kalender faktaruta */
 
 /*cookie*/
@@ -3539,18 +3539,11 @@ section.or-bg-one {
     margin-top: 0px;
 }
 
-.or-oh-start-page p.or-phone-hours
-{
-	display:inline;
-	margin-right:10px;
-}
-
 .or-oh-start-page p.or-phone-hours strong, .or-email-info.normal strong
 {
 	font-family: "leaguespartan webfont",sans-serif;
 	font-size: 12px;
 }
-
 
 
 .or-oh-start-page .or-phone-number {
@@ -3562,10 +3555,39 @@ section.or-bg-one {
 	width:auto;
 }
 
-.or-oh-start-page .or-oh-open, .or-oh-start-page .or-oh-closed, .or-oh-start-page .or-oh-status {
+.or-oh-start-page .or-oh-label, .or-oh-start-page .or-oh-status {
     float: none;
     min-width: 40px;
 }
+
+.or-oh-start-page .or-oh-label {
+   margin-left: 10px;
+}
+
+.open .or-oh-label {
+    background-color: #7d9c41;
+}
+
+
+.closed .or-oh-label {
+    background-color: #cc553f;
+}
+
+.or-oh-label {
+    color: #fff;
+    font-weight: 700;
+    margin: 5px 10px 0 0;
+    padding: 4px 10px 2px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "leaguespartan webfont",sans-serif;
+    font-size: 10px;
+    border-radius: 2px;
+    letter-spacing: 0.090em;
+    display: inline-block;
+    float: left;
+}
+
 
 .or-oh-start-page .normal a {
     font-size: 15px;

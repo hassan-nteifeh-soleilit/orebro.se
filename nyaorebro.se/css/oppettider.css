@@ -419,3 +419,15 @@ body .ui-state-active {
     background: #857672!important;
     color: #fff!important;
 }
+
+.or-phone-info.open,
+.or-phone-hours.open {
+ display:block;
+}
+
+.or-email-info.open,
+.or-phone-info,
+.or-phone-hours {
+	display:none;
+}
+
