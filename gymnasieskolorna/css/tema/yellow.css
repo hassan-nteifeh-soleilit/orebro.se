@@ -428,7 +428,6 @@ color: #35383B;
 .sv-table-portlet th span.normal, .sv-text-portlet-content table.sv-standard th span.normal {
     color: #35383b;
 }
-
 .st-head-row.st-head-row-main span.normal {
      color: #35383b;
 }
@@ -440,7 +439,6 @@ color: #35383B;
 .sv-text-portlet table.sv-standard th p {
     color: #35383b;
 }
-
 
 /* rubrik logo */
 .or-header-topptext h2 {
@@ -658,6 +656,13 @@ background: #FFF484 none repeat scroll 0% 0%;
 border-top: 5px solid #FFFBCF;
 color: #35383B;
 }
+
+.sol-tab-button-container .sol-tab-button:not(.sol-tab-active):hover {
+    color: #FFF484;    
+}
+
+
+
 
 .sol-tabs-decoration-content{
  border-top: 5px solid  #fffbcf;

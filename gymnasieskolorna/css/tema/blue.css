@@ -368,6 +368,7 @@ color: #0098bd;
 	background-color: #0098bd;
 }
 
+
 /* rubrik logo */
 .or-header-topptext h2 {
  color: #0098bd;
@@ -518,6 +519,10 @@ li.sol-selected-facet:hover
 	border-top:5px solid #AEDEEF;
 }
 
+.sol-tab-button-container .sol-tab-button:not(.sol-tab-active):hover {
+    color: #0098BD;    
+}
+
 .sol-accordion-heading.sol-tab-active
 {
 	background-color:#0098BD;
@@ -564,6 +569,7 @@ li.sol-selected-facet:hover
 	 border-color:rgba(136,183,213,0) rgba(136,183,213,0) rgba(136,183,213,0) #0098bd;
 }
 /* Slut ny action */
+
 
 /* Ny action formatmall */
 .sv-font-action-penna:before, .sv-font-action-pil:before, .sv-font-action-karta:before, .sv-font-action-facebook:before, .sv-font-action-twitter:before {

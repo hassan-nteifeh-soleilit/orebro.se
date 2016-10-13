@@ -571,6 +571,10 @@ li.sol-selected-facet:hover {
  border-top: 5px solid #e4e4e4;
 }
 
+.sol-tab-button-container .sol-tab-button:not(.sol-tab-active):hover {
+    color: #857672;    
+}
+
 .sol-accordion-heading {
     background-color: #fff;
     color: #35383B;
