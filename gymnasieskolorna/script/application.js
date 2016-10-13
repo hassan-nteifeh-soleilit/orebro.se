@@ -106,6 +106,10 @@
 		});
 		 
 					
+			/* Expandera meny items */
+			$(".or-tree .or-toggle-panel").click(function() {
+				$(this).parent().toggleClass("or-expanded");
+			});
 
              
       /* Responsiva tabeller */  
