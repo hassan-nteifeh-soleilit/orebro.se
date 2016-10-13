@@ -89,10 +89,17 @@
   .quotewrapper {
     margin-left: 0px;
   }
-}
 
+	/* Modal popup */
+	.or-kontakta-kontaktpersoner-vanster > div{
+		border: 0px;
+	}
 
-
+	.or-modal {
+		width: 640px!important;
+		margin-left: -335px!important;
+	}
+} /* End max 991*/
 
 @media all and (max-width: 960px)
 {
