@@ -1,4 +1,6 @@
-var ARCHIVE_ID = '3.3ea82f1c1507495b49b37ec';
+var ARCHIVE_ID = '3.1ce67f8114fb4fd5cb318ae'; // GY
+var ARCHIVE_ID = '3.3ea82f1c1507495b49b37ec'; // EX
+
 
 var utils = request.getAttribute('sitevision.utils');
 var linkRenderer = utils.getLinkRenderer();
@@ -14,8 +16,7 @@ var smallCss = "";
 if(archive && archive.hasNext()) {
    
    var article = archive.next(); 
-
-   //out.print(outputUtil.getNodeInfoAsHTML(article))      
+   
    var header = propertyUtil.getString(article,'SV.Title','');     
    var content = propertyUtil.getString(article,'SV.Content','');     
    var ingress = propertyUtil.getString(article,'SV.Description','');
