@@ -4011,6 +4011,21 @@ body .or-start-heading-divider .normal{
     
 }
 
+.or-sok-politiker a[shape="rect"] {
+    font-family: "open sans",sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: #35383b;
+    text-decoration: none;
+    line-height: normal;
+    box-shadow: rgba(174,222,239,0.65)0px -15px 0 -11px inset;
+    -webkit-transition: all 100ms ease;
+    -moz-transition: all 100ms ease;
+    -o-transition: all 100ms ease;
+    transition: all 100ms ease;
+    cursor: pointer;
+}
+
 .or-sokt-politiker h1 {
     margin-left: 1.2em;
 }
