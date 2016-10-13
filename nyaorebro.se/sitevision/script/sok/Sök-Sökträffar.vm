@@ -104,7 +104,7 @@ $linkRenderer.setFontClass($linkRendererClass)
       ##
       ## Heading
       ## Fetch title and set for heding if tile exists
-      #set ($hitHeading = $scriptUtil.getNonNull($hit.getField('metadata.rubrik')))
+      #set ($hitHeading = $scriptUtil.getNonNull($hit.getField('metadata.rubrik'), $hit.getField($displayField)))
       ##if($hitHeading)
         ##set ($sitenamn = $hit.getField('metadata.sitenamn'))
         ##if(!$hitHeading.contains($sitenamn))
