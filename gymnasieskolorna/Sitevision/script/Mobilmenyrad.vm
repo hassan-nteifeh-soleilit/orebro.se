@@ -1,0 +1,163 @@
+<div class="or-mobile-nav-container" id="contact">
+   <a class="or-mobile-nav-column search-column" href="$linkNode" id="mobileMenuLogo">
+      #if($imagURI!='')
+      <img class="or-logo" src="$imagURI" alt="logotype">
+      #end
+      #if($headerTopp!='')
+      <div class="or-header-topptext-container">
+      <div class="or-header-topptext">$headerTopp</div>      
+      #end
+      #if($headerBottom!='')
+      <div class="or-header-bottomtext">$headerBottom</div>      
+      #end
+      </div>
+    </a>
+
+    <a class="or-mobile-nav-column search-column" href="#" id="mobileMenuBtn">        
+      <i class="fa fa-bars"></i>
+      <div class="or-mobile-nav-text">Meny</div>
+    </a>      
+        
+    <a class="or-mobile-nav-column" href="#con"  id="contactBtn">          
+      <i class="fa fa-comments"></i>
+      <div class="or-mobile-nav-text">Kontakt</div>
+    </a>
+   
+    <a class="or-mobile-nav-column search-column" href="#" id="searchBtn">         
+      <i class="fa fa-search"></i>
+      <div class="or-mobile-nav-text">Sök</div>
+    </a>  
+   
+      <a class="or-mobile-nav-column search-column" href="#0" id="or-id-readspeaker-mobile">         
+      <i class="fa fa-volume-up"></i>
+      <div class="or-mobile-nav-text">Lyssna</div>
+    </a>  
+
+	<div id="or-id-readspeaker-mobile-player" class="rs_skip rs_preserve"> </div>    
+
+</div>
+
+ 
+  
+<script type="text/javascript">
+	$dollar(document).ready(function() {                    							 
+		var ${dollar}menu = $('#menu-2');
+		var hasContact = $(".or-kontakt-och-tyck-till").length;
+
+		function isMenuOpen(){
+			return parseInt(${dollar}menu.css('right'),10) == 0;
+		};
+
+		function slideMobileMenu(open) {                
+
+			if(!isMenuOpen() && open) {               
+				${dollar}menu.show();
+				${dollar}menu.css('width', $( window ).width());
+				${dollar}menu.css('padding-top', '94px');
+				${dollar}menu.css('right', '0');                
+			} else if(isMenuOpen() && !open) {				
+				${dollar}menu.css('width', '');               
+				${dollar}menu.css('right', -$menu.outerWidth()); 
+				${dollar}menu.css('padding-top', '');
+				${dollar}menu.hide();
+			}
+		}
+
+		function closeAllOthers(caller){
+			if (caller != "menu") {                  
+				$("#mobileMenuBtn .fa").removeClass('fa-close');
+				$("#mobileMenuBtn .fa").addClass('fa-bars');                              
+				$("#mobileMenuBtn").removeClass("or-colorbg");             
+				$("#mobileMenuBtn .phone-nav-text").html("Meny");
+				slideMobileMenu(false);          
+			}
+
+			if (caller != "search") {                				
+				$("header").removeClass("or-search-mobile");		
+				$("#searchBtn i.fa").removeClass('fa-close'); 
+				$("#searchBtn i.fa").addClass('fa-search');               
+				$("#searchBtn").removeClass("or-colorbg");
+				$("#searchBtn .phone-nav-text").html("Sök");    						
+			}
+		 
+			if (hasContact && caller != "contact") {                                              
+				$("#contactBtn").removeClass("or-colorbg");  
+				$("#contactBtn i.fa").removeClass('fa-close'); 
+				$("#contactBtn i.fa").addClass('fa-comments');               
+				$("#contactBtn").removeClass("or-colorbg");
+				$("#contactBtn").find($(".or-mobile-nav")).html("Kontakt och tyck till");                          
+				$('.or-modal').hide();                      
+			}
+		}
+       
+		if(hasContact) {    
+			$("#contactBtn").click(function(event) {                          					                                                             
+				if ($(".or-kontakt-och-tyck-till").is(":visible")) {                               
+					$(this).find($("i.fa")).removeClass('fa-close'); 
+					$(this).find($("i.fa")).addClass('fa-comments');               
+					$(this).removeClass("or-colorbg");
+					$(this).find($(".or-mobile-nav")).html("Kontakt och tyck till");                                                       
+					$('.or-modal').hide();                  			
+
+				} else {               					                  
+					$('.or-modal').fadeIn();                  
+					$(this).find($("i.fa")).removeClass('fa-comments'); 
+					$(this).find($("i.fa")).addClass('fa-close');               
+					$(this).addClass("or-colorbg");
+					$(this).find($(".or-mobile-nav")).html("Stäng");                                           
+					closeAllOthers("contact");
+				}
+			});
+			
+		} else { 
+			// Döljer kontakt och tyck till om det inte finns på sidan     
+			$("#contactBtn .fa-comments").hide(); 			
+			$("#contactBtn .or-mobile-nav-text").hide();  
+			$("#contactBtn").addClass("disabled");                              
+		}
+		
+		$("#searchBtn").click(function(e) {     
+			e.preventDefault();
+			e.stopPropagation();
+			if ($("header").is(":visible")) {                               
+				$(this).find("i.fa").removeClass('fa-close'); 
+				$(this).find("i.fa").addClass('fa-search');               
+				$(this).removeClass("or-colorbg");
+				$(this).find(".phone-nav-text").html("Sök");               				
+				$("header").removeClass("or-search-mobile");
+			}else {              				
+				$("header").addClass("or-search-mobile");
+				$(this).find("i.fa").removeClass('fa-search'); 
+				$(this).find("i.fa").addClass('fa-close');               
+				$(this).addClass("or-colorbg");
+				$(this).find(".phone-nav-text").html("Stäng");               
+				closeAllOthers("search");               
+			}
+		});
+
+		$("#mobileMenuBtn").click(function() {                                 
+			if (isMenuOpen()) {                   
+				$(this).find("i.fa").removeClass('fa-close'); 
+				$(this).find("i.fa").addClass('fa-bars');               
+				$(this).removeClass("or-colorbg");
+				$(this).find(".phone-nav-text").html("Meny");
+				slideMobileMenu(false);               
+			} else {             
+				$(this).find("i.fa").removeClass('fa-bars'); 
+				$(this).find("i.fa").addClass('fa-close');               
+				$(this).addClass("or-colorbg");
+				$(this).find(".phone-nav-text").html("Stäng");
+				slideMobileMenu(true);
+				closeAllOthers("menu");
+			}                         
+
+		});
+
+      /* 
+		$('#or-id-readspeaker-mobile').click(function() {      
+			readpage($('#readspeaker_link1').attr('href'), '#or-id-readspeaker-player')
+		});
+      */
+
+	});     
+</script>   
