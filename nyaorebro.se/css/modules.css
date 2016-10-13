@@ -97,7 +97,7 @@ form.or-search-field input {
     background-color: #ffffff;
     font-size: 16px;
     font-weight: 100;
-    color: #717171;
+    color: #454545;
     -webkit-appearance: none;
     letter-spacing: 0.01em;
     font-family: "open sans",sans-serif;
@@ -1025,7 +1025,7 @@ label.or-fieldlabelhelpus
 {
 	background-color:#FFF;
 	border:1px solid #DEDADA;
-	color:#717171;
+	color:#454545;
 	font-family:"Open Sans",sans-serif;
 	font-size:17px;
 	font-weight:300;
@@ -1037,10 +1037,11 @@ label.or-fieldlabelhelpus
 	width:100%;
 }
 
-.or-helpusinput input,textarea
+.or-helpusinput input, .or-helpusinput textarea input[type=text]
 {
 	box-shadow:0 0 0 rgba(0,0,0,0.1) inset;
 	transition:border .2s linear 0 box-shadow .2s linear 0;
+	color:#454545;
 }
 
 
@@ -1069,7 +1070,7 @@ label.or-fieldlabelhelpus
 {
 	background-color:#fff;
 	border:1px solid #ccc;
-	color:#717171;
+	color:#454545;
 	font-size:17px;
 	font-weight:300;
 	line-height:1.428571429;
@@ -1144,6 +1145,8 @@ label.or-fieldlabelhelpus
 	width:90%;
 }
 
+
+
 /* Sökresultat */
 #or-search-form {
     position: relative;
@@ -1158,7 +1161,6 @@ label.or-fieldlabelhelpus
     border: 1px solid #E4E4E4;
     padding-left: 10px;
     font-weight: 300;
-    color: #909090;
     margin-bottom: 15px;
     -webkit-appearance: none;
 }
@@ -2373,7 +2375,7 @@ ul > li.kontaktaxossxxxbrodtext:last-child{
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    color: #555;
+    color: #454545;
     background-color: #fff;
     background-image: none;
     width: 100%;
@@ -2388,7 +2390,6 @@ ul > li.kontaktaxossxxxbrodtext:last-child{
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
     font-size: 12px;
     font-family: "open sans",sans-serif;
-    color: #b6b6b3;
     font-size: 14px;
     font-weight: 300;
 }
@@ -2399,6 +2400,11 @@ ul > li.kontaktaxossxxxbrodtext:last-child{
     font-family: "open sans",sans-serif;
     font-weight: 300;
     margin-bottom: 7px;
+    color: #454545;
+}
+
+.sv-defaultFormTheme input[type=placeholder]{
+	color: red;
 }
 
 .sv-defaultFormTheme input[type=text]:focus, textarea:focus {
@@ -2427,7 +2433,6 @@ ul > li.kontaktaxossxxxbrodtext:last-child{
     border-radius: 2px;
     -moz-border-radius: 2px;
 	-webkit-border-radius: 2px;
-    color: #f5f5f5;
     background-color: #35383B;
     border-color: transparent;
     font-family: "leaguespartan webfont",sans-serif;
@@ -2769,13 +2774,12 @@ body .or-news-filter .or-colorborder.or-wrapper-click.or-plus-box-header.or-plus
     background-color: #fff;
     padding: 10px 20px 10px 15px;
     margin-bottom: 20px;
-    margin-top: 25px;
-    box-shadow: 0px 0px 4px #E2E2E2;
+    margin-top: 20px;
+    box-shadow: 0 0 4px #e2e2e2;
     border-radius: 2px;
     -moz-border-radius: 2px;
-	-webkit-border-radius: 2px;
+    -webkit-border-radius: 2px;
     position: relative;
-
 }
 
 .or-news-list.or-small li {
@@ -3876,11 +3880,9 @@ body .or-start-heading-divider .normal{
 .or-news-list.or-small li {
     box-shadow: none;
     border-bottom: 2px #F7F3F3 solid;
+    padding: 0px 20px 10px 15px;
 }
 
-.or-news-list.or-small li {
-    padding: 12px 20px 17px 15px;
-}
 
 .or-news-list.or-small h3 a {
     font-size: 14px;
@@ -4179,7 +4181,7 @@ body .or-start-heading-divider .normal{
     background-color: #ffffff;
     font-size: 16px;
     font-weight: 100;
-    color: #717171;
+    color: #454545;
     -webkit-appearance: none;
     letter-spacing: 0.01em;
     box-sizing: border-box;
@@ -4688,7 +4690,7 @@ table.or-bath-water th:not(:first-child)  {
     background-color: #ffffff;
     font-size: 16px;
     font-weight: 100;
-    color: #717171;
+    color: #454545;
     -webkit-appearance: none;
     letter-spacing: 0.01em;
     font-family: "open sans",sans-serif;
@@ -4921,7 +4923,7 @@ table.or-bath-water th:not(:first-child)  {
 	-webkit-border-radius: 2px;
 	float:right;
 	margin-left:20px;
-	width:25%;
+	width: 37%;
 }
 
 .or-social-media-content.youtube .or-content img
@@ -5810,7 +5812,7 @@ width: 100%!important;
     background-color: #ffffff;
     font-size: 16px;
     font-weight: 100;
-    color: #717171;
+    color: #454545;
     -webkit-appearance: none;
     letter-spacing: 0.01em;
 	padding: 20px;
@@ -5922,7 +5924,7 @@ width: 100%!important;
     background-color: #ffffff;
     font-size: 16px;
     font-weight: 100;
-    color: #717171;
+    color: #454545;
     -webkit-appearance: none;
     letter-spacing: 0.01em;
     box-sizing: border-box;
@@ -5971,7 +5973,7 @@ width: 100%!important;
     border-radius: 2px;
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
-    color: #f5f5f5;
+    color: #454545;
     background-color: #35383B;
     border-color: transparent;
     font-weight: 700;
