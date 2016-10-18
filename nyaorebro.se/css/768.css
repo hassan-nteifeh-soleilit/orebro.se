@@ -1086,6 +1086,12 @@ nav.or-secondary .or-content ul.or-extra {
 	margin-top: -7px;
 }
 
+/* Dölj toppbild på genomgångssida 2 : Temporär lösning, ta bort bild i mobil*/
+.or-content-page-2 .or-top-img-area {
+	height:86px;	
+}
+
+
 
 /* Öppettider/kontakt */
 .or-openhours-contact > div:first-child {
