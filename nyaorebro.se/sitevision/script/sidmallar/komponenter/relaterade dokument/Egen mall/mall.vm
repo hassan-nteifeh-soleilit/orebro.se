@@ -4,30 +4,44 @@
    <div class="or-teaser-box or-related-documents">
      <div class="or-title"><span><i class="fa fa-file-text-o"></i>Dokument</span></div>
      <div class="or-text-content">
-   #set ($instanceTypeUtil = $sitevisionUtils.instanceTypeUtil)
-   #set ($endecUtil = $sitevisionUtils.endecUtil)
-   #set ($linkRenderer = $sitevisionUtils.linkRenderer)
-	 #set ($iconRenderer = $sitevisionUtils.fileIconRenderer)
-   $linkRenderer.setFontClass("")
-   $linkRenderer.setUseEncoding(false)   
-	 $iconRenderer.setFontClass("or-file-icon")
+	#set ($instanceTypeUtil = $sitevisionUtils.instanceTypeUtil)
+	#set ($endecUtil = $sitevisionUtils.endecUtil)
+	#set ($linkRenderer = $sitevisionUtils.linkRenderer)
+	#set ($iconRenderer = $sitevisionUtils.fileIconRenderer)
+	#set ($extensions = ['pdf','doc','xls','ppt','zip','pdf'])       
+   
+	$linkRenderer.setFontClass("")
+	$linkRenderer.setUseEncoding(false)
+	$iconRenderer.setFontClass("or-file-icon")
+	$iconRenderer.setUseSmallIcons(false)
        <ul class="or-teaser-list">
-   #foreach($item in $related)      
-      #if ($instanceTypeUtil.isNode($item))            
-         #if ($linkRenderer.isValidTarget($item))      
-						#if (!$iconRenderer.loadIconByURI(${propertyUtil.getString($item, 'URI')}))         		
-							#set ($ignore = $iconRenderer.loadIconByContentType(${propertyUtil.getString($item, 'mimeType')}))
-						#end		
-						#set ($icon = $iconRenderer.render())						
-            $linkRenderer.update($item)
-          	#set ($item = $endecUtil.unEscapeJcrName($item.name))            
-						$linkRenderer.setText("<div class=""or-file-icon-container"">$icon<div class=""or-file-size""></div></div> <span class=""or-link-name"">$item</span>")                            						
+	#foreach($item in $related)      
+		#if ($instanceTypeUtil.isNode($item))       
+			#if ($linkRenderer.isValidTarget($item))   
+				## Open in new Window gives javascript in the uri
+				#if ($propertyUtil.getBoolean($item,'openInNewWindow', false))
+					#set ($uri = $propertyUtil.getString($item, 'URI'))     
+					#set ($matchedExtension = '')
+					#foreach( $extension in $extensions )
+						#if ($uri.indexOf($extension) != -1)
+							#set ($matchedExtension = $extension)
+							#break									
+						#end
+					#end						
+					#set ($ignore = $iconRenderer.loadIconByFileExtension($matchedExtension))						
+				#else
+					#set ($ignore = $iconRenderer.loadIconByURI($propertyUtil.getString($item, 'URI')))         		          
+				#end		
+				#set ($icon = $iconRenderer.render())						
+				$linkRenderer.update($item)
+				#set ($item = $endecUtil.unEscapeJcrName($item.name))            
+				$linkRenderer.setText("<div class=""or-file-icon-container"">$icon<div class=""or-file-size""></div></div> <span class=""or-link-name"">$item</span>")                            						
             <li>$linkRenderer.render()</li>
-         #end         
-      #else
+			#end         
+		#else
          <li>$endecUtil.escapeXML(${item})</li>
-      #end
-   #end
+		#end
+	#end
        </ul> 
      </div>     
    </div>
