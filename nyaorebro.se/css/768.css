@@ -1023,6 +1023,10 @@ nav.or-secondary .or-content ul li a {
 nav.or-secondary .or-content ul li:nth-child(n+1) {
     border-bottom: 0px dotted #eae9e8;
 }
+
+nav.or-secondary .or-content ul.or-extra li:nth-child(n+4) {
+    border-bottom: 0px dotted #eae9e8;
+}
     
 .hero-startsida .or-secondary .or-content ul li a h3 {
     font-size: 11px;

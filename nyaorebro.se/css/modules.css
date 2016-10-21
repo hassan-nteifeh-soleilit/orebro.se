@@ -1860,6 +1860,18 @@ body .or-content-container .or-tir p,body .or-content-container .or-tir p a:link
     box-shadow: none;
 }
 
+.or-ny-action .normal .or-action-text a {
+    font-family: "leaguespartan webfont",sans-serif;
+    font-style: normal;
+    color: #35383B;
+    text-decoration: none;
+    line-height: 20px;
+    font-size: 13px;
+    line-height: 1em;
+    font-weight: 800;
+    box-shadow: none;
+}
+
 .or-new-action-text a:link {
     font-family: "leaguespartan webfont",sans-serif;
     font-weight: 400;
@@ -4422,6 +4434,10 @@ body .or-puff-link .normal {
 /* Toppbildsyta standardsida */
 .or-standard-page .or-top-img-area {
     max-width: 1150px;
+}
+
+.sv-responsive .pagecontent .sv-image-portlet img{
+	margin-bottom: 15px;
 }
 
 /* Badvattenkvalitet */

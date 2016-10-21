@@ -1245,6 +1245,10 @@ nav.or-secondary .or-content ul.or-extra li {
     padding-bottom: 8px;
 }
 
+nav.or-secondary .or-content ul.or-extra li:nth-child(n+4) {
+    border-bottom: 2px dotted #eae9e8;
+}
+
 nav.or-secondary .or-content ul.or-extra li a {
     height: auto;
     width: 95%;
