@@ -894,9 +894,30 @@ body .or-update-date {
     font-size: 12px;
 }
 
-.or-thumbup:hover,.or-thumbup.selected {
-    background-color: #60930f;
+.or-thumbup {
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    background-color: #857672;
+    border-bottom-color: rgba(255,255,255,0.09);
+    border-bottom-style: solid;
+    color: #fff!important;
+    display: inline-block;
+    float: none;
+    font-weight: 600;
+    margin-right: 21px;
+    min-width: 50px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    text-align: center;
+    margin-top: 8px;
+    font-size: 12px;
 }
+
 
 .or-thumbup.thumbdown.selected {
     background-color: #e83c23;
@@ -912,8 +933,13 @@ body .or-update-date {
     font-weight: 600;
 }
 
-.or-thumbup.or-thumbdown:hover,.or-thumbup.or-thumbdown.selected {
+.or-thumbup.or-thumbdown:hover, .or-thumbdown.selected {
     background-color: #e83c23;
+    background-position: 100% -26px;
+}
+
+.or-thumbup.or-thumbup:hover,.or-thumbup.selected {
+    background-color: green;
     background-position: 100% -26px;
 }
 
@@ -1591,6 +1617,8 @@ footer {
     display: inline-block;
     float: left;
     margin-left: 10px;
+    color: #fff;
+    font-size: 14px;
 }
 
 .or-social-icon {
@@ -5736,7 +5764,7 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
 
 .or-tillstand-restaurang form input[type="text"] {
     width: 70%;
-    padding: 10px 55px 10px 12px;
+    padding: 5px 55px 5px 12px;
     line-height: 1.428571429;
     border: 0 1px 1px 1px solid #ccc;
     border-style: solid;
@@ -5748,7 +5776,7 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
     -webkit-border-radius: 2px;
     vertical-align: middle;
     background-color: #fff;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 400;
     color: #454545;
     -webkit-appearance: none;
@@ -5824,11 +5852,12 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
 }
 
 .or-tillstand-restaurang span[class^="rubSok"] {
-    font-family: "open sans",sans-serif;
-    font-size: 12px;
     margin: 10px 0;
     font-weight: 700;
-    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: inline-block;
+    font-family: "leaguespartan webfont",sans-serif;
 }
 
 .or-tillstand-restaurang .inforutaRam,.or-tillstand-restaurang .huvudTabell {
@@ -5842,8 +5871,10 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
 
 .or-tillstand-restaurang .flik,.or-tillstand-restaurang .inforutaRam #Table3 {
     border-top: 5px solid #e83c23;
-    padding: 10px 0;
+    padding: 5px 15px;
     margin-bottom: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.15);
+    background-color: rgba(177,177,176,0.17);
 }
 
 .or-tillstand-restaurang .FlikValdText,.or-tillstand-restaurang .FlikEjValdText {
@@ -5887,6 +5918,21 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
 
 .or-tillstand-restaurang td.FlikEjValdBg:first-child {
     border: 1px solid rgba(255,0,0,0.12);
+}
+
+body .inforutaRubrik {
+    font-size: 14px;
+    font-weight: bold;
+    color: #35383b;
+    background-color: transparent;
+    text-align: left;
+    height: 22px;
+    font-family: "leaguespartan webfont",sans-serif;
+}
+
+body .SokIngetResultat {
+    font-size: 17px;
+    color: #e83c23;
 }
 
 @media (max-width: 480px) {

@@ -2,7 +2,7 @@
 /* Grunddesign */
 
 body{
-	background-color: #f6f4f2;
+	background-color: #f6f4f2!important;
 /*	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: subpixel-antialiased;
 font-smoothing: subpixel-antialiased;*/
@@ -713,6 +713,7 @@ ul.or-nav-list li .or-list-wrapper p {
     font-weight: 300;
     font-size: 15px;
     margin-top: 0px;
+    font-family: "open sans",sans-serif;
 }
 
 nav.or-breadcrumbs
