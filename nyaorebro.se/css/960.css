@@ -252,6 +252,12 @@ section.or-nav-content-section .or-puff-icon-header-text > div:last-of-type {
 
 /* startsida socialtflöde */
 
+.or-social-media-follow-startpage {
+    max-width: 100%;
+    text-align: center;
+    width: 100%;
+}
+
 .or-start-heading-divider.or-right {
     left: 50%;
     top: -41px;

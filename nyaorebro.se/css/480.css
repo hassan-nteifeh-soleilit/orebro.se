@@ -641,6 +641,18 @@ body {
     width: 95%;
 }
 
+
+/* sociala flödet startsidan  */
+
+.or-social-media-follow-startpage {
+    text-align: left;
+}
+
+.or-social-media-follow-startpage-item {
+    margin-bottom: 0px;
+    display: block;
+}
+
 }
 
 

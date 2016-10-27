@@ -5056,6 +5056,45 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
     width: 100%;
 }
 
+.or-social-media-follow-startpage {
+   float:right;
+   font-size:90%;
+   padding:1%;
+   max-width: 540px;
+}
+.or-social-media-follow-startpage-item {
+   float:none;
+   margin-bottom: 15px;
+   display: inline-block;
+}
+.or-social-media-follow-startpage a{
+   font-family: "leaguespartan webfont",sans-serif;
+   font-size:11px;
+   display:inline-block;
+   box-shadow: rgba(174,222,239,0.65)0px -14px 0 -10px inset;
+   transition: all 100ms ease;
+   margin-right:25px;
+}
+.or-social-media-follow-startpage a:hover {
+    box-shadow: rgba(174,222,239,0.65) 0 -41px 0 -23px inset;
+}
+   
+.social-bg-circle {
+    background: #666;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 25px;
+    vertical-align: middle;
+    padding: 2px;
+    color:#fff;
+    margin-right:8px;
+}
+.social-bg-circle-instagram {background: -webkit-radial-gradient(32% 106%, circle cover, rgb(255, 225, 125) 0%, rgb(255, 205, 105) 10%, rgb(250, 145, 55) 28%, rgb(235, 65, 65) 42%, transparent 82%), -webkit-linear-gradient(-45deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);}
+.social-bg-circle-twitter {background:#00aced;}   
+.social-bg-circle-facebook {background:#0090b4;}
+
 /* social media undersida */
 .or-social-media-subpage .or-social-media-content {
     border-bottom: 0 #F7F3F3 solid;

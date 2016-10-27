@@ -76,7 +76,7 @@ section.or-top-img-area {
     height: 310px;
 }
 
-.or-news-social-section-startpage .or-social-media-content {
+.or-news-social-section-startpage .or-social-media-content, .or-social-media-follow-startpage{
     max-width: 430px;
 }
 
