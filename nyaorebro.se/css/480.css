@@ -710,7 +710,7 @@ body {
 }
 
 .or-mobile-nav-column {
-    width: 57px;
+    width: 53px;
 }
 }
 
@@ -719,7 +719,7 @@ body {
 @media all and (max-width: 320px) {
 
 .or-mobile-nav-column.search-column {
-    width: 47px;
+    width: 51px;
 }
 
 .or-mobile-nav-column {
