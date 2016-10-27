@@ -561,6 +561,18 @@ body .sol-accordion-heading {
 }
 
 
+/* Sok politiker */
+
+.or-sokt-politiker .or-sok-politiker td {
+    display: inline-block;
+}
+
+
+.or-sokt-politiker .or-sok-politiker td img {
+    margin-bottom: 25px;
+    display: block;
+}
+
 } /* end 480px */	
 
 
