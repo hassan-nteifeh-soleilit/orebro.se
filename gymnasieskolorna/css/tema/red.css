@@ -1,5 +1,19 @@
 /* Färg tema */
 
+.or-header-topptext {
+    color: #8C817C;
+    font-size: 16px;
+    margin-top: 25px;
+}
+
+.or-header-bottomtext {
+    color: #E83C23;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 19px;
+    font-family: "leaguespartan webfont",sans-serif;
+}
+
  .colortext{
 color:#E83C23;
 }
