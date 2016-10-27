@@ -140,7 +140,7 @@ function getOpenHoursForDay(day,openingHours){
 			openHours.closes = null;
 			openHours.opens = null;
 			openHours.opensDate = null;
-			openhours.closesDate = null;
+			openHours.closesDate = null;
 			break;
 		}
 
