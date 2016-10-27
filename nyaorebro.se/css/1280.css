@@ -195,7 +195,11 @@ body .or-content-container .or-tir h2 {
 
 /* tabell */
 .sv-text-portlet table.sv-standard thead th p {
-    font-size: 13px;
+    font-size: 18px;
+}
+
+body .sv-text-portlet table.sv-standard td p, body .sv-text-portlet table.sv-standard td {
+    font-size: 19px;
 }
 
 .or-content-container .sv-text-portlet table caption {
@@ -209,11 +213,6 @@ body .or-content-container .or-tir h2 {
 
 /* länkarbox */
 .or-teaser-box.or-related-documents .or-text-content .or-teaser-list li a .or-link-name {
-    font-size: 14px;
-}
-
-
-body .sv-text-portlet table.sv-standard td p, body .sv-text-portlet table.sv-standard td {
     font-size: 14px;
 }
 
