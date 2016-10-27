@@ -1,5 +1,3 @@
-<!--<div id="Nyttaavinnehall-1" class="sv-html-portlet sv-portlet" data-sv-id="${currPageId}" data-mail-recipient="${emailRecipient}" data-sv-title="${pageTitle}>-->
-
 <div class="sv-clearfix or-findwrapper">
    <div class="or-sharetext">Hade du nytta av innehållet på den här sidan?</div>
    <div class="or-thumbs">
@@ -21,15 +19,12 @@
   <div class="or-w-form or-forms formwidth">
     <form id="id-or-email-form" name="or-email-form" data-name="Email Form" action="javascript:sendMail();">
       <label class="or-fieldlabelhelpus" for="field-2">Berätta vad vi kan göra bättre på den här sidan för att förbättra webbplatsen!</label>
-      <textarea class="w-input or-helpusinput formwidth" id="field" placeholder="Meddelande" name="field" data-name="Field"></textarea>
-      <!--input class="or-w-button submitformbt helpusbt redbt" type="submit" value="Skicka in din kommentar" data-wait="Please wait..." /-->
+      <textarea class="w-input or-helpusinput formwidth" id="field" placeholder="Meddelande" name="field" data-name="Field"></textarea>      
       <input class="normal" type="submit" value="Skicka in din kommentar" data-wait="Please wait..." />
     </form>
   </div>
   
-  <p class="or-helpustext">Vi har ingen möjlighet att svara, men dina synpunkter är värdefulla för oss. Om du vill ha svar på en fråga använd 
-  <a href="#Adress" class="contentlinks" style="transition: all 0.5s ease 0s; -webkit-transition: all 0.5s ease 0s;">våra kontaktuppgifter i sidfoten.</a>
-  </p>             
+  <p class="or-helpustext">Vi har ingen möjlighet att svara, men dina synpunkter är värdefulla för oss. </p>             
 </div>
 
 <!-- JA -->
@@ -45,20 +40,16 @@
 </div>
 
 
-
 <script type="text/javascript">
+	$('.js-close').click(function(){ 
+		$('#id-or-useful-yes').hide();
+		$('#id-or-useful-no').hide();
+	});
 
-
-
-      $('.js-close').click(function(){ 
-      $('#id-or-useful-yes').hide();
-      $('#id-or-useful-no').hide();
-    });
-
-   var feedbackHandler = function(){
-  
-      var isNegative = $(this).hasClass('thumbdown');
-      var action = isNegative ? "Nej" : "Ja";  
+	var feedbackHandler = function(){
+      
+  		var isNegative = $(this).hasClass('thumbdown'),
+          action = isNegative ? "Nej" : "Ja";  
         
       if(typeof ga !== 'undefined') {
          ga('set', 'page', document.getElementById('ga_str').value + document.location.search);
@@ -73,18 +64,18 @@
          $('#id-or-help-us-no').addClass('disabled');
       }
       $(this).addClass('selected');
-        
+      
+			//disable futher clicks	
       $('.or-thumbup').unbind();
    }
 
-   //diable futher clicks
    $('.or-thumbup').bind('click', feedbackHandler);
 
    function sendMail() {
       var data = "Sida:\n ${pageTitle} \nUrl:\n ${url}\n Text:\n" + $('#field').val();
        jQuery.ajax({
          type: "GET",
-         url: "/4.6ad5e21514fe44c621c4e77/12.6ad5e21514fe44c621c4e7f.html",     
+         url: "/4.3342eaed15109c3d1d1a63/12.3342eaed15109c3d1d148aa.html",               
          data: {textarea: data},
          success: function(ret){            
             jQuery('#id-or-useful-no').hide();
@@ -95,6 +86,5 @@
          } 
       }); 
   }  
-
-
+      
 </script>  
