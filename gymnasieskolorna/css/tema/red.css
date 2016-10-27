@@ -4,6 +4,38 @@
 color:#E83C23;
 }
 
+.or-header-topptext {
+    color: #8C817C;
+    font-size: 16px;
+    margin-top: 25px;
+}
+
+.or-header-bottomtext {
+    color: #E83C23;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 19px;
+    font-family: "leaguespartan webfont",sans-serif;
+}
+
+@media all and (max-width: 767px){
+
+/* ska rensas när red.css den är synkad */
+
+.or-header-topptext {
+    font-size: 10px;
+    margin-top: 0px;
+}
+
+.or-header-bottomtext {
+    margin-top: -5px;
+    font-size: 11px;
+}
+
+}
+
+
+
 footer a {
   display: inline;
   border-bottom: 2px solid #dbe7c4;
