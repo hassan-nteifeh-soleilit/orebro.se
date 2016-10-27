@@ -2311,13 +2311,12 @@ ul > li.kontaktaxossxxxbrodtext:last-child {
 
 /* formulär */
 .sv-defaultFormTheme{
-	 background-color: #fff;
-	 padding: 5px 15px;
-	 border-radius: 3px;
-	 box-shadow: #3b3b3b;
-	 box-shadow: 0 0 8px #e4e4e4;
-	 margin-top: 13px;
-	 margin-bottom: 15px;
+	 background-color: rgba(177, 177, 176, 0.17);
+    padding: 5px 15px;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    margin-top: 13px;
+    margin-bottom: 15px;
 }
 
 .sv-formFieldRow,.sv-formField {
@@ -2431,8 +2430,7 @@ ul > li.kontaktaxossxxxbrodtext:last-child {
 }
 
 .sv-formField {
-    border-bottom: 2px dotted #e4e4e4;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 
 button,input[type="button" i],input[type="submit" i],input[type="reset" i],input[type="file" i]::-webkit-file-upload-button {
