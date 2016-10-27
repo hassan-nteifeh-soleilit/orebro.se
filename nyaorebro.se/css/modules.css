@@ -3875,8 +3875,8 @@ body .or-start-heading-divider .normal {
     font-weight: 400;
     font-style: normal;
     padding-left: 2.4em;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
 
 .or-sok-politiker tbody tr {
@@ -3916,6 +3916,11 @@ body .or-start-heading-divider .normal {
     transition: all 500ms ease;
 }
 
+.or-sok-politiker ul li a[shape="rect"], .or-sok-politiker ul li a:hover[shape="rect"]  {
+	box-shadow: rgba(174,222,239,0)0px -15px 0 -11px inset;
+	margin: 0px;
+}
+
 .or-sok-politiker ul li:hover {
     background-color: #e83c23;
 }
@@ -3929,7 +3934,7 @@ body .or-start-heading-divider .normal {
     padding: 0 11px;
     color: #E83C23;
     font-family: "leaguespartan webfont",sans-serif;
-    font-size: 11px !important;
+    font-size: 12px !important;
 }
 
 .or-sok-politiker strong {
@@ -3943,16 +3948,27 @@ body .or-start-heading-divider .normal {
     color: #35383b;
     text-decoration: none;
     line-height: normal;
-    box-shadow: rgba(174,222,239,0.65)0px -15px 0 -11px inset;
     -webkit-transition: all 100ms ease;
     -moz-transition: all 100ms ease;
     -o-transition: all 100ms ease;
     transition: all 100ms ease;
     cursor: pointer;
+    box-shadow: rgba(174,222,239,0.65)0px -15px 0 -11px inset;
+    margin-bottom: 8px;
 }
+
+.or-sok-politiker a:hover[shape="rect"] {
+    box-shadow: rgba(174,222,239,0.65) 0 -41px 0 -23px inset;
+}
+
 
 .or-sokt-politiker h1 {
     margin-left: 1.2em;
+}
+
+.or-sokt-politiker p{
+	font-size: 15px;
+	line-height: 1.6em;
 }
 
 .or-sokt-politiker .or-sok-politiker tr td div strong {
@@ -3972,10 +3988,10 @@ body .or-start-heading-divider .normal {
 .or-sokt-politiker .or-sok-politiker b a {
     font-weight: 400;
     font-style: normal;
-    font-size: 12px;
+    font-size: 14px;
     color: #35383b;
     text-decoration: none;
-    line-height: 16px;
+    line-height: 1.6em;
     box-shadow: rgba(174,222,239,0.65)0px -14px 0 -10px inset;
     display: inline-block;
     margin-bottom: 10px;
@@ -4040,15 +4056,20 @@ body .or-start-heading-divider .normal {
     bottom: 20px;
     left: 20px;
     margin-top: 20px;
+    box-shadow: rgba(174,222,239,0) 0 -41px 0 -23px inset;
 }
+
+.or-sokt-politiker .or-sok-politiker div a:hover {
+	box-shadow: rgba(174,222,239,0) 0 -41px 0 -23px inset;
+	}
 
 .or-sokt-politiker .or-sok-politiker td {
     padding-left: 0;
     font-weight: 400;
     font-style: normal;
-    font-size: 12px;
+    font-size: 14px;
     text-decoration: none;
-    line-height: 16px;
+    line-height: 1.6em;
 /*font-family: sans-serif;
   font-family: ;*/
 }
@@ -4159,8 +4180,10 @@ body .or-start-heading-divider .normal {
 /* sök namn + och/eller välj ort*/
 .or-sok-politiker form strong {
     display: block;
-    font-size: 12px;
-    margin-bottom: -10px;
+    font-size: 13px;
+    margin-bottom: -5px;
+    font-family: "leaguespartan webfont",sans-serif;
+    line-height: 1.2em;
 }
 
 .or-sok-politiker select {
@@ -4179,7 +4202,7 @@ body .or-start-heading-divider .normal {
     vertical-align: middle;
     background-color: #fff;
     font-size: 16px;
-    font-weight: 100;
+    font-weight: 400;
     color: #717171;
     letter-spacing: .01em;
 }
@@ -4253,6 +4276,11 @@ body .or-start-heading-divider .normal {
     margin-top: -103px;
     position: absolute;
     margin-left: 2.2em;
+}
+
+.or-ny-sokning:hover{
+	 background-color: #5e5e5e;
+	 border-color: #000;
 }
 
 .or-sokt-politiker a.or-ny-sokning {
