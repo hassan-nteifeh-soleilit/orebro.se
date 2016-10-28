@@ -530,6 +530,22 @@ ul.or-teaser-list {
     padding: 0;
 }
 
+ul.or-teaser-list i{
+    position: absolute;
+    top: 10px;
+    left: 0px;
+}
+
+ul.or-teaser-list i:before{
+    display: block;
+}
+
+ul.or-teaser-list i span{
+    font-size: 10px;
+    font-weight: 300;
+    font-family: "open sans",sans-serif;
+}
+
 .or-teaser-box .or-text-content .or-teaser-list li {
     border-bottom: 2px dotted #dad6d4;
     padding: 10px 0;
