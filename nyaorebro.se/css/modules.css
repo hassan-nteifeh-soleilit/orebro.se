@@ -771,6 +771,7 @@ ul.or-teaser-list {
     margin-top: -3px;
     margin-right: 10px;
     float: left;
+    display: block;
 }
 
 .or-file-icon{
@@ -787,6 +788,9 @@ body img.or-file-icon{
     font-size: 10px;
     font-weight: 300;
     font-family: "open sans",sans-serif;
+    display: block;
+    float: left;
+    clear: both;
 }
 
 .or-teaser-box.or-related-links .or-text-content .or-teaser-list li a .or-link-name {
@@ -1871,7 +1875,7 @@ body .or-content-container .or-tir p,body .or-content-container .or-tir p a:link
 .or-ny-action .or-action-text {
     font-family: "leaguespartan webfont",sans-serif;
     font-style: normal;
-    font-size: 12px;
+    font-size: 13px;
     color: #35383b;
     line-height: 16px;
     display: inline-block;
@@ -4419,9 +4423,6 @@ body .or-puff-link .normal {
     text-decoration: underline;
 }
 
-.or-puff-icon-header-text:hover h4 {
-    color: #f28c00;
-}
 
 .or-puff-icon-header-text .normal a:link,.or-puff-icon-header-text p {
     box-shadow: rgba(255,255,255,0)0px 0 0 0 inset;
@@ -4434,7 +4435,7 @@ body .or-puff-link .normal {
 }
 
 .or-puff-icon-header-text .normal {
-    line-height: 1.2em;
+    line-height: normal;
     text-align: left;
 }
 
@@ -4490,7 +4491,8 @@ body .or-puff-link .normal {
     box-shadow: rgba(174,222,239,0.0)0px -14px 0 -10px inset;
 }
 
-.or-puff-icon-header-text:hover h4 a {
+
+.or-puff-icon-header-text:hover h4{
     color: #f28c00;
 }
 
