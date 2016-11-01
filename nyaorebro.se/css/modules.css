@@ -4424,20 +4424,18 @@ body .or-puff-link .normal {
 }
 
 
-.or-puff-icon-header-text .normal a:link,.or-puff-icon-header-text p {
+.or-puff-icon-header-text .normal a:link,body .or-puff-icon-header-text .normal {
     box-shadow: rgba(255,255,255,0)0px 0 0 0 inset;
     font-weight: 300;
     font-size: 15px;
+    line-height: normal;
+    text-align: left;
 }
 
 .or-puff-icon-header-text .normal a:link:hover {
     box-shadow: rgba(255,255,255,0)0px 0 0 0 inset;
 }
 
-.or-puff-icon-header-text .normal {
-    line-height: normal;
-    text-align: left;
-}
 
 .or-puff-icon-header-text::after {
     content: "\f061";
@@ -4468,7 +4466,10 @@ body .or-puff-link .normal {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     margin-bottom: 10px;
+    float: left;
+    width: 100%;
 }
+
 
 .or-puff-icon-header-text .sv-use-margins .rubrikx4,.sv-use-margins h4 {
     margin: 0;
@@ -4492,7 +4493,7 @@ body .or-puff-link .normal {
 }
 
 
-.or-puff-icon-header-text:hover h4{
+.or-puff-icon-header-text:hover h4 a{
     color: #f28c00;
 }
 

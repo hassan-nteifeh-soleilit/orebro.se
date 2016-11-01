@@ -299,7 +299,7 @@ body .or-puff-link .normal a {
     font-size: 16px;
 }
 
-.or-puff-icon-header-text .normal a:link {
+.or-puff-icon-header-text .normal a:link,body .or-puff-icon-header-text .normal {
     font-size: 16px;
 }
 

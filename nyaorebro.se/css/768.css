@@ -659,15 +659,10 @@ body section.or-top-img-area .brodtextxxfetx {
     font-size: 14px;
 }
 
-.or-start-white-divider .or-puff-icon-header-text .normal a:link {
+.or-start-white-divider .or-puff-icon-header-text .normal a:link, .or-start-white-divider .or-puff-icon-header-text .normal {
     float: left;
     overflow: hidden;
     font-size: 14px;
-}
-
-.or-start-white-divider .or-puff-icon-header-text .normal {
-    float: left;
-    overflow: hidden;
 }
 
 .or-start-white-divider .or-puff-icon-header-text > div:last-of-type {
