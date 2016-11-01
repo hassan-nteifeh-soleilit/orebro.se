@@ -188,6 +188,15 @@ body .or-content-container .or-tir h2 {
     font-size: 13px;
 }
 
+/* action */
+body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-font-action-karta a:link, body .sv-font-action-facebook a:link, body .sv-font-action-twitter a:link, body .sv-font-action-instagram a:link {
+    font-size: 14px;
+}
+
+.or-ny-action .normal .or-action-text a:link {
+    font-size: 14px;
+}
+
 /* processlista */
 .sol-tab-button-container .sol-tab-button {
     font-size: 13px;
@@ -195,7 +204,7 @@ body .or-content-container .or-tir h2 {
 
 /* tabell */
 .sv-text-portlet table.sv-standard thead th p {
-    font-size: 18px;
+    font-size: 15px;
 }
 
 body .sv-text-portlet table.sv-standard td p, body .sv-text-portlet table.sv-standard td {

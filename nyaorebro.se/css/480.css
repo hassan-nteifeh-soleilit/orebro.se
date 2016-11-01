@@ -477,17 +477,18 @@ body .or-start-heading-divider .normal {
 }
 
 body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-font-action-karta a:link, body .sv-font-action-facebook a:link, body .sv-font-action-twitter a:link {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .or-ny-action .normal .or-action-text a:link {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 /* plusbox */
 .plusboxxrubrik {
     padding-top: 12px;
     padding-bottom: 12px;
+    font-size: 12px;
 }
 
 .or-plus-box-header {
