@@ -24,6 +24,9 @@ $( document ).ready(function() {
    var svid = "svid${contentId}";
    if(!((hash != "") && (hashParent == svid))) {
    	$("#svid${contentId} .or-plus-box-content").hide();
+   } else {
+      $("#svid${contentId} .or-plus-box-content").show();
+		$("#svid${contentId} .or-plus-box-header").addClass("or-plus-box-active");
    }
    #if($query!="")   
    	if($("#svid${contentId} .or-collapsible-header:contains('${query}'), #svid${contentId} .or-plus-box-content:contains('${query}')").length > 0) {
