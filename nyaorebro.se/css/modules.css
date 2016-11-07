@@ -4419,11 +4419,6 @@ body .or-puff-link .normal {
     transition: color .3s ease-in;
 }
 
-.or-puff-icon-header-text:hover .normal a:link {
-    text-decoration: underline;
-}
-
-
 .or-puff-icon-header-text .normal a:link,body .or-puff-icon-header-text .normal {
     box-shadow: rgba(255,255,255,0)0px 0 0 0 inset;
     font-weight: 300;
@@ -4432,12 +4427,8 @@ body .or-puff-link .normal {
     text-align: left;
 }
 
-.or-puff-icon-header-text .normal a:link:hover {
-    box-shadow: rgba(255,255,255,0)0px 0 0 0 inset;
-}
 
-
-.or-puff-icon-header-text::after {
+.or-puff-icon-header-text.or-wrapper-click::after {
     content: "\f061";
     font-family: FontAwesome;
     color: #fff;
@@ -4447,7 +4438,7 @@ body .or-puff-link .normal {
     font-size: 12px;
 }
 
-.or-puff-icon-header-text::before {
+.or-puff-icon-header-text.or-wrapper-click::before {
     content: '';
     position: absolute;
     bottom: -1px;
@@ -4470,8 +4461,7 @@ body .or-puff-link .normal {
     width: 100%;
 }
 
-
-.or-puff-icon-header-text .sv-use-margins .rubrikx4,.sv-use-margins h4 {
+.or-puff-icon-header-text.or-wrapper-click .rubrikx4 {
     margin: 0;
     font-size: 15px;
     -webkit-transition: color .3s ease-in;
@@ -4479,22 +4469,17 @@ body .or-puff-link .normal {
     -o-transition: color .3s ease-in;
     -ms-transition: color .3s ease-in;
     transition: color .3s ease-in;
-}
-
-.or-puff-icon-header-text .sv-use-margins .rubrikx4,.sv-use-margins h4 a {
-    margin: 0;
-    font-size: 15px;
-    -webkit-transition: color .3s ease-in;
-    -moz-transition: color .3s ease-in;
-    -o-transition: color .3s ease-in;
-    -ms-transition: color .3s ease-in;
-    transition: color .3s ease-in;
-    box-shadow: rgba(174,222,239,0.0)0px -14px 0 -10px inset;
+	box-shadow: rgba(174,222,239,0.0)0px -14px 0 -10px inset;
 }
 
 
-.or-puff-icon-header-text:hover h4 a{
+.or-puff-icon-header-text.or-wrapper-click:hover .rubrikx4{
     color: #f28c00;
+}
+
+.or-puff-icon-header-text.or-wrapper-click:hover .normal a:link {
+    text-decoration: underline;
+	box-shadow: rgba(255,255,255,0)0px 0 0 0 inset;
 }
 
 .or-puff-icon-header-text > div:last-of-type {
