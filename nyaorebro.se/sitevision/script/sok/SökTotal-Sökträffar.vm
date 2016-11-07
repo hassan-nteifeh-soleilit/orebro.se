@@ -133,6 +133,8 @@ $linkRenderer.setFontClass($linkRendererClass)
             
             #if ($hit.getField($mimtypeField) != 'text/html')
                 $linkRenderer.setOpenNewWindow(true)
+			#else
+				$linkRenderer.setOpenNewWindow(false)
             #end
             
             <div class="or-search-link">            
