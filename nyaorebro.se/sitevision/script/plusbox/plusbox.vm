@@ -27,12 +27,10 @@ $( document ).ready(function() {
    } else {
       $("#svid${contentId} .or-plus-box-content").show();
 		$("#svid${contentId} .or-plus-box-header").addClass("or-plus-box-active");
+      document.querySelector('#svid${contentId}').scrollIntoView({ 
+  			behavior: 'smooth' 
+		});
    }
-   #if($query!="")   
-   	if($("#svid${contentId} .or-collapsible-header:contains('${query}'), #svid${contentId} .or-plus-box-content:contains('${query}')").length > 0) {
-         $("#svid${contentId} .or-plus-box-content").show();
-		   $("#svid${contentId} .or-plus-box-header").addClass("or-plus-box-active");
-      }
-   #end
+
 });   
 </script>
