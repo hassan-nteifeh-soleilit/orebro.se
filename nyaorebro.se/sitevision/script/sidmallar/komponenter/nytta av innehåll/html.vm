@@ -50,12 +50,7 @@
       
   		var isNegative = $(this).hasClass('thumbdown'),
           action = isNegative ? "Nej" : "Ja";  
-        
-      if(typeof ga !== 'undefined') {
-         ga('set', 'page', document.getElementById('ga_str').value + document.location.search);
-         ga('send', 'event', 'Hjälpte informationen?', action); 
-      }
-     
+             
       if( isNegative){      
          $('#id-or-useful-no').slideToggle(); 
          $('#id-or-help-us-yes').addClass('disabled');
@@ -65,7 +60,7 @@
       }
       $(this).addClass('selected');
       
-			//disable futher clicks	
+		//disable futher clicks	
       $('.or-thumbup').unbind();
    }
 
