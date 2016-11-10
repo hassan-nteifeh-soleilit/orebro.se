@@ -18,17 +18,14 @@
     letter-spacing: 0.090em;
     display: inline-block;
     float: left;
+		min-width: 50px;
 }
 
 .or-oh-open, .open a {
     background-color: #7d9c41;
 }
 
-.or-oh-open, .or-oh-closed {
-    min-width: 50px;
-}
-
-.or-oh-closed,.closed a
+.or-oh-closed
 {
 	background-color:#cc553f;
 }
@@ -80,8 +77,6 @@
 {
 	color: #fff;
 }
-
-
 
 .or-oh-chevron {
     color: #a3a3a3;
@@ -148,14 +143,7 @@
 {
 	color:#f04937;
 }
-/*
-#or-avc-wrapper
-{
-	font-family:Arial;
-	font-weight:100;
-	margin:0 auto;
-}
-*/
+
 a.or-oh-a:link, a.or-oh-a:visited {
     color: #35383b;
     font-weight: 400;
@@ -299,18 +287,18 @@ body .ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
     border-top-left-radius: 0px;
 }
 
-body .ui-widget-header {
+.ui-widget-header {
     border: 0px solid #aaaaaa;
 }
 
-body .ui-state-highlight, body .ui-widget-content .ui-state-highlight, body .ui-widget-header .ui-state-highlight {
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
     border: 2px solid #7D9C41!important;
     background: #FFFFFF!important;
     font-weight: 700!important;
     color: #7D9C41!important;
 }
 
-body .ui-state-default, body .ui-widget-content .ui-state-default, body .ui-widget-header .ui-state-default {
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
     border: 2px solid #d3d3d3;
     background: #F6F6F6;
     font-weight: normal;
@@ -324,12 +312,12 @@ body .ui-state-default, body .ui-widget-content .ui-state-default, body .ui-widg
     margin: 0 auto 5px auto;
 }
 
-body .ui-widget-content {
+.ui-widget-content {
     border: 0px solid #FFFFFF;
     background: #ffffff;
 }
 
-body .ui-datepicker .ui-datepicker-title {
+.ui-datepicker .ui-datepicker-title {
     font-family: "leaguespartan webfont",sans-serif;
     letter-spacing: 0.08em;
     text-transform: uppercase;
@@ -338,23 +326,23 @@ body .ui-datepicker .ui-datepicker-title {
     padding-bottom: 3px;
 }
 
-body .ui-datepicker {
+.ui-datepicker {
     width: 100%;
 }
 
-body .ui-datepicker .or-oh-open, .open a {
+.ui-datepicker .open a {
     background-color: #7d9c41!important;
     color:#fff!important;
     border: 1px solid #7d9c41!important;
 }
 
-body .ui-datepicker .or-oh-closed, .closed a {
+.ui-datepicker .closed a {
     background-color: #e83c23!important;
     color:#fff!important;
     border: 1px solid #e83c23!important;
 }
 
-body .or-oh-datePickerOutput {
+.or-oh-datePickerOutput {
     width: 100%;
     text-align: center;
 }
@@ -363,7 +351,7 @@ body .or-oh-datePickerOutput {
     overflow: hidden;
 }
 
-body .or-oh-datePickerOutput {
+.or-oh-datePickerOutput {
     margin: 1em 0 0em 0;
     font-size: 0.8em;
     font-family: "leaguespartan webfont",sans-serif;
@@ -378,7 +366,7 @@ body .or-oh-datePickerOutput {
 
 .ui-widget-header .ui-icon {
     background-image: url("images/ui-icons_222222_256x240.png");
-    DISPLAY: none!important;
+    display: none!important;
 }
 
 .ui-datepicker .ui-datepicker-next:before {
@@ -393,35 +381,36 @@ body .or-oh-datePickerOutput {
     color: #fff;
 }
 
-body .ui-datepicker .ui-datepicker-prev, body .ui-datepicker .ui-datepicker-next {
+.ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next {
     top: 8px!important;
     text-align: center;
 }
 
-body .ui-state-hover,
-body .ui-widget-content .ui-state-hover,
-body .ui-widget-header .ui-state-hover,
-body .ui-state-focus,
-body .ui-widget-content .ui-state-focus,
-body .ui-widget-header .ui-state-focus {
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus {
 	border: 1px solid transparent;
 	background: none;
 }
 
-body .ui-datepicker-calendar .ui-state-hover{
+.ui-datepicker-calendar .ui-state-hover{
 	border: 1px solid rgba(242, 140, 0, 0.22);
     background: rgba(242, 140, 0, 0.1);
 }
 
 
-body .ui-state-active {
+.ui-state-active {
     border: 1px solid #857672!important;
     background: #857672!important;
     color: #fff!important;
 }
 
 .or-phone-info.open,
-.or-phone-hours.open {
+.or-phone-hours.open ,
+.or-phone-hours.closed {
  display:block;
 }
 
