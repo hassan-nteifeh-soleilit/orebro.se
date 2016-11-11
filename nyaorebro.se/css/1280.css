@@ -197,6 +197,10 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
     font-size: 14px;
 }
 
+.or-ny-action .or-action-text{
+	font-size: 14px;
+}
+
 /* processlista */
 .sol-tab-button-container .sol-tab-button {
     font-size: 13px;
