@@ -125,7 +125,7 @@ $linkRenderer.setFontClass($linkRendererClass)
                #set ($target = $scriptUtil.getNonNull($hit.getField($uriField), $target))
             #end
             ## Hantera sökträffar som ligger i plusbox innehåll
-            #set ($target = $target + '?q=' + $searchResult.getDisplayQuery())
+            ##set ($target = $target + '?q=' + $searchResult.getDisplayQuery())
             $linkRenderer.setStringTarget($target)
             $linkRenderer.setOnclick($hit.clickTrackingCallback)
             $linkRenderer.setText($hitHeading)
@@ -267,9 +267,3 @@ $linkRenderer.setFontClass($linkRendererClass)
 </div>
 #end
 #end
-
-
-
-
-
-
