@@ -97,7 +97,7 @@
             $endecUtil.escapeXML($customSort.name)
          #else
          <li class="$facetValueClass sv-noleft or-wrapper-click" style="margin-bottom:${facetItemSpacing}">
-            #set ($ajaxSortClick = $updateResultFunctionName + '("' + $customSort.sortQueryParams + '",true); return false;')
+            #set ($ajaxSortClick = $updateResultFunctionName + '("' + $customSort.sortQueryParams + '",true); mobileToTop(); return false;')
             $facetLinkRenderer.setOnclick("$ajaxSortClick")
             $facetLinkRenderer.setStringTarget($customSort.sortURL)
             $facetLinkRenderer.setText($customSort.name)
@@ -145,7 +145,7 @@
                            
                #end   
                   ##Generate the links         
-                  #set ($ajaxFacetClick = $updateResultFunctionName + '("' + $facetValue.filterQueryParams + '",true); return false;')              
+                  #set ($ajaxFacetClick = $updateResultFunctionName + '("' + $facetValue.filterQueryParams + '",true); mobileToTop(); return false;')              
                   $facetLinkRenderer.setOnclick("$ajaxFacetClick")       
                   $facetLinkRenderer.setStringTarget($facetValue.filterURL)          
                   $facetLinkRenderer.setText($facetValue.name)
@@ -205,10 +205,15 @@
 <script type="text/javascript">
 
 $('.or-show-hiden-facet-items').click(function(){
-   $(this).parent().find(".or-hidden-facet-items").toggle();
-   $(this).parent().find(".or-hidden-facet-items").toggle();
+   $(this).parent().find(".or-hidden-facet-items").toggle();   
    $(this).parent().find(".or-search-facet-more").toggleClass("sv-hidden"); 
    $(this).parent().find(".or-search-facet-less").toggleClass("sv-hidden"); 
 });
+
+function mobileToTop() {
+	if ($(".or-mobile-menu-bar").css("display") === "block") {
+		$("html, body").animate({ scrollTop: 0 },{duration: 500, queue: false} );
+	}                                          
+}
 
 </script>
