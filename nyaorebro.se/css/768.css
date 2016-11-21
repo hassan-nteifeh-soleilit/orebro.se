@@ -221,6 +221,7 @@ body .or-content-container .or-tir p, body .or-content-container .or-tir p a:lin
 	-webkit-border-radius: 0px!important;
     margin-left: 0!important;
     margin-top: 0!important;
+    box-sizing: border-box;
 }
 
 #alertInfo {
