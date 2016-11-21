@@ -244,7 +244,7 @@ nav.or-secondary .or-content ul li a {
 
 .or-bg-white ul li a.normal:link {
     font-size: 16px;
-    display: inline-block;
+   /* display: inline-block;*/
 }
 
 .or-start-white-divider .or-news-list li p {
