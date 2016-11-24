@@ -1,0 +1,122 @@
+##
+## Public utility API
+#set ($propertyUtil = $sitevisionUtils.propertyUtil)
+#set ($linkRenderer = $sitevisionUtils.linkRenderer)
+
+##
+## Misc portlet properties
+#set ($bundle = $portlet.getProperty('bundle').getNode())
+#set ($contacts = $portlet.getProperty('contacts').getNode())
+#set ($nameFont = $propertyUtil.getNestedString($portlet, 'contactLinkNameFont', 'selectorText'))
+#set ($otherFont = $propertyUtil.getNestedString($portlet, 'contactLinkOtherFont', 'selectorText'))
+#set ($errorFont = $propertyUtil.getNestedString($portlet, 'errorFont', 'selectorText'))
+#set ($openDialogJavaScript = $propertyUtil.getString($portlet,'openDialogJavaScript'))
+#set ($markerId = $propertyUtil.getString($portlet,'markerId'))
+#set ($linkClass = $propertyUtil.getString($portlet,'linkId'))
+#set ($ajaxSendBaseUrl = $propertyUtil.getString($portlet,'showSendMessageAjaxURL'))
+#set ($useModalDialog = $propertyUtil.getBoolean($portlet,'useModalDialog'))
+#set ($dialogMinWidth = $propertyUtil.getInt($portlet,'dialogMinWidth'))
+#set ($dialogDraggable = $propertyUtil.getString($portlet,'dialogDraggable'))
+#set ($dialogResizable = $propertyUtil.getString($portlet,'dialogResizable'))
+#set ($formAjaxAction = $propertyUtil.getString($portlet,'sendMessageAjaxURL'))
+#set ($contactCount = $propertyUtil.getInt($portlet,'contactCount'))
+
+##
+## Set common attributes to linkrenderer
+$linkRenderer.setRel("nofollow")
+$linkRenderer.setFontClass("$nameFont $linkClass")
+
+##
+## Iterate over contacts
+
+<ul style="list-style:none;padding:0;margin:0">
+   #if ($contactCount == 0)
+      <li id="noContact1" style="display:none;padding-top:0px">$propertyUtil.getString($bundle,'noValidUser')</li>
+   #else
+      #foreach ($contact in $contacts.getNodes())
+         #if ($velocityCount > 1)
+            <li class="$otherFont" style="padding-bottom:15px;padding-top:10px;border-bottom-style:dotted;border-bottom-width:2px;border-bottom-color:#c0c0c0;">
+         #else
+            <li class="$otherFont" style="padding-bottom:15px;padding-top:0px;border-bottom-style:dotted;border-bottom-width:2px;border-bottom-color:#c0c0c0;">
+         #end
+
+         ##
+         ## Name (given name and surname)
+         #set ($showSendMessageAjaxURL = $contact.getProperty('showSendMessageAjaxURL'))
+         #set ($showSendMessageURL = $propertyUtil.getString($contact,'showSendMessageURL'))
+         #set ($user = $contact.getProperty('user').getNode())
+         #set ($name = $propertyUtil.getString($user,'displayName',''))
+         
+         #if ($name != "")
+            <p class="$otherFont"><strong>$name</strong></p> 
+         #end
+                            
+         ##$linkRenderer.setId($propertyUtil.getString($contact,'idAttr'))
+         ##$linkRenderer.setText($name)
+         ##$linkRenderer.setStringTarget($showSendMessageURL)
+         ##$linkRenderer.render()<br/>
+  
+         ##
+         ## Title
+         #if ($propertyUtil.getBoolean($portlet,'showContactTitle'))
+            #set ($title = $propertyUtil.getString($user,'title',''))
+            #if ($title != "")
+                <span class="$otherFont"><strong>Titel: </strong>$title</span><br/>
+            #end
+         #end
+
+         ##
+         ## Telephone number
+         #if ($propertyUtil.getBoolean($portlet,'showContactTelephoneNumber'))
+            #set ($telephoneNumber = $propertyUtil.getString($user,'telephoneNumber',''))
+            #if ($telephoneNumber != "")
+               <span class="$otherFont"><strong>Telefon: </strong>$telephoneNumber</span><br/>
+
+            #end
+         #end
+
+         ##
+         ## Mobile telephone number
+         #if ($propertyUtil.getBoolean($portlet,'showContactMobile'))
+            #set ($mobile = $propertyUtil.getString($user,'mobile',''))
+            #if ($mobile != "")
+               <span class="$otherFont"><strong>Mobil:</strong>$mobile</span><br/>
+            #end
+         #end
+
+         ##
+         ## Email
+         #if ($propertyUtil.getBoolean($portlet,'showContactEmail'))
+            #set ($email = $propertyUtil.getString($user,'mail',''))
+            #if ($email != "")
+            <span class="$otherFont"><strong>E-post: </strong>
+                $linkRenderer.setId($propertyUtil.getString($contact,'idAttr'))
+                $linkRenderer.setText($email)
+                $linkRenderer.setStringTarget($showSendMessageURL)
+                $linkRenderer.render()</span><br/>
+               ##<span class="$otherFont">$email</span><br />
+            #end
+         #end
+
+## Besöksadress
+#if ($propertyUtil.getString($user,'street'))
+<p class="$prefs.textFont"><strong>Besöksadress: </strong>$propertyUtil.getString($user,'street')</p>
+#end
+
+## Öppettid
+#if ($propertyUtil.getString($user,'businessCategory'))
+<p class="$prefs.textFont"><strong>Öppettider: </strong>$propertyUtil.getString($user,'businessCategory')</p>
+#end
+
+## Svarar på frågor om
+##if ($propertyUtil.getString($user,'description'))
+##<p class="$prefs.textFont"><strong>Svarar på frågor om:</strong></p>
+##<p class="$prefs.textFont">$propertyUtil.getString($user,'description')</p>
+##end
+
+         </li>
+      #end
+   #end
+</ul>
+
+$velocityEvaluator.evaluate($propertyUtil.getString($portlet,'openDialogJavaScript'))
