@@ -154,6 +154,7 @@ body .or-content-container .or-tir p, body .or-content-container .or-tir p a:lin
     font-size: 17px;
 }
 
+/*
 .sv-use-margins .normal {
     font-size: 19px;
 }
@@ -161,13 +162,14 @@ body .or-content-container .or-tir p, body .or-content-container .or-tir p a:lin
 .sv-use-margins .normal a{
     font-size: 19px;
 }
+*/   
 
 .normal a:link:hover {
-    box-shadow: rgba(174, 222, 239, 0.65) 0px -41px 0px -18px inset;
+    box-shadow: rgba(174, 222, 239, 0.65) 0 -41px 0 -18px inset;
 }
 
 .ingress a:link:hover{
-	box-shadow: rgba(174, 222, 239, 0.65) 0px -41px 0px -18px inset;
+	box-shadow: rgba(174, 222, 239, 0.65) 0 -41px 0 -18px inset;
 }
 
 
@@ -199,7 +201,7 @@ body .pagecontent h4 {
 }
 
 body .or-content-container .or-tir h2 {
-    margin-top: 0px;
+    margin-top: 0;
     font-size: 22px;
 }
 
@@ -211,6 +213,7 @@ section.or-article-main .or-content-padding {
     max-width: 950px;
 }
 
+/*   
 .sv-use-margins .normal {
     font-size: 21px;
 }
@@ -218,7 +221,8 @@ section.or-article-main .or-content-padding {
 .sv-use-margins .normal a{
     font-size: 21px;
 }
-
+*/
+   
 .ingress {
     font-size: 25px;
     line-height: 1.5em;
@@ -229,11 +233,11 @@ section.or-article-main .or-content-padding {
 }
 
 .normal a:link:hover {
-    box-shadow: rgba(174, 222, 239, 0.65) 0px -41px 0px -15px inset;
+    box-shadow: rgba(174, 222, 239, 0.65) 0 -41px 0 -15px inset;
 }
 
 .ingress a:link:hover{
-	box-shadow: rgba(174, 222, 239, 0.65) 0px -41px 0px -15px inset;
+	box-shadow: rgba(174, 222, 239, 0.65) 0 -41px 0 -15px inset;
 }
 
 /* puffar */
