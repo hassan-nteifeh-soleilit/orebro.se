@@ -595,6 +595,7 @@ li.sol-selected-facet:hover {
 
 .pagination .current {
     background-color: #35383B;
+		border-color: #35383B;
 }
 
 

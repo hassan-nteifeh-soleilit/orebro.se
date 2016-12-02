@@ -581,6 +581,7 @@ li.sol-selected-facet:hover {
 
 .pagination .current {
     background-color: #F28C00;
+		border-color: #F28C00;
 }
 
 #or-paging-id a:hover {

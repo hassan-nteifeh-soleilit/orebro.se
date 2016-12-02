@@ -428,13 +428,18 @@ color: #E83C23;
 
 
 /* Söksida */
+/*
 .sol-facetter p {
     color: #E83C23;
 }
-
-li#sol-selected-facet {
-    background-color: #E83C23;
+*/
+.sol-facetter ul > li:hover a
+ {    	
+		color: #E83C23;
+		border-bottom: none;
+    transition: none;
 }
+
 
 li.sol-selected-facet:hover {
     background-color: rgba(0, 152, 189, 0.5);
@@ -451,12 +456,6 @@ li.sol-selected-facet:hover {
     background-color: #E83C23;
 }
 
-li.sol-selected-facet:hover {
-    background-color: #8CB051 !important;
-    border-bottom-color: #8CB051 !important;
-    color: #fff !important;
-}
-
 .or-hidden-facet-items-selected {
     transition: all 500ms ease 0s;
     background-color: #E1E8C7 !important;
@@ -469,13 +468,3 @@ li.sol-selected-facet:hover {
  border-bottom-color: #E83C23 !important;
  color: #fff;
 }
-
-.pagination .current {
-    background-color: #60930F ;
-}
-
-#or-paging-id a:hover {
-    background-color: #E1E8C7;
-}
-
-

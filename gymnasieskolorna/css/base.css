@@ -4867,7 +4867,7 @@ form#or-search-form::after {
   line-height: 20px;
   font-weight: 700;
 }
-
+/*
 .sol-facetter p {
   display: inline-block;
   width: 100%;
@@ -4880,7 +4880,7 @@ form#or-search-form::after {
 font-size: 15px;
 margin-bottom: 10px;
 }
-
+*/
 .or-search-link {
 	width: 100%;
 	display: block;
@@ -4936,184 +4936,7 @@ font-weight: 400;
 }
 
 
-/* Facetter */
 
-.sol-facetter ul {
-margin-top: -6px;
-margin-bottom: 10px;
-padding: 0px;
-border-bottom-style: none;
-border-bottom-width: 0px;
-background-color: rgb(255, 255, 255);
-background-color: rgba(255, 255, 255, 0.90);
-}
-
-.sol-facetter > .sv-column-4 {
-background-color: inherit;
-}
-
-
-.sol-facetter ul > li {
-  padding-top: 7px;
-  padding: 8px 15px 5px 10px;
-  border-bottom: 2px dotted #ededed;
-  font-size: 14px;
-  line-height: 14px;
-  margin-bottom: 0.0em;
-  font-size: 12px;
-  letter-spacing: 0.04em;
-   -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
-  margin-bottom: 0px !important;
-}
-
-#or-id-preselected-facet a{
-    color: #35383B;
-    font-size: 14px;
-    text-decoration: none;
-    font-weight: 300;
-    cursor: pointer;
-}
-
-span.sol-hit-count {
-   float: right;
-}
-
-.sol-facetter ul > li > a {
-  font-size: 14px;
-  text-decoration: none;
-  font-weight: 300;
-  cursor: pointer;
-}
-
-.sol-facetter p{
-   display: inline-block;
-   width: 100%;
-   padding-bottom: 10px;
-   padding-left: 2px;
-   float: none;
-   border-bottom: 2px none rgb(209, 209, 209);
-   border-bottom: 2px none rgba(209, 209, 209, 0.29);
-   color: #e83c23;
-}
-
-li.sol-selected-facet:hover {
-background-color: #f28c00 !important;
-border-bottom-color: #f28c00 !important; 
-}
-
-
-li#sol-selected-facet {
-   border-bottom-color: #e83c23;
-   background-color: #e83c23;
-   color: white;
-   font-weight: 700;
-   list-style-type: none;
-   border-bottom: none;
-   
-   padding-top: 7px;
-   padding: 8px 15px 5px 5px;
-   line-height: 14px;
-}
-
-.or-show-hiden-facet-items {
-background-color: rgb(133, 118, 114);
-  background-color: rgba(133, 118, 114, 0.2);
-}
-
-.sol-icon-more-facet:after {
-    content: "\F067";
-    font-family: FontAwesome;
-    font-style: initial;
-    font-size: 18px;
-    vertical-align: middle;
-}
-.sol-icon-more-facet{
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  background-attachment: scroll;
-  background-color: transparent;
-  float: right;
-  width: 16px;
-  height: 16px;
-  	opacity: 0.85;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
-	filter: alpha(opacity=85);
-	-moz-opacity: 0.85;
-	-khtml-opacity: 0.85;
-    margin-top: -1px;
-}
-
-.or-show-hiden-facet-items:hover {
-  background-color: #f28c00 !important;
-  border-bottom-color: #f28c00 !important;
-  border-bottom: 2px dotted #ededed !important;
-}
-
-
-.or-show-hiden-facet-items:hover > .sol-icon-more-facet {
-  -webkit-transform: rotate(0deg);
-  -moz-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-}
-
-.sol-icon-facet-active:after{
-	content: "\F00C";
-    font-family: FontAwesome;
-    font-style: normal;
-    font-size: 18px;
-	 vertical-align: middle;
-}
-.sol-icon-facet-active{
-   background-repeat: no-repeat; 
-   background-position: 50% 50%;
-   background-attachment: scroll;
-   float: right;
-   width: 16px;
-   height: 16px;
-   	opacity: 0.85;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
-	filter: alpha(opacity=85);
-	-moz-opacity: 0.85;
-	-khtml-opacity: 0.85;
-}
-
-.sol-facetter ul > li.sol-selected-facet > a {
-  color: inherit;
-  font-weight: inherit;
-  list-style-type: inherit;
-  border-bottom: none;
-  font-family: 'Open Sans', sans-serif;
-  display: inline-block;
-  width: 80%;
-  box-shadow: none;
-  background-color: transparent;
-  font-size: 14px;
-}
-
-li.sol-selected-facet:hover > i.sol-icon-facet-active:after{
-    content: "\F067";
-    font-family: FontAwesome;
-    font-style: initial;
-    font-size: 18px;
-	 vertical-align: middle;
-}
-li.sol-selected-facet:hover > i.sol-icon-facet-active {
-   -webkit-transform:rotate(45deg);
-  -moz-transform:rotate(45deg);
-  -o-transform:rotate(45deg);
-  -ms-transform:rotate(45deg);
-}
-
-.sol-facetter ul > li:hover > a {
-	border-bottom: 2px solid #35383b;
-   transition: all 500ms ease;
-}
-
-.sol-facetter ul > li#sol-selected-facet:hover > a {
-   border-bottom: none;
-}
 
 /* Search result */
 .search-heading {
@@ -8380,10 +8203,6 @@ box-shadow: 0px -48px 0px -30px rgba(174, 222, 239, 0.65) inset;
     background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NDAiIGhlaWdodD0iNjQwIiB2aWV3Qm94PSIwIDAgNjQwIDY0MCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTYzLjY0OCAxNzguODQ4YzAgNDcuODA4IDE1Ljk2OCA4Mi4zMDQgNDcuNDI0IDEwMi41NiAyNS43OTIgMTYuNjQgNTUuNjggMTkuMTM2IDcxLjIzMiAxOS4xMzYgMy43NzYgMCA2LjgxNi0uMTkyIDguOTI4LS4zMiAwIDAtNC45MjggMzIuMTI4IDE4Ljg4IDYzLjg3MmgtMS4wODhjLTQxLjI0OCAwLTE3NS43NzYgOC42MDgtMTc1Ljc3NiAxMTkuMjY0IDAgMTEyLjUxMiAxMjMuNTUyIDExOC4yNCAxNDguMzUyIDExOC4yNCAxLjk1MiAwIDMuMTA0LS4wNjQgMy4xMDQtLjA2NC4yNTYgMCAyLjAxNi4wNjQgNS4wNTYuMDY0IDE1LjkwNCAwIDU3LjAyNC0xLjk4NCA5NS4yLTIwLjU3NiA0OS41MzYtMjQgNzQuNjU2LTY1Ljg4OCA3NC42NTYtMTI0LjMyIDAtNTYuNDQ4LTM4LjI3Mi05MC4wNDgtNjYuMjA4LTExNC42MjQtMTcuMDU2LTE1LjAwOC0zMS44MDgtMjcuOTM2LTMxLjgwOC00MC41MTIgMC0xMi44IDEwLjc4NC0yMi40MzIgMjQuMzg0LTM0LjYyNCAyMi4wNDgtMTkuNjggNDIuODQ4LTQ3Ljc0NCA0Mi44NDgtMTAwLjggMC00Ni42MjQtNi4wNDgtNzcuOTUyLTQzLjMyOC05Ny44MjQgMy44NzItMS45ODQgMTcuNjMyLTMuNDI0IDI0LjQxNi00LjM4NCAyMC4xOTItMi43NTIgNDkuNzI4LTUuODg4IDQ5LjcyOC0yMi4zNjh2LTMuMTY4aC0xNDcuMTY4Yy0xLjQ3Mi4wNjQtMTQ4LjgzMiA1LjUwNC0xNDguODMyIDE0MC40NDh6bTIzNy41NjggMjg4LjQxNmMyLjgxNiA0NC45OTItMzUuNjggNzguMTc2LTkzLjUwNCA4Mi4zNjgtNTguNzIgNC4zMi0xMDcuMDQtMjIuMTEyLTEwOS44NTYtNjcuMDcyLTEuMzc2LTIxLjYzMiA4LjEyOC00Mi43NTIgMjYuNzItNTkuNjE2IDE4Ljg0OC0xNy4wNTYgNDQuNzM2LTI3LjYxNiA3Mi44OTYtMjkuNjk2IDMuMzI4LS4xOTIgNi42MjQtLjM4NCA5LjkyLS4zODQgNTQuMzY4LjAzMiA5MS4xNjggMzEuOTY4IDkzLjgyNCA3NC40em0tMzguNDMyLTMxOS4yMzJjMTQuNDMyIDUwLjgxNi03LjM2IDEwMy44NzItNDIuMTEyIDExMy42OTYtNCAxLjEyLTguMDk2IDEuNjY0LTEyLjI4OCAxLjY2NC0zMS44MDggMC02My4zMjgtMzIuMTkyLTc1LjA0LTc2LjU3Ni02LjUyOC0yNC44MzItNS45ODQtNDYuNjU2IDEuNTA0LTY3LjU4NCA3LjMyOC0yMC42NCAyMC41NzYtMzQuNDk2IDM3LjIxNi0zOS4yIDQtMS4xMiA4LjEyOC0xLjY5NiAxMi4zMi0xLjY5NiAzOC40IDAgNjMuMTA0IDE1LjkzNiA3OC40IDY5LjY5NnptMjQ5LjIxNiAxMDcuOTY4di05NmgtNjR2OTZoLTk2djY0aDk2djk2aDY0di05Nmg5NnYtNjRoLTk2eiIvPjwvc3ZnPg==');
 }
 
-.sol-facetter ul > li.or-total-count:hover > a {
-    border-bottom: none;
-    pointer-events: none;
-}
 
 .or-search-button-wrapper {
     position: absolute;
@@ -8399,11 +8218,6 @@ box-shadow: 0px -48px 0px -30px rgba(174, 222, 239, 0.65) inset;
 
 .disabled {   
    cursor: default;
-}
-
-/********** OBS tar bort "facetten" Alla i sök *********/
-.or-total-count {
-    display: none;
 }
 
 /* Action med fontAwesome pil */
