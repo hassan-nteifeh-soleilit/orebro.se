@@ -1,21 +1,9 @@
 <a name="or-tag-contact-us"></a>
 
 <script type="text/javascript">
-$(document).ready(function(){   
-   
+$(document).ready(function(){      
    //Gör Kontakt och tyck till modal
-   $('.or-kontakt-och-tyck-till').modal_box();
-   
-   //Justera kolumnerna om kontakter saknas
-   if($('#noContact1').length && $('#noContact2').length && $('#noContact3').length){
-         // rita om kontakta oss rutan
-        $( ".or-kontakta-kontainer" ).removeClass( "sv-column-12" ).addClass( "sv-column-6" );
-        // sätt vänsterspalt 12 or-kontakta-kontaktpersoner-vanster
-        $( ".or-kontakta-kontaktpersoner-vanster" ).removeClass( "sv-column-6" ).addClass( "sv-column-12" );
-        // göm högerkolumnen
-        $( ".or-kontakta-kontaktpersoner-hoger").hide();
-   }
-   
+   $('.or-kontakt-och-tyck-till').modal_box();     
 });
    
 </script>
