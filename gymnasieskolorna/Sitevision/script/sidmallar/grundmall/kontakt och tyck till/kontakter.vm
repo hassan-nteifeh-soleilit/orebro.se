@@ -1,4 +1,4 @@
-#if($noOfContacts == 0)
+#if($contacts.length == 0)
 <script type="text/javascript">
 $(document).ready(function(){   
         
