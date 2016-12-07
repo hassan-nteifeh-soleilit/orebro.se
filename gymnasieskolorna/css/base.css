@@ -1,5 +1,4 @@
-5/* Grunddesign */
-
+/* Grunddesign */
 .or-grid-12-col.sv-fluid-grid, .or-grid-12-col.sv-fixed-fluid-grid {
 padding-right:10px;
 padding-left:10px;
@@ -4867,20 +4866,7 @@ form#or-search-form::after {
   line-height: 20px;
   font-weight: 700;
 }
-/*
-.sol-facetter p {
-  display: inline-block;
-  width: 100%;
-  padding-bottom: 10px;
-  padding-left: 2px;
-  float: none;
-  border-bottom: 2px none rgb(209, 209, 209);
-  border-bottom: 2px none rgba(209, 209, 209, 0.29);
- color: #e83c23;
-font-size: 15px;
-margin-bottom: 10px;
-}
-*/
+
 .or-search-link {
 	width: 100%;
 	display: block;
@@ -4935,9 +4921,6 @@ line-height: 24px;
 font-weight: 400;
 }
 
-
-
-
 /* Search result */
 .search-heading {
   display: inline-block;
@@ -4951,8 +4934,7 @@ font-weight: 400;
   line-height: 22px;
   font-weight: 700;
 }
-
-
+	
 .sol-search-hits > div > img {
    padding-top: 15px;
    padding-right: 15px;
@@ -6234,7 +6216,8 @@ font-size: 15px;
 }
 
 .or-puff-text-icon-lanklista .or-lanklista a:link:hover {
-text-decoration: underline;
+	text-decoration: underline;
+	box-shadow: rgba(174,222,239,0.0) 0 -41px 0 -23px inset;
 }
 
 
@@ -6517,6 +6500,7 @@ text-decoration: underline;
 
 .or-lanklista a:link:hover{
 	text-decoration: underline;
+	box-shadow: rgba(174,222,239,0.0) 0 -41px 0 -23px inset;
 }
 
 .kontakta-ruta{
@@ -6546,7 +6530,7 @@ text-decoration: underline;
 
 /* TEST FÖR ACTION */
 .or-action-content a:link {
-  box-shadow: none;
+  box-shadow: none!important;
   font-size: 12px;
 }
 
@@ -7745,8 +7729,9 @@ border-color: rgb(237, 234, 234);
 
 
 .normal .or-action-text a:hover {
-    letter-spacing: inherit;
-    text-decoration: underline;
+	letter-spacing: inherit;
+	text-decoration: underline;
+	box-shadow: rgba(174,222,239,0) 0 -41px 0 -23px inset;
 }
 
 .or-action-link-small p.normal {
@@ -8203,7 +8188,6 @@ box-shadow: 0px -48px 0px -30px rgba(174, 222, 239, 0.65) inset;
     background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NDAiIGhlaWdodD0iNjQwIiB2aWV3Qm94PSIwIDAgNjQwIDY0MCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTYzLjY0OCAxNzguODQ4YzAgNDcuODA4IDE1Ljk2OCA4Mi4zMDQgNDcuNDI0IDEwMi41NiAyNS43OTIgMTYuNjQgNTUuNjggMTkuMTM2IDcxLjIzMiAxOS4xMzYgMy43NzYgMCA2LjgxNi0uMTkyIDguOTI4LS4zMiAwIDAtNC45MjggMzIuMTI4IDE4Ljg4IDYzLjg3MmgtMS4wODhjLTQxLjI0OCAwLTE3NS43NzYgOC42MDgtMTc1Ljc3NiAxMTkuMjY0IDAgMTEyLjUxMiAxMjMuNTUyIDExOC4yNCAxNDguMzUyIDExOC4yNCAxLjk1MiAwIDMuMTA0LS4wNjQgMy4xMDQtLjA2NC4yNTYgMCAyLjAxNi4wNjQgNS4wNTYuMDY0IDE1LjkwNCAwIDU3LjAyNC0xLjk4NCA5NS4yLTIwLjU3NiA0OS41MzYtMjQgNzQuNjU2LTY1Ljg4OCA3NC42NTYtMTI0LjMyIDAtNTYuNDQ4LTM4LjI3Mi05MC4wNDgtNjYuMjA4LTExNC42MjQtMTcuMDU2LTE1LjAwOC0zMS44MDgtMjcuOTM2LTMxLjgwOC00MC41MTIgMC0xMi44IDEwLjc4NC0yMi40MzIgMjQuMzg0LTM0LjYyNCAyMi4wNDgtMTkuNjggNDIuODQ4LTQ3Ljc0NCA0Mi44NDgtMTAwLjggMC00Ni42MjQtNi4wNDgtNzcuOTUyLTQzLjMyOC05Ny44MjQgMy44NzItMS45ODQgMTcuNjMyLTMuNDI0IDI0LjQxNi00LjM4NCAyMC4xOTItMi43NTIgNDkuNzI4LTUuODg4IDQ5LjcyOC0yMi4zNjh2LTMuMTY4aC0xNDcuMTY4Yy0xLjQ3Mi4wNjQtMTQ4LjgzMiA1LjUwNC0xNDguODMyIDE0MC40NDh6bTIzNy41NjggMjg4LjQxNmMyLjgxNiA0NC45OTItMzUuNjggNzguMTc2LTkzLjUwNCA4Mi4zNjgtNTguNzIgNC4zMi0xMDcuMDQtMjIuMTEyLTEwOS44NTYtNjcuMDcyLTEuMzc2LTIxLjYzMiA4LjEyOC00Mi43NTIgMjYuNzItNTkuNjE2IDE4Ljg0OC0xNy4wNTYgNDQuNzM2LTI3LjYxNiA3Mi44OTYtMjkuNjk2IDMuMzI4LS4xOTIgNi42MjQtLjM4NCA5LjkyLS4zODQgNTQuMzY4LjAzMiA5MS4xNjggMzEuOTY4IDkzLjgyNCA3NC40em0tMzguNDMyLTMxOS4yMzJjMTQuNDMyIDUwLjgxNi03LjM2IDEwMy44NzItNDIuMTEyIDExMy42OTYtNCAxLjEyLTguMDk2IDEuNjY0LTEyLjI4OCAxLjY2NC0zMS44MDggMC02My4zMjgtMzIuMTkyLTc1LjA0LTc2LjU3Ni02LjUyOC0yNC44MzItNS45ODQtNDYuNjU2IDEuNTA0LTY3LjU4NCA3LjMyOC0yMC42NCAyMC41NzYtMzQuNDk2IDM3LjIxNi0zOS4yIDQtMS4xMiA4LjEyOC0xLjY5NiAxMi4zMi0xLjY5NiAzOC40IDAgNjMuMTA0IDE1LjkzNiA3OC40IDY5LjY5NnptMjQ5LjIxNiAxMDcuOTY4di05NmgtNjR2OTZoLTk2djY0aDk2djk2aDY0di05Nmg5NnYtNjRoLTk2eiIvPjwvc3ZnPg==');
 }
 
-
 .or-search-button-wrapper {
     position: absolute;
     bottom: 12px;
@@ -8249,67 +8233,6 @@ box-shadow: 0px -48px 0px -30px rgba(174, 222, 239, 0.65) inset;
     color: #303539;
 }
 
-/* Dela funktion på startsidor utan support bar */
-/*
-.or-startpage-extra{
-	margin-top:20px
-}
-
-.or-startpage-extra .or-stor-text-actions > div:nth-child(2) {
-   padding-top:25px;
-}  
-
-.or-startpage-extra .or-tool-area {    
-    width: 75px;    
-    padding: 5px;
-    background-color: white;
-    white-space: nowrap;
-    float: right;
-    border-bottom-left-radius: 3px;
-    box-shadow: inset 1px -1px 2px rgba(0, 0, 0, 0.24);
-
-} 
-
-.or-startpage-extra .or-tool-area a i {                
-    margin-left: 5px;
-    margin-right: 10px;
-    font-size: 17px;
-}
-
-.or-startpage-extra .or-tool-area a {
-   font-family: "leaguespartan webfont",sans-serif;
-   font-style: normal;
-   font-size: 10px;
-   color: #35383B;
-   line-height: 16px;
-   display: inline-block;
-   font-weight: 800;
-   letter-spacing: 0.06em;
-   text-transform: uppercase;
-}
-
-.or-startpage-extra .or-share {
-    float: right;
-    position: relative;
-    z-index: 10;
-}
-
-.or-startpage-extra .or-share .or-addthis-container {
-    background-color: white;
-    clear: both;
-    padding: 3px;
-    position: absolute;
-    width: 147px;
-    right: 0;
-    top: 30px;
-
-}
-
-.or-startpage-extra .pagecontent {
-   position: relative;
-   top: -50px;
-}
-*/
 /* formulär-toppbild sjuksköterskewebben*/
 
 .or-form-column{
@@ -8607,5 +8530,6 @@ input[type="file" i]::-webkit-file-upload-button:hover{
 }
 
 .or-no-scroll {
-    overflow-y: hidden;
+   overflow-y: hidden;
+	-ms-overflow-style:none;  
 }
