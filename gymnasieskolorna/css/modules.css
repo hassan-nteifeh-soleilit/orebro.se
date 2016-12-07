@@ -566,28 +566,6 @@ ul.or-teaser-list i span{
 .or-teaser-box .or-text-content .or-teaser-list li a {
     display: block;
 }
-/*
-.or-teaser-box .or-text-content .or-teaser-list li a i:before {
-    display: block;
-}
-
-.or-teaser-box .or-text-content .or-teaser-list li a i {
-    color: #857672;
-    font-size: 18px;
-    text-align: left;
-    line-height: 16px;
-    position: absolute;
-    left: 0;
-    top: 10px;
-}
-
-
-.or-teaser-box .or-text-content .or-teaser-list li a i span {
-    font-size: 10px;
-    font-weight: 600;
-    font-family: "open sans",sans-serif;
-}
-*/
 
 .or-teaser-box  .or-file-icon-container {
 	color: #857672;
@@ -687,15 +665,6 @@ font-size: 13px;
 	border-bottom: solid 1px #f3dcd0;
 }
 
-/*
-body .sv-responsiveTable--stacked__headRow{
-	background-color: #E83C23!important;
-}
-
-body .sv-responsiveTable--stacked__headRow--main{
-	background-color: #E83C23!important;
-}
-*/
 body .or-article-main .sv-responsiveTable--stacked__headRow th p{
 	color:#fff;
 	font-family: "leaguespartan webfont",sans-serif;
@@ -709,92 +678,6 @@ body .or-article-main .sv-responsiveTable--stacked__headRow p{
 	font-size: 14px;
 	padding: 5px 5px 5px 8px;
 }
-
-/**************************
-Process verktyg (gamla) 
-**************************/
-/*
-.sol_process_flow_container{
-   height: auto;
-   position: relative;
-   width: auto;
-   padding-top: 19px;
-   padding-bottom: 10px;
-   padding-left: 2px;
-   padding: 15px;
-   border-style: solid;
-   border-width: 6px 1px 1px;
-   border-bottom-left-radius: 2px;
-   border-bottom-right-radius: 2px;
-}
-
-ul.sol_steps.clearfix {
-    background-color: #F4F3F1;
-    font-family: "Open Sans",sans-serif;
-    font-size: 14px;
-    line-height: 20px;
-    display: inline-block;
-    padding-left: 0px;
-      -webkit-padding-start: 0px;
-   -webkit-margin-after: -5px;
-   width:100%;
-}
-
-
-.sol_step {
-    font-weight: 400;
-    position: relative;
-    min-height: 60px;
-    width: 20%;
-    border-top-right-radius: 0px;
-    color: #35383B;
-    list-style-type: disc;
-    background-color: #F4F3F1;
-    cursor: pointer;
-    padding: 20px 11px 11px;
-    text-align: center;
-    font-size: 12px;
-    line-height: 1.15em;
-    display: inline-block;
-    float: left;
-}
-
-ul.sol_steps.clearfix > li > span {
-    text-align: center;
-    line-height: 1.15em;
-    font-size: 12px;
-    font-family: "leaguespartan webfont",sans-serif;
-}
-
-.sol_step active{
-   float: left; 
-}
-
-li.sol_step.active {
-    color: #FFF;
-    font-weight: 700;
-    padding-top: 14px;
-    border: medium none;
-}
-
-.sol_process_flow_outer {
-    background-color: #FFF;
-    margin-bottom: 25px;
-    margin-top: -5px;
-}
-
-li.sol_step {
-   background-color: white;
-}
-
-div.sol_process_flow_container > div > div > div {
-   padding: 5px 0px 5px 15px;
-}
-
-.or-process-container{
-   position:relative!important;
-}
-*/
 
 /* Processkarta nya tabs */
 .sol-js-tabs-container 
@@ -1001,7 +884,7 @@ body .or-content-container .or-tir p, body .or-content-container .or-tir p a:lin
   top: 18px;
 }
 
-/* Sök */
+* Sök */
 /* Paginering */
 #or-paging-id {
     margin-bottom: 20px;
@@ -1073,193 +956,6 @@ body .or-content-container .or-tir p, body .or-content-container .or-tir p a:lin
 .or-total-count {
     display: none;
 }
-
-
-
-/* Facetter */
-/*
-.sol-facetter ul > li.or-total-count:hover > a {
-    border-bottom: none;
-    pointer-events: none;
-}
-
-.sol-facetter ul {
-margin-top: -6px;
-margin-bottom: 10px;
-padding: 0px;
-border-bottom-style: none;
-border-bottom-width: 0px;
-background-color: rgb(255, 255, 255);
-background-color: rgba(255, 255, 255, 0.90);
-}
-
-.sol-facetter > .sv-column-4 {
-background-color: inherit;
-}
-
-
-.sol-facetter ul > li {
-  padding-top: 7px;
-  padding: 8px 15px 5px 10px;
-  border-bottom: 2px dotted #ededed;
-  font-size: 14px;
-  line-height: 14px;
-  margin-bottom: 0.0em;
-  font-size: 12px;
-  letter-spacing: 0.04em;
-   -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
-  margin-bottom: 0px !important;
-}
-
-#or-id-preselected-facet a{
-    color: #35383B;
-    font-size: 14px;
-    text-decoration: none;
-    font-weight: 300;
-    cursor: pointer;
-}
-
-span.sol-hit-count {
-   float: right;
-}
-
-.sol-facetter ul > li > a {
-  font-size: 14px;
-  text-decoration: none;
-  font-weight: 300;
-  cursor: pointer;
-}
-
-.sol-facetter p{
-   display: inline-block;
-   width: 100%;
-   padding-bottom: 10px;
-   padding-left: 2px;
-   float: none;
-   border-bottom: 2px none rgb(209, 209, 209);
-   border-bottom: 2px none rgba(209, 209, 209, 0.29);
-   color: #e83c23;
-}
-
-li.sol-selected-facet:hover {
-background-color: #f28c00 !important;
-border-bottom-color: #f28c00 !important; 
-}
-
-
-li#sol-selected-facet {
-   border-bottom-color: #e83c23;
-   background-color: #e83c23;
-   color: white;
-   font-weight: 700;
-   list-style-type: none;
-   border-bottom: none;
-   
-   padding-top: 7px;
-   padding: 8px 15px 5px 5px;
-   line-height: 14px;
-}
-
-.or-show-hiden-facet-items {
-background-color: rgb(133, 118, 114);
-  background-color: rgba(133, 118, 114, 0.2);
-}
-
-.sol-icon-more-facet:after {
-    content: "\F067";
-    font-family: FontAwesome;
-    font-style: initial;
-    font-size: 18px;
-    vertical-align: middle;
-}
-.sol-icon-more-facet{
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  background-attachment: scroll;
-  background-color: transparent;
-  float: right;
-  width: 16px;
-  height: 16px;
-  	opacity: 0.85;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
-	filter: alpha(opacity=85);
-	-moz-opacity: 0.85;
-	-khtml-opacity: 0.85;
-    margin-top: -1px;
-}
-
-.or-show-hiden-facet-items:hover {
-  background-color: #f28c00 !important;
-  border-bottom-color: #f28c00 !important;
-  border-bottom: 2px dotted #ededed !important;
-}
-
-
-.or-show-hiden-facet-items:hover > .sol-icon-more-facet {
-  -webkit-transform: rotate(0deg);
-  -moz-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-}
-
-.sol-icon-facet-active:after{
-	content: "\F00C";
-    font-family: FontAwesome;
-    font-style: normal;
-    font-size: 18px;
-	 vertical-align: middle;
-}
-.sol-icon-facet-active{
-   background-repeat: no-repeat; 
-   background-position: 50% 50%;
-   background-attachment: scroll;
-   float: right;
-   width: 16px;
-   height: 16px;
-   	opacity: 0.85;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
-	filter: alpha(opacity=85);
-	-moz-opacity: 0.85;
-	-khtml-opacity: 0.85;
-}
-
-.sol-facetter ul > li.sol-selected-facet > a {
-  color: inherit;
-  font-weight: inherit;
-  list-style-type: inherit;
-  border-bottom: none;
-  font-family: 'Open Sans', sans-serif;
-  display: inline-block;
-  width: 80%;
-  box-shadow: none;
-  background-color: transparent;
-  font-size: 14px;
-}
-
-li.sol-selected-facet:hover > i.sol-icon-facet-active:after{
-    content: "\F067";
-    font-family: FontAwesome;
-    font-style: initial;
-    font-size: 18px;
-	 vertical-align: middle;
-}
-li.sol-selected-facet:hover > i.sol-icon-facet-active {
-   -webkit-transform:rotate(45deg);
-  -moz-transform:rotate(45deg);
-  -o-transform:rotate(45deg);
-  -ms-transform:rotate(45deg);
-}
-
-.sol-facetter ul > li:hover > a {
-	border-bottom: 2px solid #35383b;
-   transition: all 500ms ease;
-}
-
-.sol-facetter ul > li#sol-selected-facet:hover > a {
-   border-bottom: none;
-}
-*/
 
 span.sol-hit-count {
     float: right;
