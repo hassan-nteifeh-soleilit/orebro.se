@@ -883,3 +883,266 @@ body .or-content-container .or-tir p, body .or-content-container .or-tir p a:lin
   left: 15px;
   top: 18px;
 }
+
+* Sök */
+/* Paginering */
+#or-paging-id {
+    margin-bottom: 20px;
+		
+}
+
+#or-paging-id .current.prev {
+    background-color: transparent;
+    color: #000;
+    border: 0 solid #DADADA;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#or-paging-id .current.prev:hover {
+    background-color: transparent;
+}
+
+#or-paging-id a {
+    background-color: #fff;
+    color: #000;
+    border: 0 solid #DADADA;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 9px 12px;
+    box-shadow: rgba(174,222,239,0.0)0px -16px 0 -11px inset;
+    border-radius: 40px;
+    -moz-border-radius: 40px;
+    -webkit-border-radius: 40px;
+    border: 2px solid rgba(133,118,114,0.24);
+    line-height: normal;
+    box-sizing: initial;
+}
+
+#or-paging-id a:hover {
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.pagination .current {
+    color: #fff;
+    padding: 5px 12px;
+    font-size: 13px;
+    background: none repeat scroll 0 0 #e83c23;
+    border-radius: 40px;
+    -moz-border-radius: 40px;
+    -webkit-border-radius: 40px;
+    border: 1px solid #e83c23;
+		box-sizing: initial;
+}
+
+#or-paging-id .next {
+    background-color: transparent;
+    color: #000;
+    border: 0 solid #DADADA;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.pagination .prev {
+    background: none repeat scroll 0 0 transparent !important;
+    border: 0 solid #e83c23 !important;
+}
+
+
+/********** OBS tar bort "facetten" Alla i sök *********/
+.or-total-count {
+    display: none;
+}
+
+span.sol-hit-count {
+    float: right;
+}
+
+.sol-facetter ul {
+    margin-top: -6px;
+    margin-bottom: 10px;
+    padding: 0;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    background-color: #fff;
+    background-color: rgba(255,255,255,0.90);
+}
+
+.sol-facetter ul > li {
+    padding-top: 7px;
+    padding: 8px 15px 7px 10px;
+    border-bottom: 2px dotted #ededed;
+    font-size: 14px;
+    line-height: 14px;
+    margin-bottom: 0;
+    font-size: 12px;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    margin-bottom: 0 !important;
+    list-style: none;
+}
+
+.sol-facetter ul > li:last-child {
+    border-bottom: 0;
+}
+
+.sol-facetter ul > li:hover {
+    background-color: #fff;
+}
+
+.sol-facetter ul > li:hover  a
+ {    	
+		border-bottom: 2px solid #35383b;
+    transition: all 500ms ease;		
+		text-decoration: none;		
+}
+
+.sol-facetter ul > li:hover  > a
+ {    	
+	box-shadow: 0 -20px 0 11px rgba(174,222,239,0.65) inset; */   
+ }
+.sol-facetter .sol-selected-facet {
+    background: #e83c23;
+    color: #FFF;
+    border-bottom: 0 solid transparent;
+    position: relative;
+}
+
+.sol-facetter .sol-selected-facet a {
+    color: #FFF;
+    border-bottom: 2px solid transparent;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.sol-facetter .sol-selected-facet:hover {
+    background-color: #f28c00;
+    color: #FFF;
+    border-bottom: 0 solid transparent;
+}
+
+
+.sol-facetter .sol-selected-facet:hover a {
+    border-bottom: 0 solid transparent;
+}
+
+.sol-facetter .sol-selected-facet:hover a {
+    border-bottom: 0 solid transparent;
+    color: #fff;
+}
+
+.sol-facetter .sol-selected-facet a:hover {
+    color: #FFF;
+}
+
+.sol-icon-facet-active {
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-attachment: scroll;
+    width: 16px;
+    height: 16px;
+    opacity: .85;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=85);
+    filter: alpha(opacity=85);
+    -moz-opacity: .85;
+    -khtml-opacity: .85;
+    position: absolute;
+    right: 11px;
+    top: 11px;
+}
+
+li.sol-selected-facet:hover > i.sol-icon-facet-active {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+}
+
+li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
+    content: "\F067";
+    font-family: FontAwesome;
+    font-style: initial;
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+.sol-icon-facet-active:after {
+    content: "\F00C";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+.sol-facetter ul > li > a {
+    font-size: 13px !important;
+    text-decoration: none;
+    font-weight: 300;
+    cursor: pointer;
+    box-shadow: rgba(255,255,255,0)0px -16px 0 -11px inset !important;
+}
+
+.sol-facetter p {
+    font-size: 12px;
+    margin-bottom: 15px !important;
+    color: #e83c23;
+}
+
+.sol-facetter .or-show-hiden-facet-items {
+    background-color: #857672;
+    border-bottom: 2px dotted transparent;
+    color: #fff;
+}
+
+.or-show-hiden-facet-items:hover {
+    background-color: #35383b !important;
+    border-bottom-color: #35383b !important;
+    border-bottom: 2px dotted #35383b !important;
+    color: #FFF;
+}
+
+.or-show-hiden-facet-items:hover > .sol-icon-more-facet {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+}
+
+.sol-icon-more-facet {
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-attachment: scroll;
+    background-color: transparent;
+    float: right;
+    width: 16px;
+    height: 16px;
+    opacity: .85;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=85);
+    filter: alpha(opacity=85);
+    -moz-opacity: .85;
+    -khtml-opacity: .85;
+    margin-top: -1px;
+}
+
+.sol-icon-more-facet:after {
+    content: "\F067";
+    font-family: FontAwesome;
+    font-style: initial;
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+.sol-icon-more-facet-selected:after {
+    content: "\F068";
+    font-family: FontAwesome;
+    font-style: initial;
+    font-size: 18px;
+    vertical-align: middle;
+}

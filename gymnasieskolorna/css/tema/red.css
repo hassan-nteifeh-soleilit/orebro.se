@@ -1,7 +1,7 @@
 /* Färg tema */
 
- .colortext{
-color:#E83C23;
+.colortext{
+	color:#E83C23;
 }
 
 .or-header-topptext {
@@ -31,7 +31,6 @@ color:#E83C23;
 }
 
 }
-
 
 
 footer a {
@@ -127,7 +126,7 @@ li.or-comment.or-colorborder {
 
 /* Ramfärg för actionrutan */
 .or-action-link.or-colorborder {
-  border-color: #dbe7c4;
+  border-color: #dbe7c4);
 }
 
 .or-action-content span.fa {   
@@ -209,8 +208,8 @@ h4.plusboxxrubrik.or-plus-box-active {
    color:white;
 }
 
-.or-collpase-button.or-colorbg.or-plus-box-active,
-.or-collapse-button.or-colorbg.or-plus-box-active {
+.or-collapse-button.or-colorbg.or-plus-box-active,
+.or-collpase-button.or-colorbg.or-plus-box-active {
   background-color: rgba(255,255,255,0.25)!important;
 }
 
@@ -254,12 +253,10 @@ h4.plusboxxrubrik.or-plus-box-active {
     color: #FFF;
 }
 
-.or-plus-box-program .or-collpase-button,
-.or-plus-box-program .or-collapse-button, {
+.or-plus-box-program .or-collapse-button, 
+.or-plus-box-program .or-collpase-button {
     background-color: #E83C23;
 }
-
-
 
 /* Hover plusboxar */
 .or-plus-box-header:hover .plusboxxrubrik{
@@ -271,12 +268,7 @@ h4.plusboxxrubrik.or-plus-box-active {
   color: #fff;
 }
 
-
-
-
-
 /* Kontakta oss fristående */
-
 .or-contact-bar.or-colorborder {
 	border-right: 2px solid #EFDFCB;
 	border-bottom: 2px solid #EFDFCB;
@@ -335,6 +327,10 @@ h4.plusboxxrubrik.or-plus-box-active {
 color: #E83C23;
 }
 
+.or-puff-bild-text h4 a{
+color: #E83C23;
+}
+
 .or-stor-bild-text-tv > div:nth-child(2) h2 {
     color: #E83C23;
 }
@@ -367,11 +363,10 @@ color: #E83C23;
 
 
 /* tabell */
-
 @media (max-width: 768px) {
-.st-head-row {
-  background-color: #E83C23;
-}
+	.st-head-row {
+		background-color: #E83C23;
+	}
 }
 
 .sv-table-portlet thead tr {
@@ -379,7 +374,7 @@ color: #E83C23;
 }
 
 /* rubrik logo */
-.or-header-topptext h2 {
+.or-header-topptext{
  color: #E83C23;
 }
 
@@ -397,8 +392,6 @@ color: #E83C23;
 }
 
 .sitevision-ui-bootstrap .ui-menu .ui-menu-item a.ui-state-focus,.sitevision-ui-bootstrap .ui-menu .ui-menu-item a.ui-state-active,.sitevision-ui-bootstrap .ui-menu .ui-menu-item a.ui-widget-content{font-weight:400;margin:0;color:#fff;background:#E83C23;background-color:#E83C23;background-repeat:repeat-x;background-image:-webkit-linear-gradient(top,#E83C23,#E83C23);background-image:-moz-linear-gradient(top,#E83C23,#E83C23);background-image:-o-linear-gradient(top,#E83C23,#E83C23);background-image:linear-gradient(to bottom,#E83C23,#E83C23);text-shadow:0 0px 0 rgba(0,0,0,0.0);border-color:#08c #0088Cc #0077b3;border-color:rgba(0,0,0,0.0) rgba(0,0,0,0.0) rgba(0,0,0,0.0);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#E83C23',endColorstr='#E83C23',GradientType=0);filter:progid:DXImageTransform.Microsoft.gradient(enabled=false)}
-
-
 
 /* blogg */
 
@@ -423,19 +416,17 @@ color: #E83C23;
     color: #E83C23;
 }
 
-
 /* Söksida */
-.sol-facetter p {
-    color: #E83C23;
-}
-
-li#sol-selected-facet {
-    background-color: #E83C23;
+.sol-facetter ul > li:hover a
+ {    	
+	color: #E83C23;
+	border-bottom: none;
+	transition: none;
 }
 
 li.sol-selected-facet:hover {
-    background-color: rgba(0, 152, 189, 0.5);
-    border-bottom-color: rgba(0, 152, 189, 0.5);
+	background-color: rgba(0, 152, 189, 0.5);
+	border-bottom-color: rgba(0, 152, 189, 0.5);
 }
 
 .or-show-hiden-facet-items:hover {
@@ -445,19 +436,13 @@ li.sol-selected-facet:hover {
 }
 
 .sol-sok-ruta input.normal:last-child {
-    background-color: #E83C23;
-}
-
-li.sol-selected-facet:hover {
-    background-color: #8CB051 !important;
-    border-bottom-color: #8CB051 !important;
-    color: #fff !important;
+	background-color: #E83C23;
 }
 
 .or-hidden-facet-items-selected {
-    transition: all 500ms ease 0s;
-    background-color: #E1E8C7 !important;
-    border-bottom-color: #E1E8C7 !important;
+	transition: all 500ms ease 0s;
+	background-color: #E1E8C7 !important;
+	border-bottom-color: #E1E8C7 !important;
 }
 
 .or-hidden-facet-items-selected {
@@ -466,13 +451,3 @@ li.sol-selected-facet:hover {
  border-bottom-color: #E83C23 !important;
  color: #fff;
 }
-
-.pagination .current {
-    background-color: #60930F ;
-}
-
-#or-paging-id a:hover {
-    background-color: #E1E8C7;
-}
-
-
