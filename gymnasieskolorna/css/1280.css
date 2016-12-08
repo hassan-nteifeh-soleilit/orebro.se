@@ -155,19 +155,10 @@ body .or-content-container .or-tir p, body .or-content-container .or-tir p a:lin
 }
 
 /*
-.sv-use-margins .normal {
-    font-size: 19px;
-}
-
-.sv-use-margins .normal a{
-    font-size: 19px;
-}
-*/   
-
 .normal a:link:hover {
     box-shadow: rgba(174, 222, 239, 0.65) 0 -41px 0 -18px inset;
 }
-
+*/
 .ingress a:link:hover{
 	box-shadow: rgba(174, 222, 239, 0.65) 0 -41px 0 -18px inset;
 }
@@ -212,17 +203,7 @@ body .or-content-container .or-tir h2 {
 section.or-article-main .or-content-padding {
     max-width: 950px;
 }
-
-/*   
-.sv-use-margins .normal {
-    font-size: 21px;
-}
-
-.sv-use-margins .normal a{
-    font-size: 21px;
-}
-*/
-   
+  
 .ingress {
     font-size: 25px;
     line-height: 1.5em;
@@ -231,11 +212,11 @@ section.or-article-main .or-content-padding {
 .or-article-main ul.normal li, .or-article-main ol.normal li {
     font-size: 21px;
 }
-
+/*
 .normal a:link:hover {
     box-shadow: rgba(174, 222, 239, 0.65) 0 -41px 0 -15px inset;
 }
-
+*/
 .ingress a:link:hover{
 	box-shadow: rgba(174, 222, 239, 0.65) 0 -41px 0 -15px inset;
 }
