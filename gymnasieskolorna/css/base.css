@@ -4823,9 +4823,25 @@ border-color: rgb(232, 60, 35);
     border: 1px solid #E4E4E4;
     padding-left: 10px;
     font-weight: 300;
-    color: #909090;
+    color: #454545;
     margin-bottom: 15px;
     -webkit-appearance: none;
+}
+
+.sol-sok-ruta input::-webkit-input-placeholder{
+	color: #949494;
+}
+
+.sol-sok-ruta input:-moz-placeholder{
+	color: #949494;
+}
+
+.sol-sok-ruta input::-moz-placeholder{
+	color: #949494;
+}
+
+.sol-sok-ruta input:-ms-input-placeholder{
+	color: #949494;
 }
 
 
