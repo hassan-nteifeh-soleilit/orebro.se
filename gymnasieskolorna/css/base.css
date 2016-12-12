@@ -921,10 +921,26 @@ font-family: "leaguespartan webfont",sans-serif;
   -webkit-border-radius:2px;
   vertical-align: middle;
   background-color: #ffffff; 
-  font-size: 17px;
-  font-weight: 300;
-  color: #717171;
+  font-size: 16px;
+  font-weight: 400;
+  color: #454545;
   -webkit-appearance: none;
+}
+
+.searchform::-webkit-input-placeholder{
+	color: #949494;
+}
+
+.searchform:-moz-placeholder{
+	color: #949494;
+}
+
+.searchform::-moz-placeholder{
+	color: #949494;
+}
+
+.searchform:-ms-input-placeholder{
+	color: #949494;
 }
 
 .sv-searchform-portlet .submit {
