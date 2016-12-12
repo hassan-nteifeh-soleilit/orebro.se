@@ -273,10 +273,17 @@ width:100%;
     display: inline-block!important;
 }
 
+
+/* cookieruta */
+
 #cookieClose {
  width: 100px;
  margin: 6px auto 4px;
  display: block;
+}
+
+.cookieAlert .normal a:link {
+    margin-right: 20px;
 }
 
 
