@@ -8143,6 +8143,8 @@ padding-top: 3px;
     font-size: 11px;
     text-align: center;
     box-shadow: 0px -14px 0px -11px rgba(174, 222, 239, 0.65) inset;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .cookieAlert .normal a:link:hover{
