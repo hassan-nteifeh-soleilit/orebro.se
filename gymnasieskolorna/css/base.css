@@ -8432,15 +8432,16 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
     font-size: 16px;
     font-family: "open sans",sans-serif;
-    font-weight: 300		
+    font-weight: 400		
 }
 
 
 .sv-defaultFormTheme input[type=text] {
-    font-size: 16px;
+    font-size: 14px;
     font-family: "open sans",sans-serif;
-    font-weight: 300;
-    margin-bottom: 0;
+    font-weight: 400;
+    margin-bottom: 7px;
+    color: #454545;
 }
 
 .sv-defaultFormTheme input[type=text]:focus, textarea:focus {
