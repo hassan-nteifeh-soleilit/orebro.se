@@ -8539,7 +8539,7 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
 
 .sv-defaultFormTheme .sv-form-singleselectionfield label, .sv-defaultFormTheme .sv-form-multipleselectionfield label {
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 400;
     position: relative;
     top: -1px;
     line-height: 2em;
