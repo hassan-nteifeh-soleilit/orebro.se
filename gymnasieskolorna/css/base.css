@@ -6547,6 +6547,15 @@ text-decoration: underline;
 	margin-bottom: 35px; 
 }
 
+.nyhetxuppdateradxdatum {
+    font-family: "'open sans'",sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 13px;
+    color: #857672;
+    line-height: normal;
+}
+
 /* TEST FÖR ACTION */
 .or-action-content a:link {
   box-shadow: none!important;
