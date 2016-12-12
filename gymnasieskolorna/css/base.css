@@ -5684,7 +5684,7 @@ box-shadow: rgba(255, 255, 255, 1)0px -33px 0px -11px inset;
 .sv-blog-portlet table.sv-standard td p, 
 .sv-archive-portlet table.sv-standard td p, 
 .sv-text-portlet table.sv-standard td p {
-    font-size: 15px;
+    font-size: 16px;
     line-height: 1.2em;
 }
 
@@ -5692,7 +5692,7 @@ box-shadow: rgba(255, 255, 255, 1)0px -33px 0px -11px inset;
 .sv-blog-portlet table.sv-standard td p, 
 .sv-archive-portlet table.sv-standard td p, 
 .sv-text-portlet table.sv-standard td p a{
-    font-size: 15px;
+    font-size: 16px;
     line-height: 1.2em;
     display: inline;
 	 padding-right: 1px;
@@ -5707,7 +5707,7 @@ box-shadow: rgba(255, 255, 255, 1)0px -33px 0px -11px inset;
 .sv-blog-portlet table.sv-standard td p, 
 .sv-archive-portlet table.sv-standard td p, 
 .sv-text-portlet table.sv-standard td p a:hover{
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.2em;
   box-shadow: rgba(174, 222, 239, 0.65) 0px -48px 0px -30px inset;
 	color: #35383b;

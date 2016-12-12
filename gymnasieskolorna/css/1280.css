@@ -97,18 +97,6 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
     font-size: 13px;
 }
 
-/* tabell */
-.sv-text-portlet table.sv-standard thead th p {
-    font-size: 15px;
-}
-
-body .sv-text-portlet table.sv-standard td p, body .sv-text-portlet table.sv-standard td {
-    font-size: 19px;
-}
-
-.or-content-container .sv-text-portlet table caption {
-    font-size: 20px;
-}
 
 /* fildelningsmodul */
 .or-contentlinks a.normal {
