@@ -859,13 +859,17 @@ width:100%;
 }
 
 #cookieClose {
-    display: block;
     width: 100px;
     margin: 13px auto 9px;
 }
 
 .cookieAlert .normal {
-padding: 0 10px;
+    padding: 0 6px;
+    margin: 0px;
+}
+
+.cookieAlert .normal a:link{
+	font-size: 12px!important;
 }
 
 /* krismeddeladne */
