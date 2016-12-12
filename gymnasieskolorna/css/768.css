@@ -750,8 +750,10 @@ width:65%;
  /* cookie */
  
 .cookieAlert {
-    padding: 11px 0px 3px 0px;
-    margin-top: 40px;
+    padding: 11px 0 15px 0;
+    position: fixed;
+    bottom: 0;
+    z-index: 999;
 }
 
 
