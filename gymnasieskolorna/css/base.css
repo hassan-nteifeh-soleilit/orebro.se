@@ -8397,6 +8397,15 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
    margin-top: 20px;
 }
 
+.sv-defaultFormTheme {
+    background-color: rgba(177,177,176,0.17);
+    padding: 5px 15px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.15);
+    margin-top: 13px;
+    margin-bottom: 15px;
+}
+
 .sv-defaultFormTheme input[type=text], .sv-defaultFormTheme input[type=email], .sv-defaultFormTheme input[type=url], .sv-defaultFormTheme input[type=tel], .sv-defaultFormTheme input[type=number], .sv-defaultFormTheme textarea, .sv-defaultFormTheme select {
     display: block;
     box-sizing: border-box;
@@ -8473,8 +8482,7 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
 }
 
 .sv-defaultFormTheme .sv-field-title-container.sv-bold label, .sv-defaultFormTheme .sv-field-title-container.sv-bold span, .sv-defaultFormTheme .sv-field-title-container.sv-bold h1, .sv-defaultFormTheme .sv-field-title-container.sv-bold h2, .sv-defaultFormTheme .sv-field-title-container.sv-bold h3, .sv-defaultFormTheme .sv-field-title-container.sv-bold h4, .sv-defaultFormTheme .sv-field-title-container.sv-bold h5, .sv-defaultFormTheme .sv-field-title-container.sv-bold h6 {
-    font-size: 14px;
-    margin-bottom: 10px;
+    font-size: 16px;
     display: inline-block;
     font-family: "leaguespartan webfont",sans-serif;
     margin-top: 10px;
@@ -8486,10 +8494,10 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
 }
 
 .sv-defaultFormTheme .sv-form-singleselectionfield label, .sv-defaultFormTheme .sv-form-multipleselectionfield label {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 300;
     position: relative;
-    top: 1px;
+    top: -1px;
     line-height: 2em;
     margin-left: 4px;
 
@@ -8497,7 +8505,6 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
 
 
 .sv-formField{
-    border-bottom: 2px dotted #e4e4e4;
     padding-bottom: 10px;
 }
 
