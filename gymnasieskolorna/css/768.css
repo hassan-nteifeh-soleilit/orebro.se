@@ -756,6 +756,11 @@ width:65%;
     z-index: 999;
 }
 
+   #cookieClose {
+    padding: 8px 19px;
+    font-size: 10px!important;
+}
+
 
 /* krismeddelande */
 

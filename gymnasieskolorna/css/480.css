@@ -745,7 +745,7 @@ margin-top: -35px;
 
 .or-social-container{
     margin-top: 0px;
-    padding-top: 100px;
+/*    padding-top: 100px;*/
     padding-bottom: 0px;
 }
 
@@ -859,26 +859,17 @@ width:100%;
 }
 
 #cookieClose {
-    display: block;
     width: 100px;
     margin: 13px auto 9px;
 }
 
 .cookieAlert .normal {
-padding: 0 10px;
-}
-
-.cookieAlert .normal {
-padding: 0 10px;
+    padding: 0 6px;
+    margin: 0px;
 }
 
 .cookieAlert .normal a:link{
-    color: #fff;
-    font-size: 10px;
-}
-
-.cookieAlert .normal {
-    font-size: 10px;
+	font-size: 12px!important;
 }
 
 
@@ -927,7 +918,7 @@ width: 100%;
 }
 
 .normal a.or-social-content-links {
-    margin-bottom: 35px;
+/*    margin-bottom: 35px;*/
     margin-top: 0px;
 }
 

@@ -1327,19 +1327,18 @@ border-color: rgb(174, 222, 239); /* The Fallback */
   margin-top: 35px;
 }
 .sharetext {  
- display: inline-block;
- width: auto;
- margin-top: 5px;
- margin-bottom: 4px;
- margin-right: 15px;
- float: left;
- font-family: "Open Sans",sans-serif;
- font-weight:400;
- color: #35383b;
- font-size: 15px;
- text-align: left;
- letter-spacing: 0.08em;
- text-transform: uppercase;  
+	color: #35383b;
+    display: inline-block;
+    float: left;
+    font-family: "leaguespartan webfont",sans-serif;
+    font-size: 12px;
+    letter-spacing: .08em;
+    margin-bottom: 4px;
+    margin-right: 15px;
+    margin-top: 4px;
+    text-align: left;
+    text-transform: uppercase;
+    width: auto;  
 }
 .socialcircle {
   position: relative;
@@ -2735,7 +2734,7 @@ margin-left: auto;
   color: white;
   font-weight: 600;
   text-align: center;
-  font-size: 12px;
+   font-size: 12px;
 }
 
 .thumbup:hover,
@@ -4825,7 +4824,6 @@ border-color: rgb(232, 60, 35);
     color: #454545;
     margin-bottom: 15px;
     -webkit-appearance: none;
-    font
 }
 
 .sol-sok-ruta input::-webkit-input-placeholder{
@@ -4843,6 +4841,7 @@ border-color: rgb(232, 60, 35);
 .sol-sok-ruta input:-ms-input-placeholder{
 	color: #949494;
 }
+
 
 /* Sökknapp */
 .sol-sok-ruta input.normal:last-child {
@@ -8142,7 +8141,6 @@ padding-top: 3px;
     font-size: 12px;
     text-align: center;
     box-shadow: 0 -14px 0 -11px rgba(174,222,239,0.65) inset;
-
 }
 
 .cookieAlert .normal a:link:hover{
@@ -8455,7 +8453,7 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
     font-size: 14px;
     font-family: "open sans",sans-serif;
-    font-weight: 400;		
+    font-weight: 400;	
 }
 
 
@@ -8530,7 +8528,7 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
 
 .sv-defaultFormTheme .sv-form-singleselectionfield label, .sv-defaultFormTheme .sv-form-multipleselectionfield label {
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 400;
     position: relative;
     top: 1px;
     line-height: 2em;
