@@ -1,6 +1,16 @@
-@media (min-width: 768px) {
-	.or-mobile-nav-container{
-	display: none;
+
+@media (max-width: 1180px) {
+section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li {
+    padding: 10px 10px 0px 10px;
+    display: block;
+    width: 47%;
+    max-width: 47%;
+}}
+
+
+@media (min-width: 1180px) {
+section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-title {
+    font-size: 13px;
 }
 }
 
@@ -15,6 +25,11 @@
 .or-social-badge {
   right: 0px;
 }
+
+section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-title {
+    font-size: 15px;
+}
+
 
 }  /* end 1280 */
 
@@ -38,6 +53,12 @@ padding-right: 20px;
     max-width: 500px;
 }
 
+.sol-meny-startsida nav.or-secondary {
+    max-width: 95%;
+}
+
+
+
 }  /* end 1280 */
 
 
@@ -54,7 +75,7 @@ section.or-top-img-area {
     height: 310px;
 }
 
-.or-news-social-section-startpage .or-social-media-content {
+.or-news-social-section-startpage .or-social-media-content, .or-social-media-follow-startpage{
     max-width: 430px;
 }
 
@@ -65,18 +86,81 @@ section.or-top-img-area {
 
 }
 
+@media (max-width: 1024px) {
+/* Header */
+
+.or-menu-button-container .fa {
+    width: 50px;
+    height: 50px;
+    margin-top: 8px;
+}
+
+.or-menu-button-container .fa:before {
+    top: -11px;
+    font-size: 28px;
+}
+
+.or-menu-button-container .fa-stack {
+    width: 50px;
+    height: 60px;
+}
+
+form.or-search-field button {
+    width: 50px;
+    height: 50px;
+    top: -3px;
+}
+
+.or-search-button-wrapper .fa-search, #or-id-search-icon {
+    font-size: 28px;
+}
+
+.or-search-button-wrapper {
+    bottom: 11px;
+    left: 12px;
+}
+
+.or-header-topptext {
+    font-size: 14px;
+}
+
+.or-header-bottomtext {
+    font-size: 15px;
+}
+
+header .or-logo {
+    margin-left: 0px;
+    height: 63px;
+}
+
+/* processlista */
+.sol-tab-button-container .sol-tab-button {
+    font-size: 12px;
+}
 
 
+}
 
 @media (min-width: 1350px) {
+	
+body .pagecontent h1 {
+    font-size: 26px;
+}
+
+body .pagecontent h2 {
+    font-size: 20px;
+}
+
+body .pagecontent h3 {
+	font-size: 17px;
+}
+
+body .pagecontent h4 {
+	font-size: 16px;
+}
 
 section.or-article-main .or-content-padding {
     max-width: 800px;
-}
-
-nav.or-secondary {
-    max-width: 1050px;
-    margin: 80px auto 80px auto;
 }
 
 .ingress {
@@ -84,18 +168,130 @@ nav.or-secondary {
     line-height: 1.5em;
 }
 
-a.ingress:link, .ingress a:link, a.ingress:visited, .ingress a:visited, a.ingress:active, .ingress a:active {
-    font-size: 23px;
+
+body .or-content-container .or-tir h2 {
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+/* action */
+
+
+/* plusbox */
+.plusboxxrubrik {
+    font-size: 14px;
+}
+
+/* plusbox diskret */
+.or-plus-box-diskret-header .plusboxxrubrik {
+    font-size: 13px;
+}
+
+/* action */
+body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-font-action-karta a:link, body .sv-font-action-facebook a:link, body .sv-font-action-twitter a:link, body .sv-font-action-instagram a:link {
+    font-size: 14px;
+}
+
+.or-ny-action .normal .or-action-text a:link {
+    font-size: 14px;
+}
+
+.or-ny-action .or-action-text{
+	font-size: 14px;
+}
+
+/* processlista */
+.sol-tab-button-container .sol-tab-button {
+    font-size: 13px;
+}
+
+/* tabell */
+.sv-text-portlet table.sv-standard thead th p {
+    font-size: 15px;
+}
+
+body .sv-text-portlet table.sv-standard td p, body .sv-text-portlet table.sv-standard td {
+    font-size: 19px;
+}
+
+.or-content-container .sv-text-portlet table caption {
+    font-size: 20px;
+}
+
+/* fildelningsmodul */
+.or-contentlinks a.normal {
+    font-size: 14px;
+}
+
+/* länkarbox */
+.or-teaser-box.or-related-documents .or-text-content .or-teaser-list li a .or-link-name {
+    font-size: 14px;
+}
+
+/* startsida */
+.or-service-contact-startpage {
+    max-width: 1150px;
+}
+
+.sol-meny-startsida nav.or-secondary {
+    max-width: 1150px;
+}
+
+nav.or-secondary .or-content ul li a {
+    padding: 10px 10px 15px;
+}
+
+.or-bg-white ul li a.normal:link {
+    font-size: 16px;
+   /* display: inline-block;*/
+}
+
+.or-start-white-divider .or-news-list li p {
+    font-size: 16px;
+}
+
+.or-social-media-content .or-content a {
+    font-size: 16px;
+}
+
+.or-puff-startpage-footer .or-puff-link .normal {
+    font-size: 16px;
+}
+
+or-start-bottom-tabs ul li a {
+    font-size: 12px;
 }
 
 /* navigering nivå 1 */
 
+nav.or-secondary {
+    max-width: 1050px;
+}
+
 nav.or-secondary .or-content ul li a h3 {
-    font-size: 18px;
+    font-size: 17px;
 }
 
 nav.or-secondary .or-content ul li a p {
-    font-size: 15px;
+    font-size: 16px;
+}
+
+nav.or-secondary .or-content ul.or-extra li a h3 {
+    font-size: 14px;
+}
+
+
+/* navigering nivå 2 */
+section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-title {
+    font-size: 16px;
+}
+
+ul.or-nav-list li .or-list-wrapper p {
+    font-size: 16px;
+}
+
+section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li .or-list-wrapper.or-single .or-title, .or-teaser-box.or-related-links .or-text-content .or-teaser-list li a .or-link-name {
+    font-size: 14px;
 }
 
 
@@ -105,9 +301,23 @@ body .or-wrapper-click.or-puff-bild-text h3 {
     font-size: 18px;
 }
 
+body .or-puff-link .normal a {
+    font-size: 14px;
+}
+
+/* tjäntepuff */
+
+.or-puff-icon-header-text .sv-use-margins .rubrikx4, .sv-use-margins h4 {
+    font-size: 16px;
+}
+
+.or-puff-icon-header-text .normal a:link,body .or-puff-icon-header-text .normal {
+    font-size: 16px;
+}
+
 /* Temporär info ruta */
 
-body .or-content-container .or-tir p {
+body .or-content-container .or-tir p, body .or-content-container .or-tir p a:link {
     font-size: 17px;
 }
 
@@ -137,18 +347,56 @@ body .or-content-container .or-tir p {
 }
 
 
+/*  formulär */
 
+.sv-defaultFormTheme .sv-field-title-container.sv-bold label, .sv-defaultFormTheme .sv-field-title-container.sv-bold span, .sv-defaultFormTheme .sv-field-title-container.sv-bold h1, .sv-defaultFormTheme .sv-field-title-container.sv-bold h2, .sv-defaultFormTheme .sv-field-title-container.sv-bold h3, .sv-defaultFormTheme .sv-field-title-container.sv-bold h4, .sv-defaultFormTheme .sv-field-title-container.sv-bold h5, .sv-defaultFormTheme .sv-field-title-container.sv-bold h6, .sv-form-userattributefield label {
+    font-size: 14px;
+}
+
+.sv-defaultFormTheme .sv-form-singleselectionfield label, .sv-defaultFormTheme .sv-form-multipleselectionfield label, .sv-formFieldRow span {
+    font-size: 16px;
+}
 
 
 }  /* end 1350 */
 
 
 @media (min-width: 1550px) {
-	
+	section.or-article-main .or-content-padding {
+	    max-width: 925px;
+	}
+}
 
+
+@media (min-width: 1650px) {
+	
+body .pagecontent h1 {
+    font-size: 28px;
+}
+
+body .pagecontent h2 {
+    font-size: 22px;
+}
+
+body .pagecontent h3 {
+	font-size: 18px;
+}
+
+body .pagecontent h4 {
+	font-size: 18px;
+}
+
+body .or-content-container .or-tir h2 {
+    margin-top: 0px;
+    font-size: 22px;
+}
+
+.or-article-main ul.normal li:before {
+    top: -4px;
+}
 
 section.or-article-main .or-content-padding {
-    max-width: 900px;
+    max-width: 950px;
 }
 
 .sv-use-margins .normal {
@@ -176,13 +424,27 @@ section.or-article-main .or-content-padding {
 	box-shadow: rgba(174, 222, 239, 0.65) 0px -41px 0px -15px inset;
 }
 
-
-
-
 /* puffar */
 
 body .or-wrapper-click.or-puff-bild-text h3 {
     font-size: 20px;
+}
+
+
+/* tjäntepuff */
+
+.or-puff-icon-header-text .sv-use-margins .rubrikx4, .sv-use-margins h4 {
+    font-size: 17px;
+}
+
+.or-puff-icon-header-text .normal a:link {
+    font-size: 17px;
+}
+
+/* lyssna, lättläst dela */
+
+.or-tool-area a {
+    font-size: 11px;
 }
 
 
@@ -192,5 +454,93 @@ body .or-content-container .or-tir p {
     font-size: 18px;
 }
 
+/* tabell */
+.sv-text-portlet table.sv-standard thead th p {
+    font-size: 14px;
+}
 
-}  /* end 1350 */
+body .sv-text-portlet table.sv-standard td p {
+    font-size: 15px;
+}
+
+.or-content-container .sv-text-portlet table caption {
+    font-size: 22px;
+}
+
+/* action */
+body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-font-action-karta a:link, body .sv-font-action-facebook a:link, body .sv-font-action-twitter a:link {
+    font-size: 14px;
+}
+
+/* plusbox */
+.plusboxxrubrik {
+    font-size: 14px;
+}
+
+/* plusbox diskret */
+.or-plus-box-diskret-header .plusboxxrubrik {
+    font-size: 12px;
+}
+
+/* processlista */
+.sol-tab-button-container .sol-tab-button {
+    font-size: 13px;
+}
+
+/* fildelningsmodul */
+.or-contentlinks a.normal {
+    font-size: 15px;
+}
+
+/* länkarbox */
+.or-teaser-box.or-related-documents .or-text-content .or-teaser-list li a .or-link-name, .or-teaser-box.or-related-links .or-text-content .or-teaser-list li a .or-link-name {
+    font-size: 15px;
+}
+
+/* startsida */
+
+.sol-meny-startsida nav.or-secondary {
+    max-width: 1350px;
+}
+
+nav.or-secondary .or-content ul li a {
+    padding: 10px 10px 25px;
+}
+
+.or-service-contact-startpage {
+    max-width: 1250px;
+}
+
+/* navigering nivå 1 */
+
+nav.or-secondary {
+    max-width: 1350px;
+}
+
+nav.or-secondary .or-content ul li a h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+nav.or-secondary .or-content ul li a p {
+    font-size: 16px;
+}
+
+
+
+/* navigering nivå 2 */
+section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-title {
+    font-size: 16px;
+    padding-left: 25px;
+}
+
+ul.or-nav-list li .or-list-wrapper p {
+    font-size: 16px;
+}
+
+section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li .or-list-wrapper.or-single .or-title {
+    font-size: 15px;
+}
+
+
+}  /* end 1650 */
