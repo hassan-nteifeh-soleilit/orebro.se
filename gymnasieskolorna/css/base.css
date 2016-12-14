@@ -576,6 +576,7 @@ body {
   color: #35383b;
   font-size: 14px;
   line-height: 20px;
+  overflow-x: hidden;
 }
 
 .or-col-logo-header {
