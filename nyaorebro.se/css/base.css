@@ -1,8 +1,7 @@
-
 /* Grunddesign */
 
 body{
-	background-color: #f6f4f2;
+	background-color: #f6f4f2!important;
 /*	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: subpixel-antialiased;
 font-smoothing: subpixel-antialiased;*/
@@ -10,6 +9,18 @@ font-smoothing: subpixel-antialiased;*/
 
 }
 
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #848484;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #848484;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #848484;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #848484;
+}
 
 a.portlet-font, a.portlet-font-label, a.portlet-font-dim, a.portlet-msg-status, a.portlet-msg-info, a.portlet-msg-error, a.portlet-msg-alert, a.portlet-msg-success, a.portlet-section-body, a.portlet-section-alternate, a.portlet-section-selected, a.portlet-section-footer, a.portlet-section-text, a.portlet-form-label, a.portlet-form-input-field, a.portlet-form-button, a.portlet-icon-label, a.portlet-dlg-icon-label, a.portlet-form-field-label, a.portlet-form-field, a.portlet-menu, a.portlet-menu-item, a.portlet-menu-item-selected, a.portlet-menu-item-hover, a.portlet-menu-item-hover-selected, a.portlet-menu-cascade-item, a.portlet-menu-cascade-item-selected, a.portlet-menu-description, a.sv-portlet-image-caption, a.sv-portlet-link-description, a.sv-portlet-primary-paragraph, a.normal, .portlet-font a, .portlet-font-label a, .portlet-font-dim a, .portlet-msg-status a, .portlet-msg-info a, .portlet-msg-error a, .portlet-msg-alert a, .portlet-msg-success a, .portlet-section-body a, .portlet-section-alternate a, .portlet-section-selected a, .portlet-section-footer a, .portlet-section-text a, .portlet-form-label a, .portlet-form-input-field a, .portlet-form-button a, .portlet-icon-label a, .portlet-dlg-icon-label a, .portlet-form-field-label a, .portlet-form-field a, .portlet-menu a, .portlet-menu-item a, .portlet-menu-item-selected a, .portlet-menu-item-hover a, .portlet-menu-item-hover-selected a, .portlet-menu-cascade-item a, .portlet-menu-cascade-item-selected a, .portlet-menu-description a, .sv-portlet-image-caption a, .sv-portlet-link-description a, .sv-portlet-primary-paragraph a, .normal a, a.portlet-font:link, a.portlet-font-label:link, a.portlet-font-dim:link, a.portlet-msg-status:link, a.portlet-msg-info:link, a.portlet-msg-error:link, a.portlet-msg-alert:link, a.portlet-msg-success:link, a.portlet-section-body:link, a.portlet-section-alternate:link, a.portlet-section-selected:link, a.portlet-section-footer:link, a.portlet-section-text:link, a.portlet-form-label:link, a.portlet-form-input-field:link, a.portlet-form-button:link, a.portlet-icon-label:link, a.portlet-dlg-icon-label:link, a.portlet-form-field-label:link, a.portlet-form-field:link, a.portlet-menu:link, a.portlet-menu-item:link, a.portlet-menu-item-selected:link, a.portlet-menu-item-hover:link, a.portlet-menu-item-hover-selected:link, a.portlet-menu-cascade-item:link, a.portlet-menu-cascade-item-selected:link, a.portlet-menu-description:link, a.sv-portlet-image-caption:link, a.sv-portlet-link-description:link, a.sv-portlet-primary-paragraph:link, a.normal:link, .portlet-font a:link, .portlet-font-label a:link, .portlet-font-dim a:link, .portlet-msg-status a:link, .portlet-msg-info a:link, .portlet-msg-error a:link, .portlet-msg-alert a:link, .portlet-msg-success a:link, .portlet-section-body a:link, .portlet-section-alternate a:link, .portlet-section-selected a:link, .portlet-section-footer a:link, .portlet-section-text a:link, .portlet-form-label a:link, .portlet-form-input-field a:link, .portlet-form-button a:link, .portlet-icon-label a:link, .portlet-dlg-icon-label a:link, .portlet-form-field-label a:link, .portlet-form-field a:link, .portlet-menu a:link, .portlet-menu-item a:link, .portlet-menu-item-selected a:link, .portlet-menu-item-hover a:link, .portlet-menu-item-hover-selected a:link, .portlet-menu-cascade-item a:link, .portlet-menu-cascade-item-selected a:link, .portlet-menu-description a:link, .sv-portlet-image-caption a:link, .sv-portlet-link-description a:link, .sv-portlet-primary-paragraph a:link, .normal a:link, a.portlet-font:visited, a.portlet-font-label:visited, a.portlet-font-dim:visited, a.portlet-msg-status:visited, a.portlet-msg-info:visited, a.portlet-msg-error:visited, a.portlet-msg-alert:visited, a.portlet-msg-success:visited, a.portlet-section-body:visited, a.portlet-section-alternate:visited, a.portlet-section-selected:visited, a.portlet-section-footer:visited, a.portlet-section-text:visited, a.portlet-form-label:visited, a.portlet-form-input-field:visited, a.portlet-form-button:visited, a.portlet-icon-label:visited, a.portlet-dlg-icon-label:visited, a.portlet-form-field-label:visited, a.portlet-form-field:visited, a.portlet-menu:visited, a.portlet-menu-item:visited, a.portlet-menu-item-selected:visited, a.portlet-menu-item-hover:visited, a.portlet-menu-item-hover-selected:visited, a.portlet-menu-cascade-item:visited, a.portlet-menu-cascade-item-selected:visited, a.portlet-menu-description:visited, a.sv-portlet-image-caption:visited, a.sv-portlet-link-description:visited, a.sv-portlet-primary-paragraph:visited, a.normal:visited, .portlet-font a:visited, .portlet-font-label a:visited, .portlet-font-dim a:visited, .portlet-msg-status a:visited, .portlet-msg-info a:visited, .portlet-msg-error a:visited, .portlet-msg-alert a:visited, .portlet-msg-success a:visited, .portlet-section-body a:visited, .portlet-section-alternate a:visited, .portlet-section-selected a:visited, .portlet-section-footer a:visited, .portlet-section-text a:visited, .portlet-form-label a:visited, .portlet-form-input-field a:visited, .portlet-form-button a:visited, .portlet-icon-label a:visited, .portlet-dlg-icon-label a:visited, .portlet-form-field-label a:visited, .portlet-form-field a:visited, .portlet-menu a:visited, .portlet-menu-item a:visited, .portlet-menu-item-selected a:visited, .portlet-menu-item-hover a:visited, .portlet-menu-item-hover-selected a:visited, .portlet-menu-cascade-item a:visited, .portlet-menu-cascade-item-selected a:visited, .portlet-menu-description a:visited, .sv-portlet-image-caption a:visited, .sv-portlet-link-description a:visited, .sv-portlet-primary-paragraph a:visited, .normal a:visited, a.portlet-font:focus, a.portlet-font-label:focus, a.portlet-font-dim:focus, a.portlet-msg-status:focus, a.portlet-msg-info:focus, a.portlet-msg-error:focus, a.portlet-msg-alert:focus, a.portlet-msg-success:focus, a.portlet-section-body:focus, a.portlet-section-alternate:focus, a.portlet-section-selected:focus, a.portlet-section-footer:focus, a.portlet-section-text:focus, a.portlet-form-label:focus, a.portlet-form-input-field:focus, a.portlet-form-button:focus, a.portlet-icon-label:focus, a.portlet-dlg-icon-label:focus, a.portlet-form-field-label:focus, a.portlet-form-field:focus, a.portlet-menu:focus, a.portlet-menu-item:focus, a.portlet-menu-item-selected:focus, a.portlet-menu-item-hover:focus, a.portlet-menu-item-hover-selected:focus, a.portlet-menu-cascade-item:focus, a.portlet-menu-cascade-item-selected:focus, a.portlet-menu-description:focus, a.sv-portlet-image-caption:focus, a.sv-portlet-link-description:focus, a.sv-portlet-primary-paragraph:focus, a.normal:focus, .portlet-font a:focus, .portlet-font-label a:focus, .portlet-font-dim a:focus, .portlet-msg-status a:focus, .portlet-msg-info a:focus, .portlet-msg-error a:focus, .portlet-msg-alert a:focus, .portlet-msg-success a:focus, .portlet-section-body a:focus, .portlet-section-alternate a:focus, .portlet-section-selected a:focus, .portlet-section-footer a:focus, .portlet-section-text a:focus, .portlet-form-label a:focus, .portlet-form-input-field a:focus, .portlet-form-button a:focus, .portlet-icon-label a:focus, .portlet-dlg-icon-label a:focus, .portlet-form-field-label a:focus, .portlet-form-field a:focus, .portlet-menu a:focus, .portlet-menu-item a:focus, .portlet-menu-item-selected a:focus, .portlet-menu-item-hover a:focus, .portlet-menu-item-hover-selected a:focus, .portlet-menu-cascade-item a:focus, .portlet-menu-cascade-item-selected a:focus, .portlet-menu-description a:focus, .sv-portlet-image-caption a:focus, .sv-portlet-link-description a:focus, .sv-portlet-primary-paragraph a:focus, .normal a:focus {
     font-family: "open sans",sans-serif;
@@ -92,14 +103,13 @@ header
 {
 	background:#FFF;
 	min-height:90px;
-	margin-bottom:5px;
-	padding:10px 15px 5px;
+	padding:10px 15px 1px;
 }
 
 .or-header-text {
     display: inline-block;
     position: relative;
-    top: -12px;
+    top: -8px;
     left: 4px;
 }
 
@@ -183,6 +193,10 @@ h4 a:hover{
 	box-shadow: rgba(174, 222, 239, 0.65) 0px -60px 0px -30px inset;
 }
 
+h4 {
+	display: inline-block;
+    width: 100%;
+}
 .normal {
     line-height: 1.6em;
 }
@@ -200,6 +214,10 @@ h4 a:hover{
 }
 */
 
+/* bilder */
+
+
+
 .or-full-width-max .pagecontent {
     max-width: 1140px;
     margin: 0 auto;
@@ -209,15 +227,14 @@ h4 a:hover{
 header .or-logo {
     display: inline-block;
     float: left;
-    margin-top: 5px;
-    max-height: 75px;
+    margin-top: 8px;
     margin-right: 8px;
     margin-left: -12px;
-    width: 55px;
-    height: 70px;
+    height: 75px;
     border:0px;
-
 }
+
+
 
 .or-header-topptext{
     color: #E83C23;
@@ -234,6 +251,25 @@ header .or-logo {
 	margin-top: -1px;
 	margin-bottom: 0px;
 	font-size: 16px;
+	font-family: "leaguespartan webfont",sans-serif;
+}
+
+
+.or-header-topptext{
+    color: #8C817C;
+    margin-bottom: 0px;
+    display: block;
+    font-size: 16px;
+    margin-top: 25px;
+    font-family: "leaguespartan webfont",sans-serif;
+}
+
+.or-header-bottomtext{
+	color: #E83C23;
+	display: block;
+	margin-top: -1px;
+	margin-bottom: 0px;
+	font-size: 19px;
 	font-family: "leaguespartan webfont",sans-serif;
 }
 
@@ -301,8 +337,8 @@ header .or-logo {
 section.or-breadcrumbs-area
 {
 	background:#fff;
-	min-height: 30px;
 	padding-left: 20px;
+	margin-top: 5px;
 }
 
 .or-breadcrumbs-area .or-wider
@@ -399,27 +435,21 @@ body section.or-top-img-area .or-top-img-text-area h1 {
     margin-bottom: 0px;
 }
 
-.or-top-img-text-area {
-    position: absolute;
-    left: 20px;
-    bottom: 20px;
-    padding: 20px 60px 20px 20px;
-    border-radius: 2px;
-    max-width: 50%;
-}
-
 body section.or-top-img-area .brodtextxxfetx {
     font-weight: bold;
     font-size: 14px;
 }
 
-.or-top-img-text-area{
+body section.or-top-img-area .or-top-img-text-area{
 	position: absolute;
 	left: 20px;
 	bottom:20px;
 	padding: 20px 20px;
-    border-radius: 2px;
-    max-width: 50%;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+  max-width: 50%;
+	background-color: #fff;
 }
 
 body section.or-top-img-area .or-top-img-text-area h2{
@@ -476,54 +506,143 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li
 }
 
 .or-nav-list{
-    flex-wrap: wrap;
+    background: #ffffff;
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
     -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    background-color: red;
+    }
+
+
+ul.or-nav-list{
+    background: #ffffff;
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    }
+/*section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li {
+  	margin-right: 1%;
+    margin-left: 1%;
+    -webkit-box-flex: 3;
+    -webkit-flex: 3 28.333%;
+    -ms-flex: 3 28.333%;
+    flex: 3 28.333%;
+    display: inline-block;
+    max-width: 30.333%;
+
+  	/*
+  	width: 33%;
     display: -webkit-box;
 	display: -moz-box;
   	display: -ms-flexbox;
   	display: -webkit-flex;
   	display: flex;
-  	display:-ms-flexbox;
-  	-ms-flex-wrap:wrap;
-}
+  	*/
+  	
+    /* margin-right: 1%; */
+    /* margin-left: 1%; */
+    /* -webkit-box-flex: 3; */
+    /* -webkit-flex: 3 28.333%; */
+    /*-ms-flex: 3 28.333%;
+    /* flex: 3 28.333%; */
+    /* display: inline-block; */
+    /* max-width: 30.333%; */
+    /*display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+	-js-display: flex;
+    display: flex;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 33%;
+    -ms-flex: 0 0 33%;
+    flex: 0 0 33%;
+
+}*/
 
 section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li {
-    display: inline-block;
-    width: 33%;
-    display: -webkit-box;
-	display: -moz-box;
-  	display: -ms-flexbox;
-  	display: -webkit-flex;
-  	display: flex;
+    padding: 10px 10px 0px 10px;
+    display: block;
+    width: 31%;
+    max-width: 31%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    background: #FAFAFA;
+    padding: 12px 10px 10px;
+    border: 5px solid #fff;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    box-shadow: 0 0 5px #C7C7C7;
+    margin-left: 7px;
+    margin-bottom: 20px;
+    margin-right: 8px;
+    box-sizing: border-box;
 }
+
+
 
 section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a
 {
-	background:#FAFAFA;
-	padding:12px 10px 10px 15px;
 	position: relative;
 	width: 100%;
-	display: inline-block;
-	
+    display: inherit;	
 }
 
 section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-title {
     font-size: 15px;
     margin-top: 0;
-    line-height: 1.35em;
-    padding-left: 9px;
+    line-height: 1.3em;
+    padding-left: 22px;
     margin-bottom: 9px;
+        -webkit-transition: color 0.3s ease-in;
+    -moz-transition: color 0.3s ease-in;
+    -o-transition: color 0.3s ease-in;
+    -ms-transition: color 0.3s ease-in;
+    transition: color 0.3s ease-in;
 }
 
 section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-title:before
 {
-	color:#dad6d4;
-	content:"\f061";
-	font-family:FontAwesome;
-	padding-right:6px;
-	position: absolute;
-    top: 12px;
-    left: 6px;
+	color: #dad6d4;
+    content: "\f061";
+    font-family: FontAwesome;
+    padding-right: 6px;
+    position: absolute;
+    top: -1px;
+    left: 2px;
 }
 
 .or-list-wrapper .sv-linkicon {
@@ -534,28 +653,22 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-t
 }
 
 
-ul.or-nav-list li .or-list-wrapper {
-    border: 5px solid #fff;
-    border-radius: 3px;
-    box-shadow: 0 0 5px #C7C7C7;
-    float: left;
-    min-height: 130px;
-    margin-right: 2%;
-    margin-left: 2%;
-    margin-bottom: 20px;
-    box-sizing: border-box;
-}
+
 
 /* single list */
 
 ul.or-nav-list li .or-list-wrapper.or-single {
-    min-height: 60px;
-    padding-top: 16px!important;
-    padding-bottom: 7px!important;
+    min-height: 22px;
+    padding-top: 0px!important;
+    padding-bottom: 0px!important;
 }
 
 body section.or-nav-content-section .sv-fluid-grid.or-wider .or-nav-list .or-list-wrapper.or-single .or-title:before {
-    top: 15px;
+    top: 0px;
+}
+
+.or-list-wrapper.or-single .sv-linkicon {
+    top: 4px;
 }
 
 section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li .or-list-wrapper.or-single .or-title
@@ -564,6 +677,7 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li .or-lis
     margin-bottom: 0px;
     font-size: 13px;
     padding-right: 17px;
+    padding-bottom: 0px;
 }
 
 
@@ -573,10 +687,6 @@ ul.or-nav-list li .or-list-wrapper:hover .or-title{
 }
 
 ul.or-nav-list li .or-list-wrapper:hover p {
-    text-decoration: underline;
-}
-
-ul.or-nav-list li .or-list-wrapper:hover h3 {
     text-decoration: underline;
 }
 
@@ -602,13 +712,15 @@ ul.or-nav-list li .or-list-wrapper p {
     font-weight: 300;
     font-size: 15px;
     margin-top: 0px;
+    font-family: "open sans",sans-serif;
 }
 
 nav.or-breadcrumbs
 {
 	background:#fff;
-	min-height: 30px;
-	padding-right: 300px;
+	min-height: 27px;
+	padding-right: 310px;
+	display: inline-block;
 }
 
 nav.or-breadcrumbs li
@@ -689,14 +801,16 @@ nav.or-breadcrumbs li:last-child  a:after
 
 body p.sv-portlet-image-caption {
     font-size: 12px;
-    background: rgba(255, 255, 255, 0.9);
-    padding: 6px 11px;
+    /* background: rgba(255, 255, 255, 0.9); */
+    /* padding: 6px 11px; */
     margin-top: 0px;
-    text-align: right;
-    position: absolute;
+    text-align: left;
+    /* position: absolute; */
     bottom: 0px;
-    right: 0px;
-    border-top-left-radius: 3px;
+    left: 0px;
+    border-top-left-radius: 0px;
+    margin-bottom: 15px;
+    margin-top: -5px;
 }
 
 .sv-image-portlet, .sv-image-portlet a {
@@ -722,6 +836,14 @@ body p.sv-portlet-image-caption {
     list-style: none;
 }
 
+.or-article-main ul.normal li ul li{
+}
+
+.or-article-main ul.normal li ul li:before {
+    content: "\f10c";
+}
+
+
 .or-article-main ul.normal li:before {
     content: "\f111";
     font-family: FontAwesome;
@@ -734,28 +856,16 @@ body p.sv-portlet-image-caption {
 
 .or-article-main ol.normal li {
     margin-bottom: 10px;
-    text-indent: -20px;
-    padding-left: 22px;
+    text-indent: -2px;
+    padding-left: 5px;
     font-size: 17px;
     line-height: 1.4em;
-    counter-increment: step-counter;
 }
 
-.or-article-main ol.normal li:before {
-    content: counter(step-counter);
-    margin-right: 9px;
-    font-size: 16px;
-    color: #857672;
-    font-weight: bold;
-    border-radius: 35px;
-    width: 12px;
-    position: relative;
-}
 
 .or-article-main ol.normal {
-    margin: 0px;
+    margin: 25px;
     padding: 5px 0px;
-     list-style: none;
 }
 
 
@@ -786,49 +896,48 @@ body p.sv-portlet-image-caption {
 
 /* CSS tabell personsök */
 .or-tb {
-    display: table;
-    width: 100%!important;
-    margin: 20px 0px 10px 0px;
-    border-left: solid 1px #f3dcd0;
-    border-right: solid 1px #f3dcd0;
-    border-top: solid 1px #f3dcd0;
+	display: table;
+	width: 100%!important;
+	margin: 20px 0px 10px 0px;
+	border-left: solid 1px #f3dcd0;
+	border-right: solid 1px #f3dcd0;
+	border-top: solid 1px #f3dcd0;
 }
 .or-tb-head {
-    display: table-row;
-    font-weight: bold;
-    text-align: left;
-    background-color: #e83c23;
+	display: table-row;
+	font-weight: bold;
+	text-align: left;
+	background-color: #e83c23;
 }
 .or-tb-row
 {
 	display: table-row;
 }
 .or-tb-head > div {
-    display: table-cell;
-    border: solid 1px rgba(255, 255, 255, 0.25);
-    padding-bottom: 12px;
-    padding-top: 12px;
-    padding-left: 14px;
-    border-bottom: solid 1px #f3dcd0;
-    font-size: 12px;
-    width: 20%;
-    border-bottom: 0px;
+	display: table-cell;
+	border: solid 1px rgba(255, 255, 255, 0.25);
+	padding-bottom: 12px;
+	padding-top: 12px;
+	padding-left: 14px;
+	border-bottom: solid 1px #f3dcd0;
+	font-size: 12px;
+	/*width: 20%;*/
+	border-bottom: 0px;
 }
 
 .or-tb-head > div:hover{
-    background-color: #D53720;
+	background-color: #D53720;
 }
 
 .or-tb-row > div {
-    display: table-cell;
-    border: solid 1px rgba(255, 255, 255, 0.25);
-    /* border-width: thin; */
-    padding-left: 14px;
-    padding-right: 5px;
-    padding-bottom: 9px;
-    padding-top: 9px;
-    border-bottom: solid 1px #f3dcd0;
-    font-size: 13px;
+	display: table-cell;
+	border: solid 1px rgba(255, 255, 255, 0.25);
+	padding-left: 14px;
+	padding-right: 5px;
+	padding-bottom: 9px;
+	padding-top: 9px;
+	border-bottom: solid 1px #f3dcd0;
+	font-size: 13px;
 }
 
 
@@ -859,40 +968,43 @@ body p.sv-portlet-image-caption {
 }
 
 .or-sort-box {
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgba(255, 255, 255, 0.44);
-    border-radius: 2px;
-    margin-top: 2px;
-    margin-bottom: 2px;
-    background-color: rgba(255, 255, 255, 0.2);
-    position: absolute;
-    right: 10px;
-    height: 16px;
-    width: 20px;
-    text-align: center;
-    top: -3px;
-    -webkit-transition: all 200ms ease;
-    transition: all 200ms ease;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgba(255, 255, 255, 0.44);	
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	background-color: rgba(255, 255, 255, 0.2);
+	position: absolute;
+	right: 10px;
+	height: 16px;
+	width: 20px;
+	text-align: center;
+	top: -3px;
+	-webkit-transition: all 200ms ease;
+	transition: all 200ms ease;
 }
 
 .or-sort-box:hover {
-    background-color: #D53720;
+	background-color: #D53720;
 }
 
 .or-sort-box i{
-color: #fff;}
+	color: #fff;
+}
 
 
 .or-sort-box.sorting-by {
 	background-color: white;
 	-webkit-transition: all 200ms ease;
-    transition: all 200ms ease;
+	transition: all 200ms ease;
 }
 
 
 .or-sort-box.sorting-by:hover {
-    background-color: rgba(255, 255, 255, 0.7);
+	background-color: rgba(255, 255, 255, 0.7);
 }
 
 .or-sort-box.sorting-by i{
@@ -900,7 +1012,7 @@ color: #fff;}
 }
 
 .or-sortable .or-tb-row:nth-child(even) {
-    background-color: #fdf7f1;
+	background-color: #fdf7f1;
 }
 .or-sortable  .or-tb-row:nth-child(odd) {
   background-color: #fff;
@@ -908,9 +1020,9 @@ color: #fff;}
 
 
 .or-content-container .sv-text-portlet table caption {
-    font-family: "leaguespartan webfont",sans-serif;
-    font-size: 11px;
-    margin-bottom: 3px;
+	font-family: "leaguespartan webfont",sans-serif;
+	font-size: 20px;
+	margin-bottom: 3px;
 }
 
 .or-search-sortable-list .or-search-summary p{
@@ -969,7 +1081,7 @@ color: #fff;}
 
 nav.or-secondary {
     max-width: 950px;
-    margin: 80px auto 80px auto;
+    margin: 120px auto 80px auto;
 }
 
 nav.or-secondary h2 {
@@ -986,54 +1098,116 @@ nav.or-secondary h2 {
 
 
 nav.or-secondary .or-content {
-    /* float: left; */
     border: 2px solid #f9c9c2;
     border-radius: 3px;
+    -moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
-    flex-wrap: wrap;
-    -webkit-flex-wrap: wrap;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    display: -ms-flexbox;
-    -ms-flex-wrap: wrap;
 }
 
 nav.or-secondary .or-content ul {
     background: #ffffff;
-    /* float: left; */
     width: 100%;
-    flex-wrap: wrap;
-    -webkit-flex-wrap: wrap;
     display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
     display: -webkit-flex;
-    display: flex;
     display: -ms-flexbox;
+	-js-display: flex;
+	display: flex;
+    -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 nav.or-secondary .or-content ul li {
-    width: 30.33333%;
-    /* float: left; */
+     padding: 10px 10px 0px 10px;
+     display: block;
+    width: 33%;
+    max-width: 33%;
+    min-width: 33%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    border-bottom: 2px dotted #eae9e8;
+    box-sizing: border-box;
+}    
+    
+/*nav.or-secondary .or-content ul li {
     padding: 10px 10px 0px 10px;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
+    -webkit-box-flex: 3;
+    -webkit-flex: 3 28.333%;
+    -ms-flex: 3 28.333%;
+    flex: 3 28.333%;
+    border-bottom: 2px dotted #eae9e8;
+    max-width: 30.333%;
+}*/
+
+/*nav.or-secondary .or-content ul li {
+    padding: 10px 10px 1px 10px;
+    border-bottom: 2px dotted #eae9e8;
+    margin-bottom: 5px;
+    display: block;
+    margin-right: 1%;
+    margin-left: 1%;
+    -webkit-box-flex: 0 29%;
+    -webkit-flex: 0 29%;
+    -ms-flex: 0 29%;
+    flex: 29%;
+    max-width: 29%;
+}*/
+
+/*nav.or-secondary .or-content ul li {
+    padding: 10px 10px 0px 10px;
+        margin-right: 0%;
+    margin-left: 0%;
+    -webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    align-self: stretch;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 28.333%;
+    -ms-flex: 1 28.333%;
+    flex: 1 28.333%;
+    border-bottom: 2px dotted #eae9e8;
+    max-width: 30.333%;
+}*/
+
+
+
+nav.or-secondary .or-content ul li:nth-child(n+4) {
+    border-bottom: 0px dotted #eae9e8;
 }
 
 nav.or-secondary .or-content ul li a {
-    border-bottom: 2px dotted #eae9e8;
     transition: all 0.3s ease-out;
     padding: 10px;
     width: 100%;
+    display: inherit;
 }
+
+nav.or-secondary .or-content ul li a:focus {
+    outline: solid 1px #6a1a41;
+}
+
 
 nav.or-secondary .or-content ul li a h3 {
     color: #e83c23;
@@ -1047,7 +1221,6 @@ nav.or-secondary .or-content ul li a h3 {
     line-height: 1.1em;
     margin-bottom: 4px;
     margin-top: 2px;
-    display: inline-block;
 }
 
 nav.or-secondary .or-content ul li a .sv-linkicon{
@@ -1063,46 +1236,46 @@ nav.or-secondary .or-content ul li a p {
 
 
 nav.or-secondary .or-content ul.or-extra {
+		background: rgb(248, 247, 247);
     background: rgba(248, 247, 247, 0.95);
-    padding-top: 3px;
-    margin-top: -2px;
-    padding-bottom: 15px;
 }
 
-
-
 nav.or-secondary .or-content ul.or-extra li {
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+nav.or-secondary .or-content ul.or-extra li:nth-child(n+4) {
+    border-bottom: 2px dotted #eae9e8;
 }
 
 nav.or-secondary .or-content ul.or-extra li a {
     height: auto;
-    border-bottom: 2px dotted #D5D5D5;
     width: 95%;
+    display: inherit;
+    padding-bottom: 3px;
+    padding-top: 3px;
 }
 
 nav.or-secondary .or-content ul.or-extra li a h3 {
     font-size: 13px;
     margin-bottom: 3px;
+    display: inline;
 }
 
 
 nav.or-secondary .or-content ul li a:hover h3 {
     color: #35383b;
-    text-decoration: underline;
 }
+
 
 nav.or-secondary .or-content ul li a:hover p {
     color: #35383b;
     text-decoration: underline;
 }
 
-nav.or-secondary .or-content ul.or-extra li:nth-of-type(-n+3) {
-    /*margin-top: 0px;*/
-}
-
-nav.or-secondary .or-content ul li:nth-last-child(-n+3) a {
-    /*border-bottom: 0px solid #ffffff;*/
+.or-no-scroll {
+   overflow-y: hidden;
+	-ms-overflow-style:none;  
 }
 

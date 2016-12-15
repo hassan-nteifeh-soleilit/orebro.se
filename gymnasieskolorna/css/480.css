@@ -745,7 +745,7 @@ margin-top: -35px;
 
 .or-social-container{
     margin-top: 0px;
-    padding-top: 100px;
+/*    padding-top: 100px;*/
     padding-bottom: 0px;
 }
 
@@ -872,6 +872,10 @@ width:100%;
 	font-size: 12px!important;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/gymnasieskolorna-prod-2016Q2
 /* krismeddeladne */
 
 .or-alert-message-wrapper {
@@ -917,7 +921,7 @@ width: 100%;
 }
 
 .normal a.or-social-content-links {
-    margin-bottom: 35px;
+/*    margin-bottom: 35px;*/
     margin-top: 0px;
 }
 
