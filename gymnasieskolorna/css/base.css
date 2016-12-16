@@ -5095,6 +5095,7 @@ p.sol-doc-size {
 div.sol-search-icon-wrapper > img {
  /* width: 100%; */
  margin-top: 0em;
+ width: 50px;
 }
 
 /* Sök total-länk */
@@ -7375,7 +7376,7 @@ body:not(.sv-editing-mode) .or-plus-box-program.or-plus-box-content caption, bod
 
 .or-plus-box-program p.plusboxxrubrik {
   font-family: 'Leaguespartan webfont', sans-serif;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 16px;
   font-weight: 700;  
   color: #35383b;
@@ -7571,7 +7572,7 @@ body:not(.sv-editing-mode) .or-plus-box-program.or-plus-box-content caption, bod
 .or-plus-box-diskret-header .plusboxxrubrik {
     padding-top: 8px;
     padding-bottom: 8px;
-    font-size: 12px;
+    font-size: 13px;
 }
 .or-plus-box-diskret-header .or-icon-plus::before {
     content: "\f067";
@@ -7783,7 +7784,7 @@ border-color: rgb(237, 234, 234);
   font-style: normal;
   text-decoration: none;
   line-height: 20px;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 800;
   box-shadow:none;
 }
