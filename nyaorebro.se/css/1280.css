@@ -456,11 +456,7 @@ body .or-content-container .or-tir p {
 }
 
 /* tabell */
-.sv-text-portlet table.sv-standard thead th p {
-    font-size: 14px;
-}
-
-body .sv-text-portlet table.sv-standard td p {
+body .sv-text-portlet table.sv-standard thead th p {
     font-size: 15px;
 }
 
