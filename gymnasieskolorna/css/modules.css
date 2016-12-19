@@ -880,12 +880,13 @@ body .or-content-container .or-tir p, body .or-content-container .or-tir p a:lin
   top: 18px;
 }
 
-* Sök */
+/* Sök */
 /* Paginering */
 #or-paging-id {
-    margin-bottom: 20px;
-		
+  margin-bottom: 20px;
+	margin-left:0;		
 }
+
 
 #or-paging-id .current.prev {
     background-color: transparent;
@@ -922,6 +923,7 @@ body .or-content-container .or-tir p, body .or-content-container .or-tir p a:lin
     text-decoration: underline;
 }
 
+
 .pagination .current {
     color: #fff;
     padding: 5px 12px;
@@ -942,7 +944,8 @@ body .or-content-container .or-tir p, body .or-content-container .or-tir p a:lin
     font-size: 13px;
 }
 
-.pagination .prev {
+.pagination .prev,
+.pagination .next {
     background: none repeat scroll 0 0 transparent !important;
     border: 0 solid #e83c23 !important;
 }

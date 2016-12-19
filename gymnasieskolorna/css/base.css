@@ -7951,54 +7951,6 @@ padding: 35px 0px;
     position: inherit;
 }
 
-#or-paging-id{
-margin-left:0px;
-}
-
-#or-paging-id a {
-    background-color: #fff;
-    color: #000;
-    border: 0px solid #DADADA;
-    text-transform: uppercase;
-    font-size: 13px;
-    padding: 9px 12px;
-    box-shadow: rgba(174, 222, 239, 0.0)0px -16px 0px -11px inset;
-}
-
-#or-paging-id .current.prev{
-   background-color: #fff;
-    color: #000;
-    border: 0px solid #DADADA;
-    text-transform: uppercase;
-    font-size: 13px;
-    padding: 5px 10px;
-}
-
-#or-paging-id .next a{
-   background-color: #fff;
-    color: #000;
-    border: 0px solid #DADADA;
-    text-transform: uppercase;
-    font-size: 13px;
-    padding: 9px 10px;
-}
-
-#or-paging-id .next{
-   background-color: #fff;
-    color: #000;
-    border: 0px solid #DADADA;
-    text-transform: uppercase;
-    font-size: 13px;
-
-}
-
-.pagination .current {
-    border: 0px solid #DADADA;
-    color: #fff;
-    padding: 5px 12px;
-    font-size: 13px;
-}
-
 
 /* KRISRUTA */
 #alertInfo {
