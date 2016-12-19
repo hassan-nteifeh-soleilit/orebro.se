@@ -219,6 +219,10 @@ body .sv-text-portlet table.sv-standard td p, body .sv-text-portlet table.sv-sta
     font-size: 20px;
 }
 
+.sv-defaultFormTheme .sv-field-title-container.sv-bold label, .sv-defaultFormTheme .sv-field-title-container.sv-bold span, .sv-defaultFormTheme .sv-field-title-container.sv-bold h1, .sv-defaultFormTheme .sv-field-title-container.sv-bold h2, .sv-defaultFormTheme .sv-field-title-container.sv-bold h3, .sv-defaultFormTheme .sv-field-title-container.sv-bold h4, .sv-defaultFormTheme .sv-field-title-container.sv-bold h5, .sv-defaultFormTheme .sv-field-title-container.sv-bold h6, .sv-form-userattributefield label {
+    font-size: 15px;
+}
+
 /* fildelningsmodul */
 .or-contentlinks a.normal {
     font-size: 14px;
