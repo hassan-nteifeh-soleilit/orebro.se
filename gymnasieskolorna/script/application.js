@@ -68,10 +68,12 @@
 			/* Ikoner i dokumentlistningsrutorna */
 			$(".or-related-documents .or-text-content a").each(function(index) {
 				var title = $(this).attr("title"),
+					openInNewWindow = false,
 					sizeStr;
 					
 				try {
 					if (title && title.length > 0) {
+							openInNewWindow = title.indexOf('öppnas i nytt fönster') !== -1;
 							title = title.replace('(', '').replace(')', '').replace('öppnas i nytt fönster','');
 							var titleSplit = title.split(',');						
 							sizeStr = titleSplit[1].replace(' ', '');
@@ -82,6 +84,9 @@
 				
 				if (sizeStr) {				
 					$(this).find('.or-file-size').text(sizeStr);										
+					if(openInNewWindow){
+						$(this).append('<i style="font-size: 10px; position:static;" class="fa fa-clone fa-flip-vertical"></i>');				
+					}
 					$(this).next().text('');
 				}
 			});
