@@ -60,6 +60,19 @@ padding-left:10px;
   outline: 0;
 }
 
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #878787;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #878787;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #878787;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #878787;
+}
+
 
 .contactblockform .w-input:-moz-placeholder,
 .w-select:-moz-placeholder {
@@ -927,8 +940,21 @@ font-family: "leaguespartan webfont",sans-serif;
   -webkit-appearance: none;
 }
 
+.searchform::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #878787;
+}
+.searchform::-moz-placeholder { /* Firefox 19+ */
+  color: #878787;
+}
+.searchform:-ms-input-placeholder { /* IE 10+ */
+  color: #878787;
+}
+.searchform:-moz-placeholder { /* Firefox 18- */
+  color: #878787;
+}
+
 .searchform::-webkit-input-placeholder{
-	color: #949494;
+	color: #878787;
 }
 
 .searchform:-moz-placeholder{
