@@ -32,6 +32,8 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-t
 }
 
 
+
+
 }  /* end 1280 */
 
 
@@ -57,6 +59,8 @@ padding-right: 20px;
 .sol-meny-startsida nav.or-secondary {
     max-width: 95%;
 }
+
+
 
 
 
@@ -220,7 +224,7 @@ body .sv-text-portlet table.sv-standard td p, body .sv-text-portlet table.sv-sta
 }
 
 .sv-defaultFormTheme .sv-field-title-container.sv-bold label, .sv-defaultFormTheme .sv-field-title-container.sv-bold span, .sv-defaultFormTheme .sv-field-title-container.sv-bold h1, .sv-defaultFormTheme .sv-field-title-container.sv-bold h2, .sv-defaultFormTheme .sv-field-title-container.sv-bold h3, .sv-defaultFormTheme .sv-field-title-container.sv-bold h4, .sv-defaultFormTheme .sv-field-title-container.sv-bold h5, .sv-defaultFormTheme .sv-field-title-container.sv-bold h6, .sv-form-userattributefield label {
-    font-size: 15px;
+    font-size: 17px;
 }
 
 /* fildelningsmodul */
@@ -350,12 +354,13 @@ body .or-content-container .or-tir p, body .or-content-container .or-tir p a:lin
 
 /*  formulär */
 
-.sv-defaultFormTheme .sv-field-title-container.sv-bold label, .sv-defaultFormTheme .sv-field-title-container.sv-bold span, .sv-defaultFormTheme .sv-field-title-container.sv-bold h1, .sv-defaultFormTheme .sv-field-title-container.sv-bold h2, .sv-defaultFormTheme .sv-field-title-container.sv-bold h3, .sv-defaultFormTheme .sv-field-title-container.sv-bold h4, .sv-defaultFormTheme .sv-field-title-container.sv-bold h5, .sv-defaultFormTheme .sv-field-title-container.sv-bold h6, .sv-form-userattributefield label {
-    font-size: 15px;
+.sv-defaultFormTheme .sv-form-singleselectionfield label, .sv-defaultFormTheme .sv-form-multipleselectionfield label, .sv-formFieldRow span {
+    font-size: 19px;
 }
 
-.sv-defaultFormTheme .sv-form-singleselectionfield label, .sv-defaultFormTheme .sv-form-multipleselectionfield label, .sv-formFieldRow span {
-    font-size: 16px;
+.icheckbox_flat-red {
+    background-position: 0 0;
+    top: -2px;
 }
 
 
@@ -455,9 +460,13 @@ body .or-content-container .or-tir p {
     font-size: 18px;
 }
 
-/* tabell */
+/* formulär */
 .sv-defaultFormTheme .sv-field-title-container.sv-bold label, .sv-defaultFormTheme .sv-field-title-container.sv-bold span, .sv-defaultFormTheme .sv-field-title-container.sv-bold h1, .sv-defaultFormTheme .sv-field-title-container.sv-bold h2, .sv-defaultFormTheme .sv-field-title-container.sv-bold h3, .sv-defaultFormTheme .sv-field-title-container.sv-bold h4, .sv-defaultFormTheme .sv-field-title-container.sv-bold h5, .sv-defaultFormTheme .sv-field-title-container.sv-bold h6, .sv-form-userattributefield label {
-    font-size: 16px;
+    font-size: 18px;
+}
+
+.sv-defaultFormTheme .sv-form-singleselectionfield label, .sv-defaultFormTheme .sv-form-multipleselectionfield label, .sv-formFieldRow span {
+    font-size: 21px;
 }
 
 .or-content-container .sv-text-portlet table caption {

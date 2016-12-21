@@ -152,6 +152,13 @@ body .or-content-container .or-tir p, body .or-content-container .or-tir p a:lin
     font-size: 19px;
 }
 
+/* tabell */
+
+.sv-defaultFormTheme .sv-form-singleselectionfield label, .sv-defaultFormTheme .sv-form-multipleselectionfield label, .sv-formFieldRow span {
+    font-size: 21px;
+}
+
+
 
 }  /* end 1350 */
 
@@ -255,6 +262,12 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
 /* länkarbox */
 .or-teaser-box.or-related-documents .or-text-content .or-teaser-list li a .or-link-name, .or-teaser-box.or-related-links .or-text-content .or-teaser-list li a .or-link-name {
     font-size: 15px;
+}
+
+/* tabell */
+
+.sv-defaultFormTheme .sv-form-singleselectionfield label, .sv-defaultFormTheme .sv-form-multipleselectionfield label, .sv-formFieldRow span {
+    font-size: 21px;
 }
 
 }  /* end 1650 */

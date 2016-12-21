@@ -559,7 +559,7 @@ body .sol-accordion-heading {
 /* formulär */
 
 .sv-defaultFormTheme .sv-field-title-container.sv-bold label, .sv-defaultFormTheme .sv-field-title-container.sv-bold span, .sv-defaultFormTheme .sv-field-title-container.sv-bold h1, .sv-defaultFormTheme .sv-field-title-container.sv-bold h2, .sv-defaultFormTheme .sv-field-title-container.sv-bold h3, .sv-defaultFormTheme .sv-field-title-container.sv-bold h4, .sv-defaultFormTheme .sv-field-title-container.sv-bold h5, .sv-defaultFormTheme .sv-field-title-container.sv-bold h6, .sv-form-userattributefield label {
-    font-size: 13px;
+    font-size: 14px;
 }
 
 
@@ -574,6 +574,13 @@ body .sol-accordion-heading {
     margin-bottom: 25px;
     display: block;
 }
+
+/* formulär */
+
+.sv-defaultFormTheme .sv-form-singleselectionfield label, .sv-defaultFormTheme .sv-form-multipleselectionfield label, .sv-formFieldRow span {
+    font-size: 16px;
+}
+
 
 } /* end 480px */	
 
