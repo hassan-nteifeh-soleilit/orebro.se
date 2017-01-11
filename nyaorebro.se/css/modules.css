@@ -6009,9 +6009,44 @@ body .SokIngetResultat {
     color: #e83c23;
 }
 
-@media (max-width: 480px) {
-    .or-tillstand-restaurang .FlikValdText,.or-tillstand-restaurang .FlikEjValdBg,.or-tillstand-restaurang .FlikValdBg:first-child {
-        padding: 3px 1px;
-        font-size: 14px;
-    }
+/* Translate popup */
+.or-language-modal {
+   padding:30px;
+   margin:0 auto;
+   max-width:400px;
+   background:#fff;
+   box-shadow: 0 0 6px -2px rgba(0,0,0,0.8);
+   border-radius:2px;
+   display:none;
+	position:absolute;
+   margin-top:-150px;
+   margin-bottom:50px;
+   z-index:12;
+}
+.or-language-modal-close{
+    position: absolute;
+    top: 20px;
+    right: 0;
+    float: left;
+    display: block;
+    height: 45px;
+    width: 50px;
+    font-weight: 700;
+    font-size: 11px;
+    background-color: #e83c23;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    box-shadow: -3px 0 6px -3px rgba(0,0,0,0.4) inset;
+    text-align: center;
+    color: #fff;
+}
+.or-language-modal-close .fa-close {
+   color: #FFF;
+   font-size: 17px;
+	width: 100%;
+	text-align: center;
+   padding-top: 5px;   
+}
+.or-language-modal-close:hover {
+	background-color:#333;
 }

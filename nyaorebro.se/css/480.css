@@ -581,11 +581,15 @@ body .sol-accordion-heading {
     font-size: 16px;
 }
 
+.or-tillstand-restaurang .FlikValdText,.or-tillstand-restaurang .FlikEjValdBg,.or-tillstand-restaurang .FlikValdBg:first-child {
+        padding: 3px 1px;
+        font-size: 14px;
+}    
 
 } /* end 480px */	
 
 
-
+    
 @media all and (max-width: 390px) {
 
 /* mobilmeny */
