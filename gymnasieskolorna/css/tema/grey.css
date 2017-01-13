@@ -700,3 +700,29 @@ body .sv-font-action-penna.or-wrapper-click:hover, body .sv-font-action-pil.or-w
 }
 
 /* Slut ny action formatmall */
+
+
+/* Action element */
+.or-elmt-action i.fa {
+	background-color: #857672;	
+}
+
+.or-elmt-action i.fa::after {
+	border-left-color: #857672;
+	left: 96%;
+}
+
+.or-elmt-action-text {	
+  border-color: #dcdcdc;
+}
+
+.or-elmt-action:hover .or-elmt-action-link {
+	color: #857672
+}
+/*
+.or-elmt-action:hover  .or-elmt-action-text{
+	box-shadow: #aedeef 0px 0px 6px 0px;
+}
+*/
+
+/* Slut Action Element */

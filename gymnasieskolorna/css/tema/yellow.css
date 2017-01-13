@@ -168,7 +168,7 @@ li.or-comment.or-colorborder {
 
 /* Ramfärg för actionrutan */
 .or-action-link.or-colorborder {
-  border-color: #dcdcdc);
+  border-color: #dcdcdc;
 }
 
 .or-action-content span.fa {   
@@ -754,6 +754,7 @@ color: #35383B;
 }
 
 /* Ny action */
+/* TODO: Ta bort när alla actions ersatts med element varianten */
 .or-ny-action:hover .normal .or-action-text a:link{
 	color:#857672;
 }
@@ -774,6 +775,8 @@ color: #35383B;
 /* Slut ny action */
 
 /* Ny action formatmall */
+/* TODO: Ta bort när alla actions ersatts med element varianten */
+
 .sv-font-action-penna:before, .sv-font-action-pil:before, .sv-font-action-karta:before, .sv-font-action-facebook:before, .sv-font-action-twitter:before {
     background-color: #857672;
 }
@@ -787,3 +790,20 @@ body .sv-font-action-penna.or-wrapper-click:hover, body .sv-font-action-pil.or-w
 }
 
 /* Slut ny action formatmall */
+
+/* Action element */
+.or-elmt-action i.fa {
+	background-color: #fff484;
+	color: #000;
+}
+
+.or-elmt-action i.fa::after {
+	border-left-color: #fff484;
+	left: 96%;
+}
+
+.or-elmt-action:hover .or-elmt-action-link {
+	color: #000;
+}
+
+/* Slut Action Element */
