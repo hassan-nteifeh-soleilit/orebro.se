@@ -479,13 +479,14 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3{
 }
 
 .or-teaser-box.or-related-links .or-text-content {
-    padding: 0 10px 0 0;
-    margin-top: 0;
+    padding: 0 15px 3px 10px;
+    margin-top: 0
 }
 
 .or-teaser-box.or-related-documents .or-text-content {
-    padding: 1px 15px 1px;
+    padding: 1px 15px
 }
+
 
 .or-teaser-box .or-text-content {
     background: #ffffff;
@@ -498,11 +499,11 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3{
 }
 
 .or-teaser-box.or-related-links .or-text-content .or-teaser-list li {
-    padding: 14px 5px 14px 15px;
+    padding: 15px 5px 10px 7px;
     margin-bottom: 0;
     margin-top: 0;
     position: relative;
-    min-height: 52px;
+    min-height: 30px
 }
 
 .or-teaser-box.or-related-links .or-text-content .or-teaser-list li:hover .or-link-name {
@@ -523,27 +524,11 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3{
     color: #35383b;
 }
 
-
 ul.or-teaser-list {
-    margin:0;
+    margin: 0;
     list-style-type: none;
     padding: 0;
-}
-
-ul.or-teaser-list i{
-    position: absolute;
-    top: 10px;
-    left: 0px;
-}
-
-ul.or-teaser-list i:before{
-    display: block;
-}
-
-ul.or-teaser-list i span{
-    font-size: 10px;
-    font-weight: 300;
-    font-family: "open sans",sans-serif;
+    width: 100%
 }
 
 .or-teaser-box .or-text-content .or-teaser-list li {
@@ -578,19 +563,25 @@ ul.or-teaser-list i span{
 }
 
 .or-teaser-box  .or-file-icon {
-    width: 24px;
     margin-top: -3px;
     margin-right: 10px;
     float: left;
+    display: block;
 }
 
-.or-teaser-box  .or-file-size {
+.or-file-icon {
+    width: 24px;
+    height: 24px
+}
+
+.or-teaser-box .or-file-size {
     font-size: 10px;
-    font-weight: 600;
+    font-weight: 300;
     font-family: "open sans",sans-serif;
+    display: block;
+    float: left;
+    clear: both
 }
-
-
 
 .or-teaser-box.or-related-links .or-text-content .or-teaser-list li a .or-link-name {
     top: 50%;
@@ -601,14 +592,15 @@ ul.or-teaser-list i span{
     transition: all 100ms ease;
     background-size: 25%;
     background-color: transparent;
-    box-shadow: 0 -16px 0 -11px rgba(174, 222, 239, 0.65) inset;
+    box-shadow: 0 -16px 0 -11px rgba(174,222,239,0.65) inset;
     margin-right: 4px;
+    font-size: 13px
 }
 
 .or-teaser-box.or-related-links .or-text-content .or-teaser-list li a .or-link-name:hover {
-    box-shadow: rgba(174, 222, 239, 0.65) 0 -48px 0 -30px inset;
-    color: #35383b;
-} 
+    box-shadow: rgba(174,222,239,0.65) 0 -48px 0 -30px inset;
+    color: #35383b
+}
 
 .or-teaser-box.or-related-documents .or-text-content .or-teaser-list li a .or-link-name {
     top: 50%;
@@ -619,14 +611,15 @@ ul.or-teaser-list i span{
     transition: all 100ms ease;
     background-size: 25%;
     background-color: transparent;
-    box-shadow: 0 -16px 0 -11px rgba(174, 222, 239, 0.65) inset;
+    box-shadow: 0 -16px 0 -11px rgba(174,222,239,0.65) inset;
     margin-right: 4px;
+    font-size: 13px
 }
 
 .or-teaser-box.or-related-documents .or-text-content .or-teaser-list li a .or-link-name:hover {
-    box-shadow: rgba(174, 222, 239, 0.65) 0 -48px 0 -30px inset;
-    color: #35383b;
-} 
+    box-shadow: rgba(174,222,239,0.65) 0 -48px 0 -30px inset;
+    color: #35383b
+}
 
 /* tabeller */
 
@@ -880,13 +873,12 @@ body .or-content-container .or-tir p, body .or-content-container .or-tir p a:lin
   top: 18px;
 }
 
-/* Sök */
+* Sök */
 /* Paginering */
 #or-paging-id {
-  margin-bottom: 20px;
-	margin-left:0;		
+    margin-bottom: 20px;
+		
 }
-
 
 #or-paging-id .current.prev {
     background-color: transparent;
@@ -923,7 +915,6 @@ body .or-content-container .or-tir p, body .or-content-container .or-tir p a:lin
     text-decoration: underline;
 }
 
-
 .pagination .current {
     color: #fff;
     padding: 5px 12px;
@@ -944,8 +935,7 @@ body .or-content-container .or-tir p, body .or-content-container .or-tir p a:lin
     font-size: 13px;
 }
 
-.pagination .prev,
-.pagination .next {
+.pagination .prev {
     background: none repeat scroll 0 0 transparent !important;
     border: 0 solid #e83c23 !important;
 }
