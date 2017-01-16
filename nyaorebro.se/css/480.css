@@ -575,6 +575,12 @@ body .sol-accordion-heading {
     display: block;
 }
 
+/* Restaurangtillstånd */
+.or-tillstand-restaurang .FlikValdText,.or-tillstand-restaurang .FlikEjValdBg,.or-tillstand-restaurang .FlikValdBg:first-child {
+	padding: 3px 1px;
+	font-size: 14px;
+} 
+
 } /* end 480px */	
 
 
