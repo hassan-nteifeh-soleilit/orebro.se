@@ -799,7 +799,6 @@ body .sv-font-action-penna.or-wrapper-click:hover, body .sv-font-action-pil.or-w
 
 .or-elmt-action i.fa::after {
 	border-left-color: #fff484;
-	left: 96%;
 }
 
 .or-elmt-action:hover .or-elmt-action-link {

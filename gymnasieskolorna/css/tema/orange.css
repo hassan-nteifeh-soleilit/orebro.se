@@ -665,7 +665,6 @@ body .sv-font-action-penna.or-wrapper-click:hover, body .sv-font-action-pil.or-w
 
 .or-elmt-action i.fa::after {
 	border-left-color: #F28C00;
-	left: 96%;
 }
 
 .or-elmt-action-text {	
