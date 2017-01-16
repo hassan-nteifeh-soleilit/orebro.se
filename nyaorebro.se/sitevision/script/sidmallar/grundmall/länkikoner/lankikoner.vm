@@ -3,8 +3,8 @@
 		<a href="#contact" class="or-footer-icon-links-item" id="or-id-contact"><i class="fa fa-comments"></i>Kontakta och tyck till</a>
 		<a href="/ovrigt/e-tjanster-och-blanketter.html" id="or-id-footer-link-selfservice" class="or-footer-icon-links-item"><i class="fa fa-pencil-square-o"></i>E-tjänster och blanketter</a> 
 		<a href="http://karta.orebro.se/#0&1;0&2&161336.81178;6574488.06599&-1&&" id="or-id-footer-link-map" class="or-footer-icon-links-item"><i class="fa fa-map-marker"></i>Karta</a>  
-		<a href="/ovrigt/sprak---languages/teckensprak.html" id="or-id-footer-link-signlanguage" class="or-footer-icon-links-item"><i class="fa fa-sign-language"></i>Teckenspråk</a>   
-		<a href="/ovrigt/sprak---languages.html" id="or-id-footer-link-langages" class="or-footer-icon-links-item"><i class="fa fa-language"></i>Language</a>
+		<a href="/ovrigt/sprak---languages/teckensprak.html" id="or-id-footer-link-signlanguage" class="or-footer-icon-links-item"><i class="fa fa-sign-language"></i>Teckenspråk</a>   		
+      <a href="#" id="or-id-footer-link-languages" class="or-js-language-footer or-footer-icon-links-item"><i class="fa fa-language"></i>Translate</a>
 		<a href="#" class="or-js-share-footer or-footer-icon-links-item" id="or-id-footer-link-share"><i class="fa fa-share-alt"></i>Dela</a>
 		<a href="/ovrigt/inloggning.html" id="or-id-footer-link-login" class="or-footer-icon-links-item"><i class="fa fa-sign-in"></i>Inloggning</a>
 		<a href="/ovrigt/om-webbplatsen.html" id="or-id-footer-link-about" class="or-footer-icon-links-item"><i class="fa fa-info-circle"></i>Om webbplatsen</a>
