@@ -1,0 +1,77 @@
+<div>   
+<div class="or-footer-icon-links">
+	<a href="#contact" class="or-footer-icon-links-item" id="or-id-contact"><i class="fa fa-comments"></i>Kontakta och tyck till</a>
+   <a href="http://karta.orebro.se/#0&1;0&2&161336.81178;6574488.06599&-1&&" id="or-id-footer-link-map" class="or-footer-icon-links-item"><i class="fa fa-map-marker"></i>Kartor</a>  
+   <a href="/ovrigt/sprak---languages/teckensprak.html" id="or-id-footer-link-signlanguage" class="or-footer-icon-links-item"><i class="fa fa-sign-language"></i>Teckenspråk</a>   
+	<a href="#" id="or-id-footer-link-languages" class="or-js-language-footer or-footer-icon-links-item"><i class="fa fa-language"></i>Translate</a>
+	<a href="#" class="or-js-share-footer or-footer-icon-links-item" id="or-id-footer-link-share"><i class="fa fa-share-alt"></i>Dela</a>
+   <a href="/ovrigt/inloggning.html" id="or-id-footer-link-login" class="or-footer-icon-links-item"><i class="fa fa-sign-in"></i>Inloggning</a>
+  	<a href="/ovrigt/om-webbplatsen.html" id="or-id-footer-link-about" class="or-footer-icon-links-item"><i class="fa fa-info-circle"></i>Om webbplatsen</a>
+   <a href="/ovrigt/rss---prenumerera.html" id="or-id-footer-link-rss" class="or-footer-icon-links-item"><i class="fa fa-rss"></i>RSS</a>
+
+</div>
+<div class="or-addthis-container-footer" style="display:none">    
+   <ul class="sharebuttonlist sharebuttonlist--horizontal"> 
+      <li class="sharebuttonlist__item"> 
+         <!-- Dela på Facebook --> 
+         <a href="http://www.facebook.com/sharer.php?u=${url}"  rel="external"  class="sharebutton sharebutton--facebook sharebutton--icon-facebook" title="Dela på Facebook"></a> 
+      </li> 
+      <li class="sharebuttonlist__item">
+         <!-- Dela på Twitter -->
+         <a href="http://twitter.com/intent/tweet?text=${url}"  rel="external" class="sharebutton sharebutton--twitter sharebutton--icon-twitter" title="Dela på Twitter"></a>  
+      </li>
+      <li class="sharebuttonlist__item">
+         <!-- Dela på LinkedIn -->
+         <a href="http://www.linkedin.com/shareArticle?mini=true&url=${url}" rel="external" class="sharebutton sharebutton--linkedin sharebutton--icon-linkedin" title="Dela på LinkedIn"></a>
+      </li>
+      <li class="sharebuttonlist__item">
+         <!-- Dela via email -->
+         <a href="mailto:?body=${url} &subject=${pageName}"  class="sharebutton sharebutton--email sharebutton--icon-email" title="Dela via email"></a> 
+      </li> 
+      ## <li class="sharebuttonlist__item">
+      ##   <!-- Dela på Google+ --> 
+      ##   <a href="https://plus.google.com/share?url=${url}"  rel="external" class="sharebutton sharebutton--gplus sharebutton--icon-gplus" title="Dela på Google+"></a>
+      ## </li> 
+      	
+
+      
+   </ul>
+</div>
+</div>
+
+<div class="or-language-modal">
+   <h2>
+      Translate
+   </h2>
+   <p class="normal">Use Google to translate the web site. We take no responsibility for the accuracy of the translation.</p>
+<div id="google_translate_element"></div><script type="text/javascript">
+	function googleTranslateElementInit() {
+  		new google.translate.TranslateElement({pageLanguage: 'sv', gaTrack: true, gaId: 'UA-4830769-1'}, 'google_translate_element');
+}</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+   <p class="normal"><a href="http://www.orebro.se/4.24bb62e31573732d6851465.html">Örebro municipality in other languages</a></p>
+   <a href="#" class="or-language-modal-close"><i class="fa fa-close"></i>Close</a>
+</div>
+
+
+<script type="text/javascript">   
+   // Translate popup
+   $('.or-js-language-footer').click(function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      $('.or-language-modal').fadeToggle(200);
+   });      
+
+   $('.or-language-modal-close').click(function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      $('.or-language-modal').fadeToggle(200);
+   }); 
+
+   
+   // Dela popup
+   $('.or-js-share-footer').click(function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      $('.or-addthis-container-footer').fadeToggle(200);
+   });          
+</script>
