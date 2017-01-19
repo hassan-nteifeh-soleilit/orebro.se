@@ -56,10 +56,10 @@
 		});
 
 		/* Expandera meny items */
-		$(".or-tree .or-toggle-panel").click(function() {
+		$(".or-tree .or-toggle-icon").click(function() {
 			$(this).parent().toggleClass("or-expanded");
 		});
-	
+
 		/* iCheck för formulär */
 		 $('input').iCheck({
 			checkboxClass: 'icheckbox_flat-red',

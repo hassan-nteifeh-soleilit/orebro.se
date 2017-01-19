@@ -157,7 +157,6 @@ MENY
 }
 
 
-
 .or-tree .or-toggle-icon:before {
     font-family: FontAwesome;
     font-size: 13px;
@@ -186,12 +185,15 @@ MENY
     right: 0;
 }
 
-.or-tree button:active {
-   background: #777;
-   padding: 0;
+input.or-toggle-btn {
+	border: initial;
+  background-color: initial;
+	padding: initial;
+	height:100%;
+	width:100%;
 }
 
-.or-tree .or-expanded > .or-toggle-panel .or-toggle-icon:before {
+.or-tree .or-expanded > .or-toggle-icon:before {
    -moz-transform: rotate(180deg);
    -webkit-transform: rotate(180deg);
    -o-transform: rotate(180deg);
@@ -259,9 +261,9 @@ MENY
 
 .or-tree .or-depth-2 > li a{
 	font-family: "open sans",sans-serif;
-    color: #35383b;
-    background-color: #fff;
-    border-bottom: 1px solid #EAEAEA;
+	color: #35383b;
+	background-color: #fff;
+	border-bottom: 1px solid #EAEAEA;
 	padding-left: 30px;
 	font-size: 13px;
 	font-weight: 400;
@@ -416,9 +418,6 @@ MENY
 	letter-spacing: 0.04em;
 }
 
-
 .sc-landing-page-card .sc-arrow-read-more {
     border-width: 0 0 40px 40px;
 }
-
-
