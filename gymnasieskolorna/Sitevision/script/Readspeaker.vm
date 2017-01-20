@@ -1,4 +1,4 @@
-<script type="text/JavaScript" src="//f1.eu.readspeaker.com/script/4332/ReadSpeaker.js?pids=embhl"></script>   
+<script type="text/JavaScript" src="//f1-eu.readspeaker.com/script/4332/ReadSpeaker.js?pids=embhl"></script>   
 <script>
  $(document).ready(function() {       
     var readId = $('#svid$contentNodeId').next().attr('id');
