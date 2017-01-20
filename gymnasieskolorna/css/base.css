@@ -7497,7 +7497,7 @@ body:not(.sv-editing-mode) .or-plus-box-program.or-plus-box-content caption, bod
 .or-plus-box-v2.or-plus-box-header {
     width: 100%;
     margin-top: 13px;
-    margin-bottom: 0px;
+    margin-bottom: 14px;
     -webkit-transition: all 500ms ease;
     -moz-transition: all 500ms ease;
     -o-transition: all 500ms ease;
@@ -8503,11 +8503,10 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
 }
 
 .sv-defaultFormTheme .sv-field-title-container.sv-bold label, .sv-defaultFormTheme .sv-field-title-container.sv-bold span, .sv-defaultFormTheme .sv-field-title-container.sv-bold h1, .sv-defaultFormTheme .sv-field-title-container.sv-bold h2, .sv-defaultFormTheme .sv-field-title-container.sv-bold h3, .sv-defaultFormTheme .sv-field-title-container.sv-bold h4, .sv-defaultFormTheme .sv-field-title-container.sv-bold h5, .sv-defaultFormTheme .sv-field-title-container.sv-bold h6 {
-    font-size: 14px;
+    font-size: 16px;
     display: inline-block;
     font-family: "leaguespartan webfont",sans-serif;
     margin-top: 10px;
-	margin-bottom: 10px;
 }
 
 .sv-formFieldRow, .sv-formField {
@@ -8516,10 +8515,10 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
 }
 
 .sv-defaultFormTheme .sv-form-singleselectionfield label, .sv-defaultFormTheme .sv-form-multipleselectionfield label {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     position: relative;
-    top: 1px;
+    top: -1px;
     line-height: 2em;
     margin-left: 4px;
 
@@ -8527,7 +8526,6 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
 
 
 .sv-formField{
-	border-bottom: 2px dotted #e4e4e4;
     padding-bottom: 10px;
 }
 

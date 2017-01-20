@@ -873,11 +873,11 @@ body .or-content-container .or-tir p, body .or-content-container .or-tir p a:lin
   top: 18px;
 }
 
-* Sök */
+/* Sök */
 /* Paginering */
 #or-paging-id {
-    margin-bottom: 20px;
-		
+  margin-bottom: 20px;
+	margin-left:0;		
 }
 
 #or-paging-id .current.prev {
@@ -935,11 +935,11 @@ body .or-content-container .or-tir p, body .or-content-container .or-tir p a:lin
     font-size: 13px;
 }
 
-.pagination .prev {
+.pagination .prev,
+.pagination .next {
     background: none repeat scroll 0 0 transparent !important;
     border: 0 solid #e83c23 !important;
 }
-
 
 /********** OBS tar bort "facetten" Alla i sök *********/
 .or-total-count {
