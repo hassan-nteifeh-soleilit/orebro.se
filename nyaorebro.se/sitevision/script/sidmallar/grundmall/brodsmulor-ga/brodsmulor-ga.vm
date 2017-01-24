@@ -1,22 +1,23 @@
 #if (!$root.equals($currentPage))
  ## Get all nodes from here to the site page
- #set ($pathList = $nodeTreeUtil.getWebPathNodes($currentPage))
+ #set ($pathList = $NodeTreeUtil.getWebPathNodes($currentPage))
     ## Iterate the nodes in the list with a LinkRenderer
     #if (!$pathList.isEmpty())
        <nav class="or-breadcrumbs">
        <ul>          
        #foreach ($node in $pathList)
-         #if ($nodeTreeUtil.isDescendantOf($node,$root) || $node.equals($root))            
-            <li>                        
-            #set ($gaPath = "$gaPath$node.name/")    
+         #if ($NodeTreeUtil.isDescendantOf($node,$root) || $node.equals($root))            
+            <li>
+            #set($nodeName =$endecUtil.unEscapeJcrName($node.name))   
+            #set ($gaPath = "$gaPath$nodeName/")
             #if ($node.equals($currentPage))  
-               <span class="or-path-text">$currentPage.name</span>
+               <span class="or-path-text">$nodeName</span>
             #else
-               $linkRenderer.update($node)             
+               $LinkRenderer.update($node)             
                #if ($node.equals($root))
-                  $linkRenderer.setText("Start")                           	
+                  $LinkRenderer.setText("Start")                           	
                #end                         	               
-               $linkRenderer.render()   
+               $LinkRenderer.render()   
                <span class="or-path-divider">/</span>
             #end
             </li>         
@@ -26,9 +27,10 @@
        </nav>
     #end
 #else
-    #set ($gaPath = "/$currentPage.name")
+    #set ($gaPath = "/$EndecUtil.unEscapeJcrName($currentPage.name)")
 #end
 
+<input type="hidden" value="$gaPath" id="ga_str">
 
 #if ($gaId)
 <script type="text/javascript">
