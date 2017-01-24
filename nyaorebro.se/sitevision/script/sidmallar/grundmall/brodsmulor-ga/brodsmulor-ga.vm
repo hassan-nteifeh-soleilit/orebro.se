@@ -7,11 +7,11 @@
        <ul>          
        #foreach ($node in $pathList)
          #if ($NodeTreeUtil.isDescendantOf($node,$root) || $node.equals($root))            
-            <li>
-            #set($nodeName =$endecUtil.unEscapeJcrName($node.name))   
-            #set ($gaPath = "$gaPath$nodeName/")
+            <li>      
+            #set($nodeName =$EndecUtil.unEscapeJcrName($node.name))   
+            #set ($gaPath = "$gaPath$nodeName/")    
             #if ($node.equals($currentPage))  
-               <span class="or-path-text">$nodeName</span>
+               <span class="or-path-text">$nodeName</span> 
             #else
                $LinkRenderer.update($node)             
                #if ($node.equals($root))
@@ -46,4 +46,3 @@
 #else
  <!-- Google analytics id missing! $gaPath -->
 #end
-
