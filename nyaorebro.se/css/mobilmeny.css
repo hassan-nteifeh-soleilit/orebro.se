@@ -55,26 +55,22 @@ MENY
 }
 
 .or-tree {
-  display: none;
-  position: absolute;
+  display: none;  
   top: 0;
   right: -440px;
   bottom: 0;  
   z-index: 9998;
   overflow: scroll;
-	-ms-overflow-style: scrollbar;
+  -ms-overflow-style:scrollbar;
   -webkit-overflow-scrolling: touch;
   min-height: 100%;      
   width: 440px;    
   overflow-y: auto;
   overflow-x: hidden;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-  position: fixed;
-}
-
-.or-tree {
-    background: #e83c23;
-    box-shadow: -3px 0px 10px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  position: fixed;     
+  background: #e83c23;
+  box-shadow: -3px 0px 10px 0px rgba(0, 0, 0, 0.4);
 }
 
 .or-tree ul li a {    
@@ -155,7 +151,6 @@ MENY
 .or-tree .or-depth-5 .or-parent .or-toggle-icon:before{
     color: #e83c23;
 }
-
 
 .or-tree .or-toggle-icon:before {
     font-family: FontAwesome;
@@ -261,9 +256,9 @@ input.or-toggle-btn {
 
 .or-tree .or-depth-2 > li a{
 	font-family: "open sans",sans-serif;
-	color: #35383b;
-	background-color: #fff;
-	border-bottom: 1px solid #EAEAEA;
+    color: #35383b;
+    background-color: #fff;
+    border-bottom: 1px solid #EAEAEA;
 	padding-left: 30px;
 	font-size: 13px;
 	font-weight: 400;
@@ -418,6 +413,9 @@ input.or-toggle-btn {
 	letter-spacing: 0.04em;
 }
 
+
 .sc-landing-page-card .sc-arrow-read-more {
     border-width: 0 0 40px 40px;
 }
+
+

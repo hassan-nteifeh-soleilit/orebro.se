@@ -81,8 +81,8 @@ var createMenuRecursive = function(node, depth) {
     if (LinkRenderer.isValidTarget(node)) {
         var displayName = getDisplayName(node);
         out.println('<li class="' + createLiCssClass(node) + '">');        
-        if (hasChildren(node)) {            
-						out.println('<span class="or-toggle-icon"><input type="button" class="or-toggle-btn"></input></span>');      
+        if (hasChildren(node)) {
+            out.println('<span class="or-toggle-icon"><input type="button" class="or-toggle-btn"></input></span>');      
             var childDepth = depth + 1;
             LinkRenderer.update(node);
             out.println(LinkRenderer.render());

@@ -43,8 +43,7 @@
         
       /* Ikoner i dokumentlistningsrutorna */
       $(".or-docs-box-content a").each(function( index ) {
-				 var title = $(this).attr("title");
-         var title = $( this ).attr("title");
+         var title = $(this).attr("title");
          var iconCss, sizeStr;
          
          try {
@@ -90,10 +89,8 @@
 					$(this).next().text('');
 				}
 			});
-			 
-					
+
 			/* Expandera meny items */
-			
 			$(".or-tree .or-toggle-icon").click(function() {
 				$(this).parent().toggleClass("or-expanded");
 			});
@@ -108,4 +105,9 @@
 })(jQuery);
 
 
-
+function trackEvent(name, val) {
+   if(typeof ga !== 'undefined') {
+      ga('set', 'page', document.getElementById('ga_str').value + document.location.search);
+      ga('send', 'event', name, val); 
+   }
+}

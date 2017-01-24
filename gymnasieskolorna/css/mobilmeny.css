@@ -56,7 +56,6 @@ MENY
 
 .or-tree {
   display: none;
-  position: absolute;
   top: 0;
   right: -440px;
   bottom: 0;  
@@ -67,14 +66,11 @@ MENY
   width: 440px;    
   overflow-y: auto;
   overflow-x: hidden;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   position: fixed;
   -webkit-text-size-adjust: 100%;
-}
-
-.or-tree {
-    background: #e83c23;
-    box-shadow: -3px 0px 10px 0px rgba(0, 0, 0, 0.4);
+  background: #e83c23;
+  box-shadow: -3px 0 10px 0 rgba(0, 0, 0, 0.4);
 }
 
 .or-tree ul li a {    
