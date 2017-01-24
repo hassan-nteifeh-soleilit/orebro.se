@@ -1,0 +1,16 @@
+#if($contacts.length == 0)
+<script type="text/javascript">
+$(document).ready(function(){   
+        
+   //Justera kolumnerna om kontakter saknas
+   // rita om kontakta oss rutan
+   $( ".or-kontakta-kontainer" ).removeClass( "sv-column-12" ).addClass( "sv-column-6" );
+   // sätt vänsterspalt 12 or-kontakta-kontaktpersoner-vanster
+   $( ".or-kontakta-kontaktpersoner-vanster" ).removeClass( "sv-column-6" ).addClass( "sv-column-12" );
+   // göm högerkolumnen
+   $( ".or-kontakta-kontaktpersoner-hoger").hide();
+   
+});
+   
+</script>
+#end

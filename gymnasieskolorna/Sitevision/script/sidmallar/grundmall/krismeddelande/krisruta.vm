@@ -1,0 +1,22 @@
+#if ($show)  
+  <div id="alertInfo">
+      <div class="or-alert-icon $smallCss">
+         <span class="fa-stack">
+           <i class="fa fa-circle fa-stack-2x alert"></i>
+           <i class="fa fa-exclamation-triangle fa-stack-1x alert" ></i>
+         </span>
+      </div>
+      <div class="or-alert-message-wrapper $smallCss">
+         <div class="or-alert-info $smallCss">VIKTIG INFORMATION:</div> 
+         <div class="or-alert-header $smallCss">$header</div>                
+         #if($smallCss == "")
+         <div class="or-alert-text">$ingress</div>     
+         #else 
+         <div class="or-alert-text">$content</div>     
+         #end
+      </div>  
+      <div class="or-alert-link $smallCss">
+         $link
+      </div>
+  </div>   
+#end
