@@ -178,7 +178,6 @@ MENY
     margin-top: -8px;
 }
 
-
 .or-tree .or-toggle-panel{
     position: absolute;
     width: 50px;
@@ -186,12 +185,19 @@ MENY
     right: 0;
 }
 
-.or-tree button:active {
-   background: #777;
-   padding: 0;
+input.or-toggle-btn {
+	border: initial;
+  background-color: initial;
+	padding: initial;
+	height:100%;
+	width:100%;
 }
 
-.or-tree .or-expanded > .or-toggle-panel .or-toggle-icon:before {
+input.or-toggle-btn:focus {
+	outline: -webkit-focus-ring-color auto 5px;
+}
+
+.or-tree .or-expanded > .or-toggle-icon:before  { 
    -moz-transform: rotate(180deg);
    -webkit-transform: rotate(180deg);
    -o-transform: rotate(180deg);
