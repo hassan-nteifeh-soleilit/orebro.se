@@ -43,7 +43,7 @@
         
       /* Ikoner i dokumentlistningsrutorna */
       $(".or-docs-box-content a").each(function( index ) {
-				 var title = $(this).attr("title");         
+         var title = $(this).attr("title");
          var iconCss, sizeStr;
          
          try {
@@ -89,10 +89,9 @@
 					$(this).next().text('');
 				}
 			});
-			 
-					
+
 			/* Expandera meny items */
-			$(".or-tree .or-toggle-panel").click(function() {
+			$(".or-tree .or-toggle-icon").click(function() {
 				$(this).parent().toggleClass("or-expanded");
 			});
              
@@ -112,6 +111,3 @@ function trackEvent(name, val) {
       ga('send', 'event', name, val); 
    }
 }
-
-
-

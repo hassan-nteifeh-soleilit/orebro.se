@@ -55,41 +55,47 @@ MENY
 }
 
 .or-tree {
-  display: none;
-  position: absolute;
+  display: none;  
   top: 0;
   right: -440px;
   bottom: 0;  
   z-index: 9998;
   overflow: scroll;
+  -ms-overflow-style:scrollbar;
   -webkit-overflow-scrolling: touch;
   min-height: 100%;      
   width: 440px;    
   overflow-y: auto;
   overflow-x: hidden;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-  position: fixed;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  position: fixed;     
+  background: #e83c23;
+  box-shadow: -3px 0px 10px 0px rgba(0, 0, 0, 0.4);
 }
 
-.or-tree {  
-  background: #fff;
-}
-
-.or-tree ul li a {
-    /*font-family: "leaguespartan webfont",sans-serif;*/
+.or-tree ul li a {    
     font-family: "open sans",sans-serif;
     padding: 14px 49px 14px 25px;
     text-decoration: none;
     color: #fff;
     line-height: 15px;
     letter-spacing: 0.02em;
-    background-color: #e83c23;
-    /*border-bottom: 2px solid #EF6F5D;*/
+    background-color: #e83c23;    
     padding-left: 15px;
     padding-right: 45px;
     display: block;
     font-size: 13px;
     font-weight: 700;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+
+}
+
+.or-tree ul li a:hover {    
+	background-color: #bc3925;
 }
 
 
@@ -111,6 +117,15 @@ MENY
     text-align: center;
     border-radius: 18px;
     z-index: 10;
+      -webkit-transition: all 500ms ease;
+	  -moz-transition: all 500ms ease;
+	  -o-transition: all 500ms ease;
+	  transition: all 500ms ease;
+
+}
+
+.or-tree .or-toggle-icon:hover {
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 .or-tree .or-depth-1 .or-parent .or-toggle-icon, .or-tree .or-depth-2 .or-parent .or-toggle-icon, .or-tree .or-depth-3 .or-parent .or-toggle-icon, .or-tree .or-depth-4 .or-parent .or-toggle-icon, .or-tree .or-depth-5 .or-parent .or-toggle-icon {
@@ -136,8 +151,6 @@ MENY
 .or-tree .or-depth-5 .or-parent .or-toggle-icon:before{
     color: #e83c23;
 }
-
-
 
 .or-tree .or-toggle-icon:before {
     font-family: FontAwesome;
@@ -167,12 +180,15 @@ MENY
     right: 0;
 }
 
-.or-tree button:active {
-   background: #777;
-   padding: 0;
+input.or-toggle-btn {
+	border: initial;
+  background-color: initial;
+	padding: initial;
+	height:100%;
+	width:100%;
 }
 
-.or-tree .or-expanded > .or-toggle-panel .or-toggle-icon:before {
+.or-tree .or-expanded > .or-toggle-icon:before {
    -moz-transform: rotate(180deg);
    -webkit-transform: rotate(180deg);
    -o-transform: rotate(180deg);
@@ -208,6 +224,11 @@ MENY
     border-bottom: 1px solid #EAEAEA;
     padding-left: 20px;
     font-size: 13px;
+        -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+
 }
 
 .or-tree .or-depth-1 > li > a:hover {
@@ -282,12 +303,8 @@ MENY
 	font-weight: 700;
 }
 
-.or-tree .or-depth-2 > li > a:hover {
+.or-tree .or-depth-2 > li > a:hover, .or-tree .or-depth-3 > li > a:hover, .or-tree .or-depth-4 > li > a:hover {
 	background-color: #F4F4F4;
-}
-
-
-.or-tree .or-depth-2 > li{
 }
 
 .or-tree .or-depth-2 {
@@ -344,6 +361,18 @@ MENY
 	color: #e83c23;
 }
 
+.or-mobile-nav-bar a.or-menu-title {
+    color: #857672;
+    font-size: 15px;
+    font-family: "leaguespartan webfont",sans-serif;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    padding-left: 12px;
+    padding-top: 11px;
+    padding-bottom: 10px;
+}
+
 .or-mobile-nav-bar i{
     width: 100%;
     font-size: 17px;
@@ -355,7 +384,16 @@ MENY
     right: 0px;
     top: 0px;
     width: 65px;
-    height: 100%;
+    height: 30px;
+      -webkit-transition: all 500ms ease;
+	  -moz-transition: all 500ms ease;
+	  -o-transition: all 500ms ease;
+	  transition: all 500ms ease;
+
+}
+
+.or-mobile-nav-bar .or-push-nav-btn:hover {
+    background-color: #bc3925;
 }
 
 .or-mobile-nav-bar .or-push-nav-btn i{

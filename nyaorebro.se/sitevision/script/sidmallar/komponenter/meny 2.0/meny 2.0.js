@@ -5,11 +5,12 @@ var PortletContextUtil = require('PortletContextUtil'),
 		NodeTreeUtil = require('NodeTreeUtil'),
 		NodeIteratorUtil = require('NodeIteratorUtil'),
 		NodeTypeUtil = require('NodeTypeUtil');
-
+		
 var currentPage = PortletContextUtil.getCurrentPage(),
-		menuStart = PropertyUtil.getNode(currentPage, "menustart");
+	menuStart = PropertyUtil.getNode(currentPage, "menustart");
+	siteName = PropertyUtil.getString(menuStart, 'sitenamn', menuStart);
 
-// Loopar Ã¶ver alla undernoder och anropar callback
+// Loopar över alla undernoder och anropar callback
 var forEachChild = function(node, callback) {
     var children = NodeIteratorUtil.getMenuItems(node);
     while (children.hasNext()) {
@@ -22,13 +23,14 @@ var hasChildren = function(node) {
     return NodeIteratorUtil.getMenuItems(node).hasNext();
 };
 
-// En nod Ã¤r expanderad om currentPage Ã¤r Ã¤ttling till noden.
+// En nod är expanderad om currentPage är ättling till noden.
 var isNodeExpanded = function(node) {
     return (node != currentPage) && NodeTreeUtil.isDescendantOf(currentPage, node);
 };
 
-// Returnerar om node Ã¤r en lÃ¤nk till currentPage
+// Returnerar om node är en länk till currentPage
 var isNodeLinkToCurrentPage = function(node) {
+
     if (NodeTypeUtil.isLink(node)) {
         var currentURL = PropertyUtil.getString(currentPage, "URL");
         var nodeURL = PropertyUtil.getString(node, "URL");
@@ -36,6 +38,7 @@ var isNodeLinkToCurrentPage = function(node) {
             return true;
         }
     }
+
     return false;
 };
 
@@ -56,11 +59,11 @@ var getMetadata = function(node) {
     return metadata === null ? "" : metadata;
 };
 
-// Skapar en strÃ¤ng med alla css-klasser som noden ska ha
+// Skapar en sträng med alla css-klasser som noden ska ha
 var createLiCssClass = function(node) {
     var css = [];
 
-    if (node == currentPage || isNodeLinkToCurrentPage(node)) {
+    if (node == CURRENT_PAGE || isNodeLinkToCurrentPage(node)) {
         css.push("or-current");
     }
 
@@ -76,20 +79,20 @@ var createLiCssClass = function(node) {
 
 // Skriver ut menyn rekursivt
 // node - en nod
-// depth - anger den aktuella nodens djup i trÃ¤det
+// depth - anger den aktuella nodens djup i trädet
 var createMenuRecursive = function(node, depth) {
     if (LinkRenderer.isValidTarget(node)) {
         var displayName = getDisplayName(node);
         out.println('<li class="' + createLiCssClass(node) + '">');        
-        if (hasChildren(node)) {
-            out.println('<span class="or-toggle-icon"><input type="button" class="or-toggle-btn"></input></span>');      
+        if (hasChildren(node)) {            				           	
+           out.println('<span class="or-toggle-icon"><input type="button" class="or-toggle-btn"></input></span>');            
             var childDepth = depth + 1;
-            LinkRenderer.update(node);
-            out.println(LinkRenderer.render());
+            LinkRenderer.update(node);           
+            out.println(LinkRenderer.render());           	           	
             out.println('<ul class="or-depth-' + childDepth + '">');
             forEachChild(node, function(child) {
                 createMenuRecursive(child, childDepth);
-            });
+            });           	
             out.println("</ul>");
         } else {
             LinkRenderer.update(node);
@@ -109,9 +112,10 @@ var createMenu = function() {
         out.println('<div class="or-mobile-nav-bar">');
        
         LinkRenderer.update(menuStart);        
+        LinkRenderer.setText(siteName);
         LinkRenderer.setFontClass("or-menu-title");
         out.println(LinkRenderer.render());	        
-        out.println('<a href="#" class="or-push-nav-btn"><i class="fa fa-close"></i>STÃ„NG</a>');
+        out.println('<a href="#" class="or-push-nav-btn"><i class="fa fa-close"></i>STÄNG</a>');
         out.println('</div>');
 
         out.println('  <ul class="or-depth-' + startDeepth + '">');
