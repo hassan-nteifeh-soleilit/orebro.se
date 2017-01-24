@@ -1,0 +1,41 @@
+#if (!$root.equals($currentPage))
+#set ($doubleQuote = '"')
+#set ($divider = "<span style=${doubleQuote}margin-right:5px${doubleQuote}>/</span>")
+ 
+ ## Get all nodes from here to the site page
+ #set ($pathList = $NodeTreeUtil.getWebPathNodes($currentPage))
+    ## Iterate the nodes in the list with a LinkRenderer
+    #if (!$pathList.isEmpty())
+       ## Set up the link renderer
+
+       ## Render links to all nodes
+       <ul style="display:inline; padding-left:0; margin-left:0; list-style:none">
+          
+       #foreach ($node in $pathList)
+         #if ($NodeTreeUtil.isDescendantOf($node,$root) || $node.equals($root))
+            <li class="sv-inline or-breadcrump-item">
+      
+            $LinkRenderer.update($node) 
+            $LinkRenderer.setFontClass("or-breadcrump-link or-colortext")
+            #if ($node.equals($root))
+               $LinkRenderer.setText("Start")
+            #else
+               #if ($velocityCount > 0)
+                   $divider
+               #end
+            #end
+            #if ($node.equals($currentPage))
+               #if (!$node.equals($root))                                 	
+               	$EndecUtil.unEscapeJcrName($currentPage.name)
+               #end
+            #else
+               $LinkRenderer.render()
+            #end
+            </li>
+         #else
+            #set ($velocityCount = 0)
+         #end         
+       #end
+       </ul>
+    #end
+#end
