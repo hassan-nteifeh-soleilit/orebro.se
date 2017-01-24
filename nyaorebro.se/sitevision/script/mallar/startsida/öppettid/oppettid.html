@@ -1,0 +1,43 @@
+<div class="or-oh-start-page" id="or-open-hours-container">
+   <p class="or-phone-info normal"><strong>Ring oss på:</strong> <i class="fa fa-mobile"></i> <span class="or-phone-number">019-21 10 00</span></p>
+   <p class="or-phone-hours normal"><strong>Telefontid:</strong><span class="or-oh-status"><span class="or-oh-label" id="or-id-label"></span><span class="or-oh-time-info" id="or-id-nexhour"></span></span></p>
+	<p class="or-email-info normal"><strong>Mejla oss på:</strong> <i class="fa fa-envelope-o"></i> <span><a href="mailto:servicenter@orebro.se">servicenter@orebro.se</a></span></p>      
+</div>   
+<script>
+   
+//<![CDATA[
+(function($) {
+	// Document ready
+	$(function() {               
+		function reloadInfo() {
+			var url = "/4.5ab4ab37154229e2ec88610/openhours.portlet";
+			var refreshWaitMs = 5*60*1000; //
+			$.getJSON(url,{"sv.contenttype": "application/json"})
+				.done(function(data) {
+					if(data.open) {
+						$('#or-open-hours-container > p').addClass('open');                                              
+						$('#or-open-hours-container > p').removeClass('closed');                                              
+						$('#or-id-label').text('Öppet');
+					} else {
+						$('#or-open-hours-container > p').addClass('closed');                                              
+						$('#or-open-hours-container > p').removeClass('open');                                         
+						$('#or-id-label').text('Stängt');
+					}
+				 
+					$('#or-id-nexhour').text(data.nextHourInfo);
+					refreshWaitMs = data.expires;
+				})
+				.fail(function() {
+					$('#or-open-hours-container > p').removeClass('open');                                         
+					$('#or-open-hours-container > p').removeClass('closed');                   	               	               
+				})
+				.always(function() {						
+					setTimeout(function(){reloadInfo();}, refreshWaitMs);               
+				});             
+		}               									 			      
+		
+		reloadInfo();    
+	}); 
+}($svjq));
+//]]>   
+</script>

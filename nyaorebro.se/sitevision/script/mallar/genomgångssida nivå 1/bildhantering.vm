@@ -1,0 +1,20 @@
+#if ($topImgUrl || $backgroundImgUrl)
+<script>   
+(function($) {
+   $(function() {
+    
+      // Stor bagrundsbild om det är i desktop
+      if ($('.or-mobile-nav-container').css('display') === 'none') {
+         #if ($backgroundImgUrl)
+            $(".or-bg-one").css({ "background-image": "url(${backgroundImgUrl})" });
+         #end                
+      } 
+      #if ($topImgUrl)
+      else {          
+         $(".or-top-img-lvl2").css({ "background-image": "url(${topImgUrl})" }); 
+      }
+      #end
+   });
+})(jQuery);
+</script>
+#end

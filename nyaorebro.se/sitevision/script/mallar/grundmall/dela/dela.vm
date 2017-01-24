@@ -1,0 +1,32 @@
+<div class="or-addthis-container" style="display:none">    
+<ul class="sharebuttonlist sharebuttonlist--horizontal"> 
+ <li class="sharebuttonlist__item"> 
+   <!-- Dela på Facebook --> 
+   <a href="http://www.facebook.com/sharer.php?u=${url}"  rel="external"  class="sharebutton sharebutton--facebook sharebutton--icon-facebook" title="Dela på Facebook"></a> 
+ </li> 
+ <li class="sharebuttonlist__item">
+   <!-- Dela på Twitter -->
+   <a href="http://twitter.com/intent/tweet?text=${url}"  rel="external" class="sharebutton sharebutton--twitter sharebutton--icon-twitter" title="Dela på Twitter"></a>  
+ </li>
+ <li class="sharebuttonlist__item">
+   <!-- Dela på LinkedIn -->
+   <a href="http://www.linkedin.com/shareArticle?mini=true&url=${url}" rel="external" class="sharebutton sharebutton--linkedin sharebutton--icon-linkedin" title="Dela på LinkedIn"></a>
+ </li>
+ <li class="sharebuttonlist__item">
+   <!-- Dela via email -->
+   <a href="mailto:?body=${url} &subject=${pageName}"  class="sharebutton sharebutton--email sharebutton--icon-email" title="Dela via email"></a> 
+ </li> 
+## <li class="sharebuttonlist__item">
+##   <!-- Dela på Google+ --> 
+##   <a href="https://plus.google.com/share?url=${url}"  rel="external" class="sharebutton sharebutton--gplus sharebutton--icon-gplus" title="Dela på Google+"></a>
+## </li>  
+</ul>
+</div>
+
+<script type="text/javascript">   
+   $('.or-js-share').click(function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      $('.or-addthis-container').fadeToggle(200);
+   });          
+</script>
