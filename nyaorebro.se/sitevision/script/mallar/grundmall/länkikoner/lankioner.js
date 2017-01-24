@@ -5,4 +5,3 @@ var propertyUtil = require('PropertyUtil'),
 	siteName = encodeURIComponent( resourceLocatorUtil.getSite() ),
 	pageName = encodeURIComponent( propertyUtil.getString( page, 'displayName' ) ),
 	url = "www.orebro.se" + encodeURIComponent( propertyUtil.getString( page, 'URI' ) );
- 
