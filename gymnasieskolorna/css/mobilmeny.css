@@ -182,9 +182,9 @@ MENY
 }
 
 input.or-toggle-btn {
-	border: initial;
-  background-color: initial;
-	padding: initial;
+	border: none;
+  background-color: transparent;
+	padding: 0;
 	height:100%;
 	width:100%;
 }
