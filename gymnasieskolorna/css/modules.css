@@ -64,6 +64,14 @@
   text-align: center;
 }
 
+.or-expired.or-show{
+	display:block;
+}
+
+.or-expired {
+	display:none;
+}
+
 /* Kalender faktaruta */
 
 .or-facts-row-calender {
@@ -1135,3 +1143,4 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
     font-size: 18px;
     vertical-align: middle;
 }
+
