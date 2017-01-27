@@ -3028,6 +3028,7 @@ input[type="file" i]::-webkit-file-upload-button:hover {
     display: inline-block;
     font-family: "leaguespartan webfont",sans-serif;
     margin-top: 10px;
+    line-height: 1.6em;
 }
 
 .sv-text-portlet table {
