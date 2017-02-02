@@ -1,4 +1,4 @@
-var MetadataUtil = require('MetadataUtil'),
+﻿var MetadataUtil = require('MetadataUtil'),
 	PropertyUtil = require('PropertyUtil'),
 	InstanceTypeUtil = require('InstanceTypeUtil'),
 	NodeTypeUtil = require('NodeTypeUtil'),
@@ -51,6 +51,15 @@ if(related !== null && related.size()>0){
 				'<div class="fa-stack fa-lg">' +
 				'<i class="fa fa-circle fa-stack-2x or-social-icon-bg"></i>' +
 				'<i class="fa fa-linkedin fa-stack-1x fa-inverse or-social-icon-fg"></i>' +
+				'</div>' +
+				'</a>';
+			}
+         // Youtube
+			if(nodeURL.indexOf("youtube") > -1){
+				output += '<a class="or-social-icon" href="' + nodeURL + '">' +
+				'<div class="fa-stack fa-lg">' +
+				'<i class="fa fa-circle fa-stack-2x or-social-icon-bg"></i>' +
+				'<i class="fa fa-youtube fa-stack-1x fa-inverse or-social-icon-fg"></i>' +
 				'</div>' +
 				'</a>';
 			}
