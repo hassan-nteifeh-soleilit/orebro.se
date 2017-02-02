@@ -95,6 +95,12 @@
 				$(this).parent().toggleClass("or-expanded");
 			});
              
+			/* iCheck för formulär */
+			$('input').iCheck({
+			checkboxClass: 'icheckbox_flat-red',
+			radioClass: 'iradio_flat-red'
+			});
+			
       /* Responsiva tabeller */  
       $(".sv-table-portlet table").stacktable({myClass:'stacktable small-only'});
       
