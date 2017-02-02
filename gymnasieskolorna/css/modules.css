@@ -1185,3 +1185,338 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
 .or-language-modal-close:hover {
 	background-color:#333;
 }
+
+/* social media */
+.or-social-media-content .or-social-media-content .or-header {
+    color: #0090b4;
+    margin-bottom: 10px;
+}
+
+.or-follow .normal a:link {
+    font-family: "leaguespartan webfont",sans-serif;
+    font-size: 11px;
+    letter-spacing: .02em;
+}
+
+.or-social-media-content {
+    border-bottom: 2px #F7F3F3 solid;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 0 10px 25px;
+    width: 100%;
+    margin-top: -10px;
+    float: left;
+}
+
+.or-news-social-section-startpage .or-social-media-content {
+    margin: 10px 20px;
+    max-width: 530px;
+    float: right;
+    margin-top: -10px;
+    padding-top: 7px;
+}
+
+.or-social-media-content .or-content img {
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    float: right;
+    margin-left: 20px;
+    width: 37%;
+}
+
+.or-social-media-content.youtube .or-content img {
+    position: relative;
+    width: 165px;
+    z-index: 0;
+}
+
+.or-social-media-content.youtube .or-social-image {
+    cursor: pointer;
+    float: left;
+    position: relative;
+}
+
+.or-social-media-content.youtube .or-social-image:after {
+    background-color: #FFF;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 0 0 6px 2px rgba(0,0,0,0.2);
+    color: #C83E30;
+    content: "\f16a";
+    font: normal normal normal 35px/.7 FontAwesome;
+    height: 23px;
+    left: 50%;
+    margin-left: -27px;
+    margin-top: -14px;
+    position: absolute;
+    top: 50%;
+    width: 34px;
+}
+
+.or-social-media-content .or-content a {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.or-social-media-content:hover .or-content a {
+    text-decoration: underline;
+}
+
+.or-social-media-content .or-content {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    float: left;
+    width: 100%;
+}
+
+.or-social-media-content.instagram .or-header .fa-circle {
+    color: transparent;
+    background-color: #D5378C;
+    background: linear-gradient(190deg,#8462C5 0%,#D5378C 41%,#f87436 75%,#E6B454 100%);
+    border-radius: 32px;
+    -moz-border-radius: 32px;
+    -webkit-border-radius: 32px;
+}
+
+.or-social-media-content.instagram .fa-instagram:before {
+    content: "\f16d";
+    font-size: 20px;
+}
+
+.or-social-media-content.facebook .or-header .fa-circle,.or-social-media-header.facebook .fa-circle {
+    color: #0090b4;
+}
+
+.or-social-media-content.youtube .or-header .fa-circle {
+    color: #c83e30;
+}
+
+.or-social-media-content .or-header {
+    color: #857672;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 7px;
+    margin-left: -5px;
+}
+
+.or-social-media-content.youtube .or-header {
+    color: #35383b;
+    font-family: "leaguespartan webfont",sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .02em;
+}
+
+.or-social-media-content .or-header .fa-clock-o {
+    color: #857672;
+    margin-left: 5px;
+}
+
+.or-social-media-content .or-stats {
+    background-color: #f9f9f8;
+    border: 2px solid #eeeceb;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    color: #857672;
+    display: block;
+    float: left;
+    font-family: "leaguespartan webfont",sans-serif;
+    font-size: 10px;
+    margin-bottom: 3px;
+    margin-top: 10px;
+    padding: 4px 10px;
+    width: 100%;
+}
+
+.or-social-media-content .or-stats .fa {
+    font: normal normal normal 14px/1 FontAwesome;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.or-social-media-content .or-stats .fa:first-child {
+    margin-left: 0;
+}
+
+.or-social-media-content.facebook .fa-reactions {
+    background-image: url(/images/18.5ab4ab37154229e2ec8753e/1462525596156/reaction-orebro.png);													
+    background-repeat: no-repeat;
+    background-size: 58px;
+    height: 16px;
+    position: relative;
+    top: 3px;
+    width: 60px;
+}
+
+.or-media-popup {
+    display: none;
+    float: left;
+    position: relative;
+    transition: .3s ease;
+}
+
+.show-popup .or-media-popup {
+    display: block;
+}
+
+.show-popup .or-social-image,.show-popup a {
+    display: none;
+}
+
+.youtube .or-content {
+    position: relative;
+}
+
+.or-media-close {
+    background-color: #e83c23;
+    border-bottom-left-radius: 3px;
+    border-top-right-radius: 0;
+    box-shadow: 3px 0 6px -3px rgba(0,0,0,0.4) inset;
+    color: #fff;
+    display: block;
+    font-size: 11px;
+    font-weight: 700;
+    height: 45px;
+    right: 0;
+    position: absolute;
+    text-align: center;
+    width: 50px;
+}
+
+.or-media-close:hover {
+    background-color: #35383b;
+    cursor: pointer;
+}
+
+.or-media-close .fa-close {
+    color: #FFF;
+    font-size: 17px;
+    padding-top: 5px;
+    text-align: center;
+    width: 100%;
+}
+
+.or-content.show-popup iframe {
+    width: 100%;
+    height: 315px;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+}
+
+.show-popup .or-media-popup {
+    display: block;
+    width: 100%;
+}
+
+.or-social-media-follow-startpage {
+   float:right;
+   font-size:90%;
+   padding:1%;
+   max-width: 540px;
+}
+.or-social-media-follow-startpage-item {
+   float:none;
+   margin-bottom: 15px;
+   display: inline-block;
+}
+.or-social-media-follow-startpage a{
+   font-family: "leaguespartan webfont",sans-serif;
+   font-size:11px;
+   display:inline-block;
+   box-shadow: rgba(174,222,239,0.65)0px -14px 0 -10px inset;
+   transition: all 100ms ease;
+   margin-right:25px;
+}
+.or-social-media-follow-startpage a:hover {
+    box-shadow: rgba(174,222,239,0.65) 0 -41px 0 -23px inset;
+}
+   
+.social-bg-circle {
+    background: #666;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 25px;
+    vertical-align: middle;
+    padding: 2px;
+    color:#fff;
+    margin-right:8px;
+}
+.social-bg-circle-instagram {background: -webkit-radial-gradient(32% 106%, circle cover, rgb(255, 225, 125) 0%, rgb(255, 205, 105) 10%, rgb(250, 145, 55) 28%, rgb(235, 65, 65) 42%, transparent 82%), -webkit-linear-gradient(-45deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);}
+.social-bg-circle-twitter {background:#00aced;}   
+.social-bg-circle-facebook {background:#0090b4;}
+
+/* social media undersida */
+.or-social-media-subpage .or-social-media-content {
+    border-bottom: 0 #F7F3F3 solid;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    padding: 20px 25px 15px;
+    background-color: #fff;
+    box-shadow: 0 0 4px #E2E2E2;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+
+.or-social-media-subpage .or-follow .normal a:link {
+    float: left;
+    clear: both;
+}
+
+.or-social-media-subpage .or-social-media-content .or-content img {
+    width: auto;
+    max-height: 160px;
+}
+
+.or-social-media-subpage .or-social-media-content.facebook .or-header .fa-circle {
+    color: #0090b4;
+    font-size: 24px;
+    top: 2px;
+}
+
+.or-social-media-subpage .or-social-media-content .fa-inverse {
+    font-size: 13px;
+    position: relative;
+    top: -2px;
+}
+
+.or-social-media-subpage .or-social-media-content .or-header {
+    margin-bottom: 9px;
+    padding-left: 5px;
+    margin-top: -5px;
+}
+
+.or-social-media-subpage .or-social-media-content .or-header .fa-clock-o {
+    margin-left: 0;
+}
+
+.or-social-media-header.facebook {
+    font-family: "leaguespartan webfont",sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    margin-top: 25px;
+    margin-bottom: 3px;
+}
+
+.or-social-media-header.facebook .fa-stack {
+    margin-right: 5px;
+    position: relative;
+    top: -2px;
+}
+
+
