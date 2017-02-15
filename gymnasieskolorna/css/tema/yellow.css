@@ -792,16 +792,16 @@ body .sv-font-action-penna.or-wrapper-click:hover, body .sv-font-action-pil.or-w
 /* Slut ny action formatmall */
 
 /* Action element */
-.or-elmt-action i.fa {
-	background-color: #fff484;
-	color: #000;
+.or-elmt-actn:hover .or-elmt-actn-link {
+	color: #000
 }
 
-.or-elmt-action i.fa::after {
+.or-elmt-actn-row:after {
 	border-left-color: #fff484;
 }
 
-.or-elmt-action:hover .or-elmt-action-link {
+.or-elmt-actn-arrow {
+	background-color: #fff484;	
 	color: #000;
 }
 

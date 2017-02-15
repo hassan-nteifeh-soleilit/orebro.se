@@ -656,26 +656,20 @@ body .sv-font-action-penna.or-wrapper-click:hover, body .sv-font-action-pil.or-w
 
 
 /* Action element */
-.or-elmt-action i.fa {
-	background-color: #6F9333;	
+.or-elmt-actn:hover .or-elmt-actn-link {
+	color: #6F9333
 }
 
-.or-elmt-action i.fa::after {
-	border-left-color: #6F9333;
-}
-
-.or-elmt-action-text {	
+.or-elmt-actn-row  {	
   border-color: #dbe7c4;
 }
 
-.or-elmt-action:hover .or-elmt-action-link {
-	color: #6F9333;
+.or-elmt-actn-row:after {
+	border-left-color: #6F9333;
 }
 
-/*
-.or-elmt-action:hover  .or-elmt-action-text{
-	box-shadow: #aedeef 0px 0px 6px 0px;
+.or-elmt-actn-arrow {
+	background-color: #6F9333;	
 }
-*/
 
 /* Slut Action Element */

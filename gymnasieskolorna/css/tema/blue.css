@@ -655,33 +655,25 @@ body .sv-font-action-penna.or-wrapper-click:hover, body .sv-font-action-pil.or-w
     color: #0098bd;
 }
 
-
-
-
 /* Slut ny action formatmall */
 
 
 /* Action element */
-.or-elmt-action i.fa {
-	background-color: #0098bd;	
+.or-elmt-actn:hover .or-elmt-actn-link {
+	color: #0098bd
 }
 
-.or-elmt-action i.fa::after {
-	border-left-color: #0098bd;
-}
-
-.or-elmt-action-text {	
-  border-color: rgb(174, 222, 239);
+.or-elmt-actn-row  {	
+	border-color: rgb(174, 222, 239);
 	border-color: rgba(174, 222, 239, 0.49);
 }
 
-.or-elmt-action:hover .or-elmt-action-link {
-	color: #0098bd;
+.or-elmt-actn-row:after {
+	border-left-color: #0098bd;
 }
-/*
-.or-elmt-action:hover  .or-elmt-action-text{
-	box-shadow: #aedeef 0px 0px 6px 0px;
+
+.or-elmt-actn-arrow {
+	background-color: #0098bd;	
 }
-*/
 
 /* Slut Action Element */
