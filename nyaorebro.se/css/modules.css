@@ -2456,6 +2456,7 @@ ul > li.kontaktaxossxxxbrodtext:last-child {
     display: inline-block;
     font-family: "leaguespartan webfont",sans-serif;
     margin-top: 10px;
+	line-height: 1.3em;
 }
 
 .sv-formFieldRow,.sv-formField {
@@ -3022,15 +3023,6 @@ input[type="file" i]::-webkit-file-upload-button:hover {
 }
 
 /* tabeller */
-.sv-defaultFormTheme .sv-field-title-container.sv-bold label, .sv-defaultFormTheme .sv-field-title-container.sv-bold span, .sv-defaultFormTheme .sv-field-title-container.sv-bold h1, .sv-defaultFormTheme .sv-field-title-container.sv-bold h2, .sv-defaultFormTheme .sv-field-title-container.sv-bold h3, .sv-defaultFormTheme .sv-field-title-container.sv-bold h4, .sv-defaultFormTheme .sv-field-title-container.sv-bold h5, .sv-defaultFormTheme .sv-field-title-container.sv-bold h6, .sv-form-userattributefield label {
-    font-size: 16px;
-    margin-bottom: 5px;
-    display: inline-block;
-    font-family: "leaguespartan webfont",sans-serif;
-    margin-top: 10px;
-    line-height: 1.3em;
-}
-
 .sv-text-portlet table {
     margin-bottom: 20px;
 }
