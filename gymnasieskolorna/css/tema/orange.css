@@ -140,7 +140,7 @@ footer i.or-social-icon-fg {
 }
 
 .or-colorborder {   
-   border-color: #FCE0B9);
+   border-color: #FCE0B9;
 }   
 
 
@@ -249,65 +249,29 @@ li.sol_step.active:hover {
 
 
 /* Plusbox */
-.or-plus-box-header.or-colorborder {
-  border-color: #FCE0B9;
-}
-
-
-.or-plus-box-header.or-colorborder {
-  border-color: #FCE0B9;
-}
-
-.or-plus-box-header.or-plus-box-active {
-   background-color: #F28C00;
-}
-
-h4.plusboxxrubrik.or-plus-box-active {
-   color:white;
-}
-
-.or-collapse-button.or-colorbg.or-plus-box-active {
-  background-color: rgba(255,255,255,0.25);
-}
-
-.or-plus-box-header.or-colorborder {
-  border-color: #FCE0B9;
-}
-
-.or-plus-box-header.or-plus-box-active {
+.or-plus-box-header.or-plus-box-active:not(.or-plus-box-diskret-header) {
   background-color: #F28C00;
 }
 
-/* Plusbox program */
-.or-plus-box-program:hover .plusboxxrubrik {
-  color: #F28C00;
+.or-plus-box-active:not(.or-plus-box-diskret-header)  .or-icon-plus::before {
+	color: #F28C00;
 }
 
-.or-wrapper-click.or-plus-box-header.or-colorborder.or-plus-box-active p.normal {
-    color: #FFF;
+.or-plus-box-header:hover .plusboxxrubrik{
+	color: #F28C00;
 }
 
-.or-plus-box-program .or-collapse-button {
-    background-color: #F28C00;
+.or-plus-box-active:not(.or-plus-box-diskret-header):hover .plusboxxrubrik{
+	color: #fff;
 }
 
 .or-programpoang {
-    border-color: #F28C00;
-    color: #F28C00;
+	border-color: #F28C00;
+	color: #F28C00;
 }
-
-.or-plus-box-program .or-collapse-button.or-plus-box-active {
-    background-color: #FBEDDA !important;
-}
-
-.or-plus-box-program .or-icon-plus {
-    color: #F28C00;
-}
-
 
 
 /* Kontakta oss fristående */
-
 .or-contact-bar.or-colorborder {
   border-right: 2px solid #FCE0B9;
   border-bottom: 2px solid #FCE0B9;
@@ -352,14 +316,6 @@ h4.plusboxxrubrik.or-plus-box-active {
  color: #F28C00;
 }
  
-/* Hover plusboxar */
-.or-wrapper-click.or-plus-box-header.or-colorborder:hover .plusboxxrubrik{
-	color: #F28C00;
-}
-
-.or-wrapper-click.or-plus-box-header.or-colorborder.or-plus-box-active .plusboxxrubrik {
-  color: #fff;
-}
 
 /* puffar */
 .or-puff-bild-trans-text > div:nth-child(1) {
@@ -657,6 +613,7 @@ body .sv-font-action-penna.or-wrapper-click:hover, body .sv-font-action-pil.or-w
     color: #F28C00;
 }
 /* Slut ny action formatmall */
+
 
 /* Action element */
 .or-elmt-actn:hover .or-elmt-actn-link {
