@@ -1,10 +1,10 @@
-var ResourceUtil = require('ResourceLocatorUtil'),
+var ResourceLocatorUtil = require('ResourceLocatorUtil'),
     PropertyUtil = require('PropertyUtil');
 
 // Returnerar noden som är dekorationsinnehållet.
 var getContentNode = function() {
    var portletId = request.getContext().getCurrentContent();
-   return ResourceUtil.getNodeByIdentifier(portletId);
+   return ResourceLocatorUtil.getNodeByIdentifier(portletId);
 };
 
 try {

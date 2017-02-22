@@ -4,7 +4,7 @@
    </div>   
 </div>
 <div class="or-collapsible-header or-js-collapsible-header">
-   <div class="plusboxxrubrik">$!contentName</div>
+	 <div class="plusboxxrubrik">$!{contentName}</div>
 </div>
 
 <script type="text/javascript">
@@ -15,8 +15,11 @@
       $(header).on('click keydown', function(e) {    
          if(e.which == '13' || e.type == 'click') {        
             $('#svid${contentId} .or-plus-box-content').slideToggle(200); 
-            $("#svid${contentId} .or-plus-box-header").toggleClass("or-plus-box-active");
+            $(this).toggleClass('or-plus-box-active');
          }
+         if( e.type == 'click') {
+            $(this).blur();
+         }				 
       });    
    })();	 
 
