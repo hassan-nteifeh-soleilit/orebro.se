@@ -63,7 +63,11 @@ color: #35383b;
 
 
  .colortext{
-color:#35383b;
+	color:#35383b;
+}
+
+.or-colorborder {
+  border-color: #d1cfcf;
 }
 
 footer a {
@@ -117,11 +121,6 @@ footer i.or-social-icon-fg {
   background-color: #857672;
 }
 
-.or-colorborder {   
-   border-color: #d1cfcf);
-}   
-
-
 /* Text färg för temat */
 h1.heading, 
 .or-colortext {
@@ -154,7 +153,7 @@ li.or-comment.or-colorborder {
 
 /* Ramfärg för actionrutan */
 .or-action-link.or-colorborder {
-  border-color: #d1cfcf);
+  border-color: #d1cfcf;
 }
 
 .or-action-content span.fa {   
@@ -225,60 +224,17 @@ color:#fff;
 
 
 /* Plusbox */
-.or-plus-box-header.or-colorborder {
-  border-color: #d1cfcf;
+.or-plus-box-header.or-plus-box-active:not(.or-plus-box-diskret-header) {
+	background-color: #35383b;
 }
 
-
-.or-plus-box-header.or-colorborder {
-  border-color: #d1cfcf;
-}
-
-.or-plus-box-header.or-plus-box-active {
-   background-color: #35383b;
-}
-
-h4.plusboxxrubrik.or-plus-box-active {
-   color:white;
-}
-
-.or-collapse-button.or-colorbg.or-plus-box-active {
-  background-color: rgba(255,255,255,0.25);
-}
-
-
-.or-plus-box-header.or-colorborder {
-  border-color: #d1cfcf;
-}
-
-.or-plus-box-header.or-plus-box-active {
-  background-color: #35383b;
-}
-
-/* Plusbox program */
-.or-plus-box-program:hover .plusboxxrubrik {
-  color: #35383b;
-}
-
-.or-wrapper-click.or-plus-box-header.or-colorborder.or-plus-box-active p.normal {
-    color: #FFF;
-}
-
-.or-plus-box-program .or-collapse-button {
-    background-color: #35383b!important;
-}
-
-.or-plus-box-program .or-collapse-button.or-plus-box-active {
-    background-color: #D1CFCF!important;
+.or-plus-box-active:not(.or-plus-box-diskret-header)  .or-icon-plus::before {
+	color: #35383b;
 }
 
 .or-programpoang {
-    border-color: #35383b;
-    color:  #35383b;
-}
-
-.or-plus-box-program .or-icon-plus {
-    color: #35383b;
+	border-color: #35383b;
+	color: #35383b;
 }
 
 
@@ -330,17 +286,6 @@ h4.plusboxxrubrik.or-plus-box-active {
     border-color: #d1cfcf;
 }
  
- 
- 
-/* Hover plusboxar */
-.or-wrapper-click.or-plus-box-header.or-colorborder:hover .plusboxxrubrik{
-	color: #35383b;
-}
-
-.or-wrapper-click.or-plus-box-header.or-colorborder.or-plus-box-active .plusboxxrubrik {
-  color: #fff;
-}
-
 /* puffar */
 .or-puff-bild-trans-text > div:nth-child(1) {
     background-color: rgba(53, 56, 59, 0.8);

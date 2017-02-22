@@ -249,61 +249,26 @@ li.sol_step.active:hover {
 
 
 /* Plusbox */
-.or-plus-box-header.or-colorborder {
-  border-color: #dcdcdc;
-}
-
-
-.or-plus-box-header.or-colorborder {
-  border-color: #dcdcdc;
-}
-
-.or-plus-box-header.or-plus-box-active {
-   background-color: #857672;
-}
-
-h4.plusboxxrubrik.or-plus-box-active {
-   color:white;
-}
-
-.or-collapse-button.or-colorbg.or-plus-box-active {
-  background-color: rgba(255,255,255,0.25);
-}
-
-
-.or-plus-box-header.or-colorborder {
-  border-color: #dcdcdc;
-}
-
-.or-plus-box-header.or-plus-box-active {
+.or-plus-box-header.or-plus-box-active:not(.or-plus-box-diskret-header) {
   background-color: #857672;
 }
 
-.or-wrapper-click.or-plus-box-header.or-colorborder.or-plus-box-active p.normal {
-    color: #FFF;
+.or-plus-box-active:not(.or-plus-box-diskret-header)  .or-icon-plus::before {
+	color: #857672;
 }
 
-.or-plus-box-program:hover .plusboxxrubrik {
-  color: #fff;
+.or-plus-box-header:hover .plusboxxrubrik{
+	color: #857672;
 }
 
-.or-plus-box-program .or-collapse-button {
-    background-color: #857672;
+.or-plus-box-active:not(.or-plus-box-diskret-header):hover .plusboxxrubrik{
+	color: #fff;
 }
 
 .or-programpoang {
-    border-color:#857672;
-    color:#857672;
+	border-color:#857672;
+	color:#857672;
 }
-
-.or-plus-box-program .or-collapse-button.or-plus-box-active {
-    background-color: #dcdcdc !important;
-}
-
-.or-plus-box-program .or-icon-plus {
-    color: #857672;
-}
-
 
 
 /* Kontakta oss fristående */
@@ -357,16 +322,6 @@ h4.plusboxxrubrik.or-plus-box-active {
     border-color: #dcdcdc;
 }
  
- 
- 
-/* Hover plusboxar */
-.or-wrapper-click.or-plus-box-header.or-colorborder:hover .plusboxxrubrik{
-	color: #857672;
-}
-
-.or-wrapper-click.or-plus-box-header.or-colorborder.or-plus-box-active .plusboxxrubrik {
-  color: #fff;
-}
 
 /* puffar */
 .or-puff-bild-trans-text > div:nth-child(2) {
@@ -562,8 +517,6 @@ background-color: #fff;
 .or-social-badge {
  background-color: #857672;
 }
-
-
 
 
 /* Söksida */

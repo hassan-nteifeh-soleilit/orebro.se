@@ -228,80 +228,26 @@ color: #fff;
 
 
 /* Plusbox */
-.or-plus-box-header.or-colorborder {
-  border-color: #dbe7c4;
-}
-
-
-.or-plus-box-header.or-colorborder {
-  border-color: #dbe7c4;
-}
-
-.or-plus-box-header.or-plus-box-active {
-   background-color: #6F9333;
-}
-
-h4.plusboxxrubrik.or-plus-box-active {
-   color:white;
-}
-
-.or-collapse-button.or-colorbg.or-plus-box-active {
-  background-color: rgba(255,255,255,0.25);
-}
-
-
-.or-plus-box-header.or-colorborder {
-  border-color: #dbe7c4;
-}
-
-.or-plus-box-header.or-plus-box-active {
+.or-plus-box-header.or-plus-box-active:not(.or-plus-box-diskret-header) {
   background-color: #6F9333;
 }
 
-.or-programpoang {
-    border-color: #DCEDBB;
-    color:  #6F9333;
+.or-plus-box-active:not(.or-plus-box-diskret-header)  .or-icon-plus::before {
+	color: #60930f;
 }
 
-
-/* Plusbox program */
-.or-plus-box-program.or-plus-box-active {
-  background-color: #FFF;
-}
-
-.or-plus-box-program.or-plus-box-active h4.plusboxxrubrik {
-   color:#fff;
-}
-
-.or-plus-box-program:hover .plusboxxrubrik {
-  color: #60930f;
-}
-
-.or-plus-box-program.or-plus-box-header.or-plus-box-active {
-    background-color: #6F9333;
-}
-
-.or-wrapper-click.or-plus-box-header.or-colorborder.or-plus-box-active p.normal {
-    color: #FFF;
-}
-
-.or-plus-box-program .or-icon-plus {
-    color: #5C9324;
-}
-
-
-
-/* Hover plusboxar */
 .or-plus-box-header:hover .plusboxxrubrik{
-	color: #6F9333;
+	color: #60930f;
 }
 
-
-.or-plus-box-header.or-plus-box-active .plusboxxrubrik {
-  color: #fff;
+.or-plus-box-active:not(.or-plus-box-diskret-header):hover .plusboxxrubrik{
+	color: #fff;
 }
 
-
+.or-programpoang {
+	border-color: #DCEDBB;
+	color:  #6F9333;
+}
 
 
 

@@ -1520,3 +1520,229 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
 }
 
 
+/* Plusbox */
+
+.or-plus-box-header {
+  width: 100%;
+  margin-top: 13px;
+  margin-bottom: 0px;
+  transition: all 0.5s ease 0s;
+  -webkit-transition: all 0.5s ease 0s;
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  font-size: 14px;
+  min-height: 40px;
+  padding-left: 20px;
+  position: relative;
+  padding-right:45px;
+}
+
+.or-plus-box-content {
+    overflow: hidden;
+    width: 100%;
+    background-color: #FFF;
+    padding: 5px 20px;
+}
+
+.or-collapse-button {
+  position: absolute;
+  right: 0px;
+  width: 45px;
+  height: 100%;
+  float: right;
+}
+
+.or-plus-box-header:hover .plusboxxrubrik{	
+	text-decoration: underline;
+}
+
+.or-icon-plus {
+	display: table-cell;
+	font: normal normal normal 22px/1 FontAwesome;
+	text-align: center;
+	vertical-align: middle;
+	transition: transform 500ms;
+	-webkit-transition: transform 500ms;
+	color: #000;
+	opacity: 0.92;
+}
+
+.or-icon-plus::before {
+	content: "\f067";
+	font-family: FontAwesome;
+	color: #fff;
+	position: relative;
+}
+
+.or-plus-box-active  .or-icon-plus::before  {  
+	content: "\f068";
+  color:#000;	
+}
+
+.or-plus-box-active .or-colorbg {
+	background-color:#fff;
+}
+
+.or-plus-box-active .plusboxxrubrik{ 
+	color: #fff;
+}
+
+/*Plusbox Diskret */
+.or-plus-box-diskret-header {
+	min-height: 30px;
+	padding-left: 13px;
+}
+
+.or-plus-box-diskret-header.or-colorborder{
+	border-color: rgb(237, 234, 234);
+}
+
+.or-plus-box-diskret-header .plusboxxrubrik {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-size: 13px;
+}
+
+.or-plus-box-diskret-header .or-collapse-button {
+	position: absolute;
+	right: 0px;
+	width: 45px;
+	height: 100%;
+	top: 0px;
+}
+
+.or-plus-box-diskret-header .or-collapse-button.or-colorbg {
+	background-color: #f9f9f8;
+	width: 35px;
+	border-left: 1px solid rgb(237, 234, 234);
+}
+
+.or-plus-box-diskret-header .or-icon-plus::before {
+	color: #857672;
+	font-size: 15px;
+	top: -1px;
+}
+
+.or-plus-box-diskret-content {
+	background-color: #fff;
+	padding: 15px;
+}
+
+.or-plus-box-diskret-header.or-plus-box-active .or-collapse-button {
+	background-color: #857672;
+}
+
+.or-plus-box-diskret-header.or-plus-box-active .or-icon-plus:before {
+	color: #fff;
+}
+
+.or-plus-box-diskret-header.or-plus-box-active .plusboxxrubrik {
+	color: #000;
+}
+
+
+/* Plusbox program */
+.or-plus-box-header.or-plus-box-program {
+  margin: 20px auto 0px;
+  padding: 0px 50px 0px 10px;
+}
+
+.or-plus-box-program p.plusboxxrubrik,
+.or-plus-box-program div.plusboxxrubrik {  
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 700;    
+  text-transform: none;
+  letter-spacing: normal;
+  display: inline-block;  
+  margin-top: 9px;
+  margin-bottom: 8px; 
+  padding: 0px;
+}
+
+.or-plus-box-program p.normal {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  margin-bottom: 0px;
+  color: #35383b;
+  display: inline;
+}
+
+.or-plus-box-content.or-plus-box-program p.normal {
+  display: inline;
+  margin-bottom: 10px;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-weight: 400;
+  list-style-type: disc;
+}
+
+
+.or-plus-box-program .or-collapse-button {
+  position: absolute;
+  right: 0px;
+  width: 37px;
+  height: 100%;
+  top: 0;   
+}
+
+.or-plus-box-header:hover .plusboxxrubrik {	
+	text-decoration: underline;
+}
+
+.or-plus-box-content.or-plus-box-program {
+  overflow-x: hidden;
+  overflow-y: hidden;  
+  margin-top: -1px;
+  margin-right: auto;
+  margin-left: auto;
+  border-right: 1px solid rgba(163, 163, 163, 0.3);
+  border-bottom: 1px solid rgba(163, 163, 163, 0.3);
+  border-left: 1px solid rgba(163, 163, 163, 0.3);
+}
+
+.or-plus-box-program .or-icon-plus {
+   font-size: 20px;
+}
+
+
+/* Plusbox program tabell*/
+
+.or-plus-box-program.or-plus-box-content.sv-table-portlet,
+.or-plus-box-program.or-plus-box-content.sv-standard,
+.or-program-tabell .or-plus-box-content {
+  padding: 0;
+}
+
+.or-program-tabell table {
+    border: 0;    
+}
+
+
+body:not(.sv-editing-mode) .or-plus-box-program.or-plus-box-content caption, body:not(.sv-editing-mode) .or-plus-box-content thead {	
+  display: none!important;
+}	 
+
+.or-plus-box-program.or-plus-box-content table {
+   margin:initial;
+}
+
+.or-plus-box-program.or-plus-box-content.sv-table-portlet tr td:first-child,
+.or-plus-box-program.or-plus-box-content.sv-table-portlet tr th:first-child,
+.or-plus-box-program.or-plus-box-content .sv-text-portlet-content table.sv-standard tr td:first-child,
+.or-plus-box-program.or-plus-box-content .sv-text-portlet-content table.sv-standard tr th:first-child  {
+  border: 0;
+  padding-left: 20px;  
+  width: 75%;
+}
+
+.or-plus-box-program.or-plus-box-content.sv-table-portlet tr td:last-child,
+.or-plus-box-program.or-plus-box-content.sv-table-portlet tr th:last-child,
+.or-plus-box-program.or-plus-box-content .sv-text-portlet-content table.sv-standard tr td:last-child,
+.or-plus-box-program.or-plus-box-content .sv-text-portlet-content table.sv-standard tr th:last-child  {
+  border: 0;
+  padding-right: 55px;
+}
+
+

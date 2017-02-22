@@ -249,61 +249,26 @@ li.sol_step.active:hover {
 
 
 /* Plusbox */
-.or-plus-box-header.or-colorborder {
-  border-color: #F4E4F4;
-}
-
-
-.or-plus-box-header.or-colorborder {
-  border-color: #F4E4F4;
-}
-
-.or-plus-box-header.or-plus-box-active {
-   background-color: #D196C1;
-}
-
-h4.plusboxxrubrik.or-plus-box-active {
-   color:white;
-}
-
-.or-collapse-button.or-colorbg.or-plus-box-active {
-  background-color: rgba(255,255,255,0.25);
-}
-
-
-.or-plus-box-header.or-colorborder {
-  border-color: #F4E4F4;
-}
-
-.or-plus-box-header.or-plus-box-active {
+.or-plus-box-header.or-plus-box-active:not(.or-plus-box-diskret-header) {
   background-color: #D196C1;
 }
 
-.or-wrapper-click.or-plus-box-header.or-colorborder.or-plus-box-active p.normal {
-    color: #FFF;
+.or-plus-box-active:not(.or-plus-box-diskret-header)  .or-icon-plus::before {
+	color: #D196C1;
 }
 
-.or-plus-box-program:hover .plusboxxrubrik {
-  color: #fff;
+.or-plus-box-header:hover .plusboxxrubrik{
+	color: #D196C1;
 }
 
-.or-plus-box-program .or-collapse-button {
-    background-color: #D196C1;
+.or-plus-box-active:not(.or-plus-box-diskret-header):hover .plusboxxrubrik{
+	color: #fff;
 }
 
 .or-programpoang {
-    border-color: #F4E4F4;
-    color: #D196C1;
+	border-color: #F4E4F4;
+	color: #D196C1;
 }
-
-.or-plus-box-program .or-collapse-button.or-plus-box-active {
-    background-color: #F4E4F4 !important;
-}
-
-.or-plus-box-program .or-icon-plus {
-    color: #D196C1;
-}
-
 
 
 /* Kontakta oss fristående */
@@ -354,14 +319,6 @@ h4.plusboxxrubrik.or-plus-box-active {
     border-color: rgba(136, 183, 213, 0) rgba(136, 183, 213, 0) rgba(136, 183, 213, 0) #D196C1;
 }
  
-/* Hover plusboxar */
-.or-wrapper-click.or-plus-box-header.or-colorborder:hover .plusboxxrubrik{
-	color: #D196C1;
-}
-
-.or-wrapper-click.or-plus-box-header.or-colorborder.or-plus-box-active .plusboxxrubrik {
-  color: #fff;
-}
 
 /* puffar */
 .or-puff-bild-trans-text > div:nth-child(2) {

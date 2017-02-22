@@ -247,67 +247,31 @@ li.sol_step.active:hover {
 
 
 /* Plusbox */
-.or-plus-box-header.or-colorborder {
-  border-color: #dcdcdc;
-}
-
-
-.or-plus-box-header.or-colorborder {
-  border-color: #dcdcdc;
-}
-
-.or-plus-box-header.or-plus-box-active {
-   background-color: #fff484;
-}
-
-h4.plusboxxrubrik.or-plus-box-active {
-   color:white;
-}
-
-.or-collapse-button.or-colorbg.or-plus-box-active {
-  background-color: rgba(255,255,255,0.25);
-}
-
-
-.or-plus-box-header.or-colorborder {
-  border-color: #dcdcdc;
-}
-
-.or-plus-box-header.or-plus-box-active {
-  background-color: #fff484;
-}
-
-.or-wrapper-click.or-plus-box-header.or-colorborder.or-plus-box-active p.normal {
-    color: #35383B;
-}
-
-.or-plus-box-program:hover .plusboxxrubrik {
-  color: #35383B;
-}
-
-.or-plus-box-program .or-collapse-button {
-    background-color: #FFF484;
-}
-
 .or-icon-plus::before {
-    content: "\f067";
-    font-family: FontAwesome;
-    color: #35383b;
-    position: relative;
+	color: #000;
 }
 
-.or-plus-box-program .or-collapse-button.or-plus-box-active {
-    background-color: #FFF484!important;
+.or-plus-box-header.or-plus-box-active:not(.or-plus-box-diskret-header) {
+  background-color: #FFF484;
+}
+
+.or-plus-box-active:not(.or-plus-box-diskret-header)  .or-icon-plus::before {
+	color: #35383b;
+}
+
+.or-plus-box-header:hover .plusboxxrubrik{
+	color: #35383b;
+}
+
+.or-plus-box-active:not(.or-plus-box-diskret-header) .plusboxxrubrik{
+	color: #000;	
 }
 
 .or-programpoang {
-    border-color:  #35383b;
-    color:  #35383b;
+	border-color:  #35383b;
+	color:  #35383b;
 }
 
-.or-icon-plus {
-    color: #35383B;
-}
 
 
 
@@ -365,15 +329,6 @@ h4.plusboxxrubrik.or-plus-box-active {
     color: #35383B;
 }
 
- 
-/* Hover plusboxar */
-.or-wrapper-click.or-plus-box-header.or-colorborder:hover .plusboxxrubrik{
-	color: #35383B;
-}
-
-.or-wrapper-click.or-plus-box-header.or-colorborder.or-plus-box-active .plusboxxrubrik {
-  color: #35383b;
-}
 
 /* puffar */
 .or-puff-bild-trans-text > div:nth-child(2) {
