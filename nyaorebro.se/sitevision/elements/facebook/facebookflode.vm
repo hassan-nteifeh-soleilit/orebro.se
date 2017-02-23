@@ -1,0 +1,46 @@
+#if ($show)
+<div class="sv-vertical sv-layout or-social-media-subpage">   
+	<div class="or-social-media-header facebook">
+		<span class="fa-stack fa-lg">
+         <i class="fa fa-circle fa-stack-2x"></i>
+         <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+      </span>
+      $!{scriptVariables.fbHeader}
+	</div>
+   #foreach($p in $posts)
+   #set ($class = $p.name.toLowerCase())
+   <div class="or-social-media-content $class">   
+      <div class="or-header">         
+         <i class="fa fa-clock-o"></i>
+         $p.timestamp      
+      </div>   
+      <div class="or-content or-wrapper-click">             
+         #if ($p.thumbnail)
+         <div class="or-social-image">
+            <img src="$p.thumbnail" class="or-img"></img>
+         </div>       	
+      	#end
+         <a href="$p.permalink">$p.text</a>   	        	
+      </div>	
+      #if($p.showStats)
+      <div class="or-stats or-clearfix">
+         #foreach ($stat in $p.stats)  
+            #if($stat.count >0)
+            <i class="fa $stat.icon"></i>$stat.count
+            #end
+         #end
+      </div>
+
+      #end
+
+   </div>
+
+
+   #end
+
+   <div class="or-follow">
+      <p class="normal"><a href="$followlink">Följ oss på Facebook</a></p>
+   </div>
+<div style="clear:both"></div>
+</div>
+#end

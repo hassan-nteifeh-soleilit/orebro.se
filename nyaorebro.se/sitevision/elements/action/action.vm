@@ -1,0 +1,13 @@
+<div class="or-elmt-actn or-wrapper-click $size">
+	<div class="or-elmt-actn-row">
+		<div class="or-elmt-actn-icon"><i class="fa $faIcon"></i></div>
+		<div class="or-elmt-actn-text">$!{url}</div>
+		<div class="or-elmt-actn-arrow"><i class="fa fa-chevron-right"></i></div>
+	</div>
+</div>
+
+#if($error)
+<div style="clear:both;">
+	$error
+</div>
+#end

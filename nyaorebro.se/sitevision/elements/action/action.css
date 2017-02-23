@@ -1,0 +1,159 @@
+﻿/* Element actions */ 
+.or-elmt-actn {
+   position:relative;
+   text-decoration: none;   
+   margin-top: 15px; 
+   margin-bottom: 15px;
+}
+
+.or-elmt-actn:hover .or-elmt-actn-link {
+    color: #E83C23;
+    text-decoration: underline;
+}
+
+.or-elmt-actn-row {
+   display: table;
+   width: 100%;
+   border-style: solid;
+   border-width: 1px;
+   border-color: rgb(53, 56, 59);
+   border-color: rgba(53, 56, 59, 0.09);
+   background-color: white;
+   color: #35383b;   
+}
+
+/* Box arrow */
+.or-elmt-actn-row:after {
+   left: 49px;
+   top: 50%;
+   border: solid transparent;
+   content: " ";
+   height: 0;
+   width: 0;
+   position: absolute;
+   pointer-events: none;
+   border-color: rgb(255, 255, 255);    
+	border-color: rgba(136, 183, 213, 0) rgba(136, 183, 213, 0) rgba(136, 183, 213, 0) ;
+   border-left-color: #E83C23;
+   border-width: 10px;
+   margin-top: -10px;
+}
+
+.or-elmt-actn-row > div {
+  display:table-cell;
+  vertical-align: middle;
+}
+
+.or-elmt-actn-icon {
+	width: 48px;
+	background-color: #E83C23;		
+   text-align: center;
+}
+
+.or-elmt-actn-text {	
+	height: 44px;
+}
+
+.or-elmt-actn-arrow {
+	width: 40px;
+   text-align: center;
+}
+
+.or-elmt-actn-icon i {
+   font-size: 22px;
+   color: white;
+}
+
+.or-elmt-actn-arrow i {
+   font-size: 17px;
+   color: #35383b;
+}
+
+.or-elmt-actn-link  {
+   font-family: "leaguespartan webfont",sans-serif;
+   font-style: normal;
+   text-decoration: none;
+   line-height: 16px;
+   font-size: 12px;
+   font-weight: 800;
+   box-shadow: none;
+	transition: all 100ms ease;
+	letter-spacing: 0.02em;
+   cursor: pointer;
+	color: #35383b;
+	padding: 14px 0 14px 22px;	
+	display:block;
+}
+
+
+/* Small version */
+.or-elmt-actn.or-small {
+   width: 84%;
+   margin-bottom: 25px;
+   margin-top: 0;
+   margin-left: 8%;
+}
+
+.or-small .or-elmt-actn-row:after {
+   left: 35px;		
+   border-width: 6px;
+   margin-top: -6px;
+}    		
+
+.or-small .or-elmt-actn-arrow {
+	width: 25px;
+}
+
+.or-small .or-elmt-actn-text {	
+	height: 34px;
+}
+
+.or-small .or-elmt-actn-icon {
+	width: 35px;
+}
+
+.or-small .or-elmt-actn-icon i {
+	font-size: 17px;
+   margin-top: 2px;
+}
+
+.or-small .or-elmt-actn-arrow i {
+	font-size: 13px;
+}
+
+.or-small .or-elmt-actn-link {
+   padding: 7px 0 7px 20px;
+   font-size: 12px;
+} 
+
+.topp-actions .or-elmt-actn { 
+   margin-bottom: 20px; 
+   margin-top: 5px; 
+}
+
+
+@media (max-width: 480px){
+   .or-elmt-actn-link {
+   	font-size: 12px;
+   }
+   
+   .or-elmt-actn.or-small {
+      width: 98%;      
+      margin-left: 1%;
+	}
+   
+   .or-small .or-elmt-actn-text {	
+		height: 30px;
+	}   
+   
+} /* end min 480 */
+
+@media (min-width: 1350px) {
+	.or-elmt-actn-link {
+    	font-size: 14px;
+	}   
+	   
+	.or-small .or-elmt-actn-link {
+    	font-size: 13px;
+	}  
+} /* end min 1350 */
