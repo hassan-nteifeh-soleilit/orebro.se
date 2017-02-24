@@ -7,6 +7,7 @@
 ## Specific properties
 #set ($currentPage = $contextUtil.getCurrentPage())
 #set ($readspeakerClass = $propertyUtil.getString($currentPage, 'readspeaker_class'))
+#set ($currentPageURI = $propertyUtil.getString($currentPage,'URI'))
 
 ##
 ## Portlet properties
@@ -16,7 +17,7 @@
 #set ($linkText = $propertyUtil.getString($portlet, 'linkText'))
 #set ($linkTextFont = $propertyUtil.getNestedString($portlet, 'linkTextFont', 'selectorText'))
 ##set ($linkURL = $propertyUtil.getString($portlet, 'linkURL'))
-#set ($linkURL = "http://app.readspeaker.com/cgi-bin/rsent?customerid=4332&lang=sv_se&readclass=$readspeakerClass&url=http%3A//ptsrv3007.orebro.se/2.3342eaed15109c3d1d1a581.html&voice=elin22k")
+#set ($linkURL = "http://app.readspeaker.com/cgi-bin/rsent?customerid=4332&lang=sv_se&readclass=$readspeakerClass&url=http%3A//ptsrv3007.orebro.se$currentPageURI&voice=elin22k")
 #set ($jsURL = $propertyUtil.getString($portlet, 'jsURL'))
 #set ($playerDivId = $propertyUtil.getString($portlet, 'playerDivId'))
 #set ($isOnline = $propertyUtil.getBoolean($portlet, 'isOnline'))

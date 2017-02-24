@@ -2,7 +2,7 @@
    <a class="or-mobile-nav-column search-column" href="$linkNode" id="mobileMenuLogo">
       <!--img class="or-logo" src="/images/18.3342eaed15109c3d1d112b6/1448986100508/orebro.svg" alt="logotype"-->
       <img class="or-logo" src="/images/18.242f1fb1556288bfbf1594c/1467796106738/Orebro_se-logo.png" alt="logotype">
-      <div class="or-header-bottomtext">Örebro kommun</div>      
+      <div class="or-header-bottomtext">Ã–rebro kommun</div>      
     </a>
 
     <a class="or-mobile-nav-column search-column" href="#" id="mobileMenuBtn">        
@@ -17,7 +17,7 @@
    
     <a class="or-mobile-nav-column search-column" href="#" id="searchBtn">         
       <i class="fa fa-search"></i>
-      <div class="or-mobile-nav-text">Sök</div>
+      <div class="or-mobile-nav-text">SÃ¶k</div>
     </a>  
    
       <a class="or-mobile-nav-column search-column" href="#0" id="or-id-readspeaker-mobile">         
@@ -70,7 +70,7 @@
 				 $("#searchBtn i.fa").removeClass('fa-close'); 
 				 $("#searchBtn i.fa").addClass('fa-search');               
 				 $("#searchBtn").removeClass("or-colorbg");
-				 $("#searchBtn .phone-nav-text").html("Sök");                 
+				 $("#searchBtn .phone-nav-text").html("SÃ¶k");                 
 			 }
              
 			if (hasContact && caller != "contact") {                                              
@@ -98,12 +98,12 @@
 					$(this).find($("i.fa")).removeClass('fa-comments'); 
 					$(this).find($("i.fa")).addClass('fa-close');               
 					$(this).addClass("or-colorbg");
-					$(this).find($(".phone-nav-text")).html("Stäng");                                           
+					$(this).find($(".phone-nav-text")).html("StÃ¤ng");                                           
 					closeAllOthers("contact");
 				}						
 			});                   
 		} else { 				
-			// Döljer kontakt och tyck till om det inte finns på sidan     
+			// DÃ¶ljer kontakt och tyck till om det inte finns pÃ¥ sidan     
 			$("#contactBtn .fa-comments").hide(); 			
 			$("#contactBtn .or-mobile-nav-text").hide();  
 			$("#contactBtn").addClass("disabled");     				
@@ -117,14 +117,14 @@
 				$(this).find("i.fa").removeClass('fa-close'); 
 				$(this).find("i.fa").addClass('fa-search');               
 				$(this).removeClass("or-colorbg");
-				$(this).find(".phone-nav-text").html("Sök");                              
+				$(this).find(".phone-nav-text").html("SÃ¶k");                              
 				$("header").removeClass("or-search-mobile");
 			}else {               				
 				$("header").addClass("or-search-mobile");
 				$(this).find("i.fa").removeClass('fa-search'); 
 				$(this).find("i.fa").addClass('fa-close');               
 				$(this).addClass("or-colorbg");
-				$(this).find(".phone-nav-text").html("Stäng");               
+				$(this).find(".phone-nav-text").html("StÃ¤ng");               
 				closeAllOthers("search");               
 			}           
 		});
@@ -140,7 +140,7 @@
 				$(this).find("i.fa").removeClass('fa-bars'); 
 				$(this).find("i.fa").addClass('fa-close');               
 				$(this).addClass("or-colorbg");
-				$(this).find(".phone-nav-text").html("Stäng");
+				$(this).find(".phone-nav-text").html("StÃ¤ng");
 				slideMobileMenu(true);
 				closeAllOthers("menu");
 			}                                     
