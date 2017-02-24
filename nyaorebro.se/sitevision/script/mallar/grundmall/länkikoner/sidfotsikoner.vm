@@ -1,9 +1,9 @@
 <div>   
 	<div class="or-footer-icon-links">
 		<a href="#contact" class="or-footer-icon-links-item" id="or-id-contact"><i class="fa fa-comments"></i>Kontakta och tyck till</a>
-		<a href="/ovrigt/e-tjanster-och-blanketter.html" id="or-id-footer-link-selfservice" class="or-footer-icon-links-item"><i class="fa fa-pencil-square-o"></i>E-tj‰nster och blanketter</a> 
+		<a href="/ovrigt/e-tjanster-och-blanketter.html" id="or-id-footer-link-selfservice" class="or-footer-icon-links-item"><i class="fa fa-pencil-square-o"></i>E-tj√§nster och blanketter</a> 
 		<a href="http://karta.orebro.se/#0&1;0&2&161336.81178;6574488.06599&-1&&" id="or-id-footer-link-map" class="or-footer-icon-links-item"><i class="fa fa-map-marker"></i>Karta</a>  
-		<a href="/ovrigt/sprak---languages/teckensprak.html" id="or-id-footer-link-signlanguage" class="or-footer-icon-links-item"><i class="fa fa-sign-language"></i>TeckensprÂk</a>   		
+		<a href="/ovrigt/sprak---languages/teckensprak.html" id="or-id-footer-link-signlanguage" class="or-footer-icon-links-item"><i class="fa fa-sign-language"></i>Teckenspr√•k</a>   		
       <a href="#" id="or-id-footer-link-languages" class="or-js-language-footer or-footer-icon-links-item"><i class="fa fa-language"></i>Translate</a>
 		<a href="#" class="or-js-share-footer or-footer-icon-links-item" id="or-id-footer-link-share"><i class="fa fa-share-alt"></i>Dela</a>
 		<a href="/ovrigt/inloggning.html" id="or-id-footer-link-login" class="or-footer-icon-links-item"><i class="fa fa-sign-in"></i>Inloggning</a>
@@ -14,24 +14,24 @@
 	<div class="or-addthis-container-footer" style="display:none">    
 		 <ul class="sharebuttonlist sharebuttonlist--horizontal"> 
 				<li class="sharebuttonlist__item"> 
-					 <!-- Dela pÂ Facebook --> 
-					 <a href="http://www.facebook.com/sharer.php?u=${url}"  rel="external"  class="sharebutton sharebutton--facebook sharebutton--icon-facebook" title="Dela pÂ Facebook"></a> 
+					 <!-- Dela p√• Facebook --> 
+					 <a href="http://www.facebook.com/sharer.php?u=${url}"  rel="external"  class="sharebutton sharebutton--facebook sharebutton--icon-facebook" title="Dela p√• Facebook"></a> 
 				</li> 
 				<li class="sharebuttonlist__item">
-					 <!-- Dela pÂ Twitter -->
-					 <a href="http://twitter.com/intent/tweet?text=${url}"  rel="external" class="sharebutton sharebutton--twitter sharebutton--icon-twitter" title="Dela pÂ Twitter"></a>  
+					 <!-- Dela p√• Twitter -->
+					 <a href="http://twitter.com/intent/tweet?text=${url}"  rel="external" class="sharebutton sharebutton--twitter sharebutton--icon-twitter" title="Dela p√• Twitter"></a>  
 				</li>
 				<li class="sharebuttonlist__item">
-					 <!-- Dela pÂ LinkedIn -->
-					 <a href="http://www.linkedin.com/shareArticle?mini=true&url=${url}" rel="external" class="sharebutton sharebutton--linkedin sharebutton--icon-linkedin" title="Dela pÂ LinkedIn"></a>
+					 <!-- Dela p√• LinkedIn -->
+					 <a href="http://www.linkedin.com/shareArticle?mini=true&url=${url}" rel="external" class="sharebutton sharebutton--linkedin sharebutton--icon-linkedin" title="Dela p√• LinkedIn"></a>
 				</li>
 				<li class="sharebuttonlist__item">
 					 <!-- Dela via email -->
 					 <a href="mailto:?body=${url} &subject=${pageName}"  class="sharebutton sharebutton--email sharebutton--icon-email" title="Dela via email"></a> 
 				</li> 
 				## <li class="sharebuttonlist__item">
-				##   <!-- Dela pÂ Google+ --> 
-				##   <a href="https://plus.google.com/share?url=${url}"  rel="external" class="sharebutton sharebutton--gplus sharebutton--icon-gplus" title="Dela pÂ Google+"></a>
+				##   <!-- Dela p√• Google+ --> 
+				##   <a href="https://plus.google.com/share?url=${url}"  rel="external" class="sharebutton sharebutton--gplus sharebutton--icon-gplus" title="Dela p√• Google+"></a>
 				## </li> 
 		 </ul>
 	</div>
@@ -48,7 +48,7 @@
   		new google.translate.TranslateElement({pageLanguage: 'sv', gaTrack: true, gaId: 'UA-4830769-1'}, 'google_translate_element');
 		}</script>
 	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-  <p class="normal"><a href="http://www.orebro.se/4.24bb62e31573732d6851465.html">÷rebro municipality in other languages</a></p>
+  <p class="normal"><a href="http://www.orebro.se/4.24bb62e31573732d6851465.html">√ñrebro municipality in other languages</a></p>
   <a href="#" class="or-language-modal-close"><i class="fa fa-close"></i>Close</a>
 </div>
 
