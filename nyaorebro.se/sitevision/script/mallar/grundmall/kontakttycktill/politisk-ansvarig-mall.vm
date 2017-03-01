@@ -1,0 +1,50 @@
+## =====================================================
+## Copyright (C) SiteVision AB 2010, all rights reserved
+## This portlet uses the SiteVision Public API
+## =====================================================
+#set ($propertyUtil = $sitevisionUtils.propertyUtil)
+#set ($useHeading = $propertyUtil.getBoolean($portlet, 'useHeading'))
+
+#if ($useHeading && (!$related.isEmpty() || !$propertyUtil.getBoolean($portlet, 'hideEmpty')))
+   #set ($outputUtil = $sitevisionUtils.outputUtil)
+   #set ($heading = $propertyUtil.getString($portlet, 'heading', ''))
+   #set ($headingFont = $propertyUtil.getNode($portlet, 'headingFont'))
+   #set ($space = $propertyUtil.getString($portlet, 'space', ''))
+
+   ## Render heading
+	$outputUtil.getEscapedHtmlText($heading, $headingFont)
+   #if ($space != '')
+		<div style="display:block; margin-top:${space}"><!-- Space --></div>
+   #end
+#end
+#if (!$related.isEmpty())
+   #set ($relatedClass = $propertyUtil.getNestedString($portlet, 'relatedFont', 'selectorText'))
+   #set ($instanceTypeUtil = $sitevisionUtils.instanceTypeUtil)
+   #set ($endecUtil = $sitevisionUtils.endecUtil)
+   #set ($linkRenderer = $sitevisionUtils.linkRenderer)
+   $linkRenderer.setFontClass($relatedClass)
+
+   <ul class="sv-defaultlist">
+   #foreach($item in $related)
+      #if ($instanceTypeUtil.isNode($item))
+         #if ($linkRenderer.isValidTarget($item))
+            $linkRenderer.update($item)            
+            <li>$linkRenderer.render()</li>
+         #end
+      #else
+         <li class="kontaktaxossxxxbrodtext $relatedClass">$endecUtil.escapeXML(${item})</li>
+      #end
+   #end
+   </ul>      
+#end
+
+<script type="text/javascript">
+//or-politiskt-ansvarig
+$( document ).ready(function() {
+  
+  if($related.isEmpty()){
+        $('.or-politiskt-ansvarig').hide();
+    }
+});
+
+</script>
