@@ -1,6 +1,6 @@
-## Inst‰llningar
+## Inst√§llningar
 #set ($PAGE_SIZE = 4)
-#set ($TEXT_MAX_LENGTH = 150)
+#set ($TEXT_MAX_LENGTH = 105)
 
 ##
 ## Utility API
@@ -28,12 +28,12 @@
 #end
 
 
-<div class="or-start-heading-divider or-left" ><div class="sv-text-portlet-content"><p class="normal">Nyheter frÂn ÷rebro kommun</p></div></div>
+<div class="or-start-heading-divider or-left" ><div class="sv-text-portlet-content"><p class="normal">Nyheter fr√•n √ñrebro kommun</p></div></div>
 <ul class="or-news-list or-small">
 	#foreach ($hit in $searchResult.hits)   
 		#if($velocityCount > $PAGE_SIZE)			
    	<div class="or-btn">
-        <a href="" class="or-more-news">Fler nyheter</a> 
+        <a href="/nyhetslistning.4.5ab4ab37154229e2ec86e25.html" class="or-more-news">Fler nyheter</a> 
    	</div>   	  
    	#break
 		#end   

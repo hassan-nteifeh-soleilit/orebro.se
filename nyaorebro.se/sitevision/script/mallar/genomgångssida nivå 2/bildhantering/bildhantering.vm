@@ -1,0 +1,14 @@
+#if ($topImgUrl)
+<script>   
+   (function($) {
+      $(document).ready(function() {
+         if ( $('.or-mobile-menu-bar').css('display') == 'none' ) {
+            var jQObject = $('section.or-top-header');
+            jQObject.addClass('or-top-img-area');
+            jQObject.removeClass('or-top-header')     	
+            jQObject.css({ "background-image": "url(${topImgUrl})" });            
+         } 
+      });
+   })(jQuery);
+</script>
+#end

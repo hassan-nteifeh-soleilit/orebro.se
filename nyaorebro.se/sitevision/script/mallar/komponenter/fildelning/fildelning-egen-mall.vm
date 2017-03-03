@@ -1,0 +1,76 @@
+#set ($confirm = $i18n.getText('confirmDelete'))
+#if ($allowDelete)
+   #set ($cspan = 4)
+#else
+   #set ($cspan = 3)
+#end
+#if ($shortFileList)
+   #set ($cspan = $cspan - 2)
+#end
+#if ($filesFolderLast)
+   #set ($fileList = $filesFolderLast)
+#else
+   #set ($fileList = $filesFolderFirst)
+#end
+
+
+
+#if ($showFolder)
+   #createRenderURL($url)
+   $url.setParameter("folder",$showFolder.toString())
+   <tr>
+      <td>
+         <img alt="" src="/sitevision/util/images/folderup.gif" class="sv-noborder" />
+      </td>
+      <td colspan="$cspan" style="width:100%">
+         <a class="$!folderClass" title="$i18n.getText('previous')" href="$url">$i18n.getText('previous')</a>
+      </td>
+   </tr>
+#end
+#foreach ($file in $fileList)
+
+
+   #if ($file.mimeType)
+      $linker.setFontClass($fileClass)
+      $linker.setTarget($file)
+      $linker.setText($file.name)
+      
+      <div class="or-clearfix or-file-list-row or-simple-file-list-row or-wrapper-click">         
+            #if ($file.getLargeIcon($locale))
+              #set ($anIcon = $file.getLargeIcon($locale))
+              <div class="or-document-icon-container">
+               <img class="or-file-icon-simple-list" alt="$!anIcon.description" src="$anIcon.URL" class="sv-noborder" />
+              </div>
+              
+            #end         
+            <div class="or-clearfix or-file-name-container">
+              <div class="or-file-document-list"><span class="or-contentlinks">$linker.render()</span></div>
+            </div>
+            
+        #if (!$shortFileList)
+
+          <div class="or-document-weight">
+            <div class="or-file-size-simple-list or-file-size-after">${portlet.getSizeString($file)}</div>
+          </div>
+            
+         <!--td style="white-space:nowrap; text-align:right">
+            &nbsp;${portlet.getDateString($file)}
+         </td-->
+      #end      
+    </div>
+   #else
+      #createRenderURL($url)
+      $url.setParameter("folder",$file.toString())
+      <tr>
+         <td>
+            #if ($file.getLargeIcon($locale))
+              #set ($anIcon = $file.getLargeIcon($locale))
+              <img alt="$!anIcon.description" src="$anIcon.URL" class="sv-noborder" />
+            #end
+         </td>
+         <td colspan="$cspan" style="width:100%">
+            <a class="$!folderClass" title="" href="$url">$portlet.xhtmlOutputUtil.encodeText($file.name)</a>
+         </td>
+      </tr>
+   #end
+#end

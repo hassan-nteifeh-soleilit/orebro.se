@@ -1,0 +1,12 @@
+#if ($topImgUrl)
+<script>   
+   (function($) {
+      $(document).ready(function() {    
+         // Stor bagrundsbild om det är i desktop
+         if ($('.or-mobile-menu-bar').css('display') === 'none') {         
+            $(".or-bg-one").css({ "background-image": "url(${topImgUrl})" });
+         }      
+      });
+   })(jQuery);
+</script>
+#end

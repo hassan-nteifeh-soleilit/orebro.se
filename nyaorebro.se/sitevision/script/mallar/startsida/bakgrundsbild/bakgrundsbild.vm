@@ -1,5 +1,9 @@
 #if($imageUrl)
 <script>
-   $(".hero-startsida").css("background-image","url('$imageUrl')");   
+   (function($) {
+      $(document).ready(function() {  
+         $(".hero-startsida").css("background-image","url('$imageUrl')");  
+      });
+   })(jQuery);	 
 </script>
 #end
