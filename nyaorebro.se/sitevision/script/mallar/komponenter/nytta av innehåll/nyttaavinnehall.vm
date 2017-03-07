@@ -1,5 +1,5 @@
 <div class="sv-clearfix or-findwrapper">
-   <div class="or-sharetext">Hade du nytta av innehållet på den här sidan?</div>
+   <div class="or-sharetext">Hade du nytta av innehÃ¥llet pÃ¥ den hÃ¤r sidan?</div>
    <div class="or-thumbs">
      <a class="or-thumbup thumbdown" href="#or-id-thx-mail" id="id-or-help-us-no" style="transition: all 0.5s ease 0s; -webkit-transition: all 0.5s ease 0s;">
        <div>Nej</div>
@@ -13,28 +13,28 @@
 <!-- NEJ-->
 <div class="or-helpus" id="id-or-useful-no" style="display: none;">  
    <div class="w-form-done">
-      <h2 class="or-helpusheading" id="or-id-thx-mail">Tack för ditt svar!</h2>      
+      <h2 class="or-helpusheading" id="or-id-thx-mail">Tack fÃ¶r ditt svar!</h2>      
   </div> 
    
   <div class="or-w-form or-forms formwidth">
     <form id="id-or-email-form" name="or-email-form" data-name="Email Form" action="javascript:sendMail();">
-      <label class="or-fieldlabelhelpus" for="field-2">Berätta vad vi kan göra bättre på den här sidan för att förbättra webbplatsen!</label>
+      <label class="or-fieldlabelhelpus" for="field-2">BerÃ¤tta vad vi kan gÃ¶ra bÃ¤ttre pÃ¥ den hÃ¤r sidan fÃ¶r att fÃ¶rbÃ¤ttra webbplatsen!</label>
       <textarea class="w-input or-helpusinput formwidth" id="field" placeholder="Meddelande" name="field" data-name="Field"></textarea>      
       <input class="normal" type="submit" value="Skicka in din kommentar" data-wait="Please wait..." />
     </form>
   </div>
   
-  <p class="or-helpustext">Vi har ingen möjlighet att svara, men dina synpunkter är värdefulla för oss. </p>             
+  <p class="or-helpustext">Vi har ingen mÃ¶jlighet att svara, men dina synpunkter Ã¤r vÃ¤rdefulla fÃ¶r oss. </p>             
 </div>
 
 <!-- JA -->
 <div class="or-helpyes" id="id-or-useful-yes" style="display: none;">
   <div class="or-w-form-done">
-   <h2 class="or-helpusheading">Tack för ditt svar!</h2>  
+   <h2 class="or-helpusheading">Tack fÃ¶r ditt svar!</h2>  
   </div>   
              
   <form id="or-email-form-2" name="email-form-2">
-      <label class="or-fieldlabelhelpus" for="field-2">Du har nu hjälpt oss att förbättra orebro.se</label>
+      <label class="or-fieldlabelhelpus" for="field-2">Du har nu hjÃ¤lpt oss att fÃ¶rbÃ¤ttra orebro.se</label>
   </form>
   
 </div>
