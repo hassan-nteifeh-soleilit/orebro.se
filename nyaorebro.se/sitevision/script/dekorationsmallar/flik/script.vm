@@ -13,7 +13,7 @@
 jQuery(document).ready(function() {
    var $ = jQuery;
    var clicks = 0;
-   ## Den container som innehåller alla tabbar
+   ## Den container som innehÃ¥ller alla tabbar
    var tabsContainer = $("#" + "$tabButtonContainerId").closest(".sol-js-tabs-container");
    ## Alla tabbar
    var tabsContent = tabsContainer.find(".sv-decoration-content > div");
@@ -30,10 +30,10 @@ jQuery(document).ready(function() {
       $(tabsContent[index]).prepend("<h3 class='sol-accordion-heading' data-tab-index='" + (index+1) + "'>" + title + "</h3>");
 
       var onTabClick = function() {
-         ## Ta bort sol-tab-active på alla
+         ## Ta bort sol-tab-active pÃ¥ alla
          tabButtons.removeClass("sol-tab-active");
 
-         ## Sätter sol-tab-active på den klickade fliken
+         ## SÃ¤tter sol-tab-active pÃ¥ den klickade fliken
          $(this).addClass("sol-tab-active");
 
          tabsContent.hide();
