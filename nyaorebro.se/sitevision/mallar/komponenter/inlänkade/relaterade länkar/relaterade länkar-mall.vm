@@ -4,11 +4,12 @@
    <div class="or-teaser-box or-related-links">
      <div class="or-title"><span><i class="fa fa-link fa-lg"> </i>Länkar</span></div>
      <div class="or-text-content">
+   #set ($relatedClass = $propertyUtil.getNestedString($portlet, 'relatedFont', 'selectorText'))
    #set ($instanceTypeUtil = $sitevisionUtils.instanceTypeUtil)
    #set ($endecUtil = $sitevisionUtils.endecUtil)
    #set ($linkRenderer = $sitevisionUtils.linkRenderer)
    $linkRenderer.setFontClass("")
-   $linkRenderer.setUseEncoding(false)      
+   $linkRenderer.setUseEncoding(false)   
        <ul class="or-teaser-list">
    #foreach($item in $related)      
       #if ($instanceTypeUtil.isNode($item))      
@@ -16,7 +17,8 @@
             $linkRenderer.update($item)            
             $linkRenderer.setText("<span class=""or-link-name"">$item</span>")                            
             <li>$linkRenderer.render()</li>
-         #end         
+         #end
+         ##$outputUtil.getNodeInfoAsHTML($item)
       #else
          <li>$endecUtil.escapeXML(${item})</li>
       #end
