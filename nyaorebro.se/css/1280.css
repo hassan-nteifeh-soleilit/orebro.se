@@ -357,6 +357,7 @@ body .or-content-container .or-tir p, body .or-content-container .or-tir p a:lin
 /*  formulär */
 
 .sv-defaultFormTheme .sv-form-singleselectionfield label, .sv-defaultFormTheme .sv-form-multipleselectionfield label, .sv-formFieldRow span {
+    font-size: 21px;
 }
 
 .icheckbox_flat-red {
