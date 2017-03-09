@@ -31,7 +31,7 @@ $velocityEvaluator.evaluate($searchFormScriptTemplate)
 <form id="or-search-form" method="get" action="$submitURL" class="sv-nomargin sv-column-8">
       <!--h1 class="visuallyhidden">Sökresultat</h1-->
       <label for="$searchInputId" class="svhidden">$searchText</label>
-      <input id="$searchInputId" class="$fieldClass sv-vamiddle" type="text" name="$queryParameter"#if ($isHtml5) placeholder="$escapedSearchHereText"#end value="$escapedSearchFieldText" />
+      <input id="$searchInputId" class="$fieldClass sv-vamiddle" type="text" name="$queryParameter"#if ($isHtml5) placeholder="$escapedSearchHereText"#end value="$escapedSearchFieldText" autocomplete="off"/>
       #if (!$useTextButton && $propertyUtil.getNode($portlet, 'searchButtonImage'))
          #set ($imageURL = $propertyUtil.getNestedString($portlet, 'searchButtonImage', 'URI'))
          <input id="$searchButtonId" type="image" class="$buttonClass sv-vamiddle" name="submitButton" alt="$searchText" src="$imageURL" />
