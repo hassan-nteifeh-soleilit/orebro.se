@@ -63,6 +63,15 @@ if(related !== null && related.size()>0){
 				'</div>' +
 				'</a>';
 			}
+			// Snapchat
+			if(nodeURL.indexOf("youtube") > -1){
+				output += '<a class="or-social-icon" href="' + nodeURL + '">' +
+				'<div class="fa-stack fa-lg">' +
+				'<i class="fa fa-circle fa-stack-2x or-social-icon-bg"></i>' +
+				'<i class="fa fa-snapchat-ghost fa-stack-1x fa-inverse or-social-icon-fg"></i>' +
+				'</div>' +
+				'</a>';
+			}
 		}
 		 		
 	}

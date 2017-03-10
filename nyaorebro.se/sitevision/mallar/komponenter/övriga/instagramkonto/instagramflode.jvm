@@ -1,0 +1,24 @@
+#if($show)
+<div class="or-instagram-header">
+  <div class="or-instagram-block">
+     <i class="fa fa-camera-retro fa-2x or-social-heading-icon"></i>
+    <div class="or-social-heading-text">Instagram</div>
+  </div>
+</div>
+<div id="instafeed"></div> 
+<div class="or-social-link"><p class="normal"><a class="or-social-content-links" href="https://instagram.com/${username}/">Se fler instagrambilder</a></p></div>
+<div class="or-social-link or-social-right" style="margin-bottom:35px"><p class="normal"><a class="or-social-content-links" href="https://instagram.com/${username}/"><span class="or-hashtag-text">@${username}</span></a></p></div>
+<script type="text/javascript">                                         
+       var userFeed = new Instafeed({
+           get: 'user',
+           userId: $instagramAccount,
+           accessToken: '$instagramToken',
+           sortBy: 'most-recent',
+           limit:6,
+           template: '<div class="or-instagram-container or-instagram-container-subpage or-wrapper-click" id="{{id}}" data-alt="{{model.user.username}}"><a href="{{link}}"><img class="or-instagram-image" src="{{image}}"></a><div class="or-instagram-text">{{caption}}</div><div class="w-clearfix or-instagram-feedback"><i class="fa fa-heart or-instagram-icon or-icon-red"></i><div class="or-instagram-counter">{{likes}}</div><i class="fa fa-comment or-instagram-icon or-icon-black"></i><div class="or-instagram-counter">{{comments}}</div></div></div>',
+           links:true
+       });
+       userFeed.run();
+   
+</script>
+#end
