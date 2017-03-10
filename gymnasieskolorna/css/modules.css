@@ -1316,23 +1316,11 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
   padding: 0px;
 }
 
-.or-plus-box-program p.normal {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  margin-bottom: 0px;
-  color: #35383b;
-  display: inline;
-}
-
-.or-plus-box-content.or-plus-box-program p.normal {
-  display: inline;
-  margin-bottom: 10px;
-  font-family: 'Open Sans', sans-serif;
-  color: black;
-  font-weight: 400;
+.or-plus-box-program p.normal {  
+  margin-bottom: 10px;    
+	font-weight: 400;
   list-style-type: disc;
 }
-
 
 .or-plus-box-program .or-collapse-button {
   position: absolute;
