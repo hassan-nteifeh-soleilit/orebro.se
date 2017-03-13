@@ -577,12 +577,7 @@ body .sol-accordion-heading {
     display: block;
 }
 
-/* formulär */
-
-.sv-defaultFormTheme .sv-form-singleselectionfield label, .sv-defaultFormTheme .sv-form-multipleselectionfield label, .sv-formFieldRow span {
-    font-size: 16px;
-}
-
+/* Restaurangtillstånd */
 .or-tillstand-restaurang .FlikValdText,.or-tillstand-restaurang .FlikEjValdBg,.or-tillstand-restaurang .FlikValdBg:first-child {
         padding: 3px 1px;
         font-size: 14px;
