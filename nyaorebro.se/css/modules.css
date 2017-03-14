@@ -2860,12 +2860,6 @@ input[type="file" i]::-webkit-file-upload-button:hover {
 }
 
 .or-news-filter .or-category,.or-news-filter .or-daterange {
-/*    background-color: #FFFFFF;
-    height: 33px;
-    margin-bottom: 20px;
-    border-top-left-radius: 2px;
-    border-bottom-left-radius: 2px;
-*/
     position: relative;
 }
 
@@ -2899,8 +2893,7 @@ input[type="file" i]::-webkit-file-upload-button:hover {
 
 .or-category .or-toggle-icon,.or-daterange .or-toggle-icon {
     position: absolute;
-    right: 0;
-    top: 0;
+    right: 0;    
     margin-top: 0;
     height: 100%;
     border: 1px solid #edeaea;
