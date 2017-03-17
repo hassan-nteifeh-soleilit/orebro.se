@@ -1280,3 +1280,30 @@ nav.or-secondary .or-content ul li a:hover p {
 	-ms-overflow-style:none;  
 }
 
+/**************************
+Additional
+**************************/
+
+* {
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+   
+.w-inline-block {
+ max-width: 100%;
+ display: inline-block;
+}
+
+.or-clearfix:before,
+.or-clearfix:after,
+.w-clearfix:before,
+.w-clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.or-clearfix:after,
+.w-clearfix:after {
+  clear: both;
+}
