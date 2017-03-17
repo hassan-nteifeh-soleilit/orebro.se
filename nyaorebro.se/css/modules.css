@@ -382,6 +382,9 @@ color: #f28c00;
     font-family: futura-pt,sans-serif;
     font-size: 15px;
     text-align: center;
+	box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
 }
 
 /* Kalender veckonummer kolumn*/
