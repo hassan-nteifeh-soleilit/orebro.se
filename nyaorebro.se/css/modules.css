@@ -3132,7 +3132,7 @@ body .or-article-main .sv-responsiveTable--stacked__headRow p {
 
 #readspeaker_player_div {
     position: relative;
-    left: 25px;
+    left: 53px;
     top: 48px;
 }
 
@@ -5421,7 +5421,7 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
 /* Listan med knappar */
 .or-addthis-container {
     position: absolute;
-    right: 77px;
+    right: 10px;
     top: 48px;
 }
 
