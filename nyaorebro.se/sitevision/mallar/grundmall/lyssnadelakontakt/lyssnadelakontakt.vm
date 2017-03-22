@@ -1,10 +1,10 @@
 <div class="or-tool-wrapper">
-   <div class="or-tool-area">
-     <a href="#contact" data-target=".or-kontakt-och-tyck-till" id="or-id-contact"><i class="fa fa-comments"></i>Kontakta och tyck till</a>
+   <div class="or-tool-area">     
      #if($showShare == "Ja")
       <a href="#" class="or-js-share"><i class="fa fa-share-alt"></i>Dela</a>
      #end
      <a href="#" id="or-id-readspeaker"><i class="fa fa-volume-up"></i>Lyssna</a>    
+		 <a href="#contact" data-target=".or-kontakt-och-tyck-till" id="or-id-contact"><i class="fa fa-comments"></i>Kontakta oss</a>
    </div>
    <div id="readspeaker_player_div" class="rs_skip rs_preserve"> </div>    
 </div>
