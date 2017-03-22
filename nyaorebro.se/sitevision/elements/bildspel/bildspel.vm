@@ -1,0 +1,16 @@
+#if ($folder)
+<ul class="bxslider">
+   #foreach ($image in $folder)
+   $ImageRenderer.update($image)
+   <li>$ImageRenderer.render()</li>
+   #end
+</ul>
+#end
+<script type="text/javascript">
+   $(document).ready(function() {
+      $('.bxslider').bxSlider({
+         captions: true,
+         useCSS: true
+      });
+   });
+</script>
