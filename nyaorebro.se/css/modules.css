@@ -305,6 +305,17 @@ form.or-search-field button:hover {
     text-decoration: underline;
 }
 
+.or-news-list-container {
+    text-decoration: none;
+    text-align: left;
+    min-height: 140px;
+    padding: 10px 15px;
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.04);
+    color: #35383b;
+    background-color: white;
+    width: 100%;
+}
+
 /* Kalender */
 .or-month-container {
     position: relative;
@@ -366,6 +377,9 @@ form.or-search-field button:hover {
     font-family: futura-pt,sans-serif;
     font-size: 15px;
     text-align: center;
+	box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
 }
 
 /* Kalender veckonummer kolumn*/
