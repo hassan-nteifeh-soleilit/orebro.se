@@ -547,6 +547,11 @@ p.or-close-text {
 body {
     padding-top: 95px;
 }
+
+/*puff startsida */
+.or-puff-instagram {    
+    width: 46%;
+  }
 } /*end max 767 */
 
 @media all and (max-width: 766px){
@@ -585,11 +590,19 @@ body {
 }
 } /* End max 680 */
 
+@media  (max-width: 640px) {
+  .or-puff-instagram {    
+    width: 100%;
+  }
+} /* End max 640 */
+
 @media (min-width: 640px) {
 .or-puff-instagram {
     width: 29%;
 }
 } /* End min 640 */
+
+
 
 
 /* skolwebbar */
@@ -737,11 +750,7 @@ width:65%;
   margin-left: auto;
 }
 
-/* kampanjmall */
-.or-puff-instagram {
- width: 28%;
-}
-
+/* kampanjmall */ 
  .or-sketch-text-campaign {
    display:none;
 }
