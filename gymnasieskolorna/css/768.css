@@ -604,7 +604,7 @@ body {
 
 
 
-
+@media all and (max-width: 768px){
 /* skolwebbar */
 .or-school-heading {
     position: absolute;
@@ -1018,5 +1018,5 @@ header.or-search-mobile .search-form-header-2 {
 .or-modal-content {
     padding: 0px;
 }
-
+}
 
