@@ -56,7 +56,7 @@
 
 .bx-wrapper .bx-loading {
 	min-height: 50px;
-	background: url(http://extra.orebro.soleilit.se/images/18.63f6cfe814c92f48f50c5b/1428495480157/bx_loader.gif) center center no-repeat #fff;
+	background: url(/images/18.b788a2515ae04a3e471fd0/1490776903743/bx_loader) center center no-repeat #fff;
 	height: 100%;
 	width: 100%;
 	position: absolute;
@@ -105,12 +105,12 @@
 
 .bx-wrapper .bx-prev {
 	left: 10px;
-	background: url(http://extra.orebro.soleilit.se/images/18.63f6cfe814c92f48f50c5c/1428495481124/controls.png) no-repeat 0 -32px;
+	background: url(/images/18.b788a2515ae04a3e471fd1/1490776907924/controls) no-repeat 0 -32px;
 }
 
 .bx-wrapper .bx-next {
 	right: 10px;
-	background: url(http://extra.orebro.soleilit.se/images/18.63f6cfe814c92f48f50c5c/1428495481124/controls.png) no-repeat -43px -32px;
+	background: url(/images/18.b788a2515ae04a3e471fd1/1490776907924/controls) no-repeat -43px -32px;
 }
 
 .bx-wrapper .bx-prev:hover {
@@ -148,7 +148,7 @@
 	width: 10px;
 	height: 11px;
 	outline: 0;
-	background: url(http://extra.orebro.soleilit.se/images/18.63f6cfe814c92f48f50c5c/1428495481124/controls.png) -86px -11px no-repeat;
+	background: url(/images/18.b788a2515ae04a3e471fd1/1490776907924/controls) -86px -11px no-repeat;
 	margin: 0 3px;
 }
 
@@ -163,7 +163,7 @@
 	width: 9px;
 	height: 11px;
 	outline: 0;
-	background: url(http://extra.orebro.soleilit.se/images/18.63f6cfe814c92f48f50c5c/1428495481124/controls.png) -86px -44px no-repeat;
+	background: url(/images/18.b788a2515ae04a3e471fd1/1490776907924/controls) -86px -44px no-repeat;
 	margin: 0 3px;
 }
 
