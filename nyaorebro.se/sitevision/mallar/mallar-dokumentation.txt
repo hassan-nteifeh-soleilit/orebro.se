@@ -1,0 +1,195 @@
+Grundmall
+
+	- Google Tag Manager
+		Klient javascript för Google tag manager
+		
+	- Krismeddelande-layout		
+		- Krisruta
+			Skriver ut krismeddelande i headern om en artikel är publicerad i arkivet Krisruta.
+			Om artikeln har ingress blir det modell större krisruta.
+			Om artikeln saknar ingress blir det modell mindre krisruta.
+			Metadatat Krismeddelandelänk på artikeln styr vilken artikel som det ska länkas till.
+	
+	-AccepteraCookies
+		Html och javascript som visar accepteracookies om man ej tidigare accepterat detta.
+		Accepterad cookies lagras i cookievariabeln "OrebroCookieAcceptAlert"
+		Kräver att jquery.cookie.js är inlänkad i sidan.
+		
+	- Sidhuvud
+		- Header
+			Hanterar logobild och tillhörande över-/undertext baserat på metadata "Header, logga", "Header, övertext", "Header, undertext". Länk baseras på metadata "Menystart".
+		
+		- Menyknapp
+			Html för knappen.
+			Script som hanterar klick och tabb för att visa menyn och här finns även klickhanteraren för på backdropen som stänger menyn. 
+		
+		- Brödsmulor-section/Brödsmulor
+			- Brödsmulor/GA
+				Renderar brödsmulorna i headern med start från sidans metadata "Menystart"
+				
+			- Flernivålänk
+											
+			-ReadSpeaker
+				Sitevisionmodulen för readspeaker med egen mall
+			-Lyssna/Dela/Kontakt
+				Renderar ikonerna för Lyssna, Dela och Kontakt och tyck till
+				Delaknappen styrs av sidans värde på metadatat "Visa Dela"
+			-Delaknappar
+				Renderar rutan med delaknapparna
+			
+	-Sidfot
+		- Adress
+			Statisk html för adress i sidfot
+		- Sidfotslänkar
+			Renderar länkarna i sidfoten baserat på sidans metadata "Footer: Länkar"
+		- Sidfotsikoner
+			Skript som renderar sidfotsikonerna, scriptdelen endast för att få sidans url till delaknapparna.
+			
+	- Följ oss
+		- Sociala medier
+			Statisk html för följ oss ikonerna.
+			
+	- Meny 2.0 
+		- länkat script för menyn som ligger i komponentmallen.
+		
+	- Mobilmenyrad
+		- Renderar menyhuvudet för mobilläget
+		
+	Kontakt och tyck till
+		För att komma åt och göra ändringar i fält som ligger inuti denna ruta, i Html-modulen Popup avmarkera "Visa i redigeringsläge". Man kan behöva ladda om mallen för att det ska synas.
+		
+		- Popup
+			Lägger till ankare för kontakt och tyck till samt gör innehållet i kontakt och tyck till till en modal popup.
+			
+		- Rubrik
+			Lägger in dynamisk rubrik baserat på metadatat Sitenamn
+		
+		- Politiskt ansvar
+			- SV-modul för Relaterad information med egen mall, kopplat till metadatat Politisk ansvarig.
+			
+		- Kontaktpersoner
+			Skriver ut kontaktpersonerna som är kopplade till sidan baserat på kontaktpersoner metadatat.
+			
+			
+Startsida
+	- Bakgrundsbild
+		Skript som slumpar fram en bakrundsbild från ett arkiv där utpekad bild i metadatat Toppbild ligger. Bilden sätts i klientskript. 
+		
+		
+	- Mitten
+		-Driftstörningar
+			- Header drift
+				Rubrik med ikon för driftstörning
+				
+			- Nyheter
+				Nyhetslistning för driftstörningsarkivet
+			
+			- Visa fler driftstörningar
+				Skript som visar länk till nyhetslistningen 
+				
+		- Kontakta oss
+			- Öppettider
+				Renderar html och ajaxscript som anropar skriptmodulen "openhours" på den sida som styr tiderna (Funktionssidor/Öppettider/Öppettider Servicecenter). Uppdateringsfrekvensen beror på
+				hur nära öppet-/stängtid det är. Returneras av "openhours" och regleras i callbacken för .done.
+				
+			- Kontaktactions
+				Statisk html för actionknapparna Felanmälan och Lämna synpunkt
+									
+		- Nyhetslistning
+			Visar nyheter från nyhetsarkivet, modifierad egen mall.
+			
+		- Sociala flöden
+			Presenterar utpekade poster från Facebook, Youtube och Instagram (Instagram fungerar inte längre pga ny policy från Instagram). Styrs av metadata
+			Facebook: Token  - En sammanslagning av applikationens id och secret key med | mellan. [APPLICATION_ID]|[SECRET_KEY]. Denna information finns när man är inloggad på developers.facebook.com.
+			Facebook: Konto Id  - Facebook id från vilket flödet ska hämtas. Använd tjänsten http://findmyfbid.com/ för att få fram id.
+			Facebook: Inlägg id  - Id för inlägget som ska visas
+			Youtube: Token  - Token som genereras för applikationen i Google APIs 
+			(Instagram: Token  - Autentiseringstoken som erhållits för kontot
+			Instagram: Id  - Id för instagrammet som ska visas. Hittas i länkadressen för det instagrammet t.ex.BEu5KxYzFTw i https://www.instagram.com/p/BEu5KxYzFTw)
+			
+		- Följ oss
+			Statisk html med länkar för följ oss ikoner.
+	
+
+Genomgångsida 1
+	- Sektion navigation
+		-	Navigationsplatta
+			Länkat skript som genererar navigationsrutorna ( se Komponenter)
+	
+	- Bildhantering
+		Om sidan har metadatat Toppbild så genereras ett klientscript som sätter bakgrundsbilden på layouten "Sektion navigation" i desktopläge.
+		
+	- Dold innehållsyta
+		Mallen har ingen yta som ska kunna redigeras men en mall måste innehålla antingen en mallyta eller en innehållsyta så därför är denna layout dold.
+		
+Genomgångsida 2
+
+- Bildhantering
+		Om sidan har metadatat Toppbild så genereras ett klientscript som sätter bakgrundsbild och manipulierar rubrik och underrubrik så att de läggs inuti bilden istället. Detta görs bara i desktopläget.		
+		
+- Sektion Navigering tjänsteruta
+	- Navigationsblocklista
+		Länkat skript som genererar navigationsblock (se Komponenter)
+		
+Komponenter
+	- Kopierbara
+	
+		- Bildspel
+			Skapar ett bildspel från bilder i en mapp där man pekat ut en bild med metadatat Bildspel  ( Mer passande som element då man slipper ett metadata på alla sidor och kan lägga in script och css i elementet istället)
+			
+		- Fildening
+			Fildelningsmodul med egen mall för anpassat utseende.
+			
+		- Processkarta
+			Byggs upp med dekorationsmallen "Flik" där underliggande layouter blir klickbara tabbar baserat på layoutens namn. Skript för hanteringen ligger i dekorationsmallen.
+			
+		- Plusboxar
+			Plusboxar baserade på dekorationerna "Plusbox" och "Plusbox diskret" Där diskret är en mindre variant av plusbox. Skript för hanteringen ligger i dekorationsmallarna.
+			
+		- Tabeller
+			Exempel på tabeller.
+			
+		- Puffar
+			- Pufflänk
+				TODO: Ta reda om dessa används.
+			- Puffruta
+				TODO: Ta reda om dessa används.
+				
+	- Inlänkade
+		- Nytta av innehåll
+			Lägger ut nytta av innehållplattan, motivering till nej-svar postas till skriptet Mailer på sidan Funktinssidor/Nytta av innehåll mail. Referensen till det skriptet är hårdkodad i Nytta av innehåll skriptet.
+			
+		- Relaterade dokument
+			Lägger ut boxen med relaterade dokument baserat på sidans metadata Relaterade dokument.
+		
+		- Relaterade länkar
+			Lägger ut boxen med relaterade länkar baserat på sidans metadata Relaterade länkar.
+			
+		-	Meny 2.0
+			Genererar ut menyn med start från sidans metadata Menystart och tar rubriken för menyn från metadatat Sitenamn.
+			
+		- Facebookflöde
+			- Första versionen av facebookflöde, nu ersatt av elementversionen. Kan plockas bort när alla ersatts med den nya. Då ska inläkningen och metadatafälten för Facebook på Standarsidan tas bort.
+		
+		- Navigation nivå 1
+			Navigationsboxarna för Genomgångssida nivå 1  (Skulle inte behöva vara inlänkad då det endast används på den mallen)
+			Hämtar ut alla undersidor och skapar länkar. Topplänkar lägger även till beskrivning från undersidans metadata Navigation:Beskrivning.
+			Antalet topplänkar styrs av sidans metadata Navigation: Antal topplänkar. Det går även att lägga till manuella länkar via metadatat Navigation: Navigationslänkar.
+			Manuella länkar saknar beskrivning och blir aldrig en topplänk.
+							
+		- Navigation nivå 2
+			Navigationsrutorna för Genomgångssida nivå 2  (Skulle inte behöva vara inlänkad då det endast används på den mallen)
+			Samma funktionalitet som Navigation nivå 1 bara ett annat utseende.
+			
+		- Pilavdelare
+			Layout med css-klassen Avdelare-pil (Används denna i någonmall? Behöver den verkligen ligga som en komponent?)
+		
+	- Övriga
+		- Sök
+			- Sök
+				Vanlig sök, inställningar och egna mallar för modulen.
+			- Total sök
+				Totalsöken, inställningar och egna mallar för modulen.
+		
+		- Instagramkonto
+			- Komponent för att visa ett instagramflöde, fungerar inte längre pga ändrad policy av instagram.
