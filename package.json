@@ -2,18 +2,20 @@
   "name": "nyaorebro.se",
   "version": "1.0.0",
   "description": "Lokal testserver",
-  "main": "init.js",  
+  "main": "init.js",
   "scripts": {
     "test": "vows --spec --isolate",
     "start": "node server.js",
     "predeploy": "echo im about to deploy",
-    "postdeploy": "echo ive deployed"    
+    "postdeploy": "echo ive deployed"
   },
   "private": true,
   "author": "Mikael Edberger",
   "license": "ISC",
   "dependencies": {
+    "connect": "^3.6.1",
+    "cors": "^2.7.1",
     "express": "^4.13.3",
-	"cors": "^2.7.1"
+    "serve-static": "^1.12.1"
   }
 }
