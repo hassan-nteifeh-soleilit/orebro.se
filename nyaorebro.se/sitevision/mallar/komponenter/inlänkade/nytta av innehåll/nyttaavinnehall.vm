@@ -18,7 +18,10 @@
    
   <div class="or-w-form or-forms formwidth">
     <form id="id-or-email-form" name="or-email-form" data-name="Email Form" action="javascript:sendMail();">
-      <label class="or-fieldlabelhelpus" for="field-2">Berätta vad vi kan göra bättre på den här sidan för att förbättra webbplatsen! </br>
+      <label class="or-fieldlabelhelpus" for="field-2">
+			Berätta vad vi kan göra bättre på den här sidan för att förbättra webbplatsen!
+	  </label>
+	  <label class="or-fieldlabelhelpus" for="field-2">
 			Vi har ingen möjlighet att svara, men dina synpunkter är värdefulla för oss.
 	  </label>
       <textarea class="w-input or-helpusinput formwidth" id="field" placeholder="Meddelande" name="field" data-name="Field"></textarea>      
