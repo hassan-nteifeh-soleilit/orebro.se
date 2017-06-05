@@ -1,12 +1,12 @@
 #if ($show)
 <div class="sv-vertical sv-layout or-social-media-subpage">   
-	<div class="or-social-media-header facebook">
-		<span class="fa-stack fa-lg">
+   <div class="or-social-media-header facebook">
+      <span class="fa-stack fa-lg">
          <i class="fa fa-circle fa-stack-2x"></i>
          <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
       </span>
       $!{scriptVariables.fbHeader}
-	</div>
+   </div>
    #foreach($p in $posts)
    #set ($class = $p.name.toLowerCase())
    <div class="or-social-media-content $class">   
@@ -18,10 +18,12 @@
          #if ($p.thumbnail)
          <div class="or-social-image">
             <img src="$p.thumbnail" class="or-img"></img>
-         </div>       	
-      	#end
-         <a href="$p.permalink">$p.text</a>   	        	
-      </div>	
+         </div>         
+         #end
+         #if($p.text)
+            <a href="$p.permalink">$p.text</a>              
+         #end
+      </div>   
       #if($p.showStats)
       <div class="or-stats or-clearfix">
          #foreach ($stat in $p.stats)  
