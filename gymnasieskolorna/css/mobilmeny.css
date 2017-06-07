@@ -414,7 +414,7 @@ input.or-toggle-btn:focus {
 	font-size: 8px;
 	color: #fff;
 	letter-spacing: 0.04em;
-	box-sizing:initial;
+	box-sizing: content-box;
 }
 
 .or-mobile-nav-bar .or-push-nav-btn:hover{
