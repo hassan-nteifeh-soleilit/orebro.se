@@ -971,7 +971,10 @@ padding: 5px 0px;
 margin-top: -35px;
 }
 
-
+/* plussbox */
+.plusboxxrubrik, .or-plus-box-diskret-header .plusboxxrubrik {
+    font-size: 12px;
+}
 
 /* SÃ¶k i mobil */
 

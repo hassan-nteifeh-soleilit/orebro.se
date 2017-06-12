@@ -500,11 +500,9 @@ a.or-action-text, .or-action-text a:hover {
     font-weight: 700;
 }
 
-
 /* plussbox */
-.plusboxxrubrik {
-    font-size: 11px;
-    line-height: 15px;
+.plusboxxrubrik, .or-plus-box-diskret-header .plusboxxrubrik {
+    font-size: 12px;
 }
 
 .plusboxxrubrik {
