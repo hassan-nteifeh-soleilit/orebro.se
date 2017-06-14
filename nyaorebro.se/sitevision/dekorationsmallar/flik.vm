@@ -1,0 +1,85 @@
+#set ($tabButtonContainerId = "sol_tab_$contentNodeId")
+
+<div id="$tabButtonContainerId" class="sol-tab-button-container">
+   <ul>
+   #foreach($tab in $layoutNames)
+      <li class="sol-tab-button" data-tab-index="$velocityCount">$tab</li>
+   #end
+   </ul>
+</div>
+
+<script>
+
+jQuery(document).ready(function() {
+   var $ = jQuery;
+   var clicks = 0;
+   ## Den container som innehåller alla tabbar
+   var tabsContainer = $("#" + "$tabButtonContainerId").closest(".sol-js-tabs-container");
+   ## Alla tabbar
+   var tabsContent = tabsContainer.find(".sv-decoration-content > div");
+   tabsContainer.find(".sv-decoration-content").addClass("sol-tabs-decoration-content");
+   ## Tabknappar
+   var tabButtons = tabsContainer.find(".sol-tab-button");
+   var width = 100/tabButtons.length;
+   
+   $(tabButtons).each(function(index, tabButton) {
+      $(tabButton).css("width", width + "%");
+      
+      ## Skapar rubrik till dragspel
+      var title = $(tabButton).text();
+      $(tabsContent[index]).prepend("<h3 class='sol-accordion-heading' data-tab-index='" + (index+1) + "'>" + title + "</h3>");
+
+      var onTabClick = function() {
+         ## Ta bort sol-tab-active på alla
+         tabButtons.removeClass("sol-tab-active");
+
+         ## Sätter sol-tab-active på den klickade fliken
+         $(this).addClass("sol-tab-active");
+
+         tabsContent.hide();
+         var tabIndex = $(this).attr("data-tab-index");
+         var clickedTabContent = tabsContainer.find(".sv-decoration-content > div:nth-child(" + tabIndex + ")");
+         clickedTabContent.addClass("sol-tab-active");
+         clickedTabContent.show();
+      };
+
+      $(tabButton).click(onTabClick);
+   });
+   
+   ## Skapa lyssnare till dragspelet
+   tabsContainer.find(".sol-accordion-heading").each(function(index, heading) {
+      var onAccordionClick = function() {
+         tabsContainer.find(".sol-accordion-heading").removeClass("sol-tab-active");
+         $(this).addClass("sol-tab-active");
+         var headings = $(this).parent().siblings().find(".sol-accordion-heading");
+         $(headings).each(function(index, heading) {
+            $(heading).siblings().hide();
+         });
+         $(this).siblings().show();
+         if(clicks > 0) {
+            $('html, body').animate({
+                    scrollTop: ($(this).offset().top-70)
+                }, 1000);
+            console.log("test");
+         }
+         ++clicks;
+      }
+
+      $(heading).click(onAccordionClick);
+   });
+   
+   enquire.register("screen and (max-width: 550px)", {
+      deferSetup : true,
+      match: function() {
+         tabsContainer.find(".sol-accordion-heading[data-tab-index=1]").click();
+      }
+   }).register("screen and (min-width: 550px)", {
+      deferSetup: true,
+      match: function() {
+         tabsContainer.find(".sol-tab-button[data-tab-index=1]").click();
+      }
+   });
+});   
+
+
+</script>
