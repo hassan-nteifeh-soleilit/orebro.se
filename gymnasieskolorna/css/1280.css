@@ -1,0 +1,257 @@
+@media all and (max-width: 1280px)
+{
+
+
+.main-content{
+	padding-left: 15px;
+	padding-right: 15px;
+
+}
+
+.footer-container{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.or-social-badge {
+  right: 0;
+}
+
+/* plusbox diskret */
+.or-plus-box-diskret-header .plusboxxrubrik {
+    font-size: 12px;
+}
+
+} /* end 1280 */
+
+@media (max-width: 1024px) {
+	
+/* processlista */
+.sol-tab-button-container .sol-tab-button {
+    font-size: 12px;
+}
+
+} /* end 1024 */
+
+@media (min-width: 1350px) {
+	
+/* processlista */
+.sol-tab-button-container .sol-tab-button {
+    font-size: 13px;
+}
+	
+body .pagecontent h1 {
+    font-size: 26px;
+}
+
+body .pagecontent h2 {
+    font-size: 20px;
+}
+
+body .pagecontent h3 {
+	font-size: 17px;
+}
+
+body .pagecontent h4 {
+	font-size: 16px;
+}
+
+section.or-article-main .or-content-padding {
+    max-width: 800px;
+}
+
+.ingress {
+    font-size: 23px;
+    line-height: 1.5em;
+}
+
+
+body .or-content-container .or-tir h2 {
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+/* action */
+
+
+/* plusbox */
+.plusboxxrubrik {
+    font-size: 14px;
+}
+
+/* plusbox diskret */
+.or-plus-box-diskret-header .plusboxxrubrik {
+    font-size: 13px;
+}
+
+/* action */
+body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-font-action-karta a:link, body .sv-font-action-facebook a:link, body .sv-font-action-twitter a:link, body .sv-font-action-instagram a:link {
+    font-size: 14px;
+}
+
+.or-ny-action .normal .or-action-text a:link {
+    font-size: 14px;
+}
+
+.or-ny-action .or-action-text{
+	font-size: 14px;
+}
+
+/* processlista */
+.sol-tab-button-container .sol-tab-button {
+    font-size: 13px;
+}
+
+
+
+/* fildelningsmodul */
+.or-contentlinks a.normal {
+    font-size: 14px;
+}
+
+/* länkarbox */
+.or-teaser-box.or-related-documents .or-text-content .or-teaser-list li a .or-link-name {
+    font-size: 14px;
+}
+
+/* startsida */
+
+.or-puff-startpage-footer .or-puff-link .normal {
+    font-size: 16px;
+}
+
+
+
+/* puffar */
+
+body .or-wrapper-click.or-puff-bild-text h3 {
+    font-size: 18px;
+}
+
+body .or-puff-link .normal a {
+    font-size: 14px;
+}
+
+/* tjäntepuff */
+
+.or-puff-icon-header-text .sv-use-margins .rubrikx4, .sv-use-margins h4 {
+    font-size: 16px;
+}
+
+.or-puff-icon-header-text .normal a:link,body .or-puff-icon-header-text .normal {
+    font-size: 16px;
+}
+
+/* Temporär info ruta */
+
+body .or-content-container .or-tir p, body .or-content-container .or-tir p a:link {
+    font-size: 17px;
+}
+
+.ingress a:link:hover{
+	box-shadow: rgba(174, 222, 239, 0.65) 0 -41px 0 -18px inset;
+}
+
+
+.or-article-main ul.normal li, .or-article-main ol.normal li {
+    font-size: 19px;
+}
+
+}  /* end 1350 */
+
+@media (min-width: 1650px) {
+	
+body .pagecontent h1 {
+    font-size: 28px;
+}
+
+body .pagecontent h2 {
+    font-size: 22px;
+}
+
+body .pagecontent h3 {
+	font-size: 18px;
+}
+
+body .pagecontent h4 {
+	font-size: 18px;
+}
+
+body .or-content-container .or-tir h2 {
+    margin-top: 0;
+    font-size: 22px;
+}
+
+.or-article-main ul.normal li:before {
+    top: -4px;
+}
+
+section.or-article-main .or-content-padding {
+    max-width: 950px;
+}
+
+.ingress {
+    font-size: 25px;
+    line-height: 1.5em;
+}
+
+.or-article-main ul.normal li, .or-article-main ol.normal li {
+    font-size: 21px;
+}
+
+.ingress a:link:hover{
+	box-shadow: rgba(174, 222, 239, 0.65) 0 -41px 0 -15px inset;
+}
+
+/* puffar */
+
+body .or-wrapper-click.or-puff-bild-text h3 {
+    font-size: 20px;
+}
+
+
+/* Temporär info ruta */
+
+body .or-content-container .or-tir p {
+    font-size: 18px;
+}
+
+/* tabell */
+.sv-text-portlet table.sv-standard thead th p {
+    font-size: 14px;
+}
+
+body .sv-text-portlet table.sv-standard td p {
+    font-size: 15px;
+}
+
+.or-content-container .sv-text-portlet table caption {
+    font-size: 22px;
+}
+
+/* action */
+body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-font-action-karta a:link, body .sv-font-action-facebook a:link, body .sv-font-action-twitter a:link {
+    font-size: 14px;
+}
+
+/* plusbox */
+.plusboxxrubrik {
+    font-size: 14px;
+}
+
+/* processlista */
+.sol-tab-button-container .sol-tab-button {
+    font-size: 13px;
+}
+
+/* fildelningsmodul */
+.or-contentlinks a.normal {
+    font-size: 15px;
+}
+
+/* länkarbox */
+.or-teaser-box.or-related-documents .or-text-content .or-teaser-list li a .or-link-name, .or-teaser-box.or-related-links .or-text-content .or-teaser-list li a .or-link-name {
+    font-size: 15px;
+}
+
+}  /* end 1650 */
