@@ -500,11 +500,9 @@ a.or-action-text, .or-action-text a:hover {
     font-weight: 700;
 }
 
-
 /* plussbox */
-.plusboxxrubrik {
-    font-size: 11px;
-    line-height: 15px;
+.plusboxxrubrik, .or-plus-box-diskret-header .plusboxxrubrik {
+    font-size: 12px;
 }
 
 .plusboxxrubrik {
@@ -921,7 +919,7 @@ width: 100%;
 }
 
 .normal a.or-social-content-links {
-/*    margin-bottom: 35px;*/
+/*    margin-bottom: 35px; */
     margin-top: 0px;
 }
 
@@ -1002,6 +1000,5 @@ width: 100%;
 .or-mobile-nav-column.search-column {
   width: 50px;
 }
-
 
 }
