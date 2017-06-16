@@ -17,6 +17,11 @@
   right: 0;
 }
 
+/* plusbox diskret */
+.or-plus-box-diskret-header .plusboxxrubrik {
+    font-size: 12px;
+}
+
 } /* end 1280 */
 
 @media (max-width: 1024px) {
@@ -98,6 +103,7 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
 }
 
 
+
 /* fildelningsmodul */
 .or-contentlinks a.normal {
     font-size: 14px;
@@ -142,11 +148,6 @@ body .or-content-container .or-tir p, body .or-content-container .or-tir p a:lin
     font-size: 17px;
 }
 
-/*
-.normal a:link:hover {
-    box-shadow: rgba(174, 222, 239, 0.65) 0 -41px 0 -18px inset;
-}
-*/
 .ingress a:link:hover{
 	box-shadow: rgba(174, 222, 239, 0.65) 0 -41px 0 -18px inset;
 }
@@ -156,10 +157,7 @@ body .or-content-container .or-tir p, body .or-content-container .or-tir p a:lin
     font-size: 19px;
 }
 
-
 }  /* end 1350 */
-
-
 
 @media (min-width: 1650px) {
 	
@@ -191,7 +189,7 @@ body .or-content-container .or-tir h2 {
 section.or-article-main .or-content-padding {
     max-width: 950px;
 }
-  
+
 .ingress {
     font-size: 25px;
     line-height: 1.5em;
@@ -200,11 +198,7 @@ section.or-article-main .or-content-padding {
 .or-article-main ul.normal li, .or-article-main ol.normal li {
     font-size: 21px;
 }
-/*
-.normal a:link:hover {
-    box-shadow: rgba(174, 222, 239, 0.65) 0 -41px 0 -15px inset;
-}
-*/
+
 .ingress a:link:hover{
 	box-shadow: rgba(174, 222, 239, 0.65) 0 -41px 0 -15px inset;
 }
@@ -230,11 +224,6 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
 /* plusbox */
 .plusboxxrubrik {
     font-size: 14px;
-}
-
-/* plusbox diskret */
-.or-plus-box-diskret-header .plusboxxrubrik {
-    font-size: 12px;
 }
 
 /* processlista */
