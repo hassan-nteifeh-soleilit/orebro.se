@@ -19,11 +19,6 @@ var getLayoutNames = function(parentNode) {
   return layoutNames;
 };
 
-/**************************************************************************************
- *
- * Main function
- *
- **************************************************************************************/
 try {
   var contentNode = getContentNode(),
       contentNodeId = contentNode.getIdentifier().replace(".", "_"),
