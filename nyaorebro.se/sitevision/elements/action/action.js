@@ -60,13 +60,13 @@ else if (scriptVariables.LinkInternal === DEFAULT_LINK_INTERNAL &&
       
    } else if(scriptVariables.LinkDoc !== DEFAULT_LINK_DOC && scriptVariables.LinkDoc !== null) {
     	
-      var size = PropertyUtil.getDouble(scriptVariables.LinkDoc, 'length',0),
+      var fileSize = PropertyUtil.getDouble(scriptVariables.LinkDoc, 'length',0),
           mime = PropertyUtil.getString(scriptVariables.LinkDoc, 'mimeType', ""),
           fileInfo = "";	
       
       
-      if(!(size === 0 && mime === "")){
-         fileInfo = ' (' + MimeTypeUtil.getExtension(mime) + ', '+ ScriptUtil.getHumanPresentableSize(size) + ')';
+      if(!(fileSize === 0 && mime === "")){
+         fileInfo = ' (' + MimeTypeUtil.getExtension(mime) + ', '+ ScriptUtil.getHumanPresentableSize(fileSize) + ')';
       }
   
       if (LinkRenderer.isValidTarget(scriptVariables.LinkDoc))  {
