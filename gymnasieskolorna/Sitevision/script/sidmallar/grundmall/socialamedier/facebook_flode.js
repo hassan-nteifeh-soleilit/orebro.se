@@ -16,7 +16,7 @@ if(fbId) {
    importPackage(java.net);
    importPackage(Packages.org.apache.commons.io);
    
-   var url = new URL('https://graph.facebook.com/v2.3/' + fbId + '/posts?limit=1&fields=full_picture,message,link,from&access_token=' + APP_ID + '|' + SECRET_KEY );
+   var url = new URL('https://graph.facebook.com/v2.9/' + fbId + '/posts?limit=1&fields=full_picture,message,link,from,created_time&access_token=' + APP_ID + '|' + SECRET_KEY );
    
    var connection = url.openConnection();
    var body = IOUtils.toString(connection.getInputStream(), 'UTF-8');
