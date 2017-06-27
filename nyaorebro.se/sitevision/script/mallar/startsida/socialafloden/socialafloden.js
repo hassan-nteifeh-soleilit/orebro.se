@@ -1,17 +1,17 @@
-var PropertyUtil = require('PropertyUtil'),
-    PortletContextUtil = require('PortletContextUtil');
-    
-var currentPage = PortletContextUtil.getCurrentPage(),
-    instaId = PropertyUtil.getString(currentPage,"instaId"),
-    fbToken = PropertyUtil.getString(currentPage,"fbToken"),
-    fbId = PropertyUtil.getString(currentPage,"fbId"),
-    fbPageId = PropertyUtil.getString(currentPage,"fbPageId"),
-    yTubeToken = PropertyUtil.getString(currentPage,"ytubeToken"),
-    yTubeId = PropertyUtil.getString(currentPage,"ytubeId"),
-    instaToken = PropertyUtil.getString(currentPage,"instaToken"),
-    instaId = PropertyUtil.getString(currentPage,"instaId"),
-    socialMedias =[],
-    url, connection, data;
+var propertyUtil = require('PropertyUtil');
+var portletContextUtil = require('PortletContextUtil');
+var currentPage = portletContextUtil.getCurrentPage();
+var instaId = propertyUtil.getString(currentPage,"instaId");
+var fbToken = propertyUtil.getString(currentPage,"fbToken");
+var fbId = propertyUtil.getString(currentPage,"fbId");
+var fbPageId = propertyUtil.getString(currentPage,"fbPageId");
+var yTubeToken = propertyUtil.getString(currentPage,"ytubeToken");
+var yTubeId = propertyUtil.getString(currentPage,"ytubeId");
+var instaToken = propertyUtil.getString(currentPage,"instaToken");
+var instaId = propertyUtil.getString(currentPage,"instaId");
+
+var socialMedias =[];
+var url, connection, data;
 
 /* Instagram */
 if(instaToken && !instaToken.isEmpty() && instaId && !instaId.isEmpty()) {      
@@ -35,19 +35,19 @@ if(instaToken && !instaToken.isEmpty() && instaId && !instaId.isEmpty()) {
 
 }
 
-/* Facebook */      
+/* Facebook */    
 if(fbToken && !fbToken.isEmpty() && fbId && fbPageId && !fbId.isEmpty() && !fbPageId.isEmpty()) {      
    
    url = new java.net.URL('https://graph.facebook.com/v2.6/' + fbPageId + '_'+ fbId + '?fields=type,full_picture,caption,description,message,created_time,permalink_url,link,shares,comments.limit(1).summary(true),likes.limit(1).summary(true),reactions.limit(1).summary(true)&access_token=' + fbToken);
 
-   connection = url.openConnection();       
+   connection = url.openConnection();     
    data = JSON.parse(Packages.org.apache.commons.io.IOUtils.toString(connection.getInputStream(), 'UTF-8'));      
 
    var shares = data.hasOwnProperty('shares') ? data.shares.count : 0;
    var pictureUrl = data.hasOwnProperty('full_picture') ? data.full_picture : null;
    followlink = "https://www.facebook.com/" + fbPageId;
 
-    socialMedias.push(new socialMedia('FB','',data.message,data.created_time,pictureUrl,data.permalink_url,followlink,data.likes.summary.total_count,data.comments.summary.total_count,shares,0,data.reactions.summary.total_count));
+  socialMedias.push(new socialMedia('FB','',data.message,data.created_time,pictureUrl,data.permalink_url,followlink,data.likes.summary.total_count,data.comments.summary.total_count,shares,0,data.reactions.summary.total_count));
 }            
 
 if(yTubeToken && !yTubeToken.isEmpty() && yTubeId && !yTubeId.isEmpty()) {     
@@ -55,7 +55,7 @@ if(yTubeToken && !yTubeToken.isEmpty() && yTubeId && !yTubeId.isEmpty()) {
    /* YouTube*/ 
    url = new java.net.URL('https://www.googleapis.com/youtube/v3/videos?id=' + yTubeId + '&key=' + yTubeToken + '&part=snippet,statistics');
 
-   connection = url.openConnection();       
+   connection = url.openConnection();     
    data = JSON.parse(Packages.org.apache.commons.io.IOUtils.toString(connection.getInputStream(), 'UTF-8'));   
    data = data.items[0];
    var likes = data.statistics.hasOwnProperty('likeCount') ? data.statistics.likeCount : 0;
@@ -67,12 +67,12 @@ if(yTubeToken && !yTubeToken.isEmpty() && yTubeId && !yTubeId.isEmpty()) {
    socialMedias.push(new socialMedia('YTUBE',data.snippet.title,data.snippet.description,data.snippet.publishedAt,data.snippet.thumbnails.medium.url,permalink,followlink,likes,comments,0,dislikes,0));
 }
 
-function socialMedia(type, title, text, timestamp, thumbnail, permalink, followlink, likes, comments, shares, dislikes, reactions) {     
+function socialMedia(type, title, text, timestamp, thumbnail, permalink, followlink, likes, comments, shares, dislikes, reactions) {   
    this.type = type;
-    this.title = title;         
+  this.title = title;     
    this.text = text;
-    this.thumbnail = thumbnail; 
-    this.permalink = permalink; 
+  this.thumbnail = thumbnail; 
+  this.permalink = permalink; 
    this.followlink = followlink;
    this.showStats = (likes+ comments+ shares+ dislikes+ reactions) > 0 || type == 'YTUBE';   
 
@@ -81,7 +81,7 @@ function socialMedia(type, title, text, timestamp, thumbnail, permalink, followl
          var cutPos = text.substring(150).indexOf(" ") + 150;                   
          this.text = text.substring(0, cutPos) + "..."; 
       } 
-    }catch (exception) {   
+  }catch (exception) {   
       this.text = exception;
    }      
  
@@ -104,13 +104,13 @@ function socialMedia(type, title, text, timestamp, thumbnail, permalink, followl
       case 'YTUBE':
          this.name = 'Youtube';
          date =  new SimpleDateFormat("yyyy-MM-dd'T'HH:mm").parse(timestamp);
-        this.icon ='fa-youtube';
+      this.icon ='fa-youtube';
          this.stats = [{icon:'fa-thumbs-o-up', count:(likes+'')},{icon:'fa-thumbs-o-down', count:(dislikes+'')},{icon:'fa-comments', count:(comments+'')}];         
          break;               
       default:
          break;
    }
    
-   this.timestamp = new SimpleDateFormat("d MMMM",PortletContextUtil.getCurrentLocale()).format(date);
+   this.timestamp = new SimpleDateFormat("d MMMM",portletContextUtil.getCurrentLocale()).format(date);
    
 }
