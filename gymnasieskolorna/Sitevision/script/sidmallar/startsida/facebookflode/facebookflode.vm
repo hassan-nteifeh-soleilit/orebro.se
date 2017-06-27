@@ -1,0 +1,18 @@
+#if($show)
+<div class="or-instagram-header">
+  <div class="or-instagram-block or-facebook-block">
+     <i class="fa fa-facebook-square fa-2x or-social-heading-icon"></i>
+    <div class="or-social-heading-text">Facebook</div>
+  </div>
+</div>
+<div class="sv-clearfix or-facebook-container or-wrapper-click">
+   <a href="${postUrl}"><img class="or-facebook-image" src="$postImageUrl"></a>
+   <div class="or-facebook-info">
+      <h3 class="or-facebook-heading or-colortext">${fbName}</h3>
+      <div class="date">den ${postCreated}</div>
+      <p class="or-facebook-text">${postMessage}</p>
+   </div>
+</div>
+<div class="or-social-link or-social-link-facebook"><p class="normal"><a class="or-social-content-links" href="https://www.facebook.com/${fbId}/">Följ oss på facebook</a><br></p></div>
+
+#end
