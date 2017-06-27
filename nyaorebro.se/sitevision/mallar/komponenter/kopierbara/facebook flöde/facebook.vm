@@ -1,19 +1,24 @@
 #if ($show)
+   <div class="or-social-media-header facebook">
+      <span class="fa-stack fa-lg">
+         <i class="fa fa-circle fa-stack-2x"></i>
+         <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+      </span>
+      ${fbHeader}
+   </div>
    #foreach ($sm in $socialMedias)
    #set ($class = $sm.name.toLowerCase())
    <div class="or-social-media-content $class">   
       <div class="or-header">
-         <span class="fa-stack fa-lg">
-            <i class="fa fa-circle fa-stack-2x"></i>
-            <i class="fa ${sm.icon} fa-stack-1x fa-inverse"></i>
-         </span>
          <i class="fa fa-clock-o"></i>
          $sm.timestamp      
       </div>   
       <div class="or-content or-wrapper-click">         
+         #if ($sm.thumbnail)
          <div class="or-social-image">
             <img src="$sm.thumbnail" class="or-img"></img>
          </div> 
+         #end
          <a href="$sm.permalink">$sm.text</a>   	        	
       </div>	
       #if($sm.showStats)

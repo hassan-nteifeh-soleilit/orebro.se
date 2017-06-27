@@ -4,6 +4,7 @@ var portletContextUtil = require('PortletContextUtil');
 var currentPage = portletContextUtil.getCurrentPage();
 var fbToken = propertyUtil.getString(currentPage,"fbToken");
 var fbPageId = propertyUtil.getString(currentPage,"fbPageId");
+var fbHeader = propertyUtil.getString(currentPage,"fbHeader");
 
 
 var SimpleDateFormat = Java.type('java.text.SimpleDateFormat');
