@@ -38,7 +38,7 @@ if(instaToken && !instaToken.isEmpty() && instaId && !instaId.isEmpty()) {
 /* Facebook */   	
 if(fbToken && !fbToken.isEmpty() && fbId && fbPageId && !fbId.isEmpty() && !fbPageId.isEmpty()) {      
    
-   url = new java.net.URL('https://graph.facebook.com/v2.6/' + fbPageId + '_'+ fbId + '?fields=type,full_picture,caption,description,message,created_time,permalink_url,link,shares,comments.limit(1).summary(true),likes.limit(1).summary(true),reactions.limit(1).summary(true)&access_token=' + fbToken);
+   url = new java.net.URL('https://graph.facebook.com/v2.9/' + fbPageId + '_'+ fbId + '?fields=type,full_picture,caption,description,message,created_time,permalink_url,link,shares,comments.limit(1).summary(true),likes.limit(1).summary(true),reactions.limit(1).summary(true)&access_token=' + fbToken);
 
    connection = url.openConnection();   	
    data = JSON.parse(Packages.org.apache.commons.io.IOUtils.toString(connection.getInputStream(), 'UTF-8'));      

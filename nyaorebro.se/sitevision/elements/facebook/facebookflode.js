@@ -6,7 +6,7 @@ var requester = require('JsonRequester'),
     url,    
     posts =[], 
     show = false,
-	 fbGraphUrl = 'https://graph.facebook.com/v2.6/',
+	 fbGraphUrl = 'https://graph.facebook.com/v2.9/',
     singlePost = ScriptUtil.isNotBlank(scriptVariables.fbPostId);
 
 
