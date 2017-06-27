@@ -4,6 +4,7 @@ var portletContextUtil = require('PortletContextUtil');
 var currentPage = portletContextUtil.getCurrentPage();
 var fbToken = propertyUtil.getString(currentPage,"fbToken");
 var fbPageId = propertyUtil.getString(currentPage,"fbPageId");
+var fbHeader = propertyUtil.getString(currentPage,"fbHeader");
 
 
 var SimpleDateFormat = Java.type('java.text.SimpleDateFormat');
@@ -14,7 +15,7 @@ if(fbPageId) {
          
    var socialMedias =[];
 	var url, connection, json;   
-	url = new java.net.URL('https://graph.facebook.com/v2.6/' + fbPageId + '/posts?limit=3&fields=type,full_picture,caption,description,message,created_time,permalink_url,link,shares,comments.limit(1).summary(true),likes.limit(1).summary(true),reactions.limit(1).summary(true)&access_token=' + fbToken );	 	   	 
+	url = new java.net.URL('https://graph.facebook.com/v2.9/' + fbPageId + '/posts?limit=3&fields=type,full_picture,caption,description,message,created_time,permalink_url,link,shares,comments.limit(1).summary(true),likes.limit(1).summary(true),reactions.limit(1).summary(true)&access_token=' + fbToken );
 	
 	connection = url.openConnection();   	
    json = JSON.parse(Packages.org.apache.commons.io.IOUtils.toString(connection.getInputStream(), 'UTF-8')).data; 
