@@ -337,11 +337,12 @@ body .or-content-container .or-tir p, body .or-content-container .or-tir p a:lin
 }
 
 .normal a:link:hover {
-    box-shadow: rgba(174, 222, 239, 0.65) 0px -41px 0px -18px inset;
+    /*box-shadow: rgba(174, 222, 239, 0.65) 0px -41px 0px -23px inset;
+	color:#0b4a89;*/
 }
 
 .ingress a:link:hover{
-	box-shadow: rgba(174, 222, 239, 0.65) 0px -41px 0px -18px inset;
+	color:#0b4a89;
 }
 
 
@@ -425,12 +426,10 @@ section.or-article-main .or-content-padding {
 }
 
 .normal a:link:hover {
-    box-shadow: rgba(174, 222, 239, 0.65) 0px -41px 0px -15px inset;
+	color:#0b4a89
 }
 
-.ingress a:link:hover{
-	box-shadow: rgba(174, 222, 239, 0.65) 0px -41px 0px -15px inset;
-}
+
 
 /* puffar */
 
