@@ -35,11 +35,6 @@ a.sv-portlet-primary-paragraph:link, a.normal:link, .portlet-font a:link, .portl
 .portlet-menu-item-hover a:link, .portlet-menu-item-hover-selected a:link, .portlet-menu-cascade-item a:link, .portlet-menu-cascade-item-selected a:link, 
 .portlet-menu-description a:link, 
 .sv-portlet-image-caption a:link, .sv-portlet-link-description a:link, .sv-portlet-primary-paragraph a:link{
-    font-family: "open sans",sans-serif;
-    font-weight: normal;
-    font-style: normal;
-    font-size: 17px;
-    line-height: normal;
 	text-decoration: underline;
 	color: #017cdb;
 	cursor: pointer;
