@@ -1,0 +1,36 @@
+#if ($contacts.length > 0)
+<ul class="or-element-kontaktpersoner">
+  #foreach ($contact in $contacts)
+  <li class="or-element-kontaktpersoner__item">
+    <div class="or-element-kontaktpersoner__item-info">
+      <span class="or-element-kontaktpersoner__item-info__label">Namn: </span>
+      $!contact.name
+    </div>
+    #if ($contact.title && $contact.title != '')
+    <div class="or-element-kontaktpersoner__item-info">
+      <span class="or-element-kontaktpersoner__item-info__label">Titel: </span>
+      $!contact.title
+    </div>
+    #end
+    #if ($contact.phone && $contact.phone != '')
+    <div class="or-element-kontaktpersoner__item-info">
+      <span class="or-element-kontaktpersoner__item-info__label">Telefon: </span>
+      $!contact.phone
+    </div>
+    #end
+    #if ($contact.mobile && $contact.mobile != '')
+    <div class="or-element-kontaktpersoner__item-info">
+      <span class="or-element-kontaktpersoner__item-info__label">Mobil: </span>
+      $!contact.mobile
+    </div>
+    #end
+    #if ($contact.mail && $contact.mail != '')
+    <div class="or-element-kontaktpersoner__item-info">
+      <span class="or-element-kontaktpersoner__item-info__label">E-post: </span>
+      <a href="mailto:$!contact.mail">$!contact.mail</a>
+    </div>
+    #end
+  </li>
+  #end
+</ul>
+#end

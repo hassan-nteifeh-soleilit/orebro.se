@@ -2306,6 +2306,7 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
 .or-colorborder.or-wrapper-click.or-plus-box-header.or-plus-box-active .or-plusbox-kontakter .or-icon-area {
 }
 /* Kontakt och tyck till */
+.or-element-kontaktpersoner__item-info a,
 a.kontaktaxossxxxbrodtext,.kontaktaxossxxxbrodtext a,a.kontaktaxossxxxbrodtext:link,.kontaktaxossxxxbrodtext a:link,a.kontaktaxossxxxbrodtext:visited,.kontaktaxossxxxbrodtext a:visited,a.kontaktaxossxxxbrodtext:active,.kontaktaxossxxxbrodtext a:active {
     color: #000;
     text-decoration: none;
@@ -2318,6 +2319,7 @@ a.kontaktaxossxxxbrodtext,.kontaktaxossxxxbrodtext a,a.kontaktaxossxxxbrodtext:l
     cursor: pointer;
 }
 
+.or-element-kontaktpersoner__item-info a:hover, 
 body a.kontaktaxossxxxbrodtext:hover,body .kontaktaxossxxxbrodtext a:hover {
     box-shadow: rgba(174,222,239,0.65) 0 -41px 0 -17px inset;
 }
@@ -2350,6 +2352,7 @@ body a.kontaktaxossxxxbrodtext:hover,body .kontaktaxossxxxbrodtext a:hover {
     border-color: rgba(128,128,128,0) rgba(128,128,128,0) rgba(128,128,128,0) gray;
 }
 
+.or-element-kontaktpersoner__item,
 li.kontaktaxossxxxbrodtext {
     padding-bottom: 10px;
     padding-top: 7px;
@@ -2358,10 +2361,14 @@ li.kontaktaxossxxxbrodtext {
     border-bottom-color: silver;
 }
 
+.or-element-kontaktpersoner__item:last-child,
 ul > li.kontaktaxossxxxbrodtext:last-child {
     border: 0;
 }
 
+.or-element-kontaktpersoner__item-info__label {
+    font-weight: bold;
+}
 /* Fler nyheter länk */
 .or-more-news {
     background-color: #fff;
