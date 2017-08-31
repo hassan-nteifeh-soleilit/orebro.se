@@ -1,11 +1,23 @@
+#if ($interface.icon && $interface.icon != '')
+#set ($icon = "<i class='fa $interface.icon'></i>")
+#end
+
+#if ($interface.wrapperClass && $interface.wrapperClass != '')
+<div class="$interface.wrapperClass">
+#end
+
 <div class="or-collapse-button or-colorbg">
    <div class="or-icon-area">
       <span class="or-icon-plus"></span>
    </div>   
 </div>
 <div class="or-collapsible-header or-js-collapsible-header">
-	 <div class="plusboxxrubrik">$!{contentName}</div>
+	 <div class="plusboxxrubrik">$!{icon}$!{contentName}</div>
 </div>
+
+#if ($interface.wrapperClass && $interface.wrapperClass != '')
+</div>
+#end
 
 <script type="text/javascript">
    (function() {       
