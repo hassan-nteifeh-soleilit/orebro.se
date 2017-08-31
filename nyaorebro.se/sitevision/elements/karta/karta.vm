@@ -1,0 +1,2 @@
+<div class="map" id="$uuid" style="width: ${interface.width}px; height: ${interface.height}px; max-width: 100%;"></div>
+<script type="text/javascript" src="https://karta.orebro.se/js/minimap.js?div=$uuid,$mapData"></script>
