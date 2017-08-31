@@ -1,0 +1,54 @@
+#if ($interface.icon && $interface.icon != '')
+#set ($icon = "<i class='fa $interface.icon'></i>")
+#end
+
+#if ($interface.wrapperClass && $interface.wrapperClass != '')
+<div class="$interface.wrapperClass">
+#end
+
+<div class="or-collapse-button or-colorbg">
+   <div class="or-icon-area">
+      <span class="or-icon-plus"></span>
+   </div>   
+</div>
+<div class="or-collapsible-header or-js-collapsible-header">
+	 <div class="plusboxxrubrik">$!{icon}$!{contentName}</div>
+</div>
+
+#if ($interface.wrapperClass && $interface.wrapperClass != '')
+</div>
+#end
+
+<script type="text/javascript">
+   (function() {       
+      var header = $('#svid${contentId} .or-plus-box-header');     
+      header.attr('tabindex', '0');
+
+      $(header).on('click keydown', function(e) {    
+         if(e.which == '13' || e.type == 'click') {        
+            $('#svid${contentId} .or-plus-box-content').slideToggle(200); 
+            $(this).toggleClass('or-plus-box-active');
+         }
+         if( e.type == 'click') {
+            $(this).blur();
+         }				 
+      });    
+   })();	 
+
+   $( document ).ready(function() {
+      var hash = window.location.hash.substring(1),
+          hashParent = $("#"+hash).parent().attr('id'),
+          svid = "svid${contentId}",
+          containsHash = $("#svid${contentId}").find("#"+hashParent).length;
+
+      if(!((hash != "") && ((hashParent == svid) || (containsHash > 0)))) {
+         $("#svid${contentId} .or-plus-box-content").hide();
+      } else {
+         $("#svid${contentId} .or-plus-box-content").show();
+         $("#svid${contentId} .or-plus-box-header").addClass("or-plus-box-active");
+         document.querySelector('#svid${contentId}').scrollIntoView({ 
+            behavior: 'smooth' 
+         });
+      }
+   });   
+</script>
