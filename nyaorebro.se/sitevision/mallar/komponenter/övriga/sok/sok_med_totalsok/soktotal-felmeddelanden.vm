@@ -1,0 +1,140 @@
+#set ($errorClass = $propertyUtil.getNestedString($portlet, 'searchErrorFont', 'selectorText'))
+#if (false)##$propertyUtil.getString($portlet, 'errorMessage') != '')
+   <p class="$errorClass">
+      $propertyUtil.getString($portlet, 'errorMessage')
+   </p>
+#else
+   #set ($scriptUtil = $sitevisionUtils.scriptUtil)
+   #set ($searchPhrase = $endecUtil.escapeXML(${searchResult.getDisplayQuery()}))
+   ##set ($pattern = $propertyUtil.getString($bundle, 'noHitsPatternText'))
+   #set ($pattern = "Din sökning <strong>{0}</strong> gav ingen träff") 
+   #set ($argsList = $sitevisionUtils.instanceCreatorUtil.listWrapper)
+   $argsList.add($searchPhrase)
+ 
+
+#set ($currentPageNode = $portletContextUtil.getCurrentPage())
+#set ($facetTarget = $propertyUtil.getString($currentPageNode,"preselectedfacet"))
+#set ($currentPageNode = $portletContextUtil.getCurrentPage())
+#set ($facetTarget = $propertyUtil.getString($currentPageNode,"preselectedfacet"))      
+#set ($facetsBgColor = $propertyUtil.getNestedString($portlet, 'facetsBackgroundColor', 'htmlHexValue', ''))
+#if ($facetsBgColor != '')
+   #set ($facetsBgColor = '; background-color:' + $facetsBgColor)
+#end
+#set ($selectedFacetBgColor = $propertyUtil.getNestedString($portlet, 'selectedFacetValueBackgroundColor', 'htmlHexValue', ''))
+#if ($selectedFacetBgColor != '')
+   #set ($selectedFacetBgColor = '; background-color:' + $selectedFacetBgColor)
+#end
+#set ($facetNameClass = $propertyUtil.getNestedString($portlet, 'facetNameFont', 'selectorText'))
+#set ($facetValueClass = $propertyUtil.getNestedString($portlet, 'facetValueFont', 'selectorText'))
+#set ($selectedFacetValueClass = $propertyUtil.getNestedString($portlet, 'selectedFacetValueFont', 'selectorText'))
+#set ($hideEmptyFacetValue = $propertyUtil.getBoolean($portlet, 'hideEmptyFacetValue'))
+#set ($updateResultFunctionName = $propertyUtil.getString($portlet, 'updateResultFunctionName'))
+#set ($facetLinkRenderer = $sitevisionUtils.linkRenderer)
+#set ($query = $endecUtil.escapeXML(${searchResult.getQuery()}))   
+
+
+######################################
+## Build a search to retrieve total hit count
+#set ($totalhits = '')
+#set ($searchFactory = $sitevisionUtils.getSearchFactory() )
+#set ($searcherBuilder = $searchFactory.getSearcherBuilder())
+#set ($indexUtil = $searchFactory.getIndexUtil() )
+#set ($indexNode = $indexUtil.getIndexByName('Totalsök') )
+
+## ADD FILTERS (IMAGES FOR NOW)
+#set ($filterBuilder = $searchFactory.filterBuilder)
+#set ($imageFilter = $filterBuilder.addFilterQuery('-jcrtype:"sv:image"').build())
+
+## BUILD SEARCHER AN SEARCH
+#set ($searcher = $searcherBuilder.setFilter($imageFilter).setIndex($indexNode).build() )
+#set ($result = $searcher.search($query, 1) )
+
+#set ($countThreshold = $propertyUtil.getInt($portlet, 'countThreshold', 20))
+#set ($totalhits = $result.getEffectiveCount($countThreshold) )
+
+######################################
+
+## START OF FACET
+<div style="" class="or-facetter sv-column-12" >
+<div class="or-facetter-head sol-facetter sv-column-4" style="float: right;">
+##<h2 class="or-facetter-rubrik" >Filtrera din sökning</h2>
+#if ($searchResult.facetFields)
+
+######################################
+## Render the filter header
+#set ($totalFilter = true)   
+######################################
+## Start search head  
+     <ul id="sol-search-filter-head-ul" class="sv-defaultlist-noleft sv-notopmargin">
+ 
+##set ($summaryField = $propertyUtil.getString($portlet, 'summaryField'))
+##set ($summaryFieldValue = $scriptUtil.getNonNull(${hit.getHighlightedField($summaryField, $excerptLength)})) 
+   
+      #foreach ($facetField in $searchResult.facetFields)
+       #foreach ($facetValue in $facetField.facetValues)
+       
+         #if ($scriptUtil.isNotBlank(${facetValue.name}))
+            #if( $facetValue.name == $facetTarget)
+                #set ($link = $facetValue.filterURL )
+                #if($totalFilter)
+                    <li class="$facetValueClass sv-noleft or-wrapper-click" style="margin-bottom:${facetItemSpacing}">
+                        <a onclick="${updateResultFunctionName}('${query}',true)">Totalt</a>             
+                        <span id="hitCount" class="sol-hit-count">$totalhits<span>
+                    </li>
+                    #set ($totalFilter = false)
+                #end  
+  
+  
+               #if ($facetValue.isSelected())
+               <li id="sol-selected-facet" class="$selectedFacetValueClass sol-selected-facet sv-noleft or-wrapper-click" style="margin-bottom:${facetItemSpacing}">                 
+               #else
+               <li class="$facetValueClass sv-noleft or-wrapper-click" style="margin-bottom:${facetItemSpacing}">
+               #end   
+ 
+                  $facetLinkRenderer.setOnclick("$ajaxFacetClick")       
+                  $facetLinkRenderer.setStringTarget($facetValue.filterURL)          
+                  $facetLinkRenderer.setText($facetValue.name)
+                  $facetLinkRenderer.render()
+                 
+                   #if ($facetValue.isSelected())
+                   <i class="sol-icon-facet-active"></i>
+                   #else
+                   <span class="sol-hit-count">$facetValue.count<span>
+                   #end
+               </li>
+               
+            #end
+         #end
+         
+        #end 
+      #end
+      </ul>
+## End filter head   
+######################################
+
+#end
+</div> 
+      
+       
+   <div class="or-no-search-hits sv-column-8" style="float: left;">
+   <p class="$errorClass">
+      $scriptUtil.messageFormat($pattern, $argsList.unwrap())
+      <br /><br />
+      $propertyUtil.getString($bundle, 'searchTipText')
+   </p>
+   <ul style="margin-top:0.2em">
+      <li class="$errorClass">$propertyUtil.getString($bundle, 'checkSpellingText')</li>
+      <li class="$errorClass">$propertyUtil.getString($bundle, 'useGenericText')</li>
+      <li class="$errorClass">$propertyUtil.getString($bundle, 'useSynonymText')</li>
+      <li class="$errorClass">$propertyUtil.getString($bundle, 'useWildcardText')</li>
+   </ul>
+   </div>
+
+</div>  
+#end
+
+<script type="text/javascript">
+
+var link = '$link';
+
+</script>

@@ -1,0 +1,24 @@
+#set ($scriptUtil = $sitevisionUtils.scriptUtil)
+
+## Hit count, value might already have been extracted by other template...
+#if ($pagingHitCount)
+   #set ($hitCount = $pagingHitCount)
+#else
+   #set ($countThreshold = $propertyUtil.getInt($portlet, 'countThreshold', 20))
+   #set ($hitCount = $searchResult.getEffectiveCount($countThreshold))
+#end
+
+#set ($hitCountClass = $propertyUtil.getNestedString($portlet, 'numberOfHitsFont', 'selectorText'))
+#set ($pattern = $propertyUtil.getString($bundle, 'searchPhraseHitCountPatternText'))
+#set ($searchPhrase = $endecUtil.escapeXML(${searchResult.getDisplayQuery()}))
+#set ($argsList = $sitevisionUtils.instanceCreatorUtil.listWrapper)
+$argsList.add($searchPhrase)
+$argsList.add($hitCount)
+
+<p class="$hitCountClass sv-column-8 or-hit-count" style="margin-top:0.4em">
+   $scriptUtil.messageFormat($pattern, $argsList.unwrap())
+</p>
+
+<script type="text/javascript">
+localStorage.setItem('hitCount', $hitCount);
+</script>
