@@ -14,6 +14,7 @@
 #set ($escapedSearchHereText = $endecUtil.escapeXML($searchHereText))       ## Needed by script, do not rename/move/remove
 #set ($searchInputId = $portletContextUtil.getPortletNamespace('search'))   ## Needed by script, do not rename/move/remove
 #set ($searchButtonId = $searchInputId + 'button')                          ## Needed by script, do not rename/move/remove
+
 #set ($searchFormScriptTemplate = $propertyUtil.getNestedString($portlet, 'templates', 'searchFormScriptTemplate'))
 $velocityEvaluator.evaluate($searchFormScriptTemplate)
 
@@ -28,7 +29,7 @@ $velocityEvaluator.evaluate($searchFormScriptTemplate)
 #set ($submitURL = $propertyUtil.getString($portletContextUtil.currentPage, 'URI', ''))
 #set ($queryParameter = $propertyUtil.getString($portlet, 'queryParameter'))
 
-<form id="or-search-form" method="get" action="$submitURL" class="sv-nomargin sv-column-8">
+<form id="or-search-form" method="get" action="$submitURL" class="sv-nomargin svhidden">
       <!--h1 class="visuallyhidden">Sökresultat</h1-->
       <label for="$searchInputId" class="svhidden">$searchText</label>
       <input id="$searchInputId" class="$fieldClass sv-vamiddle" type="text" name="$queryParameter"#if ($isHtml5) placeholder="$escapedSearchHereText"#end value="$escapedSearchFieldText" autocomplete="off"/>
@@ -39,3 +40,24 @@ $velocityEvaluator.evaluate($searchFormScriptTemplate)
          <input id="$searchButtonId" type="submit" class="$buttonClass sv-vamiddle submit fa bg-color" name="submitButton" value="" />
       #end
 </form>
+<script type="text/javascript">
+   (function() {
+      var searchInput = $svjq('#or-facet-search-input');
+      var searchButton = $svjq('#or-facet-search-inputbutton');
+      var facetInput = $svjq('#$searchInputId');
+      var facetButton = $svjq('#$searchButtonId');
+
+      var updateFacets = function() {
+         facetInput.val(searchInput.val());
+         facetButton.click();
+      };
+
+      searchInput.on('keypress', function(e) {
+         if (e.which === 13) {
+            updateFacets();
+         }
+      });
+
+      searchButton.on('click', updateFacets);
+   })();
+</script>

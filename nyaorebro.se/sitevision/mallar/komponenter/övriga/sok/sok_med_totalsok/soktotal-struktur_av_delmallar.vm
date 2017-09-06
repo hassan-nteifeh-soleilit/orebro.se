@@ -42,31 +42,6 @@
       #end
    #end
 
-   ## Render Did you mean
-   #if ($propertyUtil.getBoolean($portlet, 'useDidYouMean') && $searchResult.suggestions)
-      #set ($didYouMeanTemplate = $propertyUtil.getString($templates, 'didYouMeanTemplate'))
-      $velocityEvaluator.evaluate($didYouMeanTemplate)
-   #end
-
-   ## Render number of hits
-   #if ($hasHits && $propertyUtil.getBoolean($portlet, 'showNumberOfHits'))
-      #set ($hitCountTemplate = $propertyUtil.getString($templates, 'hitCountTemplate'))
-      $velocityEvaluator.evaluate($hitCountTemplate)   
-   #end
-
-    ###if ($hasHits)
-       ###set ($pagingTemplate = $propertyUtil.getString($templates, 'pagingTemplate'))
-        ##$velocityEvaluator.evaluate($pagingTemplate)
-    ###end
-
-   ## Render top paging
-   #if ($displayTopPaging && $resultIsPaged)
-      #set ($isRenderingTopPaging = true)
-      #set ($pagingTemplate = $propertyUtil.getString($templates, 'pagingTemplate'))
-      $velocityEvaluator.evaluate($pagingTemplate)
-     #set ($isRenderingTopPaging = false)
-   #end
-   
    ##
    ## Render hits
    #if ($hasHits)
@@ -77,19 +52,7 @@
       $velocityEvaluator.evaluate($noHitsTemplate)
    #end
    
-
-    #if ($resultIsPaged)
-       #set ($pagingTemplate = $propertyUtil.getString($templates, 'pagingTemplate'))
-        $velocityEvaluator.evaluate($pagingTemplate)
-    #end
-    
-   ## Render bottom paging
-####   #if ($displayBottomPaging && $resultIsPaged)
-####      #set ($pagingTemplate = $propertyUtil.getString($templates, 'pagingTemplate'))
-####      $velocityEvaluator.evaluate($pagingTemplate)
-####   #end
 #end
-
 #if (!$isAjaxResult)
    </div>
 #end

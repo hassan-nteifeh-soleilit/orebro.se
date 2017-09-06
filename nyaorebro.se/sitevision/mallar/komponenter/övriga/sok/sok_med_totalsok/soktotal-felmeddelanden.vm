@@ -78,7 +78,7 @@
                 #set ($link = $facetValue.filterURL )
                 #if($totalFilter)
                     <li class="$facetValueClass sv-noleft or-wrapper-click" style="margin-bottom:${facetItemSpacing}">
-                        <a onclick="${updateResultFunctionName}('${query}',true)">Totalt</a>             
+                        <a onclick="${updateResultFunctionName}('${query}',true)">Totalt</a>
                         <span id="hitCount" class="sol-hit-count">$totalhits<span>
                     </li>
                     #set ($totalFilter = false)

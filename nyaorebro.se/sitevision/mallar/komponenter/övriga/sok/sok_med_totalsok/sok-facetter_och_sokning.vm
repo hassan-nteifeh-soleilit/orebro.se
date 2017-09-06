@@ -211,9 +211,9 @@ $('.or-show-hiden-facet-items').click(function(){
 });
 
 function mobileToTop() {
-	if ($(".or-mobile-menu-bar").css("display") === "block") {
-		$("html, body").animate({ scrollTop: 0 },{duration: 500, queue: false} );
-	}                                          
+  if ($(".or-mobile-menu-bar").css("display") === "block") {
+    $("html, body").animate({ scrollTop: 0 },{duration: 500, queue: false} );
+  }
 }
 
 </script>

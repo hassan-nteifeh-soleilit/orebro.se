@@ -16,4 +16,4 @@ $didYouMeanRenderer.setText($suggestion.name)
     <p class="or-did-you-mean $didYouMeanClass">
        $propertyUtil.getString($bundle, 'didYouMeanText') $didYouMeanRenderer.render()
     </p>
-</div>>
+</div>

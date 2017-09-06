@@ -95,7 +95,8 @@ $linkRenderer.setFontClass($linkRendererClass)
 
 <!--h1 class="visuallyhidden">Sökresultat</h1-->
 
-<div class="or-hit-rendering sv-column-8" style="float:left;">
+##<div class="or-hit-rendering sv-column-8" style="float:left;">
+<div class="or-hit-rendering">
 ##
 ## Render hits
 <ol#if($startIsValid) start="$listStart"#end class="sv-search-result sv-column-12" style="margin-left:0; padding-left:0; margin-top:0.7em; list-style-type:none">
@@ -132,8 +133,8 @@ $linkRenderer.setFontClass($linkRendererClass)
             
             #if ($hit.getField($mimtypeField) != 'text/html')
                 $linkRenderer.setOpenNewWindow(true)
-			#else
-				$linkRenderer.setOpenNewWindow(false)
+            #else
+                $linkRenderer.setOpenNewWindow(false)
             #end
             
             <div class="or-search-link">            
@@ -244,17 +245,6 @@ $linkRenderer.setFontClass($linkRendererClass)
 ##</div>
 </ol>
 </div>  ##Slut vänster kolumn
-
-<div class="sol-facetter sv-column-4" style="float:right; padding:0 0.7em">
-
-##
-## Render facets and custom sorting
-#if ($propertyUtil.getBoolean($portlet, 'hasFacetsToRender') || $propertyUtil.getBoolean($portlet, 'hasCustomSortsToRender'))
-   #set ($facetsAndSortingTemplate = $propertyUtil.getNestedString($portlet, 'templates', 'facetsTemplate'))
-   $velocityEvaluator.evaluate($facetsAndSortingTemplate)
-#end
-</div>
-
 #if (!$isAjaxPagingResult)
 </div>
 #if($totalhits>0)
