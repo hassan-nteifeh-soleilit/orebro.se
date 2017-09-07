@@ -337,17 +337,14 @@ body .or-content-container .or-tir p, body .or-content-container .or-tir p a:lin
 }
 
 .normal a:link:hover {
-    box-shadow: rgba(174, 222, 239, 0.65) 0px -41px 0px -18px inset;
+    /*box-shadow: rgba(174, 222, 239, 0.65) 0px -41px 0px -23px inset;
+	color:#0b4a89;*/
 }
 
 .ingress a:link:hover{
-	box-shadow: rgba(174, 222, 239, 0.65) 0px -41px 0px -18px inset;
+	color:#0b4a89;
 }
 
-.ingress {
-    font-size: 23px;
-    line-height: 1.5em;
-}
 
 .or-article-main ul.normal li, .or-article-main ol.normal li {
     font-size: 19px;
@@ -357,7 +354,7 @@ body .or-content-container .or-tir p, body .or-content-container .or-tir p a:lin
 /*  formulär */
 
 .sv-defaultFormTheme .sv-form-singleselectionfield label, .sv-defaultFormTheme .sv-form-multipleselectionfield label, .sv-formFieldRow span {
-    font-size: 21px;
+    font-size: 19px;
 }
 
 .icheckbox_flat-red {
@@ -429,12 +426,10 @@ section.or-article-main .or-content-padding {
 }
 
 .normal a:link:hover {
-    box-shadow: rgba(174, 222, 239, 0.65) 0px -41px 0px -15px inset;
+	color:#0b4a89
 }
 
-.ingress a:link:hover{
-	box-shadow: rgba(174, 222, 239, 0.65) 0px -41px 0px -15px inset;
-}
+
 
 /* puffar */
 
@@ -471,8 +466,9 @@ body .or-content-container .or-tir p {
     font-size: 18px !important;
 }
 
-body .sv-text-portlet table.sv-standard td p {
-    font-size: 15px;
+
+.sv-defaultFormTheme .sv-form-singleselectionfield label, .sv-defaultFormTheme .sv-form-multipleselectionfield label, .sv-formFieldRow span {
+    font-size: 21px;
 }
 
 .or-content-container .sv-text-portlet table caption {
