@@ -1,22 +1,132 @@
 
 /* Grunddesign */
-a.portlet-font, a.portlet-font-label, a.portlet-font-dim, a.portlet-msg-status, a.portlet-msg-info, a.portlet-msg-error, a.portlet-msg-alert, a.portlet-msg-success, a.portlet-section-body, a.portlet-section-alternate, a.portlet-section-selected, a.portlet-section-footer, a.portlet-section-text, a.portlet-form-label, a.portlet-form-input-field, a.portlet-form-button, a.portlet-icon-label, a.portlet-dlg-icon-label, a.portlet-form-field-label, a.portlet-form-field, a.portlet-menu, a.portlet-menu-item, a.portlet-menu-item-selected, a.portlet-menu-item-hover, a.portlet-menu-item-hover-selected, a.portlet-menu-cascade-item, a.portlet-menu-cascade-item-selected, a.portlet-menu-description, a.sv-portlet-image-caption, a.sv-portlet-link-description, a.sv-portlet-primary-paragraph, a.normal, .portlet-font a, .portlet-font-label a, .portlet-font-dim a, .portlet-msg-status a, .portlet-msg-info a, .portlet-msg-error a, .portlet-msg-alert a, .portlet-msg-success a, .portlet-section-body a, .portlet-section-alternate a, .portlet-section-selected a, .portlet-section-footer a, .portlet-section-text a, .portlet-form-label a, .portlet-form-input-field a, .portlet-form-button a, .portlet-icon-label a, .portlet-dlg-icon-label a, .portlet-form-field-label a, .portlet-form-field a, .portlet-menu a, .portlet-menu-item a, .portlet-menu-item-selected a, .portlet-menu-item-hover a, .portlet-menu-item-hover-selected a, .portlet-menu-cascade-item a, .portlet-menu-cascade-item-selected a, .portlet-menu-description a, .sv-portlet-image-caption a, .sv-portlet-link-description a, .sv-portlet-primary-paragraph a, .normal a, a.portlet-font:link, a.portlet-font-label:link, a.portlet-font-dim:link, a.portlet-msg-status:link, a.portlet-msg-info:link, a.portlet-msg-error:link, a.portlet-msg-alert:link, a.portlet-msg-success:link, a.portlet-section-body:link, a.portlet-section-alternate:link, a.portlet-section-selected:link, a.portlet-section-footer:link, a.portlet-section-text:link, a.portlet-form-label:link, a.portlet-form-input-field:link, a.portlet-form-button:link, a.portlet-icon-label:link, a.portlet-dlg-icon-label:link, a.portlet-form-field-label:link, a.portlet-form-field:link, a.portlet-menu:link, a.portlet-menu-item:link, a.portlet-menu-item-selected:link, a.portlet-menu-item-hover:link, a.portlet-menu-item-hover-selected:link, a.portlet-menu-cascade-item:link, a.portlet-menu-cascade-item-selected:link, a.portlet-menu-description:link, a.sv-portlet-image-caption:link, a.sv-portlet-link-description:link, a.sv-portlet-primary-paragraph:link, a.normal:link, .portlet-font a:link, .portlet-font-label a:link, .portlet-font-dim a:link, .portlet-msg-status a:link, .portlet-msg-info a:link, .portlet-msg-error a:link, .portlet-msg-alert a:link, .portlet-msg-success a:link, .portlet-section-body a:link, .portlet-section-alternate a:link, .portlet-section-selected a:link, .portlet-section-footer a:link, .portlet-section-text a:link, .portlet-form-label a:link, .portlet-form-input-field a:link, .portlet-form-button a:link, .portlet-icon-label a:link, .portlet-dlg-icon-label a:link, .portlet-form-field-label a:link, .portlet-form-field a:link, .portlet-menu a:link, .portlet-menu-item a:link, .portlet-menu-item-selected a:link, .portlet-menu-item-hover a:link, .portlet-menu-item-hover-selected a:link, .portlet-menu-cascade-item a:link, .portlet-menu-cascade-item-selected a:link, .portlet-menu-description a:link, .sv-portlet-image-caption a:link, .sv-portlet-link-description a:link, .sv-portlet-primary-paragraph a:link, .normal a:link, a.portlet-font:visited, a.portlet-font-label:visited, a.portlet-font-dim:visited, a.portlet-msg-status:visited, a.portlet-msg-info:visited, a.portlet-msg-error:visited, a.portlet-msg-alert:visited, a.portlet-msg-success:visited, a.portlet-section-body:visited, a.portlet-section-alternate:visited, a.portlet-section-selected:visited, a.portlet-section-footer:visited, a.portlet-section-text:visited, a.portlet-form-label:visited, a.portlet-form-input-field:visited, a.portlet-form-button:visited, a.portlet-icon-label:visited, a.portlet-dlg-icon-label:visited, a.portlet-form-field-label:visited, a.portlet-form-field:visited, a.portlet-menu:visited, a.portlet-menu-item:visited, a.portlet-menu-item-selected:visited, a.portlet-menu-item-hover:visited, a.portlet-menu-item-hover-selected:visited, a.portlet-menu-cascade-item:visited, a.portlet-menu-cascade-item-selected:visited, a.portlet-menu-description:visited, a.sv-portlet-image-caption:visited, a.sv-portlet-link-description:visited, a.sv-portlet-primary-paragraph:visited, a.normal:visited, .portlet-font a:visited, .portlet-font-label a:visited, .portlet-font-dim a:visited, .portlet-msg-status a:visited, .portlet-msg-info a:visited, .portlet-msg-error a:visited, .portlet-msg-alert a:visited, .portlet-msg-success a:visited, .portlet-section-body a:visited, .portlet-section-alternate a:visited, .portlet-section-selected a:visited, .portlet-section-footer a:visited, .portlet-section-text a:visited, .portlet-form-label a:visited, .portlet-form-input-field a:visited, .portlet-form-button a:visited, .portlet-icon-label a:visited, .portlet-dlg-icon-label a:visited, .portlet-form-field-label a:visited, .portlet-form-field a:visited, .portlet-menu a:visited, .portlet-menu-item a:visited, .portlet-menu-item-selected a:visited, .portlet-menu-item-hover a:visited, .portlet-menu-item-hover-selected a:visited, .portlet-menu-cascade-item a:visited, .portlet-menu-cascade-item-selected a:visited, .portlet-menu-description a:visited, .sv-portlet-image-caption a:visited, .sv-portlet-link-description a:visited, .sv-portlet-primary-paragraph a:visited, .normal a:visited, a.portlet-font:focus, a.portlet-font-label:focus, a.portlet-font-dim:focus, a.portlet-msg-status:focus, a.portlet-msg-info:focus, a.portlet-msg-error:focus, a.portlet-msg-alert:focus, a.portlet-msg-success:focus, a.portlet-section-body:focus, a.portlet-section-alternate:focus, a.portlet-section-selected:focus, a.portlet-section-footer:focus, a.portlet-section-text:focus, a.portlet-form-label:focus, a.portlet-form-input-field:focus, a.portlet-form-button:focus, a.portlet-icon-label:focus, a.portlet-dlg-icon-label:focus, a.portlet-form-field-label:focus, a.portlet-form-field:focus, a.portlet-menu:focus, a.portlet-menu-item:focus, a.portlet-menu-item-selected:focus, a.portlet-menu-item-hover:focus, a.portlet-menu-item-hover-selected:focus, a.portlet-menu-cascade-item:focus, a.portlet-menu-cascade-item-selected:focus, a.portlet-menu-description:focus, a.sv-portlet-image-caption:focus, a.sv-portlet-link-description:focus, a.sv-portlet-primary-paragraph:focus, a.normal:focus, .portlet-font a:focus, .portlet-font-label a:focus, .portlet-font-dim a:focus, .portlet-msg-status a:focus, .portlet-msg-info a:focus, .portlet-msg-error a:focus, .portlet-msg-alert a:focus, .portlet-msg-success a:focus, .portlet-section-body a:focus, .portlet-section-alternate a:focus, .portlet-section-selected a:focus, .portlet-section-footer a:focus, .portlet-section-text a:focus, .portlet-form-label a:focus, .portlet-form-input-field a:focus, .portlet-form-button a:focus, .portlet-icon-label a:focus, .portlet-dlg-icon-label a:focus, .portlet-form-field-label a:focus, .portlet-form-field a:focus, .portlet-menu a:focus, .portlet-menu-item a:focus, .portlet-menu-item-selected a:focus, .portlet-menu-item-hover a:focus, .portlet-menu-item-hover-selected a:focus, .portlet-menu-cascade-item a:focus, .portlet-menu-cascade-item-selected a:focus, .portlet-menu-description a:focus, .sv-portlet-image-caption a:focus, .sv-portlet-link-description a:focus, .sv-portlet-primary-paragraph a:focus, .normal a:focus {
+/*Länkar*/
+a.portlet-font, a.portlet-font-label, a.portlet-font-dim, a.portlet-msg-status, a.portlet-msg-info, a.portlet-msg-error, 
+a.portlet-msg-alert, a.portlet-msg-success, a.portlet-section-body, a.portlet-section-alternate, a.portlet-section-selected, 
+a.portlet-section-footer, a.portlet-section-text, a.portlet-form-label, a.portlet-form-input-field, a.portlet-form-button, 
+a.portlet-icon-label, a.portlet-dlg-icon-label, a.portlet-form-field-label, a.portlet-form-field, a.portlet-menu, a.portlet-menu-item, 
+a.portlet-menu-item-selected, a.portlet-menu-item-hover, a.portlet-menu-item-hover-selected, a.portlet-menu-cascade-item, 
+a.portlet-menu-cascade-item-selected, a.portlet-menu-description, a.sv-portlet-image-caption, a.sv-portlet-link-description, 
+a.sv-portlet-primary-paragraph, 
+.portlet-font a, .portlet-font-label a, .portlet-font-dim a, .portlet-msg-status a, 
+.portlet-msg-info a, .portlet-msg-error a, .portlet-msg-alert a, .portlet-msg-success a, 
+.portlet-section-body a, .portlet-section-alternate a, .portlet-section-selected a, 
+.portlet-section-footer a, .portlet-section-text a, .portlet-form-label a, 
+.portlet-form-input-field a, .portlet-form-button a, .portlet-icon-label a, 
+.portlet-dlg-icon-label a, .portlet-form-field-label a, .portlet-form-field a, .portlet-menu a, 
+.portlet-menu-item a, .portlet-menu-item-selected a, .portlet-menu-item-hover a, 
+.portlet-menu-item-hover-selected a, .portlet-menu-cascade-item a, 
+.portlet-menu-cascade-item-selected a, .portlet-menu-description a, 
+.sv-portlet-image-caption a, .sv-portlet-link-description a, .sv-portlet-primary-paragraph a, 
+.normal a, a.portlet-font:link, a.portlet-font-label:link, a.portlet-font-dim:link, a.portlet-msg-status:link, 
+a.portlet-msg-info:link, a.portlet-msg-error:link, a.portlet-msg-alert:link, a.portlet-msg-success:link, 
+a.portlet-section-body:link, a.portlet-section-alternate:link, a.portlet-section-selected:link, a.portlet-section-footer:link, 
+a.portlet-section-text:link, a.portlet-form-label:link, a.portlet-form-input-field:link, a.portlet-form-button:link, 
+a.portlet-icon-label:link, a.portlet-dlg-icon-label:link, a.portlet-form-field-label:link, a.portlet-form-field:link, 
+a.portlet-menu:link, a.portlet-menu-item:link, a.portlet-menu-item-selected:link, a.portlet-menu-item-hover:link, 
+a.portlet-menu-item-hover-selected:link, a.portlet-menu-cascade-item:link, a.portlet-menu-cascade-item-selected:link, 
+a.portlet-menu-description:link, a.sv-portlet-image-caption:link, a.sv-portlet-link-description:link, 
+a.sv-portlet-primary-paragraph:link, a.normal:link, .portlet-font a:link, .portlet-font-label a:link, 
+.portlet-font-dim a:link, .portlet-msg-status a:link, .portlet-msg-info a:link, .portlet-msg-error a:link, 
+.portlet-msg-alert a:link, .portlet-msg-success a:link, .portlet-section-body a:link, .portlet-section-alternate a:link, 
+.portlet-section-selected a:link, .portlet-section-footer a:link, .portlet-section-text a:link, .portlet-form-label a:link, 
+.portlet-form-input-field a:link, .portlet-form-button a:link, .portlet-icon-label a:link, .portlet-dlg-icon-label a:link, 
+.portlet-form-field-label a:link, .portlet-form-field a:link, .portlet-menu a:link, .portlet-menu-item a:link, .portlet-menu-item-selected a:link, 
+.portlet-menu-item-hover a:link, .portlet-menu-item-hover-selected a:link, .portlet-menu-cascade-item a:link, .portlet-menu-cascade-item-selected a:link, 
+.portlet-menu-description a:link, 
+.sv-portlet-image-caption a:link, .sv-portlet-link-description a:link, .sv-portlet-primary-paragraph a:link{
+	text-decoration: underline;
+	color: #017cdb;
+	cursor: pointer;
+}
+
+/*Länkar visited*/
+a.portlet-font:visited, a.portlet-font-label:visited, a.portlet-font-dim:visited, a.portlet-msg-status:visited, 
+a.portlet-msg-info:visited, a.portlet-msg-error:visited, a.portlet-msg-alert:visited, a.portlet-msg-success:visited, 
+a.portlet-section-body:visited, a.portlet-section-alternate:visited, a.portlet-section-selected:visited, a.portlet-section-footer:visited, 
+a.portlet-section-text:visited, a.portlet-form-label:visited, a.portlet-form-input-field:visited, a.portlet-form-button:visited, 
+a.portlet-icon-label:visited, a.portlet-dlg-icon-label:visited, a.portlet-form-field-label:visited, a.portlet-form-field:visited, 
+a.portlet-menu:visited, a.portlet-menu-item:visited, a.portlet-menu-item-selected:visited, a.portlet-menu-item-hover:visited, 
+a.portlet-menu-item-hover-selected:visited, a.portlet-menu-cascade-item:visited, a.portlet-menu-cascade-item-selected:visited, 
+a.portlet-menu-description:visited, a.sv-portlet-image-caption:visited, a.sv-portlet-link-description:visited, 
+a.sv-portlet-primary-paragraph:visited, a.normal:visited, .portlet-font a:visited, .portlet-font-label a:visited, 
+.portlet-font-dim a:visited, .portlet-msg-status a:visited, .portlet-msg-info a:visited, .portlet-msg-error a:visited, 
+.portlet-msg-alert a:visited, .portlet-msg-success a:visited, .portlet-section-body a:visited, .portlet-section-alternate a:visited, 
+.portlet-section-selected a:visited, .portlet-section-footer a:visited, .portlet-section-text a:visited, .portlet-form-label a:visited, 
+.portlet-form-input-field a:visited, .portlet-form-button a:visited, .portlet-icon-label a:visited, .portlet-dlg-icon-label a:visited, 
+.portlet-form-field-label a:visited, .portlet-form-field a:visited, .portlet-menu a:visited, .portlet-menu-item a:visited, 
+.portlet-menu-item-selected a:visited, .portlet-menu-item-hover a:visited, .portlet-menu-item-hover-selected a:visited, 
+.portlet-menu-cascade-item a:visited, .portlet-menu-cascade-item-selected a:visited, .portlet-menu-description a:visited, 
+.sv-portlet-image-caption a:visited, .sv-portlet-link-description a:visited, .sv-portlet-primary-paragraph a:visited, 
+.normal a:visited{
+    color: #6b0771;
+	cursor: pointer;
+}
+
+/* Länkar hover*/
+.normal a:link:hover{
+	color:#0b4a89;
+}
+
+/* Länkar focus active*/
+a.portlet-font:focus, a.portlet-font-label:focus, a.portlet-font-dim:focus, a.portlet-msg-status:focus, 
+a.portlet-msg-info:focus, a.portlet-msg-error:focus, a.portlet-msg-alert:focus, a.portlet-msg-success:focus, 
+a.portlet-section-body:focus, a.portlet-section-alternate:focus, a.portlet-section-selected:focus, a.portlet-section-footer:focus, 
+a.portlet-section-text:focus, a.portlet-form-label:focus, a.portlet-form-input-field:focus, a.portlet-form-button:focus, a
+.portlet-icon-label:focus, a.portlet-dlg-icon-label:focus, a.portlet-form-field-label:focus, a.portlet-form-field:focus, 
+a.portlet-menu:focus, a.portlet-menu-item:focus, a.portlet-menu-item-selected:focus, a.portlet-menu-item-hover:focus, 
+a.portlet-menu-item-hover-selected:focus, a.portlet-menu-cascade-item:focus, a.portlet-menu-cascade-item-selected:focus, 
+a.portlet-menu-description:focus, a.sv-portlet-image-caption:focus, a.sv-portlet-link-description:focus, 
+a.sv-portlet-primary-paragraph:focus, a.normal:focus, .portlet-font a:focus, .portlet-font-label a:focus, 
+.portlet-font-dim a:focus, .portlet-msg-status a:focus, .portlet-msg-info a:focus, .portlet-msg-error a:focus, 
+.portlet-msg-alert a:focus, .portlet-msg-success a:focus, .portlet-section-body a:focus, .portlet-section-alternate a:focus, 
+.portlet-section-selected a:focus, .portlet-section-footer a:focus, .portlet-section-text a:focus, .portlet-form-label a:focus, 
+.portlet-form-input-field a:focus, .portlet-form-button a:focus, .portlet-icon-label a:focus, .portlet-dlg-icon-label a:focus, 
+.portlet-form-field-label a:focus, .portlet-form-field a:focus, .portlet-menu a:focus, .portlet-menu-item a:focus, 
+.portlet-menu-item-selected a:focus, .portlet-menu-item-hover a:focus, .portlet-menu-item-hover-selected a:focus, 
+.portlet-menu-cascade-item a:focus, .portlet-menu-cascade-item-selected a:focus, .portlet-menu-description a:focus, 
+.sv-portlet-image-caption a:focus, .sv-portlet-link-description a:focus, .sv-portlet-primary-paragraph a:focus, 
+.normal a:focus, .normal a:active{
+	color:#890b0b;
+	background-color:#ddd;
+}
+
+/*Länkar ingress*/
+a.ingress:link, .ingress a:link {
     font-family: "open sans",sans-serif;
     font-weight: normal;
     font-style: normal;
-    color: #35383b;
-    text-decoration: none;
+    font-size: 20px;
+    text-decoration: underline;
+	color: #017cdb;
     line-height: normal;
-    box-shadow: rgba(174,222,239,0.65)0px -15px 0 -11px inset;
-    -webkit-transition: all 100ms ease;
-    -moz-transition: all 100ms ease;
-    -o-transition: all 100ms ease;
-    transition: all 100ms ease;
-    cursor: pointer;
+    display: inline;
+    padding-right: 1px;
+    padding-bottom: 0px;
+    padding-left: 1px;
+    background-color: transparent;
+    font-weight: 300;
 }
 
-.normal a:link:hover {
-    box-shadow: rgba(174,222,239,0.65) 0 -41px 0 -23px inset;
+/*Länkar ingress visited*/
+a.ingress:visited, .ingress a:visited{
+color:#6b0771;
+}
+
+/*Länkar ingress hover*/
+.ingress a:link:hover{
+	color:#0b4a89;
+}
+
+/*Länkar ingress active fokus*/
+a.ingress:active, .ingress a:active, a.ingress:focus, .ingress a:focus{
+	color:#890b0b;
+	background-color:#ddd;
+}
+
+/*Länkar footer*/
+.or-site-facts a:link, .or-site-facts a:visited{
+	color:#35383b;
 }
 
 .or-grid-12-col.sv-fluid-grid, .or-grid-12-col.sv-fixed-fluid-grid {
@@ -669,7 +779,7 @@ display: inline;
   padding-left: 1px;
   float: none;
   background-color: transparent;
-   box-shadow: rgb(174, 222, 239) 0px -16px 0px -11px inset;
+  box-shadow: rgb(174, 222, 239) 0px -16px 0px -11px inset;
   box-shadow: rgba(174, 222, 239, 0.65) 0px -16px 0px -11px inset;
   -webkit-transition: all 100ms ease;
   transition: all 100ms ease;
@@ -686,10 +796,14 @@ font-family: "open sans",sans-serif;
   color: #149fdb;
   text-decoration: none;
   line-height: normal;
-    background-color: rgb(174, 222, 239);
+  background-color: rgb(174, 222, 239);
   box-shadow: rgb(174, 222, 239)0px -16px 0px -30px inset;
   background-color: rgba(174, 222, 239, 0.49);
   box-shadow: rgba(174, 222, 239, 0.65)0px -16px 0px -30px inset;
+  -webkit-transition: all 100ms ease;
+  -moz-transition: all 100ms ease;
+  -o-transition: all 100ms ease;
+  transition: all 100ms ease;
   color: #35383b;
 }
 
@@ -917,6 +1031,42 @@ font-family: "leaguespartan webfont",sans-serif;
   box-shadow: rgb(133, 118, 114) 6px 0px 13px -6px inset; /* fallback */
   box-shadow: rgba(133, 118, 114, 0.52) 6px 0px 13px -6px inset;
 }
+.sol-sok-ruta-fa input[type="text"] {
+  height: 50px;
+  padding: 8px 70px 8px 12px;
+  line-height: 1.428571429;
+  border: 1px solid #cccccc;
+  border-style: solid;
+  border-width: 1px;
+   border-color: rgb(133, 118, 114); /* fallback */
+  border-color: rgba(133, 118, 114, 0.2);
+  border-radius: 2px;
+  -moz-border-radius:2px;
+  -webkit-border-radius:2px;
+  vertical-align: middle;
+  background-color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  color: #454545;
+  -webkit-appearance: none;
+}
+.sol-sok-ruta-fa input[type="submit"] {
+  width: 60px;
+  height: 60px;
+  margin-left: -30px;
+  font: normal normal normal 35px/1 FontAwesome;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+}
+.sol-sok-ruta-fa input[type="submit"].submit {
+  float: none;
+  left: initial;
+  top: initial;
+}
+
 .searchform {
   width: 75%;
   height: 50px;
@@ -3462,7 +3612,7 @@ Additional
 }
    
 
-/* FormulÃ¤r inputfÃ¤lt */
+/* Formulär inputfält */
 
 /* Grund */
 
@@ -3639,7 +3789,7 @@ li.or-comment {
    float: left;
 }
 
-/* TillÃ¤gg */
+/* Tillägg */
 .or-float-right {
   float:right;
 }
@@ -3682,7 +3832,7 @@ li.or-comment {
 }
 
 
-/*Font awsome tillÃ¤gg */
+/*Font awsome tillägg */
 .fa-rotate-45 {
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
@@ -3889,7 +4039,7 @@ or-news-list-image-container img {
 }
 
 
-/* BrÃ¶dsmulor */
+/* Brödsmulor */
 
 .floatlistitems {
   margin-right: 9px;
@@ -3922,7 +4072,7 @@ or-news-list-image-container img {
 }
 
 
-/* Action lÃ¤nk ruta */
+/* Action länk ruta */
 
 .or-action-link {
     width: 100%;
@@ -4048,7 +4198,7 @@ filter: alpha(opacity=90);
 }
 
 
-/* LÃ¤nkruta */
+/* Länkruta */
 
 .or-docs-box-heading {
     padding-top: 10px;
@@ -4219,7 +4369,7 @@ h4.or-h1-facts-block + p {
 
 
 
-/* HÃ¶germeny v2 */
+/* Högermeny v2 */
 
 div.or-left-nav-menu table{
   border-spacing: 0;
@@ -4746,7 +4896,7 @@ body .mm-menu.mm-vertical .mm-list li.mm-opened.mm-selected > a.mm-subopen {
 }
 
 /**************************
-SÃ¶k
+Sök
 **************************/
 .or-no-search-hits{
    float: left;   
@@ -4810,7 +4960,7 @@ SÃ¶k
    position: relative;
 }
 
-/* sÃ¶krutan */
+/* sökrutan */
 .sol-sok-ruta input.ui-autocomplete-input {
   position: relative;
   padding-top: 0px;
@@ -4871,7 +5021,7 @@ border-color: rgb(232, 60, 35);
 }
 
 
-/* SÃ¶kknapp */
+/* Sökknapp */
 .sol-sok-ruta input.normal:last-child {
     right: 12px;    
     bottom: -3px;
@@ -4906,7 +5056,7 @@ form#or-search-form::after {
     width: 20px;
     height: 24px;
 }*/
-/* SÃ¶ktrÃ¤ffar */
+/* Sökträffar */
 .sol-sok-ruta ol.sv-search-result li.sv-search-hit {
   margin-bottom: 20px;
   padding: 15px 20px 6px 5px;
@@ -5124,7 +5274,7 @@ div.sol-search-icon-wrapper > img {
  width: 50px;
 }
 
-/* SÃ¶k total-lÃ¤nk */
+/* Sök total-länk */
 .or-total-link {
     margin: 21px 0 24px;
     display: inline-block;
@@ -5149,7 +5299,7 @@ div.sol-search-icon-wrapper > img {
 }
 
 
-/* ArkivlÃ¤nks action */
+/* Arkivlänks action */
 
 .or-ctaicon {  
  position: absolute;
@@ -5314,7 +5464,7 @@ color: rgba(53, 56, 59, 0.85);
 }
 
 
- /* Filarkiv som innehÃ¥ll */
+ /* Filarkiv som innehåll */
  
 .or-plus-box-content.or-file-list-in-plus-box {
   padding: initial;
@@ -5322,7 +5472,7 @@ color: rgba(53, 56, 59, 0.85);
 }
 
 
-/* Kontakta oss fristÃ¥ende */
+/* Kontakta oss fristående */
 .contact-right-sidebar{
 	margin-top:10px;
 }
@@ -5510,7 +5660,7 @@ body a.kontaktaxossxxxbrodtext:hover, body .kontaktaxossxxxbrodtext a:hover{
   display: none;
 }
 
-/* VISA kontakt-och-tyck-till I EDITOR LÃ„GE */
+/* VISA kontakt-och-tyck-till I EDITOR LÄGE */
 /*.sv-editing-mode .kontakt-och-tyck-till{
    display: block;   
 }
@@ -5663,13 +5813,17 @@ box-shadow: rgba(255, 255, 255, 1)0px -33px 0px -11px inset;
 .sv-text-portlet table.sv-standard td p a{
     font-size: 16px;
     line-height: 1.2em;
-    display: inline;
-	 padding-right: 1px;
-	 padding-bottom: 0px;
-	 padding-left: 1px;
-	 background-color: transparent;
-	 box-shadow: rgba(174, 222, 239, 0.65)0px -16px 0px -11px inset;
-	 transition: all 100ms ease;
+	text-decoration: underline;
+	color: #017cdb;
+	display: inline;
+	padding-right: 1px;
+	padding-bottom: 0px;
+	padding-left: 1px;
+	background-color: transparent;
+}
+
+.sv-text-portlet table.sv-standard td p a:visited{
+	color: #6b0771;
 }
 
 .pagecontent .sv-linklist-portlet table.sv-standard td p, 
@@ -5678,8 +5832,12 @@ box-shadow: rgba(255, 255, 255, 1)0px -33px 0px -11px inset;
 .sv-text-portlet table.sv-standard td p a:hover{
   font-size: 16px;
   line-height: 1.2em;
-  box-shadow: rgba(174, 222, 239, 0.65) 0px -48px 0px -30px inset;
-	color: #35383b;
+  color:#0b4a89;
+}
+
+.sv-text-portlet table.sv-standard td p a:focus, .sv-text-portlet table.sv-standard td p a:active{
+	color:#890b0b;
+	background-color:#ddd;
 }
 
 .sv-table-portlet table,
@@ -5778,7 +5936,7 @@ margin-top: 15px;
 .stacktable.large-only { display: table; }
 .stacktable.small-only { display: none; }
 
-/* Gamla pilen fÃ¶r actions */
+/* Gamla pilen för actions. url används endast på test*/
 .ctaiconright {
   position: absolute;
   top: 0px;
@@ -5794,7 +5952,7 @@ margin-top: 15px;
    
  /* PUFFAR */
  
- /* SV CSS MÃ…STE SKRIVAS Ã–VER */
+ /* SV CSS MÅSTE SKRIVAS ÖVER */
  .or-puff-img{
     width: inherit;
     height: 100%;
@@ -6124,7 +6282,7 @@ position: absolute;   left: 25px;   bottom: 25px;   width: 80%;
   padding-top: 3px;
 }
    
-/* PUFF TEXT BILD LÃ„NKLISTA*/
+/* PUFF TEXT BILD LÄNKLISTA*/
 .or-puff-text-bild-lanklista {
   width: 31%;  
   display: inline-block;
@@ -6183,18 +6341,20 @@ font-size: 15px;
   margin-bottom: 0;
 }
 
-.or-puff-text-bild-lanklista .or-lanklista a:link {
+.or-puff-text-bild-lanklista .or-lanklista a:link, .or-puff-text-bild-lanklista .or-lanklista a:visited {
     float: left;
     font-family: "Open Sans",sans-serif;
+	color:#35383b;
     font-size: 14px;
     line-height: 17px;
     text-align: left;
     margin-bottom: 10px;
 }
 
-.or-puff-text-icon-lanklista .or-lanklista a:link {
+.or-puff-text-icon-lanklista .or-lanklista a:link,.or-puff-text-icon-lanklista .or-lanklista a:visited {
     float: left;
     font-family: "Open Sans",sans-serif;
+	color:#35383b;
     font-size: 14px;
     line-height: 17px;
     text-align: left;
@@ -6263,7 +6423,7 @@ font-size: 15px;
 
 
 
-/* PUFF ICON BILD LÃ„NKLISTA*/
+/* PUFF ICON BILD LÄNKLISTA*/
 .or-puff-text-icon-lanklista .ikonxbla{
     font-size: 65px;
 }
@@ -6359,17 +6519,23 @@ text-decoration: underline;
 }
 .or-puff-bild-text p a:link{
 	font-size: 14px;
+	color:#35383b;
+	text-decoration:none;
 	line-height: 18px;
 	box-shadow: 0px -16px 0px -11px rgb(174, 222, 239) inset;
 	box-shadow: 0px -16px 0px -11px rgba(174, 222, 239, 0.0) inset;
 }
 
+.or-puff-bild-text p a:visited{
+	color:#35383b;
+}
+
 .or-puff-bild-text:hover p a:link {
 	font-size: 14px;
+	color:#35383b;
 	line-height: 18px;
 	box-shadow: 0px -16px 0px -11px rgb(174, 222, 239) inset;
-	box-shadow: 0px -16px 0px -11px rgba(174, 222, 239, 0.0) inset;
-	
+	box-shadow: 0px -16px 0px -11px rgba(174, 222, 239, 0.0) inset;	
 }
 
 .or-puff-bild-text > div:nth-child(1){
@@ -6453,7 +6619,7 @@ text-decoration: underline;
     color: #fff;
 }
 
-/* DEKORATION LÃ„NKLISTA */
+/* DEKORATION LÄNKLISTA */
 .or-lanklista {
     border-bottom: 2px dotted #ECEBE6;
     margin-left: 20px;
@@ -6479,8 +6645,9 @@ text-decoration: underline;
 .or-lanklista > div:nth-child(2){
 }
 
-.or-lanklista a:link {
+.or-lanklista a:link, .or-lanklista a:visited {
   box-shadow: none;
+  text-decoration: none;
   display: block;
   width: 100%;
   padding-right: 20px;
@@ -6525,10 +6692,10 @@ text-decoration: underline;
     line-height: normal;
 }
 
-/* TEST FÃ–R ACTION */
+/* Action */
 .or-action-content a:link {
-  box-shadow: none!important;
-  font-size: 12px;
+  /*box-shadow: none!important;*/
+  color: #35383b;
 }
 
 
@@ -6692,7 +6859,7 @@ label.or-fieldlabelhelpus{
 }
 
 
-/* SÃ¶k mobil */
+/* Sök mobil */
 
 .or-search {
    z-index:100;
@@ -6756,7 +6923,7 @@ label.or-fieldlabelhelpus{
    display: none;
 }*/
 
-/* lÃ¤nkad lista */
+/* länkad lista */
 
 .or-links-list ul {
   margin:0px;
@@ -6832,7 +6999,7 @@ label.or-fieldlabelhelpus{
 }
 
 
-/* AmbassadÃ¶rer */
+/* Ambassadörer */
 
 .or-quote-image {
   position: relative;
@@ -7217,12 +7384,24 @@ display:block;
 }
 
 .or-social-link-facebook .normal a.or-social-content-links{
-display:inline-block;
+	display:inline-block;
+	text-decoration:none;
+	color:#35383b;
+	box-shadow: 0 -16px 0 -11px rgba(174,222,239,0.65) inset;
+}
+
+.or-social-link-facebook .normal a.or-social-content-links:hover{
+	display:inline-block;
+	box-shadow: rgba(174,222,239,0.65) 0 -48px 0 -30px inset;
+	-webkit-transition: all 100ms ease;
+    -moz-transition: all 100ms ease;
+    -o-transition: all 100ms ease;
+    transition: all 100ms ease;
 }
 
 /*
 .sv-clearfix.or-facebook-container.or-wrapper-click {
-    width: 97%;
+    width: 97%; 
 }
 */
 
@@ -7234,7 +7413,7 @@ display:inline-block;
 
 
 /* Program inriktningar */
-/* se Ã¤ven program puff */
+/* se även program puff */
 .or-inriktning {
   padding-top: 9px;
   display: block;  
@@ -7325,7 +7504,7 @@ display:inline-block;
     margin-top: 0px;
 }
 
-/*Steg fÃ¶r steg puff*/
+/*Steg för steg puff*/
 .or-school-advantages-container {
     background-color: white;
     margin-bottom: 20px;
@@ -7788,13 +7967,15 @@ box-shadow: 0px -48px 0px -30px rgba(174, 222, 239, 0.65) inset;
     border-bottom: none;
 }
 
-
+/*Ambassadör*/
 .or-quotename .normal a,
-.or-quotename .normal {    
+.or-quotename .normal,.or-quotename .normal a:hover, .or-quotename .normal a:visited {    
   font-family: 'Leaguespartan webfont', sans-serif;
   font-size: 11px;
   font-weight: 700;
-  box-shadow: none;
+  color:#35383b;
+  text-decoration:none;
+  box-shadow:none;
 }
 
 .or-quotename p.normal {
@@ -7839,7 +8020,7 @@ box-shadow: 0px -48px 0px -30px rgba(174, 222, 239, 0.65) inset;
     background-color: white;
 }
 
-/* Ikoner pÃ¥ delaknapparna */
+/* Ikoner på delaknapparna */
 
 .sharebutton--icon-facebook {            
    	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAAHdbkFIAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIpSURBVGhD7ZpPSsQwFMYHl67cegNBUFCMegFXgpuhHXEzR5gbjCcQN+Iks/AG6jF04xFExCsIIsKYhFdtM69pm6ad6eQ9+CF5fXn5+vXPtNjeYSxmNqoXsHhykh7PFfRkZMbpgU7ULjBZRMHu2d1GepwpMPdA5zKD2gUY9QuKaLjBYLqjdlwFul2S3yDijzBXB1ojsSqAufYaLJkA890blIEaNN4gEt/qCjev8jTWBnAa6MC2KwobsEhcY9sS8jsbgdUomlOgWIEGZaAG9SEB3RXAYvGlLjQzsFobzgJgPR3yah9hNWWoLIBF/EX+HcLaOo76U6ZyADovj+oOGM88ZqBzLPg6BNYbrg0S0F0BviABJIAEkAAS0G0BLOZi72Ky+f8ezW+xOhvOAo7P+Rb8GP6Fy6+iswBYMxOtCZAPpm+wpg6spiydFDBkA9GHtXWoHPAANaWpLADWREM+st9jc2x4FSBf1z6wOTacjl/wJyEJIAEkwCskgASQABKwaMgALBkSZACWDAkyAEuGBBmAJZuHvx4MxDa8z+RGnX+ClaV9AyJxBftXGKtowGdvPF6D/cvE/ilflzs8kmfHZYIcPyE9vNKqAea7fDraONoYZACW9ErBVx62YLG4QXt6ZMkN4M9oT48srwHyZikN+EF7eoTuAViyKcgAMoAMIANgf+eCDAjBAPlM8J58WmPi8qmND9o1YAkhA7BkSJABWDIkyAAsGRKBGyBmvxwMVQhQ9nrSAAAAAElFTkSuQmCC');                 
@@ -7907,7 +8088,7 @@ box-shadow: 0px -48px 0px -30px rgba(174, 222, 239, 0.65) inset;
     color: #303539;
 }
 
-/* formulÃ¤r-toppbild sjukskÃ¶terskewebben*/
+/* formulär-toppbild sjuksköterskewebben*/
 
 .or-form-column{
 }
@@ -8047,7 +8228,7 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
     text-align: center;
 }
 
-/* formulÃ¤r */
+/* formulär */
 .sv-formFieldRow, .sv-formField {
    margin-top: 20px;
 }
