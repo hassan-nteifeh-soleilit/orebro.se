@@ -149,7 +149,7 @@ body .or-content-container .or-tir p, body .or-content-container .or-tir p a:lin
 }
 
 .ingress a:link:hover{
-	box-shadow: rgba(174, 222, 239, 0.65) 0 -41px 0 -18px inset;
+	color:#0b4a89;
 }
 
 
@@ -200,7 +200,7 @@ section.or-article-main .or-content-padding {
 }
 
 .ingress a:link:hover{
-	box-shadow: rgba(174, 222, 239, 0.65) 0 -41px 0 -15px inset;
+	color:#0b4a89;
 }
 
 /* puffar */

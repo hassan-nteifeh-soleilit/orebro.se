@@ -91,6 +91,39 @@ a.sv-portlet-primary-paragraph:focus, a.normal:focus, .portlet-font a:focus, .po
 	background-color:#ddd;
 }
 
+/*Länkar ingress*/
+a.ingress:link, .ingress a:link {
+    font-family: "open sans",sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    text-decoration: underline;
+	color: #017cdb;
+    line-height: normal;
+    display: inline;
+    padding-right: 1px;
+    padding-bottom: 0px;
+    padding-left: 1px;
+    background-color: transparent;
+    font-weight: 300;
+}
+
+/*Länkar ingress visited*/
+a.ingress:visited, .ingress a:visited{
+color:#6b0771;
+}
+
+/*Länkar ingress hover*/
+.ingress a:link:hover{
+	color:#0b4a89;
+}
+
+/*Länkar ingress active fokus*/
+a.ingress:active, .ingress a:active, a.ingress:focus, .ingress a:focus{
+	color:#890b0b;
+	background-color:#ddd;
+}
+
 /*Länkar footer*/
 .or-site-facts a:link, .or-site-facts a:visited{
 	color:#35383b;
