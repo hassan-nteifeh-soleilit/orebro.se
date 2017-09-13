@@ -75,7 +75,7 @@ body .or-content-container .or-tir h2 {
 
 
 /* plusbox */
-.plusboxxrubrik {
+.plusboxxrubrik, .or-plus-box-program div.plusboxxrubrik {
     font-size: 14px;
 }
 
