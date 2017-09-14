@@ -1744,19 +1744,18 @@ body:not(.sv-editing-mode) .or-plus-box-program.or-plus-box-content caption, bod
 
 /* Plusbox Kontakter */
 .or-plusbox-kontakter .plusboxxrubrik {
-    width: 100%;
-    color: #E83C23;
+    width: calc(100% + 18px);
     background-color: #FCF5EC;
     margin-top: 2px;
     margin-bottom: 2px;
-    margin-left: -12px;
-    padding-left: 12px;
+    margin-left: -18px;
+    padding-left: 18px;
 }
 .or-plusbox-kontakter .or-icon-plus {
     background-color: #fff;
 }
 .or-plusbox-kontakter .or-icon-plus:before {
-    color: #E83C23;
+    color: inherit;
 }
 .or-plusbox-kontakter .or-collapse-button {
     background-color: #fff;
@@ -1766,7 +1765,6 @@ body:not(.sv-editing-mode) .or-plus-box-program.or-plus-box-content caption, bod
     width: 43px;
 }
 .or-plusbox-kontakter i.fa {
-    color: #E83C23;
     font-size: 1.3em;
     margin-right: 0.2em;
 }
