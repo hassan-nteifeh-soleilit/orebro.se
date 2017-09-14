@@ -1,11 +1,26 @@
+#if ($interface.icon && $interface.icon != '')
+#set ($icon = "<i class='fa $interface.icon'></i>")
+#end
+
+#if ($interface.wrapperClass && $interface.wrapperClass != '')
+<div class="$interface.wrapperClass">
+#end
+
 <div class="or-collapse-button or-colorbg">
    <div class="or-icon-area">
       <span class="or-icon-plus"></span>
    </div>   
 </div>
-<div class="or-collapsible-header or-js-collapsible-header">   
-	 <div class="plusboxxrubrik">$!{contentName} #if($points)<span class="or-programpoang">$points poäng</span>#end</div>
+<div class="or-collapsible-header or-js-collapsible-header">
+   <div class="plusboxxrubrik">
+      $!{icon}$!{contentName}
+      #if($points)<span class="or-programpoang">$points poäng</span>#end
+   </div>
 </div>
+
+#if ($interface.wrapperClass && $interface.wrapperClass != '')
+</div>
+#end
 
 <script type="text/javascript">
    (function() {       
@@ -16,11 +31,11 @@
          if(e.which == '13' || e.type == 'click') {        
             $('#svid${contentId} .or-plus-box-content').slideToggle(200); 
             $(this).toggleClass('or-plus-box-active');
-         }         
+         }
          if( e.type == 'click') {
             $(this).blur();
          }
-      });    
+      });
    })();	 
 
    $( document ).ready(function() {
