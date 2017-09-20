@@ -1,5 +1,5 @@
 <div class="or-mobile-nav-container" id="contact">
-   <a class="or-mobile-nav-column search-column" href="$linkNode" id="mobileMenuLogo">
+   <a class="or-mobile-nav-column search-column" href="$linkStartNode" id="mobileMenuLogo">
       <!--img class="or-logo" src="/images/18.3342eaed15109c3d1d112b6/1448986100508/orebro.svg" alt="logotype"-->
       <img class="or-logo" src="/images/18.242f1fb1556288bfbf1594c/1467796106738/Orebro_se-logo.png" alt="logotype">
       <div class="or-header-bottomtext">Örebro kommun</div>      
