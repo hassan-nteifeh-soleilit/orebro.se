@@ -686,6 +686,12 @@ a.ingressnyhetsruta, .ingressnyhetsruta a {
 .or-topp-section-school .or-stor-bild-text-actions .or-school-top-image {
   height: 280px;
 }
+
+.or-stor-bild-text-actions > div:nth-child(1) { 
+	height: 280px; 
+	min-height: 280px; 
+} 
+
 .or-instagram-container {
   width: 46%;
   margin-right: 4%;
