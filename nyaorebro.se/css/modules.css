@@ -2305,6 +2305,24 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
 }
 .or-colorborder.or-wrapper-click.or-plus-box-header.or-plus-box-active .or-plusbox-kontakter .or-icon-area {
 }
+/* Kontaktpersoner */
+.or-kontaktpersoner-container {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    position: relative;
+}
+.or-kontaktpersoner-container:after {
+    content: "\f086";
+    font-family: FontAwesome;
+    font-size: 30px;
+    color: #f28c00;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+}
+
 /* Kontakt och tyck till */
 .or-element-kontaktpersoner__item-info a,
 a.kontaktaxossxxxbrodtext,.kontaktaxossxxxbrodtext a,a.kontaktaxossxxxbrodtext:link,.kontaktaxossxxxbrodtext a:link,a.kontaktaxossxxxbrodtext:visited,.kontaktaxossxxxbrodtext a:visited,a.kontaktaxossxxxbrodtext:active,.kontaktaxossxxxbrodtext a:active {
