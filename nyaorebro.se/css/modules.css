@@ -1566,6 +1566,27 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
     background-color: #fff;
     padding: 10px;
 }
+.or-totalsearch-result {
+    margin-top: 80px;
+    font-size: 12px;
+}
+.or-totalsearch-result__title {
+    font-weight: bold;
+}
+.or-totalsearch-result__link a {
+    color: #017cdb;
+    text-decoration: underline;
+}
+.or-totalsearch-result__link a:visited {
+    color: #6b0771;
+}
+.or-totalsearch-result__link a:hover {
+    color: #0b4a89;
+}
+.or-totalsearch-result__link a:active {
+    color: #890b0b;
+    background-color: #ddd;
+}
 
 /* footer */
 footer {

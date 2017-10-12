@@ -16,7 +16,7 @@ $argsList.add($searchPhrase)
 $argsList.add($hitCount)
 
 <p class="$hitCountClass sv-column-8 or-hit-count" style="margin-top:0.4em">
-   $scriptUtil.messageFormat($pattern, $argsList.unwrap())
+   $scriptUtil.messageFormat($pattern, $argsList.unwrap()) på Örebro kommun - orebro.se
 </p>
 
 <script type="text/javascript">

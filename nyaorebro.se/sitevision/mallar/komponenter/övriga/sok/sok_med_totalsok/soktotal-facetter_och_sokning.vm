@@ -41,6 +41,20 @@
 
 #set ($isAjaxPagingResult = $propertyUtil.getBoolean($portlet, 'isRenderingAjaxPagingResult'))
 
+#if ($totalhits > 0)
+    #set ($totalsearchpagelink = "/ovrigt/soktotal.4.720a5aaf1524e3420a818e.html")
+    #set ($searchResultEncoded = $endecUtil.encodeURL(${searchResult.getDisplayQuery()}))
+    <div class="or-totalsearch-result">
+        <div class="or-totalsearch-result__title">Utvidga din sökning:</div>
+        <div class="or-totalsearch-result__link">
+            <a href="$totalsearchpagelink#query/$searchResultEncoded">
+                Du har fått <strong>$totalhits</strong> träffar på alla våra webbplatser
+            </a>
+        </div>
+    </div>
+#end
+
+
 ## START OF FACET
 <div style="" class="or-facetter" >
 ##    <div class="or-facetter-head">
@@ -123,7 +137,7 @@
 
 ## reset the link
 
-#set ($numberOfVisibleFacetItems = 3)
+#set ($numberOfVisibleFacetItems = 3000)
 #set ($viewMoreFacetElements = false)
 
 #if ($searchResult.facetFields)
