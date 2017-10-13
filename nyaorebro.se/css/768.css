@@ -519,7 +519,15 @@ body section.or-top-img-area .brodtextxxfetx {
 }
 
 /* driftstörningar/kontakt startsida */
-
+.or-service-contact-startpage {
+    max-width: 100%;
+}
+.driftstorningar-container li,
+.driftstorningar-container li:nth-child(odd),
+.driftstorningar-container li:nth-child(even) {
+    width: calc(100% - 40px);
+    margin: 0 20px 14px;
+}
 .driftstorningar-container.or-bg-white {
     padding: 5px 20px 2px 20px;
     margin-bottom: 0px;
