@@ -6,7 +6,8 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li {
     display: block;
     width: 47%;
     max-width: 47%;
-}}
+}
+}
 
 
 @media (min-width: 1180px) {
@@ -56,16 +57,42 @@ padding-right: 20px;
     max-width: 500px;
 }
 
-.sol-meny-startsida nav.or-secondary {
+.sol-meny-startsida nav.or-secondary,
+.or-service-contact-startpage {
     max-width: 95%;
 }
 
 
 
 
-
 }  /* end 1280 */
 
+@media (max-width: 1200px) {
+    .or-contact-block-startpage .or-start-bottom-tabs ul li {
+        display: inline-block;
+        width: 100%;
+        margin: 0;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        text-align: left;
+        padding: 8px 9px;
+    }
+
+    .or-contact-block-startpage .or-start-bottom-tabs ul li:first-child {
+        border-radius: 0px;
+        -moz-border-radius: 0px;
+        -webkit-border-radius: 0px;
+    }
+
+    .or-contact-block-startpage .or-start-bottom-tabs ul {
+        padding: 0px 0px;
+    }
+
+    .or-contact-block-startpage .or-start-bottom-tabs{
+        margin-bottom: 20px;
+    }
+}
 
 @media (max-width: 1100px) {
 nav.or-secondary {
@@ -82,10 +109,6 @@ section.or-top-img-area {
 
 .or-news-social-section-startpage .or-social-media-content, .or-social-media-follow-startpage{
     max-width: 430px;
-}
-
-.or-start-bottom-tabs ul {
-    padding: 10px 0px;
 }
 
 
@@ -516,7 +539,7 @@ nav.or-secondary .or-content ul li a {
 }
 
 .or-service-contact-startpage {
-    max-width: 1250px;
+    max-width: 1350px;
 }
 
 /* navigering nivå 1 */
