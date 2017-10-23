@@ -56,7 +56,7 @@ a.sv-portlet-primary-paragraph:link, a.normal:link, .portlet-font a:link, .portl
 .portlet-form-field-label a:link, .portlet-form-field a:link, .portlet-menu a:link, .portlet-menu-item a:link, .portlet-menu-item-selected a:link, 
 .portlet-menu-item-hover a:link, .portlet-menu-item-hover-selected a:link, .portlet-menu-cascade-item a:link, .portlet-menu-cascade-item-selected a:link, 
 .portlet-menu-description a:link, 
-.sv-portlet-image-caption a:link, .sv-portlet-link-description a:link, .sv-portlet-primary-paragraph a:link{
+.sv-portlet-image-caption a:link, .sv-portlet-link-description a:link, .sv-portlet-primary-paragraph a:link, td a:link, td body a:link, td a:link{
 	text-decoration: underline;
 	color: #017cdb;
 	cursor: pointer;
@@ -80,13 +80,13 @@ a.sv-portlet-primary-paragraph:visited, a.normal:visited, .portlet-font a:visite
 .portlet-menu-item-selected a:visited, .portlet-menu-item-hover a:visited, .portlet-menu-item-hover-selected a:visited, 
 .portlet-menu-cascade-item a:visited, .portlet-menu-cascade-item-selected a:visited, .portlet-menu-description a:visited, 
 .sv-portlet-image-caption a:visited, .sv-portlet-link-description a:visited, .sv-portlet-primary-paragraph a:visited, 
-.normal a:visited{
+.normal a:visited, td a:visited, td body a:visited, td a:visited{
     color: #6b0771;
 	cursor: pointer;
 }
 
 /* Länkar hover*/
-.normal a:link:hover{
+.normal a:link:hover,td a:link:hover{
 	color:#0b4a89;
 }
 
