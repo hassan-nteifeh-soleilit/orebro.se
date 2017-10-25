@@ -1194,10 +1194,6 @@ span.sol-hit-count {
 }
 
 .or-search-link a {
-    -webkit-transition: all 100ms ease;
-    -moz-transition: all 100ms ease;
-    -o-transition: all 100ms ease;
-    transition: all 100ms ease;
     font-size: 17px;
     line-height: 1.3em;
     font-weight: 700;
@@ -1206,13 +1202,12 @@ span.sol-hit-count {
     width: auto !important;
     display: inline !important;
     float: none;
-    box-shadow: rgba(174,222,239,0.65098) 0 -16px 0 -12px inset;
+	text-decoration:underline;
     word-wrap: break-word;
 }
 
 .or-search-link a:hover {
-    box-shadow: 0 -20px 0 11px rgba(174,222,239,0.65) inset !important;
-    color: #000;
+    color: #e83c23;
 }
 
 .or-search-content {
@@ -1701,15 +1696,11 @@ footer {
 .or-footer-icon-links a {
     font-family: "leaguespartan webfont",sans-serif;
     color: #35383b;
+	text-decoration:underline;
     margin-right: 50px;
     font-size: 12px;
     display: inline-block;
     margin-bottom: 20px;
-    box-shadow: rgba(174,222,239,0.65)0px -14px 0 -10px inset;
-    -webkit-transition: all 100ms ease;
-    -moz-transition: all 100ms ease;
-    -o-transition: all 100ms ease;
-    transition: all 100ms ease;
 }
 
 .or-footer-icon-links a:last-of-type {
@@ -1717,7 +1708,7 @@ footer {
 }
 
 .or-footer-icon-links a:hover {
-    box-shadow: rgba(174,222,239,0.65) 0 -41px 0 -23px inset;
+	color: #e83c23;
 }
 
 .or-footer-icon-links i {
@@ -2326,6 +2317,7 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
 }
 .or-colorborder.or-wrapper-click.or-plus-box-header.or-plus-box-active .or-plusbox-kontakter .or-icon-area {
 }
+
 /* Kontaktpersoner */
 .or-kontaktpersoner-container {
     background-color: #fff;
@@ -2333,6 +2325,7 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
     padding: 10px;
     position: relative;
 }
+
 .or-kontaktpersoner-container:after {
     content: "\f086";
     font-family: FontAwesome;
@@ -2341,26 +2334,31 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
     position: absolute;
     top: 10px;
     right: 10px;
-
 }
 
 /* Kontakt och tyck till */
 .or-element-kontaktpersoner__item-info a,
 a.kontaktaxossxxxbrodtext,.kontaktaxossxxxbrodtext a,a.kontaktaxossxxxbrodtext:link,.kontaktaxossxxxbrodtext a:link,a.kontaktaxossxxxbrodtext:visited,.kontaktaxossxxxbrodtext a:visited,a.kontaktaxossxxxbrodtext:active,.kontaktaxossxxxbrodtext a:active {
     color: #000;
-    text-decoration: none;
+    text-decoration: underline;
     line-height: normal;
-    box-shadow: rgba(174,222,239,0.65)0px -15px 0 -11px inset;
-    -webkit-transition: all 100ms ease;
-    -moz-transition: all 100ms ease;
-    -o-transition: all 100ms ease;
-    transition: all 100ms ease;
     cursor: pointer;
+}
+
+.or-element-kontaktpersoner__item-info a:visited, 
+body a.kontaktaxossxxxbrodtext:visited,body .kontaktaxossxxxbrodtext a:visited {
+	color: #6b0771;
 }
 
 .or-element-kontaktpersoner__item-info a:hover, 
 body a.kontaktaxossxxxbrodtext:hover,body .kontaktaxossxxxbrodtext a:hover {
-    box-shadow: rgba(174,222,239,0.65) 0 -41px 0 -17px inset;
+	color:#0b4a89;
+}
+
+.or-element-kontaktpersoner__item-info a:focus, 
+body a.kontaktaxossxxxbrodtext:focus,body .kontaktaxossxxxbrodtext a:focus {
+	color:#890b0b;
+	background-color:#ddd;
 }
 
 .or-sok-person-action > div,.or-felanmalan-action > div,.or-synpunkter-action > div {
@@ -2850,7 +2848,7 @@ input[type="file" i]::-webkit-file-upload-button:hover {
 }
 
 .or-news-list li:hover h3 a {
-    box-shadow: rgba(174,222,239,0.65) 0 -60px 0 -30px inset;
+	color:#e83c23;
 }
 
 .or-news-list li:hover p {
@@ -2860,6 +2858,11 @@ input[type="file" i]::-webkit-file-upload-button:hover {
 .or-news-list h3 a {
     font-family: "leaguespartan webfont",sans-serif;
     font-size: 16px;
+	text-decoration:underline;
+}
+
+.or-news-list h3 a:hover {
+    color:#e83c23;
 }
 
 .or-news-list h3,.portlet-section-subheader,.subheading3 {
@@ -5187,12 +5190,14 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
    font-family: "leaguespartan webfont",sans-serif;
    font-size:11px;
    display:inline-block;
-   box-shadow: rgba(174,222,239,0.65)0px -14px 0 -10px inset;
-   transition: all 100ms ease;
+   text-decoration:underline;
+   /*box-shadow: rgba(174,222,239,0.65)0px -14px 0 -10px inset;
+   transition: all 100ms ease;*/
    margin-right:25px;
 }
 .or-social-media-follow-startpage a:hover {
-    box-shadow: rgba(174,222,239,0.65) 0 -41px 0 -23px inset;
+    /*box-shadow: rgba(174,222,239,0.65) 0 -41px 0 -23px inset;*/
+	color:#e83c23;
 }
    
 .social-bg-circle {
