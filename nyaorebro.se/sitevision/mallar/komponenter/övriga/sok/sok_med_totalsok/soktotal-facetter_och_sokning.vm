@@ -164,14 +164,8 @@
                   $facetLinkRenderer.setText($facetValue.name)
                   ## Set an id for the styling
                   
-                   #if( $facetValue.name == $facetTarget && !$facetValue.isSelected())
-                   <span id="or-id-preselected-facet">
-                   #end
                   ##$facetLinkRenderer.render()
                    <a href="/totalsok?query=${facetValue.filterQueryParams}">$facetValue.name</a>
-                   #if( $facetValue.name == $facetTarget && !$facetValue.isSelected())
-                   </span>
-                   #end  
                                   
                    #if ($facetValue.isSelected())
                    <i class="sol-icon-facet-active"></i>
