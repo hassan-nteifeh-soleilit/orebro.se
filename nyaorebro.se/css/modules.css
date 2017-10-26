@@ -2339,7 +2339,7 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
 /* Kontakt och tyck till */
 .or-element-kontaktpersoner__item-info a,
 a.kontaktaxossxxxbrodtext,.kontaktaxossxxxbrodtext a,a.kontaktaxossxxxbrodtext:link,.kontaktaxossxxxbrodtext a:link,a.kontaktaxossxxxbrodtext:visited,.kontaktaxossxxxbrodtext a:visited,a.kontaktaxossxxxbrodtext:active,.kontaktaxossxxxbrodtext a:active {
-    color: #000;
+    color: #017cdb;
     text-decoration: underline;
     line-height: normal;
     cursor: pointer;
