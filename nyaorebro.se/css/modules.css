@@ -4068,20 +4068,15 @@ body .or-start-heading-divider .normal {
     font-family: "open sans",sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #35383b;
-    text-decoration: none;
+    color: #017cdb;
+    text-decoration: underline;
     line-height: normal;
-    -webkit-transition: all 100ms ease;
-    -moz-transition: all 100ms ease;
-    -o-transition: all 100ms ease;
-    transition: all 100ms ease;
     cursor: pointer;
-    box-shadow: rgba(174,222,239,0.65)0px -15px 0 -11px inset;
     margin-bottom: 8px;
 }
 
 .or-sok-politiker a:hover[shape="rect"] {
-    box-shadow: rgba(174,222,239,0.65) 0 -41px 0 -23px inset;
+    color:#0b4a89;
 }
 
 
@@ -4113,21 +4108,12 @@ body .or-start-heading-divider .normal {
     font-style: normal;
     font-size: 14px;
     color: #35383b;
-    /*text-decoration: none;*/
 	text-decoration: underline;
 	color: #017cdb;
     line-height: 1.6em;
-    /*box-shadow: rgba(174,222,239,0.65)0px -14px 0 -10px inset;
-    display: inline-block;
-    margin-bottom: 10px;
-    -webkit-transition: all 500ms ease;
-    -moz-transition: all 500ms ease;
-    -o-transition: all 500ms ease;
-    transition: all 500ms ease;*/
 }
 
 .or-sokt-politiker .or-sok-politiker b a:hover {
-    /*box-shadow: rgba(174,222,239,0.65)0px -16px 0 1px inset;*/
 	color:#0b4a89;
 }
 
@@ -4200,8 +4186,6 @@ body .or-start-heading-divider .normal {
     font-size: 14px;
     text-decoration: none;
     line-height: 1.6em;
-/*font-family: sans-serif;
-  font-family: ;*/
 }
 
 .or-utsokt-politiker .or-sok-politiker td li a {
@@ -4869,34 +4853,22 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
     font-style: normal;
 }
 
-.livsmedelsrapport td a {
-    font-family: Open sans;
-    color: #35383b;
-    font-weight: 400;
-    font-size: 100%;
-    font-style: normal;
-    line-height: normal;
-    text-decoration: none;
-    box-shadow: rgba(174,222,239,0.65) 0 -28px 0 -23px inset;
-    -webkit-transition: all 100ms ease;
-    -moz-transition: all 100ms ease;
-    -o-transition: all 100ms ease;
-    transition: all 100ms ease;
+.livsmedelsrapport td a:link{
+    color: #017cdb;
+    text-decoration: underline;
+}
+
+.livsmedelsrapport td a:visited {
+	color:#6b0771;
 }
 
 .livsmedelsrapport td a:hover {
-    font-family: Open sans;
-    color: #35383b;
-    font-weight: 400;
-    font-size: 100%;
-    font-style: normal;
-    line-height: normal;
-    text-decoration: none;
-    box-shadow: rgba(174,222,239,0.65) 0 -43px 0 -23px inset;
-    -webkit-transition: all 100ms ease;
-    -moz-transition: all 100ms ease;
-    -o-transition: all 100ms ease;
-    transition: all 100ms ease;
+	color:#0b4a89;
+}
+
+.livsmedelsrapport td a:focus, .livsmedelsrapport td a:active  {
+	color:#890b0b;
+	background-color:#ddd;
 }
 
 .livsmedelsrapport .odd td {
