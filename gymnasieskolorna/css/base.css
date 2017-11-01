@@ -125,8 +125,18 @@ a.ingress:active, .ingress a:active, a.ingress:focus, .ingress a:focus{
 }
 
 /*Länkar footer*/
-.or-site-facts a:link, .or-site-facts a:visited{
-	color:#35383b;
+.or-site-facts a:link{
+	color: #017cdb;
+}
+.or-site-facts a:visited{
+	color:#6b0771;
+}
+.or-site-facts a:hover{
+	color:#0b4a89;
+}
+.or-site-facts a:focus, .or-site-facts a:active{
+	color:#890b0b;
+	background-color:#ddd;
 }
 
 .or-grid-12-col.sv-fluid-grid, .or-grid-12-col.sv-fixed-fluid-grid {
@@ -760,51 +770,39 @@ body {
   position: relative;
 }
 
-footer a {
+footer a, .footerxadress a:link{
    display: inline;
-   border-bottom: 2px solid #8ad6f2;
-   -webkit-transition: all 500ms ease;
-   transition: all 500ms ease;   
    font-weight: 400;
-   text-decoration: none !important;
+   color: #017cdb;
+   text-decoration: underline;
    padding-right: 5px;
    padding-left: 1px;
    margin-right: 15px;
 }
 
-footer p a {
+footer p a:link {
 display: inline;
   padding-right: 1px;
   padding-bottom: 0px;
   padding-left: 1px;
   float: none;
   background-color: transparent;
-  box-shadow: rgb(174, 222, 239) 0px -16px 0px -11px inset;
-  box-shadow: rgba(174, 222, 239, 0.65) 0px -16px 0px -11px inset;
-  -webkit-transition: all 100ms ease;
-  transition: all 100ms ease;
-  color: black;
-  text-decoration: none;
+  color: #017cdb;
+  text-decoration: underline;
   border-bottom: 0px;
 }
 
-footer a:hover {
-font-family: "open sans",sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 14px;
-  color: #149fdb;
-  text-decoration: none;
-  line-height: normal;
-  background-color: rgb(174, 222, 239);
-  box-shadow: rgb(174, 222, 239)0px -16px 0px -30px inset;
-  background-color: rgba(174, 222, 239, 0.49);
-  box-shadow: rgba(174, 222, 239, 0.65)0px -16px 0px -30px inset;
-  -webkit-transition: all 100ms ease;
-  -moz-transition: all 100ms ease;
-  -o-transition: all 100ms ease;
-  transition: all 100ms ease;
-  color: #35383b;
+footer a:visited , .footerxadress a:visited{
+  color:#0b4a89;
+}
+
+footer a:hover, .footerxadress a:hover {
+  color:#0b4a89;
+}
+
+footer a:focus, footer a:active, .footerxadress a:focus, .footerxadress a:active{
+  	color:#890b0b;
+	background-color:#ddd;
 }
 
 
@@ -822,6 +820,23 @@ footer a.or-social-icon:hover {
     margin-top: 8px;
     display: inline-block;
     background-color: #fff;
+}
+
+footer a.or-js-share-footer:link {
+	color:#017cdb;
+}
+
+footer a.or-js-share-footer:visited{
+	color:#6b0771;
+}
+
+footer a.or-js-share-footer:hover {
+	color:#017cdb;
+}
+
+footer a.or-js-share-footer:active, footer a.or-js-share-footer:focus{
+		color:#890b0b;
+		background-color:#ddd;
 }
 
 .or-rss {
@@ -3038,8 +3053,7 @@ line-height: 21px;
 }
 
 .supportlinks:hover {
-  box-shadow: rgba(174, 222, 239, 0.63) 0px -23px 3px 0px inset;
-  color: black;
+  text-decoration:underline;
 }
 
 .contacthelpcontainer {
@@ -4032,12 +4046,6 @@ or-news-list-image-container img {
  vertical-align: middle;
  display: inline-block;
 }
-
-.or-support-nav:hover .supportlinks, .or-contact-help-nav:hover .supportlinks {
-  border-bottom: 0px solid #8ad6f2;
-  color: #000;
-}
-
 
 /* Brödsmulor */
 
@@ -5102,10 +5110,7 @@ form#or-search-form::after {
 	margin-bottom: 10px;
 }
 
-.or-search-link a{
-box-shadow: 0px -16px 0px -12px rgb(174, 222, 239) inset;
-box-shadow: 0px -16px 0px -12px rgba(174, 222, 239, 0.65) inset;
-transition: all 100ms ease 0s;
+.or-search-link a:link{
 font-size: 19px;
 line-height: 30px;
 font-weight: 700;
@@ -5116,12 +5121,18 @@ display: inline;
 float: none;
 }
 
-.or-search-link a:hover{
-	box-shadow: 0px -20px 0px 11px rgb(174, 222, 239) inset;
-    box-shadow: 0px -20px 0px 11px rgba(174, 222, 239, 0.65) inset;
-    color: #000;
+.or-search-link a:visited
+    color: #0b4a89;
 }
 
+.or-search-link a:hover{
+    color: #0b4a89;
+}
+
+.or-search-link a:focus,.or-search-link a:active
+    	color:#890b0b;
+	background-color:#ddd;
+}
 
 .or-search-infotext {
 	width: 100%;
@@ -5591,20 +5602,23 @@ text-transform: uppercase;
 }
 
 /* Kontakt och tyck till */
-a.kontaktaxossxxxbrodtext, .kontaktaxossxxxbrodtext a, a.kontaktaxossxxxbrodtext:link, .kontaktaxossxxxbrodtext a:link, a.kontaktaxossxxxbrodtext:visited, .kontaktaxossxxxbrodtext a:visited, a.kontaktaxossxxxbrodtext:active, .kontaktaxossxxxbrodtext a:active {
-    color: #000000;
-    text-decoration: none;
+a.kontaktaxossxxxbrodtext, .kontaktaxossxxxbrodtext a, a.kontaktaxossxxxbrodtext:link, .kontaktaxossxxxbrodtext a:link {
+    color: #017cdb;
+	text-decoration: underline;
     line-height: normal;
-    box-shadow: rgba(174, 222, 239, 0.65)0px -15px 0px -11px inset;
-    -webkit-transition: all 100ms ease;
-    -moz-transition: all 100ms ease;
-    -o-transition: all 100ms ease;
-    transition: all 100ms ease;
     cursor: pointer;
 }
 
+body a.kontaktaxossxxxbrodtext:visited, body .kontaktaxossxxxbrodtext a:visited{
+    color:#6b0771;
+}
+
 body a.kontaktaxossxxxbrodtext:hover, body .kontaktaxossxxxbrodtext a:hover{
-    box-shadow: rgba(174, 222, 239, 0.65) 0px -41px 0px -17px inset;
+    color:#0b4a89;
+}
+
+body a.kontaktaxossxxxbrodtext:focus, body .kontaktaxossxxxbrodtext a:focus,body a.kontaktaxossxxxbrodtext:active, body .kontaktaxossxxxbrodtext a:active{
+    color:#0b4a89;
 }
 
 .or-felanmalan-action > div {
@@ -5649,11 +5663,6 @@ body a.kontaktaxossxxxbrodtext:hover, body .kontaktaxossxxxbrodtext a:hover{
 .or-blogginfo-blocks:hover .or-comment-expander-text {
     color: #E83C23;
     text-decoration: underline;
-}
-
-
-.kontaktaxossxxxbrodtext a:link, a.kontaktaxossxxxbrodtext:hover, a.kontaktaxossxxxbrodtext:link{
-	text-decoration: none; 
 }
 
 .kontakt-och-tyck-till {
@@ -6289,6 +6298,7 @@ position: absolute;   left: 25px;   bottom: 25px;   width: 80%;
   position: relative;  
   margin-left: 1%;
   margin-right: 1%;
+  margin-bottom: 20px;
   float:left;  
 }
 
@@ -7383,20 +7393,19 @@ display:block;
     padding-right: 14px;
 }
 
-.or-social-link-facebook .normal a.or-social-content-links{
+.or-social-link-facebook .normal a.or-social-content-links,a.or-social-content-links:visited{
 	display:inline-block;
-	text-decoration:none;
+	text-decoration:underline;
 	color:#35383b;
-	box-shadow: 0 -16px 0 -11px rgba(174,222,239,0.65) inset;
 }
 
+/*Följ oss facebook*/
 .or-social-link-facebook .normal a.or-social-content-links:hover{
-	display:inline-block;
-	box-shadow: rgba(174,222,239,0.65) 0 -48px 0 -30px inset;
-	-webkit-transition: all 100ms ease;
-    -moz-transition: all 100ms ease;
-    -o-transition: all 100ms ease;
-    transition: all 100ms ease;
+	color:#017cdb;
+}
+.or-social-link-facebook .normal a.or-social-content-links:active,.or-social-link-facebook .normal a.or-social-content-links:focus{
+	color:#color:890b0b;
+	background-color: #ddd;
 }
 
 /*
