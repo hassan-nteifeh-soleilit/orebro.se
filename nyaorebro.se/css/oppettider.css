@@ -146,16 +146,14 @@
 
 a.or-oh-a:link, a.or-oh-a:visited {
     color: #35383b;
+	text-decoration:underline;
     font-weight: 400;
-    background-color: transparent;
-    box-shadow: rgba(174, 222, 239, 0.65)0px -16px 0px -11px inset;
-    transition: all 100ms ease;
     margin-top: 6px;
 }
 
 a.or-oh-a:hover,a.or-oh-a:active
 {
-        box-shadow: rgba(174, 222, 239, 0.65) 0px -47px 0px -23px inset;
+    color:#e83c23;
 }
 
 .or-oh-wrapp
