@@ -3053,8 +3053,7 @@ line-height: 21px;
 }
 
 .supportlinks:hover {
-  box-shadow: rgba(174, 222, 239, 0.63) 0px -23px 3px 0px inset;
-  color: black;
+  text-decoration:underline;
 }
 
 .contacthelpcontainer {
@@ -4047,12 +4046,6 @@ or-news-list-image-container img {
  vertical-align: middle;
  display: inline-block;
 }
-
-.or-support-nav:hover .supportlinks, .or-contact-help-nav:hover .supportlinks {
-  border-bottom: 0px solid #8ad6f2;
-  color: #000;
-}
-
 
 /* Brödsmulor */
 
@@ -7400,16 +7393,21 @@ display:block;
     padding-right: 14px;
 }
 
-.or-social-link-facebook .normal a.or-social-content-links{
+.or-social-link-facebook .normal a.or-social-content-links,a.or-social-content-links:visited{
 	display:inline-block;
 	text-decoration:underline;
-	color:#017cdb;
+	color:#35383b;
 }
 
 /*Följ oss facebook*/
 .or-social-link-facebook .normal a.or-social-content-links:hover{
-	color:#35383b
+	color:#017cdb;
 }
+.or-social-link-facebook .normal a.or-social-content-links:active,.or-social-link-facebook .normal a.or-social-content-links:focus{
+	color:#color:890b0b;
+	background-color: #ddd;
+}
+
 /*
 .sv-clearfix.or-facebook-container.or-wrapper-click {
     width: 97%; 
