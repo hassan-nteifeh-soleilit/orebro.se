@@ -1,6 +1,7 @@
 <div>   
 	<div class="or-footer-icon-links">
-		<a href="#contact" class="or-footer-icon-links-item" id="or-id-contact"><i class="fa fa-comments"></i>Kontakta och tyck till</a>
+		<a href="#contact" class="or-footer-icon-links-item" id="or-id-contact"><i class="fa fa-comments"></i>Kontakta oss och sök person</a>
+		<a href="/ovrigt/synpunkter-och-felanmalan.html " class="or-footer-icon-links-item" id="or-id-synpunkt"><i class="fa fa-warning"></i>Synpunkter och felanmälan</a>
 		<a href="/ovrigt/e-tjanster-och-blanketter.html" id="or-id-footer-link-selfservice" class="or-footer-icon-links-item"><i class="fa fa-pencil-square-o"></i>E-tjänster och blanketter</a> 
 		<a href="http://karta.orebro.se/#0&1;0&2&161336.81178;6574488.06599&-1&&" id="or-id-footer-link-map" class="or-footer-icon-links-item"><i class="fa fa-map-marker"></i>Karta</a>  
 		<a href="/ovrigt/sprak---languages/teckensprak.html" id="or-id-footer-link-signlanguage" class="or-footer-icon-links-item"><i class="fa fa-sign-language"></i>Teckenspråk</a>   		
