@@ -3528,16 +3528,6 @@ section.or-bg-one {
     margin-right: 8px;
 }
 
-.or-startpage-driftstorningar .sv-channel .sv-channel-item a:before {
-    content: "\f054";
-    font-family: FontAwesome;
-    box-shadow: none;
-    position: absolute;
-    left: 0;
-    top: 17px;
-    color: #DADCDE;
-}
-
 .or-red-header-box .sv-font-action-pil:before {
     background-color: #857672;
     font: normal normal normal 12px/34px FontAwesome;
