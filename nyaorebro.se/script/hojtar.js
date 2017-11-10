@@ -2,7 +2,7 @@
 <script>
 (function(h,o,t,j,a,r){
 h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-h._hjSettings={hjid:372162,hjsv:5};
+h._hjSettings={hjid:684573,hjsv:6};
 a=o.getElementsByTagName('head')[0];
 r=o.createElement('script');
 r.async=1;
