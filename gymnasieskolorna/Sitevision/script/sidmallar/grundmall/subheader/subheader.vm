@@ -1,0 +1,33 @@
+#if ($displayContact)
+<a href="#contact" data-target=".or-kontakt-och-tyck-till" id="or-id-contact" class="w-inline-block or-contact-help-nav kontakta">
+   <i class="fa fa-comments"></i>
+   <div class="supportlinks contact-top ">Kontakta oss</div>
+</a>   
+#end
+
+<a class="w-inline-block or-support-nav translate or-js-share" href="#"><i class="fa fa-language" style="font-size:21px"></i><div class="supportlinks">Translate</div></a>  
+
+<a class="w-inline-block or-support-nav dela or-js-share" href="#"><i class="fa fa-share-alt" style="font-size:21px"></i><div class="supportlinks">Dela</div></a>  
+#*
+<a class="w-inline-block or-support-nav lattlast sv-hidden" href="#"><!--img class="sv-noborder" src="/images/18.765aa538149e26d5de4d917/1418052248045/lattlast.svg" width="15" alt="Lättläst"--><div class="supportlinks">Lättläst</div></a>   
+<a class="w-inline-block or-support-nav teckensprak sv-hidden" href="#"><!--img class="sv-noborder" src="/images/18.765aa538149e26d5de4d91b/1418052646096/teckensprak.svg" width="20" alt="Teckenspråk"--><div class="supportlinks">Teckenspråk</div></a>
+*#
+<a class="w-inline-block or-support-nav lyssna rs_skip"accesskey="L" id="or-id-readspeaker" href="#0"> <i class="fa fa-volume-up" style="font-size:17px;"></i><div class="supportlinks">Lyssna</div></a>
+
+
+#*
+#if ($displayContact)
+<a id="kontakt" class="w-inline-block or-contact-help-nav kontakta" href="#">
+<i class="fa fa-comment"></i>
+<div class="supportlinks contact-top ">Kontakta och tyck till</div>
+<i class="fa fa-chevron-down contact-arrow"></i>
+</a>
+
+<script type="text/javascript">          
+   $('#kontakt').click(function(){
+      $('.kontakt-och-tyck-till').slideToggle(); 
+      $(this).find('.contact-arrow').toggleClass('down'); 
+    });         
+</script>
+#end
+*#
