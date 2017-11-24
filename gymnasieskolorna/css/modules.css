@@ -401,6 +401,10 @@
  padding-right: 40px;
 }
 
+.or-action-text a:visited{
+color:#35383b
+}
+
 .or-ny-action .normal .or-action-text a:link {
     font-family: "leaguespartan webfont",sans-serif;
     font-style: normal;
