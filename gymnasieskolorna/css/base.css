@@ -5431,6 +5431,7 @@ color: rgba(53, 56, 59, 0.85);
 /* Kontaktblocksrad */
 
 .or-comment-heading-container {
+  position: relative;
   min-height: 47px;
   margin-top: 10px;
   margin-bottom: 10px;
