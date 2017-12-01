@@ -1,0 +1,195 @@
+﻿<div class="oris">
+	<div class="container">
+		#if($mailSent)
+			<form id="end" class="bg-orange">
+				<p class="h1">
+					Tack för din idé!
+				</p>
+				<p class="h2">
+					En kopia av din idé har skickats till din epost.
+				</p>
+				<p class="h2 h2-custom">
+					Vad händer med din idé?
+				</p>
+				<input type="submit" class="btn" value="Läs mer" />
+
+				<img src="/images/18.21f76fc915b99a2df1617/1492952069296/svg-figur9.svg" class="figur9" />
+			</form>
+		#else
+			#if($mailError)
+				Ajaj, något gick galet... 
+			#else
+				<form id="start" class="bg-orange" novalidate>
+					<div class="col-xs-8">
+						<p class="h1">
+							Här kan du som jobbar i Örebro kommun lämna din idé
+						</p>
+						<p class="h2">
+							Ange ditt användarnamn/id för att starta
+						</p>
+						<!-- <input id="userid" type="text" />-->
+						<input name="userid" type="text" required pattern="([A-Za-zÅÄÖåäö]{5})([\d]{2,3})"/>  
+						<input type="submit" class="btn" value="Starta" />
+						<p>
+							Du kanske inte jobbar i Örebro kommun? I så fall, lämna gärna ditt förslag till kommunens <a href="http://www.orebro.se/servicecenter">Servicecenter!</a>
+						</p>
+					</div>
+					<img src="/images/18.21f76fc915b99a2df1620/1492952069789/svg-figur1.svg" class="figur1" />
+					<img src="/images/18.21f76fc915b99a2df161e/1492952069663/svg-figur3.svg" class="figur3" />
+				</form>
+				<form id="form" class="bg-blue">
+					<fieldset>
+						<p class="h1-top">Granska din idé</p>
+						<p class="h1">Berätta om din idé</p>
+						<p class="h2" class="desc">Beskriv din idé kortfattat! Max 1000 tecken.</p>
+						<p class="textParagraph"></p>
+						<textarea name="1" class="textInput text" maxlength="1000" required></textarea>
+						<div class="shadow active"></div>
+						<a class="more showmore">Visa hela texten</a>
+						<a class="more showless">Visa mindre</a>
+						<div class="btn change">Ändra</div>
+						<!-- <input type="button" class="btn change" value="Ändra"/> -->
+						<div class="progress-box"><ul class="progress"></ul></div>
+						<input type="button" class="btn back" value="Föregående steg"/>
+						<input type="button" class="btn next right" value="Nästa steg"/>
+						<div class="figur2">
+							<img src="/images/18.21f76fc915b99a2df161f/1492952069738/svg-figur2.svg" class="figur2" />
+							<div class="bubble">
+								Det ska bli spännande att höra vad du har för idé!
+							</div>
+							<img src="/images/18.21f76fc915b99a2df161e/1492952069663/svg-figur3.svg" class="figur3" />
+						</div>
+					</fieldset>
+					<fieldset>
+						<p class="h1">Vad ska din idé förbättra eller vilket behov ska uppfyllas för medborgaren?</p>
+						<p class="h2" class="desc">Varför är din idé viktig? Vad är nytt? Hur vill du medverka i utvecklingsarbetet? Max 300 tecken.</p>
+						<p class="textParagraph"></p>
+						<textarea name="2" class="textInput text" maxlength="300" required></textarea>
+						<div class="shadow active"></div>
+						<a class="more showmore">Visa hela texten</a>
+						<a class="more showless">Visa mindre</a>
+						<div class="btn change">Ändra</div>
+						<!-- <input type="button" class="btn change" value="Ändra"/> -->
+						<div class="progress-box"><ul class="progress"></ul></div>
+						<input type="button" class="btn back" value="Föregående steg"/>
+						<input type="button" class="btn next right" value="Nästa steg"/>
+						<div class="figur4">
+							<img src="/images/18.21f76fc915b99a2df161d/1492952069603/svg-figur4.svg" />
+						</div>
+					</fieldset>
+					<fieldset>
+						<p class="h1">Vilka medborgare kan ha nytta av din idé?</p>
+						<p class="h2" class="desc">Vem/vilka är användare? Vem behöver detta? Max 200 tecken</p>
+						<p class="textParagraph"></p>
+						<textarea name="3" class="textInput text" maxlength="200" required></textarea>
+						<div class="shadow active"></div>
+						<a class="more showmore">Visa hela texten</a>
+						<a class="more showless">Visa mindre</a>
+						<div class="btn change">Ändra</div>
+						<!-- <input type="button" class="btn change" value="Ändra"/> -->
+						<div class="progress-box"><ul class="progress"></ul></div>
+						<input type="button" class="btn back" value="Föregående steg"/>
+						<input type="button" class="btn next right" value="Nästa steg"/>
+						<div class="figur5">
+							<img class="figur5-desktop" src="/images/18.21f76fc915b99a2df161c/1492952069564/svg-figur5.svg" />
+							<img class="figur5-mobile" src="/images/18.21f76fc915b99a2df161b/1492952069517/svg-figur5_1.svg" />
+							<div class="bubble">
+								Bra jobbat nu har du kommit halvvägs, fortsätt så!
+							</div>
+						</div>
+					</fieldset>
+					<fieldset>
+						<p class="h1">Det som din idé ska förbättra - hur fungerar det idag?</p>
+						<p class="h2" class="desc">Max 200 tecken.</p>
+						<p class="textParagraph"></p>
+						<textarea name="4" class="textInput text" maxlength="200" required></textarea>
+						<div class="shadow active"></div>
+						<a class="more showmore">Visa hela texten</a>
+						<a class="more showless">Visa mindre</a>
+						<div class="btn change">Ändra</div>
+						<!-- <input type="button" class="btn change" value="Ändra"/> -->
+						<div class="progress-box"><ul class="progress"></ul></div>
+						<input type="button" class="btn back" value="Föregående steg"/>
+						<input type="button" class="btn next right" value="Nästa steg"/>
+						<div class="figur6">
+							<img class="figur6-desktop" src="/images/18.21f76fc915b99a2df161a/1492952069463/svg-figur6.svg" />
+							<img class="figur6-mobile" src="/images/18.21f76fc915b99a2df16272/1493132886906/svg-figur6_1.svg" />
+						</div>
+					</fieldset>
+					<fieldset>
+						<p class="h1">Tror du att din idé kan göra nytta även i andra verksamheter?</p>
+						<p class="h2" class="desc">Nu är du nästan klar! Max 200 tecken.</p>
+						<p class="textParagraph"></p>
+						<textarea name="5" class="textInput text" maxlength="200" required></textarea>
+						<div class="shadow active"></div>
+						<a class="more showmore">Visa hela texten</a>
+						<a class="more showless">Visa mindre</a>
+						<div class="btn change">Ändra</div>
+						<div class="progress-box"><ul class="progress"></ul></div>
+						<input type="button" class="btn back" value="Föregående steg"/>
+						<input type="button" class="btn next right" value="Nästa steg"/>
+						<div class="figur7">
+							<img src="/images/18.21f76fc915b99a2df1619/1492952069414/svg-figur7.svg" />
+							<div class="bubble">
+								Spännande!<br>Nu är du nästan klar.
+							</div>
+							<img src="/images/18.21f76fc915b99a2df1618/1492952069359/svg-figur8.svg" class="figur8" />
+						</div>
+					</fieldset>		
+					<fieldset>
+						<form>
+							<p class="h1 h1-contact-1">Hur kan vi komma i kontakt med dig?</p>
+							<p class="h1 h1-contact-2">Dina kontaktuppgifter</p>
+							<div class="row">
+								<div class="col col-xs-6">
+									<p class="title" class="contact">Namn</p>
+									<p class="textParagraph"></p>
+									<input name="name" type="text" class="textInput textContact" required />
+								</div>
+								<div class="col col-xs-6">
+									<p class="title" class="contact">Enhet/Verksamhet</p>
+									<p class="textParagraph"></p>
+									<input name="unit" type="text" class="textInput textContact" required />
+								</div>
+							</div>
+							<div class="row mb-25">
+								<div class="col col-xs-6">
+									<p class="title" class="contact">Telefon</p>
+									<p class="textParagraph"></p>
+									<input type="tel" name="tel" class="textInput textContact" required  digits="true" />
+								</div>
+								<div class="col col-xs-6">
+									<p class="title" class="contact">E-post</p>
+									<p class="textParagraph"></p>
+									<input type="email" name="email" class="textInput textContact" required />
+									<p>Om du inte anger en @orebro.se-adress kan du tyvärr inte få en kopia av din inskickade idé.</p>
+								</div>
+							</div>
+
+							<div class="btn change change-contact">Ändra</div>
+							<!-- <input type="button" class="change" value="Ändra"/> -->
+							<div class="progress-box"><ul class="progress"></ul></div>
+							<input type="button" class="back btn btn-mobile" value="Föregående steg"/>
+							<input type="button" class="next" value="Nästa steg"/>
+							<input type="button" id="review" class="btn right btn-mobile" value="Granska din idé"/>
+							<input type="button" id="unReview" class="btn btn-mobile" value="Föregående steg"/>
+						</form>
+						<form id="email" method="post" action="">
+							<input type="hidden" class="hidden-input" id="email-1" name="1" value="test" />
+							<input type="hidden" class="hidden-input" id="email-2" name="2" value="test" />
+							<input type="hidden" class="hidden-input" id="email-3" name="3" value="test" />
+							<input type="hidden" class="hidden-input" id="email-4" name="4" value="test" />
+							<input type="hidden" class="hidden-input" id="email-5" name="5" value="test" />
+							<input type="hidden" class="hidden-input" id="email-name" name="name" value="test" />
+							<input type="hidden" class="hidden-input" id="email-unit" name="unit" value="test" />
+							<input type="hidden" class="hidden-input" id="email-tel" name="tel" value="test" />
+							<input type="hidden" class="hidden-input" id="email-email" name="email" value="test" />
+							<input type="submit" id="submit" class="btn right send btn-mobile" value="Skicka in din idé"/>
+						</form>
+					</fieldset>
+				</form>
+			#end
+		#end
+	</div>
+</div>
+	
