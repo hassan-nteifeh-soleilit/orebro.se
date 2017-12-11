@@ -36,7 +36,7 @@ if(email){
 	
 function sendEmail(email){
    // Build mail to editor
-   mail = mailBuilder.setSubject('Bidrag från Idéslussen').setTextMessage(content).addRecipient(recipient).setFrom("ideslussen@orebro.se").build();
+   mail = mailBuilder.setSubject('Bidrag från Idéslussen').setTextMessage(content).addRecipient(recipient).setFrom("svaraintehit@orebro.se").build();
    // Send mail
    if (mail.send()){
 		mailSent = true;
@@ -48,7 +48,7 @@ function sendEmail(email){
    var  expr = /@orebro.se/;
    if((expr.test(email))){
 	   // Build mail to customer
-	   mail = mailBuilder.setSubject('Ditt bidrag till Idéslussen').setTextMessage(contentCopy).clearRecipients().addRecipient(email).setFrom("ideslussen@orebro.se").build();
+	   mail = mailBuilder.setSubject('Ditt bidrag till Idéslussen').setTextMessage(contentCopy).clearRecipients().addRecipient(email).setFrom("svaraintehit@orebro.se").build();
 	   // Send mail
 	   if (mail.send()){
 	      mailSent = true;
