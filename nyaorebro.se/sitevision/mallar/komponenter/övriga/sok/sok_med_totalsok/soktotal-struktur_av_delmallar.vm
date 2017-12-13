@@ -1,0 +1,62 @@
+#set ($globalFilter = 'NULL')
+
+##
+## Utility API and properties
+#set ($propertyUtil = $sitevisionUtils.propertyUtil)
+#set ($endecUtil = $sitevisionUtils.endecUtil)
+#set ($portletContextUtil = $sitevisionUtils.portletContextUtil)
+#set ($templates = $propertyUtil.getNode($portlet, 'templates'))
+#set ($bundle = $propertyUtil.getNode($portlet, 'bundle'))
+
+#set ($namespace = $portletContextUtil.getPortletNamespace('search'))
+#set ($ajaxResultId = $namespace + 'result')
+#set ($isAjaxResult = $propertyUtil.getBoolean($portlet, 'isRenderingAjaxResult'))
+##
+## Render search form (unless this is a rendering of an ajax search result)
+#if (!$isAjaxResult)
+
+   ##
+   ## Render search form template
+   #set ($searchFormTemplate = $propertyUtil.getString($templates, 'searchFormTemplate'))
+   $velocityEvaluator.evaluate($searchFormTemplate)
+
+   ##
+   ## Ensure div exists so ajax submits can fill it with a search result
+   <div id="$ajaxResultId">
+#end
+
+##
+## Render other templates if this portlet was actually invoked
+#if ($searchResult || ($propertyUtil.getString($portlet, 'errorMessage', '') != ''))
+   #set ($hitsDivClass = $namespace + 'hits') ## Needed by script, do not rename/move/remove
+   #set ($hasHits = $searchResult && $searchResult.hasHits())
+   #if ($hasHits && $propertyUtil.getBoolean($portlet, 'usePaging'))
+      #set ($pagingPosition = $propertyUtil.getString($portlet, 'pagingPosition'))
+      #set ($displayTopPaging = $pagingPosition == 'top' || $pagingPosition == 'top_bottom')
+      #set ($displayBottomPaging = $pagingPosition == 'bottom' || $pagingPosition == 'top_bottom')
+      #set ($countThreshold = $propertyUtil.getInt($portlet, 'countThreshold', 20))
+      #set ($pagingHitCount = $searchResult.getEffectiveCount($countThreshold)) ## Needed by script, do not rename/move/remove
+      #set ($hitsPerPage = $propertyUtil.getInt($portlet, 'hitsPerPage', 10))   ## Needed by script, do not rename/move/remove
+      #if ($pagingHitCount > $hitsPerPage)
+         #set ($resultIsPaged = true)
+      #end
+   #end
+
+   ##
+   ## Render hits
+   #if ($hasHits)
+      #set ($hitsTemplate = $propertyUtil.getString($templates, 'hitsTemplate'))
+      $velocityEvaluator.evaluate($hitsTemplate)
+   #elseif ($propertyUtil.getBoolean($portlet, 'showSearchError'))
+      #set ($noHitsTemplate = $propertyUtil.getString($templates, 'noHitsTemplate'))
+      $velocityEvaluator.evaluate($noHitsTemplate)
+   #end
+   
+#end
+#if (!$isAjaxResult)
+   </div>
+#end
+
+<script type="text/javascript">
+
+</script>

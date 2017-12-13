@@ -1,0 +1,63 @@
+#set ($docTypeUtil = $sitevisionUtils.docTypeUtil)
+#set ($deviceUtil = $sitevisionUtils.deviceUtil)
+#set ($fieldClass = $propertyUtil.getNestedString($portlet, 'searchFieldFont', 'selectorText'))
+#set ($fieldWidth = $propertyUtil.getString($portlet, 'searchFieldSize'))
+#set ($searchText = $propertyUtil.getString($portlet, 'searchButtonText'))
+#set ($buttonClass = $propertyUtil.getNestedString($portlet, 'searchButtonFont', 'selectorText'))
+#set ($useTextButton = $propertyUtil.getBoolean($portlet, 'useTextSearchButton'))
+
+##
+## Render search form javascript
+#set ($isHtml5 = $docTypeUtil.isHtml5())                                    ## Needed by script, do not rename/move/remove
+#set ($isMobileView = $deviceUtil.isRenderingMobileView())                  ## Needed by script, do not rename/move/remove
+#set ($searchHereText = $propertyUtil.getString($bundle, 'searchHereText')) ## Needed by script, do not rename/move/remove
+#set ($escapedSearchHereText = $endecUtil.escapeXML($searchHereText))       ## Needed by script, do not rename/move/remove
+#set ($searchInputId = $portletContextUtil.getPortletNamespace('search'))   ## Needed by script, do not rename/move/remove
+#set ($searchButtonId = $searchInputId + 'button')                          ## Needed by script, do not rename/move/remove
+
+#set ($searchFormScriptTemplate = $propertyUtil.getNestedString($portlet, 'templates', 'searchFormScriptTemplate'))
+$velocityEvaluator.evaluate($searchFormScriptTemplate)
+
+#if ($searchResult && $searchResult.getQuery())
+   #set ($escapedSearchFieldText = $endecUtil.escapeXML($searchResult.getDisplayQuery()))
+#elseif ($isHtml5)
+   ## Use html5 placeholder attribute instead of value attribute
+   #set ($escapedSearchFieldText = '')
+#else
+   #set ($escapedSearchFieldText = $escapedSearchHereText)
+#end
+#set ($submitURL = $propertyUtil.getString($portletContextUtil.currentPage, 'URI', ''))
+#set ($queryParameter = $propertyUtil.getString($portlet, 'queryParameter'))
+
+<form id="or-search-form" method="get" action="$submitURL" class="sv-nomargin svhidden">
+      <!--h1 class="visuallyhidden">Sökresultat</h1-->
+      <label for="$searchInputId" class="svhidden">$searchText</label>
+      <input id="$searchInputId" class="$fieldClass sv-vamiddle" type="text" name="$queryParameter"#if ($isHtml5) placeholder="$escapedSearchHereText"#end value="$escapedSearchFieldText" autocomplete="off"/>
+      #if (!$useTextButton && $propertyUtil.getNode($portlet, 'searchButtonImage'))
+         #set ($imageURL = $propertyUtil.getNestedString($portlet, 'searchButtonImage', 'URI'))
+         <input id="$searchButtonId" type="image" class="$buttonClass sv-vamiddle" name="submitButton" alt="$searchText" src="$imageURL" />
+      #else
+         <input id="$searchButtonId" type="submit" class="$buttonClass sv-vamiddle submit fa bg-color" name="submitButton" value="" />
+      #end
+</form>
+<script type="text/javascript">
+   (function() {
+      var searchInput = $svjq('#or-facet-search-input');
+      var searchButton = $svjq('#or-facet-search-inputbutton');
+      var facetInput = $svjq('#$searchInputId');
+      var facetButton = $svjq('#$searchButtonId');
+
+      var updateFacets = function() {
+         facetInput.val(searchInput.val());
+         facetButton.click();
+      };
+
+      searchInput.on('keypress', function(e) {
+         if (e.which === 13) {
+            updateFacets();
+         }
+      });
+
+      searchButton.on('click', updateFacets);
+   })();
+</script>
