@@ -32,7 +32,8 @@
 #set ($facetLinkRenderer = $sitevisionUtils.linkRenderer)
 #set ($query = $endecUtil.escapeXML(${searchResult.getQuery()}))   
 
-#set ($totalhits = $searchResult.getEffectiveCount($countThreshold) )
+#set ($countThreshold = $propertyUtil.getInt($portlet, 'countThreshold', 20))
+#set ($totalhits = $searchResult.getEffectiveCount($countThreshold))
 
 ######################################
 
