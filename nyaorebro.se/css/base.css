@@ -167,7 +167,7 @@ a.ingress:active, .ingress a:active, a.ingress:focus, .ingress a:focus{
 
 
 /*driftstörningar länkar*/
-.sv-channel a:link, .sv-channel a:visited, .sv-channel a:focus {
+.driftstorningar-container a:link, a:visited, a:focus {
     font-family: "open sans",sans-serif;
     font-weight: normal;
     font-style: normal;
@@ -175,12 +175,6 @@ a.ingress:active, .ingress a:active, a.ingress:focus, .ingress a:focus{
     color: #35383b;
     text-decoration: none;
     line-height: normal;
-    box-shadow: rgba(174, 222, 239, 0.65)0px -15px 0px -11px inset;
-	-webkit-transition: all 100ms ease;
-	-moz-transition: all 100ms ease;
-	-o-transition: all 100ms ease;
-	transition: all 100ms ease;
-	cursor: pointer;
 }
 
 
