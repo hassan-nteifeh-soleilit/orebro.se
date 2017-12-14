@@ -1562,7 +1562,6 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
     padding: 10px;
 }
 .or-totalsearch-result {
-    margin-top: 80px;
     font-size: 12px;
 }
 .or-totalsearch-result__title {
@@ -1582,6 +1581,17 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
     color: #890b0b;
     background-color: #ddd;
 }
+/* Sök med totalsök */
+.or-twin-search #or-search-form {
+    margin-left: 0;
+}
+.or-twin-search > div:last-child {
+    margin-top: 80px;
+}
+.or-twin-search .or-did-you-mean {
+    margin-left: -15px;
+}
+
 
 /* footer */
 footer {
