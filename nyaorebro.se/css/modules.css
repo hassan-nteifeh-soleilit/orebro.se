@@ -6142,3 +6142,10 @@ body .SokIngetResultat {
 .or-language-modal-close:hover {
 	background-color:#333;
 }
+
+/*videoklipp*/
+.sv-responsive .sv-video-container{
+	margin-bottom: 15px;
+}
+
+
