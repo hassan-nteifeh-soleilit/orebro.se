@@ -3462,8 +3462,9 @@ section.or-bg-one {
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.15);
 	border-radius: 3px;
 }
-.driftstorningar-container li:hover span {
+.driftstorningar-container li a:link:hover span{
     text-decoration: underline;
+	color:#35383b;
 }
 .driftstorningar-container li:nth-child(odd) {
     margin-right: 10px;
