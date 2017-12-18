@@ -5122,7 +5122,7 @@ float: none;
 text-decoration:underline;
 }
 
-.or-search-link a:visited
+.or-search-link a:visited{
     color: #0b4a89;
 }
 
