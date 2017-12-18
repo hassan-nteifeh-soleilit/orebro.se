@@ -5107,18 +5107,19 @@ form#or-search-form::after {
 	width: 100%;
 	display: block;
 	float: left;
-	margin-bottom: 10px;
+	margin-bottom: 0;
 }
 
 .or-search-link a:link{
-font-size: 19px;
-line-height: 30px;
+font-size: 17px;
+line-height: 1.3em;
 font-weight: 700;
 margin-bottom: 10px;
 margin-top: 10px;
 width: auto !important;
 display: inline;
 float: none;
+text-decoration:underline;
 }
 
 .or-search-link a:visited
@@ -5138,6 +5139,8 @@ float: none;
 	width: 100%;
 	display: block;
 	float: left;
+	margin-top:-15px;
+	margin-bottom:15px;
 }
 
 .or-search-infotext p{
@@ -5282,7 +5285,7 @@ p.sol-doc-size {
 div.sol-search-icon-wrapper > img {
  /* width: 100%; */
  margin-top: 0em;
- width: 50px;
+ width: 42px;
 }
 
 /* Sök total-länk */
