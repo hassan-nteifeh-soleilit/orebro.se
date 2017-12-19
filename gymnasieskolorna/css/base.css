@@ -5130,8 +5130,8 @@ text-decoration:underline;
     color: #0b4a89;
 }
 
-.or-search-link a:focus,.or-search-link a:active
-    	color:#890b0b;
+.or-search-link a:focus,.or-search-link a:active{
+    color:#890b0b;
 	background-color:#ddd;
 }
 
