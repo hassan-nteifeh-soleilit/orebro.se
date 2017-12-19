@@ -5123,16 +5123,15 @@ text-decoration:underline;
 }
 
 .or-search-link a:visited{
-    color: #0b4a89;
+    color: #35383b;
 }
 
 .or-search-link a:hover{
-    color: #0b4a89;
+    color: #35383b;
 }
 
 .or-search-link a:focus,.or-search-link a:active{
-    color:#890b0b;
-	background-color:#ddd;
+    color:#35383b;
 }
 
 .or-search-infotext {
