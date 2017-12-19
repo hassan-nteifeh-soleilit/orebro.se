@@ -167,7 +167,7 @@ a.ingress:active, .ingress a:active, a.ingress:focus, .ingress a:focus{
 
 
 /*driftstörningar länkar*/
-.driftstorningar-container a:link, a:visited, a:focus {
+.driftstorningar-container a:link, .driftstorningar-container a:visited, .driftstorningar-container a:focus  {
     font-family: "open sans",sans-serif;
     font-weight: normal;
     font-style: normal;
