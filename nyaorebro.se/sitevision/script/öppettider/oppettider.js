@@ -26,7 +26,8 @@ var place,
 	aNode,
 	business,
 	businessnes = [],
-	maplink;
+	maplink,
+	privatinpass;
 
 
 if(paramPlace) {  
@@ -38,9 +39,10 @@ if(paramPlace) {
       //business = eval('(' + PropertyUtil.getString(aNode, 'oppettider')  + ')');       
       business = JSON.parse(PropertyUtil.getString(aNode, 'oppettider'));       
       closeinfo = PropertyUtil.getString(aNode, 'stangtinfo'); 
-      maplink = PropertyUtil.getStringEscaped(aNode, 'kartlank'); 
+      maplink = PropertyUtil.getStringEscaped(aNode, 'kartlank');
+      privatinpass = PropertyUtil.getStringEscaped(aNode, 'privat');
    
-      businessnes.push(new OpenHour(business, closeinfo, maplink));    	  
+      businessnes.push(new OpenHour(business, closeinfo, maplink, privatinpass));    	  
    }              
    // Convert to java array when accessed from velocity   
    // businessnes = java.util.Arrays.asList(businessnes);
@@ -95,6 +97,9 @@ function printBusinessOpenHours(businessnes, refresh) {
         out.print("        </div>\n");
         if (b.mapLink) {
             out.print("        <div class=\"or-oh-button b2\">Vägbeskrivning <br><i class=\"fa fa-map-marker fa-lg\"></i><a class=\"or-oh-a\" href=\"" + b.mapLink + "\">Visa på kartan (" + b.address + ")</a></div>\n");
+        }
+        if (b.privatInpass) {
+            out.print("        <div class=\"or-oh-button b2\">Privatinpassering <br><i class=\"fa fa-id-card-o fa-lg\"></i><a class=\"or-oh-a\" href=\"" + b.privatInpass + "\">Läs mer om privatinpassering</a></div>\n");
         }
         out.print("      </div>\n");
         out.print("    </div>\n");          
@@ -378,12 +383,13 @@ function getDayOfMonthForNthDayOfWeekInMonth(month, year, nth, day){
 }
 
 // Main class object
-function OpenHour (business, openinfo, maplink){
+function OpenHour (business, openinfo, maplink, privatinpass){
    this.place = business.place;
 	 this.extrainfo = business.extrainfo;   
    this.address = business.address;
    this.validto = business.validto;
-   this.mapLink = maplink;   
+   this.mapLink = maplink;
+   this.privatInpass = privatinpass; 
    this.nextDays = [];  
 	this.open = false;
    this.nextHourInfo = "";  
