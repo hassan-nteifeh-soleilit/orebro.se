@@ -2,17 +2,19 @@
 var GregorianCalendar = Java.type('java.util.GregorianCalendar');
 var Calendar = Java.type('java.util.Calendar');
 
-// TODO: Add logic to get the folder of the businesses instead of hard coded id
-var START_NODE_ID = '19.242f1fb1556288bfbf4353c';
+var interface = {
+    // nod i sidträd [obligatorisk] - mapp som innehåller öppettider-sidor
+    folder: scriptVariables.folder
+};
 
 var PropertyUtil = require('PropertyUtil');
 var DateUtil = require('DateUtil');
 var PortletContextUtil = require('PortletContextUtil');
 var ResourceLocatorUtil = require('ResourceLocatorUtil');
 
-var thisPage = PortletContextUtil.getCurrentPage(),
-    parentNode = ResourceLocatorUtil.getNodeByIdentifier(START_NODE_ID),
-    children = parentNode.getNodes();
+var thisPage = PortletContextUtil.getCurrentPage();
+var parentNode = interface.folder;
+var children = parentNode.getNodes();
 
 var paramPlace = !request.getParameter("place") ? "" : request.getParameter("place");
 
