@@ -72,7 +72,9 @@ function printBusinessOpenHours(businessnes, refresh) {
         var cOpen = b.open ? "open" : "closed";
         var cStatus = b.open ? "Öppet" : "Stängt";
         var place = b.place.split(" ")[0];
-
+        if (!minRefreshWait) {
+            minRefreshWait = MIN_REFRESH_WAIT_MS;
+        }
 
         out.print("    <div class=\"or-oh-header\">\n");
         out.print("      <div class=\"or-oh-name\">" + b.place + "<div class=\"or-oh-extra\">" + b.extrainfo + "</div></div>\n");
@@ -405,16 +407,20 @@ function OpenHour(business, openinfo, maplink, privatinpass) {
     } else {
         this.open = isOpenNow(openHours);
         var now = new Date();
-
         if (this.open) {
             this.nextHourInfo = "stänger kl. " + timeFormat(openHours.closes);
             this.expires = Math.ceil((openHours.closesDate.getTime() - now.getTime()) / 1000) * 1000;
         } else {
             var nextOpenHours = getNextOpenOpenHours(business.openinghours);
-            if (isOpenDuringDay(nextOpenHours)) {
-                this.expires = Math.ceil((nextOpenHours.opensDate.getTime() - now.getTime()) / 1000) * 1000;
+            if (!nextOpenHours) {
+                this.nextHourInfo = "";
             }
-            this.nextHourInfo = getNextOpensInfo(nextOpenHours);
+            else {
+                if (isOpenDuringDay(nextOpenHours)) {
+                    this.expires = Math.ceil((nextOpenHours.opensDate.getTime() - now.getTime()) / 1000) * 1000;
+                }
+                this.nextHourInfo = getNextOpensInfo(nextOpenHours);
+            }
         }
     }
 
