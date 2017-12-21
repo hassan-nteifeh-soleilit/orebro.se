@@ -928,6 +928,12 @@ body p.sv-portlet-image-caption {
     padding: 5px 0px;
 }
 
+.or-article-main .sv-text-portlet-content ol.normal {
+    padding: 0px;
+	margin-bottom:0.74em;
+	margin-top:0;
+}
+
 
 /* Avdelare content */
 
