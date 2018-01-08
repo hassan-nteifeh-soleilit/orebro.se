@@ -85,13 +85,8 @@ a.sv-portlet-primary-paragraph:visited, a.normal:visited, .portlet-font a:visite
 	cursor: pointer;
 }
 
-/* Länkar hover på visited länk*/
-.normal a:visited:hover,td a:visited:hover,li a:visited:hover span {
-	color:#0b4a89;
-}
-
 /* Länkar hover*/
-.normal a:link:hover,td a:link:hover,li a:link:hover span {
+.normal a:link:hover,td a:link:hover,li a:link:hover span{
 	color:#0b4a89;
 }
 
