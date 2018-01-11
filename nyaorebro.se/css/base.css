@@ -86,7 +86,7 @@ a.sv-portlet-primary-paragraph:visited, a.normal:visited, .portlet-font a:visite
 }
 
 /* Länkar hover*/
-.normal a:link:hover,td a:link:hover,li a:link:hover span{
+.normal a:link:hover,td a:link:hover, li a:link:hover{
 	color:#0b4a89;
 }
 
@@ -107,7 +107,7 @@ a.sv-portlet-primary-paragraph:focus, a.normal:focus, .portlet-font a:focus, .po
 .portlet-form-field-label a:focus, .portlet-form-field a:focus, .portlet-menu a:focus, .portlet-menu-item a:focus, 
 .portlet-menu-item-selected a:focus, .portlet-menu-item-hover a:focus, .portlet-menu-item-hover-selected a:focus, 
 .portlet-menu-cascade-item a:focus, .portlet-menu-cascade-item-selected a:focus, .portlet-menu-description a:focus, 
-.sv-portlet-image-caption a:focus, .sv-portlet-link-description a:focus, .sv-portlet-primary-paragraph a:focus, 
+.sv-portlet-image-caption a:focus, .sv-portlet-link-description a:focus, .sv-portlet-primary-paragraph a:focus, 					
 .normal a:focus, .normal a:active{
 	color:#890b0b;
 	background-color:#ddd;
