@@ -1794,5 +1794,9 @@ body:not(.sv-editing-mode) .or-plus-box-program.or-plus-box-content caption, bod
     position: absolute;
     top: 10px;
     right: 10px;
+}
 
+/*videoklipp*/
+.sv-responsive .sv-video-container{
+	margin-bottom: 15px;
 }
