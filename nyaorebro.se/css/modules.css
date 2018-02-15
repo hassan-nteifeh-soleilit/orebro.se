@@ -1410,7 +1410,9 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
     cursor: pointer;
     box-shadow: rgba(255,255,255,0)0px -16px 0 -11px inset !important;
 }
-
+.sol-facetter ul > li > span > a {
+    font-size: 13px !important;
+}
 .sol-facetter ul > li:hover > a {
     box-shadow: 0 -20px 0 11px rgba(174,222,239,0.65) inset;
 }
@@ -1589,7 +1591,7 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
     margin-top: 80px;
 }
 .or-twin-search .or-did-you-mean {
-    margin-left: -15px;
+    margin-left: -24px;
 }
 
 
