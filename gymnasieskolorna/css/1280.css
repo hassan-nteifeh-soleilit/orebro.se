@@ -61,7 +61,7 @@ section.or-article-main .or-content-padding {
 }
 
 .ingress {
-    font-size: 23px;
+    font-size: 25px;
     line-height: 1.5em;
 }
 
@@ -158,6 +158,15 @@ body .or-content-container .or-tir p, body .or-content-container .or-tir p a:lin
     font-size: 19px;
 }
 
+.or-blogg-width{
+	max-width: 800px !important;
+}
+
+.sv-use-margins .normal{
+	font-size: 19px;
+	line-height: 1.6em;
+}
+
 }  /* end 1350 */
 
 @media (min-width: 1650px) {
@@ -240,6 +249,15 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
 /* länkarbox */
 .or-teaser-box.or-related-documents .or-text-content .or-teaser-list li a .or-link-name, .or-teaser-box.or-related-links .or-text-content .or-teaser-list li a .or-link-name {
     font-size: 15px;
+}
+
+.or-blogg-width{
+	max-width: 950px !important;
+}
+
+.sv-use-margins .normal{
+	font-size: 21px;
+	line-height: 1.6em;
 }
 
 }  /* end 1650 */

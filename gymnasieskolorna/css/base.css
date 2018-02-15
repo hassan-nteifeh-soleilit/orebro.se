@@ -2358,17 +2358,16 @@ border-color: rgb(174, 222, 239); /* The Fallback */
 }
 .bloggcontent {
   display: block;
-  width: 75%;
+  width: auto;
   margin-right: auto;
   margin-left: auto;
-  /*padding-top: 15px;*/
 }
 
 .or-blogg-width {
-  display: block;
-  width: 86%;
-  margin-right: auto;
+  max-width: 700px;
   margin-left: auto;
+  margin-right: auto;
+  width: auto;
 }
 
 .bigbloggimage {
@@ -5107,37 +5106,39 @@ form#or-search-form::after {
 	width: 100%;
 	display: block;
 	float: left;
-	margin-bottom: 10px;
+	margin-bottom: 0;
 }
 
 .or-search-link a:link{
-font-size: 19px;
-line-height: 30px;
+font-size: 17px;
+line-height: 1.3em;
 font-weight: 700;
 margin-bottom: 10px;
 margin-top: 10px;
 width: auto !important;
 display: inline;
 float: none;
+text-decoration:underline;
 }
 
-.or-search-link a:visited
-    color: #0b4a89;
+.or-search-link a:visited{
+    color: #35383b;
 }
 
 .or-search-link a:hover{
-    color: #0b4a89;
+    color: #35383b;
 }
 
-.or-search-link a:focus,.or-search-link a:active
-    	color:#890b0b;
-	background-color:#ddd;
+.or-search-link a:focus,.or-search-link a:active{
+    color:#35383b;
 }
 
 .or-search-infotext {
 	width: 100%;
 	display: block;
 	float: left;
+	margin-top:-15px;
+	margin-bottom:15px;
 }
 
 .or-search-infotext p{
@@ -5282,7 +5283,7 @@ p.sol-doc-size {
 div.sol-search-icon-wrapper > img {
  /* width: 100%; */
  margin-top: 0em;
- width: 50px;
+ width: 42px;
 }
 
 /* Sök total-länk */
