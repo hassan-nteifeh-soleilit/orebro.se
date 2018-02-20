@@ -3785,17 +3785,35 @@ Additional
 
 .sv-text-portlet li {
 	margin-bottom: 9px;
-	line-height: 26px;
 	text-align: left;
+	font-size: 17px;
+	line-height: 1.4em;
+}
 
+@media (min-width: 1350px) and (max-width: 1649px) {
+	.sv-text-portlet li {
+		font-size: 19px;
+	}
+}
+
+@media (min-width: 1650px) {
+	.sv-text-portlet li {
+		font-size: 21px;
+	}
+}
+
+@media (max-width: 768px) {
+	.sv-text-portlet li {
+		font-size: 16px;
+		line-height: 1.4em;
+	}
 }
 
 .sv-text-portlet li a {
-	font-size: 16px;
+	font-size: inherit;
 }
 
 /* Blogg */
-
 .or-grid-12-col .or-blog-info-content .sv-row .sv-column-4 {
 	float: left !important;
 	width: 31% !important;
@@ -3876,9 +3894,7 @@ Additional
 }
 
 /* Formulär inputfält */
-
 /* Grund */
-
 .or-formicon {
 	display: inline-block;
 	font-size: 22px;
@@ -3964,7 +3980,6 @@ Additional
 }
 
 /* Kommentarer */
-
 li.or-comment {
 	margin-bottom: 25px;
 	padding: 20px;
@@ -4030,7 +4045,6 @@ li.or-comment {
 }
 
 /* Blogg */
-
 .or-blogginfo-blocks {
 	position: relative;
 	margin-top: 25px;
@@ -4100,7 +4114,6 @@ li.or-comment {
 }
 
 /* Avdelare punktstreckade linjer */
-
 .or-divider-dotted {
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -4121,7 +4134,6 @@ li.or-comment {
 }
 
 /* Nyhetslistning */
-
 .or-news-newslist li.sv-channel-item {
 	display: inline-block;
 	width: 46%;
@@ -4238,7 +4250,6 @@ or-news-list-image-container img {
 }
 
 /* Kontakt/Tyck till block */
-
 .contact-top {
 	font-weight: 700;
 }
@@ -4275,7 +4286,6 @@ or-news-list-image-container img {
 }
 
 /* Brödsmulor */
-
 .floatlistitems {
 	margin-right: 9px;
 	float: left;
@@ -4307,7 +4317,6 @@ or-news-list-image-container img {
 }
 
 /* Action länk ruta */
-
 .or-action-link {
 	width: 100%;
 	position: relative;
@@ -4428,7 +4437,6 @@ or-news-list-image-container img {
 }
 
 /* Länkruta */
-
 .or-docs-box-heading {
 	padding-top: 10px;
 	padding-bottom: 9px;
@@ -4487,7 +4495,6 @@ or-news-list-image-container img {
 }
 
 /* Dokumentruta Ikoner */
-
 .fileiconcontainer {
 	position: relative;
 	display: block;
@@ -4595,7 +4602,6 @@ h4.or-h1-facts-block + p {
 }
 
 /* Högermeny v2 */
-
 div.or-left-nav-menu table {
 	border-spacing: 0;
 	border-collapse: collapse;
@@ -4695,7 +4701,6 @@ td.or-menu-expanded .or-left-nav-menu-item-v2:not(.or-menu-active) {
 }
 
 /* Pushmeny */
-
 .mm-menu {
 	background: #f4f3f1;
 	color: rgb(255, 255, 255);
@@ -4781,7 +4786,6 @@ body .mm-menu.mm-vertical .mm-list li.active > a span {
 }
 
 /* mm menu */
-
 .mm-menu {
 	background: #fff;
 }
@@ -4951,8 +4955,8 @@ body .mm-menu.mm-vertical .mm-list li.mm-opened > a, body .mm-menu.mm-vertical .
 }
 
 .mm-menu.mm-vertical .mm-list > li.mm-selected >
-
 a
+
 (
 .mm-subopen
 
@@ -5046,7 +5050,6 @@ body .mm-menu.mm-vertical .mm-list li.mm-opened.mm-selected > a.mm-subopen {
 }
 
 /* Huvudmeny */
-
 .or-header-nav-menu {
 	display: table;
 }
@@ -5274,13 +5277,13 @@ Sök
 
 /*
 form#or-search-form::after {
-    content: "\f002";
-    font-family: FontAwesome;
-    font-style: initial;
-    font-size: 25px;
-    color: #FFF;
-    right: 26px;
-    bottom: 26px; /*22*/
+	content: "\f002";
+	font-family: FontAwesome;
+	font-style: initial;
+	font-size: 25px;
+	color: #FFF;
+	right: 26px;
+	bottom: 26px; /*22*/
 vertical-align: inherit
 
 ;
@@ -5300,6 +5303,7 @@ px
 
 ;
 }
+
 *
 
 /
