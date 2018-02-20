@@ -1,4 +1,7 @@
 @media all and (max-width: 767px){
+    .sv-facetedsearch-portlet #or-search-form {
+        margin-top: 1rem;
+    }
 
     .driftstorningar-container li::before {
         bottom: 2px;

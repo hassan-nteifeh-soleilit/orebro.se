@@ -138,7 +138,12 @@ form.or-search-field button:hover {
     color: #fff;
 }
 
-/* menyknapp*/
+/* Söksidan */
+.sv-facetedsearch-portlet #or-search-form {
+        margin-top: 3.5rem;
+}
+
+    /* menyknapp*/
 .or-menu-button-container .fa {
     background: #E83C23;
     -moz-border-radius: 40px;
