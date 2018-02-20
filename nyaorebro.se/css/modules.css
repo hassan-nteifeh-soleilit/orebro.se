@@ -1001,11 +1001,17 @@ body .or-update-date {
 
 #id-or-email-form {
     width: 90%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #id-or-useful-no {
     background-color: #FFF;
     position: relative;
+}
+#or-form__text-area__error-msg {
+    display: none;
+    color: #e83c23;
 }
 
 .or-helpus,.or-helpyes {
@@ -1403,14 +1409,16 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
     vertical-align: middle;
 }
 
-.sol-facetter ul > li > a {
+.sol-facetter ul > li a {
     font-size: 13px !important;
     text-decoration: none;
     font-weight: 300;
     cursor: pointer;
     box-shadow: rgba(255,255,255,0)0px -16px 0 -11px inset !important;
 }
-
+.sol-facetter ul > li > span > a {
+    text-decoration: underline;
+}
 .sol-facetter ul > li:hover > a {
     box-shadow: 0 -20px 0 11px rgba(174,222,239,0.65) inset;
 }
@@ -1589,7 +1597,7 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
     margin-top: 80px;
 }
 .or-twin-search .or-did-you-mean {
-    margin-left: -15px;
+    margin-left: -24px;
 }
 
 
@@ -3457,9 +3465,14 @@ section.or-bg-one {
     width: calc(50% - 30px);
     margin: 0 20px 20px 20px;
     padding: 10px;
-    border: 1px solid #ecebe6;
-    border-left-width: 3px;
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
+    border: 0px solid #ecebe6;
+    border-left-width: 5px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+}
+.driftstorningar-container li a:link:hover span{
+    text-decoration: underline;
+    color:#35383b;
 }
 .driftstorningar-container li:nth-child(odd) {
     margin-right: 10px;
@@ -5277,6 +5290,10 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
     margin-bottom: 25px;
     width: 100%;
     margin-top: 20px;
+}
+.sol-tab-button-container > ul {
+    display :flex;
+    flex-wrap: wrap;
 }
 
 .sol-tab-button-container .sol-tab-button {
