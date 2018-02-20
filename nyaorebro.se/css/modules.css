@@ -3449,7 +3449,9 @@ section.or-bg-one {
 .driftstorningar-container ul {
     background-color: #fff;
     padding-top: 20px;
+    display: -webkit-flex;
     display: flex;
+    -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
 }
 .driftstorningar-container li {
