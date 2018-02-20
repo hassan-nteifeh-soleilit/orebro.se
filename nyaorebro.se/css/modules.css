@@ -1183,10 +1183,15 @@ body .pagecontent .or-hit-count {
     margin-top: 16px;
     margin-bottom: 15px;
     padding-right: 18px;
-    padding-left: 16px;
     font-size: 12px;
     font-weight: 400;
 }
+@media (max-width: 992px) {
+    body .pagecontent .or-hit-count {
+        padding-left: 16px;
+    }
+}
+
 
 span.sol-hit-count {
     float: right;
@@ -1591,14 +1596,20 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
 }
 /* Sök med totalsök */
 .or-twin-search #or-search-form {
-    margin-left: 0;
+    margin-left: 15px;
 }
 .or-twin-search > div:last-child {
     margin-top: 80px;
 }
-.or-twin-search .or-did-you-mean {
-    margin-left: -24px;
+@media (max-width: 991px) {
+    .or-twin-search .or-did-you-mean {
+        margin-left: 15px;
+    }
 }
+.or-did-you-mean.normal, .or-hit-count {
+	margin-left: 15px !important;
+}
+
 
 
 /* footer */
@@ -2363,17 +2374,17 @@ a.kontaktaxossxxxbrodtext,.kontaktaxossxxxbrodtext a,a.kontaktaxossxxxbrodtext:l
     cursor: pointer;
 }
 
-.or-element-kontaktpersoner__item-info a:visited, 
+.or-element-kontaktpersoner__item-info a:visited,
 body a.kontaktaxossxxxbrodtext:visited,body .kontaktaxossxxxbrodtext a:visited {
 	color: #6b0771;
 }
 
-.or-element-kontaktpersoner__item-info a:hover, 
+.or-element-kontaktpersoner__item-info a:hover,
 body a.kontaktaxossxxxbrodtext:hover,body .kontaktaxossxxxbrodtext a:hover {
 	color:#0b4a89;
 }
 
-.or-element-kontaktpersoner__item-info a:focus, 
+.or-element-kontaktpersoner__item-info a:focus,
 body a.kontaktaxossxxxbrodtext:focus,body .kontaktaxossxxxbrodtext a:focus {
 	color:#890b0b;
 	background-color:#ddd;
@@ -2999,7 +3010,7 @@ input[type="file" i]::-webkit-file-upload-button:hover {
 
 .or-category .or-toggle-icon,.or-daterange .or-toggle-icon {
     position: absolute;
-    right: 0;    
+    right: 0;
     margin-top: 0;
     height: 100%;
     border: 1px solid #edeaea;
@@ -5114,7 +5125,7 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
 }
 
 .or-social-media-content.facebook .fa-reactions {
-    background-image: url(/images/18.5ab4ab37154229e2ec8753e/1462525596156/reaction-orebro.png);													
+    background-image: url(/images/18.5ab4ab37154229e2ec8753e/1462525596156/reaction-orebro.png);
     background-repeat: no-repeat;
     background-size: 58px;
     height: 16px;
@@ -5209,7 +5220,7 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
     /*box-shadow: rgba(174,222,239,0.65) 0 -41px 0 -23px inset;*/
 	color:#e83c23;
 }
-   
+
 .social-bg-circle {
     background: #666;
     width: 25px;
@@ -5223,7 +5234,7 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
     margin-right:8px;
 }
 .social-bg-circle-instagram {background: -webkit-radial-gradient(32% 106%, circle cover, rgb(255, 225, 125) 0%, rgb(255, 205, 105) 10%, rgb(250, 145, 55) 28%, rgb(235, 65, 65) 42%, transparent 82%), -webkit-linear-gradient(-45deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);}
-.social-bg-circle-twitter {background:#00aced;}   
+.social-bg-circle-twitter {background:#00aced;}
 .social-bg-circle-facebook {background:#0090b4;}
 .social-bg-circle-snapchat {background:#FFFC00;}
 
@@ -6175,7 +6186,7 @@ body .SokIngetResultat {
    font-size: 17px;
 	width: 100%;
 	text-align: center;
-   padding-top: 5px;   
+   padding-top: 5px;
 }
 .or-language-modal-close:hover {
 	background-color:#333;

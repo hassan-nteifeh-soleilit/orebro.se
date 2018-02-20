@@ -1375,3 +1375,7 @@ nav.or-secondary .or-content ul li a:hover p {
 .w-clearfix:after {
   clear: both;
 }
+
+.or-did-you-mean.normal {
+	margin-left: 15px;
+}
