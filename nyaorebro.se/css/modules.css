@@ -1,4 +1,4 @@
-﻿/* 2. Liten kalender info ruta */
+﻿﻿/* 2. Liten kalender info ruta */
 /* 3. Kalender faktaruta */
 /*cookie*/
 .cookieAlert {
@@ -1001,17 +1001,11 @@ body .or-update-date {
 
 #id-or-email-form {
     width: 90%;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 #id-or-useful-no {
     background-color: #FFF;
     position: relative;
-}
-#or-form__text-area__error-msg {
-    display: none;
-    color: #e83c23;
 }
 
 .or-helpus,.or-helpyes {
@@ -3463,9 +3457,14 @@ section.or-bg-one {
     width: calc(50% - 30px);
     margin: 0 20px 20px 20px;
     padding: 10px;
-    border: 1px solid #ecebe6;
-    border-left-width: 3px;
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
+    border: 0px solid #ecebe6;
+    border-left-width: 5px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.15);
+	border-radius: 3px;
+}
+.driftstorningar-container li a:link:hover span{
+    text-decoration: underline;
+	color:#35383b;
 }
 .driftstorningar-container li:nth-child(odd) {
     margin-right: 10px;
@@ -5283,6 +5282,12 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
     margin-bottom: 25px;
     width: 100%;
     margin-top: 20px;
+}
+
+.sol-tab-button-container > ul {
+    display :flex;
+    flex-wrap: wrap;
+
 }
 
 .sol-tab-button-container .sol-tab-button {
