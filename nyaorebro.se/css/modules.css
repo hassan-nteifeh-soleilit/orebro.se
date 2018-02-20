@@ -3474,6 +3474,7 @@ section.or-bg-one {
 .driftstorningar-container li {
     position: relative;
     box-sizing: border-box;
+	padding-right: 25px;
     width: calc(50% - 30px);
     margin: 0 20px 20px 20px;
     border: 0 solid #ecebe6;
@@ -3504,6 +3505,9 @@ section.or-bg-one {
     z-index: 1;
     bottom: 5px;
     right: 3px;
+}
+.driftstorningar-container li a {
+	box-sizing: border-box;
 }
 .driftstorningar-container li a:link:hover span{
     text-decoration: underline;
