@@ -1001,11 +1001,17 @@ body .or-update-date {
 
 #id-or-email-form {
     width: 90%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #id-or-useful-no {
     background-color: #FFF;
     position: relative;
+}
+#or-form__text-area__error-msg {
+    display: none;
+    color: #e83c23;
 }
 
 .or-helpus,.or-helpyes {

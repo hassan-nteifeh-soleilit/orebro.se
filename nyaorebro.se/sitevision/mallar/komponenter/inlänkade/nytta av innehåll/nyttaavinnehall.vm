@@ -1,88 +1,121 @@
 <div class="sv-clearfix or-findwrapper">
-   <div class="or-sharetext">Hade du nytta av innehållet på den här sidan?</div>
-   <div class="or-thumbs">
-     <a class="or-thumbup thumbdown" href="#or-id-thx-mail" id="id-or-help-us-no" style="transition: all 0.5s ease 0s; -webkit-transition: all 0.5s ease 0s;">
-       <div>Nej</div>
-     </a>
-     <a class="or-thumbup" href="#or-id-thx" id="id-or-help-us-yes" style="transition: all 0.5s ease 0s; -webkit-transition: all 0.5s ease 0s;">
-       <div>Ja</div>
-     </a>
-   </div>
+    <div class="or-sharetext">Hade du nytta av innehållet på den här sidan?</div>
+    <div class="or-thumbs">
+        <a class="or-thumbup thumbdown" href="#or-id-thx-mail" id="id-or-help-us-no"
+           style="transition: all 0.5s ease 0s; -webkit-transition: all 0.5s ease 0s;">
+            <div>Nej</div>
+        </a>
+        <a class="or-thumbup" href="#or-id-thx" id="id-or-help-us-yes"
+           style="transition: all 0.5s ease 0s; -webkit-transition: all 0.5s ease 0s;">
+            <div>Ja</div>
+        </a>
+    </div>
 </div>
-  
+
 <!-- NEJ-->
-<div class="or-helpus" id="id-or-useful-no" style="display: none;">  
-   <div class="w-form-done">
-      <h2 class="or-helpusheading" id="or-id-thx-mail">Tack för ditt svar!</h2>      
-  </div> 
-   
-  <div class="or-w-form or-forms formwidth">
-    <form id="id-or-email-form" name="or-email-form" data-name="Email Form" action="javascript:sendMail();">
-      <label class="or-fieldlabelhelpus" for="field-2">
-			Berätta vad vi kan göra bättre på den här sidan för att förbättra webbplatsen!
-	  </label>
-	  <label class="or-fieldlabelhelpus" for="field-2">
-			Vi har ingen möjlighet att svara, men dina synpunkter är värdefulla för oss.
-	  </label>
-      <textarea class="w-input or-helpusinput formwidth" id="field" placeholder="Meddelande" name="field" data-name="Field"></textarea>      
-      <input class="normal" type="submit" value="Skicka in din kommentar" data-wait="Please wait..." />
-    </form>
-  </div>            
+<div class="or-helpus" id="id-or-useful-no" style="display: none;">
+    <div class="w-form-done">
+        <h2 class="or-helpusheading" id="or-id-thx-mail">Tack för ditt svar!</h2>
+    </div>
+
+    <div class="or-w-form or-forms formwidth">
+        <form id="id-or-email-form" name="or-email-form" data-name="Email Form" action="javascript:submitForm();">
+            <label class="or-fieldlabelhelpus" for="field-2">
+                Berätta vad vi kan göra bättre på den här sidan för att förbättra webbplatsen!
+            </label>
+            <label class="or-fieldlabelhelpus" for="field-2">
+                Vi har ingen möjlighet att svara, men dina synpunkter är värdefulla för oss.
+            </label>
+            <div id="or-form__text-area__error-msg">Du måste skriva in dina synpunkter för att kunna skicka meddelandet</div>
+            <textarea class="w-input or-helpusinput formwidth" id="field" placeholder="Meddelande" name="field"
+                      data-name="Field"></textarea>
+            <input class="normal" type="submit" value="Skicka in din kommentar" data-wait="Please wait..."/>
+        </form>
+    </div>
 </div>
 
 <!-- JA -->
 <div class="or-helpyes" id="id-or-useful-yes" style="display: none;">
-  <div class="or-w-form-done">
-   <h2 class="or-helpusheading">Tack för ditt svar!</h2>  
-  </div>   
-             
-  <form id="or-email-form-2" name="email-form-2">
-      <label class="or-fieldlabelhelpus" for="field-2">Du har nu hjälpt oss att förbättra orebro.se</label>
-  </form>
-  
+    <div class="or-w-form-done">
+        <h2 class="or-helpusheading">Tack för ditt svar!</h2>
+    </div>
+
+    <form id="or-email-form-2" name="email-form-2">
+        <label class="or-fieldlabelhelpus" for="field-2">Du har nu hjälpt oss att förbättra orebro.se</label>
+    </form>
+
 </div>
 
 
 <script type="text/javascript">
-	$('.js-close').click(function(){ 
-		$('#id-or-useful-yes').hide();
-		$('#id-or-useful-no').hide();
-	});
 
-	var feedbackHandler = function(){
-      
-  		var isNegative = $(this).hasClass('thumbdown'),
-          action = isNegative ? "Nej" : "Ja";  
-             
-      if( isNegative){      
-         $('#id-or-useful-no').slideToggle(); 
-         $('#id-or-help-us-yes').addClass('disabled');
-      } else {      
-         $('#id-or-useful-yes').slideToggle(); 
-         $('#id-or-help-us-no').addClass('disabled');
-      }
-      $(this).addClass('selected');
-      
-		//disable futher clicks	
-      $('.or-thumbup').unbind();
-   }
 
-   $('.or-thumbup').bind('click', feedbackHandler);
+        // selectors:
 
-   function sendMail() {
-      var data = "Sida:\n ${pageTitle} \nUrl:\n ${url}\n Text:\n" + $('#field').val();
-       jQuery.ajax({
-         type: "GET",
-         url: "/4.3342eaed15109c3d1d1a63/12.3342eaed15109c3d1d148aa.html",               
-         data: {textarea: data},
-         success: function(ret){            
-            jQuery('#id-or-useful-no').hide();
-            jQuery('#id-or-useful-yes').show(); 
-         },
-         error: function(e){
-            alert("Sending mail error occur");
-         } 
-      }); 
-  }  
-      
+        var $textArea = $svjq('#field');
+        var $textAreaErrorMessage = $svjq('#or-form__text-area__error-msg');
+
+        var ANSWERS = {
+            YES: 'Ja',
+            NO: 'Nej'
+        };
+
+        var formStatus = {
+            answer: null,
+        };
+
+
+        $('.js-close').click(function () {
+            $('#id-or-useful-yes').hide();
+            $('#id-or-useful-no').hide();
+        });
+
+        var feedbackHandler = function () {
+            var isNegative = $(this).hasClass('thumbdown'),
+                    action = isNegative ? "Nej" : "Ja";
+            if (isNegative) {
+                formStatus.answer = ANSWERS.NO;
+                $('#id-or-useful-no').slideToggle();
+                $('#id-or-help-us-yes').addClass('disabled');
+            } else {
+                formStatus.answer = ANSWERS.YES;
+                $('#id-or-useful-yes').slideToggle();
+                $('#id-or-help-us-no').addClass('disabled');
+            }
+            $(this).addClass('selected');
+
+            //disable futher clicks
+            $('.or-thumbup').unbind();
+        }
+
+        $('.or-thumbup').bind('click', feedbackHandler);
+
+        function submitForm() {
+            if (formStatus.answer === ANSWERS.NO) {
+                if (!$textArea.val()) $textAreaErrorMessage.show();
+                else sendMail()
+            }
+            else {
+                if (formStatus.answer) sendMail();
+            }
+        }
+
+        function sendMail() {
+            var data = "Sida:\n ${pageTitle} \nUrl:\n ${url}\n Text:\n" + $('#field').val();
+            jQuery.ajax({
+                type: "GET",
+                url: "/4.3342eaed15109c3d1d1a63/12.3342eaed15109c3d1d148aa.html",
+                data: {textarea: data},
+                success: function (ret) {
+                    jQuery('#id-or-useful-no').hide();
+                    jQuery('#id-or-useful-yes').show();
+                },
+                error: function (e) {
+                    alert("Sending mail error occur");
+                }
+            });
+        }
+
+
+
 </script>  
