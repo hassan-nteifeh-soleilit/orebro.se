@@ -5492,11 +5492,13 @@ px
 	margin-top: 16px;
 	margin-bottom: 15px;
 	padding-right: 18px;
-	padding-left: 16px;
 	font-size: 12px;
 	font-weight: 400;
 }
 
+.or-search-hit-rubrik {
+	margin-left: 0 !important;
+}
 .visuallyhidden {
 	margin: -1px;
 	padding: 0;
