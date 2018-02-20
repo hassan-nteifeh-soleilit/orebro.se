@@ -5285,6 +5285,11 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
     width: 100%;
     margin-top: 20px;
 }
+.sol-tab-button-container > ul {
+    display :flex;
+    flex-wrap: wrap;
+
+}
 
 .sol-tab-button-container .sol-tab-button {
     background: #fff;
