@@ -5333,9 +5333,9 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
 }
 
 .sol-tab-button-container .sol-tab-button {
+    display: block;
     background: #fff;
     cursor: pointer;
-    display: table-cell;
     font-family: "leaguespartan webfont",sans-serif;
     font-size: 12px;
     line-height: 1.2em;
@@ -5387,10 +5387,6 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
     width: 90%;
 }
 
-.sol-tab-button-container {
-    display: table;
-    width: 100%;
-}
 
 .sol-js-tabs-container ul {
     margin: 0;
