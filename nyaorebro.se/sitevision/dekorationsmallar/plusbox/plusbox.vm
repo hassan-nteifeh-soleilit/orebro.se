@@ -22,21 +22,21 @@
 <script type="text/javascript">
     (function () {
         var object = {expanded: true, timestamp: new Date().getTime()};
-        var header = $('#svid${contentId} .or-plus-box-header');
+        var header = $svjq('#svid${contentId} .or-plus-box-header');
         header.attr('tabindex', '0');
 
-        if (localStorage.getItem("plusbox${contentId}")) {
-            var plusboxStatus = JSON.parse(localStorage.getItem("plusbox${contentId}")).expanded;
+        if (sessionStorage.getItem("plusbox${contentId}")) {
+            var plusboxStatus = JSON.parse(sessionStorage.getItem("plusbox${contentId}")).expanded;
             if (plusboxStatus) {
-                    setTimeout(function() {
-                            $svjq('#svid${contentId} .or-plus-box-content').hide().show();
-                    }, 200)
+                setTimeout(function() {
+                    header.trigger('click');
+                }, 200)
             }
         }
 
-        $(header).on('click keydown', function (e) {
-            if (!localStorage.getItem("plusbox${contentId}"))
-                localStorage.setItem("plusbox${contentId}", JSON.stringify(object));
+        header.on('click keydown', function (e) {
+            if (!sessionStorage.getItem("plusbox${contentId}"))
+                sessionStorage.setItem("plusbox${contentId}", JSON.stringify(object));
 
             if (e.which == '13' || e.type == 'click') {
                 $('#svid${contentId} .or-plus-box-content').slideToggle(200);
