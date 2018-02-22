@@ -1,6 +1,6 @@
-﻿﻿/* 2. Liten kalender info ruta */
-    /* 3. Kalender faktaruta */
-    /*cookie*/
+﻿/* 2. Liten kalender info ruta */
+/* 3. Kalender faktaruta */
+/*cookie*/
 .cookieAlert {
     background-color: #35383B;
     margin-top: -11px;
@@ -377,7 +377,7 @@ form.or-search-field button:hover {
     font-family: futura-pt,sans-serif;
     font-size: 15px;
     text-align: center;
-    box-sizing: border-box;
+	box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
 }
@@ -725,8 +725,8 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3 {
 
 /*Länkbox relaterade länkar*/
 .or-teaser-box.or-related-links .or-text-content .or-teaser-list li:hover .or-link-name {
-    text-decoration: underline;
-    color: #017cdb;
+	text-decoration: underline;
+	color: #017cdb;
 }
 
 .or-teaser-box.or-related-documents .or-text-content .or-teaser-list li {
@@ -738,7 +738,7 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3 {
 }
 
 .or-teaser-box.or-related-documents .or-text-content .or-teaser-list li:hover .or-link-name {
-    color:#0b4a89
+	color:#0b4a89
 }
 
 ul.or-teaser-list {
@@ -789,13 +789,13 @@ ul.or-teaser-list {
 }
 
 .or-file-icon{
-    width: 24px;
-    height: 24px;
+	width: 24px;
+	height: 24px;
 }
 
 body img.or-file-icon{
-    width: 24px;
-    height: 24px;
+	width: 24px;
+	height: 24px;
 }
 
 .or-teaser-box .or-file-size {
@@ -810,21 +810,21 @@ body img.or-file-icon{
 .or-teaser-box.or-related-links .or-text-content .or-teaser-list li a .or-link-name {
     top: 50%;
     margin-top: -13px;
-    text-decoration: underline;
-    color: #017cdb;
+	text-decoration: underline;
+	color: #017cdb;
     margin-right: 4px;
     font-size: 13px;
 }
 
 .or-teaser-box.or-related-links .or-text-content .or-teaser-list li a .or-link-name:hover {
-    color: #0b4a89;
+	color: #0b4a89;
 }
 
 .or-teaser-box.or-related-documents .or-text-content .or-teaser-list li a .or-link-name {
     top: 50%;
     margin-top: -13px;
-    text-decoration: underline;
-    color: #017cdb;
+	text-decoration: underline;
+	color: #017cdb;
     margin-right: 4px;
     font-size: 13px;
 }
@@ -1208,7 +1208,7 @@ span.sol-hit-count {
     width: auto !important;
     display: inline !important;
     float: none;
-    text-decoration:underline;
+	text-decoration:underline;
     word-wrap: break-word;
 }
 
@@ -1562,7 +1562,7 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
 }
 
 .or-total-link {
-    /* margin: 21px 0 24px; */
+/* margin: 21px 0 24px; */
     display: inline-block;
     margin-bottom: 30px !important;
     margin-top: 22px;
@@ -1714,7 +1714,7 @@ footer {
 .or-footer-icon-links a {
     font-family: "leaguespartan webfont",sans-serif;
     color: #35383b;
-    text-decoration:underline;
+	text-decoration:underline;
     margin-right: 50px;
     font-size: 12px;
     display: inline-block;
@@ -1726,7 +1726,7 @@ footer {
 }
 
 .or-footer-icon-links a:hover {
-    color: #e83c23;
+	color: #e83c23;
 }
 
 .or-footer-icon-links i {
@@ -2363,20 +2363,20 @@ a.kontaktaxossxxxbrodtext,.kontaktaxossxxxbrodtext a,a.kontaktaxossxxxbrodtext:l
     cursor: pointer;
 }
 
-.or-element-kontaktpersoner__item-info a:visited,
+.or-element-kontaktpersoner__item-info a:visited, 
 body a.kontaktaxossxxxbrodtext:visited,body .kontaktaxossxxxbrodtext a:visited {
-    color: #6b0771;
+	color: #6b0771;
 }
 
-.or-element-kontaktpersoner__item-info a:hover,
+.or-element-kontaktpersoner__item-info a:hover, 
 body a.kontaktaxossxxxbrodtext:hover,body .kontaktaxossxxxbrodtext a:hover {
-    color:#0b4a89;
+	color:#0b4a89;
 }
 
-.or-element-kontaktpersoner__item-info a:focus,
+.or-element-kontaktpersoner__item-info a:focus, 
 body a.kontaktaxossxxxbrodtext:focus,body .kontaktaxossxxxbrodtext a:focus {
-    color:#890b0b;
-    background-color:#ddd;
+	color:#890b0b;
+	background-color:#ddd;
 }
 
 .or-sok-person-action > div,.or-felanmalan-action > div,.or-synpunkter-action > div {
@@ -2455,7 +2455,7 @@ ul > li.kontaktaxossxxxbrodtext:last-child {
 
 /* formulär */
 .sv-defaultFormTheme{
-    background-color: rgba(177, 177, 176, 0.17);
+	 background-color: rgba(177, 177, 176, 0.17);
     padding: 5px 15px;
     border-radius: 3px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
@@ -2557,7 +2557,7 @@ ul > li.kontaktaxossxxxbrodtext:last-child {
     display: inline-block;
     font-family: "leaguespartan webfont",sans-serif;
     margin-top: 10px;
-    line-height: 1.3em;
+	line-height: 1.3em;
 }
 
 .sv-formFieldRow,.sv-formField {
@@ -2866,7 +2866,7 @@ input[type="file" i]::-webkit-file-upload-button:hover {
 }
 
 .or-news-list li:hover h3 a {
-    color:#e83c23;
+	color:#e83c23;
 }
 
 .or-news-list li:hover p {
@@ -2876,7 +2876,7 @@ input[type="file" i]::-webkit-file-upload-button:hover {
 .or-news-list h3 a {
     font-family: "leaguespartan webfont",sans-serif;
     font-size: 16px;
-    text-decoration:underline;
+	text-decoration:underline;
 }
 
 .or-news-list h3 a:hover {
@@ -2999,7 +2999,7 @@ input[type="file" i]::-webkit-file-upload-button:hover {
 
 .or-category .or-toggle-icon,.or-daterange .or-toggle-icon {
     position: absolute;
-    right: 0;
+    right: 0;    
     margin-top: 0;
     height: 100%;
     border: 1px solid #edeaea;
@@ -3250,7 +3250,7 @@ body .or-article-main .sv-responsiveTable--stacked__headRow p {
     float: right;
     position: absolute;
     width: 320px;
-    /*background-color: white;*/
+/*background-color: white;*/
     top: 0;
     right: 10px;
 }
@@ -3268,7 +3268,7 @@ section.or-bg-one {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    /* height: 80vh; */
+/* height: 80vh; */
     padding-bottom: 100px;
 }
 
@@ -3716,9 +3716,9 @@ section.or-bg-one {
 
 /* Tabbar under Kontakta oss - Servivecenter */
 .or-start-bottom-tabs ul {
-    /* width: 90%; */
+/* width: 90%; */
     padding: 10px;
-    /* margin: auto; */
+/* margin: auto; */
     text-align: center;
 }
 
@@ -4053,8 +4053,8 @@ body .or-start-heading-divider .normal {
 }
 
 .or-sok-politiker ul li a[shape="rect"], .or-sok-politiker ul li a:hover[shape="rect"]  {
-    box-shadow: rgba(174,222,239,0)0px -15px 0 -11px inset;
-    margin: 0px;
+	box-shadow: rgba(174,222,239,0)0px -15px 0 -11px inset;
+	margin: 0px;
 }
 
 .or-sok-politiker ul li:hover {
@@ -4098,8 +4098,8 @@ body .or-start-heading-divider .normal {
 }
 
 .or-sokt-politiker p{
-    font-size: 15px;
-    line-height: 1.6em;
+	font-size: 15px;
+	line-height: 1.6em;
 }
 
 .or-sokt-politiker .or-sok-politiker tr td div strong {
@@ -4121,17 +4121,17 @@ body .or-start-heading-divider .normal {
     font-style: normal;
     font-size: 14px;
     color: #35383b;
-    text-decoration: underline;
-    color: #017cdb;
+	text-decoration: underline;
+	color: #017cdb;
     line-height: 1.6em;
 }
 
 .or-sokt-politiker .or-sok-politiker b a:hover {
-    color:#0b4a89;
+	color:#0b4a89;
 }
 
 .or-sokt-politiker .or-sok-politiker b a:visited{
-    color:#6b0771;
+	color:#6b0771;
 }
 
 .or-sokt-politiker .or-sok-politiker b {
@@ -4189,8 +4189,8 @@ body .or-start-heading-divider .normal {
 }
 
 .or-sokt-politiker .or-sok-politiker div a:hover {
-    box-shadow: rgba(174,222,239,0) 0 -41px 0 -23px inset;
-}
+	box-shadow: rgba(174,222,239,0) 0 -41px 0 -23px inset;
+	}
 
 .or-sokt-politiker .or-sok-politiker td {
     padding-left: 0;
@@ -4258,7 +4258,7 @@ body .or-start-heading-divider .normal {
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    /*font-family: "open sans",sans-serif; */
+/*font-family: "open sans",sans-serif; */
 }
 
 .or-sok-politiker form input[type="submit"] {
@@ -4406,8 +4406,8 @@ body .or-start-heading-divider .normal {
 }
 
 .or-ny-sokning:hover{
-    background-color: #5e5e5e;
-    border-color: #000;
+	 background-color: #5e5e5e;
+	 border-color: #000;
 }
 
 .or-sokt-politiker a.or-ny-sokning {
@@ -4484,7 +4484,7 @@ body .or-puff-link:hover .normal a {
 }
 
 body .or-puff-link .normal {
-    /*color: #e83c23;*/
+/*color: #e83c23;*/
     color: #000;
     margin-bottom: 0;
 }
@@ -4532,8 +4532,8 @@ body .or-puff-link .normal {
 }
 .or-puff-icon-header-text .normal a:link,body .or-puff-icon-header-text .normal, .or-puff-icon-header-text .normal a:visited, .or-puff-icon-header-text .normal a:focus {
     /*box-shadow: rgba(255,255,255,0)0px 0 0 0 inset;*/
-    color:#35383b;
-    text-decoration:none;
+	color:#35383b;
+	text-decoration:none;
     font-weight: 300;
     font-size: 15px;
     line-height: normal;
@@ -4541,7 +4541,7 @@ body .or-puff-link .normal {
 }
 
 .or-puff-icon-header-text .normal a:hover{
-    color:#35383b;
+	color:#35383b;
 }
 
 
@@ -4586,7 +4586,7 @@ body .or-puff-link .normal {
     -o-transition: color .3s ease-in;
     -ms-transition: color .3s ease-in;
     transition: color .3s ease-in;
-    box-shadow: rgba(174,222,239,0.0)0px -14px 0 -10px inset;
+	box-shadow: rgba(174,222,239,0.0)0px -14px 0 -10px inset;
 }
 
 
@@ -4596,7 +4596,7 @@ body .or-puff-link .normal {
 
 .or-puff-icon-header-text.or-wrapper-click:hover .normal a:link {
     text-decoration: underline;
-    box-shadow: rgba(255,255,255,0)0px 0 0 0 inset;
+	box-shadow: rgba(255,255,255,0)0px 0 0 0 inset;
 }
 
 .or-puff-icon-header-text > div:last-of-type {
@@ -4617,7 +4617,7 @@ body .or-puff-link .normal {
 }
 
 .sv-responsive .pagecontent .sv-image-portlet img{
-    margin-bottom: 15px;
+	margin-bottom: 15px;
 }
 
 /* Badvattenkvalitet */
@@ -4872,16 +4872,16 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
 }
 
 .livsmedelsrapport td a:visited {
-    color:#6b0771;
+	color:#6b0771;
 }
 
 .livsmedelsrapport td a:hover {
-    color:#0b4a89;
+	color:#0b4a89;
 }
 
 .livsmedelsrapport td a:focus, .livsmedelsrapport td a:active  {
-    color:#890b0b;
-    background-color:#ddd;
+	color:#890b0b;
+	background-color:#ddd;
 }
 
 .livsmedelsrapport .odd td {
@@ -5089,7 +5089,7 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
 }
 
 .or-social-media-content.facebook .fa-reactions {
-    background-image: url(/images/18.5ab4ab37154229e2ec8753e/1462525596156/reaction-orebro.png);
+    background-image: url(/images/18.5ab4ab37154229e2ec8753e/1462525596156/reaction-orebro.png);													
     background-repeat: no-repeat;
     background-size: 58px;
     height: 16px;
@@ -5161,30 +5161,30 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
 }
 
 .or-social-media-follow-startpage {
-    float:right;
-    font-size:90%;
-    padding:1%;
-    max-width: 540px;
+   float:right;
+   font-size:90%;
+   padding:1%;
+   max-width: 540px;
 }
 .or-social-media-follow-startpage-item {
-    float:none;
-    margin-bottom: 15px;
-    display: inline-block;
+   float:none;
+   margin-bottom: 15px;
+   display: inline-block;
 }
 .or-social-media-follow-startpage a{
-    font-family: "leaguespartan webfont",sans-serif;
-    font-size:11px;
-    display:inline-block;
-    text-decoration:underline;
-    /*box-shadow: rgba(174,222,239,0.65)0px -14px 0 -10px inset;
-    transition: all 100ms ease;*/
-    margin-right:25px;
+   font-family: "leaguespartan webfont",sans-serif;
+   font-size:11px;
+   display:inline-block;
+   text-decoration:underline;
+   /*box-shadow: rgba(174,222,239,0.65)0px -14px 0 -10px inset;
+   transition: all 100ms ease;*/
+   margin-right:25px;
 }
 .or-social-media-follow-startpage a:hover {
     /*box-shadow: rgba(174,222,239,0.65) 0 -41px 0 -23px inset;*/
-    color:#e83c23;
+	color:#e83c23;
 }
-
+   
 .social-bg-circle {
     background: #666;
     width: 25px;
@@ -5198,7 +5198,7 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
     margin-right:8px;
 }
 .social-bg-circle-instagram {background: -webkit-radial-gradient(32% 106%, circle cover, rgb(255, 225, 125) 0%, rgb(255, 205, 105) 10%, rgb(250, 145, 55) 28%, rgb(235, 65, 65) 42%, transparent 82%), -webkit-linear-gradient(-45deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);}
-.social-bg-circle-twitter {background:#00aced;}
+.social-bg-circle-twitter {background:#00aced;}   
 .social-bg-circle-facebook {background:#0090b4;}
 .social-bg-circle-snapchat {background:#FFFC00;}
 
@@ -6116,17 +6116,17 @@ body .SokIngetResultat {
 
 /* Translate popup */
 .or-language-modal {
-    padding:30px;
-    margin:0 auto;
-    max-width:400px;
-    background:#fff;
-    box-shadow: 0 0 6px -2px rgba(0,0,0,0.8);
-    border-radius:2px;
-    display:none;
-    position:absolute;
-    margin-top:-150px;
-    margin-bottom:50px;
-    z-index:12;
+   padding:30px;
+   margin:0 auto;
+   max-width:400px;
+   background:#fff;
+   box-shadow: 0 0 6px -2px rgba(0,0,0,0.8);
+   border-radius:2px;
+   display:none;
+	position:absolute;
+   margin-top:-150px;
+   margin-bottom:50px;
+   z-index:12;
 }
 .or-language-modal-close{
     position: absolute;
@@ -6146,19 +6146,19 @@ body .SokIngetResultat {
     color: #fff;
 }
 .or-language-modal-close .fa-close {
-    color: #FFF;
-    font-size: 17px;
-    width: 100%;
-    text-align: center;
-    padding-top: 5px;
+   color: #FFF;
+   font-size: 17px;
+	width: 100%;
+	text-align: center;
+   padding-top: 5px;   
 }
 .or-language-modal-close:hover {
-    background-color:#333;
+	background-color:#333;
 }
 
 /*videoklipp*/
 .sv-responsive .sv-video-container{
-    margin-bottom: 15px;
+	margin-bottom: 15px;
 }
 
 
