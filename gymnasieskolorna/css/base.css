@@ -3617,32 +3617,12 @@ Additional
 
 .sv-text-portlet li {
     margin-bottom: 9px;
+    line-height: 26px;
     text-align: left;
-    font-size: 17px;
-    line-height: 1.4em;
 }
 
 .sv-text-portlet li a {
-    font-size: inherit;
-}
-
-@media (min-width: 1350px) and (max-width: 1649px) {
-    .sv-text-portlet li {
-        font-size: 19px;
-    }
-}
-
-@media (min-width: 1650px) {
-    .sv-text-portlet li {
-        font-size: 21px;
-    }
-}
-
-@media (max-width: 768px) {
-    .sv-text-portlet li {
-        font-size: 16px;
-        line-height: 1.4em;
-    }
+    font-size: 16px;
 }
 
 /* Blogg */
@@ -4807,8 +4787,8 @@ body .mm-menu.mm-vertical .mm-list li.mm-opened > a, body .mm-menu.mm-vertical .
 }
 
 .mm-menu.mm-vertical .mm-list > li.mm-selected >
-a
 
+a
 (
 .mm-subopen
 
