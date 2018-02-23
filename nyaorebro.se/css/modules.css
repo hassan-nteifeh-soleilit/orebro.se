@@ -5883,7 +5883,7 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
     width: auto;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .or-lediga-jobb {
         margin-top: 70px;
     }

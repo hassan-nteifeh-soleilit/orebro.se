@@ -1,4 +1,4 @@
-@media all and (max-width: 768px){
+@media all and (max-width: 767px){
 /*base*/
 
 body {
@@ -900,7 +900,7 @@ margin-top: -35px;
     padding:8px;
 }
 
-} /* end 768 */
+} /* end 767 */
 
 
 @media all and (max-width: 680px){

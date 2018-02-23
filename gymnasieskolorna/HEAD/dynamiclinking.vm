@@ -3,38 +3,36 @@
 #set ($currentPage = $portletContextUtil.getCurrentPage())
 #set ($propertyUtil = $sitevisionUtils.propertyUtil)
 
-#set($theme = $propertyUtil.getString($currentPage,"colorschema","red"))		
+#set($theme = $propertyUtil.getString($currentPage,"colorschema","red"))
 #set ($theme = $theme.toLowerCase())
 #set ($localdev = $request.getParameter("localdev"))
 #set ($path="https://rawgit.com/Orebrokommun/orebro.se/master/gymnasieskolorna")
 
 
 #if ($localdev)
-    #set ($path="http://localhost:10001/gymnasieskolorna")
-    			
-		
-#else  
-  #set ($random = $sitevisionUtils.getInstanceCreatorUtil().getMathInstance().random())  
-  #set ($random ="rnd$random")      
+  #set ($path="http://localhost:10001/gymnasieskolorna")
+#else
+  #set ($random = $sitevisionUtils.getInstanceCreatorUtil().getMathInstance().random())
+  #set ($random ="rnd$random")
 #end
 
-	<style>
-		@font-face {
-         font-family: 'Leaguespartan webfont';
-         src: url('/download/18.758f01f014bc6929dc65e00/1426177458341/LeagueSpartan-Bold-webfont.woff2') format('undefined'), url('/download/18.758f01f014bc6929dc65dfd/1426177432944/LeagueSpartan-Bold-webfont.eot') format('embedded-opentype'), url('/download/18.758f01f014bc6929dc65dff/1426177445861/LeagueSpartan-Bold-webfont.woff') format('woff'), url('/download/18.758f01f014bc6929dc65dfe/1426177439059/LeagueSpartan-Bold-webfont.ttf') format('truetype');
-         font-weight: 800;
-         font-style: normal;
-		}
-	</style>
-				
-	<link rel="stylesheet" type="text/css" media="screen,projection" href="$path/css/base.css?$!{random}" />
-	<link rel="stylesheet" type="text/css" media="screen,projection" href="$path/css/modules.css?$!{random}" />            
-	<link rel="stylesheet" type="text/css" media="screen,projection" href="$path/css/mobilmeny.css?$!{random}" />
-	<link rel="stylesheet" type="text/css" media="screen,projection" href="$path/css/1280.css?random" />
-	<link rel="stylesheet" type="text/css" media="screen and (max-width: 960px), projection and (max-width: 960px)" href="$path/css/960.css?$!{random}" />
-	<link rel="stylesheet" type="text/css" media="screen and (max-width: 768px), projection and (max-width: 768px)" href="$path/css/768.css?$!{random}" />
-	<link rel="stylesheet" type="text/css" media="screen and (max-width: 480px), projection and (max-width: 480px)" href="$path/css/480.css?$!{random}" />
-	<link rel="stylesheet" type="text/css" media="screen and (max-width: 320px), projection and (max-width: 320px)" href="$path/css/320.css?$!{random}" />
-	<link rel="stylesheet" type="text/css" media="screen,projection" href="$path/css/tema/${theme}.css?$!{random}" />           
-        		
-	<script src="$path/script/application.js" type="text/javascript"></script>
+<style>
+  @font-face {
+    font-family: 'Leaguespartan webfont';
+    src: url('/download/18.758f01f014bc6929dc65e00/1426177458341/LeagueSpartan-Bold-webfont.woff2') format('undefined'), url('/download/18.758f01f014bc6929dc65dfd/1426177432944/LeagueSpartan-Bold-webfont.eot') format('embedded-opentype'), url('/download/18.758f01f014bc6929dc65dff/1426177445861/LeagueSpartan-Bold-webfont.woff') format('woff'), url('/download/18.758f01f014bc6929dc65dfe/1426177439059/LeagueSpartan-Bold-webfont.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+  }
+</style>
+
+<link rel="stylesheet" type="text/css" media="screen,projection" href="$path/css/base.css?$!{random}" />
+<link rel="stylesheet" type="text/css" media="screen,projection" href="$path/css/modules.css?$!{random}" />
+<link rel="stylesheet" type="text/css" media="screen,projection" href="$path/css/mobilmeny.css?$!{random}" />
+<link rel="stylesheet" type="text/css" media="screen,projection" href="$path/css/1280.css?random" />
+<link rel="stylesheet" type="text/css" media="screen and (max-width: 960px), projection and (max-width: 960px)" href="$path/css/960.css?$!{random}" />
+<link rel="stylesheet" type="text/css" media="screen and (max-width: 767px), projection and (max-width: 767px)" href="$path/css/768.css?$!{random}" />
+<link rel="stylesheet" type="text/css" media="screen and (max-width: 480px), projection and (max-width: 480px)" href="$path/css/480.css?$!{random}" />
+<link rel="stylesheet" type="text/css" media="screen and (max-width: 320px), projection and (max-width: 320px)" href="$path/css/320.css?$!{random}" />
+<link rel="stylesheet" type="text/css" media="screen,projection" href="$path/css/tema/${theme}.css?$!{random}" />
+
+<script src="$path/script/application.js" type="text/javascript"></script>

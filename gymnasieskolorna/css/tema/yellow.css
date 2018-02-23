@@ -401,7 +401,7 @@ color: #35383B;
 
 /* tabell */
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 .st-head-row {
   background-color: #fff484;
 }
