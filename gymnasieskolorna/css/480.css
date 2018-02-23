@@ -439,10 +439,6 @@
         margin-bottom: 0px;
     }
 
-    .poem {
-        padding: 0 5px;
-    }
-
     .poem span {
         font-family: "Leaguespartan webfont", sans-serif;
         font-size: 24px;
@@ -660,8 +656,6 @@
     .or-stor-bild-wide-text .poem span {
         font-size: 25px;
         margin-bottom: 10px;
-        margin-left: 0;
-        margin-right: 0;
         line-height: 29px;
     }
 
