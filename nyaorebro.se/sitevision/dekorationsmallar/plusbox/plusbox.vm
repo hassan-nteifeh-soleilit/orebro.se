@@ -29,7 +29,8 @@
             var plusboxStatus = JSON.parse(sessionStorage.getItem("plusbox${contentId}")).expanded;
             if (plusboxStatus) {
                 setTimeout(function() {
-                    header.trigger('click');
+                    $('#svid${contentId} .or-plus-box-content').slideDown(200);
+                    header.addClass('or-plus-box-active');
                 }, 200)
             }
         }
@@ -37,7 +38,7 @@
         header.on('click keydown', function (e) {
             if (!sessionStorage.getItem("plusbox${contentId}"))
                 sessionStorage.setItem("plusbox${contentId}", JSON.stringify(object));
-
+            console.log('triggered');
             if (e.which == '13' || e.type == 'click') {
                 $('#svid${contentId} .or-plus-box-content').slideToggle(200);
                 $(this).toggleClass('or-plus-box-active');
@@ -49,21 +50,21 @@
     })();
 
     $(document).ready(function () {
+        if (!sessionStorage.getItem("plusbox${contentId}")) {
+            var hash = window.location.hash.substring(1),
+                    hashParent = $("#" + hash).parent().attr('id'),
+                    svid = "svid${contentId}",
+                    containsHash = $("#svid${contentId}").find("#" + hashParent).length;
 
-
-        var hash = window.location.hash.substring(1),
-                hashParent = $("#" + hash).parent().attr('id'),
-                svid = "svid${contentId}",
-                containsHash = $("#svid${contentId}").find("#" + hashParent).length;
-
-        if (!((hash != "") && ((hashParent == svid) || (containsHash > 0)))) {
-            $("#svid${contentId} .or-plus-box-content").hide();
-        } else {
-            $("#svid${contentId} .or-plus-box-content").show();
-            $("#svid${contentId} .or-plus-box-header").addClass("or-plus-box-active");
-            document.querySelector('#svid${contentId}').scrollIntoView({
-                behavior: 'smooth'
-            });
+            if (!!sessionStorage.getItem("plusbox${contentId}") && !((hash != "") && ((hashParent == svid) || (containsHash > 0)))) {
+                $("#svid${contentId} .or-plus-box-content").hide();
+            } else {
+                $("#svid${contentId} .or-plus-box-content").show();
+                $("#svid${contentId} .or-plus-box-header").addClass("or-plus-box-active");
+                document.querySelector('#svid${contentId}').scrollIntoView({
+                    behavior: 'smooth'
+                });
+            }
         }
     });
 </script>
