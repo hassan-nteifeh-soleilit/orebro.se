@@ -6239,6 +6239,12 @@ div.or-synpunkt-action .or-action-content span:after {
 	width: 100%;
 }
 
+@media (min-width: 1350px) {
+	.or-puff-img .normal {
+		line-height: 18px;
+	}
+}
+
 /*TOPP STOR BILD MED TEXT BILD HELA YTAN */
 
 .or-stor-bild-wide-text {
