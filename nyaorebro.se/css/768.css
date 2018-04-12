@@ -1,4 +1,7 @@
 @media all and (max-width: 768px){
+    .driftstorningar-container li::before {
+        bottom: 2px;
+    }
 /*base*/
 
 body {
