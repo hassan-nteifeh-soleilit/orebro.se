@@ -56,7 +56,7 @@
                     svid = "svid${contentId}",
                     containsHash = $("#svid${contentId}").find("#" + hashParent).length;
 
-            if (!!sessionStorage.getItem("plusbox${contentId}") && !((hash != "") && ((hashParent == svid) || (containsHash > 0)))) {
+            if (!((hash != "") && ((hashParent == svid) || (containsHash > 0)))) {
                 $("#svid${contentId} .or-plus-box-content").hide();
             } else {
                 $("#svid${contentId} .or-plus-box-content").show();
