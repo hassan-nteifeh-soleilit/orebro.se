@@ -21,50 +21,76 @@
 
 <script type="text/javascript">
     (function () {
-        var object = {expanded: true, timestamp: new Date().getTime()};
-        var header = $svjq('#svid${contentId} .or-plus-box-header');
-        header.attr('tabindex', '0');
 
-        if (sessionStorage.getItem("plusbox${contentId}")) {
-            var plusboxStatus = JSON.parse(sessionStorage.getItem("plusbox${contentId}")).expanded;
-            if (plusboxStatus) {
-                setTimeout(function() {
-                    $('#svid${contentId} .or-plus-box-content').slideDown(200);
-                    header.addClass('or-plus-box-active');
-                }, 200)
-            }
+        function saveToSessionStorage (plusboxId) {
+            var pageId = '${currentPageId}'
+            var parsedSessionObject = sessionStorage.getItem('plusbox') ? JSON.parse(sessionStorage.getItem('plusbox')) : {}
+            parsedSessionObject[pageId] = plusboxId
+            sessionStorage.setItem('plusbox', JSON.stringify(parsedSessionObject))
         }
 
-        header.on('click keydown', function (e) {
-            if (!sessionStorage.getItem("plusbox${contentId}"))
-                sessionStorage.setItem("plusbox${contentId}", JSON.stringify(object));
-            console.log('triggered');
-            if (e.which == '13' || e.type == 'click') {
-                $('#svid${contentId} .or-plus-box-content').slideToggle(200);
-                $(this).toggleClass('or-plus-box-active');
+        function deleteFromSessionStorage (plusboxId) {
+            var pageId = '${currentPageId}'
+            var parsedSessionObject = sessionStorage.getItem('plusbox') ? JSON.parse(sessionStorage.getItem('plusbox')) : null
+            if (parsedSessionObject && parsedSessionObject[pageId] && parsedSessionObject[pageId] === plusboxId) {
+                parsedSessionObject[pageId] = ''
             }
-            if (e.type == 'click') {
-                $(this).blur();
-            }
-        });
-    })();
+            sessionStorage.setItem('plusbox', JSON.stringify(parsedSessionObject))
+        }
 
-    $(document).ready(function () {
-        if (!sessionStorage.getItem("plusbox${contentId}")) {
-            var hash = window.location.hash.substring(1),
-                    hashParent = $("#" + hash).parent().attr('id'),
-                    svid = "svid${contentId}",
-                    containsHash = $("#svid${contentId}").find("#" + hashParent).length;
+        $(document).ready(function () {
+            var header = $svjq("#svid${contentId} .or-plus-box-header")
+            header.attr('tabindex', '0')
 
-            if (!((hash != "") && ((hashParent == svid) || (containsHash > 0)))) {
-                $("#svid${contentId} .or-plus-box-content").hide();
+            header.on('click keydown', function (e) {
+                if (e.which == '13' || e.type == 'click') {
+                    $('#svid${contentId} .or-plus-box-content').slideToggle(200)
+                    $(this).toggleClass('or-plus-box-active')
+                    if ($(this).hasClass('or-plus-box-active')) {
+                        saveToSessionStorage('plusbox${contentId}')
+                    } else {
+                        deleteFromSessionStorage('plusbox${contentId}')
+                    }
+
+                }
+                if (e.type == 'click') {
+                    $(this).blur()
+                }
+            })
+
+            if (!sessionStorage.getItem('plusbox')) {
+                var hash = window.location.hash.substring(1),
+                        hashParent = $('#' + hash).parent().attr('id'),
+                        svid = "svid${contentId}",
+                        containsHash = $("#svid${contentId}").find('#' + hashParent).length
+
+                if (!((hash != '') && ((hashParent == svid) || (containsHash > 0)))) {
+                    $("#svid${contentId} .or-plus-box-content").hide()
+                } else {
+                    $("#svid${contentId} .or-plus-box-content").show()
+                    $("#svid${contentId} .or-plus-box-header").addClass('or-plus-box-active')
+                    document.querySelector('#svid${contentId}').scrollIntoView({
+                        behavior: 'smooth'
+                    })
+                }
             } else {
-                $("#svid${contentId} .or-plus-box-content").show();
-                $("#svid${contentId} .or-plus-box-header").addClass("or-plus-box-active");
-                document.querySelector('#svid${contentId}').scrollIntoView({
-                    behavior: 'smooth'
-                });
+                var pageId = '${currentPageId}'
+                var parsedSessionObject = JSON.parse(sessionStorage.getItem('plusbox'))
+                if (parsedSessionObject[pageId]) {
+                    if (parsedSessionObject[pageId] === 'plusbox${contentId}') {
+                        $('#svid${contentId} .or-plus-box-content').slideDown(200)
+                        header.addClass('or-plus-box-active')
+                        setTimeout(function () {
+                            document.querySelector('#svid${contentId}').scrollIntoView({
+                                behavior: 'smooth'
+                            })
+                        }, 800)
+                    }
+                }
+
             }
-        }
-    });
+        })
+
+    })()
+
 </script>
