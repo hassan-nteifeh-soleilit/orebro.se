@@ -5492,11 +5492,13 @@ px
 	margin-top: 16px;
 	margin-bottom: 15px;
 	padding-right: 18px;
-	padding-left: 16px;
 	font-size: 12px;
 	font-weight: 400;
 }
 
+.or-search-hit-rubrik {
+	margin-left: 0 !important;
+}
 .visuallyhidden {
 	margin: -1px;
 	padding: 0;
@@ -5872,6 +5874,71 @@ body a.kontaktaxossxxxbrodtext:focus, body .kontaktaxossxxxbrodtext a:focus, bod
 	float: none !important;
 	max-width: 400px;
 }
+.or-synpunkter-action .or-elmt-actn-text, .or-felanmalan-action  .or-elmt-actn-text {
+	padding: 14px 0 14px 20px;
+}
+.or-synpunkter-action .or-elmt-actn:hover .or-elmt-actn-link {
+	text-decoration: none !important;
+	color: #F4A63B;
+}
+.or-synpunkter-action .or-elmt-actn, .or-felanmalan-action .or-elmt-actn {
+	transition: all .3s ease;
+}
+.or-synpunkter-action .or-elmt-actn:hover , .or-felanmalan-action .or-elmt-actn:hover {
+	box-shadow: #aedeef 0px 0px 6px 0px;
+}
+
+.or-felanmalan-action .or-elmt-actn:hover .or-elmt-actn-link {
+	text-decoration: none !important;
+	color: #e83c23;
+}
+
+.or-synpunkter-action .or-elmt-actn .or-elmt-actn-icon {
+	transition: background-color .3s;
+}
+.or-synpunkter-action .or-elmt-actn .or-elmt-actn-row::after {
+	transition: border-left-color .3s;
+}
+
+
+.or-synpunkter-action .or-elmt-actn .or-elmt-actn-icon {
+	background-color: #F4A63B;
+}
+.or-synpunkter-action .or-elmt-actn .or-elmt-actn-row::after {
+	border-left-color: #F4A63B !important;
+}
+.or-felanmalan-action .or-elmt-actn .or-elmt-actn-icon {
+	background-color: #e83c23;
+}
+.or-felanmalan-action .or-elmt-actn .or-elmt-actn-row::after {
+	border-left-color:  #e83c23 !important;
+}
+
+.or-synpunkter-action .or-elmt-actn-link, .or-felanmalan-action .or-elmt-actn-link {
+	padding: 0;
+	display: inline-block;
+	position: relative;
+}
+.or-synpunkter-action .or-elmt-actn-link::after, .or-felanmalan-action .or-elmt-actn-link::after {
+	content: '';
+	display: block;
+	width: 0;
+	height: 2px;
+	transition: width .3s;
+	position: absolute;
+	bottom: -3px;
+	left: 0;
+
+}
+.or-synpunkter-action .or-elmt-actn-link::after {
+	background-color: #F4A63B;
+}
+.or-felanmalan-action .or-elmt-actn-link::after {
+	background-color: #e83c23;
+}
+.or-synpunkter-action .or-elmt-actn:hover .or-elmt-actn-link::after, .or-felanmalan-action .or-elmt-actn:hover .or-elmt-actn-link::after  {
+	width: 100%;
+}
 
 .or-felanmalan-action .or-action-content span.fa {
 	background-color: #e83c23;
@@ -6040,7 +6107,7 @@ div.or-synpunkt-action .or-action-content span:after {
 .sv-text-portlet table.sv-standard th p {
 	font-weight: 700;
 	font-family: 'Leaguespartan webfont', sans-serif;
-	font-size: 12px;
+	font-size: 15px;
 	line-height: 1.2em;
 	color: #fff;
 }
@@ -6049,7 +6116,7 @@ div.or-synpunkt-action .or-action-content span:after {
 .sv-blog-portlet table.sv-standard td p,
 .sv-archive-portlet table.sv-standard td p,
 .sv-text-portlet table.sv-standard td p {
-	font-size: 16px;
+	font-size: 19px;
 	line-height: 1.2em;
 }
 
@@ -6057,7 +6124,7 @@ div.or-synpunkt-action .or-action-content span:after {
 .sv-blog-portlet table.sv-standard td p,
 .sv-archive-portlet table.sv-standard td p,
 .sv-text-portlet table.sv-standard td p a {
-	font-size: 16px;
+	font-size: 19px;
 	line-height: 1.2em;
 	text-decoration: underline;
 	color: #017cdb;
@@ -6076,7 +6143,6 @@ div.or-synpunkt-action .or-action-content span:after {
 .sv-blog-portlet table.sv-standard td p,
 .sv-archive-portlet table.sv-standard td p,
 .sv-text-portlet table.sv-standard td p a:hover {
-	font-size: 16px;
 	line-height: 1.2em;
 	color: #0b4a89;
 }
@@ -6235,6 +6301,12 @@ div.or-synpunkt-action .or-action-content span:after {
 .or-puff-img .normal {
 	text-align: center;
 	width: 100%;
+}
+
+@media (min-width: 1350px) {
+	.or-puff-img .normal {
+		line-height: 18px;
+	}
 }
 
 /*TOPP STOR BILD MED TEXT BILD HELA YTAN */
@@ -6777,10 +6849,27 @@ div.or-synpunkt-action .or-action-content span:after {
 	line-height: 1.3em;
 	text-decoration: none;
 }
+.or-puff-bild-text .or-h1-facts-block {
+	font-size: 16px !important;;
+}
 
 .or-puff-bild-text p {
-	font-size: 14px;
-	line-height: 18px;
+	font-size: 14px !important;
+	line-height: 1.3em !important;
+}
+@media (min-width: 481px) and (max-width: 1349px) {
+	.or-puff-bild-text .or-h1-facts-block {
+
+	}
+}
+@media (min-width: 1350px) and (max-width: 1649px) {
+
+}
+@media (min-width: 1650px) {
+	.or-puff-bild-text .or-h1-facts-block {
+		font-size: 18px !important;
+	}
+
 }
 
 .or-puff-bild-text li a:link {
@@ -6789,10 +6878,8 @@ div.or-synpunkt-action .or-action-content span:after {
 }
 
 .or-puff-bild-text p a:link {
-	font-size: 14px;
 	color: #35383b;
 	text-decoration: none;
-	line-height: 18px;
 	box-shadow: 0px -16px 0px -11px rgb(174, 222, 239) inset;
 	box-shadow: 0px -16px 0px -11px rgba(174, 222, 239, 0.0) inset;
 }
