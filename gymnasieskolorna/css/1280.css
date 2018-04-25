@@ -226,14 +226,6 @@ body .or-content-container .or-tir p {
     font-size: 18px;
 }
 
-/* tabell */
-.sv-text-portlet table.sv-standard thead th p {
-    font-size: 14px;
-}
-
-body .sv-text-portlet table.sv-standard td p {
-    font-size: 17px;
-}
 
 .or-content-container .sv-text-portlet table caption {
     font-size: 22px;

@@ -6042,7 +6042,7 @@ div.or-synpunkt-action .or-action-content span:after {
 .sv-text-portlet table.sv-standard th p {
 	font-weight: 700;
 	font-family: 'Leaguespartan webfont', sans-serif;
-	font-size: 12px;
+	font-size: 15px;
 	line-height: 1.2em;
 	color: #fff;
 }
@@ -6051,7 +6051,7 @@ div.or-synpunkt-action .or-action-content span:after {
 .sv-blog-portlet table.sv-standard td p,
 .sv-archive-portlet table.sv-standard td p,
 .sv-text-portlet table.sv-standard td p {
-	font-size: 17px;
+	font-size: 19px;
 	line-height: 1.2em;
 }
 
@@ -6059,7 +6059,7 @@ div.or-synpunkt-action .or-action-content span:after {
 .sv-blog-portlet table.sv-standard td p,
 .sv-archive-portlet table.sv-standard td p,
 .sv-text-portlet table.sv-standard td p a {
-	font-size: 17px;
+	font-size: 19px;
 	line-height: 1.2em;
 	text-decoration: underline;
 	color: #017cdb;
@@ -6078,7 +6078,6 @@ div.or-synpunkt-action .or-action-content span:after {
 .sv-blog-portlet table.sv-standard td p,
 .sv-archive-portlet table.sv-standard td p,
 .sv-text-portlet table.sv-standard td p a:hover {
-	font-size: 16px;
 	line-height: 1.2em;
 	color: #0b4a89;
 }

@@ -776,24 +776,6 @@
         margin-top: 0;
     }
 
-    /* ny tabell */
-    .pagecontent .sv-linklist-portlet table.sv-standard td p, .sv-blog-portlet table.sv-standard td p, .sv-archive-portlet table.sv-standard td p, .sv-text-portlet table.sv-standard td p {
-        font-size: 14px;
-    }
-
-    .sv-linklist-portlet table.sv-standard td p a, .sv-blog-portlet table.sv-standard td p a, .sv-archive-portlet table.sv-standard td p a, .sv-text-portlet table.sv-standard td p a {
-        font-size: 14px;
-    }
-
-    .sv-linklist-portlet table.sv-standard td p a, .sv-blog-portlet table.sv-standard td p a, .sv-archive-portlet table.sv-standard td p a, .sv-text-portlet table.sv-standard td p a:hover {
-        font-size: 14px;
-    }
-
-    .sv-table-portlet caption,
-    .sv-text-portlet table.sv-standard caption {
-        font-size: 16px;
-    }
-
     /* processteg */
     .sol-accordion-heading {
 
