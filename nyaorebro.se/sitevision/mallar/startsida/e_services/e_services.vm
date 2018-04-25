@@ -1,0 +1,10 @@
+#if ($viewData.length)
+<div class="or-widget-wrapper">
+#foreach ($service in $viewData)
+   <a class="or-widget or-widget--beige" href="$service.URI">
+    <div class="or-widget__title">$service.name</div>
+    <div class="or-widget__text">$service.text</div>
+   </a>
+#end
+</div>
+#end

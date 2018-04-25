@@ -1,4 +1,13 @@
 @media all and (max-width: 767px){
+    .or-widget-wrapper {
+        flex-wrap: wrap;
+    }
+    .or-widget {
+        width: 100%;
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-bottom: 15px;
+    }
     .sv-facetedsearch-portlet #or-search-form {
         margin-top: 1rem;
     }
@@ -1276,6 +1285,7 @@ body .or-puff-link .normal a:link {
     display: inline;
     margin-bottom: 25px;
 }
+
 
 }
 
