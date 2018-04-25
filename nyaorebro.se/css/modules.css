@@ -1,4 +1,4 @@
-﻿﻿/* 2. Liten kalender info ruta */
+﻿/* 2. Liten kalender info ruta */
 /* 3. Kalender faktaruta */
 /*cookie*/
 .cookieAlert {
@@ -138,7 +138,12 @@ form.or-search-field button:hover {
     color: #fff;
 }
 
-/* menyknapp*/
+/* Söksidan */
+.sv-facetedsearch-portlet #or-search-form {
+        margin-top: 3.5rem;
+}
+
+    /* menyknapp*/
 .or-menu-button-container .fa {
     background: #E83C23;
     -moz-border-radius: 40px;
@@ -1001,11 +1006,17 @@ body .or-update-date {
 
 #id-or-email-form {
     width: 90%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #id-or-useful-no {
     background-color: #FFF;
     position: relative;
+}
+#or-form__text-area__error-msg {
+    display: none;
+    color: #e83c23;
 }
 
 .or-helpus,.or-helpyes {
@@ -1177,10 +1188,15 @@ body .pagecontent .or-hit-count {
     margin-top: 16px;
     margin-bottom: 15px;
     padding-right: 18px;
-    padding-left: 16px;
     font-size: 12px;
     font-weight: 400;
 }
+@media (max-width: 992px) {
+    body .pagecontent .or-hit-count {
+        padding-left: 16px;
+    }
+}
+
 
 span.sol-hit-count {
     float: right;
@@ -1403,14 +1419,16 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
     vertical-align: middle;
 }
 
-.sol-facetter ul > li > a {
+.sol-facetter ul > li a {
     font-size: 13px !important;
     text-decoration: none;
     font-weight: 300;
     cursor: pointer;
     box-shadow: rgba(255,255,255,0)0px -16px 0 -11px inset !important;
 }
-
+.sol-facetter ul > li > span > a {
+    text-decoration: underline;
+}
 .sol-facetter ul > li:hover > a {
     box-shadow: 0 -20px 0 11px rgba(174,222,239,0.65) inset;
 }
@@ -1583,14 +1601,20 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
 }
 /* Sök med totalsök */
 .or-twin-search #or-search-form {
-    margin-left: 0;
+    margin-left: 15px;
 }
 .or-twin-search > div:last-child {
     margin-top: 80px;
 }
-.or-twin-search .or-did-you-mean {
-    margin-left: -15px;
+@media (max-width: 991px) {
+    .or-twin-search .or-did-you-mean {
+        margin-left: 15px;
+    }
 }
+.or-did-you-mean.normal, .or-hit-count {
+	margin-left: 15px !important;
+}
+
 
 
 /* footer */
@@ -2332,20 +2356,69 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
 .or-kontaktpersoner-container {
     background-color: #fff;
     border: 1px solid #ddd;
-    padding: 10px;
+    padding: 17px 55px;
     position: relative;
+}
+.or-kontaktpersoner-container h1, .or-kontaktpersoner-container h2, .or-kontaktpersoner-container h3,
+.or-kontaktpersoner-container h4, .or-kontaktpersoner-container h5, .or-kontaktpersoner-container h6 {
+	font-size: 16px !important;
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.4em;
+	margin-top: 0!important;
+	margin-bottom: 0 !important;
 }
 
 .or-kontaktpersoner-container:after {
     content: "\f086";
     font-family: FontAwesome;
-    font-size: 30px;
     color: #f28c00;
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 17px;
+    left: 19px;
+    font-size: 23px;
+    line-height: 22.4px;
 }
+.or-kontaktpersoner-container .normal {
+	font-size: 16px !important;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.43;
+	letter-spacing: normal;
+	text-align: left;
+	color: #35383b;
+    line-height: 1.6em;
+}
+@media (min-width: 768px) and (max-width: 1350px) {
+    .or-kontaktpersoner-container .normal {
+        font-size: 17px !important;
+    }
+    .or-kontaktpersoner-container h1, .or-kontaktpersoner-container h2, .or-kontaktpersoner-container h3,
+    .or-kontaktpersoner-container h4, .or-kontaktpersoner-container h5, .or-kontaktpersoner-container h6 {
+        font-size: 17px !important;
+    }
+}
+@media (min-width: 1350px) and (max-width: 1649px) {
+    .or-kontaktpersoner-container .normal {
+        font-size: 19px !important;
+    }
+    .or-kontaktpersoner-container h1, .or-kontaktpersoner-container h2, .or-kontaktpersoner-container h3,
+    .or-kontaktpersoner-container h4, .or-kontaktpersoner-container h5, .or-kontaktpersoner-container h6 {
+        font-size: 20px !important;
+    }
 
+}
+@media (min-width: 1650px)  {
+    .or-kontaktpersoner-container .normal {
+        font-size: 21px !important;
+    }
+    .or-kontaktpersoner-container h1, .or-kontaktpersoner-container h2, .or-kontaktpersoner-container h3,
+    .or-kontaktpersoner-container h4, .or-kontaktpersoner-container h5, .or-kontaktpersoner-container h6 {
+        font-size: 22px !important;
+    }
+}
 /* Kontakt och tyck till */
 .or-element-kontaktpersoner__item-info a,
 a.kontaktaxossxxxbrodtext,.kontaktaxossxxxbrodtext a,a.kontaktaxossxxxbrodtext:link,.kontaktaxossxxxbrodtext a:link,a.kontaktaxossxxxbrodtext:visited,.kontaktaxossxxxbrodtext a:visited,a.kontaktaxossxxxbrodtext:active,.kontaktaxossxxxbrodtext a:active {
@@ -2355,17 +2428,17 @@ a.kontaktaxossxxxbrodtext,.kontaktaxossxxxbrodtext a,a.kontaktaxossxxxbrodtext:l
     cursor: pointer;
 }
 
-.or-element-kontaktpersoner__item-info a:visited, 
+.or-element-kontaktpersoner__item-info a:visited,
 body a.kontaktaxossxxxbrodtext:visited,body .kontaktaxossxxxbrodtext a:visited {
 	color: #6b0771;
 }
 
-.or-element-kontaktpersoner__item-info a:hover, 
+.or-element-kontaktpersoner__item-info a:hover,
 body a.kontaktaxossxxxbrodtext:hover,body .kontaktaxossxxxbrodtext a:hover {
 	color:#0b4a89;
 }
 
-.or-element-kontaktpersoner__item-info a:focus, 
+.or-element-kontaktpersoner__item-info a:focus,
 body a.kontaktaxossxxxbrodtext:focus,body .kontaktaxossxxxbrodtext a:focus {
 	color:#890b0b;
 	background-color:#ddd;
@@ -2991,7 +3064,7 @@ input[type="file" i]::-webkit-file-upload-button:hover {
 
 .or-category .or-toggle-icon,.or-daterange .or-toggle-icon {
     position: absolute;
-    right: 0;    
+    right: 0;
     margin-top: 0;
     height: 100%;
     border: 1px solid #edeaea;
@@ -5118,7 +5191,7 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
 }
 
 .or-social-media-content.facebook .fa-reactions {
-    background-image: url(/images/18.5ab4ab37154229e2ec8753e/1462525596156/reaction-orebro.png);													
+    background-image: url(/images/18.5ab4ab37154229e2ec8753e/1462525596156/reaction-orebro.png);
     background-repeat: no-repeat;
     background-size: 58px;
     height: 16px;
@@ -5213,7 +5286,7 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
     /*box-shadow: rgba(174,222,239,0.65) 0 -41px 0 -23px inset;*/
 	color:#e83c23;
 }
-   
+
 .social-bg-circle {
     background: #666;
     width: 25px;
@@ -5227,7 +5300,7 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
     margin-right:8px;
 }
 .social-bg-circle-instagram {background: -webkit-radial-gradient(32% 106%, circle cover, rgb(255, 225, 125) 0%, rgb(255, 205, 105) 10%, rgb(250, 145, 55) 28%, rgb(235, 65, 65) 42%, transparent 82%), -webkit-linear-gradient(-45deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);}
-.social-bg-circle-twitter {background:#00aced;}   
+.social-bg-circle-twitter {background:#00aced;}
 .social-bg-circle-facebook {background:#0090b4;}
 .social-bg-circle-snapchat {background:#FFFC00;}
 
@@ -5320,7 +5393,6 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
     width: 100%;
     margin-top: 20px;
 }
-
 .sol-tab-button-container > ul {
     display :flex;
     flex-wrap: wrap;
@@ -5909,7 +5981,7 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
     width: auto;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .or-lediga-jobb {
         margin-top: 70px;
     }
@@ -6176,7 +6248,7 @@ body .SokIngetResultat {
    font-size: 17px;
 	width: 100%;
 	text-align: center;
-   padding-top: 5px;   
+   padding-top: 5px;
 }
 .or-language-modal-close:hover {
 	background-color:#333;
