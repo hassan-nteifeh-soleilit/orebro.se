@@ -5881,6 +5881,12 @@ body a.kontaktaxossxxxbrodtext:focus, body .kontaktaxossxxxbrodtext a:focus, bod
 	text-decoration: none !important;
 	color: #F4A63B;
 }
+.or-synpunkter-action .or-elmt-actn, .or-felanmalan-action .or-elmt-actn {
+	transition: all .3s ease;
+}
+.or-synpunkter-action .or-elmt-actn:hover , .or-felanmalan-action .or-elmt-actn:hover {
+	box-shadow: #aedeef 0px 0px 6px 0px;
+}
 
 .or-felanmalan-action .or-elmt-actn:hover .or-elmt-actn-link {
 	text-decoration: none !important;
