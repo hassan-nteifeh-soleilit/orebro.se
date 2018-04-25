@@ -552,6 +552,18 @@
   .or-puff-instagram {
     width: 46%;
   }
+  .sv-archive-portlet table.sv-standard td p {
+    font-size: 19px; }
+  .sv-archive-portlet table.sv-standard td p a {
+    font-size: 19px; }
+  .sv-text-portlet table.sv-standard th p {
+    font-size: 15px; }
+  .sv-text-portlet table.sv-standard th p a {
+    font-size: 15px; }
+  .sv-text-portlet table.sv-standard td p {
+    font-size: 19px; }
+  .sv-text-portlet table.sv-standard td p a {
+    font-size: 19px; }
 } /*end max 767 */
 
 @media all and (max-width: 766px){
@@ -1023,3 +1035,18 @@
   }
 }
 
+.pagecontent .sv-linklist-portlet table.sv-standard th p,
+.sv-blog-portlet table.sv-standard th p,
+.sv-archive-portlet table.sv-standard th p,
+.sv-text-portlet table.sv-standard th p, .sv-text-portlet table.sv-standard th p a {
+  font-size: 12px;
+  color: #fff;
+}
+
+.pagecontent .sv-linklist-portlet table.sv-standard td p,
+.sv-blog-portlet table.sv-standard td p,
+.sv-archive-portlet table.sv-standard td p,
+.sv-text-portlet table.sv-standard td p, .sv-text-portlet table.sv-standard td p a {
+  font-size: 15px;
+  line-height: 1.2em;
+}
