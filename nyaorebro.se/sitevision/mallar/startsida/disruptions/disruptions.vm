@@ -1,0 +1,8 @@
+#if( $numAlerts > 3 )
+<div class="or-start-bottom-tabs">
+    <ul>
+        <li class="or-wrapper-click"><a href="$url">Visa fler driftstörningar</a></li>
+    </ul>
+</div>
+
+#end
