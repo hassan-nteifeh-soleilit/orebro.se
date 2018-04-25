@@ -2356,16 +2356,16 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
 .or-kontaktpersoner-container {
     background-color: #fff;
     border: 1px solid #ddd;
-    padding: 17px 45px;
+    padding: 17px 55px;
     position: relative;
 }
 .or-kontaktpersoner-container h1, .or-kontaktpersoner-container h2, .or-kontaktpersoner-container h3,
 .or-kontaktpersoner-container h4, .or-kontaktpersoner-container h5, .or-kontaktpersoner-container h6 {
-	font-size: 14px !important;
+	font-size: 16px !important;
 	font-weight: bold;
 	font-style: normal;
 	font-stretch: normal;
-	line-height: 1.6;
+	line-height: 1.4em;
 	margin-top: 0!important;
 	margin-bottom: 0 !important;
 }
@@ -2373,16 +2373,15 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
 .or-kontaktpersoner-container:after {
     content: "\f086";
     font-family: FontAwesome;
-    font-size: 30px;
     color: #f28c00;
     position: absolute;
     top: 17px;
     left: 19px;
-	font-size: 17px;
-	line-height: 22.4px;
+    font-size: 23px;
+    line-height: 22.4px;
 }
 .or-kontaktpersoner-container .normal {
-	font-size: 14px !important;
+	font-size: 16px !important;
 	font-weight: normal;
 	font-style: normal;
 	font-stretch: normal;
@@ -2390,8 +2389,36 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
 	letter-spacing: normal;
 	text-align: left;
 	color: #35383b;
+    line-height: 1.6em;
 }
+@media (min-width: 768px) and (max-width: 1350px) {
+    .or-kontaktpersoner-container .normal {
+        font-size: 17px !important;
+    }
+    .or-kontaktpersoner-container h1, .or-kontaktpersoner-container h2, .or-kontaktpersoner-container h3,
+    .or-kontaktpersoner-container h4, .or-kontaktpersoner-container h5, .or-kontaktpersoner-container h6 {
+        font-size: 17px !important;
+    }
+}
+@media (min-width: 1350px) and (max-width: 1649px) {
+    .or-kontaktpersoner-container .normal {
+        font-size: 19px !important;
+    }
+    .or-kontaktpersoner-container h1, .or-kontaktpersoner-container h2, .or-kontaktpersoner-container h3,
+    .or-kontaktpersoner-container h4, .or-kontaktpersoner-container h5, .or-kontaktpersoner-container h6 {
+        font-size: 20px !important;
+    }
 
+}
+@media (min-width: 1650px)  {
+    .or-kontaktpersoner-container .normal {
+        font-size: 21px !important;
+    }
+    .or-kontaktpersoner-container h1, .or-kontaktpersoner-container h2, .or-kontaktpersoner-container h3,
+    .or-kontaktpersoner-container h4, .or-kontaktpersoner-container h5, .or-kontaktpersoner-container h6 {
+        font-size: 22px !important;
+    }
+}
 /* Kontakt och tyck till */
 .or-element-kontaktpersoner__item-info a,
 a.kontaktaxossxxxbrodtext,.kontaktaxossxxxbrodtext a,a.kontaktaxossxxxbrodtext:link,.kontaktaxossxxxbrodtext a:link,a.kontaktaxossxxxbrodtext:visited,.kontaktaxossxxxbrodtext a:visited,a.kontaktaxossxxxbrodtext:active,.kontaktaxossxxxbrodtext a:active {
