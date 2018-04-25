@@ -3503,7 +3503,6 @@ section.or-bg-one {
 .driftstorningar-container li {
     position: relative;
     box-sizing: border-box;
-	padding-right: 25px;
     width: calc(50% - 30px);
     margin: 0 20px 20px 20px;
     border: 0 solid #ecebe6;
@@ -3511,7 +3510,7 @@ section.or-bg-one {
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.15);
 	border-radius: 3px;
 }
-.driftstorningar-container li::after {
+.driftstorningar-container li a::after {
     position: absolute;
     display: block;
     content: "";
@@ -3522,7 +3521,7 @@ section.or-bg-one {
     border-bottom: 28px solid #ecebe6;
     border-left: 28px solid transparent;
 }
-.driftstorningar-container li::before {
+.driftstorningar-container li a::before {
     position: absolute;
     display: block;
     right: 0;
@@ -3537,6 +3536,13 @@ section.or-bg-one {
 }
 .driftstorningar-container li a {
 	box-sizing: border-box;
+    padding-right: 25px;
+}
+.driftstorningar-container li a:focus {
+    background-color: transparent !important;
+}
+.driftstorningar-container li a:focus > span {
+    background-color: #ddd;
 }
 .driftstorningar-container li a:link:hover span{
     text-decoration: underline;
