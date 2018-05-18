@@ -32,6 +32,21 @@
             <input class="normal" type="submit" value="Skicka in din kommentar" data-wait="Please wait..."/>
         </form>
     </div>
+    <div class="or-helpus__information">
+        <p class="normal">
+            Tänk på att inte skicka in personuppgifter.
+            Om du vill ha svar på en fråga kan du istället skicka in en synpunkt via ”kontakta oss”.
+        </p>
+        <p class="normal">
+            Om du skickar in personuppgifter via detta formulär hanteras uppgifterna av webbredaktionen och kan eventuellt
+            lämnas vidare till annan verksamhet inom Örebro kommun i syfte att förbättra vår service.
+        </p>
+        <p class="normal">
+            <a href="http://www.orebro.se/personuppgifter">
+                Här hittar du mer information om hur vi hanterar personuppgifter.
+            </a>
+        </p>
+    </div>
 </div>
 
 <!-- JA -->
