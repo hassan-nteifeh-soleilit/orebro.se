@@ -12,3 +12,7 @@ Badvattenkvalité/Badvattenkvalitet-dokumentation.doc
 Badvattenkvalité/images/Thumbs.db
 .DS_Store
 *.bak
+
+
+.idea/
+npm-debug.log
