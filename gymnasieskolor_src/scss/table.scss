@@ -141,6 +141,27 @@
 }
 
 .sv-text-portlet {
+  table {
+    margin-bottom: 20px;
+    border: solid 1px #f3dcd0;
+    thead {
+      background-color: #e83c23;
+      th {
+        padding: 8px 6px;
+        border-right: solid 2px rgba(255, 255, 255, 0.25);
+      }
+    }
+    tbody {
+      &:nth-child(2n) {
+        background-color: #fdf7f1;
+        border-bottom: solid 1px #f3dcd0;
+      }
+      &:nth-child(2n+1) {
+        background-color: #fff;
+        border-bottom: solid 1px #f3dcd0;
+      }
+    }
+  }
   table.sv-standard {
     th {
       padding: 10px 10px 11px;
@@ -148,7 +169,14 @@
       border-right: 1px solid rgba(255, 255, 255, 0.25);
       background-color: #E83C23;
       border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+      text-align: left;
+      background-color: #e83c23;
+      border-bottom: solid 2px rgba(255, 255, 255, 0.25);
+      padding-left: 6px;
+      font-family: "leaguespartan webfont", sans-serif;
+      color: #fff;
       p {
+        padding-left: 3px;
         font-weight: 700;
         font-family: 'Leaguespartan webfont', sans-serif;
         font-size: 12px;
@@ -167,6 +195,8 @@
       }
     }
     td {
+      padding: 8px 6px;
+      vertical-align: top;
       p {
         font-size: 15px;
         line-height: 1.2em;
@@ -324,6 +354,52 @@
           background-color: #f3f3f3;
         }
       }
+    }
+  }
+}
+.sv-responsiveTable--stacked__headRow {
+  th {
+    color: #fff;
+    line-height: 1.3em;
+    font-family: "leaguespartan webfont",sans-serif;
+    font-size: 12px;
+    padding-left: 3px;
+    padding-top: 2px;
+  }
+}
+.sv-text-portlet {
+  table.sv-standard {
+    .sv-responsiveTable--stacked__headRow {
+      background-color: #E83C23 !important;
+      color: #fff;
+      line-height: 1.3em;
+      font-family: "leaguespartan webfont", sans-serif;
+      font-size: 12px;
+      padding-left: 3px;
+      padding-top: 2px;
+    }
+  }
+}
+
+.sv-responsiveTable--stacked__headRow--main {
+  background-color: #E83C23 !important;
+}
+
+.or-article-main {
+  .sv-responsiveTable--stacked__headRow {
+    th {
+      p {
+        color: #fff;
+        font-family: "leaguespartan webfont", sans-serif;
+        font-size: 14px;
+        padding: 5px 5px 5px 8px;
+      }
+    }
+    p {
+      color: #fff !important;
+      font-family: "leaguespartan webfont", sans-serif !important;
+      font-size: 14px;
+      padding: 5px 5px 5px 8px;
     }
   }
 }
