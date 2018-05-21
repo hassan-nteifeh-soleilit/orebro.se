@@ -14,5 +14,6 @@ Badvattenkvalité/~$dvattenkvalitet-dokumentation.doc
 npm-debug.log
 .idea/
 gulpfile.js
+dist/
 
 user_config.yml
