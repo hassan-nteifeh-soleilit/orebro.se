@@ -1,0 +1,304 @@
+.pagecontent .sv-linklist-portlet table.sv-standard th p {
+    font-weight: 700;
+    font-family: 'Leaguespartan webfont', sans-serif;
+    font-size: 12px;
+    line-height: 1.2em;
+    color: #fff; }
+@media (min-width: 768px) {
+    .pagecontent .sv-linklist-portlet table.sv-standard th p {
+        font-size: 15px; } }
+.pagecontent .sv-linklist-portlet table.sv-standard th p a {
+    font-size: 12px;
+    color: #fff; }
+@media (min-width: 768px) {
+    .pagecontent .sv-linklist-portlet table.sv-standard th p a {
+        font-size: 15px; } }
+
+.pagecontent .sv-linklist-portlet table.sv-standard td p {
+    font-size: 15px;
+    text-decoration: underline;
+    display: inline;
+    padding-right: 1px;
+    padding-bottom: 0;
+    padding-left: 1px;
+    background-color: transparent;
+    line-height: 1.2em;
+    color: #0b4a89; }
+@media (min-width: 768px) {
+    .pagecontent .sv-linklist-portlet table.sv-standard td p {
+        font-size: 19px; } }
+.pagecontent .sv-linklist-portlet table.sv-standard td p a {
+    font-size: 15px;
+    line-height: 1.2em; }
+@media (min-width: 768px) {
+    .pagecontent .sv-linklist-portlet table.sv-standard td p a {
+        font-size: 19px; } }
+
+.sv-blog-portlet table.sv-standard th p {
+    font-weight: 700;
+    font-family: 'Leaguespartan webfont', sans-serif;
+    font-size: 12px;
+    line-height: 1.2em;
+    color: #fff; }
+@media (min-width: 768px) {
+    .sv-blog-portlet table.sv-standard th p {
+        font-size: 15px; } }
+.sv-blog-portlet table.sv-standard th p a {
+    font-size: 12px;
+    color: #fff; }
+@media (min-width: 768px) {
+    .sv-blog-portlet table.sv-standard th p a {
+        font-size: 15px; } }
+
+.sv-blog-portlet table.sv-standard td p {
+    font-size: 15px;
+    text-decoration: underline;
+    display: inline;
+    padding-right: 1px;
+    padding-bottom: 0px;
+    padding-left: 1px;
+    background-color: transparent;
+    color: #0b4a89; }
+@media (min-width: 768px) {
+    .sv-blog-portlet table.sv-standard td p {
+        font-size: 19px; } }
+.sv-blog-portlet table.sv-standard td p a {
+    font-size: 15px;
+    line-height: 1.2em; }
+@media (min-width: 768px) {
+    .sv-blog-portlet table.sv-standard td p a {
+        font-size: 19px; } }
+
+.sv-archive-portlet table.sv-standard th p {
+    font-weight: 700;
+    font-family: 'Leaguespartan webfont', sans-serif;
+    font-size: 12px;
+    line-height: 1.2em;
+    color: #fff; }
+@media (min-width: 768px) {
+    .sv-archive-portlet table.sv-standard th p {
+        font-size: 15px; } }
+
+.sv-archive-portlet table.sv-standard th a {
+    font-size: 12px;
+    color: #fff; }
+@media (min-width: 768px) {
+    .sv-archive-portlet table.sv-standard th a {
+        font-size: 15px; } }
+
+.sv-archive-portlet table.sv-standard td p {
+    font-size: 15px;
+    line-height: 1.2em;
+    text-decoration: underline;
+    display: inline;
+    padding-right: 1px;
+    padding-bottom: 0;
+    padding-left: 1px;
+    background-color: transparent;
+    color: #0b4a89; }
+@media (min-width: 768px) {
+    .sv-archive-portlet table.sv-standard td p {
+        font-size: 19px; } }
+.sv-archive-portlet table.sv-standard td p a {
+    font-size: 15px;
+    line-height: 1.2em; }
+@media (min-width: 768px) {
+    .sv-archive-portlet table.sv-standard td p a {
+        font-size: 19px; } }
+
+.sv-text-portlet table {
+    margin-bottom: 20px;
+    border: solid 1px #f3dcd0; }
+.sv-text-portlet table thead {
+    background-color: #e83c23; }
+.sv-text-portlet table thead th {
+    padding: 8px 6px;
+    border-right: solid 2px rgba(255, 255, 255, 0.25); }
+.sv-text-portlet table tbody:nth-child(2n) {
+    background-color: #fdf7f1;
+    border-bottom: solid 1px #f3dcd0; }
+.sv-text-portlet table tbody:nth-child(2n+1) {
+    background-color: #fff;
+    border-bottom: solid 1px #f3dcd0; }
+
+.sv-text-portlet table.sv-standard {
+    width: 101%;
+    border-collapse: collapse; }
+.sv-text-portlet table.sv-standard th {
+    padding: 10px 10px 11px;
+    border-right: 1px solid white;
+    border-right: 1px solid rgba(255, 255, 255, 0.25);
+    background-color: #E83C23;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    text-align: left;
+    background-color: #e83c23;
+    border-bottom: solid 2px rgba(255, 255, 255, 0.25);
+    padding-left: 6px;
+    font-family: "leaguespartan webfont", sans-serif;
+    color: #fff; }
+.sv-text-portlet table.sv-standard th p {
+    padding-left: 3px;
+    font-weight: 700;
+    font-family: 'Leaguespartan webfont', sans-serif;
+    font-size: 12px;
+    line-height: 1.2em;
+    color: #fff; }
+@media (min-width: 768px) {
+    .sv-text-portlet table.sv-standard th p {
+        font-size: 15px; } }
+.sv-text-portlet table.sv-standard th p a {
+    font-size: 12px;
+    color: #fff; }
+@media (min-width: 768px) {
+    .sv-text-portlet table.sv-standard th p a {
+        font-size: 15px; } }
+.sv-text-portlet table.sv-standard td {
+    padding: 8px 6px;
+    vertical-align: top;
+    padding: 8px 10px;
+    border-right: 1px solid #857672;
+    border-right: 1px solid rgba(133, 118, 114, 0.09); }
+.sv-text-portlet table.sv-standard td p {
+    font-size: 15px;
+    line-height: 1.2em; }
+@media (min-width: 768px) {
+    .sv-text-portlet table.sv-standard td p {
+        font-size: 19px; } }
+.sv-text-portlet table.sv-standard td p a {
+    font-size: 15px;
+    line-height: 1.2em;
+    text-decoration: underline;
+    color: #017cdb;
+    display: inline;
+    padding-right: 1px;
+    padding-bottom: 0px;
+    padding-left: 1px;
+    background-color: transparent; }
+@media (min-width: 768px) {
+    .sv-text-portlet table.sv-standard td p a {
+        font-size: 19px; } }
+.sv-text-portlet table.sv-standard td p a:visited {
+    color: #6b0771; }
+.sv-text-portlet table.sv-standard td p a:hover {
+    line-height: 1.2em;
+    color: #0b4a89; }
+.sv-text-portlet table.sv-standard td p a:focus {
+    color: #890b0b;
+    background-color: #ddd; }
+.sv-text-portlet table.sv-standard td p a:active {
+    color: #890b0b;
+    background-color: #ddd; }
+.sv-text-portlet table.sv-standard caption {
+    display: table-caption !important;
+    margin-bottom: 15px;
+    font-weight: 800;
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: "leaguespartan webfont", sans-serif; }
+.sv-text-portlet table.sv-standard thead tr {
+    background-color: #e83c23; }
+.sv-text-portlet table.sv-standard tr td:first-child {
+    border-left: 1px solid #857672;
+    border-left: 1px solid rgba(133, 118, 114, 0); }
+
+.sv-table-portlet table {
+    width: 101%;
+    border-collapse: collapse; }
+
+.sv-table-portlet caption {
+    display: table-caption !important;
+    margin-bottom: 15px;
+    font-weight: 800;
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: "leaguespartan webfont", sans-serif; }
+
+.sv-table-portlet thead tr {
+    background-color: #e83c23; }
+
+.sv-table-portlet th {
+    padding: 10px 10px 11px;
+    border-right: 1px solid white;
+    border-right: 1px solid rgba(255, 255, 255, 0.25);
+    background-color: #E83C23;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25); }
+.sv-table-portlet th span.normal {
+    color: white;
+    font-family: 'Leaguespartan webfont', sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 800;
+    letter-spacing: 0.02em;
+    text-transform: none; }
+
+.sv-table-portlet td {
+    padding: 8px 10px;
+    border-right: 1px solid #857672;
+    border-right: 1px solid rgba(133, 118, 114, 0.09); }
+
+.sv-table-portlet tr td:first-child {
+    border-left: 1px solid #857672;
+    border-left: 1px solid rgba(133, 118, 114, 0); }
+
+.sv-table-portlet tbody tr {
+    border-bottom: 1px solid #857672;
+    border-bottom: 1px solid rgba(133, 118, 114, 0.15); }
+.sv-table-portlet tbody tr:nth-child(odd) {
+    background-color: white;
+    border-top: 1px solid rgba(133, 118, 114, 0.3); }
+.sv-table-portlet tbody tr:nth-child(even) {
+    border-bottom-color: #857672;
+    border-bottom-color: rgba(133, 118, 114, 0.2);
+    background-color: #f3f3f3; }
+
+.sv-text-portlet-content table.sv-standard th span.normal {
+    color: white;
+    font-family: 'Leaguespartan webfont', sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 800;
+    letter-spacing: 0.02em;
+    text-transform: none; }
+
+.sv-text-portlet-content table.sv-standard tbody tr {
+    border-bottom: 1px solid #857672;
+    border-bottom: 1px solid rgba(133, 118, 114, 0.15); }
+.sv-text-portlet-content table.sv-standard tbody tr:nth-child(odd) {
+    background-color: white;
+    border-top: 1px solid rgba(133, 118, 114, 0.3); }
+.sv-text-portlet-content table.sv-standard tbody tr:nth-child(even) {
+    border-bottom-color: #857672;
+    border-bottom-color: rgba(133, 118, 114, 0.2);
+    background-color: #f3f3f3; }
+
+.sv-responsiveTable--stacked__headRow th {
+    color: #fff;
+    line-height: 1.3em;
+    font-family: "leaguespartan webfont",sans-serif;
+    font-size: 12px;
+    padding-left: 3px;
+    padding-top: 2px; }
+
+.sv-text-portlet table.sv-standard .sv-responsiveTable--stacked__headRow {
+    background-color: #E83C23 !important;
+    color: #fff;
+    line-height: 1.3em;
+    font-family: "leaguespartan webfont", sans-serif;
+    font-size: 12px;
+    padding-left: 3px;
+    padding-top: 2px; }
+
+.sv-responsiveTable--stacked__headRow--main {
+    background-color: #E83C23 !important; }
+
+.or-article-main .sv-responsiveTable--stacked__headRow th p {
+    color: #fff;
+    font-family: "leaguespartan webfont", sans-serif;
+    font-size: 14px;
+    padding: 5px 5px 5px 8px; }
+
+.or-article-main .sv-responsiveTable--stacked__headRow p {
+    color: #fff !important;
+    font-family: "leaguespartan webfont", sans-serif !important;
+    font-size: 14px;
+    padding: 5px 5px 5px 8px; }
