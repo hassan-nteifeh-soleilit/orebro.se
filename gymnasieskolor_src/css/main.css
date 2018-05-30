@@ -1,8 +1,1 @@
-@import "./legacy/base";
-@import './legacy/modules';
-@import './legacy/mobilmeny';
-@import './legacy/1280';
-@import './legacy/960';
-@import './legacy/768';
-@import './legacy/480';
-@import './legacy/320';
+@import "../css/main.css";

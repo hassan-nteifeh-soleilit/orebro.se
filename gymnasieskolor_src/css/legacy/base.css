@@ -2651,7 +2651,7 @@ ol {
 	margin-left: 0px;
 	padding-top: 9px;
 	padding-bottom: 9px;
-	border-bottom-color: #000;
+	border-bottom-color: #000);
 	background-color: rgb(63, 65, 69);
 }
 
@@ -4954,6 +4954,14 @@ body .mm-menu.mm-vertical .mm-list li.mm-opened > a, body .mm-menu.mm-vertical .
 	background-color: transparent;
 }
 
+.mm-menu.mm-vertical .mm-list > li.mm-selected >
+a
+
+(
+.mm-subopen
+
+)
+,
 .mm-menu.mm-vertical .mm-list > li.mm-selected > a.mm-subopen a:hover {
 	background: #0098db;
 	color: red;
@@ -5275,13 +5283,30 @@ form#or-search-form::after {
 	font-size: 25px;
 	color: #FFF;
 	right: 26px;
-	bottom: 26px; 22
-vertical-align: inherit;
-position: absolute;
-width:  20px  ;
-height: 24px;
+	bottom: 26px; /*22*/
+vertical-align: inherit
+
+;
+position: absolute
+
+;
+width:
+
+20
+px
+
+;
+height:
+
+24
+px
+
+;
 }
-*/
+
+*
+
+/
 /* Sökträffar */
 .sol-sok-ruta ol.sv-search-result li.sv-search-hit {
 	margin-bottom: 20px;
@@ -6712,7 +6737,8 @@ div.or-synpunkt-action .or-action-content span:after {
 
 .or-puff-text-icon-lanklista .or-puff-img {
 	width: 100% !important;
-	height: 205px !important;
+	height: 205px;
+!important;
 	overflow: hidden;
 	/*background-color: #fef7b2;*/
 	padding-top: 40px;
@@ -6807,7 +6833,8 @@ div.or-synpunkt-action .or-action-content span:after {
 .or-puff-bild-text > div:nth-child(1) {
 	float: left;
 	width: 100% !important;
-	height: 205px !important;
+	height: 205px;
+!important;
 	overflow: hidden;
 }
 
@@ -7654,7 +7681,7 @@ label.or-fieldlabelhelpus {
 }
 
 .or-social-link-facebook .normal a.or-social-content-links:active, .or-social-link-facebook .normal a.or-social-content-links:focus {
-	color: #890b0b;
+	color: #color: 890 b0b;
 	background-color: #ddd;
 }
 
