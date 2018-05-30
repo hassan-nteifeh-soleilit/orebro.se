@@ -21,14 +21,14 @@
     color: #FFF;
     font-size: 11px;
     text-align: center;
-    box-shadow: 0 -14px 0 -11px rgba(174, 222, 239, 0.65) inset;
+    box-shadow: 0 -14px 0 -11px rgba(174,222,239,0.65) inset;
 }
 
 .cookieAlert .normal a:link {
     color: #FFF;
     font-size: 12px;
     text-align: center;
-    box-shadow: 0 -14px 0 -11px rgba(174, 222, 239, 0.65) inset;
+    box-shadow: 0 -14px 0 -11px rgba(174,222,239,0.65) inset;
 }
 
 #cookieClose {
@@ -42,7 +42,7 @@
     border-radius: 1px;
     font-weight: 700;
     border-bottom: 3px solid #C8C5C5;
-    box-shadow: 0 -16px 0 -11px rgba(174, 222, 239, 0) inset;
+    box-shadow: 0 -16px 0 -11px rgba(174,222,239,0) inset;
     font-size: 11px;
     text-align: center;
 }
@@ -56,7 +56,7 @@
 }
 
 .or-divider-dotted p.normal {
-    font-family: "leaguespartan webfont", sans-serif;
+    font-family: "leaguespartan webfont",sans-serif;
     font-size: 13px;
     font-weight: 700;
     text-align: center;
@@ -85,7 +85,7 @@ form.or-search-field input {
     border-style: solid;
     border-width: 1px;
     border-color: #857672;
-    border-color: rgba(133, 118, 114, 0.2);
+    border-color: rgba(133,118,114,0.2);
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
     border-radius: 2px;
@@ -97,7 +97,7 @@ form.or-search-field input {
     -webkit-appearance: none;
     -moz-appearance: none;
     letter-spacing: .01em;
-    font-family: "open sans", sans-serif;
+    font-family: "open sans",sans-serif;
 }
 
 form.or-search-field button {
@@ -133,7 +133,7 @@ form.or-search-field button:hover {
     left: 15px;
 }
 
-.or-search-button-wrapper .fa-search, #or-id-search-icon {
+.or-search-button-wrapper .fa-search,#or-id-search-icon {
     font-size: 35px;
     color: #fff;
 }
@@ -209,7 +209,7 @@ form.or-search-field button:hover {
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
     background-color: #e83c23;
-    font-family: futura-pt, sans-serif;
+    font-family: futura-pt,sans-serif;
     color: #fff;
     font-size: 13px;
     font-weight: 600;
@@ -223,7 +223,7 @@ form.or-search-field button:hover {
     width: 90%;
     margin: 1px auto;
     float: none;
-    font-family: futura-pt, sans-serif;
+    font-family: futura-pt,sans-serif;
     font-size: 17px;
     line-height: 19px;
     font-weight: 700;
@@ -239,7 +239,7 @@ form.or-search-field button:hover {
     padding-top: 3px;
     float: none;
     border-top: 1px dotted #857672;
-    border-top: 1px dotted rgba(133, 118, 114, 0.2);
+    border-top: 1px dotted rgba(133,118,114,0.2);
     font-size: 11px;
     line-height: 11px;
     text-align: center;
@@ -262,7 +262,7 @@ form.or-search-field button:hover {
     line-height: 20px;
 }
 
-.or-facts-column-two p.normal, .or-facts-column-one p.normal {
+.or-facts-column-two p.normal,.or-facts-column-one p.normal {
     margin: auto;
 }
 
@@ -292,7 +292,7 @@ form.or-search-field button:hover {
 .or-calender-list-type {
     margin-top: 5px;
     padding-top: 7px;
-    border-top: 2px dotted rgba(133, 118, 114, 0.2);
+    border-top: 2px dotted rgba(133,118,114,0.2);
 }
 
 .or-calender-list-type-text {
@@ -310,7 +310,7 @@ form.or-search-field button:hover {
     text-align: left;
     min-height: 140px;
     padding: 10px 15px;
-    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.04);
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.04);
     color: #35383b;
     background-color: white;
     width: 100%;
@@ -371,10 +371,10 @@ form.or-search-field button:hover {
     min-height: 43px;
     padding-top: 11px;
     float: left;
-    border-right: 1px solid rgba(133, 118, 114, 0.1);
-    border-bottom: 1px solid rgba(133, 118, 114, 0.1);
+    border-right: 1px solid rgba(133,118,114,0.1);
+    border-bottom: 1px solid rgba(133,118,114,0.1);
     background-color: transparent;
-    font-family: futura-pt, sans-serif;
+    font-family: futura-pt,sans-serif;
     font-size: 15px;
     text-align: center;
     box-sizing: border-box;
@@ -384,14 +384,14 @@ form.or-search-field button:hover {
 
 /* Kalender veckonummer kolumn*/
 .or-calendar-columns.or-week-column {
-    border-right-color: rgba(255, 255, 255, 0.34);
-    border-bottom-color: rgba(255, 255, 255, 0.34);
+    border-right-color: rgba(255,255,255,0.34);
+    border-bottom-color: rgba(255,255,255,0.34);
     background-color: #e83c23;
     color: #fff;
 }
 
 .or-week-text:hover {
-    background-color: rgba(255, 255, 255, 0.78);
+    background-color: rgba(255,255,255,0.78);
     color: #e83c23;
 }
 
@@ -430,7 +430,7 @@ form.or-search-field button:hover {
 
 /* Kalender dagnummer kolumn*/
 .or-calendar-columns.or-day-columns {
-    border-right-color: rgba(255, 255, 255, 0.34);
+    border-right-color: rgba(255,255,255,0.34);
 }
 
 .or-calendar-text {
@@ -454,7 +454,7 @@ form.or-search-field button:hover {
 }
 
 /* Dagens datum */
-.or-calendar-text-active, .or-calendar-text-active-event {
+.or-calendar-text-active,.or-calendar-text-active-event {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -492,14 +492,14 @@ form.or-search-field button:hover {
     margin-top: -13px;
     margin-left: -13px;
     border-radius: 13px;
-    background-color: rgba(133, 118, 114, 0.65);
+    background-color: rgba(133,118,114,0.65);
     -webkit-transition: all 300ms ease;
     -moz-transition: all 300ms ease;
     -o-transition: all 300ms ease;
     transition: all 300ms ease;
 }
 
-.or-calendar-text-event a, .or-calendar-text-active-event a {
+.or-calendar-text-event a,.or-calendar-text-active-event a {
     color: #fff;
     font-size: 14px;
     line-height: 26px;
@@ -512,17 +512,17 @@ form.or-search-field button:hover {
     color: #fff;
 }
 
-.or-month-text, .or-month-text a {
+.or-month-text,.or-month-text a {
     margin-right: 6px;
     margin-left: 6px;
     color: #857672;
 }
 
-.or-month-text, .or-month-text a {
+.or-month-text,.or-month-text a {
     display: inline-block;
     margin-right: 14px;
     margin-left: 8px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans',sans-serif;
     font-size: 16px;
     letter-spacing: .06em;
     text-transform: uppercase;
@@ -544,7 +544,7 @@ or-action-link {
     -moz-border-radius: 1px;
     -webkit-border-radius: 1px;
     background-color: #FFF;
-    border-color: rgba(133, 118, 114, 0.4);
+    border-color: rgba(133,118,114,0.4);
     border-style: solid;
     border-width: 1px;
     margin-bottom: 20px;
@@ -623,7 +623,7 @@ or-action-link {
     margin-left: 2%;
     margin-right: 2%;
     margin-bottom: 30px;
-    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 0 3px 1px rgba(0,0,0,0.06);
 }
 
 body .or-wrapper-click.or-puff-bild-text:hover p {
@@ -681,7 +681,7 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3 {
 
 .or-teaser-box .or-title span {
     color: #fff;
-    font-family: "leaguespartan webfont", sans-serif;
+    font-family: "leaguespartan webfont",sans-serif;
     font-size: 11px;
     text-transform: uppercase;
     letter-spacing: .06em;
@@ -738,7 +738,7 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3 {
 }
 
 .or-teaser-box.or-related-documents .or-text-content .or-teaser-list li:hover .or-link-name {
-    color: #0b4a89
+    color:#0b4a89
 }
 
 ul.or-teaser-list {
@@ -788,12 +788,12 @@ ul.or-teaser-list {
     display: block;
 }
 
-.or-file-icon {
+.or-file-icon{
     width: 24px;
     height: 24px;
 }
 
-body img.or-file-icon {
+body img.or-file-icon{
     width: 24px;
     height: 24px;
 }
@@ -801,7 +801,7 @@ body img.or-file-icon {
 .or-teaser-box .or-file-size {
     font-size: 10px;
     font-weight: 300;
-    font-family: "open sans", sans-serif;
+    font-family: "open sans",sans-serif;
     display: block;
     float: left;
     clear: both;
@@ -872,7 +872,7 @@ body img.or-file-icon {
     color: #35383B;
     display: inline-block;
     float: left;
-    font-family: "leaguespartan webfont", sans-serif;
+    font-family: "leaguespartan webfont",sans-serif;
     font-size: 12px;
     letter-spacing: .08em;
     margin-bottom: 4px;
@@ -900,7 +900,7 @@ body .or-update-date {
     -o-transition: all 500ms ease;
     transition: all 500ms ease;
     background-color: #857672;
-    border-bottom-color: rgba(255, 255, 255, 0.09);
+    border-bottom-color: rgba(255,255,255,0.09);
     border-bottom-style: solid;
     color: #FFF;
     display: inline-block;
@@ -924,9 +924,9 @@ body .or-update-date {
     -o-transition: all 500ms ease;
     transition: all 500ms ease;
     background-color: #857672;
-    border-bottom-color: rgba(255, 255, 255, 0.09);
+    border-bottom-color: rgba(255,255,255,0.09);
     border-bottom-style: solid;
-    color: #fff !important;
+    color: #fff!important;
     display: inline-block;
     float: none;
     font-weight: 600;
@@ -938,6 +938,7 @@ body .or-update-date {
     margin-top: 8px;
     font-size: 12px;
 }
+
 
 .or-thumbup.thumbdown.selected {
     background-color: #e83c23;
@@ -958,12 +959,12 @@ body .or-update-date {
     background-position: 100% -26px;
 }
 
-.or-thumbup.or-thumbup:hover, .or-thumbup.selected {
+.or-thumbup.or-thumbup:hover,.or-thumbup.selected {
     background-color: green;
     background-position: 100% -26px;
 }
 
-.or-thumbup.disabled, .or-thumbup.selected {
+.or-thumbup.disabled,.or-thumbup.selected {
     pointer-events: none;
 }
 
@@ -985,7 +986,7 @@ body .or-update-date {
 }
 
 .or-helpustext a:link {
-    box-shadow: 0 -16px 0 -11px rgba(174, 222, 239, 0.65) inset;
+    box-shadow: 0 -16px 0 -11px rgba(174,222,239,0.65) inset;
     font-size: 13px;
     line-height: 21px;
     -webkit-transition: all 500ms ease;
@@ -995,7 +996,7 @@ body .or-update-date {
 }
 
 .or-helpustext a:link:hover {
-    box-shadow: 0 -48px 0 -30px rgba(174, 222, 239, 0.65) inset;
+    box-shadow: 0 -48px 0 -30px rgba(174,222,239,0.65) inset;
 }
 
 #id-or-email-form {
@@ -1008,13 +1009,12 @@ body .or-update-date {
     background-color: #FFF;
     position: relative;
 }
-
 #or-form__text-area__error-msg {
     display: none;
     color: #e83c23;
 }
 
-.or-helpus, .or-helpyes {
+.or-helpus,.or-helpyes {
     background-color: #FFF;
     padding: 20px 25px 25px 0;
 }
@@ -1034,7 +1034,7 @@ label.or-fieldlabelhelpus {
     background-color: #FFF;
     border: 1px solid #DEDADA;
     color: #454545;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans",sans-serif;
     font-size: 17px;
     font-weight: 400;
     line-height: 1.42857;
@@ -1045,8 +1045,8 @@ label.or-fieldlabelhelpus {
     width: 100%;
 }
 
-.or-helpusinput input, .or-helpusinput textarea input[type=text] {
-    box-shadow: 0 0 0 rgba(0, 0, 0, 0.1) inset;
+.or-helpusinput input,.or-helpusinput textarea input[type=text] {
+    box-shadow: 0 0 0 rgba(0,0,0,0.1) inset;
     transition: border .2s linear 0 box-shadow .2s linear 0;
     color: #454545;
 }
@@ -1069,7 +1069,7 @@ label.or-fieldlabelhelpus {
     line-height: 46px;
 }
 
-.or-forms input, .or-forms textarea {
+.or-forms input,.or-forms textarea {
     background-color: #fff;
     border: 1px solid #ccc;
     color: #454545;
@@ -1115,7 +1115,7 @@ label.or-fieldlabelhelpus {
     -moz-transition: all 300ms ease;
     -o-transition: all 300ms ease;
     transition: all 300ms ease;
-    font-family: "leaguespartan webfont", sans-serif;
+    font-family: "leaguespartan webfont",sans-serif;
     letter-spacing: .02em;
     -webkit-appearance: none;
 }
@@ -1208,7 +1208,7 @@ span.sol-hit-count {
     width: auto !important;
     display: inline !important;
     float: none;
-    text-decoration: underline;
+    text-decoration:underline;
     word-wrap: break-word;
 }
 
@@ -1261,7 +1261,7 @@ body .sol-search-hits .sol-doc-size p {
     float: left;
     clear: both;
     padding-bottom: 10px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans',sans-serif;
     color: #000;
     font-size: 14px;
     line-height: 24px;
@@ -1305,7 +1305,7 @@ body .sol-search-hits .sol-doc-size p {
     border-bottom-style: none;
     border-bottom-width: 0;
     background-color: #fff;
-    background-color: rgba(255, 255, 255, 0.90);
+    background-color: rgba(255,255,255,0.90);
 }
 
 .sol-facetter ul > li {
@@ -1414,15 +1414,13 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
     text-decoration: none;
     font-weight: 300;
     cursor: pointer;
-    box-shadow: rgba(255, 255, 255, 0) 0px -16px 0 -11px inset !important;
+    box-shadow: rgba(255,255,255,0)0px -16px 0 -11px inset !important;
 }
-
 .sol-facetter ul > li > span > a {
     text-decoration: underline;
 }
-
 .sol-facetter ul > li:hover > a {
-    box-shadow: 0 -20px 0 11px rgba(174, 222, 239, 0.65) inset;
+    box-shadow: 0 -20px 0 11px rgba(174,222,239,0.65) inset;
 }
 
 .sol-facetter .subheading3 {
@@ -1513,11 +1511,11 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
     text-transform: uppercase;
     font-size: 13px;
     padding: 9px 12px;
-    box-shadow: rgba(174, 222, 239, 0.0) 0px -16px 0 -11px inset;
+    box-shadow: rgba(174,222,239,0.0)0px -16px 0 -11px inset;
     border-radius: 40px;
     -moz-border-radius: 40px;
     -webkit-border-radius: 40px;
-    border: 2px solid rgba(133, 118, 114, 0.24);
+    border: 2px solid rgba(133,118,114,0.24);
 }
 
 #or-paging-id a:hover {
@@ -1552,7 +1550,7 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
 .or-total-link a {
     background-color: #fff;
     padding: 5px;
-    box-shadow: 0 -16px 0 -12px rgba(174, 222, 239, 0.65) inset;
+    box-shadow: 0 -16px 0 -12px rgba(174,222,239,0.65) inset;
     -webkit-transition: all 100ms ease;
     -moz-transition: all 100ms ease;
     -o-transition: all 100ms ease;
@@ -1560,7 +1558,7 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
 }
 
 .or-total-link a:hover {
-    box-shadow: 0 -36px 0 -12px rgba(174, 222, 239, 0.65) inset;
+    box-shadow: 0 -36px 0 -12px rgba(174,222,239,0.65) inset;
 }
 
 .or-total-link {
@@ -1571,45 +1569,37 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
     background-color: #fff;
     padding: 10px;
 }
-
 .or-totalsearch-result {
     font-size: 12px;
 }
-
 .or-totalsearch-result__title {
     font-weight: bold;
 }
-
 .or-totalsearch-result__link a {
     color: #017cdb;
     text-decoration: underline;
 }
-
 .or-totalsearch-result__link a:visited {
     color: #6b0771;
 }
-
 .or-totalsearch-result__link a:hover {
     color: #0b4a89;
 }
-
 .or-totalsearch-result__link a:active {
     color: #890b0b;
     background-color: #ddd;
 }
-
 /* Sök med totalsök */
 .or-twin-search #or-search-form {
     margin-left: 0;
 }
-
 .or-twin-search > div:last-child {
     margin-top: 80px;
 }
-
 .or-twin-search .or-did-you-mean {
     margin-left: -24px;
 }
+
 
 /* footer */
 footer {
@@ -1641,13 +1631,13 @@ footer {
 
 .or-footer-links .normal a:link {
     font-size: 14px;
-    box-shadow: rgba(174, 222, 239, 0.65) 0px -15px 0 -11px inset;
+    box-shadow: rgba(174,222,239,0.65)0px -15px 0 -11px inset;
     margin-right: 25px;
 }
 
 .or-footer-links .normal a:link:hover {
     font-size: 14px;
-    box-shadow: rgba(174, 222, 239, 0.65) 0px -28px 0 -11px inset;
+    box-shadow: rgba(174,222,239,0.65)0px -28px 0 -11px inset;
     margin-right: 25px;
 }
 
@@ -1665,7 +1655,7 @@ footer {
     padding: 10px 30px 19px;
 }
 
-.or-grid-12-col.sv-fluid-grid, .or-grid-12-col.sv-fixed-fluid-grid {
+.or-grid-12-col.sv-fluid-grid,.or-grid-12-col.sv-fixed-fluid-grid {
     max-width: 1350px;
     width: auto;
 }
@@ -1678,7 +1668,7 @@ footer {
 }
 
 .or-folj-oss {
-    font-family: "leaguespartan webfont", sans-serif;
+    font-family: "leaguespartan webfont",sans-serif;
     display: inline-block;
     float: left;
     margin-left: 10px;
@@ -1703,14 +1693,14 @@ footer {
 }
 
 .or-adress-and-links strong {
-    font-family: "leaguespartan webfont", sans-serif;
+    font-family: "leaguespartan webfont",sans-serif;
     font-size: 15px;
     margin-top: 10px;
     display: inline-block;
 }
 
 .or-footer-adress strong {
-    font-family: "leaguespartan webfont", sans-serif;
+    font-family: "leaguespartan webfont",sans-serif;
     font-size: 15px;
     margin-top: 10px;
     display: inline-block;
@@ -1722,9 +1712,9 @@ footer {
 }
 
 .or-footer-icon-links a {
-    font-family: "leaguespartan webfont", sans-serif;
+    font-family: "leaguespartan webfont",sans-serif;
     color: #35383b;
-    text-decoration: underline;
+    text-decoration:underline;
     margin-right: 50px;
     font-size: 12px;
     display: inline-block;
@@ -1783,9 +1773,9 @@ footer {
     position: fixed;
     display: none;
     border: 1px solid #fff;
-    box-shadow: 0 2px 7px rgba(41, 41, 41, 0.2);
-    -moz-box-shadow: 0 2px 7px rgba(41, 41, 41, 0.2);
-    -webkit-box-shadow: 0 2px 7px rgba(41, 41, 41, 0.2);
+    box-shadow: 0 2px 7px rgba(41,41,41,0.2);
+    -moz-box-shadow: 0 2px 7px rgba(41,41,41,0.2);
+    -webkit-box-shadow: 0 2px 7px rgba(41,41,41,0.2);
     border-radius: 6px;
     -moz-border-radius: 6px;
     -webkit-border-radius: 6px;
@@ -1806,7 +1796,7 @@ footer {
     background-color: #e83c23;
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
-    box-shadow: 3px 0 6px -3px rgba(0, 0, 0, 0.4) inset;
+    box-shadow: 3px 0 6px -3px rgba(0,0,0,0.4) inset;
     text-align: center;
     color: #fff;
 }
@@ -1851,11 +1841,11 @@ footer {
     margin-top: 0;
 }
 
-.or-backdrop, .or-menu-backdrop {
+.or-backdrop,.or-menu-backdrop {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0,0,0,0.6);
     height: 100%;
     width: 100%;
     z-index: 10;
@@ -1868,7 +1858,7 @@ footer {
 
 /* Temporär info ruta */
 .or-tir {
-    border: 2px solid rgba(242, 140, 0, 0.19);
+    border: 2px solid rgba(242,140,0,0.19);
     background-color: #fefdee;
     border-radius: 4px;
     -moz-border-radius: 4px;
@@ -1884,7 +1874,7 @@ body .pagecontent .or-tir h2 {
     font-size: 17px;
 }
 
-body .or-content-container .or-tir p, body .or-content-container .or-tir p a:link {
+body .or-content-container .or-tir p,body .or-content-container .or-tir p a:link {
     font-size: 16px;
 }
 
@@ -1919,7 +1909,7 @@ body .or-content-container .or-tir p, body .or-content-container .or-tir p a:lin
 }
 
 .or-ny-action .or-action-text {
-    font-family: "leaguespartan webfont", sans-serif;
+    font-family: "leaguespartan webfont",sans-serif;
     font-style: normal;
     font-size: 13px;
     color: #35383b;
@@ -1938,7 +1928,7 @@ body .or-content-container .or-tir p, body .or-content-container .or-tir p a:lin
 }
 
 .or-ny-action .normal .or-action-text a:link {
-    font-family: "leaguespartan webfont", sans-serif;
+    font-family: "leaguespartan webfont",sans-serif;
     font-style: normal;
     color: #35383B;
     text-decoration: none;
@@ -1950,7 +1940,7 @@ body .or-content-container .or-tir p, body .or-content-container .or-tir p a:lin
 }
 
 .or-ny-action .normal .or-action-text a {
-    font-family: "leaguespartan webfont", sans-serif;
+    font-family: "leaguespartan webfont",sans-serif;
     font-style: normal;
     color: #35383B;
     text-decoration: none;
@@ -1962,7 +1952,7 @@ body .or-content-container .or-tir p, body .or-content-container .or-tir p a:lin
 }
 
 .or-new-action-text a:link {
-    font-family: "leaguespartan webfont", sans-serif;
+    font-family: "leaguespartan webfont",sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 13px;
@@ -2043,11 +2033,11 @@ body .or-content-container .or-tir p, body .or-content-container .or-tir p a:lin
 }
 
 /* action formatmall */
-.sv-font-action-penna, .sv-font-action-pil, .sv-font-action-karta, .sv-font-action-facebook, .sv-font-action-twitter, .sv-font-action-instagram {
+.sv-font-action-penna,.sv-font-action-pil,.sv-font-action-karta,.sv-font-action-facebook,.sv-font-action-twitter,.sv-font-action-instagram {
     background-color: #fff;
     width: 100%;
     display: inline-block;
-    font-family: "leaguespartan webfont", sans-serif;
+    font-family: "leaguespartan webfont",sans-serif;
     font-style: normal;
     color: #35383B;
     position: relative;
@@ -2071,29 +2061,29 @@ body .or-content-container .or-tir p, body .or-content-container .or-tir p a:lin
     font-size: 12px;
 }
 
-.sv-font-action-penna .sv-linkicon, .sv-font-action-pil .sv-linkicon, .sv-font-action-karta .sv-linkicon, .sv-font-action-facebook .sv-linkicon, .sv-font-action-twitter .sv-linkicon, .sv-font-action-instagram .sv-linkicon {
+.sv-font-action-penna .sv-linkicon,.sv-font-action-pil .sv-linkicon,.sv-font-action-karta .sv-linkicon,.sv-font-action-facebook .sv-linkicon,.sv-font-action-twitter .sv-linkicon,.sv-font-action-instagram .sv-linkicon {
     padding-left: 10px;
 }
 
-body .sv-font-action-penna.or-wrapper-click:hover, body .sv-font-action-pil.or-wrapper-click:hover, body .sv-font-action-karta.or-wrapper-click:hover, body .sv-font-action-facebook.or-wrapper-click:hover, body .sv-font-action-twitter.or-wrapper-click:hover, .sv-font-action-instagram.or-wrapper-click:hover {
+body .sv-font-action-penna.or-wrapper-click:hover,body .sv-font-action-pil.or-wrapper-click:hover,body .sv-font-action-karta.or-wrapper-click:hover,body .sv-font-action-facebook.or-wrapper-click:hover,body .sv-font-action-twitter.or-wrapper-click:hover,.sv-font-action-instagram.or-wrapper-click:hover {
     color: #E83C23;
     text-decoration: underline;
 }
 
-body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-font-action-karta a:link, body .sv-font-action-facebook a:link, body .sv-font-action-twitter a:link, body .sv-font-action-instagram a:link {
+body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-action-karta a:link,body .sv-font-action-facebook a:link,body .sv-font-action-twitter a:link,body .sv-font-action-instagram a:link {
     text-decoration: none;
-    font-family: "leaguespartan webfont", sans-serif;
+    font-family: "leaguespartan webfont",sans-serif;
     font-size: 13px;
     line-height: 1em;
-    box-shadow: rgba(255, 255, 255, 0.0) 0 0 0 0 inset !important;
+    box-shadow: rgba(255,255,255,0.0)0 0 0 0 inset !important;
 }
 
-.sv-font-action-penna:hover a, .sv-font-action-pil:hover a, .sv-font-action-karta:hover a, .sv-font-action-facebook:hover a, .sv-font-action-twitter:hover a, .sv-font-action-instagram:hover a {
+.sv-font-action-penna:hover a,.sv-font-action-pil:hover a,.sv-font-action-karta:hover a,.sv-font-action-facebook:hover a,.sv-font-action-twitter:hover a,.sv-font-action-instagram:hover a {
     color: #E83C23;
     text-decoration: underline;
 }
 
-.sv-font-action-penna:before, .sv-font-action-pil:before, .sv-font-action-karta:before, .sv-font-action-facebook:before, .sv-font-action-twitter:before, .sv-font-action-instagram:before {
+.sv-font-action-penna:before,.sv-font-action-pil:before,.sv-font-action-karta:before,.sv-font-action-facebook:before,.sv-font-action-twitter:before,.sv-font-action-instagram:before {
     background-color: #E83C23;
     color: #fff;
     width: 45px;
@@ -2130,7 +2120,7 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
     content: "\f16d";
 }
 
-.sv-font-action-penna:after, .sv-font-action-pil:after, .sv-font-action-karta:after, .sv-font-action-facebook:after, .sv-font-action-twitter:after, .sv-font-action-instagram:after {
+.sv-font-action-penna:after,.sv-font-action-pil:after,.sv-font-action-karta:after,.sv-font-action-facebook:after,.sv-font-action-twitter:after,.sv-font-action-instagram:after {
     content: "\f054";
     color: #35383B;
     width: 41px;
@@ -2178,7 +2168,7 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
     -moz-box-sizing: border-box;
 }
 
-.or-plus-box-content h2:first-child, .or-plus-box-content h3:first-child, .or-plus-box-content h4:first-child {
+.or-plus-box-content h2:first-child,.or-plus-box-content h3:first-child,.or-plus-box-content h4:first-child {
     margin-top: 0;
 }
 
@@ -2322,15 +2312,12 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
     margin-left: -12px;
     padding-left: 12px;
 }
-
 .or-plusbox-kontakter .or-icon-plus {
     background-color: #fff;
 }
-
 .or-plusbox-kontakter .or-icon-plus:before {
     color: #E83C23;
 }
-
 .or-plusbox-kontakter .or-collapse-button {
     background-color: #fff;
     margin-top: 2px;
@@ -2338,17 +2325,14 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
     height: calc(100% - 4px);
     width: 43px;
 }
-
 .or-plusbox-kontakter i.fa {
     color: #E83C23;
     font-size: 1.3em;
     margin-right: 0.2em;
 }
-
 .or-colorborder.or-wrapper-click.or-plus-box-header.or-plus-box-active .or-plusbox-kontakter .plusboxxrubrik {
     color: #E83C23;
 }
-
 .or-colorborder.or-wrapper-click.or-plus-box-header.or-plus-box-active .or-plusbox-kontakter .or-icon-area {
 }
 
@@ -2372,7 +2356,7 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
 
 /* Kontakt och tyck till */
 .or-element-kontaktpersoner__item-info a,
-a.kontaktaxossxxxbrodtext, .kontaktaxossxxxbrodtext a, a.kontaktaxossxxxbrodtext:link, .kontaktaxossxxxbrodtext a:link, a.kontaktaxossxxxbrodtext:visited, .kontaktaxossxxxbrodtext a:visited, a.kontaktaxossxxxbrodtext:active, .kontaktaxossxxxbrodtext a:active {
+a.kontaktaxossxxxbrodtext,.kontaktaxossxxxbrodtext a,a.kontaktaxossxxxbrodtext:link,.kontaktaxossxxxbrodtext a:link,a.kontaktaxossxxxbrodtext:visited,.kontaktaxossxxxbrodtext a:visited,a.kontaktaxossxxxbrodtext:active,.kontaktaxossxxxbrodtext a:active {
     color: #017cdb;
     text-decoration: underline;
     line-height: normal;
@@ -2380,28 +2364,28 @@ a.kontaktaxossxxxbrodtext, .kontaktaxossxxxbrodtext a, a.kontaktaxossxxxbrodtext
 }
 
 .or-element-kontaktpersoner__item-info a:visited,
-body a.kontaktaxossxxxbrodtext:visited, body .kontaktaxossxxxbrodtext a:visited {
+body a.kontaktaxossxxxbrodtext:visited,body .kontaktaxossxxxbrodtext a:visited {
     color: #6b0771;
 }
 
 .or-element-kontaktpersoner__item-info a:hover,
-body a.kontaktaxossxxxbrodtext:hover, body .kontaktaxossxxxbrodtext a:hover {
-    color: #0b4a89;
+body a.kontaktaxossxxxbrodtext:hover,body .kontaktaxossxxxbrodtext a:hover {
+    color:#0b4a89;
 }
 
 .or-element-kontaktpersoner__item-info a:focus,
-body a.kontaktaxossxxxbrodtext:focus, body .kontaktaxossxxxbrodtext a:focus {
-    color: #890b0b;
-    background-color: #ddd;
+body a.kontaktaxossxxxbrodtext:focus,body .kontaktaxossxxxbrodtext a:focus {
+    color:#890b0b;
+    background-color:#ddd;
 }
 
-.or-sok-person-action > div, .or-felanmalan-action > div, .or-synpunkter-action > div {
+.or-sok-person-action > div,.or-felanmalan-action > div,.or-synpunkter-action > div {
     float: none !important;
     max-width: 400px;
     width: inherit;
 }
 
-.or-sok-person-action .or-wrapper-click, .or-synpunkter-action .or-wrapper-click, .or-felanmalan-action .or-wrapper-click {
+.or-sok-person-action .or-wrapper-click,.or-synpunkter-action .or-wrapper-click,.or-felanmalan-action .or-wrapper-click {
     margin-bottom: 2px;
     margin-top: 15px;
     margin-left: -1px;
@@ -2412,7 +2396,7 @@ body a.kontaktaxossxxxbrodtext:focus, body .kontaktaxossxxxbrodtext a:focus {
 }
 
 .or-synpunkter-action span.fa:after {
-    border-color: rgba(136, 183, 213, 0) rgba(136, 183, 213, 0) rgba(136, 183, 213, 0) #F4A63B;
+    border-color: rgba(136,183,213,0) rgba(136,183,213,0) rgba(136,183,213,0) #F4A63B;
 }
 
 .or-sok-person-action span.fa {
@@ -2420,7 +2404,7 @@ body a.kontaktaxossxxxbrodtext:focus, body .kontaktaxossxxxbrodtext a:focus {
 }
 
 .or-sok-person-action span.fa:after {
-    border-color: rgba(128, 128, 128, 0) rgba(128, 128, 128, 0) rgba(128, 128, 128, 0) gray;
+    border-color: rgba(128,128,128,0) rgba(128,128,128,0) rgba(128,128,128,0) gray;
 }
 
 .or-element-kontaktpersoner__item,
@@ -2440,7 +2424,6 @@ ul > li.kontaktaxossxxxbrodtext:last-child {
 .or-element-kontaktpersoner__item-info__label {
     font-weight: bold;
 }
-
 /* Fler nyheter länk */
 .or-more-news {
     background-color: #fff;
@@ -2463,7 +2446,7 @@ ul > li.kontaktaxossxxxbrodtext:last-child {
 
 .or-more-news p.normal a {
     font-size: 11px;
-    font-family: "leaguespartan webfont", sans-serif;
+    font-family: "leaguespartan webfont",sans-serif;
 }
 
 .or-more-news p.normal {
@@ -2471,7 +2454,7 @@ ul > li.kontaktaxossxxxbrodtext:last-child {
 }
 
 /* formulär */
-.sv-defaultFormTheme {
+.sv-defaultFormTheme{
     background-color: rgba(177, 177, 176, 0.17);
     padding: 5px 15px;
     border-radius: 3px;
@@ -2480,11 +2463,11 @@ ul > li.kontaktaxossxxxbrodtext:last-child {
     margin-bottom: 15px;
 }
 
-.sv-formFieldRow, .sv-formField {
+.sv-formFieldRow,.sv-formField {
     margin-top: 20px;
 }
 
-.sv-defaultFormTheme input[type=text], .sv-defaultFormTheme input[type=email], .sv-defaultFormTheme input[type=url], .sv-defaultFormTheme input[type=tel], .sv-defaultFormTheme input[type=number], .sv-defaultFormTheme textarea, .sv-defaultFormTheme select {
+.sv-defaultFormTheme input[type=text],.sv-defaultFormTheme input[type=email],.sv-defaultFormTheme input[type=url],.sv-defaultFormTheme input[type=tel],.sv-defaultFormTheme input[type=number],.sv-defaultFormTheme textarea,.sv-defaultFormTheme select {
     display: block;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -2500,17 +2483,17 @@ ul > li.kontaktaxossxxxbrodtext:last-child {
     border-radius: 2px;
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
-    box-shadow: inset 0 0 0 rgba(0, 0, 0, .0);
-    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    box-shadow: inset 0 0 0 rgba(0,0,0,.0);
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
     font-size: 12px;
-    font-family: "open sans", sans-serif;
+    font-family: "open sans",sans-serif;
     font-size: 14px;
     font-weight: 400;
 }
 
 .sv-defaultFormTheme input[type=text] {
     font-size: 14px;
-    font-family: "open sans", sans-serif;
+    font-family: "open sans",sans-serif;
     font-weight: 400;
     margin-bottom: 7px;
     color: #454545;
@@ -2520,12 +2503,12 @@ ul > li.kontaktaxossxxxbrodtext:last-child {
     color: red;
 }
 
-.sv-defaultFormTheme input[type=text]:focus, textarea:focus {
-    box-shadow: 0 0 5px rgba(242, 140, 0, 0.2);
-    border: 1px solid rgba(242, 140, 0, 0.4);
+.sv-defaultFormTheme input[type=text]:focus,textarea:focus {
+    box-shadow: 0 0 5px rgba(242,140,0,0.2);
+    border: 1px solid rgba(242,140,0,0.4);
 }
 
-.sv-defaultFormTheme input[type=button], .sv-defaultFormTheme input[type=submit], .sv-defaultFormTheme input[type=reset] {
+.sv-defaultFormTheme input[type=button],.sv-defaultFormTheme input[type=submit],.sv-defaultFormTheme input[type=reset] {
     display: inline-block;
     padding: 8px 20px 6px;
     margin-bottom: 0;
@@ -2547,7 +2530,7 @@ ul > li.kontaktaxossxxxbrodtext:last-child {
     -webkit-border-radius: 2px;
     background-color: #35383B;
     border-color: transparent;
-    font-family: "leaguespartan webfont", sans-serif;
+    font-family: "leaguespartan webfont",sans-serif;
     font-weight: 700;
     font-size: 11px;
     letter-spacing: .1em;
@@ -2562,27 +2545,27 @@ ul > li.kontaktaxossxxxbrodtext:last-child {
     color: #fff;
 }
 
-.sv-defaultFormTheme input[type=button]:hover, .sv-defaultFormTheme input[type=submit]:hover, .sv-defaultFormTheme input[type=reset]:hover {
+.sv-defaultFormTheme input[type=button]:hover,.sv-defaultFormTheme input[type=submit]:hover,.sv-defaultFormTheme input[type=reset]:hover {
     color: #fff;
     background-color: #5E5E5E;
     border-color: #000;
 }
 
-.sv-defaultFormTheme .sv-field-title-container.sv-bold label, .sv-defaultFormTheme .sv-field-title-container.sv-bold span, .sv-defaultFormTheme .sv-field-title-container.sv-bold h1, .sv-defaultFormTheme .sv-field-title-container.sv-bold h2, .sv-defaultFormTheme .sv-field-title-container.sv-bold h3, .sv-defaultFormTheme .sv-field-title-container.sv-bold h4, .sv-defaultFormTheme .sv-field-title-container.sv-bold h5, .sv-defaultFormTheme .sv-field-title-container.sv-bold h6, .sv-form-userattributefield label {
+.sv-defaultFormTheme .sv-field-title-container.sv-bold label,.sv-defaultFormTheme .sv-field-title-container.sv-bold span,.sv-defaultFormTheme .sv-field-title-container.sv-bold h1,.sv-defaultFormTheme .sv-field-title-container.sv-bold h2,.sv-defaultFormTheme .sv-field-title-container.sv-bold h3,.sv-defaultFormTheme .sv-field-title-container.sv-bold h4,.sv-defaultFormTheme .sv-field-title-container.sv-bold h5,.sv-defaultFormTheme .sv-field-title-container.sv-bold h6,.sv-form-userattributefield label {
     font-size: 16px;
     margin-bottom: 3px;
     display: inline-block;
-    font-family: "leaguespartan webfont", sans-serif;
+    font-family: "leaguespartan webfont",sans-serif;
     margin-top: 10px;
     line-height: 1.3em;
 }
 
-.sv-formFieldRow, .sv-formField {
+.sv-formFieldRow,.sv-formField {
     margin-top: 2px;
     margin-bottom: 0;
 }
 
-.sv-defaultFormTheme .sv-form-singleselectionfield label, .sv-defaultFormTheme .sv-form-multipleselectionfield label, .sv-formFieldRow span {
+.sv-defaultFormTheme .sv-form-singleselectionfield label,.sv-defaultFormTheme .sv-form-multipleselectionfield label,.sv-formFieldRow span {
     font-size: 17px;
     font-weight: 400;
     position: relative;
@@ -2595,7 +2578,7 @@ ul > li.kontaktaxossxxxbrodtext:last-child {
     padding-bottom: 5px;
 }
 
-button, input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button {
+button,input[type="button" i],input[type="submit" i],input[type="reset" i],input[type="file" i]::-webkit-file-upload-button {
     align-items: flex-start;
     text-align: center;
     cursor: default;
@@ -2618,7 +2601,7 @@ input[type="file" i]::-webkit-file-upload-button {
     border-radius: 2px;
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
-    font-family: "leaguespartan webfont", sans-serif;
+    font-family: "leaguespartan webfont",sans-serif;
     color: #fff;
     font-size: 10px;
     text-transform: uppercase;
@@ -2680,7 +2663,7 @@ input[type="file" i]::-webkit-file-upload-button:hover {
     width: 26px;
     height: 26px;
     background: none;
-    border: 2px solid rgba(255, 255, 255, 0.6);
+    border: 2px solid rgba(255,255,255,0.6);
     font-weight: 400;
     outline: none;
     position: absolute;
@@ -2724,7 +2707,7 @@ input[type="file" i]::-webkit-file-upload-button:hover {
 
 .or-news-filter .or-plus-box-diskret-header.or-plus-box-active .or-collapse-button {
     background-color: #E83C23;
-    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    border-left: 1px solid rgba(255,255,255,0.3);
 }
 
 .or-news-filter .or-plus-box-diskret-content > ul {
@@ -2747,14 +2730,14 @@ input[type="file" i]::-webkit-file-upload-button:hover {
     font-size: 12px;
 }
 
-.or-category li, .or-daterange li {
+.or-category li,.or-daterange li {
     cursor: pointer;
     border-bottom: solid 1px #EEE;
     font-size: 13px;
     font-weight: 300;
 }
 
-.or-category li:last-child, .or-daterange li:last-child {
+.or-category li:last-child,.or-daterange li:last-child {
     border-bottom: 0;
 }
 
@@ -2788,7 +2771,7 @@ input[type="file" i]::-webkit-file-upload-button:hover {
 
 .or-daterange .or-year.or-parent.or-expanded .or-month {
     font-size: 13px;
-    font-family: "open sans", sans-serif;
+    font-family: "open sans",sans-serif;
     font-weight: 400;
     font-weight: 300;
 }
@@ -2883,7 +2866,7 @@ input[type="file" i]::-webkit-file-upload-button:hover {
 }
 
 .or-news-list li:hover h3 a {
-    color: #e83c23;
+    color:#e83c23;
 }
 
 .or-news-list li:hover p {
@@ -2891,16 +2874,16 @@ input[type="file" i]::-webkit-file-upload-button:hover {
 }
 
 .or-news-list h3 a {
-    font-family: "leaguespartan webfont", sans-serif;
+    font-family: "leaguespartan webfont",sans-serif;
     font-size: 16px;
-    text-decoration: underline;
+    text-decoration:underline;
 }
 
 .or-news-list h3 a:hover {
-    color: #e83c23;
+    color:#e83c23;
 }
 
-.or-news-list h3, .portlet-section-subheader, .subheading3 {
+.or-news-list h3,.portlet-section-subheader,.subheading3 {
     margin: 0 0 8px;
 }
 
@@ -2917,7 +2900,7 @@ input[type="file" i]::-webkit-file-upload-button:hover {
     border-radius: 2px;
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
-    border: 1px solid rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0,0,0,0.05);
     font-weight: 300;
     font-size: 11px;
     position: absolute;
@@ -2929,7 +2912,7 @@ input[type="file" i]::-webkit-file-upload-button:hover {
 .or-load-more {
     background-color: #35383B;
     color: #fff;
-    font-family: "leaguespartan webfont", sans-serif;
+    font-family: "leaguespartan webfont",sans-serif;
     border-radius: 2px;
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
@@ -2982,7 +2965,7 @@ input[type="file" i]::-webkit-file-upload-button:hover {
     color: #e83c23;
 }
 
-.or-news-filter .or-category, .or-news-filter .or-daterange {
+.or-news-filter .or-category,.or-news-filter .or-daterange {
     position: relative;
 }
 
@@ -2990,7 +2973,7 @@ input[type="file" i]::-webkit-file-upload-button:hover {
     color: #35383b;
     font-weight: 700;
     font-size: 11px;
-    font-family: "leaguespartan webfont", sans-serif;
+    font-family: "leaguespartan webfont",sans-serif;
 }
 
 .or-category .or-parent .or-daterange .or-parent {
@@ -3014,7 +2997,7 @@ input[type="file" i]::-webkit-file-upload-button:hover {
     cursor: default;
 }
 
-.or-category .or-toggle-icon, .or-daterange .or-toggle-icon {
+.or-category .or-toggle-icon,.or-daterange .or-toggle-icon {
     position: absolute;
     right: 0;
     margin-top: 0;
@@ -3026,7 +3009,7 @@ input[type="file" i]::-webkit-file-upload-button:hover {
     background: #f9f9f8;
 }
 
-.or-category .or-toggle-icon:before, .or-daterange .or-toggle-icon:before {
+.or-category .or-toggle-icon:before,.or-daterange .or-toggle-icon:before {
     color: #857672;
 }
 
@@ -3045,7 +3028,7 @@ input[type="file" i]::-webkit-file-upload-button:hover {
 .or-file-list-row {
     border-bottom: 2px none #d1d1d1;
     background-color: #fff;
-    box-shadow: rgba(133, 118, 114, 0.09) 0 0 3px 0;
+    box-shadow: rgba(133,118,114,0.09) 0 0 3px 0;
 }
 
 .or-file-list-row:hover {
@@ -3116,7 +3099,7 @@ input[type="file" i]::-webkit-file-upload-button:hover {
 
 .or-docs-box-content:hover a:before {
     box-shadow: #fff -33px 0 -11px inset;
-    box-shadow: rgba(255, 255, 255, 1) 0px -33px 0 -11px inset;
+    box-shadow: rgba(255,255,255,1)0px -33px 0 -11px inset;
 }
 
 .or-docs-box-content .subheading3 {
@@ -3139,9 +3122,59 @@ input[type="file" i]::-webkit-file-upload-button:hover {
 }
 
 /* tabeller */
-/*
- To be inspected
-    body .sv-text-portlet table.sv-standard td p span {
+.sv-text-portlet table {
+    margin-bottom: 20px;
+}
+
+.sv-text-portlet table {
+    border: solid 1px #f3dcd0;
+}
+
+.sv-text-portlet table thead {
+    background-color: #e83c23;
+}
+
+.sv-text-portlet table thead th {
+    padding: 8px 6px;
+    border-right: solid 2px rgba(255,255,255,0.25);
+}
+
+.sv-text-portlet table.sv-standard th {
+    text-align: left;
+    background-color: #e83c23;
+    border-bottom: solid 2px rgba(255,255,255,0.25);
+    padding-left: 6px;
+    font-family: "leaguespartan webfont",sans-serif;
+    color: #fff;
+}
+
+.sv-responsiveTable--stacked__headRow th {
+    color: #fff;
+    line-height: 1.3em;
+    font-family: "leaguespartan webfont",sans-serif;
+    font-size: 12px;
+    padding-left: 3px;
+    padding-top: 2px;
+}
+
+.sv-text-portlet table.sv-standard th p {
+    color: #fff;
+    line-height: 1.3em;
+    font-family: "leaguespartan webfont",sans-serif;
+    font-size: 12px;
+    padding-left: 3px;
+}
+
+.sv-text-portlet table td {
+    padding: 8px 6px;
+    vertical-align: top;
+}
+
+body .sv-text-portlet table.sv-standard td p,body .sv-text-portlet table.sv-standard td {
+    font-size: 17px;
+}
+
+body .sv-text-portlet table.sv-standard td p span {
     font-size: 11px;
     font-weight: 300;
     color: #857672;
@@ -3149,9 +3182,55 @@ input[type="file" i]::-webkit-file-upload-button:hover {
     margin-top: 3px;
 }
 
+.sv-text-portlet table.sv-standard thead th p {
+    color: #fff;
+    line-height: 1.3em;
+    font-family: "leaguespartan webfont",sans-serif;
+    font-size: 12px;
+}
+
 .sv-text-portlet table p {
     font-size: 13px;
-}*/
+}
+
+.sv-text-portlet table tbody tr:nth-child(2n) {
+    background-color: #fdf7f1;
+    border-bottom: solid 1px #f3dcd0;
+}
+
+.sv-text-portlet table tbody tr:nth-child(2n+1) {
+    background-color: #fff;
+    border-bottom: solid 1px #f3dcd0;
+}
+
+body .sv-text-portlet table.sv-standard .sv-responsiveTable--stacked__headRow {
+    background-color: #E83C23 !important;
+    color: #fff;
+    line-height: 1.3em;
+    font-family: "leaguespartan webfont",sans-serif;
+    font-size: 12px;
+    padding-left: 3px;
+    padding-top: 2px;
+}
+
+body .sv-responsiveTable--stacked__headRow--main {
+    background-color: #E83C23 !important;
+}
+
+body .or-article-main .sv-responsiveTable--stacked__headRow th p {
+    color: #fff;
+    font-family: "leaguespartan webfont",sans-serif;
+    font-size: 14px;
+    padding: 5px 5px 5px 8px;
+}
+
+body .or-article-main .sv-responsiveTable--stacked__headRow p {
+    color: #fff !important;
+    font-family: "leaguespartan webfont",sans-serif !important;
+    font-size: 14px;
+    padding: 5px 5px 5px 8px;
+}
+
 /* Readspeaker */
 .rsbtn_powered {
     display: none !important;
@@ -3205,7 +3284,7 @@ section.or-bg-one {
     padding: 11px 10px 9px 11px;
     font-size: 14px;
     letter-spacing: .03em;
-    background-color: rgba(242, 140, 0, 0.92);
+    background-color: rgba(242,140,0,0.92);
     margin-bottom: 0;
     border-top-left-radius: 2px;
 }
@@ -3217,7 +3296,7 @@ section.or-bg-one {
     right: 0;
     height: 100%;
     top: 0;
-    box-shadow: inset 3px 0 10px -3px rgba(133, 118, 114, 0.25);
+    box-shadow: inset 3px 0 10px -3px rgba(133,118,114,0.25);
     padding-bottom: 20px;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -3226,11 +3305,11 @@ section.or-bg-one {
 
 .or-openhours-contact > div:last-child h4 {
     margin: 0 0 15px;
-    background-color: rgba(242, 140, 0, 0.8);
+    background-color: rgba(242,140,0,0.8);
     padding: 10px 15px 11px;
     color: #fff;
     border-top-right-radius: 2px;
-    box-shadow: inset 5px 0 6px -6px rgba(133, 118, 114, 0.6);
+    box-shadow: inset 5px 0 6px -6px rgba(133,118,114,0.6);
     letter-spacing: .03em;
     width: 100%;
     box-sizing: border-box;
@@ -3283,11 +3362,11 @@ section.or-bg-one {
 }
 
 .or-openhours-contact table.sv-kontakt td {
-    border: 1px solid rgba(242, 140, 0, 0.15);
+    border: 1px solid rgba(242,140,0,0.15);
 }
 
 .or-openhours-contact table.sv-kontakt th {
-    border: 1px solid rgba(242, 140, 0, 0.15);
+    border: 1px solid rgba(242,140,0,0.15);
 }
 
 .or-openhours-contact .sv-text-portlet table thead {
@@ -3303,7 +3382,7 @@ section.or-bg-one {
 }
 
 .or-openhours-contact {
-    box-shadow: 0 0 15px rgba(133, 118, 114, 0.25);
+    box-shadow: 0 0 15px rgba(133,118,114,0.25);
     background-color: #fff;
     border-radius: 2px;
     -moz-border-radius: 2px;
@@ -3318,7 +3397,7 @@ section.or-bg-one {
 }
 
 .or-openhours-contact .sv-text-portlet table thead th {
-    border-right: solid 1px rgba(242, 140, 0, 0.15);
+    border-right: solid 1px rgba(242,140,0,0.15);
     padding: 15px 10px;
 }
 
@@ -3358,14 +3437,14 @@ section.or-bg-one {
 
 .box-content .sv-use-margins .normal strong {
     font-size: 13px;
-    font-family: "leaguespartan webfont", sans-serif;
+    font-family: "leaguespartan webfont",sans-serif;
     letter-spacing: .03em;
 }
 
 .or-bg-white {
     background-color: #fff;
     padding: 10px 20px;
-    box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.07);
+    box-shadow: 0 0 4px 1px rgba(0,0,0,0.07);
     border-bottom-left-radius: 2px;
     border-bottom-right-radius: 2px;
     position: relative;
@@ -3375,14 +3454,12 @@ section.or-bg-one {
     padding: 5px 20px 8px;
     min-height: 156px;
 }
-
 .driftstorningar-container ul {
     background-color: #fff;
     padding-top: 20px;
     display: flex;
     flex-wrap: wrap;
 }
-
 .driftstorningar-container li {
     box-sizing: border-box;
     width: calc(50% - 30px);
@@ -3392,7 +3469,6 @@ section.or-bg-one {
     border-left-width: 3px;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
 }
-
 .driftstorningar-container li:nth-child(odd) {
     margin-right: 10px;
 }
@@ -3400,10 +3476,9 @@ section.or-bg-one {
 .driftstorningar-container li:nth-child(even) {
     margin-left: 10px
 }
-
 .driftstorningar-container li a:link {
     font-size: 13px;
-    font-family: "open sans", sans-serif;
+    font-family: "open sans",sans-serif;
     box-shadow: none;
     display: inline-block;
     width: 100%;
@@ -3411,9 +3486,9 @@ section.or-bg-one {
 }
 
 .box-content.driftstorningar-container .kontaktaxossxxxbrodtext {
-    font-family: "leaguespartan webfont", sans-serif;
+    font-family: "leaguespartan webfont",sans-serif;
     font-size: 12px;
-    border: 2px solid rgba(242, 140, 0, 0.19);
+    border: 2px solid rgba(242,140,0,0.19);
     background-color: #fefdee;
     padding: 6px 15px;
     border-radius: 3px;
@@ -3454,7 +3529,7 @@ section.or-bg-one {
 }
 
 .or-bg-white ul li a.normal:link:hover {
-    box-shadow: rgba(174, 222, 239, 0.65) 0 -41px 0 -17px inset;
+    box-shadow: rgba(174,222,239,0.65) 0 -41px 0 -17px inset;
 }
 
 .or-bg-white ul li:first-child {
@@ -3462,7 +3537,7 @@ section.or-bg-one {
 }
 
 .or-red-header-box .box-header {
-    background-color: rgba(232, 60, 35, 0.9);
+    background-color: rgba(232,60,35,0.9);
     padding: 10px 10px 9px;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
@@ -3472,7 +3547,7 @@ section.or-bg-one {
 .or-red-header-box .box-header p {
     margin: 0;
     color: #fff;
-    font-family: "leaguespartan webfont", sans-serif;
+    font-family: "leaguespartan webfont",sans-serif;
     font-size: 16px;
     letter-spacing: .04em;
     font-weight: 700;
@@ -3487,7 +3562,7 @@ section.or-bg-one {
 }
 
 .or-red-header-box .box-header p i {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255,255,255,0.8);
     font-size: 22px;
     margin-right: 8px;
 }
@@ -3542,8 +3617,8 @@ section.or-bg-one {
     margin-top: 0;
 }
 
-.or-oh-start-page p.or-phone-hours strong, .or-email-info.normal strong {
-    font-family: "leaguespartan webfont", sans-serif;
+.or-oh-start-page p.or-phone-hours strong,.or-email-info.normal strong {
+    font-family: "leaguespartan webfont",sans-serif;
     font-size: 12px;
 }
 
@@ -3556,7 +3631,7 @@ section.or-bg-one {
     width: auto;
 }
 
-.or-oh-start-page .or-oh-label, .or-oh-start-page .or-oh-status {
+.or-oh-start-page .or-oh-label,.or-oh-start-page .or-oh-status {
     float: none;
     min-width: 40px;
 }
@@ -3580,7 +3655,7 @@ section.or-bg-one {
     padding: 4px 10px 2px;
     text-align: center;
     text-transform: uppercase;
-    font-family: "leaguespartan webfont", sans-serif;
+    font-family: "leaguespartan webfont",sans-serif;
     font-size: 10px;
     border-radius: 2px;
     letter-spacing: .09em;
@@ -3648,7 +3723,7 @@ section.or-bg-one {
     border-bottom-right-radius: 4px;
     padding: 10px;
     text-align: center;
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08);
+    box-shadow: 0 0 4px 0 rgba(0,0,0,0.08);
     background-color: #fff;
     margin-left: 10px;
 }
@@ -3661,7 +3736,7 @@ section.or-bg-one {
 .or-start-bottom-tabs ul li a {
     color: #35383b;
     font-size: 11px;
-    font-family: "leaguespartan webfont", sans-serif;
+    font-family: "leaguespartan webfont",sans-serif;
 }
 
 .or-start-bottom-tabs ul li .fa-warning {
@@ -3691,11 +3766,11 @@ section.or-bg-one {
     border-bottom-right-radius: 4px;
     padding: 10px;
     text-align: center;
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08);
+    box-shadow: 0 0 4px 0 rgba(0,0,0,0.08);
     background-color: #fff;
     color: #35383b;
     font-size: 11px;
-    font-family: "leaguespartan webfont", sans-serif;
+    font-family: "leaguespartan webfont",sans-serif;
     left: 50%;
 }
 
@@ -3709,7 +3784,7 @@ section.or-bg-one {
     background-color: #fff;
     position: relative;
     padding: 50px 25px 30px;
-    box-shadow: 0 -2px 6px -1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 -2px 6px -1px rgba(0,0,0,0.05);
     margin-bottom: 85px;
     margin-top: 80px;
 }
@@ -3812,7 +3887,7 @@ section.or-bg-one {
     border-top-right-radius: 4px;
     padding: 10px;
     text-align: center;
-    box-shadow: 0 -1px 7px -2px rgba(0, 0, 0, 0.07);
+    box-shadow: 0 -1px 7px -2px rgba(0,0,0,0.07);
     z-index: 1;
 }
 
@@ -3825,7 +3900,7 @@ section.or-bg-one {
 }
 
 body .or-start-heading-divider .normal {
-    font-family: "leaguespartan webfont", sans-serif;
+    font-family: "leaguespartan webfont",sans-serif;
     margin: 0;
     text-transform: uppercase;
     letter-spacing: .06em;
@@ -3889,8 +3964,8 @@ body .or-start-heading-divider .normal {
     border-radius: 3px;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
-    border: 2px solid rgba(133, 118, 114, 0.3);
-    font-family: "leaguespartan webfont", sans-serif;
+    border: 2px solid rgba(133,118,114,0.3);
+    font-family: "leaguespartan webfont",sans-serif;
     font-size: 12px;
     color: #857672;
     float: none;
@@ -3911,7 +3986,7 @@ body .or-start-heading-divider .normal {
 
 /* Startsida puffar */
 .or-puff-startpage-footer {
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255,255,255,0.4);
     padding-top: 45px;
     border-top: 6px solid #F6F4F2;
 }
@@ -3972,8 +4047,8 @@ body .or-start-heading-divider .normal {
     transition: all 500ms ease;
 }
 
-.or-sok-politiker ul li a[shape="rect"], .or-sok-politiker ul li a:hover[shape="rect"] {
-    box-shadow: rgba(174, 222, 239, 0) 0px -15px 0 -11px inset;
+.or-sok-politiker ul li a[shape="rect"], .or-sok-politiker ul li a:hover[shape="rect"]  {
+    box-shadow: rgba(174,222,239,0)0px -15px 0 -11px inset;
     margin: 0px;
 }
 
@@ -3989,7 +4064,7 @@ body .or-start-heading-divider .normal {
     text-align: center;
     padding: 0 11px;
     color: #E83C23;
-    font-family: "leaguespartan webfont", sans-serif;
+    font-family: "leaguespartan webfont",sans-serif;
     font-size: 12px !important;
 }
 
@@ -3998,7 +4073,7 @@ body .or-start-heading-divider .normal {
 }
 
 .or-sok-politiker a[shape="rect"] {
-    font-family: "open sans", sans-serif;
+    font-family: "open sans",sans-serif;
     font-weight: 400;
     font-style: normal;
     color: #017cdb;
@@ -4009,14 +4084,15 @@ body .or-start-heading-divider .normal {
 }
 
 .or-sok-politiker a:hover[shape="rect"] {
-    color: #0b4a89;
+    color:#0b4a89;
 }
+
 
 .or-sokt-politiker h1 {
     margin-left: 1.2em;
 }
 
-.or-sokt-politiker p {
+.or-sokt-politiker p{
     font-size: 15px;
     line-height: 1.6em;
 }
@@ -4026,7 +4102,7 @@ body .or-start-heading-divider .normal {
 }
 
 .or-sokt-politiker .or-sok-politiker hr {
-    background-color: rgba(133, 118, 114, 0.2);
+    background-color: rgba(133,118,114,0.2);
     position: relative;
     top: 0;
     box-sizing: border-box;
@@ -4046,11 +4122,11 @@ body .or-start-heading-divider .normal {
 }
 
 .or-sokt-politiker .or-sok-politiker b a:hover {
-    color: #0b4a89;
+    color:#0b4a89;
 }
 
-.or-sokt-politiker .or-sok-politiker b a:visited {
-    color: #6b0771;
+.or-sokt-politiker .or-sok-politiker b a:visited{
+    color:#6b0771;
 }
 
 .or-sokt-politiker .or-sok-politiker b {
@@ -4104,11 +4180,11 @@ body .or-start-heading-divider .normal {
     bottom: 20px;
     left: 20px;
     margin-top: 20px;
-    box-shadow: rgba(174, 222, 239, 0) 0 -41px 0 -23px inset;
+    box-shadow: rgba(174,222,239,0) 0 -41px 0 -23px inset;
 }
 
 .or-sokt-politiker .or-sok-politiker div a:hover {
-    box-shadow: rgba(174, 222, 239, 0) 0 -41px 0 -23px inset;
+    box-shadow: rgba(174,222,239,0) 0 -41px 0 -23px inset;
 }
 
 .or-sokt-politiker .or-sok-politiker td {
@@ -4131,7 +4207,7 @@ body .or-start-heading-divider .normal {
     color: #000;
 }
 
-.or-sok-politiker div, .or-sok-politiker table {
+.or-sok-politiker div,.or-sok-politiker table {
     color: #000;
 }
 
@@ -4144,7 +4220,7 @@ body .or-start-heading-divider .normal {
     margin-left: -2.2em;
     height: 1px;
     border: none;
-    background-color: rgba(133, 118, 114, 0.2);
+    background-color: rgba(133,118,114,0.2);
     margin-bottom: 23px;
 }
 
@@ -4163,7 +4239,7 @@ body .or-start-heading-divider .normal {
     border-style: solid;
     border-width: 1px;
     border-color: #857672;
-    border-color: rgba(133, 118, 114, 0.2);
+    border-color: rgba(133,118,114,0.2);
     border-radius: 2px;
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
@@ -4215,7 +4291,7 @@ body .or-start-heading-divider .normal {
     transition: all 500ms ease;
     margin-top: 11px;
     margin-bottom: 1px;
-    font-family: "open sans", sans-serif;
+    font-family: "open sans",sans-serif;
 }
 
 .or-sok-politiker form input[type="submit"]:hover {
@@ -4228,7 +4304,7 @@ body .or-start-heading-divider .normal {
     display: block;
     font-size: 13px;
     margin-bottom: -5px;
-    font-family: "leaguespartan webfont", sans-serif;
+    font-family: "leaguespartan webfont",sans-serif;
     line-height: 1.2em;
 }
 
@@ -4241,7 +4317,7 @@ body .or-start-heading-divider .normal {
     border-style: solid;
     border-width: 1px;
     border-color: #857672;
-    border-color: rgba(133, 118, 114, 0.2);
+    border-color: rgba(133,118,114,0.2);
     border-radius: 2px;
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
@@ -4274,7 +4350,7 @@ body .or-start-heading-divider .normal {
     text-decoration: none;
     line-height: normal;
     font-weight: 300;
-    box-shadow: rgba(174, 222, 239, 0.65) 0px -14px 0 -10px inset;
+    box-shadow: rgba(174,222,239,0.65)0px -14px 0 -10px inset;
     -webkit-transition: all 500ms ease;
     -moz-transition: all 500ms ease;
     -o-transition: all 500ms ease;
@@ -4282,7 +4358,7 @@ body .or-start-heading-divider .normal {
 }
 
 .or-utsokt-politiker .or-sok-politiker td a:hover {
-    box-shadow: rgba(174, 222, 239, 0.65) 0px -16px 0 7px inset;
+    box-shadow: rgba(174,222,239,0.65)0px -16px 0 7px inset;
 }
 
 .or-ny-sokning {
@@ -4324,7 +4400,7 @@ body .or-start-heading-divider .normal {
     margin-left: 2.2em;
 }
 
-.or-ny-sokning:hover {
+.or-ny-sokning:hover{
     background-color: #5e5e5e;
     border-color: #000;
 }
@@ -4342,7 +4418,7 @@ body .or-start-heading-divider .normal {
 .or-puff-link {
     background-color: #fcf5ec;
     border: 4px solid #fff;
-    box-shadow: 0 0 5px rgba(199, 199, 199, 0.55);
+    box-shadow: 0 0 5px rgba(199,199,199,0.55);
     border-radius: 2px;
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
@@ -4364,8 +4440,8 @@ body .or-start-heading-divider .normal {
 }
 
 body .or-puff-link .normal a {
-    font-family: "leaguespartan webfont", sans-serif;
-    box-shadow: rgba(174, 222, 239, 0.0) 0px 0 0 0 inset;
+    font-family: "leaguespartan webfont",sans-serif;
+    box-shadow: rgba(174,222,239,0.0)0px 0 0 0 inset;
     color: #35383b;
     font-size: 13px;
     margin-bottom: 4px;
@@ -4393,7 +4469,7 @@ body .or-content-page-2 .or-puff-link::after {
 }
 
 body .or-puff-link .normal a:hover {
-    box-shadow: rgba(174, 222, 239, 0.0) 0px 0 0 0 inset;
+    box-shadow: rgba(174,222,239,0.0)0px 0 0 0 inset;
     color: #35383b;
 }
 
@@ -4449,20 +4525,20 @@ body .or-puff-link .normal {
     -ms-transition: color .3s ease-in;
     transition: color .3s ease-in;
 }
-
-.or-puff-icon-header-text .normal a:link, body .or-puff-icon-header-text .normal, .or-puff-icon-header-text .normal a:visited, .or-puff-icon-header-text .normal a:focus {
+.or-puff-icon-header-text .normal a:link,body .or-puff-icon-header-text .normal, .or-puff-icon-header-text .normal a:visited, .or-puff-icon-header-text .normal a:focus {
     /*box-shadow: rgba(255,255,255,0)0px 0 0 0 inset;*/
-    color: #35383b;
-    text-decoration: none;
+    color:#35383b;
+    text-decoration:none;
     font-weight: 300;
     font-size: 15px;
     line-height: normal;
     text-align: left;
 }
 
-.or-puff-icon-header-text .normal a:hover {
-    color: #35383b;
+.or-puff-icon-header-text .normal a:hover{
+    color:#35383b;
 }
+
 
 .or-puff-icon-header-text.or-wrapper-click::after {
     content: "\f061";
@@ -4505,16 +4581,17 @@ body .or-puff-link .normal {
     -o-transition: color .3s ease-in;
     -ms-transition: color .3s ease-in;
     transition: color .3s ease-in;
-    box-shadow: rgba(174, 222, 239, 0.0) 0px -14px 0 -10px inset;
+    box-shadow: rgba(174,222,239,0.0)0px -14px 0 -10px inset;
 }
 
-.or-puff-icon-header-text.or-wrapper-click:hover .rubrikx4 {
+
+.or-puff-icon-header-text.or-wrapper-click:hover .rubrikx4{
     color: #f28c00;
 }
 
 .or-puff-icon-header-text.or-wrapper-click:hover .normal a:link {
     text-decoration: underline;
-    box-shadow: rgba(255, 255, 255, 0) 0px 0 0 0 inset;
+    box-shadow: rgba(255,255,255,0)0px 0 0 0 inset;
 }
 
 .or-puff-icon-header-text > div:last-of-type {
@@ -4534,7 +4611,7 @@ body .or-puff-link .normal {
     max-width: 1150px;
 }
 
-.sv-responsive .pagecontent .sv-image-portlet img {
+.sv-responsive .pagecontent .sv-image-portlet img{
     margin-bottom: 15px;
 }
 
@@ -4543,13 +4620,13 @@ table.or-bath-water {
     width: 100%;
 }
 
-table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-child) {
+table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child) {
     text-align: center;
 }
 
 .or-bath-water-info {
     display: inline-block;
-    font-family: "leaguespartan webfont", sans-serif;
+    font-family: "leaguespartan webfont",sans-serif;
     font-size: 11px;
     margin-right: 20px;
 }
@@ -4593,7 +4670,7 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
     border-radius: 2px;
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
-    border: 1px solid rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0,0,0,0.05);
     font-weight: 300;
     font-size: 11px;
     text-align: center;
@@ -4645,7 +4722,7 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
 
 .livsmedelsrapport .search-field label {
     display: block;
-    font-family: "leaguespartan webfont", sans-serif;
+    font-family: "leaguespartan webfont",sans-serif;
     font-size: 12px;
     margin-bottom: 0;
     margin-top: 25px;
@@ -4659,7 +4736,7 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
     border-style: solid;
     border-width: 1px;
     border-color: #857672;
-    border-color: rgba(133, 118, 114, 0.2);
+    border-color: rgba(133,118,114,0.2);
     border-radius: 2px;
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
@@ -4670,7 +4747,7 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
     color: #454545;
     -webkit-appearance: none;
     letter-spacing: .01em;
-    font-family: "open sans", sans-serif;
+    font-family: "open sans",sans-serif;
     width: 40%;
 }
 
@@ -4747,7 +4824,7 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
 }
 
 .livsmedelsrapport .search-categories label a {
-    font-family: "leaguespartan webfont", sans-serif;
+    font-family: "leaguespartan webfont",sans-serif;
     font-size: 12px;
     position: relative;
     top: 2px;
@@ -4755,7 +4832,7 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
 }
 
 .livsmedelsrapport .search-results table tr th:first-child {
-    border-right: solid 2px rgba(255, 255, 255, 0.25);
+    border-right: solid 2px rgba(255,255,255,0.25);
 }
 
 .livsmedelsrapport table {
@@ -4767,7 +4844,7 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
 }
 
 .livsmedelsrapport .search-results table tr th {
-    font-family: "leaguespartan webfont", sans-serif;
+    font-family: "leaguespartan webfont",sans-serif;
     background-color: #e83c23;
     font-style: normal;
     text-align: left;
@@ -4784,22 +4861,22 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
     font-style: normal;
 }
 
-.livsmedelsrapport td a:link {
+.livsmedelsrapport td a:link{
     color: #017cdb;
     text-decoration: underline;
 }
 
 .livsmedelsrapport td a:visited {
-    color: #6b0771;
+    color:#6b0771;
 }
 
 .livsmedelsrapport td a:hover {
-    color: #0b4a89;
+    color:#0b4a89;
 }
 
-.livsmedelsrapport td a:focus, .livsmedelsrapport td a:active {
-    color: #890b0b;
-    background-color: #ddd;
+.livsmedelsrapport td a:focus, .livsmedelsrapport td a:active  {
+    color:#890b0b;
+    background-color:#ddd;
 }
 
 .livsmedelsrapport .odd td {
@@ -4822,7 +4899,7 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
 }
 
 #PanelReportList table thead tr th {
-    font-family: "leaguespartan webfont", sans-serif;
+    font-family: "leaguespartan webfont",sans-serif;
     background-color: #e83c23;
     font-style: normal;
     text-align: left;
@@ -4833,7 +4910,7 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
 }
 
 .oversight-matters table thead tr th {
-    font-family: "leaguespartan webfont", sans-serif;
+    font-family: "leaguespartan webfont",sans-serif;
     background-color: #e83c23;
     font-style: normal;
     text-align: left;
@@ -4850,7 +4927,7 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
 }
 
 .or-follow .normal a:link {
-    font-family: "leaguespartan webfont", sans-serif;
+    font-family: "leaguespartan webfont",sans-serif;
     font-size: 11px;
     letter-spacing: .02em;
 }
@@ -4903,7 +4980,7 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
-    box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 6px 2px rgba(0,0,0,0.2);
     color: #C83E30;
     content: "\f16a";
     font: normal normal normal 35px/.7 FontAwesome;
@@ -4936,7 +5013,7 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
 .or-social-media-content.instagram .or-header .fa-circle {
     color: transparent;
     background-color: #D5378C;
-    background: linear-gradient(190deg, #8462C5 0%, #D5378C 41%, #f87436 75%, #E6B454 100%);
+    background: linear-gradient(190deg,#8462C5 0%,#D5378C 41%,#f87436 75%,#E6B454 100%);
     border-radius: 32px;
     -moz-border-radius: 32px;
     -webkit-border-radius: 32px;
@@ -4947,7 +5024,7 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
     font-size: 20px;
 }
 
-.or-social-media-content.facebook .or-header .fa-circle, .or-social-media-header.facebook .fa-circle {
+.or-social-media-content.facebook .or-header .fa-circle,.or-social-media-header.facebook .fa-circle {
     color: #0090b4;
 }
 
@@ -4965,7 +5042,7 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
 
 .or-social-media-content.youtube .or-header {
     color: #35383b;
-    font-family: "leaguespartan webfont", sans-serif;
+    font-family: "leaguespartan webfont",sans-serif;
     font-size: 12px;
     font-weight: 700;
     letter-spacing: .02em;
@@ -4988,7 +5065,7 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
     color: #857672;
     display: block;
     float: left;
-    font-family: "leaguespartan webfont", sans-serif;
+    font-family: "leaguespartan webfont",sans-serif;
     font-size: 10px;
     margin-bottom: 3px;
     margin-top: 10px;
@@ -5027,7 +5104,7 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
     display: block;
 }
 
-.show-popup .or-social-image, .show-popup a {
+.show-popup .or-social-image,.show-popup a {
     display: none;
 }
 
@@ -5039,7 +5116,7 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
     background-color: #e83c23;
     border-bottom-left-radius: 3px;
     border-top-right-radius: 0;
-    box-shadow: 3px 0 6px -3px rgba(0, 0, 0, 0.4) inset;
+    box-shadow: 3px 0 6px -3px rgba(0,0,0,0.4) inset;
     color: #fff;
     display: block;
     font-size: 11px;
@@ -5079,31 +5156,28 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
 }
 
 .or-social-media-follow-startpage {
-    float: right;
-    font-size: 90%;
-    padding: 1%;
+    float:right;
+    font-size:90%;
+    padding:1%;
     max-width: 540px;
 }
-
 .or-social-media-follow-startpage-item {
-    float: none;
+    float:none;
     margin-bottom: 15px;
     display: inline-block;
 }
-
-.or-social-media-follow-startpage a {
-    font-family: "leaguespartan webfont", sans-serif;
-    font-size: 11px;
-    display: inline-block;
-    text-decoration: underline;
+.or-social-media-follow-startpage a{
+    font-family: "leaguespartan webfont",sans-serif;
+    font-size:11px;
+    display:inline-block;
+    text-decoration:underline;
     /*box-shadow: rgba(174,222,239,0.65)0px -14px 0 -10px inset;
 	transition: all 100ms ease;*/
-    margin-right: 25px;
+    margin-right:25px;
 }
-
 .or-social-media-follow-startpage a:hover {
     /*box-shadow: rgba(174,222,239,0.65) 0 -41px 0 -23px inset;*/
-    color: #e83c23;
+    color:#e83c23;
 }
 
 .social-bg-circle {
@@ -5115,25 +5189,14 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
     line-height: 25px;
     vertical-align: middle;
     padding: 2px;
-    color: #fff;
-    margin-right: 8px;
+    color:#fff;
+    margin-right:8px;
 }
+.social-bg-circle-instagram {background: -webkit-radial-gradient(32% 106%, circle cover, rgb(255, 225, 125) 0%, rgb(255, 205, 105) 10%, rgb(250, 145, 55) 28%, rgb(235, 65, 65) 42%, transparent 82%), -webkit-linear-gradient(-45deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);}
+.social-bg-circle-twitter {background:#00aced;}
+.social-bg-circle-facebook {background:#0090b4;}
+.social-bg-circle-snapchat {background:#FFFC00;}
 
-.social-bg-circle-instagram {
-    background: -webkit-radial-gradient(32% 106%, circle cover, rgb(255, 225, 125) 0%, rgb(255, 205, 105) 10%, rgb(250, 145, 55) 28%, rgb(235, 65, 65) 42%, transparent 82%), -webkit-linear-gradient(-45deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
-}
-
-.social-bg-circle-twitter {
-    background: #00aced;
-}
-
-.social-bg-circle-facebook {
-    background: #0090b4;
-}
-
-.social-bg-circle-snapchat {
-    background: #FFFC00;
-}
 
 /* social media undersida */
 .or-social-media-subpage .or-social-media-content {
@@ -5181,7 +5244,7 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
 }
 
 .or-social-media-header.facebook {
-    font-family: "leaguespartan webfont", sans-serif;
+    font-family: "leaguespartan webfont",sans-serif;
     font-weight: 700;
     font-size: 13px;
     margin-top: 25px;
@@ -5197,7 +5260,7 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
 /* Faktarutor */
 .or-facts-block {
     background-color: #fff;
-    border-color: rgba(242, 140, 0, 0.55);
+    border-color: rgba(242,140,0,0.55);
     border-radius: 2px;
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
@@ -5223,7 +5286,6 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
     width: 100%;
     margin-top: 20px;
 }
-
 .sol-tab-button-container {
     display: flex;
     flex-wrap: wrap;
@@ -5234,7 +5296,7 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
     background: #fff;
     cursor: pointer;
     display: table-cell;
-    font-family: "leaguespartan webfont", sans-serif;
+    font-family: "leaguespartan webfont",sans-serif;
     font-size: 12px;
     line-height: 1.2em;
     padding: 10px 20px;
@@ -5250,7 +5312,7 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
 }
 
 .sol-tab-button {
-    border: 1px solid rgba(255, 0, 0, 0.12);
+    border: 1px solid rgba(255,0,0,0.12);
 }
 
 .sol-tab-button.sol-tab-active {
@@ -5264,9 +5326,9 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
 
 .sol-tabs-decoration-content {
     background-color: #fff;
-    border-bottom: 1px solid rgba(232, 60, 35, 0.20);
-    border-left: 1px solid rgba(232, 60, 35, 0.2);
-    border-right: 1px solid rgba(232, 60, 35, 0.2);
+    border-bottom: 1px solid rgba(232,60,35,0.20);
+    border-left: 1px solid rgba(232,60,35,0.2);
+    border-right: 1px solid rgba(232,60,35,0.2);
     border-top: 5px solid #e83c23;
     padding: 12px;
 }
@@ -5347,7 +5409,7 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
     font-size: 15px;
 }
 
-.or-alert-info.small, .or-alert-header.small, .or-alert-link {
+.or-alert-info.small,.or-alert-header.small,.or-alert-link {
     display: inline-block;
 }
 
@@ -5360,7 +5422,7 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
 }
 
 .or-alert-header {
-    font-family: "leaguespartan webfont", sans-serif;
+    font-family: "leaguespartan webfont",sans-serif;
     font-size: 20px;
     line-height: 1.3em;
     margin-bottom: 5px;
@@ -5403,7 +5465,7 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
     text-align: center;
     padding: 8px 20px 6px;
     font-size: 11px;
-    font-family: "leaguespartan webfont", sans-serif;
+    font-family: "leaguespartan webfont",sans-serif;
     font-weight: 700;
     letter-spacing: .06em;
 }
@@ -5436,22 +5498,22 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
     color: #fff;
     font-size: 11px;
     text-align: center;
-    box-shadow: 0 -14px 0 -11px rgba(174, 222, 239, 0.65) inset;
+    box-shadow: 0 -14px 0 -11px rgba(174,222,239,0.65) inset;
 }
 
 .cookieAlert .normal a:link:hover {
-    box-shadow: 0 -48px 0 -30px rgba(174, 222, 239, 0.65) inset;
+    box-shadow: 0 -48px 0 -30px rgba(174,222,239,0.65) inset;
 }
 
 .cookie-buttons .normal a {
     color: #fff;
     font-size: 11px;
     text-align: center;
-    box-shadow: 0 -14px 0 -11px rgba(174, 222, 239, 0.65) inset;
+    box-shadow: 0 -14px 0 -11px rgba(174,222,239,0.65) inset;
 }
 
 .cookie-buttons .normal a:link:hover {
-    box-shadow: 0 -48px 0 -30px rgba(174, 222, 239, 0.65) inset;
+    box-shadow: 0 -48px 0 -30px rgba(174,222,239,0.65) inset;
 }
 
 #cookieClose {
@@ -5465,7 +5527,7 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
     -webkit-border-radius: 1px;
     font-weight: 700;
     border-bottom: 3px solid #C8C5C5;
-    box-shadow: 0 -16px 0 -11px rgba(174, 222, 239, 0) inset;
+    box-shadow: 0 -16px 0 -11px rgba(174,222,239,0) inset;
 }
 
 #cookieClose:hover {
@@ -5507,7 +5569,7 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
     -webkit-border-radius: 50%;
 }
 
-.sharebutton--facebook, .sharebutton--twitter, .sharebutton--twitter {
+.sharebutton--facebook,.sharebutton--twitter,.sharebutton--twitter {
     background-color: #fff;
 }
 
@@ -5570,7 +5632,7 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
 }
 
 .antaltraffar {
-    font-family: "leaguespartan webfont", sans-serif;
+    font-family: "leaguespartan webfont",sans-serif;
     font-size: 11px !important;
     margin-top: 20px !important;
     font-style: normal;
@@ -5591,7 +5653,7 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
 }
 
 .antaltraffar {
-    font-family: "leaguespartan webfont", sans-serif !important;
+    font-family: "leaguespartan webfont",sans-serif !important;
 }
 
 .sort-results tr td {
@@ -5604,7 +5666,7 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
     text-align: left;
     text-transform: uppercase;
     font-size: 10px;
-    font-family: "leaguespartan webfont", sans-serif;
+    font-family: "leaguespartan webfont",sans-serif;
     letter-spacing: .03em;
 }
 
@@ -5622,7 +5684,7 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
 }
 
 .or-lediga-jobb .welcome p {
-    font-family: "open sans", sans-serif;
+    font-family: "open sans",sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 17px;
@@ -5631,13 +5693,13 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
     font-weight: 400;
 }
 
-.or-lediga-jobb div#cv-add, .or-lediga-jobb a.a-open-block {
+.or-lediga-jobb div#cv-add,.or-lediga-jobb a.a-open-block {
     font-size: 14px;
     text-decoration: none;
 }
 
 .or-lediga-jobb a.a-open-block {
-    box-shadow: rgba(174, 222, 239, 0.65) 0 -28px 0 -23px inset;
+    box-shadow: rgba(174,222,239,0.65) 0 -28px 0 -23px inset;
     -webkit-transition: all 100ms ease;
     -moz-transition: all 100ms ease;
     -o-transition: all 100ms ease;
@@ -5645,7 +5707,7 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
 }
 
 .or-lediga-jobb .welcome h1 {
-    font-family: "leaguespartan webfont", sans-serif;
+    font-family: "leaguespartan webfont",sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 24px;
@@ -5657,7 +5719,7 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
 .or-lediga-jobb .sv-text-portlet table.sv-standard thead th {
     color: #fff;
     line-height: 1.3em;
-    font-family: "leaguespartan webfont", sans-serif;
+    font-family: "leaguespartan webfont",sans-serif;
     font-size: 12px;
     background-color: #F28C00;
 }
@@ -5678,7 +5740,7 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
 
 .or-lediga-jobb .sv-text-portlet table.sv-standard td a {
     text-decoration: none;
-    box-shadow: rgba(174, 222, 239, 0.65) 0 -28px 0 -23px inset;
+    box-shadow: rgba(174,222,239,0.65) 0 -28px 0 -23px inset;
     -webkit-transition: all 100ms ease;
     -moz-transition: all 100ms ease;
     -o-transition: all 100ms ease;
@@ -5686,7 +5748,7 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
 }
 
 .or-lediga-jobb .sv-text-portlet table.sv-standard td a:hover {
-    box-shadow: rgba(174, 222, 239, 0.65) 0 -47px 0 -23px inset;
+    box-shadow: rgba(174,222,239,0.65) 0 -47px 0 -23px inset;
     color: #35383b;
 }
 
@@ -5694,7 +5756,7 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
     background-color: #fef0dd;
 }
 
-.or-lediga-jobb .share, .or-lediga-jobb a.button.deny, .or-lediga-jobb .ProfileImportContainer {
+.or-lediga-jobb .share,.or-lediga-jobb a.button.deny,.or-lediga-jobb .ProfileImportContainer {
     display: none;
 }
 
@@ -5702,7 +5764,7 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
     padding: 0;
 }
 
-.or-lediga-jobb a.button.apply, .or-lediga-jobb .fbutton, .or-lediga-jobb .addbutton, .or-lediga-jobb .button-big, .or-lediga-jobb .button-med {
+.or-lediga-jobb a.button.apply,.or-lediga-jobb .fbutton,.or-lediga-jobb .addbutton,.or-lediga-jobb .button-big,.or-lediga-jobb .button-med {
     background-color: #857672;
     display: inline-block;
     padding: 8px 20px 6px;
@@ -5743,7 +5805,7 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
     height: 40px;
 }
 
-.or-lediga-jobb a.button.apply:hover, .or-lediga-jobb .fbutton:hover, .or-lediga-jobb .addbutton:hover, .or-lediga-jobb .button-big:hover, .or-lediga-jobb .button-med:hover {
+.or-lediga-jobb a.button.apply:hover,.or-lediga-jobb .fbutton:hover,.or-lediga-jobb .addbutton:hover,.or-lediga-jobb .button-big:hover,.or-lediga-jobb .button-med:hover {
     background-color: #5E5E5E;
     border-color: #000;
 }
@@ -5760,7 +5822,7 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
     width: 100%;
 }
 
-.or-lediga-jobb input[type=text], .or-lediga-jobb textarea {
+.or-lediga-jobb input[type=text],.or-lediga-jobb textarea {
     width: 70%;
     padding: 10px 55px 10px 12px;
     line-height: 1.428571429;
@@ -5768,7 +5830,7 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
     border-style: solid;
     border-width: 1px;
     border-color: #857672;
-    border-color: rgba(133, 118, 114, 0.2);
+    border-color: rgba(133,118,114,0.2);
     border-radius: 2px;
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
@@ -5790,7 +5852,7 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
     border-style: solid;
     border-width: 1px;
     border-color: #857672;
-    border-color: rgba(133, 118, 114, 0.2);
+    border-color: rgba(133,118,114,0.2);
     border-radius: 2px;
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
@@ -5812,7 +5874,7 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
     width: 100%;
 }
 
-.or-lediga-jobb #prof_personalnumber, .or-lediga-jobb #prof_birthlastfour {
+.or-lediga-jobb #prof_personalnumber,.or-lediga-jobb #prof_birthlastfour {
     height: 25px;
     width: auto;
 }
@@ -5824,17 +5886,17 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
 }
 
 /* Tillståndsenheten */
-.or-tillstand-restaurang #Top1_lblKommun, .or-tillstand-restaurang #Top1_TDMobileLink, .or-tillstand-restaurang .FlikValdBg img, .or-tillstand-restaurang .FlikEjValdBg img, .or-tillstand-restaurang a[href*="print"], .or-tillstand-restaurang td.FlikEjValdBg:last-child {
+.or-tillstand-restaurang #Top1_lblKommun,.or-tillstand-restaurang #Top1_TDMobileLink,.or-tillstand-restaurang .FlikValdBg img,.or-tillstand-restaurang .FlikEjValdBg img,.or-tillstand-restaurang a[href*="print"],.or-tillstand-restaurang td.FlikEjValdBg:last-child {
     display: none;
 }
 
-.or-tillstand-restaurang .rubSokOmrade, .or-tillstand-restaurang .inputSokOmrade {
+.or-tillstand-restaurang .rubSokOmrade,.or-tillstand-restaurang .inputSokOmrade {
     display: none !important;
 }
 
 .or-tillstand-restaurang .flik a {
     text-decoration: none;
-    box-shadow: rgba(174, 222, 239, 0.65) 0 -28px 0 -23px inset;
+    box-shadow: rgba(174,222,239,0.65) 0 -28px 0 -23px inset;
     -webkit-transition: all 100ms ease;
     -moz-transition: all 100ms ease;
     -o-transition: all 100ms ease;
@@ -5842,7 +5904,7 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
 }
 
 .or-tillstand-restaurang .flik a:hover {
-    box-shadow: rgba(174, 222, 239, 0.65) 0 -47px 0 -23px inset;
+    box-shadow: rgba(174,222,239,0.65) 0 -47px 0 -23px inset;
 }
 
 .or-tillstand-restaurang .FlikValdBg {
@@ -5862,7 +5924,7 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
 .or-tillstand-restaurang .FlikEjValdBg {
     background: #fff;
     display: inline-block;
-    font-family: "leaguespartan webfont", sans-serif;
+    font-family: "leaguespartan webfont",sans-serif;
     font-size: 11px;
     line-height: 1.2em;
     padding: 10px 20px;
@@ -5883,7 +5945,7 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
     border-style: solid;
     border-width: 1px;
     border-color: #857672;
-    border-color: rgba(133, 118, 114, 0.2);
+    border-color: rgba(133,118,114,0.2);
     border-radius: 2px;
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
@@ -5909,7 +5971,7 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
     border-style: solid;
     border-width: 1px;
     border-color: #857672;
-    border-color: rgba(133, 118, 114, 0.2);
+    border-color: rgba(133,118,114,0.2);
     border-radius: 2px;
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
@@ -5956,7 +6018,7 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
     transition: all 500ms ease;
     margin-top: 11px;
     margin-bottom: 1px;
-    font-family: "open sans", sans-serif;
+    font-family: "open sans",sans-serif;
 }
 
 .or-tillstand-restaurang form input[type="submit"]:hover {
@@ -5970,10 +6032,10 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
     font-size: 14px;
     margin-bottom: 5px;
     display: inline-block;
-    font-family: "leaguespartan webfont", sans-serif;
+    font-family: "leaguespartan webfont",sans-serif;
 }
 
-.or-tillstand-restaurang .inforutaRam, .or-tillstand-restaurang .huvudTabell {
+.or-tillstand-restaurang .inforutaRam,.or-tillstand-restaurang .huvudTabell {
     width: 100%;
     border: none;
 }
@@ -5982,17 +6044,17 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
     background: none;
 }
 
-.or-tillstand-restaurang .flik, .or-tillstand-restaurang .inforutaRam #Table3 {
+.or-tillstand-restaurang .flik,.or-tillstand-restaurang .inforutaRam #Table3 {
     border-top: 5px solid #e83c23;
     padding: 5px 15px;
     margin-bottom: 10px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-    background-color: rgba(177, 177, 176, 0.17);
+    box-shadow: 0 0 5px rgba(0,0,0,0.15);
+    background-color: rgba(177,177,176,0.17);
 }
 
-.or-tillstand-restaurang .FlikValdText, .or-tillstand-restaurang .FlikEjValdText {
+.or-tillstand-restaurang .FlikValdText,.or-tillstand-restaurang .FlikEjValdText {
     font-size: 12px;
-    font-family: "leaguespartan webfont", sans-serif;
+    font-family: "leaguespartan webfont",sans-serif;
 }
 
 .or-tillstand-restaurang .FlikValdText {
@@ -6000,12 +6062,12 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
     color: #fff;
 }
 
-.or-tillstand-restaurang a.FlikEjValdText, .or-tillstand-restaurang a.FlikEjValdText:visited, .or-tillstand-restaurang a.FlikEjValdText:link {
+.or-tillstand-restaurang a.FlikEjValdText,.or-tillstand-restaurang a.FlikEjValdText:visited,.or-tillstand-restaurang a.FlikEjValdText:link {
     color: #35383b;
 }
 
-.or-tillstand-restaurang table, .or-tillstand-restaurang table p {
-    font-family: "open sans", sans-serif;
+.or-tillstand-restaurang table,.or-tillstand-restaurang table p {
+    font-family: "open sans",sans-serif;
     font-size: 14px;
 }
 
@@ -6017,11 +6079,11 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
     background-color: #fff;
 }
 
-.or-tillstand-restaurang .SokResAltStyle, .or-tillstand-restaurang .SokResStyle {
+.or-tillstand-restaurang .SokResAltStyle,.or-tillstand-restaurang .SokResStyle {
     border: solid 1px #f3dcd0;
 }
 
-.or-tillstand-restaurang .SokResAltStyle td, .or-tillstand-restaurang .SokResStyle td {
+.or-tillstand-restaurang .SokResAltStyle td,.or-tillstand-restaurang .SokResStyle td {
     padding: 8px 6px;
 }
 
@@ -6030,7 +6092,7 @@ table.or-bath-water td:not(:first-child), table.or-bath-water th:not(:first-chil
 }
 
 .or-tillstand-restaurang td.FlikEjValdBg:first-child {
-    border: 1px solid rgba(255, 0, 0, 0.12);
+    border: 1px solid rgba(255,0,0,0.12);
 }
 
 body .inforutaRubrik {
@@ -6040,7 +6102,7 @@ body .inforutaRubrik {
     background-color: transparent;
     text-align: left;
     height: 22px;
-    font-family: "leaguespartan webfont", sans-serif;
+    font-family: "leaguespartan webfont",sans-serif;
 }
 
 body .SokIngetResultat {
@@ -6050,20 +6112,19 @@ body .SokIngetResultat {
 
 /* Translate popup */
 .or-language-modal {
-    padding: 30px;
-    margin: 0 auto;
-    max-width: 400px;
-    background: #fff;
-    box-shadow: 0 0 6px -2px rgba(0, 0, 0, 0.8);
-    border-radius: 2px;
-    display: none;
-    position: absolute;
-    margin-top: -150px;
-    margin-bottom: 50px;
-    z-index: 12;
+    padding:30px;
+    margin:0 auto;
+    max-width:400px;
+    background:#fff;
+    box-shadow: 0 0 6px -2px rgba(0,0,0,0.8);
+    border-radius:2px;
+    display:none;
+    position:absolute;
+    margin-top:-150px;
+    margin-bottom:50px;
+    z-index:12;
 }
-
-.or-language-modal-close {
+.or-language-modal-close{
     position: absolute;
     top: 20px;
     right: 0;
@@ -6076,11 +6137,10 @@ body .SokIngetResultat {
     background-color: #e83c23;
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
-    box-shadow: -3px 0 6px -3px rgba(0, 0, 0, 0.4) inset;
+    box-shadow: -3px 0 6px -3px rgba(0,0,0,0.4) inset;
     text-align: center;
     color: #fff;
 }
-
 .or-language-modal-close .fa-close {
     color: #FFF;
     font-size: 17px;
@@ -6088,13 +6148,12 @@ body .SokIngetResultat {
     text-align: center;
     padding-top: 5px;
 }
-
 .or-language-modal-close:hover {
-    background-color: #333;
+    background-color:#333;
 }
 
 /*videoklipp*/
-.sv-responsive .sv-video-container {
+.sv-responsive .sv-video-container{
     margin-bottom: 15px;
 }
 
