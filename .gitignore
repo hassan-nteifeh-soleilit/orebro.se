@@ -10,9 +10,3 @@ Badvattenkvalité/Badvatten_db_201111282100.BAK
 Badvattenkvalité/~$dvattenkvalitet-dokumentation.doc
 .vscode/settings.json
 .DS_Store
-
-npm-debug.log
-.idea/
-gulpfile.js
-
-user_config.yml
