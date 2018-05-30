@@ -16,10 +16,6 @@
     "connect": "^3.6.1",
     "cors": "^2.7.1",
     "express": "^4.13.3",
-    "gulp": "^3.9.1",
-    "gulp-sass": "^4.0.1",
-    "serve-static": "^1.12.1",
-    "webdav": "^1.5.2",
-    "yaml-js": "^0.2.3"
+    "serve-static": "^1.12.1"
   }
 }
