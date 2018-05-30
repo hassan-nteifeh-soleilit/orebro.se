@@ -17,3 +17,4 @@ Badvattenkvalité/images/Thumbs.db
 .idea/
 gulpfile.js
 npm-debug.log
+dist/
