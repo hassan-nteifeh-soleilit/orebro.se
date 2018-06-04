@@ -1,37 +1,29 @@
-var LinkRenderer = require('LinkRenderer'),
-    PropertyUtil = require('PropertyUtil'),
-    resourceLocatorUtil = require('ResourceLocatorUtil');
+var LinkRenderer = require('LinkRenderer');
+var PropertyUtil = require('PropertyUtil');
+var MetadataUtil = require('MetadataUtil');
 
-var archive = scriptVariables.archiveNode.getNodes(),
-    show = false,
-    smallCss = "";
+var show = false;
 
-if(archive && archive.hasNext()) {
-   
-   var article = archive.next(),
-       header = PropertyUtil.getString(article,'SV.Title',''),
-       content = PropertyUtil.getString(article,'SV.Content',''),
-       ingress = PropertyUtil.getString(article,'SV.Description','');
+if (scriptVariables.archiveNode) {
+    var archive = scriptVariables.archiveNode.getNodes();
+    var smallCss = "";
+
+    if (archive && archive.hasNext()) {
+        var article = archive.next(); 
+        var header = PropertyUtil.getString(article,'SV.Title','');     
+        var content = PropertyUtil.getString(article,'SV.Content','');     
+        var ingress = PropertyUtil.getString(article,'SV.Description','');
   
-   if(ingress.isEmpty()){      
-      smallCss = "small";
-   }
+        if (ingress.isEmpty()) {      
+            smallCss = "small";
+        }
    
-   LinkRenderer.update(article, 'or-alert-button ' + smallCss , "MER INFORMATION");
+        LinkRenderer.update(article, 'or-alert-button ' + smallCss , "MER INFORMATION");
+   
+        var linkValue = MetadataUtil.getLinkMetadataPropertyValue(article, 'alertMessageLink');
+        LinkRenderer.setTarget(linkValue);
+        var link = LinkRenderer.render();
 
-   var target = PropertyUtil.getNode(article,'alertMessageLink'),
-       link = "";
-         
-   if(target) {
-      LinkRenderer.setTarget(target);            
-      link = LinkRenderer.render(); 
-   } else {            
-      target = PropertyUtil.getString(article,'alertMessageLink');      
-      
-      if(target && !target.isEmpty()) {
-         LinkRenderer.setStringTarget(target);      
-         link = LinkRenderer.render(); 
-      }
-  }
-   show = true;
+        show = true;
+    }
 }
