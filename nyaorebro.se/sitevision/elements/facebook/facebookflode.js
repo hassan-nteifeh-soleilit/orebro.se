@@ -1,3 +1,4 @@
+var VersionUtil = require('VersionUtil');
 var requester = require('JsonRequester'),
     PortletContextUtil = require('PortletContextUtil'),
     ScriptUtil = require('ScriptUtil'),    
@@ -80,9 +81,12 @@ requester.get(url,options)
 
    
 })
-.fail(function(message) {
-   // GET failed, handle error message
-   out.println(message);
+.fail(function(message, status) {
+    // GET failed, handle error message
+    if (VersionUtil.getCurrentVersion() === VersionUtil.OFFLINE_VERSION) {
+        out.println("Error: " + status.statusCode);
+        out.println(JSON.stringify(status.body));
+    }    
 });
 
 
