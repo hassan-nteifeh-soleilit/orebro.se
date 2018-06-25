@@ -361,7 +361,12 @@ color: #35383B;
 }
 
 .poem span {
+    background-color: #fff484;
+    color: #000;
+}
+.poem p {
   background-color: #fff484;
+  box-shadow: 10px 0 0 #fff484, -10px 0 0 #fff484;
   color: #000;
 }
 

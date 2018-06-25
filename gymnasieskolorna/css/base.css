@@ -6533,7 +6533,18 @@ div.or-synpunkt-action .or-action-content span:after {
 	font-weight: 800;
 	line-height: 1.2em;
 	background-color: rgb(211, 156, 199);
-
+}
+.poem p {
+	display: inline;
+	font-family: 'Leaguespartan webfont', sans-serif;
+	font-size: 30px !important;
+	text-transform: none;
+	font-weight: 800;
+	line-height: 64px !important;
+	color: white;
+	background-color: #0098bd;
+	box-shadow: 10px 0 0 #0098bd, -10px 0 0 #0098bd;
+	padding: 5px 0;
 }
 
 .init {

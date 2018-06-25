@@ -338,6 +338,10 @@ color: #0098bd;
 .poem span {
     background-color: #0098bd;
 }
+.poem p {
+    background-color: #0098bd;
+    box-shadow: 10px 0 0 #0098bd, -10px 0 0 #0098bd;
+}
 /* tabell */
 
 @media (max-width: 767px) {

@@ -349,6 +349,10 @@ color: #D196C1;
 .poem span {
     background-color: #D196C1;
 }
+.poem p {
+    background-color: #D196C1;
+    box-shadow: 10px 0 0 #d196c1, -10px 0 0 #d196c1;
+}
 
 .topp-storbild-textblock {
     background-color: #fff;
