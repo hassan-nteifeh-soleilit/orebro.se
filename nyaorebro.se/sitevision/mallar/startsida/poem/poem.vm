@@ -1,0 +1,55 @@
+<script type="text/javascript">
+  var lineSystem={} 
+  $(document).ready(function() {
+        
+    if(!sv.PageContext.inEditMode) {
+      $('.poem').wraplines();
+      $('.poem').removeClass('init');
+      $('.poem').removeClass('or-colorbg');
+    }
+    //var opts = $('.poem').data();
+    $('.poem  span').addClass('extra');
+
+  });
+
+  jQuery.fn.wraplines = function(options) {
+    var options = jQuery.extend({
+      lineWrap: 'span', //name of html element used to wrap lines
+      lineClassPrefix: 'wrap_line_', // prefix for class name to be added to line wrapper element
+      wordClassPrefix: 'w_line_',
+      index: 0,
+      offsetTop: 0,
+      offsetLeft: 0
+    }, options);
+    return this.each(function() {
+      options.index  = 0;
+      options.offset = 0;
+      var parentElm = $(this);
+      var elmText = $(parentElm).text();
+      $(parentElm).html(function(ind, htm) {
+        var $repText = '<' + options.lineWrap + '>' + elmText.replace( /\s/g, '</' + options.lineWrap + '> <' + options.lineWrap + '>');
+        $repText = $repText + '</' + options.lineWrap + '>';
+        return $repText;
+      });
+      $(options.lineWrap, parentElm).each(function() {
+        var spanOffset = $(this).offset();
+        if (spanOffset.top > options.offsetTop) {
+          options.offsetTop = spanOffset.top;
+          options.index++;
+        }
+        $(this).addClass(options.wordClassPrefix + options.index);
+      });
+      for (var x = 1; x <= options.index; x++) {
+        $('.' + options.wordClassPrefix + x, parentElm)
+        .wrapAll('<' + options.lineWrap + ' class="line ' + options.lineClassPrefix + x + '" />')
+        .append(" ");
+        var innerText = $('.' + options.lineClassPrefix + x, parentElm).text();
+        $('.' + options.lineClassPrefix + x, parentElm).html(function() {
+          return innerText;
+        });
+      lineSystem.index=options.index
+      
+      }
+    });
+  };
+</script>

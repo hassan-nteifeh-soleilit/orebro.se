@@ -1,0 +1,77 @@
+<script type="text/javascript">
+   $svjq(document).ready(function() {
+        var textSelector = document.querySelector('.sv-decoration-textbrytning');
+    textSelector.style.wordBreak = 'break-word';
+    var textWord = document.querySelector('.sv-decoration-textbrytning .normal').innerHTML.split(" ");
+    var newHContent = textWord.map(function (word) {
+        return '<span style="padding: 5px">' + word + ' </span>'
+    }).join('');
+    textSelector.innerHTML = newHContent;
+
+    function addRowNum(parentNodeSelector) {
+        var spans = document.querySelectorAll('.sv-decoration-textbrytning span');
+        var currentRow = 1;
+        var currentYPos =  document.querySelector('.sv-decoration-textbrytning span').getBoundingClientRect().top;
+       	for (var i = 0; i < spans.length; i++) {
+             if (parseInt(spans[i].getBoundingClientRect().top) > parseInt(currentYPos)) {
+                currentRow++;
+                currentYPos = spans[i].getBoundingClientRect().top;
+            }
+            spans[i].setAttribute('data-row', currentRow)
+        }
+         
+         
+      
+       
+        return parentNodeSelector;
+    }
+
+    function collectNodesinRows(parentNodeSelector) {
+        var childNodes = document.querySelectorAll('.sv-decoration-textbrytning span');
+        var arr = [];
+        for (var i = 0; i < childNodes.length; i++) {
+            var levelArr = arr[parseInt(childNodes[i].getAttribute('data-row') - 1)];
+            if (!levelArr) arr[parseInt(childNodes[i].getAttribute('data-row') - 1)] = [];
+            arr[parseInt(childNodes[i].getAttribute('data-row') - 1)].push(childNodes[i]);
+        }
+
+        arr.forEach(function (rowNodes) {
+            console.log(rowNodes);
+            var div = document.createElement('div');
+            document.querySelector('.sv-decoration-textbrytning').appendChild(div);
+            var text = "";
+            rowNodes.forEach(function (node) {
+                text += node.textContent;
+                document.querySelector('.sv-decoration-textbrytning').removeChild(node);
+            })
+            div.appendChild(document.createTextNode(text));
+        })
+    }
+
+     addRowNum(textSelector);
+    /*collectNodesinRows(textSelector);
+    var spans = document.querySelectorAll('.sv-decoration-textbrytning div');
+      for (var i = 0; i < spans.length; i++) {
+         spans[i].style.padding = "5px 8px 10px";
+         spans[i].style.margin = "4px 0";
+      } */
+   })
+ 
+   
+   
+  
+
+</script>
+
+<style>
+   .sv-decoration-textbrytning div, .sv-decoration-textbrytning span {
+        font-family: 'Leaguespartan webfont', sans-serif;
+        font-size: 30px;
+        text-transform: none;
+        font-weight: 800;
+        line-height: 1.2em;
+        background-color: rgb(211, 156, 199);
+    	  display: inline-block;
+    	  color: #FFF;
+    }
+</style>
