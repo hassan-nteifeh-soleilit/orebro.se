@@ -450,6 +450,10 @@
         font-weight: 800;
         line-height: 1.2em;
     }
+    .poem p {
+        font-size: 24px !important;
+        line-height: 58px !important;
+    }
 
     .or-header-topptext h2 {
         font-size: 15px;
