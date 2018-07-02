@@ -340,7 +340,7 @@ color: #0098bd;
 }
 /* tabell */
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 .st-head-row {
   background-color: #0098bd;
 }
