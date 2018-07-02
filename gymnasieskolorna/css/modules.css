@@ -1784,17 +1784,68 @@ body:not(.sv-editing-mode) .or-plus-box-program.or-plus-box-content caption, bod
 .or-kontaktpersoner-container {
     background-color: #fff;
     border: 1px solid #ddd;
-    padding: 10px;
+    padding: 17px 55px;
     position: relative;
 }
+.or-kontaktpersoner-container h1, .or-kontaktpersoner-container h2, .or-kontaktpersoner-container h3,
+.or-kontaktpersoner-container h4, .or-kontaktpersoner-container h5, .or-kontaktpersoner-container h6 {
+    font-size: 16px !important;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.4em;
+    margin-top: 0!important;
+    margin-bottom: 0 !important;
+}
+
 .or-kontaktpersoner-container:after {
     content: "\f086";
     font-family: FontAwesome;
-    font-size: 30px;
     color: #f28c00;
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 17px;
+    left: 19px;
+    font-size: 23px;
+    line-height: 22.4px;
+}
+.or-kontaktpersoner-container .normal {
+    font-size: 16px !important;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: left;
+    color: #35383b;
+    line-height: 1.6em;
+}
+@media (min-width: 768px) and (max-width: 1350px) {
+    .or-kontaktpersoner-container .normal {
+        font-size: 17px !important;
+    }
+    .or-kontaktpersoner-container h1, .or-kontaktpersoner-container h2, .or-kontaktpersoner-container h3,
+    .or-kontaktpersoner-container h4, .or-kontaktpersoner-container h5, .or-kontaktpersoner-container h6 {
+        font-size: 17px !important;
+    }
+}
+@media (min-width: 1350px) and (max-width: 1649px) {
+    .or-kontaktpersoner-container .normal {
+        font-size: 19px !important;
+    }
+    .or-kontaktpersoner-container h1, .or-kontaktpersoner-container h2, .or-kontaktpersoner-container h3,
+    .or-kontaktpersoner-container h4, .or-kontaktpersoner-container h5, .or-kontaktpersoner-container h6 {
+        font-size: 20px !important;
+    }
+
+}
+@media (min-width: 1650px)  {
+    .or-kontaktpersoner-container .normal {
+        font-size: 21px !important;
+    }
+    .or-kontaktpersoner-container h1, .or-kontaktpersoner-container h2, .or-kontaktpersoner-container h3,
+    .or-kontaktpersoner-container h4, .or-kontaktpersoner-container h5, .or-kontaktpersoner-container h6 {
+        font-size: 22px !important;
+    }
 }
 
 /*videoklipp*/
