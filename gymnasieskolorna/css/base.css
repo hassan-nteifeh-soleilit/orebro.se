@@ -5892,7 +5892,7 @@ body a.kontaktaxossxxxbrodtext:focus, body .kontaktaxossxxxbrodtext a:focus, bod
 }
 
 .or-elmt-actn-icon i {
-	color: #FFF !important;
+	color: #FFF;
 }
 .or-synpunkter-action .or-elmt-actn .or-elmt-actn-icon {
 	background-color: #F4A63B;
