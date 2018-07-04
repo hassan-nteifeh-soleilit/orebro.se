@@ -6543,6 +6543,7 @@ div.or-synpunkt-action .or-action-content span:after {
 	line-height: 64px !important;
 	color: white;
 	background-color: #0098bd;
+	box-decoration-break: clone;
 	box-shadow: 10px 0 0 #0098bd, -10px 0 0 #0098bd;
 	padding: 5px 0;
 }
