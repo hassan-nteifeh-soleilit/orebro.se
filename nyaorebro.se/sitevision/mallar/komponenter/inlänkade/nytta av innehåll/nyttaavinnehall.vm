@@ -20,10 +20,10 @@
 
     <div class="or-w-form or-forms formwidth">
         <form id="id-or-email-form" name="or-email-form" data-name="Email Form" action="javascript:submitForm();">
-            <label class="or-fieldlabelhelpus" for="field-2">
+            <label class="or-fieldlabelhelpus" for="field">
                 Berätta vad vi kan göra bättre på den här sidan för att förbättra webbplatsen!
             </label>
-            <label class="or-fieldlabelhelpus" for="field-2">
+            <label class="or-fieldlabelhelpus" for="field">
                 Vi har ingen möjlighet att svara, men dina synpunkter är värdefulla för oss.
             </label>
             <div id="or-form__text-area__error-msg">Du måste skriva in dina synpunkter för att kunna skicka meddelandet</div>
@@ -57,7 +57,7 @@
     </div>
 
     <form id="or-email-form-2" name="email-form-2">
-        <label class="or-fieldlabelhelpus" for="field-2">Du har nu hjälpt oss att förbättra orebro.se</label>
+        <label class="or-fieldlabelhelpus" for="field">Du har nu hjälpt oss att förbättra orebro.se</label>
     </form>
 
 </div>
