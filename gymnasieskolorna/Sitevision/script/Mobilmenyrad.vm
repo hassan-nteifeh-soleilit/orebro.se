@@ -18,7 +18,7 @@
       <div class="or-mobile-nav-text">Meny</div>
     </a>      
         
-    <a class="or-mobile-nav-column" href="#con"  id="contactBtn">          
+    <a class="or-mobile-nav-column" href="#"  id="contactBtn">          
       <i class="fa fa-comments"></i>
       <div class="or-mobile-nav-text">Kontakt</div>
     </a>
@@ -28,7 +28,7 @@
       <div class="or-mobile-nav-text">Sök</div>
     </a>  
    
-      <a class="or-mobile-nav-column search-column" href="#0" id="or-id-readspeaker-mobile">         
+      <a class="or-mobile-nav-column search-column" href="#" id="or-id-readspeaker-mobile">         
       <i class="fa fa-volume-up"></i>
       <div class="or-mobile-nav-text">Lyssna</div>
     </a>  
