@@ -1382,3 +1382,20 @@ nav.or-secondary .or-content ul li a:hover p {
 .or-did-you-mean.normal {
 	margin-left: 15px;
 }
+
+/* gå till innehåll */
+.or-main-keyboard-only a{
+	position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    border: 0;
+}
+.or-main-keyboard-only a:focus {
+    position: static;
+    width: auto;
+    height: auto;
+}
