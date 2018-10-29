@@ -4516,6 +4516,376 @@ body .or-start-heading-divider .normal {
     visibility: hidden;
 }
 
+/* Uppdaterad sök politker - ny kod under */
+.or-sokt-politiker .or-sok-politiker h1{
+  margin-left:0!important;
+}
+.or-sok-politiker td {
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 2.4em;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.or-sok-politiker tbody tr {
+    background-color: transparent;
+}
+.or-sok-politiker {
+    background-color: #fff;
+    border: solid 1px #f3dcd0;
+    border-top: solid 5px #E83C23;
+    margin-bottom: 25px;
+}
+
+.or-sok-politiker ul {
+    padding-top: 16px;
+}
+
+.or-sok-politiker ul li:before {
+    display: none;
+}
+
+.or-sok-politiker ul li {
+    float: left;
+    max-width: 70%;
+    margin-right: 10px;
+    list-style: none;
+    background-color: #fff;
+    border: solid 2px #f3dcd0;
+    margin-bottom: 17px;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    padding: 3px 0 5px;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.or-sok-politiker ul li a[shape="rect"], .or-sok-politiker ul li a:hover[shape="rect"]  {
+    box-shadow: rgba(174,222,239,0)0px -15px 0 -11px inset;
+    margin: 0px;
+}
+
+.or-sok-politiker ul li:hover {
+    background-color: #e83c23;
+}
+
+.or-sok-politiker ul li:hover a {
+    color: #fff;
+}
+
+.or-sok-politiker ul li a {
+    text-align: center;
+    padding: 0 11px;
+    color: #E83C23;
+    font-family: "leaguespartan webfont",sans-serif;
+    font-size: 12px !important;
+}
+
+.or-sok-politiker strong {
+    margin-top: 20px;
+}
+
+.or-sok-politiker a[shape="rect"] {
+    font-family: "open sans",sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #35383b;
+    text-decoration: none;
+    line-height: normal;
+    -webkit-transition: all 100ms ease;
+    -moz-transition: all 100ms ease;
+    -o-transition: all 100ms ease;
+    transition: all 100ms ease;
+    cursor: pointer;
+    box-shadow: rgba(174,222,239,0.65)0px -15px 0 -11px inset;
+    margin-bottom: 8px;
+}
+
+.or-sok-politiker a:hover[shape="rect"] {
+    box-shadow: rgba(174,222,239,0.65) 0 -41px 0 -23px inset;
+}
+
+.or-sokt-politiker h1 {
+    margin-left: 1.2em;
+}
+
+.or-sokt-politiker p{
+    font-size: 15px;
+    line-height: 1.6em;
+}
+.or-sokt-politiker .or-sok-politiker tr td div strong {
+    display: none;
+}
+
+.or-sokt-politiker .or-sok-politiker hr {
+    background-color: rgba(133,118,114,0.2);
+    position: relative;
+    top: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin-left: -1.8em;
+}
+
+.or-sokt-politiker .or-sok-politiker b a {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #35383b;
+    text-decoration: none;
+    line-height: 1.6em;
+    box-shadow: rgba(174,222,239,0.65)0px -14px 0 -10px inset;
+    display: inline-block;
+    margin-bottom: 10px;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.or-sokt-politiker .or-sok-politiker b a:hover {
+    box-shadow: rgba(174,222,239,0.65)0px -16px 0 1px inset;
+}
+
+.or-sokt-politiker .or-sok-politiker b {
+    color: #000;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    color: #35383b;
+    text-decoration: none;
+    line-height: 16px;
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+.or-sokt-politiker .or-sok-politiker div a {
+    background-color: transparent!important;
+    display: inline-block;
+    padding: 0;
+    margin-bottom: 0;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 0 solid #ccc;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    color: #0b4a89;
+    border-color: transparent;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0;
+    text-transform: none;
+    border-bottom: 0 solid #5E5E5E;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    margin-top: 11px;
+    margin-bottom: 1px;
+    position: inherit;
+    bottom: 20px;
+    left: 0;
+    margin-top: 0;
+    box-shadow: rgba(0,0,0,0) 0 0 0 0 inset!important;
+}
+
+
+.or-sokt-politiker .or-sok-politiker div a:hover {
+  /*ta bort nedan*/
+    box-shadow: rgba(0,0,0,0) 0 inset!important;
+  text-decoration:underline;
+    }
+
+.or-sokt-politiker .or-sok-politiker td {
+    padding-left: 0;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 1.6em;
+/*font-family: sans-serif;
+  font-family: ;*/
+}
+
+.or-utsokt-politiker .or-sok-politiker td li a {
+    box-shadow: none;
+}
+
+.or-sokt-politiker .or-sok-politiker {
+    position: relative;
+    padding-bottom: 50px;
+    padding-left: 1.7em;
+    color: #000;
+}
+
+.or-sok-politiker div,.or-sok-politiker table {
+    color: #000;
+}
+
+.or-sokt-politiker .or-sok-politiker tr {
+    display: table-row;
+    margin-top: -20px;
+}
+
+.or-sok-politiker hr {
+    margin-left: -2.2em;
+    height: 1px;
+    border: none;
+    background-color: rgba(133,118,114,0.2);
+    margin-bottom: 23px;
+}
+
+/* wrapper runt formulären */
+.or-sok-politiker form {
+    padding-bottom: 20px;
+    margin-bottom: 14px;
+}
+
+.or-sok-politiker form input[type="text"] {
+    width: 80%;
+    padding: 10px 55px 10px 5px;
+    margin-bottom: -14px;
+    line-height: 1.428571429;
+    border: 0 1px 1px 1px solid #ccc;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #857672;
+    border-color: rgba(133,118,114,0.2);
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    vertical-align: middle;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    color: #454545;
+    -webkit-appearance: none;
+    letter-spacing: .01em;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+/*font-family: "open sans",sans-serif; */
+}
+
+.or-sok-politiker form input[type="submit"] {
+    background-color: #857672;
+    display: inline-block;
+    padding: 8px 20px 6px;
+    margin-bottom: 0;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 0 solid #ccc;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    color: #fff;
+    background-color: #35383B;
+    border-color: transparent;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    border-bottom: 4px solid #5E5E5E;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    margin-top: 11px;
+    margin-bottom: 1px;
+    font-family: "open sans",sans-serif;
+}
+
+.or-sok-politiker form input[type="submit"]:hover {
+    background-color: #5E5E5E;
+    border-color: #000;
+}
+
+/* sök namn + och/eller välj ort*/
+.or-sok-politiker form strong {
+    display: block;
+    font-size: 13px;
+    margin-bottom: -5px;
+    font-family: "leaguespartan webfont",sans-serif;
+    line-height: 1.2em;
+}
+
+.or-sok-politiker select {
+    width: 80%;
+    padding: 10px 55px 10px 12px;
+    margin-bottom: 10px;
+    line-height: 1.428571429;
+    border: 1px solid #ccc;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #857672;
+    border-color: rgba(133,118,114,0.2);
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    vertical-align: middle;
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    color: #717171;
+    letter-spacing: .01em;
+}
+
+.or-sok-politiker div a {
+  background-color:transparent!important;
+  box-shadow:rgba(0,0,0,0) 0 0 0 0 !important;
+}
+.or-sokt-politiker div a:hover{
+    background-color:transparent!important;
+  box-shadow:rgba(0,0,0,0) 0 0 0 0 !important;
+}
+
+.or-sok-politiker table th{
+  padding:0px 11px 11px 0px;
+  font-size:14px;
+}
+.or-sok-politiker{
+  font-family:"open sans",sans-serif!important;
+}
+.form-horizontal .control-label{
+  width:20%!important;
+}
+.or-sok-politiker header a{
+  height:60px!important;
+}
+/** Ny kod slut**/
+
+
+
+
+
+
+
+
+
 /* Driftstörningsnyheter */
 .or-news-newslist {
     background-color: #f4f3f1;
