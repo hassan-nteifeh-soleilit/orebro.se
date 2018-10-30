@@ -1,4 +1,4 @@
-/* Grunddesign */
+﻿/* Grunddesign */
 /*Länkar*/
 a.portlet-font, a.portlet-font-label, a.portlet-font-dim, a.portlet-msg-status, a.portlet-msg-info, a.portlet-msg-error,
 a.portlet-msg-alert, a.portlet-msg-success, a.portlet-section-body, a.portlet-section-alternate, a.portlet-section-selected,
@@ -5793,7 +5793,7 @@ div.sol-search-icon-wrapper > img {
 }
 
 .or-contact-bar-info-container .normal {
-	font-size: 13px;
+	font-size: 13px !important;
 	line-height: 16px;
 	margin-bottom: 4px;
 }
