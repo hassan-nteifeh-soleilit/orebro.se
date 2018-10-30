@@ -4517,6 +4517,10 @@ body .or-start-heading-divider .normal {
 }
 
 /* Uppdaterad sök politker - ny kod under */
+.or-sokt-politiker .form-horizontal .control-group{
+    margin-bottom: 10px!important
+}
+
 .or-sokt-politiker .or-sok-politiker h1{
   margin-left:0!important;
 }
