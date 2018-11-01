@@ -6649,6 +6649,14 @@ body .SokIngetResultat {
     box-shadow: 0 0 5px 0 rgba(218, 218, 218, 0.5);
 }
 
+.or-widget__icon-wrapper{
+
+}
+
+.or-widget__txt-wrapper{
+    
+}
+
 .or-widget__title {
     font-family: "Leaguespartan webfont";
     font-size: 14px;
