@@ -6650,11 +6650,16 @@ body .SokIngetResultat {
 }
 
 .or-widget__icon-wrapper{
-
+    
 }
 
 .or-widget__txt-wrapper{
-    
+
+}
+
+.or-widget__icon{
+    width: 40px;
+    height: 40px;
 }
 
 .or-widget__title {
