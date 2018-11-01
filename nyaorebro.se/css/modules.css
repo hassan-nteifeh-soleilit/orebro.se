@@ -3620,7 +3620,7 @@ section.or-bg-one {
     padding-top: 11px;
     padding-bottom: 13px;
     margin-bottom: 0;
-    */padding-top: 16px;
+    padding-top: 16px;
     padding-bottom: 16px;
     margin-bottom: 0;
 }
@@ -6650,7 +6650,7 @@ body .SokIngetResultat {
 }
 
 .or-widget-txt-icon-wrapper{
-    display:flex;
+    display: flex;
 }
 
 .or-widget__icon-wrapper{
