@@ -6657,7 +6657,7 @@ body .SokIngetResultat {
 
 .or-widget__icon-wrapper{
     position: absolute;
-    left: -2em;
+    left: -3em;
 }
 
 .or-widget__txt-wrapper{
@@ -6668,8 +6668,16 @@ body .SokIngetResultat {
   
 }
 
+.or-widget__orange {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5em;
+    color: #f28c00;
+    line-height: normal;
+}
+
 .or-widget__title {
-    font-family: "league spartan";
+    font-family: "leaguespartan webfont";
     font-size: 13px;
     font-weight: bold;
     font-style: normal;
