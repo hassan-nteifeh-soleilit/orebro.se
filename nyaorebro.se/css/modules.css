@@ -6652,10 +6652,12 @@ body .SokIngetResultat {
 
 .or-widget-txt-icon-wrapper{
     display: flex;
+    position: relative;
 }
 
 .or-widget__icon-wrapper{
-    
+    position: absolute;
+    left: -2em;
 }
 
 .or-widget__txt-wrapper{
