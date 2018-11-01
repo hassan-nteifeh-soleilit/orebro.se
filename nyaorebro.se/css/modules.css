@@ -6667,7 +6667,7 @@ body .SokIngetResultat {
 }
 
 .or-widget__title {
-    font-family: "leaguespartan webfont", "sans-serif";
+    font-family: "leaguespartan webfont";
     font-size: 13px;
     font-weight: bold;
     font-style: normal;
@@ -6680,7 +6680,7 @@ body .SokIngetResultat {
 }
 
 .or-widget__text {
-    font-family: "leaguespartan webfont", "sans-serif";
+    font-family: "Open Sans";
     font-size: 15px;
     font-weight: normal;
     font-style: normal;
