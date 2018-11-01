@@ -6658,6 +6658,7 @@ body .SokIngetResultat {
 .or-widget__icon-wrapper{
     position: absolute;
     left: -3em;
+    justify-content: center;
 }
 
 .or-widget__txt-wrapper{
