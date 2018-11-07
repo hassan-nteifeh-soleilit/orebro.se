@@ -4923,6 +4923,10 @@ body .or-start-heading-divider .normal {
     margin-left: 0.4em;
 }
 
+.or-puff-icon-link .normal{
+    font-size: 16em;
+}
+
 .or-puff-link .or-puff-icon-link .sv-linkicon {
     padding-left: 8px;
 }
