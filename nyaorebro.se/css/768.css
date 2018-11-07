@@ -479,6 +479,15 @@ section.or-top-header {
     max-width: 590px;
 }
 
+.or-puff-icon-link{
+    width: 97%;
+    margin-bottom: 16px;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+    max-width: 590px;
+}
+
 
 
 .or-divider-heading {
