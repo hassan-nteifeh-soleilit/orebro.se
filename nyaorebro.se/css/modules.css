@@ -4019,14 +4019,7 @@ body .or-start-heading-divider .normal {
     padding: 20px;
 }
 
-.or-ikon-orange{
-    font-family: FontAwesome;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 2,3em;
-    color: #f28c00;
-    line-height: normal; 
-}
+
 
 .ikonxorange {
     font-weight: 400;
@@ -5114,7 +5107,7 @@ body .or-puff-link .or-puff-icon-link .normal {
     float: left;
 }
 
-.or-puff-icon-header-text .ikonxorange .or-puff-icon-link {
+.or-puff-icon-header-text .ikonxorange  {
     font-size: 40px;
     display: block;
     margin: 10px;
