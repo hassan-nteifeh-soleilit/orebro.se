@@ -4918,6 +4918,10 @@ body .or-start-heading-divider .normal {
     -moz-box-sizing: border-box;
 }
 
+.or-puff-icon-link .ikonxorange{
+    font-size: 2em !important;
+}
+
 .or-puff-link .or-puff-icon-link .sv-linkicon {
     padding-left: 8px;
 }
