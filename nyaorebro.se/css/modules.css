@@ -5005,8 +5005,12 @@ body .or-puff-link .or-puff-icon-link .normal {
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    
 }
+
+.or-puff-icon-link a{
+    text-decoration: none;
+}
+
 
 /* Puff med ikon, rubrik och textyta */
 .or-puff-icon-header-text {
