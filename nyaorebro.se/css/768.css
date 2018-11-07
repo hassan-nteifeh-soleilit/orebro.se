@@ -470,7 +470,7 @@ section.or-top-header {
     font-size: 9px;
 }
 
-.or-puff-link {
+.or-puff-link .or-puff-icon-link {
     width: 97%;
     margin-bottom: 16px;
     margin-right: auto;
@@ -1197,15 +1197,15 @@ nav.or-secondary .or-content ul.or-extra {
 }
 
 
-body .or-puff-link .normal a:link {
+body .or-puff-link .or-puff-icon-link .normal a:link {
     font-size: 11px;
 }
 
-body .or-puff-link .normal a:link {
+body .or-puff-link .or-puff-icon-link .normal a:link {
     font-size: 11px;
 }
 
-.or-puff-link {
+.or-puff-link .or-puff-icon-link {
     padding: 4px 20px 4px 11px;
 }
 
