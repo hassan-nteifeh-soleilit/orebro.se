@@ -494,8 +494,11 @@ section.or-top-header {
     float: left;
 }
 
-.or-puff-icon-link .rubriknyhetsruta {
+.or-puff-icon-link .rubrikx4 {
     margin-left: 4em; 
+    font-size: 14px;
+    text-decoration: none; 
+    color: black;
 }
 
 .or-puff-icon-link .kontaktaxossxxxbrodtext{
