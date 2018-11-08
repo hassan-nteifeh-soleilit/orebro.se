@@ -492,6 +492,7 @@ section.or-top-header {
 
 .or-puff-icon-link .ikonxorange{
     float: left;
+    margin-left: -1.3em; 
 }
 
 .or-puff-icon-link .rubriknyhetsruta{
