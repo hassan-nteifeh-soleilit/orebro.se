@@ -479,6 +479,8 @@ section.or-top-header {
     max-width: 590px;
 }
 
+
+/* PUFF IKON OCH LÄNK START --------------------*/
 .or-puff-icon-link{
     width: 97%;
     margin-bottom: 16px;
@@ -488,7 +490,19 @@ section.or-top-header {
     max-width: 590px;
 }
 
+.or-puff-icon-link .ikonxorange{
+    float: left;
+}
 
+.or-puff-icon-link .rubriknyhetsruta{
+    margin-left: 4em; 
+}
+
+.or-puff-icon-link .normal{
+    margin-left: 3.4em; 
+}
+
+/* PUFF IKON OCH LÄNK SLUT ------------------------*/
 
 .or-divider-heading {
     font-size: 13px;
