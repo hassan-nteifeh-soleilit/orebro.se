@@ -494,8 +494,12 @@ section.or-top-header {
     float: left;
 }
 
-.or-puff-icon-link .rubriknyhetsruta .kontaktaxossxxxbrodtext{
+.or-puff-icon-link .rubriknyhetsruta {
     margin-left: 4em; 
+}
+
+.or-puff-icon-link .kontaktaxossxxxbrodtext{
+    margin-left: 4em;
 }
 
 
