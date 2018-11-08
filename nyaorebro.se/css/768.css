@@ -499,6 +499,7 @@ section.or-top-header {
     font-size: 14px;
     text-decoration: none; 
     color: black;
+    float: none !important;
 }
 
 .or-puff-icon-link .kontaktaxossxxxbrodtext{
