@@ -622,6 +622,71 @@ or-action-link {
 }
 
 /* Puff */
+
+.or-puff-icon-link .ikonxorange{
+    font-size: 2em !important;
+    margin-left: 0.4em;
+}
+
+.or-puff-icon-link .normal{
+    font-size: 16px;
+}
+
+.or-puff-icon-link .rubrikx4{
+    font-size: 14px;
+}
+
+.or-puff-link .or-puff-icon-link .sv-linkicon {
+    padding-left: 8px;
+}
+
+body .or-puff-link .or-puff-icon-link .normal a {
+    font-family: "leaguespartan webfont",sans-serif;
+    box-shadow: rgba(174,222,239,0.0)0px 0 0 0 inset;
+    color: #35383b;
+    font-size: 13px;
+    margin-bottom: 4px;
+    display: inline-block;
+}
+
+body .or-content-page-2 .or-puff-link .or-puff-icon-link {
+    background-color: #fff;
+}
+
+body .or-content-page-2 .or-puff-link .or-puff-icon-link .normal a {
+    color: #857672;
+}
+
+body .or-content-page-2 .or-puff-icon-link::before .or-puff-link::before {
+    border-right-color: #857672;
+    border-bottom-color: #857672;
+    bottom: -4px;
+    right: -4px;
+}
+
+body .or-content-page-2 .or-puff-icon-link::after .or-puff-link::after {
+    bottom: 1px;
+    right: 1px;
+}
+
+body .or-puff-link .or-puff-icon-link .normal a:hover {
+    box-shadow: rgba(174,222,239,0.0)0px 0 0 0 inset;
+    color: #35383b;
+}
+
+body .or-puff-link:hover .or-puff-icon-link:hover .normal a {
+    text-decoration: underline;
+    color: #35383b;
+}
+
+body .or-puff-link .or-puff-icon-link .normal {
+/*color: #e83c23;*/
+    color: #000;
+    margin-bottom: 0;
+}
+
+
+
 .or-puff-bild-text {
     width: 29.3333%;
     float: left;
