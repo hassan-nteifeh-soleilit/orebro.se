@@ -483,6 +483,35 @@ body section.or-top-header .sv-use-margins h2{
 }
 
 
+/* PUFF IKON OCH LÄNK START --------------------*/
+.or-puff-icon-link{
+    width: 97%;
+    margin-bottom: 16px;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+    max-width: 590px;
+}
+
+.or-puff-icon-link .ikonxorange{
+    float: left;
+}
+
+.or-puff-icon-link .rubrikx4 {
+    margin-left: 4em; 
+    font-size: 14px;
+    text-decoration: none; 
+    color: black;
+    float: none !important;
+}
+
+.or-puff-icon-link .kontaktaxossxxxbrodtext{
+    margin-left: 4em;
+}
+
+
+/* PUFF IKON OCH LÄNK SLUT ------------------------*/
+
 
 /* Standarsida toppbild */
 
