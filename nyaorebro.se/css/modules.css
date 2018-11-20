@@ -621,7 +621,7 @@ or-action-link {
     width: 48px;
 }
 
-/* Puff ikon och länk*/
+/* PUFF ICON LINK START -----------------------------*/
 
 .or-puff-icon-link .ikonxorange{
     font-size: 2em !important;
@@ -709,6 +709,7 @@ body .or-puff-link .or-puff-icon-link .normal {
     text-decoration: none !important;
 }
 
+/* --- PUFF ICON LINK END -------------------------------*/
 
 
 .or-puff-bild-text {
