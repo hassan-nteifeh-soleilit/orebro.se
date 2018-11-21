@@ -123,6 +123,12 @@ a.ingress:active, .ingress a:active, a.ingress:focus, .ingress a:focus {
 	background-color: #ddd;
 }
 
+/* ingress*/
+
+p.ingress{
+	width: 950px;
+}
+
 /*Länkar footer*/
 .or-site-facts a:link {
 	color: #017cdb;
