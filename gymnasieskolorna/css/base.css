@@ -126,7 +126,7 @@ a.ingress:active, .ingress a:active, a.ingress:focus, .ingress a:focus {
 /* ingress*/
 
 p.ingress{
-	width: 950px !important;
+	max-width: 950px !important;
 }
 
 /*Länkar footer*/
