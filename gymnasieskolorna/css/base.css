@@ -6212,9 +6212,11 @@ div.or-synpunkt-action .or-action-content span:after {
 
 .or-plus-box-content .normal,
 .or-plus-box-content .normal a:link {
-	font-size: 16px;
-	line-height: 24px;
+	font-size: 14px;
+	line-height: 1.6em;
 }
+
+
 
 /* Stackable table */
 
