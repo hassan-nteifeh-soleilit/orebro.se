@@ -768,11 +768,11 @@ body .sv-font-action-penna.or-wrapper-click:hover, body .sv-font-action-pil.or-w
 	color: #000;
 }
 
-.or-elmt-actn-icon i .fa-info-circle{
+.fa-info-circle{
     color: #fff !important;
 }
 
-.or-elmt-actn-icon i .fa-exclamation-triangle{
+.fa-exclamation-triangle{
     color: #fff !important;
 }
 
