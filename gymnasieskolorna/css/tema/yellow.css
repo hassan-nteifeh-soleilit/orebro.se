@@ -769,11 +769,11 @@ body .sv-font-action-penna.or-wrapper-click:hover, body .sv-font-action-pil.or-w
 }
 
 .fa .fa-info-circle{
-    color: #fff;
+    color: #fff !important;
 }
 
 .fa .fa-exclamation-triangle{
-    color: #fff;
+    color: #fff !important;
 }
 
 /* Slut Action Element */
