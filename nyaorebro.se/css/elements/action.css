@@ -25,7 +25,7 @@
 
 /* Box arrow */
 .or-elmt-actn-row:after {
-   left: 49px;
+   left: 48px;
    top: 50%;
    border: solid transparent;
    content: " ";
