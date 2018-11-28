@@ -51,13 +51,17 @@
    text-align: center;
 }
 
-.fa-info-circle{
-   background-color: #fff !important;
-}
+
 
 .fa-exclamation-triangle{
-   background-color: yellow !important;
+   background-color: #E83C23 !important;
 }
+
+.fa-info-circle{
+   background-color: #F4A63B!important;
+}
+
+
 
 .or-elmt-actn-text {	
    height: 44px;
