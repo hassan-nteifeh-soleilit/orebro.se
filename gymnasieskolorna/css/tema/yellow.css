@@ -768,4 +768,12 @@ body .sv-font-action-penna.or-wrapper-click:hover, body .sv-font-action-pil.or-w
 	color: #000;
 }
 
+.fa-info-circle{
+    color: #fff !important;
+}
+
+.fa-exclamation-triangle{
+    color: #fff !important;
+}
+
 /* Slut Action Element */
