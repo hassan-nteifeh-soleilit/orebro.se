@@ -622,9 +622,14 @@ or-action-link {
 }
 
 
-.or-actn__fa-exclamation-triangle .or-elmt-actn-icon{
+
+.or-actn__fa-info-circle .or-elmt-actn-row:after{
     background-color: #F4A63B !important;
- }
+}
+
+.or-actn__fa-info-circle .or-elmt-actn-icon{
+    background-color: #F4A63B !important;
+}
 
 
 /* Puff */
