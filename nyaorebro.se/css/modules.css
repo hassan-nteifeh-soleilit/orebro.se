@@ -621,6 +621,12 @@ or-action-link {
     width: 48px;
 }
 
+
+.or-actn__fa-exclamation-triangle .or-elmt-actn-icon{
+    background-color: #F4A63B !important;
+ }
+
+
 /* Puff */
 .or-puff-bild-text {
     width: 29.3333%;
