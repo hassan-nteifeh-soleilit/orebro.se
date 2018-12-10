@@ -76,7 +76,12 @@ body .or-content-container .or-tir h2 {
 
 /* plusbox */
 .plusboxxrubrik, .or-plus-box-program div.plusboxxrubrik {
-    font-size: 14px;
+    font-size: 20px;
+}
+
+/* Länk i plusbox */
+.or-plus-box-content .normal, .or-plus-box-content .normal a:link{
+    font-size: 21px;
 }
 
 /* plusbox diskret */
