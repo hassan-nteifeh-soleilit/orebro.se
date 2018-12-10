@@ -79,10 +79,7 @@ body .or-content-container .or-tir h2 {
     font-size: 14px;
 }
 
-/* Länk i plusbox */
-.or-plus-box-content .normal, .or-plus-box-content .normal a:link{
-    font-size: 16px;
-}
+
 
 /* plusbox diskret */
 .or-plus-box-diskret-header .plusboxxrubrik {
@@ -104,7 +101,7 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
 
 /* processlista */
 .sol-tab-button-container .sol-tab-button {
-    font-size: 13px;
+    font-size: 13px;.sv-use-margins .normal
 }
 
 
@@ -267,6 +264,11 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
 .sv-use-margins .normal{
 	font-size: 21px;
 	line-height: 1.6em;
+}
+
+.sv-use-margins .normal a:link {
+    font-size: 21px;
+    line-height: 1.6em;
 }
 
 }  /* end 1650 */
