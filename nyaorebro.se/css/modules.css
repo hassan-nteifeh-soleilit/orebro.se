@@ -622,13 +622,22 @@ or-action-link {
 }
 
 
-
+/* Orange bakgrund för action "synpunkter och klagomål" */
 .or-actn__fa-info-circle .or-elmt-actn-row:after{
     border-left-color: #F4A63B !important;
 }
 
 .or-actn__fa-info-circle .or-elmt-actn-icon{
     background-color: #F4A63B !important;
+}
+
+/* Grå bakgrund för action "sök person" i Modalen Kontakta Örebro*/
+.or-modal-content .or-actn__fa-search .or-elmt-actn-icon {
+    background-color: gray !important;
+}
+
+.or-modal-content .or-actn__fa-search .or-elmt-actn-row:after{
+    border-left-color: gray !important;
 }
 
 
