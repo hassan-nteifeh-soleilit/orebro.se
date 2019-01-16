@@ -407,3 +407,16 @@ ul.bxslider
 .subheading {
   display: block !important;
 }
+
+/* SERVICETJÄNSTER TABELL*/
+.sv-text-portlet table tbody {
+  border-bottom: solid 1px !important;
+}
+
+.sv-text-portlet table td{
+  vertical-align: top !important;
+}
+
+table.sv-standard tr td p, table.sv-standard tr td{
+  font-size: 16px !important;
+}
