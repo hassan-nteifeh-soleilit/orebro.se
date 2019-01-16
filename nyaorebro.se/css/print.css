@@ -417,6 +417,7 @@ ul.bxslider
   vertical-align: top !important;
 }
 
-table.sv-standard tr td p, table.sv-standard tr td{
+table.sv-standard tr td p, 
+table.sv-standard tr td{
   font-size: 16px !important;
 }
