@@ -3275,7 +3275,8 @@ body .sv-text-portlet table.sv-standard td p span {
 }
 
 .sv-text-portlet table p {
-    font-size: 13px;
+    /*font-size: 13px;*/
+    font-size: 16px;
 }
 
 .sv-text-portlet table tbody tr:nth-child(2n) {
