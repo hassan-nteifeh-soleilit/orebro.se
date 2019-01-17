@@ -5,7 +5,7 @@
    display: none;  
 }
 
-/* SERVICETJÄNSTER TABELL*/
+/* SERVICETJÄNSTER TABELL
 .sv-text-portlet table tbody {
   border-bottom: solid 1px !important;
 }
@@ -17,7 +17,7 @@
 table.sv-standard tr td p, 
 table.sv-standard tr td{
   font-size: 16px !important;
-}
+}*/
 
 
 /* KOMPONENTER SOM INTE SKA MED VID UTSKRIFT */
