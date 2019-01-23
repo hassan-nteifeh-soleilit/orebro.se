@@ -2209,7 +2209,7 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
 }
 
 .or-plus-box-content .sv-video-wrapper {
-    width: 100%;
+    width: 100%!important;
 }
 
 .or-plus-box-content .sv-video-wrapper iframe {
