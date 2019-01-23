@@ -2426,20 +2426,20 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
     margin-right: 6px;
 }
 
-.tabs-plusbox > div:not(.tabs-plusbox-content) {
+.tabs-plusbox:not(.sv-editable-layout) > div:not(.tabs-plusbox-content) {
     display: inline-block;
     max-width: 240px;
     width: 100%;
 }
-.tabs-plusbox > div:first-child {
+.tabs-plusbox:not(.sv-editable-layout) > div:first-child {
     margin-right: 40px;
 }
 
-.tabs-plusbox :not(.tabs-plusbox-content) .or-plus-box-content {
+.tabs-plusbox:not(.sv-editable-layout) :not(.tabs-plusbox-content) .or-plus-box-content {
    display: none!important;
 }
 
-.tabs-plusbox .tabs-plusbox-content .or-plus-box-content {
+.tabs-plusbox:not(.sv-editable-layout) .tabs-plusbox-content .or-plus-box-content {
    display: block;
 }
 
