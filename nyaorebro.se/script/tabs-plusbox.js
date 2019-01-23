@@ -1,12 +1,12 @@
-$('.tabs-plusbox').append('<div class="tabs-plusbox-content" />');
-$('.tabs-plusbox .or-plus-box-diskret-content').each(function() {
+$('.tabs-plusbox:not(.sv-editable-layout)').append('<div class="tabs-plusbox-content" />');
+$('.tabs-plusbox:not(.sv-editable-layout) .or-plus-box-diskret-content').each(function() {
 	var data = $(this).clone();
     
     $('.tabs-plusbox-content').append(data);
 });
 
 
-$('.tabs-plusbox .or-plus-box-header').click(function() {
+$('.tabs-plusbox:not(.sv-editable-layout) .or-plus-box-header').click(function() {
     $(this).addClass('or-plus-box-active').parent().siblings().find('.or-plus-box-active').removeClass('or-plus-box-active');
 
     var dataID = $(this).find('.plusboxxrubrik').text();
