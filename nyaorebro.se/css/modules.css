@@ -5086,6 +5086,11 @@ body .or-puff-link .or-puff-icon-link .normal {
     color: black;
 }
 
+.or-puff-icon-link a:active {
+    
+    color: black!important;
+}
+
 .or-puff-link::after {
     content: "\f061";
     font-family: FontAwesome;
