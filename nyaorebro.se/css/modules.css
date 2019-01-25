@@ -4978,6 +4978,13 @@ body .or-start-heading-divider .normal {
     -moz-box-sizing: border-box;
 }
 
+.or-puff-icon-link .kontaktaxossxxxbrodtext a:visited,
+.or-puff-icon-link .kontaktaxossxxxbrodtext a:hover,
+.or-puff-icon-link .kontaktaxossxxxbrodtext a:active{
+    color: black;
+}
+
+
 .or-puff-icon-link .ikonxorange{
     font-size: 2em !important;
     margin-left: 0.4em;
