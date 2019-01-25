@@ -4982,7 +4982,7 @@ body .or-start-heading-divider .normal {
 .or-puff-icon-link .kontaktaxossxxxbrodtext a:visited,
 .or-puff-icon-link .kontaktaxossxxxbrodtext a:hover,
 .or-puff-icon-link .kontaktaxossxxxbrodtext a:active{
-    color: black;
+    color: black!important;
 }
 
 
