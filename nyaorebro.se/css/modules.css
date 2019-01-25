@@ -4999,6 +4999,11 @@ body .or-start-heading-divider .normal {
 .or-puff-icon-link .rubrikx4{
     font-size: 14px;
     margin-top: 0;
+    -webkit-transition: color .3s ease-in;
+    -moz-transition: color .3s ease-in;
+    -o-transition: color .3s ease-in;
+    -ms-transition: color .3s ease-in;
+    transition: color .3s ease-in;
 }
 
 .or-puff-link .or-puff-icon-link .sv-linkicon {
@@ -5050,7 +5055,7 @@ body .or-puff-link .or-puff-icon-link .normal {
     margin-bottom: 0;
 }
 
-.or-puff-icon-link:hover h4{
+.or-puff-icon-link:hover .rubrikx4{
     color: #f28c00;
 }
 
