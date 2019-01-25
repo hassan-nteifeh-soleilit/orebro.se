@@ -5042,6 +5042,10 @@ body .or-puff-link .or-puff-icon-link .normal {
     margin-bottom: 0;
 }
 
+.or-puff-icon-link:hover h4{
+    color: #f28c00;
+}
+
 .or-puff-icon-link{
     display: flex;
     background-color: #fcf5ec;
@@ -5065,6 +5069,7 @@ body .or-puff-link .or-puff-icon-link .normal {
 
 .or-puff-icon-link a {
     text-decoration: none !important;
+    color: black;
 }
 
 .or-puff-link::after {
