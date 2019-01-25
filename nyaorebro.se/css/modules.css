@@ -5041,6 +5041,7 @@ body .or-puff-link .or-puff-icon-link .normal {
 }
 
 .or-puff-icon-link{
+    display: flex;
     background-color: #fcf5ec;
     border: 4px solid #fff;
     box-shadow: 0 0 5px rgba(199,199,199,0.55);
