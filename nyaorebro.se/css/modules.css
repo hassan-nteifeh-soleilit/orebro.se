@@ -2427,6 +2427,14 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
     margin-right: 6px;
 }
 
+.tabs-plusbox .plusboxxrubrik {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 12px;
+    text-overflow: ellipsis;
+}
+
 .tabs-plusbox:not(.sv-editable-layout) {
     flex-direction: row;
     display: flex;
@@ -2444,6 +2452,14 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
 @media (min-width: 768px) {
     .tabs-plusbox:not(.sv-editable-layout) > div:first-child {
         margin-right: 40px;
+    }
+}
+@media (min-width: 480px) {
+    .tabs-plusbox:not(.sv-editable-layout) {
+        margin: 0 -3px;
+    }
+    .tabs-plusbox:not(.sv-editable-layout) > div:not(.tabs-plusbox-content) {
+        margin: 0 3px;
     }
 }
 
