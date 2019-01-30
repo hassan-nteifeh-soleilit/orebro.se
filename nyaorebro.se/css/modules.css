@@ -5144,6 +5144,10 @@ body .or-puff-link .or-puff-icon-link .normal {
     -moz-box-sizing: border-box;
 }
 
+.or-puff-icon-link .kontaktaxossxxxbrodtext{
+    line-height: 1.4;
+}
+
 .or-puff-icon-link a {
     text-decoration: none !important;
     color: black;
