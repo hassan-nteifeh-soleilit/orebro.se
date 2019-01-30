@@ -5052,6 +5052,8 @@ body .or-start-heading-divider .normal {
     -moz-box-sizing: border-box;
 }
 
+
+/* Mindre Puffar på startsidan. Ikon, rubrik och länk.  */
 .or-puff-icon-link .kontaktaxossxxxbrodtext a
 .or-puff-icon-link .kontaktaxossxxxbrodtext:visited,
 .or-puff-icon-link .kontaktaxossxxxbrodtext a:visited,
