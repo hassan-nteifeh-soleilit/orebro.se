@@ -5108,7 +5108,7 @@ body .or-start-heading-divider .normal {
     color: #f28c00;
 }
 
-.or-puff-icon-link .normal a:link:hover{
+.or-puff-icon-link a:link:hover{
     text-decoration: underline;
 }
 
