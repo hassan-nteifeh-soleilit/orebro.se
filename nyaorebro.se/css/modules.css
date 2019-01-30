@@ -5084,7 +5084,9 @@ body .or-start-heading-divider .normal {
 
 .or-puff-icon-link .normal{
     font-size: 14px !important;
-    line-height: 1.4;
+    font-weight: 300;
+    
+    line-height: normal;
 }
 
 .or-puff-icon-link .rubrikx4{
