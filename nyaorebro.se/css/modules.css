@@ -5088,6 +5088,10 @@ body .or-start-heading-divider .normal {
     line-height: normal;
 }
 
+.or-puff-icon-link .normal a{
+    font-size: 14px!important;
+}
+
 .or-puff-icon-link .rubrikx4{
     font-size: 14px;
     margin-top: 0;
