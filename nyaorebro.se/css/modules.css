@@ -5135,6 +5135,10 @@ body .or-puff-link .or-puff-icon-link .normal {
     color: #f28c00;
 }
 
+.or-puff-icon-link:hover .kontaktaxossxxxbrodtext{
+    text-decoration: underline;
+}
+
 .or-puff-icon-link{
     display: flex;
     background-color: #fcf5ec;
