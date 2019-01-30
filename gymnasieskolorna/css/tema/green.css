@@ -2,19 +2,19 @@
 
 /* ny mobilmeny */
 .or-mobile-nav-bar .or-push-nav-btn {
-    background-color: #6F9333;
+    background-color: #55830e;
 }
 
 .or-mobile-nav-column.or-colorbg {
-    background-color: #6F9333;
+    background-color: #55830e;
 }
 
 .or-mobile-nav-column:not(#mobileMenuBtn).or-colorbg:before {
-    border-color: #6F9333 transparent transparent transparent;
+    border-color: #55830e transparent transparent transparent;
 }
 
 .or-mobile-nav-column i.fa {
-    color: #6F9333;
+    color: #55830e;
 }
 
 .or-mobile-nav-bar .or-push-nav-btn:hover {
@@ -26,7 +26,7 @@
 }
 
 .or-tree ul li a {
-    background-color: #6F9333;
+    background-color: #55830e;
 }
 
 .or-tree ul li a:hover {
@@ -35,7 +35,7 @@
 
 
 .or-depth-1 li.or-current a {
-    border-left: 4px solid #6F9333;
+    border-left: 4px solid #55830e;
 }
 
 .or-tree .or-current a {
@@ -44,11 +44,11 @@
 }
 
 .or-tree .or-depth-1 .or-parent .or-toggle-icon:before {
-color: #6F9333;
+color: #55830e;
 }
 
 .or-tree .or-depth-2 .or-parent .or-toggle-icon:before {
-color: #6F9333;
+color: #55830e;
 }
 
 .or-tree .or-depth-1 .or-parent .or-toggle-icon, .or-tree .or-depth-2 .or-parent .or-toggle-icon, .or-tree .or-depth-3 .or-parent .or-toggle-icon, .or-tree .or-depth-4 .or-parent .or-toggle-icon, .or-tree .or-depth-5 .or-parent .or-toggle-icon {
@@ -56,13 +56,13 @@ color: #6F9333;
 }
 
 .or-modal .or-kontakt-och-tyck-till h3 {
-    color: #6F9333;
+    color: #55830e;
 }
 
 /* end ny mobilmeny */
 
  .colortext{
-color:#6F9333;
+color:#55830e;
 }
 
 footer a {
@@ -82,7 +82,7 @@ footer a:hover {
 .contentlinks.linkblue {
   padding-right: 5px;
   padding-left: 1px;
-  color: #6F9333;
+  color: #55830e;
 }
 .contentlinks.linkblue:hover {
   background-color: transparent;
@@ -114,7 +114,7 @@ footer i.or-social-icon-fg {
 .submit.bg-color, /* Färg för sökknapp   */
 .or-colorbg,
 .or-forms input[type="submit"] {
-   background-color: #6F9333;
+   background-color: #55830e;
 }
 
 .or-forms input[type="submit"] {
@@ -129,7 +129,7 @@ footer i.or-social-icon-fg {
 /* Text färg för temat */
 h1.heading, 
 .or-colortext {
-  color: #6F9333;
+  color: #55830e;
 }   
 
 
@@ -141,7 +141,7 @@ h1.heading,
 /* Färg för rubriker i nyhetslistning */
 .rubriknyhetsruta,
 .rubriknyhetsruta span {   
-  color: #6F9333;
+  color: #55830e;
 }
 
 input:focus, select:focus, textarea:focus {
@@ -162,11 +162,11 @@ li.or-comment.or-colorborder {
 }
 
 .or-action-content span.fa {   
-   background-color: #6F9333;   
+   background-color: #55830e;   
 }
 
 .or-action-content span.fa:after {
-   border-left-color: #6F9333;
+   border-left-color: #55830e;
 }
 
 
@@ -174,7 +174,7 @@ li.or-comment.or-colorborder {
 
 
 .sol_process_flow_container {
-    border-color: #6F9333;
+    border-color: #55830e;
 }
 
 ul.sol_steps.clearfix {
@@ -190,8 +190,8 @@ li.sol_step:hover {
 }
 
 li.sol_step.active {
-    background-color: #6F9333;
-    box-shadow: 1px 8px 0px 0px #6F9333 inset, 0px 0px 3px 0px #385012 inset;
+    background-color: #55830e;
+    box-shadow: 1px 8px 0px 0px #55830e inset, 0px 0px 3px 0px #385012 inset;
     border-top: 6px solid #c7d99a;
 }
 
@@ -201,7 +201,7 @@ color: #fff;
 
 .sol_process_flow_outer > div{
    border-color: #AEDEEF rgba(0, 152, 219, 0.34) rgba(0, 152, 219, 0.34);
-   color: #6F9333;
+   color: #55830e;
 }
 
 /* Kalender */
@@ -211,7 +211,7 @@ color: #fff;
 .or-calendar-text-active-event,
 .or-calendar-columns.or-week-column,
 .or-calendar-filter-container{
-   background-color: #6F9333;
+   background-color: #55830e;
 }
 
 
@@ -223,13 +223,13 @@ color: #fff;
 }
 
 .or-week-text:hover a {
-    color: #6F9333;
+    color: #55830e;
 }
 
 
 /* Plusbox */
 .or-plus-box-header.or-plus-box-active:not(.or-plus-box-diskret-header) {
-  background-color: #6F9333;
+  background-color: #55830e;
 }
 
 .or-plus-box-active:not(.or-plus-box-diskret-header)  .or-icon-plus::before {
@@ -246,7 +246,7 @@ color: #fff;
 
 .or-programpoang {
 	border-color: #DCEDBB;
-	color:  #6F9333;
+	color:  #55830e;
 }
 
 
@@ -264,27 +264,27 @@ color: #fff;
 }
 
 .or-contacticon i {
-  color: #6F9333;
+  color: #55830e;
 }
 
 /* action */
 .calltoactionwrapper:hover > .or-ctatext {
-  color: #6F9333;
+  color: #55830e;
   text-decoration: none;
-  border-bottom: 2px solid #6F9333;
+  border-bottom: 2px solid #55830e;
 }
 
 .or-action-content:hover a {
-  color: #6F9333;
+  color: #55830e;
 }
 
 .or-action-content:hover .or-action-text{
-  color: #6F9333;
+  color: #55830e;
   text-decoration:underline;
 }
 
 .or-action-link-small:hover .normal .or-action-text a{
- color: #6F9333;
+ color: #55830e;
 }
  
  /* actions */
@@ -294,7 +294,7 @@ color: #fff;
 }
 
 .or-arrow-left::after {
-    border-color: rgba(136, 183, 213, 0) rgba(136, 183, 213, 0) rgba(136, 183, 213, 0) #6F9333;
+    border-color: rgba(136, 183, 213, 0) rgba(136, 183, 213, 0) rgba(136, 183, 213, 0) #55830e;
 }
  
 /* puffar */
@@ -307,27 +307,27 @@ color: #fff;
 }
 
 .or-puff-bild-text h4{
-color: #6F9333;
+color: #55830e;
 }
 
 .or-puff-bild-text h4 a{
-color: #6F9333;
+color: #55830e;
 }
 
 .or-stor-bild-text-tv > div:nth-child(2) h2 {
-    color: #6F9333;
+    color: #55830e;
 }
 
 .extra {
-    background-color: #6F9333;
+    background-color: #55830e;
 }
 
 .poem span {
-    background-color: #6F9333;
+    background-color: #55830e;
 }
 .poem p {
-    background-color: #6F9333;
-    box-shadow: 10px 0 0 #6F9333, -10px 0 0 #6F9333;
+    background-color: #55830e;
+    box-shadow: 10px 0 0 #55830e, -10px 0 0 #55830e;
 }
 
 .topp-storbild-textblock {
@@ -353,7 +353,7 @@ color: #6F9333;
 
 @media (max-width: 767px) {
 .st-head-row {
-  background-color: #6F9333;
+  background-color: #55830e;
 }
 }
 
@@ -363,11 +363,11 @@ color: #6F9333;
 }
 
 .sv-table-portlet thead tr {
-    background-color: #6F9333;
+    background-color: #55830e;
 }
 
 .sv-table-portlet th {
-    background-color: #6F9333;
+    background-color: #55830e;
 }
 
 /* ny tabell */
@@ -378,7 +378,7 @@ color: #6F9333;
 .sv-table-portlet th, .sv-text-portlet table.sv-standard th {
     padding: 10px 10px 11px;
     border-right: 1px solid rgba(255, 255, 255, 0.3);
-    background-color: #6F9333;
+    background-color: #55830e;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
@@ -388,38 +388,38 @@ color: #6F9333;
 }
 
 .sv-text-portlet table.sv-standard th {
-	background-color: #6F9333;
+	background-color: #55830e;
 }
 /* rubrik logo */
 .or-header-topptext{
- color: #6F9333;
+ color: #55830e;
 }
 
 /* blogg commennt */
 .or-blogginfo-blocks:hover .or-comment-expander-text {
-	color: #6F9333;
+	color: #55830e;
 }
 
 .or-month-container .or-month-arrow:hover {
-    color: #6F9333;
+    color: #55830e;
 }
 
-.sitevision-ui-bootstrap .ui-menu .ui-menu-item a.ui-state-focus,.sitevision-ui-bootstrap .ui-menu .ui-menu-item a.ui-state-active,.sitevision-ui-bootstrap .ui-menu .ui-menu-item a.ui-widget-content{font-weight:400;margin:0;color:#fff;background:#6F9333;background-color:#6F9333;background-repeat:repeat-x;background-image:-webkit-linear-gradient(top,#6F9333,#6F9333);background-image:-moz-linear-gradient(top,#6F9333,#6F9333);background-image:-o-linear-gradient(top,#6F9333,#6F9333);background-image:linear-gradient(to bottom,#6F9333,#6F9333);text-shadow:0 0px 0 rgba(0,0,0,0.0);border-color:#08c #0088Cc #0077b3;border-color:rgba(0,0,0,0.0) rgba(0,0,0,0.0) rgba(0,0,0,0.0);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#6F9333',endColorstr='#6F9333',GradientType=0);filter:progid:DXImageTransform.Microsoft.gradient(enabled=false)}
+.sitevision-ui-bootstrap .ui-menu .ui-menu-item a.ui-state-focus,.sitevision-ui-bootstrap .ui-menu .ui-menu-item a.ui-state-active,.sitevision-ui-bootstrap .ui-menu .ui-menu-item a.ui-widget-content{font-weight:400;margin:0;color:#fff;background:#55830e;background-color:#55830e;background-repeat:repeat-x;background-image:-webkit-linear-gradient(top,#55830e,#55830e);background-image:-moz-linear-gradient(top,#55830e,#55830e);background-image:-o-linear-gradient(top,#55830e,#55830e);background-image:linear-gradient(to bottom,#55830e,#55830e);text-shadow:0 0px 0 rgba(0,0,0,0.0);border-color:#08c #0088Cc #0077b3;border-color:rgba(0,0,0,0.0) rgba(0,0,0,0.0) rgba(0,0,0,0.0);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#55830e',endColorstr='#55830e',GradientType=0);filter:progid:DXImageTransform.Microsoft.gradient(enabled=false)}
 
 /* blogg */
 
 .or-blog-wrapper {
-    border-color: #6F9333;
+    border-color: #55830e;
 }
 
 /* fakta */
 .or-facts-block {
-    border-color: #6F9333;
+    border-color: #55830e;
     background-color: #FFF;
 }
 
 .or-facts-block h4, h3, h2 {
-    color: #6F9333;
+    color: #55830e;
 }
 
 /* Steg för steg program*/
@@ -436,25 +436,25 @@ color: #6F9333;
 
 /* topprubrik programsida*/
 .or-stor-bild-text-tv > div:nth-child(2) h1, .or-program-heading-container h1 {
-    color: #6F9333;
+    color: #55830e;
 }
 
 
 /*mm menu */
 .mm-header .mm-title a {
-    color: #6F9333;
+    color: #55830e;
 }
 
 body .mm-menu.mm-vertical .mm-list li.mm-opened.mm-selected > a, body .mm-menu.mm-vertical .mm-list li.mm-opened.mm-selected > a.mm-subopen {
-    background-color: #6F9333;
+    background-color: #55830e;
 }
 
 .mm-menu.mm-vertical .mm-list > li.mm-selected > a:not(.mm-subopen), .mm-menu.mm-vertical .mm-list > li.mm-selected > a.mm-subopen {
-    background: none repeat scroll 0% 0% #6F9333;
+    background: none repeat scroll 0% 0% #55830e;
 }
 
 .mm-menu.mm-vertical .mm-list > li.mm-selected > a:not(.mm-subopen), .mm-menu.mm-vertical .mm-list > li.mm-selected > a.mm-subopen a:hover {
-    background-color: #6F9333;
+    background-color: #55830e;
 }
 
 .mm-list > li > a:hover {
@@ -466,7 +466,7 @@ body .mm-menu.mm-vertical .mm-list li.mm-opened > a:hover {
 }
 
 body .mm-menu.mm-vertical .mm-list li.mm-opened.mm-selected > a, body .mm-menu.mm-vertical .mm-list li.mm-opened.mm-selected > a.mm-subopen {
-    background-color: #6F9333;
+    background-color: #55830e;
 }
 
 
@@ -478,11 +478,11 @@ body .mm-menu.mm-vertical .mm-list li.mm-opened.mm-selected > a, body .mm-menu.m
 
 /* Söksida */
 .sol-facetter p {
-    color: #6F9333;
+    color: #55830e;
 }
 
 li#sol-selected-facet {
-    background-color: #6F9333;
+    background-color: #55830e;
 }
 
 li.sol-selected-facet:hover {
@@ -497,7 +497,7 @@ li.sol-selected-facet:hover {
 }
 
 .sol-sok-ruta input.normal:last-child {
-    background-color: #6F9333;
+    background-color: #55830e;
 }
 .sol-sok-ruta input.normal:last-child:hover {
     background-color: #597729;
@@ -518,8 +518,8 @@ li.sol-selected-facet:hover {
 
 .or-hidden-facet-items-selected {
  transition: all 500ms ease 0s;
- background-color: #6F9333 !important;
- border-bottom-color: #6F9333 !important;
+ background-color: #55830e !important;
+ border-bottom-color: #55830e !important;
  color: #fff;
 }
 
@@ -571,35 +571,35 @@ li.sol-selected-facet:hover {
 }
 
 .or-ny-action:hover .normal .or-action-text a:link{
-	color:#6F9333;
+	color:#55830e;
 }
 
 .or-ny-action:hover .or-action-text a{
-	color:#6F9333;
+	color:#55830e;
     text-decoration: underline;
 }
 
 .or-ny-action span.fa{
-	background-color: #6F9333;
+	background-color: #55830e;
 	color:#fff;
 }
 
 .or-ny-action span.fa::after {
-	border-color: rgba(136, 183, 213, 0) rgba(136, 183, 213, 0) rgba(136, 183, 213, 0) #6F9333;
+	border-color: rgba(136, 183, 213, 0) rgba(136, 183, 213, 0) rgba(136, 183, 213, 0) #55830e;
 }
 /* Slut ny action */
 
 /* Ny action formatmall */
 .sv-font-action-penna:before, .sv-font-action-pil:before, .sv-font-action-karta:before, .sv-font-action-facebook:before, .sv-font-action-twitter:before {
-    background-color: #6F9333;
+    background-color: #55830e;
 }
 
 body .sv-font-action-penna.or-wrapper-click:hover, body .sv-font-action-pil.or-wrapper-click:hover, body .sv-font-action-karta.or-wrapper-click:hover, body .sv-font-action-facebook.or-wrapper-click:hover, body .sv-font-action-twitter.or-wrapper-click:hover {
-    color: #6F9333;
+    color: #55830e;
 }
 
 .sv-font-action-penna:hover a, .sv-font-action-pil:hover a, .sv-font-action-karta:hover a, .sv-font-action-facebook:hover a, .sv-font-action-twitter:hover a{
-    color: #6F9333;
+    color: #55830e;
 }
 
 /* Slut ny action formatmall */
@@ -607,7 +607,7 @@ body .sv-font-action-penna.or-wrapper-click:hover, body .sv-font-action-pil.or-w
 
 /* Action element */
 .or-elmt-actn:hover .or-elmt-actn-link {
-	color: #6F9333
+	color: #55830e
 }
 
 .or-elmt-actn-row  {	
@@ -615,11 +615,11 @@ body .sv-font-action-penna.or-wrapper-click:hover, body .sv-font-action-pil.or-w
 }
 
 .or-elmt-actn-row:after {
-	border-left-color: #6F9333;
+	border-left-color: #55830e;
 }
 
 .or-elmt-actn-icon {
-	background-color: #6F9333;	
+	background-color: #55830e;	
 }
 
 /* Slut Action Element */
