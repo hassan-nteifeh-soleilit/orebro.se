@@ -482,12 +482,12 @@ section.or-top-header {
 
 /* PUFF IKON OCH LÄNK START --------------------*/
 .or-puff-icon-link{
-    width: 97%;
+    width: 94%;
     margin-bottom: 16px;
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: 3%;
+    margin-left: 3%;
     float: none;
-    max-width: 590px;
+    
 }
 
 
