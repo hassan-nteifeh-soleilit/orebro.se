@@ -382,7 +382,7 @@ form.or-search-field button:hover {
     font-family: futura-pt,sans-serif;
     font-size: 15px;
     text-align: center;
-	box-sizing: border-box;
+    box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
 }
@@ -750,8 +750,8 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3 {
 
 /*Länkbox relaterade länkar*/
 .or-teaser-box.or-related-links .or-text-content .or-teaser-list li:hover .or-link-name {
-	text-decoration: underline;
-	color: #017cdb;
+    text-decoration: underline;
+    color: #017cdb;
 }
 
 .or-teaser-box.or-related-documents .or-text-content .or-teaser-list li {
@@ -763,7 +763,7 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3 {
 }
 
 .or-teaser-box.or-related-documents .or-text-content .or-teaser-list li:hover .or-link-name {
-	color:#0b4a89
+    color:#0b4a89
 }
 
 ul.or-teaser-list {
@@ -814,13 +814,13 @@ ul.or-teaser-list {
 }
 
 .or-file-icon{
-	width: 24px;
-	height: 24px;
+    width: 24px;
+    height: 24px;
 }
 
 body img.or-file-icon{
-	width: 24px;
-	height: 24px;
+    width: 24px;
+    height: 24px;
 }
 
 .or-teaser-box .or-file-size {
@@ -835,21 +835,21 @@ body img.or-file-icon{
 .or-teaser-box.or-related-links .or-text-content .or-teaser-list li a .or-link-name {
     top: 50%;
     margin-top: -13px;
-	text-decoration: underline;
-	color: #017cdb;
+    text-decoration: underline;
+    color: #017cdb;
     margin-right: 4px;
     font-size: 13px;
 }
 
 .or-teaser-box.or-related-links .or-text-content .or-teaser-list li a .or-link-name:hover {
-	color: #0b4a89;
+    color: #0b4a89;
 }
 
 .or-teaser-box.or-related-documents .or-text-content .or-teaser-list li a .or-link-name {
     top: 50%;
     margin-top: -13px;
-	text-decoration: underline;
-	color: #017cdb;
+    text-decoration: underline;
+    color: #017cdb;
     margin-right: 4px;
     font-size: 13px;
 }
@@ -1238,7 +1238,7 @@ span.sol-hit-count {
     width: auto !important;
     display: inline !important;
     float: none;
-	text-decoration:underline;
+    text-decoration:underline;
     word-wrap: break-word;
 }
 
@@ -1632,7 +1632,7 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
     }
 }
 .or-did-you-mean.normal, .or-hit-count {
-	margin-left: 15px !important;
+    margin-left: 15px !important;
 }
 
 
@@ -1750,7 +1750,7 @@ footer {
 .or-footer-icon-links a {
     font-family: "leaguespartan webfont",sans-serif;
     color: #35383b;
-	text-decoration:underline;
+    text-decoration:underline;
     margin-right: 50px;
     font-size: 12px;
     display: inline-block;
@@ -1762,7 +1762,7 @@ footer {
 }
 
 .or-footer-icon-links a:hover {
-	color: #e83c23;
+    color: #e83c23;
 }
 
 .or-footer-icon-links i {
@@ -2390,13 +2390,13 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
 }
 .or-kontaktpersoner-container h1, .or-kontaktpersoner-container h2, .or-kontaktpersoner-container h3,
 .or-kontaktpersoner-container h4, .or-kontaktpersoner-container h5, .or-kontaktpersoner-container h6 {
-	font-size: 16px !important;
-	font-weight: bold;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: 1.4em;
-	margin-top: 0!important;
-	margin-bottom: 0 !important;
+    font-size: 16px !important;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.4em;
+    margin-top: 0!important;
+    margin-bottom: 0 !important;
 }
 
 .or-kontaktpersoner-container:after {
@@ -2410,14 +2410,14 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
     line-height: 22.4px;
 }
 .or-kontaktpersoner-container .normal {
-	font-size: 16px !important;
-	font-weight: normal;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: 1.43;
-	letter-spacing: normal;
-	text-align: left;
-	color: #35383b;
+    font-size: 16px !important;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: left;
+    color: #35383b;
     line-height: 1.6em;
 }
 
@@ -2441,7 +2441,7 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
     flex: 1;
     margin: 0 10px;
 }
-@media (min-width: 768px)
+@media (min-width: 768px) {
     .tabs-plusbox:not(.sv-editable-layout) > div:first-child {
         margin-right: 40px;
     }
@@ -2503,18 +2503,18 @@ a.kontaktaxossxxxbrodtext,.kontaktaxossxxxbrodtext a,a.kontaktaxossxxxbrodtext:l
 
 .or-element-kontaktpersoner__item-info a:visited,
 body a.kontaktaxossxxxbrodtext:visited,body .kontaktaxossxxxbrodtext a:visited {
-	color: #6b0771;
+    color: #6b0771;
 }
 
 .or-element-kontaktpersoner__item-info a:hover,
 body a.kontaktaxossxxxbrodtext:hover,body .kontaktaxossxxxbrodtext a:hover {
-	color:#0b4a89;
+    color:#0b4a89;
 }
 
 .or-element-kontaktpersoner__item-info a:focus,
 body a.kontaktaxossxxxbrodtext:focus,body .kontaktaxossxxxbrodtext a:focus {
-	color:#890b0b;
-	background-color:#ddd;
+    color:#890b0b;
+    background-color:#ddd;
 }
 
 .or-sok-person-action > div,.or-felanmalan-action > div,.or-synpunkter-action > div {
@@ -2593,7 +2593,7 @@ ul > li.kontaktaxossxxxbrodtext:last-child {
 
 /* formulär */
 .sv-defaultFormTheme{
-	 background-color: rgba(177, 177, 176, 0.17);
+     background-color: rgba(177, 177, 176, 0.17);
     padding: 5px 15px;
     border-radius: 3px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
@@ -2695,7 +2695,7 @@ ul > li.kontaktaxossxxxbrodtext:last-child {
     display: inline-block;
     font-family: "leaguespartan webfont",sans-serif;
     margin-top: 10px;
-	line-height: 1.3em;
+    line-height: 1.3em;
 }
 
 .sv-formFieldRow,.sv-formField {
@@ -3004,7 +3004,7 @@ input[type="file" i]::-webkit-file-upload-button:hover {
 }
 
 .or-news-list li:hover h3 a {
-	color:#e83c23;
+    color:#e83c23;
 }
 
 .or-news-list li:hover p {
@@ -3014,7 +3014,7 @@ input[type="file" i]::-webkit-file-upload-button:hover {
 .or-news-list h3 a {
     font-family: "leaguespartan webfont",sans-serif;
     font-size: 16px;
-	text-decoration:underline;
+    text-decoration:underline;
 }
 
 .or-news-list h3 a:hover {
@@ -3613,7 +3613,7 @@ section.or-bg-one {
     border: 0 solid #ecebe6;
     border-left-width: 5px;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.15);
-	border-radius: 3px;
+    border-radius: 3px;
 }
 .driftstorningar-container li a::after {
     position: absolute;
@@ -3640,7 +3640,7 @@ section.or-bg-one {
     right: 3px;
 }
 .driftstorningar-container li a {
-	box-sizing: border-box;
+    box-sizing: border-box;
     padding-right: 25px;
 }
 .driftstorningar-container li a:focus {
@@ -3651,7 +3651,7 @@ section.or-bg-one {
 }
 .driftstorningar-container li a:link:hover span{
     text-decoration: underline;
-	color:#35383b;
+    color:#35383b;
 }
 .driftstorningar-container li:nth-child(odd) {
     margin-right: 10px;
@@ -4235,8 +4235,8 @@ body .or-start-heading-divider .normal {
 }
 
 .or-sok-politiker ul li a[shape="rect"], .or-sok-politiker ul li a:hover[shape="rect"]  {
-	box-shadow: rgba(174,222,239,0)0px -15px 0 -11px inset;
-	margin: 0px;
+    box-shadow: rgba(174,222,239,0)0px -15px 0 -11px inset;
+    margin: 0px;
 }
 
 .or-sok-politiker ul li:hover {
@@ -4280,8 +4280,8 @@ body .or-start-heading-divider .normal {
 }
 
 .or-sokt-politiker p{
-	font-size: 15px;
-	line-height: 1.6em;
+    font-size: 15px;
+    line-height: 1.6em;
 }
 
 .or-sokt-politiker .or-sok-politiker tr td div strong {
@@ -4303,17 +4303,17 @@ body .or-start-heading-divider .normal {
     font-style: normal;
     font-size: 14px;
     color: #35383b;
-	text-decoration: underline;
-	color: #017cdb;
+    text-decoration: underline;
+    color: #017cdb;
     line-height: 1.6em;
 }
 
 .or-sokt-politiker .or-sok-politiker b a:hover {
-	color:#0b4a89;
+    color:#0b4a89;
 }
 
 .or-sokt-politiker .or-sok-politiker b a:visited{
-	color:#6b0771;
+    color:#6b0771;
 }
 
 .or-sokt-politiker .or-sok-politiker b {
@@ -4371,8 +4371,8 @@ body .or-start-heading-divider .normal {
 }
 
 .or-sokt-politiker .or-sok-politiker div a:hover {
-	box-shadow: rgba(174,222,239,0) 0 -41px 0 -23px inset;
-	}
+    box-shadow: rgba(174,222,239,0) 0 -41px 0 -23px inset;
+    }
 
 .or-sokt-politiker .or-sok-politiker td {
     padding-left: 0;
@@ -4588,8 +4588,8 @@ body .or-start-heading-divider .normal {
 }
 
 .or-ny-sokning:hover{
-	 background-color: #5e5e5e;
-	 border-color: #000;
+     background-color: #5e5e5e;
+     border-color: #000;
 }
 
 .or-sokt-politiker a.or-ny-sokning {
@@ -5154,8 +5154,8 @@ body .or-puff-link .or-puff-icon-link .normal {
 }
 .or-puff-icon-header-text .normal a:link,body .or-puff-icon-header-text .normal, .or-puff-icon-header-text .normal a:visited, .or-puff-icon-header-text .normal a:focus {
     /*box-shadow: rgba(255,255,255,0)0px 0 0 0 inset;*/
-	color:#35383b;
-	text-decoration:none;
+    color:#35383b;
+    text-decoration:none;
     font-weight: 300;
     font-size: 15px;
     line-height: normal;
@@ -5163,7 +5163,7 @@ body .or-puff-link .or-puff-icon-link .normal {
 }
 
 .or-puff-icon-header-text .normal a:hover{
-	color:#35383b;
+    color:#35383b;
 }
 
 
@@ -5208,7 +5208,7 @@ body .or-puff-link .or-puff-icon-link .normal {
     -o-transition: color .3s ease-in;
     -ms-transition: color .3s ease-in;
     transition: color .3s ease-in;
-	box-shadow: rgba(174,222,239,0.0)0px -14px 0 -10px inset;
+    box-shadow: rgba(174,222,239,0.0)0px -14px 0 -10px inset;
 }
 
 
@@ -5218,7 +5218,7 @@ body .or-puff-link .or-puff-icon-link .normal {
 
 .or-puff-icon-header-text.or-wrapper-click:hover .normal a:link {
     text-decoration: underline;
-	box-shadow: rgba(255,255,255,0)0px 0 0 0 inset;
+    box-shadow: rgba(255,255,255,0)0px 0 0 0 inset;
 }
 
 .or-puff-icon-header-text > div:last-of-type {
@@ -5239,7 +5239,7 @@ body .or-puff-link .or-puff-icon-link .normal {
 }
 
 .sv-responsive .pagecontent .sv-image-portlet img{
-	margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 /* Badvattenkvalitet */
@@ -5494,16 +5494,16 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
 }
 
 .livsmedelsrapport td a:visited {
-	color:#6b0771;
+    color:#6b0771;
 }
 
 .livsmedelsrapport td a:hover {
-	color:#0b4a89;
+    color:#0b4a89;
 }
 
 .livsmedelsrapport td a:focus, .livsmedelsrapport td a:active  {
-	color:#890b0b;
-	background-color:#ddd;
+    color:#890b0b;
+    background-color:#ddd;
 }
 
 .livsmedelsrapport .odd td {
@@ -5804,7 +5804,7 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
 }
 .or-social-media-follow-startpage a:hover {
     /*box-shadow: rgba(174,222,239,0.65) 0 -41px 0 -23px inset;*/
-	color:#e83c23;
+    color:#e83c23;
 }
 
 .social-bg-circle {
@@ -6741,7 +6741,7 @@ body .SokIngetResultat {
    box-shadow: 0 0 6px -2px rgba(0,0,0,0.8);
    border-radius:2px;
    display:none;
-	position:absolute;
+    position:absolute;
    margin-top:-150px;
    margin-bottom:50px;
    z-index:12;
@@ -6773,12 +6773,12 @@ body .SokIngetResultat {
 }
 
 .or-language-modal-close:hover {
-	background-color: #333;
+    background-color: #333;
 }
 
 /*videoklipp*/
 .sv-responsive .sv-video-container{
-	margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 /* Puff row 2 startpage */
