@@ -5098,6 +5098,28 @@ body .or-start-heading-divider .normal {
 }
 
 
+.or-puff-icon-link:hover .rubrikx4{
+    color: #f28c00;
+}
+
+.or-puff-icon-link:hover .kontaktaxossxxxbrodtext{
+    text-decoration: underline;
+}
+
+
+.or-puff-icon-link .kontaktaxossxxxbrodtext{
+    line-height: 1.4;
+}
+
+.or-puff-icon-link a {
+    text-decoration: none !important;
+    color: black;
+}
+
+.or-puff-icon-link a:active {
+    color: black!important;
+}
+
 
 .or-puff-icon-link .kontaktaxossxxxbrodtext a
 .or-puff-icon-link .kontaktaxossxxxbrodtext:visited,
@@ -5157,29 +5179,6 @@ body .or-puff-link .or-puff-icon-link .normal {
 /*color: #e83c23;*/
     color: #000;
     margin-bottom: 0;
-}
-
-.or-puff-icon-link:hover .rubrikx4{
-    color: #f28c00;
-}
-
-.or-puff-icon-link:hover .kontaktaxossxxxbrodtext{
-    text-decoration: underline;
-}
-
-
-
-.or-puff-icon-link .kontaktaxossxxxbrodtext{
-    line-height: 1.4;
-}
-
-.or-puff-icon-link a {
-    text-decoration: none !important;
-    color: black;
-}
-
-.or-puff-icon-link a:active {
-    color: black!important;
 }
 
 .or-puff-link::after {
