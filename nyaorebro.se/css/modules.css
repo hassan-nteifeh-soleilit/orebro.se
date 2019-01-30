@@ -5085,7 +5085,6 @@ body .or-start-heading-divider .normal {
 .or-puff-icon-link .normal{
     font-size: 14px !important;
     font-weight: 300;
-    
     line-height: normal;
 }
 
@@ -5107,6 +5106,10 @@ body .or-start-heading-divider .normal {
 
 .or-puff-icon-link:hover .normal{
     text-decoration: underline;
+}
+
+.or-puff-icon-link:hover .ikonxorange{
+    text-decoration: none!important;
 }
 
 .or-puff-icon-link a {
