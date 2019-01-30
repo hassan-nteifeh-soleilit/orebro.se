@@ -2431,7 +2431,6 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
     width: 100%;
     white-space: nowrap;
     overflow: hidden;
-    height: 12px;
     text-overflow: ellipsis;
     display: flex;
     flex-direction: row;
@@ -2445,6 +2444,10 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
     margin-top: -3px;  
 }
 
+.or-plus-box-diskret-header.or-plus-box-active .plusboxxrubrik,
+.or-plus-box-header:hover .plusboxxrubrik {
+  color: #E83C23;
+}
 
 .or-plus-box-active .plusboxxrubrik .fa-lattlast,
 .or-plus-box-header:hover .plusboxxrubrik .fa-lattlast {
@@ -2486,23 +2489,6 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
 }
 .tabs-plusbox.sv-editable-layout .tabs-plusbox-content {
     display: none!important;
-}
-
-.fa-lattlast {
-    width: 20px;
-    height: 12px;
-}
-.fa-lattlast:before {
-    content: "";
-    background-image: url('/images/18.1013a44116845d8ca50199/1548840937791/LattLast.svg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 14px;
-    width: 14px;
-    height: 14px;
-    display: block;
-    vertical-align: middle;
-    position: absolute;
 }
 
 @media (min-width: 768px) {
