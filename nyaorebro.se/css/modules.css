@@ -2433,6 +2433,27 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
     overflow: hidden;
     height: 12px;
     text-overflow: ellipsis;
+    display: flex;
+    flex-direction: row;
+}
+
+.tabs-plusbox .plusboxxrubrik svg {
+    width: 20px;
+    height: 18px;
+    line-height: 18px;
+    display: flex;
+    margin-top: -3px;  
+}
+
+
+.or-plus-box-active .plusboxxrubrik .fa-lattlast,
+.or-plus-box-header:hover .plusboxxrubrik .fa-lattlast {
+    fill: #E83C23;
+}
+
+.or-plus-box-active .plusboxxrubrik .fa-teckensprak *,
+.or-plus-box-header:hover .fa-teckensprak * {
+    stroke: #E83C23;
 }
 
 .tabs-plusbox:not(.sv-editable-layout) {
@@ -2465,6 +2486,23 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
 }
 .tabs-plusbox.sv-editable-layout .tabs-plusbox-content {
     display: none!important;
+}
+
+.fa-lattlast {
+    width: 16px;
+    height: 12px;
+}
+.fa-lattlast:before {
+    content: "";
+    background-image: url('/images/18.1013a44116845d8ca50199/1548840937791/LattLast.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 14px;
+    width: 14px;
+    height: 14px;
+    display: block;
+    vertical-align: middle;
+    position: absolute;
 }
 
 @media (min-width: 768px) {
