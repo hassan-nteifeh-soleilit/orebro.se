@@ -2454,7 +2454,7 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
         margin-right: 40px;
     }
 }
-@media (min-width: 480px) {
+@media (max-width: 480px) {
     .tabs-plusbox:not(.sv-editable-layout) {
         margin: 0 -3px;
     }
