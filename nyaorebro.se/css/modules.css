@@ -5076,16 +5076,6 @@ body .or-start-heading-divider .normal {
     -moz-box-sizing: border-box;
 }
 
-
-.or-puff-icon-link .kontaktaxossxxxbrodtext a
-.or-puff-icon-link .kontaktaxossxxxbrodtext:visited,
-.or-puff-icon-link .kontaktaxossxxxbrodtext a:visited,
-.or-puff-icon-link .kontaktaxossxxxbrodtext:hover,
-.or-puff-icon-link .kontaktaxossxxxbrodtext:active{
-    color: black!important;
-}
-
-
 .or-puff-icon-link .ikonxorange{
     font-size: 2em !important;
     margin-left: 0.4em;
@@ -5106,6 +5096,19 @@ body .or-start-heading-divider .normal {
     -ms-transition: color .3s ease-in;
     transition: color .3s ease-in;
 }
+
+
+
+.or-puff-icon-link .kontaktaxossxxxbrodtext a
+.or-puff-icon-link .kontaktaxossxxxbrodtext:visited,
+.or-puff-icon-link .kontaktaxossxxxbrodtext a:visited,
+.or-puff-icon-link .kontaktaxossxxxbrodtext:hover,
+.or-puff-icon-link .kontaktaxossxxxbrodtext:active{
+    color: black!important;
+}
+
+
+
 
 .or-puff-link .or-puff-icon-link .sv-linkicon {
     padding-left: 8px;
