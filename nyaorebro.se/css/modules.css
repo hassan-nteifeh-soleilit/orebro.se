@@ -5083,7 +5083,7 @@ body .or-start-heading-divider .normal {
 }
 
 .or-puff-icon-link .normal{
-    font-size: 14px;
+    font-size: 14px !important;
     line-height: 1.4;
 }
 
