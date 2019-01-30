@@ -1801,6 +1801,17 @@ body:not(.sv-editing-mode) .or-plus-box-program.or-plus-box-content caption, bod
     flex-direction: row;
 }
 
+.tabs-plusbox .or-plus-box-header {
+    border-color: #edeaea;
+}
+.tabs-plusbox .or-plus-box-header.or-plus-box-active {
+    background-color: #fff;
+}
+
+.tabs-plusbox .or-plus-box-diskret-header .plusboxxrubrik {
+    color: #000;
+}
+
 .tabs-plusbox .plusboxxrubrik svg {
     width: 20px;
     height: 18px;
@@ -1809,18 +1820,18 @@ body:not(.sv-editing-mode) .or-plus-box-program.or-plus-box-content caption, bod
     margin-top: -3px;  
 }
 
-.or-plus-box-diskret-header.or-plus-box-active .plusboxxrubrik,
-.or-plus-box-header:hover .plusboxxrubrik {
-  color: #E83C23;
+.tabs-plusbox .or-plus-box-diskret-header.or-plus-box-active .plusboxxrubrik,
+.tabs-plusbox .or-plus-box-header:hover .plusboxxrubrik {
+    color: #E83C23;
 }
 
-.or-plus-box-active .plusboxxrubrik .fa-lattlast,
-.or-plus-box-header:hover .plusboxxrubrik .fa-lattlast {
+.tabs-plusbox .or-plus-box-active .plusboxxrubrik .fa-lattlast,
+.tabs-plusbox .or-plus-box-header:hover .plusboxxrubrik .fa-lattlast {
     fill: #E83C23;
 }
 
-.or-plus-box-active .plusboxxrubrik .fa-teckensprak *,
-.or-plus-box-header:hover .fa-teckensprak * {
+.tabs-plusbox .or-plus-box-active .plusboxxrubrik .fa-teckensprak *,
+.tabs-plusbox .or-plus-box-header:hover .fa-teckensprak * {
     stroke: #E83C23;
 }
 
