@@ -5121,7 +5121,9 @@ body .or-start-heading-divider .normal {
     color: black!important;
 }
 
-
+.or-puff-icon-link a,
+.or-puff-icon-link a:visited,
+.or-puff-icon-link a:active,
 .or-puff-icon-link .normal a
 .or-puff-icon-link .normal:visited,
 .or-puff-icon-link .normal a:visited,
