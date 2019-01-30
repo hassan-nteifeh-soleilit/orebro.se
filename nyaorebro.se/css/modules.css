@@ -2421,18 +2421,36 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
     line-height: 1.6em;
 }
 
+
 /* Plusbox med ikon - Gäller Alla*/
 .plusboxxrubrik .fa {
     margin-right: 6px;
 }
 
+.tabs-plusbox:not(.sv-editable-layout) {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+}
+
 .tabs-plusbox:not(.sv-editable-layout) > div:not(.tabs-plusbox-content) {
     display: inline-block;
     max-width: 240px;
-    width: 100%;
+    width: 50%;
+    flex: 1;
+    margin: 0 10px;
 }
-.tabs-plusbox:not(.sv-editable-layout) > div:first-child {
-    margin-right: 40px;
+@media (min-width: 768px)
+    .tabs-plusbox:not(.sv-editable-layout) > div:first-child {
+        margin-right: 40px;
+    }
+}
+
+.tabs-plusbox:not(.sv-editable-layout) .tabs-plusbox-content {
+    order: 1;
+    width: 100%;
+    margin: 0 10px;
 }
 
 .tabs-plusbox:not(.sv-editable-layout) :not(.tabs-plusbox-content) .or-plus-box-content {
