@@ -5076,7 +5076,7 @@ body .or-start-heading-divider .normal {
     -moz-box-sizing: border-box;
 }
 
-.or-puff-icon-link .ikonxorange{
+.or-puff-icon-link .normal .ikonxorange{
     font-size: 2em !important;
     margin-left: 0.4em;
     padding-right: 0.3em; 
@@ -5112,7 +5112,7 @@ body .or-start-heading-divider .normal {
     text-decoration: underline;
 }
 
-.or-puff-icon-link:hover .ikonxorange{
+.or-puff-icon-link:hover .normal .ikonxorange{
     text-decoration: none!important;
 }
 
