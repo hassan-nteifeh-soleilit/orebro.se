@@ -505,7 +505,9 @@ section.or-top-header {
     margin-left: 0;
 }
 
-
+.or-puff-icon-link .normal a {
+    font-size: 14px!important;
+}
 
 
 /* PUFF IKON OCH LÄNK SLUT ------------------------*/
