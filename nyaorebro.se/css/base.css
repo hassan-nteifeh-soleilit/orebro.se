@@ -304,6 +304,7 @@ header .or-logo {
     font-size: 19px;
     margin-top: 25px;
     font-family: "leaguespartan webfont",sans-serif;
+    font-weight: 800;
 }
 
 .or-header-bottomtext{
@@ -313,6 +314,7 @@ header .or-logo {
 	margin-bottom: 0px;
 	font-size: 16px;
 	font-family: "leaguespartan webfont",sans-serif;
+	font-weight: 800;
 }
 
 
