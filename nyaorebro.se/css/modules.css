@@ -84,7 +84,7 @@ form.or-search-field input {
     border: 1px solid #ccc;
     border-style: solid;
     border-width: 1px;
-    border-color: #857672;
+    border-color: #817370;
     border-color: rgba(133,118,114,0.2);
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
@@ -124,7 +124,7 @@ form.or-search-field button {
 }
 
 form.or-search-field button:hover {
-    background-color: #857672;
+    background-color: #817370;
 }
 
 .or-search-button-wrapper {
@@ -160,7 +160,7 @@ form.or-search-field button:hover {
 }
 
 .or-menu-button-container .fa:hover {
-    background-color: #857672;
+    background-color: #817370;
 }
 
 .or-menu-button-container .fa :before {
@@ -243,7 +243,7 @@ form.or-search-field button:hover {
     margin-left: auto;
     padding-top: 3px;
     float: none;
-    border-top: 1px dotted #857672;
+    border-top: 1px dotted #817370;
     border-top: 1px dotted rgba(133,118,114,0.2);
     font-size: 11px;
     line-height: 11px;
@@ -338,7 +338,7 @@ form.or-search-field button:hover {
     -moz-transition: all 500ms ease;
     -o-transition: all 500ms ease;
     transition: all 500ms ease;
-    color: #857672;
+    color: #817370;
     font-weight: 400;
     text-align: center;
 }
@@ -520,7 +520,7 @@ form.or-search-field button:hover {
 .or-month-text,.or-month-text a {
     margin-right: 6px;
     margin-left: 6px;
-    color: #857672;
+    color: #817370;
 }
 
 .or-month-text,.or-month-text a {
@@ -536,7 +536,7 @@ form.or-search-field button:hover {
 
 .or-month-container .or-month-arrow {
     font-size: 16px;
-    color: #857672;
+    color: #817370;
 }
 
 .or-month-container .or-month-arrow:hover {
@@ -693,7 +693,7 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3 {
 }
 
 .or-teaser-box .or-title {
-    background: #857672;
+    background: #817370;
     padding: 6px 15px 7px;
     min-height: 23px;
     border-top-left-radius: 2px;
@@ -701,7 +701,7 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3 {
 }
 
 .or-teaser-box.or-related-links .or-title {
-    background: #857672;
+    background: #817370;
 }
 
 .or-teaser-box .or-title span {
@@ -751,7 +751,7 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3 {
 /*Länkbox relaterade länkar*/
 .or-teaser-box.or-related-links .or-text-content .or-teaser-list li:hover .or-link-name {
     text-decoration: underline;
-    color: #017cdb;
+    color: #0081A2;
 }
 
 .or-teaser-box.or-related-documents .or-text-content .or-teaser-list li {
@@ -795,7 +795,7 @@ ul.or-teaser-list {
 }
 
 .or-teaser-box .or-file-icon-container {
-    color: #857672;
+    color: #817370;
     font-size: 18px;
     text-align: left;
     line-height: 16px;
@@ -836,7 +836,7 @@ body img.or-file-icon{
     top: 50%;
     margin-top: -13px;
     text-decoration: underline;
-    color: #017cdb;
+    color: #0081A2;
     margin-right: 4px;
     font-size: 13px;
 }
@@ -849,7 +849,7 @@ body img.or-file-icon{
     top: 50%;
     margin-top: -13px;
     text-decoration: underline;
-    color: #017cdb;
+    color: #0081A2;
     margin-right: 4px;
     font-size: 13px;
 }
@@ -913,7 +913,7 @@ body .or-update-date {
     font-size: 12px;
     display: block;
     margin-top: 9px;
-    color: #857672;
+    color: #817370;
 }
 
 .or-thumbup {
@@ -924,7 +924,7 @@ body .or-update-date {
     -moz-transition: all 500ms ease;
     -o-transition: all 500ms ease;
     transition: all 500ms ease;
-    background-color: #857672;
+    background-color: #817370;
     border-bottom-color: rgba(255,255,255,0.09);
     border-bottom-style: solid;
     color: #FFF;
@@ -948,7 +948,7 @@ body .or-update-date {
     -moz-transition: all 500ms ease;
     -o-transition: all 500ms ease;
     transition: all 500ms ease;
-    background-color: #857672;
+    background-color: #817370;
     border-bottom-color: rgba(255,255,255,0.09);
     border-bottom-style: solid;
     color: #fff!important;
@@ -997,7 +997,7 @@ body .or-update-date {
     -khtml-opacity: .2;
     -moz-opacity: .2;
     -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=20);
-    background-color: #857672;
+    background-color: #817370;
     filter: alpha(opacity=20);
     opacity: .2;
 }
@@ -1460,7 +1460,7 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
 }
 
 .sol-facetter .or-show-hiden-facet-items {
-    background-color: #857672;
+    background-color: #817370;
     border-bottom: 2px dotted transparent;
     color: #fff;
 }
@@ -1606,7 +1606,7 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
     font-weight: bold;
 }
 .or-totalsearch-result__link a {
-    color: #017cdb;
+    color: #0081A2;
     text-decoration: underline;
 }
 .or-totalsearch-result__link a:visited {
@@ -2246,7 +2246,7 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
 }
 
 .or-plus-box-active .or-icon-plus:before {
-    color: #857672;
+    color: #817370;
 }
 
 .or-collapse-button {
@@ -2301,7 +2301,7 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
 .or-plus-box-diskret-header .or-icon-plus::before {
     content: "\f067";
     font-family: FontAwesome;
-    color: #857672;
+    color: #817370;
     font-size: 15px;
     top: -1px;
 }
@@ -2319,7 +2319,7 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
 }
 
 .or-plus-box-diskret-header.or-plus-box-active .or-collapse-button {
-    background-color: #857672;
+    background-color: #817370;
 }
 
 .or-plus-box-diskret-header.or-plus-box-active .or-collapse-button .or-icon-plus:before {
@@ -2331,7 +2331,7 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
 }
 
 .or-plus-box-diskret-header .or-collapse-button.or-colorbg.or-plus-box-active {
-    background-color: #857672;
+    background-color: #817370;
 }
 
 .or-plus-box-diskret-header .or-plus-box-active .or-icon-plus:before {
@@ -2566,7 +2566,7 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
 /* Kontakt och tyck till */
 .or-element-kontaktpersoner__item-info a,
 a.kontaktaxossxxxbrodtext,.kontaktaxossxxxbrodtext a,a.kontaktaxossxxxbrodtext:link,.kontaktaxossxxxbrodtext a:link,a.kontaktaxossxxxbrodtext:visited,.kontaktaxossxxxbrodtext a:visited,a.kontaktaxossxxxbrodtext:active,.kontaktaxossxxxbrodtext a:active {
-    color: #017cdb;
+    color: #0081A2;
     text-decoration: underline;
     line-height: normal;
     cursor: pointer;
@@ -2951,7 +2951,7 @@ input[type="file" i]::-webkit-file-upload-button:hover {
 }
 
 .or-year.or-parent.or-expanded .or-toggle-icon {
-    background-color: #857672;
+    background-color: #817370;
 }
 
 .or-year.or-parent.or-expanded .or-toggle-icon:before {
@@ -3219,7 +3219,7 @@ input[type="file" i]::-webkit-file-upload-button:hover {
 }
 
 .or-category .or-toggle-icon:before,.or-daterange .or-toggle-icon:before {
-    color: #857672;
+    color: #817370;
 }
 
 /*  Fildelningsmodul  */
@@ -3386,7 +3386,7 @@ body .sv-text-portlet table.sv-standard td p,body .sv-text-portlet table.sv-stan
 body .sv-text-portlet table.sv-standard td p span {
     font-size: 11px;
     font-weight: 300;
-    color: #857672;
+    color: #817370;
     display: block;
     margin-top: 3px;
 }
@@ -3557,7 +3557,7 @@ section.or-bg-one {
 }
 
 .or-openhours-contact td p strong {
-    color: #857672;
+    color: #817370;
     position: relative;
     padding-left: 13px;
     font-weight: 400 !important;
@@ -3793,7 +3793,7 @@ section.or-bg-one {
 }
 
 .or-red-header-box .box-header {
-    background-color: rgba(232,60,35,0.9);
+    background-color: #D63823;
     padding: 10px 10px 9px;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
@@ -3824,7 +3824,7 @@ section.or-bg-one {
 }
 
 .or-red-header-box .sv-font-action-pil:before {
-    background-color: #857672;
+    background-color: #817370;
     font: normal normal normal 12px/34px FontAwesome;
     width: 31px;
 }
@@ -4225,7 +4225,7 @@ body .or-start-heading-divider .normal {
     border: 2px solid rgba(133,118,114,0.3);
     font-family: "leaguespartan webfont",sans-serif;
     font-size: 12px;
-    color: #857672;
+    color: #817370;
     float: none;
     margin-top: 5px;
     display: inline-block;
@@ -4233,7 +4233,7 @@ body .or-start-heading-divider .normal {
 }
 
 .or-news-list.or-small .or-more-news:hover {
-    background-color: #857672;
+    background-color: #817370;
     color: #fff;
 }
 
@@ -4244,7 +4244,7 @@ body .or-start-heading-divider .normal {
 
 /* Startsida puffar */
 .or-puff-startpage-footer {
-    background-color: rgba(255,255,255,0.4);
+    background-color: #FAFAFA;
     padding-top: 45px;
     border-top: 6px solid #F6F4F2;
 }
@@ -4334,7 +4334,7 @@ body .or-start-heading-divider .normal {
     font-family: "open sans",sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #017cdb;
+    color: #0081A2;
     text-decoration: underline;
     line-height: normal;
     cursor: pointer;
@@ -4375,7 +4375,7 @@ body .or-start-heading-divider .normal {
     font-size: 14px;
     color: #35383b;
     text-decoration: underline;
-    color: #017cdb;
+    color: #0081A2;
     line-height: 1.6em;
 }
 
@@ -4400,7 +4400,7 @@ body .or-start-heading-divider .normal {
 }
 
 .or-sokt-politiker .or-sok-politiker div a {
-    background-color: #857672;
+    background-color: #817370;
     display: inline-block;
     padding: 8px 20px 6px;
     margin-bottom: 0;
@@ -4496,7 +4496,7 @@ body .or-start-heading-divider .normal {
     border: 0 1px 1px 1px solid #ccc;
     border-style: solid;
     border-width: 1px;
-    border-color: #857672;
+    border-color: #817370;
     border-color: rgba(133,118,114,0.2);
     border-radius: 2px;
     -moz-border-radius: 2px;
@@ -4515,7 +4515,7 @@ body .or-start-heading-divider .normal {
 }
 
 .or-sok-politiker form input[type="submit"] {
-    background-color: #857672;
+    background-color: #817370;
     display: inline-block;
     padding: 8px 20px 6px;
     margin-bottom: 0;
@@ -4574,7 +4574,7 @@ body .or-start-heading-divider .normal {
     border: 1px solid #ccc;
     border-style: solid;
     border-width: 1px;
-    border-color: #857672;
+    border-color: #817370;
     border-color: rgba(133,118,114,0.2);
     border-radius: 2px;
     -moz-border-radius: 2px;
@@ -4622,7 +4622,7 @@ body .or-start-heading-divider .normal {
 .or-ny-sokning {
     visibility: visible;
     display: block;
-    background-color: #857672;
+    background-color: #817370;
     padding: 8px 20px 6px;
     margin-bottom: 0;
     font-weight: 400;
@@ -4918,7 +4918,7 @@ body .or-start-heading-divider .normal {
     border: 0 1px 1px 1px solid #ccc;
     border-style: solid;
     border-width: 1px;
-    border-color: #857672;
+    border-color: #817370;
     border-color: rgba(133,118,114,0.2);
     border-radius: 2px;
     -moz-border-radius: 2px;
@@ -4937,7 +4937,7 @@ body .or-start-heading-divider .normal {
 }
 
 .or-sok-politiker form input[type="submit"] {
-    background-color: #857672;
+    background-color: #817370;
     display: inline-block;
     padding: 8px 20px 6px;
     margin-bottom: 0;
@@ -4996,7 +4996,7 @@ body .or-start-heading-divider .normal {
     border: 1px solid #ccc;
     border-style: solid;
     border-width: 1px;
-    border-color: #857672;
+    border-color: #817370;
     border-color: rgba(133,118,114,0.2);
     border-radius: 2px;
     -moz-border-radius: 2px;
@@ -5169,12 +5169,12 @@ body .or-content-page-2 .or-puff-link .or-puff-icon-link {
 }
 
 body .or-content-page-2 .or-puff-link .or-puff-icon-link .normal a {
-    color: #857672;
+    color: #817370;
 }
 
 body .or-content-page-2 .or-puff-icon-link::before .or-puff-link::before {
-    border-right-color: #857672;
-    border-bottom-color: #857672;
+    border-right-color: #817370;
+    border-bottom-color: #817370;
     bottom: -4px;
     right: -4px;
 }
@@ -5452,7 +5452,7 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
     border: 1px solid #ccc;
     border-style: solid;
     border-width: 1px;
-    border-color: #857672;
+    border-color: #817370;
     border-color: rgba(133,118,114,0.2);
     border-radius: 2px;
     -moz-border-radius: 2px;
@@ -5579,7 +5579,7 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
 }
 
 .livsmedelsrapport td a:link{
-    color: #017cdb;
+    color: #0081A2;
     text-decoration: underline;
 }
 
@@ -5750,7 +5750,7 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
 }
 
 .or-social-media-content .or-header {
-    color: #857672;
+    color: #817370;
     font-size: 12px;
     font-weight: 300;
     margin-bottom: 7px;
@@ -5766,7 +5766,7 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
 }
 
 .or-social-media-content .or-header .fa-clock-o {
-    color: #857672;
+    color: #817370;
     margin-left: 5px;
 }
 
@@ -5779,7 +5779,7 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    color: #857672;
+    color: #817370;
     display: block;
     float: left;
     font-family: "leaguespartan webfont",sans-serif;
@@ -6355,7 +6355,7 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
 }
 
 .antaltraffar strong {
-    color: #857672;
+    color: #817370;
 }
 
 .portlet-section-header.antaltraffar {
@@ -6477,7 +6477,7 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
 }
 
 .or-lediga-jobb a.button.apply,.or-lediga-jobb .fbutton,.or-lediga-jobb .addbutton,.or-lediga-jobb .button-big,.or-lediga-jobb .button-med {
-    background-color: #857672;
+    background-color: #817370;
     display: inline-block;
     padding: 8px 20px 6px;
     margin-bottom: 0;
@@ -6541,7 +6541,7 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
     border: 0 1px 1px 1px solid #ccc;
     border-style: solid;
     border-width: 1px;
-    border-color: #857672;
+    border-color: #817370;
     border-color: rgba(133,118,114,0.2);
     border-radius: 2px;
     -moz-border-radius: 2px;
@@ -6563,7 +6563,7 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
     border: 1px solid #ccc;
     border-style: solid;
     border-width: 1px;
-    border-color: #857672;
+    border-color: #817370;
     border-color: rgba(133,118,114,0.2);
     border-radius: 2px;
     -moz-border-radius: 2px;
@@ -6656,7 +6656,7 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
     border: 0 1px 1px 1px solid #ccc;
     border-style: solid;
     border-width: 1px;
-    border-color: #857672;
+    border-color: #817370;
     border-color: rgba(133,118,114,0.2);
     border-radius: 2px;
     -moz-border-radius: 2px;
@@ -6682,7 +6682,7 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
     border: 1px solid #ccc;
     border-style: solid;
     border-width: 1px;
-    border-color: #857672;
+    border-color: #817370;
     border-color: rgba(133,118,114,0.2);
     border-radius: 2px;
     -moz-border-radius: 2px;
@@ -6696,7 +6696,7 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
 }
 
 .or-tillstand-restaurang form input[type="submit"] {
-    background-color: #857672;
+    background-color: #817370;
     display: inline-block;
     padding: 8px 20px 6px;
     margin-bottom: 0;
