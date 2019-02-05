@@ -2295,7 +2295,7 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
 .or-plus-box-diskret-header .plusboxxrubrik {
     padding-top: 8px;
     padding-bottom: 8px;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .or-plus-box-diskret-header .or-icon-plus::before {
@@ -2434,6 +2434,7 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
     text-overflow: ellipsis;
     display: flex;
     flex-direction: row;
+    font-size: 14px;
 }
 
 .tabs-plusbox .or-plus-box-header {
@@ -2474,7 +2475,7 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
     flex-direction: row;
     display: flex;
     flex-wrap: wrap;
-    margin: -10px;
+    margin: 30px -10px;
 }
 
 .tabs-plusbox:not(.sv-editable-layout) > div:not(.tabs-plusbox-content) {
@@ -2483,6 +2484,10 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
     width: 50%;
     flex: 1;
     margin: 0 10px;
+}
+
+.tabs-plusbox:not(.sv-editable-layout) .or-plus-box-header {
+    margin-top: 0;
 }
 
 .tabs-plusbox:not(.sv-editable-layout) .tabs-plusbox-content {
@@ -2497,6 +2502,7 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
 
 .tabs-plusbox:not(.sv-editable-layout) .tabs-plusbox-content .or-plus-box-content {
    display: block;
+   margin: 0;
 }
 .tabs-plusbox.sv-editable-layout .tabs-plusbox-content {
     display: none!important;
@@ -2509,7 +2515,7 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
 }
 @media (max-width: 480px) {
     .tabs-plusbox:not(.sv-editable-layout) {
-        margin: 0 -3px;
+        margin: 20px -3px;
     }
     .tabs-plusbox:not(.sv-editable-layout) > div:not(.tabs-plusbox-content) {
         margin: 0 3px;
