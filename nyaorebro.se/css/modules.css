@@ -2453,7 +2453,7 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
     height: 18px;
     line-height: 18px;
     display: flex;
-    margin-top: -3px;  
+    margin-top: -2px;  
 }
 
 .tabs-plusbox .or-plus-box-diskret-header.or-plus-box-active .plusboxxrubrik,
@@ -2523,6 +2523,15 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
     .tabs-plusbox:not(.sv-editable-layout) .tabs-plusbox-content {
         margin: 0 3px;
     }
+    .tabs-plusbox .plusboxxrubrik {
+        font-size: 12px;
+    }
+    .tabs-plusbox .plusboxxrubrik svg {
+        width: 16px;
+        height: 15px;
+        margin-top: 0;
+    }
+
 }
 
 
