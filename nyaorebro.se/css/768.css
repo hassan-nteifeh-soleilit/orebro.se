@@ -483,7 +483,7 @@ body section.or-top-header .sv-use-margins h2{
 }
 
 
-/* PUFF IKON OCH LÄNK START --------------------*/
+/* PUFF IKON OCH LÄNK START --------------------
 .or-puff-icon-link{
     width: 97%;
     margin-bottom: 16px;
@@ -507,6 +507,39 @@ body section.or-top-header .sv-use-margins h2{
 
 .or-puff-icon-link .kontaktaxossxxxbrodtext{
     margin-left: 4em;
+}
+
+
+/* PUFF IKON OCH LÄNK SLUT ------------------------*/
+
+/* PUFF IKON OCH LÄNK START --------------------*/
+.or-puff-icon-link{
+    width: 94%;
+    margin-bottom: 16px;
+    margin-right: 3%;
+    margin-left: 3%;
+    float: none;
+    
+}
+
+
+
+.or-puff-icon-link .rubrikx4 {
+    
+    font-size: 14px;
+    text-decoration: none; 
+    color: black;
+    float: none !important;
+}
+
+.or-puff-icon-link .normal .ikonxorange{
+    font-size: 2.5em !important;
+    margin-left: 0;
+}
+
+.or-puff-icon-link .normal a {
+    font-size: 14px!important;
+    line-height: normal;
 }
 
 
