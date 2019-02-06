@@ -621,7 +621,7 @@ or-action-link {
     width: 48px;
 }
 
-/* PUFF ICON LINK START -----------------------------*/
+/* PUFF ICON LINK START -----------------------------
 
 .or-puff-icon-link .ikonxorange{
     font-size: 2em !important;
@@ -680,7 +680,7 @@ body .or-puff-link:hover .or-puff-icon-link:hover .normal a {
 }
 
 body .or-puff-link .or-puff-icon-link .normal {
-/*color: #e83c23;*/
+/*color: #e83c23;
     color: #000;
     margin-bottom: 0;
 }
@@ -709,7 +709,92 @@ body .or-puff-link .or-puff-icon-link .normal {
     text-decoration: none !important;
 }
 
-/* --- PUFF ICON LINK END -------------------------------*/
+ --- PUFF ICON LINK END -------------------------------*/
+
+
+
+ /* Mindre Puffar på startsidan. Ikon, rubrik och länk.  */
+
+.or-puff-icon-link{
+    display: flex;
+    background-color: #fcf5ec;
+    border: 4px solid #fff;
+    box-shadow: 0 0 5px rgba(199,199,199,0.55);
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    width: 31%;
+    margin-bottom: 30px;
+    margin-right: 1%;
+    margin-left: 1%;
+    padding: 15px 20px 8px 13px;
+    position: relative;
+    min-height: 35px;
+    float: left;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.or-puff-icon-link .normal .ikonxorange{
+    font-size: 2.3em !important;
+    margin-left: 0.4em;
+    padding-right: 0.3em; 
+}
+
+.or-puff-icon-link .normal{
+    font-size: 14px !important;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.or-puff-icon-link .normal a{
+    font-size: 16px!important;
+}
+
+.or-puff-icon-link .rubrikx4{
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 2px;
+    -webkit-transition: color .3s ease-in;
+    -moz-transition: color .3s ease-in;
+    -o-transition: color .3s ease-in;
+    -ms-transition: color .3s ease-in;
+    transition: color .3s ease-in;
+}
+
+
+.or-puff-icon-link:hover .rubrikx4{
+    color: #f28c00;
+}
+
+.or-puff-icon-link.or-wrapper-click:hover .normal a:link{
+    text-decoration: underline!important;
+}
+
+
+.or-puff-icon-link a {
+    text-decoration: none !important;
+    color: black;
+}
+
+.or-puff-icon-link a:active {
+    color: black!important;
+}
+
+.or-puff-icon-link a,
+.or-puff-icon-link a:visited,
+.or-puff-icon-link a:active,
+.or-puff-icon-link .normal a
+.or-puff-icon-link .normal:visited,
+.or-puff-icon-link .normal a:visited,
+.or-puff-icon-link .normal:hover,
+.or-puff-icon-link .normal:active{
+    color: black!important;
+}
+
+
+/* mindre puffar på startsidan slut */
 
 
 .or-puff-bild-text {
