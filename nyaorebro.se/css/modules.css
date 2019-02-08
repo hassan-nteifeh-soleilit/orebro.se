@@ -2529,6 +2529,9 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
     .tabs-plusbox .or-plus-box-diskret-header .plusboxxrubrik {
         font-size: 12px;
     }
+    .tabs-plusbox .or-plus-box-diskret-content {
+        padding: 18px 15px;
+    }
 }
 @media (max-width: 480px) {
     .tabs-plusbox:not(.sv-editable-layout) {
@@ -2545,10 +2548,6 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
         height: 15px;
         margin-top: 0;
     }
-    .tabs-plusbox .or-plus-box-diskret-content {
-        padding: 18px 15px;
-    }
-
 }
 
 
