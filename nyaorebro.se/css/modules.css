@@ -2427,7 +2427,7 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
     margin-right: 6px;
 }
 
-.tabs-plusbox .plusboxxrubrik {
+.tabs-plusbox .or-plus-box-diskret-header .plusboxxrubrik {
     width: 100%;
     white-space: nowrap;
     overflow: hidden;
@@ -2513,6 +2513,12 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
         margin-right: 40px;
     }
 }
+
+@media (max-width: 768px) {
+    .tabs-plusbox .or-plus-box-diskret-header .plusboxxrubrik {
+        font-size: 12px;
+    }
+}
 @media (max-width: 480px) {
     .tabs-plusbox:not(.sv-editable-layout) {
         margin: 20px -3px;
@@ -2522,9 +2528,6 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
     }
     .tabs-plusbox:not(.sv-editable-layout) .tabs-plusbox-content {
         margin: 0 3px;
-    }
-    .tabs-plusbox .plusboxxrubrik {
-        font-size: 12px;
     }
     .tabs-plusbox .plusboxxrubrik svg {
         width: 16px;
