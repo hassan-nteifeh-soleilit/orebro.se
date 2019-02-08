@@ -2453,6 +2453,7 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
 
 .tabs-plusbox .or-plus-box-diskret-header .plusboxxrubrik {
     color: #000;
+    font-size: 14px;
 }
 
 .tabs-plusbox .plusboxxrubrik svg {
