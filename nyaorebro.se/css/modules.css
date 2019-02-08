@@ -2515,6 +2515,9 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
 .tabs-plusbox.sv-editable-layout .tabs-plusbox-content {
     display: none!important;
 }
+.tabs-plusbox .or-plus-box-diskret-content {
+    padding: 24px 15px;
+}
 
 @media (min-width: 768px) {
     .tabs-plusbox:not(.sv-editable-layout) > div:first-child {
@@ -2541,6 +2544,9 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
         width: 16px;
         height: 15px;
         margin-top: 0;
+    }
+    .tabs-plusbox .or-plus-box-diskret-content {
+        padding: 18px 15px;
     }
 
 }
