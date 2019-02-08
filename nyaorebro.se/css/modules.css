@@ -2381,6 +2381,13 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
 .or-colorborder.or-wrapper-click.or-plus-box-header.or-plus-box-active .or-plusbox-kontakter .or-icon-area {
 }
 
+
+
+
+/* Responsiv anpassning av plusboxar slut */ 
+
+
+
 /* Kontaktpersoner */
 .or-kontaktpersoner-container {
     background-color: #fff;
