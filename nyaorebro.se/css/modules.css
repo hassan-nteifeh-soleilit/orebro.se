@@ -2381,6 +2381,52 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
 .or-colorborder.or-wrapper-click.or-plus-box-header.or-plus-box-active .or-plusbox-kontakter .or-icon-area {
 }
 
+
+/* Responsiv anpassning av plusboxar start */
+
+@media (min-width: 1650px) {
+    .or-plus-box-content .normal{
+        font-size: 21px!important; 
+    }
+
+    .or-plus-box-content .normal, .or-plus-box-content .normal a:link {
+        font-size: 21px !important;
+        line-height: 1.6em;
+    }
+
+}
+
+@media (min-width: 1350px) and (max-width: 1649px) {
+
+    .or-plus-box-content .normal{
+        font-size: 19px!important;
+    }
+
+    .or-plus-box-content .normal, .or-plus-box-content .normal a:link {
+        font-size: 19px !important;
+        line-height: 1.6em;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .or-plus-box-content .normal{
+        font-size: 16px!important; 
+    }
+
+    .or-plus-box-content .normal, .or-plus-box-content .normal a:link {
+        font-size: 16px !important;
+        line-height: 1.6em;
+    }
+    
+}
+
+
+
+/* Responsiv anpassning av plusboxar slut */ 
+
+
+
 /* Kontaktpersoner */
 .or-kontaktpersoner-container {
     background-color: #fff;
