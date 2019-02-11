@@ -165,7 +165,8 @@ body .or-content-container .or-tir p, body .or-content-container .or-tir p a:lin
 }
 
 .sv-use-margins .normal{
-	line-height: 1.6em;
+    line-height: 1.6em;
+    font-size: 19px;
 }
 
 }  /* end 1350 */
