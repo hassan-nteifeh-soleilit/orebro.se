@@ -39,20 +39,20 @@
 }
 
 .or-tree .or-current a {
-	background-color: #857672;
+    background-color: #857672;
     border-bottom: #857672;
 }
 
 .or-tree .or-depth-1 .or-parent .or-toggle-icon:before {
-color: #35383b;
+    color: #35383b;
 }
 
 .or-tree .or-depth-2 .or-parent .or-toggle-icon:before {
-color: #35383b;
+    color: #35383b;
 }
 
 .or-tree .or-depth-1 .or-parent .or-toggle-icon, .or-tree .or-depth-2 .or-parent .or-toggle-icon, .or-tree .or-depth-3 .or-parent .or-toggle-icon, .or-tree .or-depth-4 .or-parent .or-toggle-icon, .or-tree .or-depth-5 .or-parent .or-toggle-icon {
-	border: 2px solid #857672;
+    border: 2px solid #857672;
 }
 
 .or-modal .or-kontakt-och-tyck-till h3 {
@@ -61,8 +61,8 @@ color: #35383b;
 
 /* end ny mobilmeny */
 
- .colortext{
-color:#fff484;
+.colortext{
+    color:#fff484;
 }
 
 .or-breadcrump-link {
@@ -70,65 +70,71 @@ color:#fff484;
 }
 
 #pushMenuIcon.fa-inverse {
- color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
 }
 
 footer a {
-  display: inline;
-  border-bottom: 2px solid #dcdcdc;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
-  color: black;
-  font-weight: 400;
-  text-decoration: none;
+    display: inline;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+    color: black;
+    font-weight: 400;
 }
 
 footer a:hover {
-  color: #000;
+    color: #000;
+}
+
+footer .or-rss a, 
+footer .or-site-facts a {
+    font-family: 'Leaguespartan webfont', sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 700;
 }
 
 .contentlinks.linkblue {
-  padding-right: 5px;
-  padding-left: 1px;
-  color: #fff484;
+    padding-right: 5px;
+    padding-left: 1px;
+    color: #fff484;
 }
 .contentlinks.linkblue:hover {
-  background-color: transparent;
-  color: #35383b;
+    background-color: transparent;
+    color: #35383b;
 }
 
 footer > div:first-child i.or-social-icon-fg {
-  color: #000!important;
+    color: #000!important;
 }
 
 footer > div:last-child i.or-social-icon-fg {
-  color: #fff!important;
+    color: #fff!important;
 }
 
 footer .or-rss,
 footer .or-site-facts {
-  padding-top: 20px;
+    padding-top: 20px;
 }
 
 footer .or-rss p,
 footer .or-site-facts p {
-  margin: 0!important;
+    margin: 0!important;
 }
 
 
 footer i.or-social-icon-bg { 
-   color: transparent!important;
-   font-style:normal
+    color: transparent!important;
+    font-style:normal
 }
 
 footer i.or-social-icon-fg { 
-   color: #faf9f8 !important;
-   font-style:normal;
+    color: #faf9f8 !important;
+    font-style:normal;
 }
- 
- 
+
+
 .leftnavicon {
-   color:#877D77 !important;
+    color:#877D77 !important;
 }
 
 /* Bakgrundsfärg för temat */
@@ -139,15 +145,15 @@ footer i.or-social-icon-fg {
 .submit.bg-color,
 #or-id-search-icon,
 .or-search-button-wrapper .fa-search {
-  color: #000;
+    color: #000;
 }
-  
+
 .or-formicon {
     background-color: #35383B;
 }
 
 .or-colorborder {   
-   border-color: #dcdcdc;
+    border-color: #dcdcdc;
 }   
 
 
@@ -163,13 +169,13 @@ h1.heading .or-colortext {
 
 /* Bakgrundsfärg för brödsmulsraden */
 .or-breadcrumps-container{
-   background-color: #ecebe6;
+    background-color: #ecebe6;
 }
 
 /* Färg för rubriker i nyhetslistning */
 .rubriknyhetsruta,
 .rubriknyhetsruta span {   
-  color: #35383B;
+    color: #35383B;
 }
 
 input:focus, select:focus, textarea:focus {
@@ -180,21 +186,21 @@ input:focus, select:focus, textarea:focus {
 
 /* Kommentarsrutor */
 li.or-comment.or-colorborder {
-  border-color: rgba(133, 118, 114, 0.49) rgba(133, 118, 114, 0.49) #fff484;
-  background-color: rgba(255, 255, 255, 0.78);
+    border-color: rgba(133, 118, 114, 0.49) rgba(133, 118, 114, 0.49) #fff484;
+    background-color: rgba(255, 255, 255, 0.78);
 }   
 
 /* Ramfärg för actionrutan */
 .or-action-link.or-colorborder {
-  border-color: #dcdcdc;
+    border-color: #dcdcdc;
 }
 
 .or-action-content span.fa {   
-   background-color: #fff484;   
+    background-color: #fff484;   
 }
 
 .or-action-content span.fa:after {
-   border-left-color: #fff484;
+    border-left-color: #fff484;
 }
 
 .or-action-content span.fa,
@@ -210,7 +216,7 @@ li.or-comment.or-colorborder {
 }
 
 ul.sol_steps.clearfix {
-   color: #AEDEEF;
+    color: #AEDEEF;
 }
 .sol_step {
     box-shadow: 0px 0px 1px 0px #fff484 inset;
@@ -229,16 +235,16 @@ li.sol_step.active {
 }
 
 li.sol_step.active:hover {
-color:#35383B;
+    color:#35383B;
 }
 
 li.sol_step.active:hover {
-#fff;
+    #fff;
 }
 
 .sol_process_flow_outer > div{
-   border-color: #AEDEEF rgba(0, 152, 219, 0.34) rgba(0, 152, 219, 0.34);
-   color: #fff484;
+    border-color: #AEDEEF rgba(0, 152, 219, 0.34) rgba(0, 152, 219, 0.34);
+    color: #fff484;
 }
 
 /* Kalender */
@@ -248,7 +254,7 @@ li.sol_step.active:hover {
 .or-calendar-text-active-event,
 .or-calendar-columns.or-week-column,
 .or-calendar-filter-container{
-   background-color: #35383B;
+    background-color: #35383B;
 }
 
 
@@ -256,7 +262,7 @@ li.sol_step.active:hover {
 .or-calendar-text-active, 
 .or-calendar-text-active-event,
 .or-calendar-filter-container {  
-  border-color: #dcdcdc;
+    border-color: #dcdcdc;
 }
 
 .or-week-text:hover a {
@@ -266,28 +272,28 @@ li.sol_step.active:hover {
 
 /* Plusbox */
 .or-icon-plus::before {
-	color: #000;
+    color: #000;
 }
 
 .or-plus-box-header.or-plus-box-active:not(.or-plus-box-diskret-header) {
-  background-color: #FFF484;
+    background-color: #FFF484;
 }
 
 .or-plus-box-active:not(.or-plus-box-diskret-header)  .or-icon-plus::before {
-	color: #35383b;
+    color: #35383b;
 }
 
 .or-plus-box-header:hover .plusboxxrubrik{
-	color: #35383b;
+    color: #35383b;
 }
 
 .or-plus-box-active:not(.or-plus-box-diskret-header) .plusboxxrubrik{
-	color: #000;	
+    color: #000;	
 }
 
 .or-programpoang {
-	border-color:  #35383b;
-	color:  #35383b;
+    border-color:  #35383b;
+    color:  #35383b;
 }
 
 
@@ -296,50 +302,50 @@ li.sol_step.active:hover {
 /* Kontakta oss fristående */
 
 .or-contact-bar.or-colorborder {
-  border-right: 2px solid #dcdcdc;
-  border-bottom: 2px solid #dcdcdc;
-  border-left: 2px solid #dcdcdc;
+    border-right: 2px solid #dcdcdc;
+    border-bottom: 2px solid #dcdcdc;
+    border-left: 2px solid #dcdcdc;
 }
 
 .or-contact-left-column-container.or-colorbg {  
-  background-color: #FFF484;
+    background-color: #FFF484;
 }
 
 .or-contacticon i {
-  color: #35383B;
+    color: #35383B;
 }
 
 /* action */
 .calltoactionwrapper:hover > .or-ctatext {
-  color: #fff484;
-  text-decoration: none;
-  border-bottom: 2px solid #fff484;
+    color: #fff484;
+    text-decoration: none;
+    border-bottom: 2px solid #fff484;
 }
 
 .or-action-content:hover a {
-  color: #35383b;
+    color: #35383b;
 }
 
 .or-action-content:hover .or-action-text {
-  color: #35383b;
-  text-decoration: underline;
+    color: #35383b;
+    text-decoration: underline;
 }
 
 .or-action-link:hover {
     box-shadow: 0px 0px 6px 0px #E7E7E7;
 }
- 
+
 .or-action-link-small:hover .normal .or-action-text a{
- color: #35383b;
+    color: #35383b;
 }
- 
- /* actions */
- 
- .or-action-link {
+
+/* actions */
+
+.or-action-link {
     border-color: #dcdcdc;
 }
- 
- .or-arrow-left::after {
+
+.or-arrow-left::after {
     border-color: rgba(136, 183, 213, 0) rgba(136, 183, 213, 0) rgba(136, 183, 213, 0) #FFF484;
 }
 
@@ -362,11 +368,11 @@ li.sol_step.active:hover {
 }
 
 .or-puff-bild-text h4{
-color: #35383B;
+    color: #35383B;
 }
 
 .or-puff-bild-text h4 a{
-color: #35383B;
+    color: #35383B;
 }
 
 
@@ -383,9 +389,9 @@ color: #35383B;
     color: #000;
 }
 .poem p {
-  background-color: #fff484;
-  box-shadow: 10px 0 0 #fff484, -10px 0 0 #fff484;
-  color: #000;
+    background-color: #fff484;
+    box-shadow: 10px 0 0 #fff484, -10px 0 0 #fff484;
+    color: #000;
 }
 
 .topp-storbild-textblock {
@@ -425,9 +431,9 @@ color: #35383B;
 /* tabell */
 
 @media (max-width: 767px) {
-.st-head-row {
-  background-color: #fff484;
-}
+    .st-head-row {
+        background-color: #fff484;
+    }
 }
 
 .sv-table-portlet thead tr {
@@ -454,21 +460,21 @@ color: #35383B;
     border-right: 1px solid rgba(0, 0, 0, 0.1);
     background-color: #fff484;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-		color: #35383b;
+    color: #35383b;
     font-weight: 700;
 }
 
 .sv-table-portlet th span.normal,
 .sv-text-portlet table.sv-standard thead th p,{
-	color: #35383b;
-  font-weight: 700;
+    color: #35383b;
+    font-weight: 700;
 }
 
 .sv-table-portlet th span.normal, .sv-text-portlet-content table.sv-standard th span.normal {
     color: #35383b;
 }
 .st-head-row.st-head-row-main span.normal {
-     color: #35383b;
+    color: #35383b;
 }
 
 .sv-text-portlet table.sv-standard th {    
@@ -481,12 +487,12 @@ color: #35383B;
 
 /* rubrik logo */
 .or-header-topptext{
- color:#35383B;
+    color:#35383B;
 }
 
 /* blogg commennt */
 .or-blogginfo-blocks:hover .or-comment-expander-text {
- color: #000;
+    color: #000;
 }
 
 
@@ -562,11 +568,11 @@ body .mm-menu.mm-vertical .mm-list li.mm-opened.mm-selected > a, body .mm-menu.m
 }
 
 body .mm-menu.mm-vertical .mm-list li.mm-opened.mm-selected > a:after, body .mm-menu.mm-vertical .mm-list li.mm-opened.mm-selected > a.mm-subopen {
- color: #857672;
+    color: #857672;
 }
 
 .mm-menu.mm-vertical .mm-list > li.mm-selected > a:not(.mm-subopen), .mm-menu.mm-vertical .mm-list > li.mm-selected > a.mm-subopen::after {
- color: #857672;
+    color: #857672;
 }
 
 
@@ -577,17 +583,17 @@ body .mm-menu.mm-vertical .mm-list li.mm-opened.mm-selected > a:after, body .mm-
 /* skolwebb toppbild */
 
 .or-stor-bild-text-actions {
-background-color: #fff;
+    background-color: #fff;
 }
 .or-social-badge {
- background-color: #fff484;
+    background-color: #fff484;
 }
 .or-badge-text {
-  color: #000;
+    color: #000;
 }
 
 .or-menu-button-container .fa{
-       color: #FFF484;
+    color: #FFF484;
 }
 
 .or-contact-bar-icon i {
@@ -662,39 +668,39 @@ li.sol-selected-facet:hover {
 
 .pagination .current {
     background-color: #35383B;
-		border-color: #35383B;
+    border-color: #35383B;
 }
 
 #or-paging-id a:hover {
- background-color: #A2A0A0;
- color: #FFF;
+    background-color: #A2A0A0;
+    color: #FFF;
 }
 
 .sitevision-ui-bootstrap .ui-menu .ui-menu-item a:hover {
-color:#000
+    color:#000
 }
 
 
 /* mobilmenu */
 
 .phone-nav-column.search-column.or-colorbg{
-   background-color: #857672;
+    background-color: #857672;
 }
 
 #contactBtn.or-colorbg{
-   background-color: #35383b;
+    background-color: #35383b;
 }
 
 /*nya processteg */
 .sol-tab-button {
- border: 1px solid #fffbcf;
-color: #35383b;
+    border: 1px solid #fffbcf;
+    color: #35383b;
 }
 
 .sol-tab-button.sol-tab-active {
-background: #FFF484 none repeat scroll 0% 0%;
-border-top: 5px solid #FFFBCF;
-color: #35383B;
+    background: #FFF484 none repeat scroll 0% 0%;
+    border-top: 5px solid #FFFBCF;
+    color: #35383B;
 }
 
 .sol-tab-button-container .sol-tab-button:not(.sol-tab-active):hover {
@@ -705,10 +711,10 @@ color: #35383B;
 
 
 .sol-tabs-decoration-content{
- border-top: 5px solid  #fffbcf;
- border-left: 1px solid  #fffbcf;
- border-right: 1px solid  #fffbcf;
- border-bottom: 1px solid  #fffbcf;
+    border-top: 5px solid  #fffbcf;
+    border-left: 1px solid  #fffbcf;
+    border-right: 1px solid  #fffbcf;
+    border-bottom: 1px solid  #fffbcf;
 }
 
 .sol-accordion-heading {
@@ -734,21 +740,21 @@ color: #35383B;
 /* Ny action */
 /* TODO: Ta bort när alla actions ersatts med element varianten */
 .or-ny-action:hover .normal .or-action-text a:link{
-	color:#857672;
+    color:#857672;
 }
 
 .or-ny-action:hover .or-action-text a{
-   color:#857672;
-   text-decoration:underline;
+    color:#857672;
+    text-decoration:underline;
 }
 
 .or-ny-action span.fa{
-	background-color:#fff484;
-	color:#000;
+    background-color:#fff484;
+    color:#000;
 }
 
 .or-ny-action span.fa::after{
-	border-color:rgba(136,183,213,0) rgba(136,183,213,0) rgba(136,183,213,0) #fff484;
+    border-color:rgba(136,183,213,0) rgba(136,183,213,0) rgba(136,183,213,0) #fff484;
 }
 /* Slut ny action */
 
@@ -771,19 +777,19 @@ body .sv-font-action-penna.or-wrapper-click:hover, body .sv-font-action-pil.or-w
 
 /* Action element */
 .or-elmt-actn:hover .or-elmt-actn-link {
-	color: #000
+    color: #000
 }
 
 .or-elmt-actn-row:after {
-	border-left-color: #fff484;
+    border-left-color: #fff484;
 }
 
 .or-elmt-actn-icon {
-	background-color: #fff484;		
+    background-color: #fff484;		
 }
 
 .or-elmt-actn-icon i{	
-	color: #000;
+    color: #000;
 }
 
 .fa-info-circle{
