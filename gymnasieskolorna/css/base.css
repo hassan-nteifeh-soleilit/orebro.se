@@ -4121,7 +4121,7 @@ li.or-comment {
 
 /* Avdelare punktstreckade linjer */
 .or-divider-dotted {
-	margin-top: 10px;
+	margin-top: 35px;
 	margin-bottom: 10px;
 	border-top: 2px dotted #D1D1D1;
 	border-bottom: 2px dotted #D1D1D1;
@@ -5680,8 +5680,8 @@ div.sol-search-icon-wrapper > img {
 .or-comment-heading-container {
 	position: relative;
 	min-height: 47px;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-top: 31px;
+	margin-bottom: 20px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	border-top: 2px dotted #dbdbdb;
@@ -6339,7 +6339,6 @@ div.or-synpunkt-action .or-action-content span:after {
 	display: inline-block;
 	position: relative;
 	background-color: #E5EEF0;
-	margin-top: 20px;
 	margin-bottom: 30px;
 }
 
@@ -7827,6 +7826,7 @@ label.or-fieldlabelhelpus {
 	margin: 0px auto 0px;
 	height: 350px;
 	overflow: hidden;
+	background-size: cover;
 }
 
 .or-program-heading-container {
@@ -7852,9 +7852,10 @@ label.or-fieldlabelhelpus {
 /*Steg för steg puff*/
 .or-school-advantages-container {
 	background-color: white;
-	margin-bottom: 20px;
+	margin-bottom: 50px;
 	margin-top: 20px;
 	text-align: center;
+	border: 1px solid #FFF484;
 }
 
 .or-school-advantages-block {
@@ -7874,10 +7875,18 @@ label.or-fieldlabelhelpus {
 }
 
 .or-school-advantages-header h3 {
-	font-size: 12px;
+	font-size: 16px!important;
 	letter-spacing: 0.04em;
 	text-transform: uppercase;
 	margin-top: 0px !important;
+}
+
+.or-school-advantages-container .or-school-col:first-child .or-school-col .or-school-advantages-header {
+  border-left: 0;
+}
+
+.or-school-advantages-container .or-school-col:last-child .or-school-col .or-school-advantages-header {
+  border-right: 0;
 }
 
 .or-advantages {
@@ -7904,8 +7913,9 @@ label.or-fieldlabelhelpus {
 }
 
 .or-programpoang {
-	/*margin-top: 3px;*/
+	margin-top: 3px;
 	display: inline-block;
+	float: right;
 }
 
 /* Faktabox */
