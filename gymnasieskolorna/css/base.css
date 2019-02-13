@@ -3808,6 +3808,14 @@ Additional
 		font-size: 16px;
 		line-height: 1.4em;
 	}
+
+	.or-school-footer-info {
+		padding: 30px;
+	}
+	.or-school-footer-info span {
+	    font-size: 14px;
+	    line-height: 20px;
+	}
 }
 
 .sv-text-portlet li a {
@@ -7778,6 +7786,13 @@ label.or-fieldlabelhelpus {
 	border-right: 1px solid #E4E4E4;
 }
 
+@media (max-width: 480px) {
+	.or-inriktning {
+		border-top: 1px solid #E8E8E8;
+	}
+}
+
+
 /* Program ikoner */
 
 .or-program-icon {
@@ -8775,10 +8790,7 @@ input[type="file" i]::-webkit-file-upload-button:hover {
 	flex-direction: column;
 	min-width: 0;
 	word-wrap: break-word;
-	background-color: #fff;
 	background-clip: border-box;
-	border: 1px solid rgba(0,0,0,.125);
-	border-radius: .25rem;
 	box-sizing: border-box;
 	width: 100%;
 	margin: 0;

@@ -1757,8 +1757,51 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
         font-size: 16px !important;
         line-height: 1.6em;
     }
+
     
 }
+
+.diagram-list {
+    display: flex;
+}
+.diagram-list > div {
+    flex: 1;
+}
+#myChart {
+  margin-top: 1.5em;
+}
+
+@media (max-width: 768px) {
+
+    .diagram-list {
+        display: block;
+    }
+    .diagram-list > div {
+        flex: 1;
+    }
+    
+    #myChart {
+        width: 240px;
+        height: 240px;
+    }
+}
+@media (max-width: 480px) {
+
+    .diagram-list {
+        display: block;
+    }
+    .diagram-list > div {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #myChart {
+        width: 240px;
+        height: 240px;
+    }
+}
+
 
 
 /* Plusbox program tabell*/
