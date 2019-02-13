@@ -8735,3 +8735,43 @@ input[type="file" i]::-webkit-file-upload-button:hover {
 	overflow-y: hidden;
 	-ms-overflow-style: none;
 }
+
+
+/* Row */
+.or-row {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: -15px;
+	box-sizing: border-box;
+}
+.or-row > div {
+	-ms-flex: 0 0 33.333333%;
+	flex: 0 0 33.333333%;
+	max-width: 33.333333%;
+
+	position: relative;
+	width: 100%!important;
+	padding-right: 15px;
+	padding-left: 15px;
+	box-sizing: border-box;
+
+	margin: 0!important;
+}
+
+.or-row > div > div {
+	position: relative;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: #fff;
+	background-clip: border-box;
+	border: 1px solid rgba(0,0,0,.125);
+	border-radius: .25rem;
+	box-sizing: border-box;
+}
