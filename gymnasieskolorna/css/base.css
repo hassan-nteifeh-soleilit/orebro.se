@@ -8775,4 +8775,20 @@ input[type="file" i]::-webkit-file-upload-button:hover {
 	border-radius: .25rem;
 	box-sizing: border-box;
 	width: 100%;
+	margin: 0;
+}
+@media (max-width: 767px) {
+	.or-row > div {
+		-ms-flex: 0 0 50%;
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+}
+
+@media (max-width: 480px) {
+	.or-row > div {
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
 }
