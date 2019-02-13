@@ -2658,7 +2658,7 @@ ol {
 	padding-top: 9px;
 	padding-bottom: 9px;
 	border-bottom-color: #000);
-	background-color: rgb(63, 65, 69);
+background-color: rgb(63, 65, 69);
 }
 
 .submitformbt.redbt.smallbt {
@@ -4200,69 +4200,69 @@ li.or-comment {
 .or-news-list-info-container span.normal,
 .or-news-list-info-container p.normal,
 	/*.or-news-list-info-container-no-image span.normal,
-.or-news-list-info-container-no-image p.normal */
-{
-	display: block;
-	margin-bottom: 14px;
-	padding-right: 40px;
-	font-size: 13px;
-	line-height: 22px;
-}
+	.or-news-list-info-container-no-image p.normal */
+	{
+		display: block;
+		margin-bottom: 14px;
+		padding-right: 40px;
+		font-size: 13px;
+		line-height: 22px;
+	}
 
-.or-news-list-image-container {
-	position: relative;
-	width: 35%;
-	float: left;
-}
+	.or-news-list-image-container {
+		position: relative;
+		width: 35%;
+		float: left;
+	}
 
-.or-news-list-image-container img {
-	vertical-align: middle;
-	display: inline-block;
-	width: 100%;
-	height: auto;
-	float: left;
-	padding-bottom: 4px;
-	padding-right: 4px;
-}
+	.or-news-list-image-container img {
+		vertical-align: middle;
+		display: inline-block;
+		width: 100%;
+		height: auto;
+		float: left;
+		padding-bottom: 4px;
+		padding-right: 4px;
+	}
 
-or-news-list-image-container img {
-	max-width: 230px;
-	vertical-align: middle;
-	display: inline-block;
-	width: 100% !important;
-	height: auto !important;
-}
+	or-news-list-image-container img {
+		max-width: 230px;
+		vertical-align: middle;
+		display: inline-block;
+		width: 100% !important;
+		height: auto !important;
+	}
 
-.or-comments-bubble {
-	position: absolute;
-	top: 0px;
-	right: 0px;
-	width: 29px;
-	height: auto;
-	background-color: transparent;
-	text-align: center;
-}
+	.or-comments-bubble {
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		width: 29px;
+		height: auto;
+		background-color: transparent;
+		text-align: center;
+	}
 
-.newsaltimage {
-	float: left;
-	width: 100%;
-	height: auto;
-	margin-bottom: 10px;
-}
+	.newsaltimage {
+		float: left;
+		width: 100%;
+		height: auto;
+		margin-bottom: 10px;
+	}
 
-.or-blog-wrapper {
-	border-top-width: 4px;
-	border-top-style: solid;
-}
+	.or-blog-wrapper {
+		border-top-width: 4px;
+		border-top-style: solid;
+	}
 
-/* Kontakt/Tyck till block */
-.contact-top {
-	font-weight: 700;
-}
+	/* Kontakt/Tyck till block */
+	.contact-top {
+		font-weight: 700;
+	}
 
-.or-support-nav {
+	.or-support-nav {
 	/*margin-right: 24px;
-  float: left;*/
+	float: left;*/
 	margin-right: 0px;
 	margin-left: 24px;
 	float: right;
@@ -4276,12 +4276,12 @@ or-news-list-image-container img {
   display: inline-block;
   float: right;*/
 
-	position: absolute;
-	display: block;
-	float: left;
-	*-webkit-transition: all 500ms ease;
-	transition: all 500ms ease;
-	color: #35383b;
+  position: absolute;
+  display: block;
+  float: left;
+  *-webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  color: #35383b;
 }
 
 .or-support-nav img,
@@ -4964,9 +4964,9 @@ body .mm-menu.mm-vertical .mm-list li.mm-opened > a, body .mm-menu.mm-vertical .
 a
 
 (
-.mm-subopen
+	.mm-subopen
 
-)
+	)
 ,
 .mm-menu.mm-vertical .mm-list > li.mm-selected > a.mm-subopen a:hover {
 	background: #0098db;
@@ -5290,24 +5290,24 @@ form#or-search-form::after {
 	color: #FFF;
 	right: 26px;
 	bottom: 26px; /*22*/
-vertical-align: inherit
+	vertical-align: inherit
 
-;
-position: absolute
+	;
+	position: absolute
 
-;
-width:
+	;
+	width:
 
-20
-px
+	20
+	px
 
-;
-height:
+	;
+	height:
 
-24
-px
+	24
+	px
 
-;
+	;
 }
 
 *
@@ -6800,10 +6800,9 @@ div.or-synpunkt-action .or-action-content span:after {
 
 .or-puff-text-icon-lanklista .or-puff-img {
 	width: 100% !important;
-	height: 205px;
-!important;
+	height: 205px!important;
 	overflow: hidden;
-	/*background-color: #fef7b2;*/
+	background-color: #FFFCDA;
 	padding-top: 40px;
 }
 
@@ -6897,7 +6896,7 @@ div.or-synpunkt-action .or-action-content span:after {
 	float: left;
 	width: 100% !important;
 	height: 205px;
-!important;
+	!important;
 	overflow: hidden;
 }
 
@@ -7274,18 +7273,18 @@ label.or-fieldlabelhelpus {
 /*
 .sol-sok-ruta{
    display: none;
-}*/
+   }*/
 
-/* länkad lista */
+   /* länkad lista */
 
-.or-links-list ul {
-	margin: 0px;
-	padding: 0px;
-}
+   .or-links-list ul {
+   	margin: 0px;
+   	padding: 0px;
+   }
 
-.lankarxlista li a {
-	display: block;
-	width: 100%;
+   .lankarxlista li a {
+   	display: block;
+   	width: 100%;
 	/*opacity: 0.6;
   content: "";
   background: url("/images/18.758f01f014bc6929dc682b9/1426605356772/arrowRight.svg") right center no-repeat;
@@ -7882,11 +7881,11 @@ label.or-fieldlabelhelpus {
 }
 
 .or-school-advantages-container .or-school-col:first-child .or-school-col .or-school-advantages-header {
-  border-left: 0;
+	border-left: 0;
 }
 
 .or-school-advantages-container .or-school-col:last-child .or-school-col .or-school-advantages-header {
-  border-right: 0;
+	border-right: 0;
 }
 
 .or-advantages {
@@ -7922,7 +7921,7 @@ label.or-fieldlabelhelpus {
 .or-school-footer-info {
 	background-color: #f7e4f2;
 	margin-bottom: 30px;
-	padding: 20px 40px 20px 20px;
+	padding: 36px 67px;
 }
 
 .or-school-footer-info a:link {
@@ -7932,10 +7931,19 @@ label.or-fieldlabelhelpus {
 .or-school-footer-info .poem span {
 	background-color: #D39CC7;
 	color: #fff;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 46px;
+	margin: 0;
+	padding: 2px 14px;
+}
+
+.or-school-footer-info span {
+	font-size: 21px;
+	line-height: 33px;
 }
 
 .or-school-footer-info .sv-text-portlet-content {
-	padding-left: 10px;
 	margin-top: 20px;
 }
 
