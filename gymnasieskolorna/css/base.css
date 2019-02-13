@@ -747,13 +747,6 @@ footer a.or-social-icon {
 	margin-bottom: 10px;
 }
 
-footer a.or-social-icon:hover {
-	margin-right: 10px;
-	margin-top: 8px;
-	display: inline-block;
-	background-color: #fff;
-}
-
 footer a.or-js-share-footer:link {
 	color: #017cdb;
 }
@@ -1854,13 +1847,15 @@ ol {
 }
 
 .or-folj-oss {
-	margin-top: 30px !important;
+	margin-top: 0!important;
 	font-family: 'Leaguespartan webfont', sans-serif;
 	font-size: 14px;
 	line-height: 17px;
 	font-weight: 700;
 	letter-spacing: 0em;
 	text-transform: none;
+	display: inline-block;
+    color: #fff;
 }
 
 .cardbg {
@@ -7936,6 +7931,8 @@ label.or-fieldlabelhelpus {
 	line-height: 46px;
 	margin: 0;
 	padding: 2px 14px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
 }
 
 .or-school-footer-info span {

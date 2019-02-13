@@ -97,9 +97,27 @@ footer a:hover {
   color: #35383b;
 }
 
+footer > div:first-child i.or-social-icon-fg {
+  color: #000!important;
+}
+
+footer > div:last-child i.or-social-icon-fg {
+  color: #fff!important;
+}
+
+footer .or-rss,
+footer .or-site-facts {
+  padding-top: 20px;
+}
+
+footer .or-rss p,
+footer .or-site-facts p {
+  margin: 0!important;
+}
+
 
 footer i.or-social-icon-bg { 
-   color: #35383b !important;
+   color: transparent!important;
    font-style:normal
 }
 
