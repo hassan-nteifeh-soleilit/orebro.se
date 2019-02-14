@@ -876,6 +876,10 @@ body img.or-file-icon{
         font-size: 12px; 
         line-height: 12px; 
     }
+
+    .sv-use-margins .ingress{
+        font-size: 12px; 
+    }
 }
 
 
