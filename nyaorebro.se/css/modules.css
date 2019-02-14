@@ -865,8 +865,12 @@ body img.or-file-icon{
 /* Tabeller utförartjänster */ 
 .sv-table-type-utforare-servicetjanster thead th p {
 	color: #fff !important;
-
 }
+
+.sv-table-type-utforare-servicetjanster  tr td {
+    padding: 0.5em!important;
+}
+
 
 
 
