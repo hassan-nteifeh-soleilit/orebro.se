@@ -5807,7 +5807,7 @@ div.sol-search-icon-wrapper > img {
 	margin-bottom: 4px;
 }
 
-.or-contact-bar-info-container a:link {
+.or-contact-bar-info-container a.normal {
 	font-size: 13px!important;
 	line-height: 16px;
 	margin-bottom: 4px;
