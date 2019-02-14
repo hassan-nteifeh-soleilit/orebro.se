@@ -1,5 +1,11 @@
 @media all and (max-width: 480px) {
 
+    .or-contact-bar-info-container a {
+        font-size: 13px!important;
+        line-height: 16px;
+        margin-bottom: 4px;
+    }
+
     /* från base */
     .searchform {
         padding: 8px 40px 8px 12px;
