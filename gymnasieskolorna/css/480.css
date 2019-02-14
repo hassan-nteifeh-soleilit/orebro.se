@@ -272,7 +272,7 @@
     }
 
     .normal a:link {
-        font-size: 14px !important;
+        font-size: 14px;
     }
 
     .sv-text-portlet li {
