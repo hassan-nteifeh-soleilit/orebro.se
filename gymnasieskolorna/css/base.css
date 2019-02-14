@@ -6214,13 +6214,13 @@ div.or-synpunkt-action .or-action-content span:after {
 
 
 @media (min-width: 1649px) {
-	table.sv-standard{
+	table.sv-standard td p {
 		font-size: 21px;
 	}
 }
 
 @media (min-width: 1350px) and (max-width: 1649px) {
-	table.sv-standard{
+	table.sv-standard td p {
 		font-size: 19px;
 	}
 }
@@ -6228,7 +6228,7 @@ div.or-synpunkt-action .or-action-content span:after {
 
 
 @media (max-width: 768px) {
-	table.sv-standard{
+	table.sv-standard td p {
 		font-size: 16px;
 	}
 }
