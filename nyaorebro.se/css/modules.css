@@ -864,7 +864,7 @@ body img.or-file-icon{
 
 /* Tabeller utförartjänster */ 
 .sv-table-type-utforare-servicetjanster thead th p {
-	color: #fff;
+	color: #fff !important;
 
 }
 
