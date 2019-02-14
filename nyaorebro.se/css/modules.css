@@ -874,6 +874,7 @@ body img.or-file-icon{
 @media print {
     #Ingressforetagetsprofilering  {
         font-size: 16px; 
+        line-height: 1; 
     }
 }
 
