@@ -862,6 +862,14 @@ body img.or-file-icon{
     color: #6b0771;
 }
 
+/* Tabeller utförartjänster */ 
+.sv-table-type-utforare-servicetjanster thead th p {
+	color: #fff;
+
+}
+
+
+
 /* Hade du nytta av innehållet */
 .kontakta-ruta {
     background-color: #FFF;
