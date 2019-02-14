@@ -862,7 +862,7 @@ body img.or-file-icon{
     color: #6b0771;
 }
 
-/* Tabeller utförartjänster */ 
+/* Sidor utförartjänster */ 
 .sv-table-type-utforare-servicetjanster thead th p {
 	color: #fff !important;
 }
@@ -870,6 +870,14 @@ body img.or-file-icon{
 .sv-table-type-utforare-servicetjanster  tr td {
     padding: 0.5em!important;
 }
+
+@media print {
+    #Ingressforetagetsprofilering  {
+        font-size: 16px; 
+    }
+}
+
+
 
 
 
