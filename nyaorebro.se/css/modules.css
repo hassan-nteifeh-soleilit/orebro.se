@@ -873,12 +873,12 @@ body img.or-file-icon{
 
 @media print {
     #Ingressforetagetsprofilering  {
-        font-size: 12px; 
-        line-height: 12px; 
+        font-size: 12px !important; 
+        line-height: 12px!important; 
     }
 
     .sv-use-margins .ingress{
-        font-size: 12px; 
+        font-size: 12px !important; 
     }
 }
 
