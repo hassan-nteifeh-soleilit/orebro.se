@@ -22,7 +22,7 @@
 }
 
 .or-oh-open, .open a {
-    background-color: #7d9c41;
+    background-color: #55830E;
 }
 
 .or-oh-closed
@@ -70,7 +70,7 @@
 .or-oh-chevron.expanded
 {
 	color:#fff;
-	background-color: #857672;
+	background-color: #817370;
 }
 
 .or-oh-chevron.expanded .fa.fa-plus.fa-lg
@@ -153,7 +153,7 @@ a.or-oh-a:link, a.or-oh-a:visited {
 
 a.or-oh-a:hover,a.or-oh-a:active
 {
-    color:#e83c23;
+    color:#D63823;
 }
 
 .or-oh-wrapp
@@ -189,7 +189,7 @@ a.or-oh-a:hover,a.or-oh-a:active
 }
 
 .or-oh-header:hover .or-oh-name{
-	color: #857672;
+	color: #817370;
 	text-decoration: underline;
 }
 
@@ -270,7 +270,7 @@ a.or-oh-a:hover,a.or-oh-a:active
 }
 
 .ui-datepicker .ui-datepicker-header {
-    background: #e83c23;
+    background: #D63823;
     color: #fff;
 }
 
@@ -290,10 +290,10 @@ body .ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
 }
 
 .ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
-    border: 2px solid #7D9C41!important;
+    border: 2px solid #55830E!important;
     background: #FFFFFF!important;
     font-weight: 700!important;
-    color: #7D9C41!important;
+    color: #55830E!important;
 }
 
 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
@@ -329,15 +329,15 @@ body .ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
 }
 
 .ui-datepicker .open a {
-    background-color: #7d9c41!important;
+    background-color: #55830E!important;
     color:#fff!important;
-    border: 1px solid #7d9c41!important;
+    border: 1px solid #55830E!important;
 }
 
 .ui-datepicker .closed a {
-    background-color: #e83c23!important;
+    background-color: #D63823!important;
     color:#fff!important;
-    border: 1px solid #e83c23!important;
+    border: 1px solid #D63823!important;
 }
 
 .or-oh-datePickerOutput {
@@ -401,8 +401,8 @@ body .ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
 
 
 .ui-state-active {
-    border: 1px solid #857672!important;
-    background: #857672!important;
+    border: 1px solid #817370!important;
+    background: #817370!important;
     color: #fff!important;
 }
 

@@ -1,0 +1,13 @@
+@font-face {
+   font-family: 'Leaguespartan webfont';
+   src: url(https://static.canva.com/static/webfonts/LeagueSpartan-Bold.woff) format('woff');
+
+   src: url('/download/18.720a5aaf1524e3420a8502/1541579300632/LeagueSpartan-Bold.eot');
+
+   src:
+      url('/download/18.720a5aaf1524e3420a8502/1541579300632/LeagueSpartan-Bold.eot?#iefix') format('embedded-opentype'),
+      url('/download/18.720a5aaf1524e3420a8506/1541579300623/LeagueSpartan-Bold.woff') format('woff'),
+      url('/download/18.720a5aaf1524e3420a8505/1541579300615/LeagueSpartan-Bold.ttf') format('truetype');	
+   font-weight: 800;
+   font-style: normal;
+}

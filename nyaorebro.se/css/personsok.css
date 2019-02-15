@@ -164,7 +164,7 @@ form.or-search-field {
 
 .ess-result h2{
     font-size: 14px;
-    color: #e83c23;   
+    color: #D63823;   
 }
 
 .ess-result h1, .ess-result h2, .ess-result h3 {
@@ -225,7 +225,7 @@ form.or-search-field {
 .sv-siteseeker-search-portlet {
 	background-color:#fff;	
 	border: solid 1px #f3dcd0;
-	border-top: solid 5px #E83C23;
+	border-top: solid 5px #D63823;
 	margin-bottom: 25px;
 }
 
@@ -259,9 +259,9 @@ form.or-search-field {
     color: #fff;
     padding: 2px 0px 3px 0px;
     font-size: 13px;
-    background: none repeat scroll 0 0 #e83c23;
+    background: none repeat scroll 0 0 #D63823;
     border-radius: 40px;
-    border: 1px solid #e83c23;
+    border: 1px solid #D63823;
     display: inline-block;
     width: 32px;
     line-height: 2em;

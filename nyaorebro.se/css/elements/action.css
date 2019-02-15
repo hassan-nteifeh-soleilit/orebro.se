@@ -3,12 +3,12 @@
    position:relative;
    text-decoration: none;
    background: #fff;
-   margin-top: 15px; 
-   margin-bottom: 15px;
+   margin-top: 23px; 
+   margin-bottom: 23px;
 }
 
 .or-elmt-actn:hover .or-elmt-actn-link {
-   color: #E83C23;
+   color: #D63823;
    text-decoration: underline;
 }
 
@@ -35,7 +35,7 @@
    pointer-events: none;
    border-color: rgb(255, 255, 255);    
    border-color: rgba(136, 183, 213, 0) rgba(136, 183, 213, 0) rgba(136, 183, 213, 0) ;
-   border-left-color: #E83C23;
+   border-left-color: #D63823;
    border-width: 10px;
    margin-top: -10px;
 }
@@ -47,14 +47,14 @@
 
 .or-elmt-actn-icon {
    width: 48px;
-   background-color: #E83C23;		
+   background-color: #D63823;		
    text-align: center;
 }
 
 
 
 .or-elmt-actn-icon .fa-exclamation-triangle{
-   background-color: #E83C23 !important;
+   background-color: #D63823 !important;
 }
 
 .or-elmt-actn-icon .fa-info-circle{

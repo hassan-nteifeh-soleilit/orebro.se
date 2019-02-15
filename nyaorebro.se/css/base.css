@@ -245,7 +245,7 @@ h2 a,h3 a,h4 a,h2 a:link,h3 a:link,h4 a:link{
 }*/
 
 h2 a:hover, h2 a:hover, h3 a:hover, h3 a:hover, h4 a:hover{
-	color:#e83c23;
+	color:#D63823;
 }
 
 h2 a:focus, h2 a:focus, h3 a:focus, h3 a:focus, h4 a:focus, h2 a:active, h2 a:active, h3 a:active, h3 a:active, h4 a:active{
@@ -266,7 +266,7 @@ h4 {
 	content: "\f061";
     font-family: FontAwesome;
     padding-right: 6px;
-    color: #857672;
+    color: #817370;
     position: relative;
     top: 3px;
     left: -18px;
@@ -297,12 +297,13 @@ header .or-logo {
 
 
 .or-header-topptext{
-    color: #E83C23;
+    color: #D63823;
     margin-bottom: 0px;
     display: block;
     font-size: 19px;
     margin-top: 25px;
     font-family: "leaguespartan webfont",sans-serif;
+    font-weight: 800;
 }
 
 .or-header-bottomtext{
@@ -312,6 +313,7 @@ header .or-logo {
 	margin-bottom: 0px;
 	font-size: 16px;
 	font-family: "leaguespartan webfont",sans-serif;
+	font-weight: 800;
 }
 
 
@@ -325,7 +327,7 @@ header .or-logo {
 }
 
 .or-header-bottomtext{
-	color: #E83C23;
+	color: #D63823;
 	display: block;
 	margin-top: -1px;
 	margin-bottom: 0px;
@@ -372,18 +374,18 @@ header .or-logo {
 
 .or-tool-area a:hover
 {
-	color:#e83c23;
+	color:#D63823;
 	text-decoration:underline;
 }
 
 .or-tool-area a:hover i:before
 {
-	color:#857672;
+	color:#817370;
 }
 
 .or-tool-area a i
 {
-	color:#f28c00;
+	color:#DB7E02;
 	display:block;
 	float:left;
 	margin-bottom:5px;
@@ -492,7 +494,7 @@ section.or-top-img-area {
 }
 
 body section.or-top-img-area .or-top-img-text-area h1 {
-    color: #E83C23;
+    color: #D63823;
     margin-top: 0px;
     font-size: 24px;
     margin-bottom: 0px;
@@ -756,7 +758,7 @@ ul.or-nav-list li .or-list-wrapper:hover p {
 ul.or-nav-list li .or-list-wrapper .or-title
 {
 	border-bottom:2px dotted #dad6d4;
-	color:#e83c23;
+	color:#D63823;
 	font-size:18px;
 	padding-bottom:10px;
 }
@@ -819,7 +821,7 @@ nav.or-breadcrumbs li .or-path-divider
 
 nav.or-breadcrumbs li:last-child span
 {
-	color: #E83C23;
+	color: #D63823;
 }
 
 
@@ -910,7 +912,7 @@ body p.sv-portlet-image-caption {
 .or-article-main ul.normal li:before {
     content: "\f111";
     font-family: FontAwesome;
-    color: #857672;
+    color: #817370;
     padding-right: 10px;
     font-size: 10px;
     top: -2px;
@@ -976,7 +978,7 @@ body p.sv-portlet-image-caption {
 	display: table-row;
 	font-weight: bold;
 	text-align: left;
-	background-color: #e83c23;
+	background-color: #D63823;
 }
 .or-tb-row
 {
@@ -1090,7 +1092,7 @@ body p.sv-portlet-image-caption {
 }
 
 .or-sort-box.sorting-by i{
-	color: #E83C23;
+	color: #D63823;
 }
 
 .or-sortable .or-tb-row:nth-child(even) {
@@ -1292,7 +1294,7 @@ nav.or-secondary .or-content ul li a:focus {
 
 
 nav.or-secondary .or-content ul li a h3 {
-    color: #e83c23;
+    color: #D63823;
     margin-bottom: 4px;
     font-size: 18px;
     transition: all 0.3s ease-out;
