@@ -10,7 +10,7 @@
       <div class="or-mobile-nav-text">Meny</div>
     </a>      
         
-    <a class="or-mobile-nav-column" href="#con"  id="contactBtn">          
+    <a class="or-mobile-nav-column" href="#svid10_4b9b84c3151c46e7cb9654"  id="contactBtn">          
       <i class="fa fa-comments"></i>
       <div class="or-mobile-nav-text">Kontakt</div>
     </a>
@@ -20,7 +20,7 @@
       <div class="or-mobile-nav-text">Sök</div>
     </a>  
    
-      <a class="or-mobile-nav-column search-column" href="#0" id="or-id-readspeaker-mobile">         
+      <a class="or-mobile-nav-column search-column" href="#or-id-readspeaker-player" id="or-id-readspeaker-mobile">         
       <i class="fa fa-volume-up"></i>
       <div class="or-mobile-nav-text">Lyssna</div>
     </a>  
