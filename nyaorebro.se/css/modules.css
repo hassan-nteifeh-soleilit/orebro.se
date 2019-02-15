@@ -862,6 +862,31 @@ body img.or-file-icon{
     color: #6b0771;
 }
 
+/* Sidor utförartjänster */ 
+.sv-table-type-utforare-servicetjanster thead th p {
+	color: #fff !important;
+}
+
+.sv-table-type-utforare-servicetjanster  tr td {
+    padding: 0.5em!important;
+}
+
+@media print {
+    #Ingressforetagetsprofilering  {
+        font-size: 12px !important; 
+        line-height: 12px!important; 
+    }
+
+    .sv-use-margins .ingress{
+        font-size: 12px !important; 
+    }
+}
+
+
+
+
+
+
 /* Hade du nytta av innehållet */
 .kontakta-ruta {
     background-color: #FFF;

@@ -1,5 +1,11 @@
 @media all and (max-width: 480px) {
 
+    .or-contact-bar-info-container a {
+        font-size: 13px!important;
+        line-height: 16px;
+        margin-bottom: 4px;
+    }
+
     /* från base */
     .searchform {
         padding: 8px 40px 8px 12px;
@@ -255,23 +261,23 @@
     }
 
     .ingress {
-        font-size: 16px;
+        font-size: 18px;
         line-height: 25px;
     }
 
     .normal {
-        font-size: 14px;
+        font-size: 16px;
         line-height: 22px;
         font-weight: 400;
     }
 
     .normal a:link {
-        font-size: 14px !important;
+        font-size: 16px;
     }
 
     .sv-text-portlet li {
         margin-bottom: 9px;
-        font-size: 14px !important;
+        font-size: 16px !important;
         line-height: 20px;
         text-align: left;
     }

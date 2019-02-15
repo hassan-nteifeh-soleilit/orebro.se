@@ -5807,8 +5807,8 @@ div.sol-search-icon-wrapper > img {
 	margin-bottom: 4px;
 }
 
-.or-contact-bar-info-container a:link {
-	font-size: 13px;
+.or-contact-bar-info-container a {
+	font-size: 13px!important;
 	line-height: 16px;
 	margin-bottom: 4px;
 }
@@ -6209,6 +6209,27 @@ div.or-synpunkt-action .or-action-content span:after {
 	border-bottom-color: rgb(133, 118, 114);
 	border-bottom-color: rgba(133, 118, 114, 0.2);
 	background-color: #f3f3f3;
+}
+
+
+
+@media (min-width: 1649px) {
+	table.sv-standard td p {
+		font-size: 21px;
+	}
+}
+
+@media (min-width: 1350px) and (max-width: 1649px) {
+	table.sv-standard td p {
+		font-size: 19px;
+	}
+}
+
+
+@media (max-width: 768px) {
+	table.sv-standard td p {
+		font-size: 16px;
+	}
 }
 
 /* Plusboxar */
