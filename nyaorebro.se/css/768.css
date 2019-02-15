@@ -420,7 +420,7 @@ section.or-bg-one {
 
 /* Öppettider/kontakt */
 body .or-article-main .or-openhours-contact .sv-responsiveTable--stacked__headRow th p{
-	color:#F28C00!important;
+	color:#DB7E02!important;
 	font-size: 12px!important;
 }
 
@@ -603,7 +603,7 @@ body section.or-top-img-area .brodtextxxfetx {
     height: 0;
     border-style: solid;
     border-width: 9px 9px 0 9px;
-    border-color: #e83c23 transparent transparent transparent;
+    border-color: #D63823 transparent transparent transparent;
     position: absolute;
     bottom: -8px;
     left: 15px;
@@ -643,7 +643,7 @@ body section.or-top-img-area .brodtextxxfetx {
 
 .or-red-header-box .box-header {
     padding: 6px 8px 7px 10px;
-    background-color: #e83c23;
+    background-color: #D63823;
 }
 
 .or-red-header-box .box-header {
@@ -824,7 +824,7 @@ body section.or-top-img-area .brodtextxxfetx {
 }
 
 .or-mobile-nav-column i.fa{
-    color: #e83c23;
+    color: #D63823;
     font-size: 24px;
     margin-bottom: 6px;
 }
@@ -837,7 +837,7 @@ body section.or-top-img-area .brodtextxxfetx {
 }
 
 .or-mobile-nav-column.or-colorbg{
-	background-color: #E83C23;
+	background-color: #D63823;
 	color: #fff;
 	position: relative;
 }
@@ -849,7 +849,7 @@ body section.or-top-img-area .brodtextxxfetx {
     height: 0;
     border-style: solid;
     border-width: 10px 12px 0 12px;
-    border-color: #e83c23 transparent transparent transparent;
+    border-color: #D63823 transparent transparent transparent;
     bottom: -9px;
     left: 50%;
     margin-left: -12px;
@@ -876,7 +876,7 @@ body section.or-top-img-area .brodtextxxfetx {
     position: absolute;
     pointer-events: none;
     border-color: rgba(136, 183, 213, 0);
-    border-top-color: #e83c23;
+    border-top-color: #D63823;
     border-width: 12px;
     margin-left: -12px;
     display: none;
@@ -981,7 +981,7 @@ ul.or-nav-list li .or-list-wrapper {
 
 ul.or-nav-list li .or-list-wrapper .or-title {
     border-bottom: 0px dotted transparent;
-    color: #e83c23;
+    color: #D63823;
     padding-bottom: 0px;
 }
 
