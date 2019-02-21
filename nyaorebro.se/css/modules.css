@@ -2489,6 +2489,7 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
     margin-top: -2px;  
 }
 
+/*
 .tabs-plusbox .or-plus-box-diskret-header.or-plus-box-active .plusboxxrubrik,
 .tabs-plusbox .or-plus-box-header:hover .plusboxxrubrik {
     color: #D63823;
@@ -2503,6 +2504,7 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
 .tabs-plusbox .or-plus-box-header:hover .fa-teckensprak * {
     stroke: #D63823;
 }
+*/
 
 .tabs-plusbox:not(.sv-editable-layout) {
     flex-direction: row;
@@ -2559,11 +2561,16 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
     }
 }
 @media (max-width: 480px) {
+    .tabs-plusbox:not(.sv-editable-layout) .or-plus-box-header {
+        padding-right: 40px;
+        padding-left: 7px;
+    }
     .tabs-plusbox:not(.sv-editable-layout) {
         margin: 20px -3px;
     }
     .tabs-plusbox:not(.sv-editable-layout) > div:not(.tabs-plusbox-content) {
-        margin: 0 3px;
+        padding: 0 3px;
+        margin: 0 -1px;
     }
     .tabs-plusbox:not(.sv-editable-layout) .tabs-plusbox-content {
         margin: 0 3px;
