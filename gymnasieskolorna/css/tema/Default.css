@@ -1,7 +1,7 @@
 /* Färg tema */
 
  .colortext{
-color:#e83c23;
+color:#D63823;
 }
 
 
@@ -49,15 +49,15 @@ footer i.or-social-icon-fg {
 .submit.bg-color, /* Färg för sökknapp   */
 .or-colorbg,
 .or-forms input[type="submit"] {
-   background-color: #e83c23;
+   background-color: #D63823;
 }
 
 .or-formicon {
-  background-color: #857672;
+  background-color: #817370;
 }
 
 .or-colorborder {
-   border-color: #e83c23;
+   border-color: #D63823;
 }   
 
 /* Mörkare ton nederkant på submit knapp */
@@ -68,7 +68,7 @@ footer i.or-social-icon-fg {
 /* Text färg för temat */
 h1.heading, 
 .or-colortext {
-  color: #e83c23;
+  color: #D63823;
 }   
 
 /* Bakgrundsfärg för brödsmulsraden */
@@ -78,7 +78,7 @@ h1.heading,
 
 /* Färg för rubriker i nyhetslistning*/
 .rubriknyhetsruta{
-     color: #e83c23;
+     color: #D63823;
 }
 
 input:focus, select:focus,
@@ -91,7 +91,7 @@ textarea:focus {
 
 /* Kommentarsrutor */
 li.or-comment.or-colorborder {
-  border-color: rgba(133, 118, 114, 0.49) rgba(133, 118, 114, 0.49) #857672;
+  border-color: rgba(133, 118, 114, 0.49) rgba(133, 118, 114, 0.49) #817370;
   background-color: rgba(255, 255, 255, 0.78);
 }   
 
@@ -126,13 +126,13 @@ ul.sol_steps.clearfix {
 }
 
 li.sol_step.active {
- 	background-color: #f28c00;
+ 	background-color: #DB7E02;
    box-shadow: #fcb95b 1px 8px 0px 0px inset, #c77400 0px 0px 5px 0px inset;
 
 }
 .sol_process_flow_outer > div{
-   border-color: #f28c00 rgba(242, 140, 0, 0.34) rgba(242, 140, 0, 0.34);
-   color: #f28c00;
+   border-color: #DB7E02 rgba(242, 140, 0, 0.34) rgba(242, 140, 0, 0.34);
+   color: #DB7E02;
 }
 
 /* Kalender */
@@ -140,7 +140,7 @@ li.sol_step.active {
 .or-calendar-text-active, 
 .or-calendar-text-active-event,
 .or-calendar-columns.or-week-column{
-   background-color: #E83C23;
+   background-color: #D63823;
 }
 
 
@@ -159,7 +159,7 @@ li.sol_step.active {
 }
 
 .or-plus-box-header.or-plus-box-active {
-   background-color:#E83C23;
+   background-color:#D63823;
 }
 
 .or-plus-box-program.or-plus-box-header.or-plus-box-active {
@@ -184,7 +184,7 @@ h4.plusboxxrubrik.or-plus-box-active {
 }
 
 .or-contacticon i {
-  color:#e83c23;
+  color:#D63823;
 }
 
 .or-contact-left-column-container.or-colorbg {  
@@ -194,15 +194,15 @@ h4.plusboxxrubrik.or-plus-box-active {
 /* Push meny */
 
 .or-menu-lvl-1.or-menu-expanded {
-   border-right: #e83c23 solid;
+   border-right: #D63823 solid;
 }
 
 .or-menu-curr-page {
-   background-color: #e83c23;
+   background-color: #D63823;
 }
 
 .calltoactionwrapper:hover > .or-ctatext {
-  color: #e83c23;
+  color: #D63823;
   text-decoration: none;
-  border-bottom: 2px solid #e83c23;
+  border-bottom: 2px solid #D63823;
 }

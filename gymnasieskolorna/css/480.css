@@ -472,7 +472,7 @@
     .or-header-bottomtext h4 {
         font-size: 12px;
         margin-top: 1px;
-        color: #857672;
+        color: #817370;
         padding-left: 3px;
     }
 
@@ -529,7 +529,7 @@
         font-family: "leaguespartan webfont", sans-serif;
         font-style: normal;
         font-size: 17px;
-        color: #F28C00;
+        color: #DB7E02;
         line-height: 22px;
         font-weight: 700;
     }
@@ -702,7 +702,7 @@
 
     .or-puff-program p.normal {
         font-family: "Leaguespartan webfont", sans-serif;
-        color: #60930F;
+        color: #55830e;
         font-size: 12px;
         line-height: 1.2em;
         text-align: left;
@@ -794,12 +794,12 @@
         display: block;
         cursor: pointer;
         border-radius: 2px;
-        /*background-color: #e83c23;
+        /*background-color: #D63823;
         color: #fff;
         padding: 5px 35px 5px 7px;
         font-size: 12px;*/
         background-color: #fff;
-        color: #e83c23;
+        color: #D63823;
         padding: 8px 35px 8px 10px;
         -moz-border-radius: 2px;
         -webkit-border-radius: 2px;
@@ -831,10 +831,10 @@
     }
 
     .sol-accordion-heading.sol-tab-active {
-        background-color: #e83c23;
+        background-color: #D63823;
         color: #fff;
-        /*border: 2px solid #e83c23;*/
-        border: 0px solid #e83c23;
+        /*border: 2px solid #D63823;*/
+        border: 0px solid #D63823;
         border-top: 5px solid #cf311a;
         padding-bottom: 8px;
     }

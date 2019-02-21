@@ -29,7 +29,7 @@
     height: 22px;
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
-    background-color: #e83c23;
+    background-color: #D63823;
     font-family: futura-pt, sans-serif;
     color: white;
     font-size: 13px;
@@ -152,12 +152,12 @@
     background-color: white;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
-    color: #857672;
+    color: #817370;
     font-weight: 400;
     text-align: center;
 }
 .or-month-container:hover {
-    color: #e83c23;
+    color: #D63823;
 }
 
 .or-calendar-filter-container {
@@ -166,12 +166,12 @@
     float: left;
     border: 1px solid #ffcdc7;
     border-radius: 1px;
-    background-color: #e83c23;
+    background-color: #D63823;
 }
 
 /* Rubrik rad */
 .or-week-row.or-day-row {
-    background-color: #e83c23;
+    background-color: #D63823;
     color: white;
 }
 
@@ -199,13 +199,13 @@
 .or-calendar-columns.or-week-column {
     border-right-color: rgba(255, 255, 255, 0.34);
     border-bottom-color: rgba(255, 255, 255, 0.34);
-    background-color: #e83c23;
+    background-color: #D63823;
     color: white;
 }
 
 .or-week-text:hover {
     background-color: rgba(255, 255, 255, 0.78);
-    color: #e83c23;
+    color: #D63823;
 }
 
 .or-week-text:hover a {
@@ -273,7 +273,7 @@
     padding-top: 2px;
     border: 2px solid #f0c3bb;
     border-radius: 20px;
-    background-color: #e83c23;
+    background-color: #D63823;
     -webkit-transition: all 300ms ease;
     transition: all 300ms ease;
     color: white;
@@ -283,7 +283,7 @@
 }
 
 .or-calendar-text-active-event:hover{
-    background-color: #f28c00;
+    background-color: #DB7E02;
 }
 
 /* Dag med händelse */
@@ -320,7 +320,7 @@
 .or-month-text, .or-month-text a {
     margin-right: 6px;
     margin-left: 6px;
-    color: #857672;
+    color: #817370;
 }
 
 
@@ -339,16 +339,16 @@
 
 .or-month-container .or-month-arrow {
     font-size: 16px;
-    color: #857672;   
+    color: #817370;   
 }
 
 .or-month-container .or-month-arrow:hover {
-    color: #E83C23;   
+    color: #D63823;   
 }
 
 /* Ny action */
 .or-ny-action span.fa {
-    background-color: #E83C23;
+    background-color: #D63823;
     color: white;
     position: absolute;
     display: inline-block;
@@ -379,7 +379,7 @@
     width: 0;
     position: absolute;
     pointer-events: none;
-    border-color: rgba(136, 183, 213, 0) rgba(136, 183, 213, 0) rgba(136, 183, 213, 0) #E83C23;
+    border-color: rgba(136, 183, 213, 0) rgba(136, 183, 213, 0) rgba(136, 183, 213, 0) #D63823;
     border-width: 12px;
     margin-top: -13px;
 }
@@ -460,7 +460,7 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3{
 
 
 .or-teaser-box .or-title {
-    background: #857672;
+    background: #817370;
     padding: 6px 15px 7px;
     min-height: 26px;
     border-top-left-radius: 2px;
@@ -468,7 +468,7 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3{
 }
 
 .or-teaser-box.or-related-links .or-title {
-    background: #857672;
+    background: #817370;
 }
 
 .or-teaser-box .or-title span {
@@ -520,7 +520,7 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3{
 
 .or-teaser-box.or-related-links .or-text-content .or-teaser-list li:hover .or-link-name {
     text-decoration: underline;
-    color: #017cdb;
+    color: #0066B0;
 }
 
 .or-teaser-box.or-related-documents .or-text-content .or-teaser-list li {
@@ -564,7 +564,7 @@ ul.or-teaser-list {
 }
 
 .or-teaser-box  .or-file-icon-container {
-    color: #857672;
+    color: #817370;
     font-size: 18px;
     text-align: left;
     line-height: 16px;
@@ -598,7 +598,7 @@ ul.or-teaser-list {
     top: 50%;
     margin-top: -13px;
     text-decoration: underline;
-    color: #017cdb;
+    color: #0066B0;
     background-size: 25%;
     background-color: transparent;
     margin-right: 4px;
@@ -627,7 +627,7 @@ color: #35383b*/
     top: 50%;
     margin-top: -13px;
     text-decoration: underline;
-    color: #017cdb;			
+    color: #0066B0;			
     background-size: 25%;
     background-color: transparent;
     margin-right: 4px;
@@ -652,7 +652,7 @@ color: #35383b*/
 }
 
 .sv-text-portlet table thead{
-    background-color: #e83c23;
+    background-color: #D63823;
 }
 
 .sv-text-portlet table thead th{
@@ -709,7 +709,7 @@ body .or-article-main .sv-responsiveTable--stacked__headRow p{
 }
 
 .sol-tab-button-container .sol-tab-button:hover {
-    color: #e83c23;
+    color: #D63823;
 }
 
 .sol-tab-button.sol-tab-active:hover {
@@ -723,7 +723,7 @@ body .or-article-main .sv-responsiveTable--stacked__headRow p{
 
 .sol-tab-button.sol-tab-active
 {
-    background:#e83c23;
+    background:#D63823;
     border-bottom:0;
     border-left:0;
     border-right:0;
@@ -737,7 +737,7 @@ body .or-article-main .sv-responsiveTable--stacked__headRow p{
     border-bottom:1px solid rgba(232,60,35,0.20);
     border-left:1px solid rgba(232,60,35,0.2);
     border-right:1px solid rgba(232,60,35,0.2);
-    border-top:5px solid #e83c23;
+    border-top:5px solid #D63823;
     padding:12px;
 }
 
@@ -800,7 +800,7 @@ body .or-article-main .sv-responsiveTable--stacked__headRow p{
     width: 50px;
     font-weight: bold;
     font-size: 11px;
-    background-color: #e83c23;
+    background-color: #D63823;
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
     box-shadow: 3px 0px 6px -3px rgba(0, 0, 0, 0.4) inset;
@@ -844,7 +844,7 @@ body .or-article-main .sv-responsiveTable--stacked__headRow p{
 }
 
 .or-modal .or-kontakt-och-tyck-till h3 {
-    color: #e83c23;
+    color: #D63823;
     margin-top: 0px;
 }
 
@@ -893,7 +893,7 @@ body .or-content-container .or-tir p, body .or-content-container .or-tir p a:lin
     font-style: initial;
     font-size: 28px;
     vertical-align: middle;
-    color: #f28c00;
+    color: #DB7E02;
     position: absolute;
     left: 15px;
     top: 18px;
@@ -945,11 +945,11 @@ body .or-content-container .or-tir p, body .or-content-container .or-tir p a:lin
     color: #fff;
     padding: 5px 12px;
     font-size: 13px;
-    background: none repeat scroll 0 0 #e83c23;
+    background: none repeat scroll 0 0 #D63823;
     border-radius: 40px;
     -moz-border-radius: 40px;
     -webkit-border-radius: 40px;
-    border: 1px solid #e83c23;
+    border: 1px solid #D63823;
     box-sizing: initial;
 }
 
@@ -964,7 +964,7 @@ body .or-content-container .or-tir p, body .or-content-container .or-tir p a:lin
 .pagination .prev,
 .pagination .next {
     background: none repeat scroll 0 0 transparent !important;
-    border: 0 solid #e83c23 !important;
+    border: 0 solid #D63823 !important;
 }
 
 /********** OBS tar bort "facetten" Alla i sök *********/
@@ -1022,7 +1022,7 @@ span.sol-hit-count {
     box-shadow: 0 -20px 0 11px rgba(174,222,239,0.65) inset; */   
 }
 .sol-facetter .sol-selected-facet {
-    background: #e83c23;
+    background: #D63823;
     color: #FFF;
     border-bottom: 0 solid transparent;
     position: relative;
@@ -1036,7 +1036,7 @@ span.sol-hit-count {
 }
 
 .sol-facetter .sol-selected-facet:hover {
-    background-color: #f28c00;
+    background-color: #DB7E02;
     color: #FFF;
     border-bottom: 0 solid transparent;
 }
@@ -1106,11 +1106,11 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
 .sol-facetter p {
     font-size: 12px;
     margin-bottom: 15px !important;
-    color: #e83c23;
+    color: #D63823;
 }
 
 .sol-facetter .or-show-hiden-facet-items {
-    background-color: #857672;
+    background-color: #817370;
     border-bottom: 2px dotted transparent;
     color: #fff;
 }
@@ -1187,7 +1187,7 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
     width: 50px;
     font-weight: 700;
     font-size: 11px;
-    background-color: #e83c23;
+    background-color: #D63823;
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
     box-shadow: -3px 0 6px -3px rgba(0,0,0,0.4) inset;
@@ -1318,7 +1318,7 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
 }
 
 .or-social-media-content .or-header {
-    color: #857672;
+    color: #817370;
     font-size: 12px;
     font-weight: 300;
     margin-bottom: 7px;
@@ -1334,7 +1334,7 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
 }
 
 .or-social-media-content .or-header .fa-clock-o {
-    color: #857672;
+    color: #817370;
     margin-left: 5px;
 }
 
@@ -1347,7 +1347,7 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    color: #857672;
+    color: #817370;
     display: block;
     float: left;
     font-family: "leaguespartan webfont",sans-serif;
@@ -1398,7 +1398,7 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
 }
 
 .or-media-close {
-    background-color: #e83c23;
+    background-color: #D63823;
     border-bottom-left-radius: 3px;
     border-top-right-radius: 0;
     box-shadow: 3px 0 6px -3px rgba(0,0,0,0.4) inset;
@@ -1639,7 +1639,7 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
 }
 
 .or-plus-box-diskret-header .or-icon-plus::before {
-    color: #857672;
+    color: #817370;
     font-size: 15px;
     top: -1px;
 }
@@ -1650,7 +1650,7 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
 }
 
 .or-plus-box-diskret-header.or-plus-box-active .or-collapse-button {
-    background-color: #857672;
+    background-color: #817370;
 }
 
 .or-plus-box-diskret-header.or-plus-box-active .or-icon-plus:before {
@@ -1869,7 +1869,7 @@ body:not(.sv-editing-mode) .or-plus-box-program.or-plus-box-content caption, bod
     margin-right: 0.2em;
 }
 .or-colorborder.or-wrapper-click.or-plus-box-header.or-plus-box-active .or-plusbox-kontakter .plusboxxrubrik {
-    color: #E83C23;
+    color: #D63823;
 }
 .or-colorborder.or-wrapper-click.or-plus-box-header.or-plus-box-active .or-plusbox-kontakter .or-icon-area {
 }
@@ -2017,7 +2017,7 @@ body:not(.sv-editing-mode) .or-plus-box-program.or-plus-box-content caption, bod
 .or-kontaktpersoner-container:after {
     content: "\f086";
     font-family: FontAwesome;
-    color: #f28c00;
+    color: #DB7E02;
     position: absolute;
     top: 17px;
     left: 19px;

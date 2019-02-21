@@ -46,7 +46,7 @@
 }
 
 .orgLevels a {
-    color:#017cdb;
+    color:#0066B0;
 	text-decoration:underline;
     margin-right: 5px;
     margin-left: 5px;
@@ -184,21 +184,21 @@ form.or-search-field {
 
 .or-personsok-person .normal a:link{
 	font-size: 14px;
-	color:#017cdb;
+	color:#0066B0;
 	text-decoration:underline;
 	margin-right: 25px;
 }
 
 .email .normal a:link{
 	font-size: 14px;
-	color:#017cdb;
+	color:#0066B0;
 	text-decoration:underline;
 	margin-right: 25px;
 }
 
 .or-personsok-person a{
 	font-size: 13px;
-	color:#017cdb;
+	color:#0066B0;
 	text-decoration:underline;
 	margin-right: 25px;
 }
@@ -209,7 +209,7 @@ form.or-search-field {
 
 .email a{
 	font-size: 13px;
-	color:#017cdb;
+	color:#0066B0;
 	margin-right: 25px;
 }
 
@@ -292,7 +292,7 @@ form.or-search-field {
 }
 
 .ess-pagenav a:link:hover {
-    background-color: #f6f4f2;
+    background-color: #FAFAFA;
 }
 
 /* Autocomplete anpassning */

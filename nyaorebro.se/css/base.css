@@ -2,7 +2,7 @@
 /* Grunddesign */
 
 body{
-	background-color: #f6f4f2!important;
+	background-color: #FAFAFA!important;
 /*	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: subpixel-antialiased;
 font-smoothing: subpixel-antialiased;*/
@@ -58,7 +58,7 @@ a.sv-portlet-primary-paragraph:link, a.normal:link, .portlet-font a:link, .portl
 .portlet-menu-description a:link, 
 .sv-portlet-image-caption a:link, .sv-portlet-link-description a:link, .sv-portlet-primary-paragraph a:link, td a:link, td body a:link, td a:link, .or-personsok-person a:link, .or-personsok-address a:link{
 	text-decoration: underline;
-	color: #017cdb;
+	color: #0066B0;
 	cursor: pointer;
 }
 
@@ -120,7 +120,7 @@ a.ingress:link, .ingress a:link {
     font-style: normal;
     font-size: 20px;
     text-decoration: underline;
-	color: #017cdb;
+	color: #0066B0;
     line-height: normal;
     display: inline;
     padding-right: 1px;
@@ -154,7 +154,7 @@ a.ingress:active, .ingress a:active, a.ingress:focus, .ingress a:focus{
     font-style: normal;
     line-height: normal;
     text-decoration: underline;
-	color: #017cdb;
+	color: #0066B0;
 }
 
 .sv-linklist-portlet table.sv-standard td p a:visited, .sv-blog-portlet table.sv-standard td p a:visited, .sv-archive-portlet table.sv-standard td p a:visited, .sv-text-portlet table.sv-standard td p a:visited {
@@ -335,7 +335,7 @@ header .or-logo {
 	font-family: "leaguespartan webfont",sans-serif;
 }
 .or-tool-area a:last-child{
-  border-right:0 solid #f6f4f2;
+  border-right:0 solid #FAFAFA;
 }
 
 .or-tool-area
@@ -355,7 +355,7 @@ header .or-logo {
 {
 	border-bottom-left-radius:3px;
 	border-bottom-right-radius:3px;
-	border-right:2px solid #f6f4f2;
+	border-right:2px solid #FAFAFA;
 	float:left;
 	font-size:10px;
 	font-weight:600;
@@ -369,7 +369,7 @@ header .or-logo {
 
 .or-tool-area a:first-child
 {
-	border-right:2px solid #f6f4f2;
+	border-right:2px solid #FAFAFA;
 }
 
 .or-tool-area a:hover
@@ -1020,7 +1020,7 @@ body p.sv-portlet-image-caption {
 .or-tb-row > div a {
     position: relative;
 	text-decoration: underline;
-	color: #017cdb;
+	color: #0066B0;
     /*box-shadow: rgba(174, 222, 239, 0.65)0px -16px 0px -11px inset;
     transition: all 100ms ease;*/
 }

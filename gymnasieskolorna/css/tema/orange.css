@@ -23,7 +23,7 @@
 }
 
 .or-mobile-nav-bar .or-push-nav-btn:hover {
-    background-color: #857672;
+    background-color: #817370;
 }
 
 .or-tree {
@@ -35,7 +35,7 @@
 }
 
 .or-tree ul li a:hover {
-    background-color: #857672;
+    background-color: #817370;
 }
 
 
@@ -44,8 +44,8 @@
 }
 
 .or-tree .or-current a {
-	background-color: #857672;
-    border-bottom: #857672;
+	background-color: #817370;
+    border-bottom: #817370;
 }
 
 .or-tree .or-depth-1 .or-parent .or-toggle-icon:before {
@@ -57,7 +57,7 @@ color: #35383b;
 }
 
 .or-tree .or-depth-1 .or-parent .or-toggle-icon, .or-tree .or-depth-2 .or-parent .or-toggle-icon, .or-tree .or-depth-3 .or-parent .or-toggle-icon, .or-tree .or-depth-4 .or-parent .or-toggle-icon, .or-tree .or-depth-5 .or-parent .or-toggle-icon {
-	border: 2px solid #857672;
+	border: 2px solid #817370;
 }
 
 .or-modal .or-kontakt-och-tyck-till h3 {
@@ -170,7 +170,7 @@ input:focus, select:focus, textarea:focus {
 
 /* Kommentarsrutor */
 li.or-comment.or-colorborder {
-  border-color: rgba(133, 118, 114, 0.49) rgba(133, 118, 114, 0.49) #857672;
+  border-color: rgba(133, 118, 114, 0.49) rgba(133, 118, 114, 0.49) #817370;
   background-color: rgba(255, 255, 255, 0.78);
 }   
 

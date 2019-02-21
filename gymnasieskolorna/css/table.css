@@ -110,7 +110,7 @@
     margin-bottom: 20px;
     border: solid 1px #f3dcd0; }
 .sv-text-portlet table thead {
-    background-color: #e83c23; }
+    background-color: #D63823; }
 .sv-text-portlet table thead th {
     padding: 8px 6px;
     border-right: solid 2px rgba(255, 255, 255, 0.25); }
@@ -128,10 +128,10 @@
     padding: 10px 10px 11px;
     border-right: 1px solid white;
     border-right: 1px solid rgba(255, 255, 255, 0.25);
-    background-color: #E83C23;
+    background-color: #D63823;
     border-bottom: 1px solid rgba(255, 255, 255, 0.25);
     text-align: left;
-    background-color: #e83c23;
+    background-color: #D63823;
     border-bottom: solid 2px rgba(255, 255, 255, 0.25);
     padding-left: 6px;
     font-family: "leaguespartan webfont", sans-serif;
@@ -156,7 +156,7 @@
     padding: 8px 6px;
     vertical-align: top;
     padding: 8px 10px;
-    border-right: 1px solid #857672;
+    border-right: 1px solid #817370;
     border-right: 1px solid rgba(133, 118, 114, 0.09); }
 .sv-text-portlet table.sv-standard td p {
     font-size: 15px;
@@ -168,7 +168,7 @@
     font-size: 15px;
     line-height: 1.2em;
     text-decoration: underline;
-    color: #017cdb;
+    color: #0066B0;
     display: inline;
     padding-right: 1px;
     padding-bottom: 0px;
@@ -196,9 +196,9 @@
     margin-top: 10px;
     font-family: "leaguespartan webfont", sans-serif; }
 .sv-text-portlet table.sv-standard thead tr {
-    background-color: #e83c23; }
+    background-color: #D63823; }
 .sv-text-portlet table.sv-standard tr td:first-child {
-    border-left: 1px solid #857672;
+    border-left: 1px solid #817370;
     border-left: 1px solid rgba(133, 118, 114, 0); }
 
 .sv-table-portlet table {
@@ -214,13 +214,13 @@
     font-family: "leaguespartan webfont", sans-serif; }
 
 .sv-table-portlet thead tr {
-    background-color: #e83c23; }
+    background-color: #D63823; }
 
 .sv-table-portlet th {
     padding: 10px 10px 11px;
     border-right: 1px solid white;
     border-right: 1px solid rgba(255, 255, 255, 0.25);
-    background-color: #E83C23;
+    background-color: #D63823;
     border-bottom: 1px solid rgba(255, 255, 255, 0.25); }
 .sv-table-portlet th span.normal {
     color: white;
@@ -233,21 +233,21 @@
 
 .sv-table-portlet td {
     padding: 8px 10px;
-    border-right: 1px solid #857672;
+    border-right: 1px solid #817370;
     border-right: 1px solid rgba(133, 118, 114, 0.09); }
 
 .sv-table-portlet tr td:first-child {
-    border-left: 1px solid #857672;
+    border-left: 1px solid #817370;
     border-left: 1px solid rgba(133, 118, 114, 0); }
 
 .sv-table-portlet tbody tr {
-    border-bottom: 1px solid #857672;
+    border-bottom: 1px solid #817370;
     border-bottom: 1px solid rgba(133, 118, 114, 0.15); }
 .sv-table-portlet tbody tr:nth-child(odd) {
     background-color: white;
     border-top: 1px solid rgba(133, 118, 114, 0.3); }
 .sv-table-portlet tbody tr:nth-child(even) {
-    border-bottom-color: #857672;
+    border-bottom-color: #817370;
     border-bottom-color: rgba(133, 118, 114, 0.2);
     background-color: #f3f3f3; }
 
@@ -261,13 +261,13 @@
     text-transform: none; }
 
 .sv-text-portlet-content table.sv-standard tbody tr {
-    border-bottom: 1px solid #857672;
+    border-bottom: 1px solid #817370;
     border-bottom: 1px solid rgba(133, 118, 114, 0.15); }
 .sv-text-portlet-content table.sv-standard tbody tr:nth-child(odd) {
     background-color: white;
     border-top: 1px solid rgba(133, 118, 114, 0.3); }
 .sv-text-portlet-content table.sv-standard tbody tr:nth-child(even) {
-    border-bottom-color: #857672;
+    border-bottom-color: #817370;
     border-bottom-color: rgba(133, 118, 114, 0.2);
     background-color: #f3f3f3; }
 
@@ -280,7 +280,7 @@
     padding-top: 2px; }
 
 .sv-text-portlet table.sv-standard .sv-responsiveTable--stacked__headRow {
-    background-color: #E83C23 !important;
+    background-color: #D63823 !important;
     color: #fff;
     line-height: 1.3em;
     font-family: "leaguespartan webfont", sans-serif;
@@ -289,7 +289,7 @@
     padding-top: 2px; }
 
 .sv-responsiveTable--stacked__headRow--main {
-    background-color: #E83C23 !important; }
+    background-color: #D63823 !important; }
 
 .or-article-main .sv-responsiveTable--stacked__headRow th p {
     color: #fff;
