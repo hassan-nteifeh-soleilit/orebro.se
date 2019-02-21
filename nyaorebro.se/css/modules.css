@@ -2516,7 +2516,7 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
 .tabs-plusbox:not(.sv-editable-layout) > div:not(.tabs-plusbox-content) {
     display: inline-block;
     max-width: 240px;
-    width: 50%;
+    width: 100%;
     flex: 1;
     margin: 0 10px;
 }
@@ -2566,7 +2566,7 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
         padding-left: 7px;
     }
     .tabs-plusbox:not(.sv-editable-layout) {
-        margin: 20px -3px;
+        margin: 30px -3px;
     }
     .tabs-plusbox:not(.sv-editable-layout) > div:not(.tabs-plusbox-content) {
         padding: 0 3px;
