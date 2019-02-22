@@ -7496,6 +7496,7 @@ label.or-fieldlabelhelpus {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 0;
 }
 
 .or-puff-program div.sv-text-portlet:nth-child(3) p.normal, .or-inriktning div:nth-child(1) div:nth-child(2) div p.normal {
@@ -7790,13 +7791,15 @@ label.or-fieldlabelhelpus {
 /* Program inriktningar */
 /* se även program puff */
 .or-inriktning {
-	padding-top: 9px;
+	padding-top: 4px;
+	padding-bottom: 9px;
 	display: block;
 	margin-right: auto;
 	margin-bottom: 20px;
 	margin-left: auto;
 	padding-left: 10px;
 	background-color: white;
+    border-top: 1px solid #E4E4E4;
 }
 
 .or-inriktning div:nth-child(2) div div p.normal {
@@ -7806,7 +7809,8 @@ label.or-fieldlabelhelpus {
 	color: black;
 	font-size: 12px;
 	margin-right: 10px;
-	margin-bottom: 5px;
+	margin-top: 10px;
+	margin-bottom: 0;
 	margin-left: 0px;
 	line-height: 15px;
 	border-right: 1px solid #E4E4E4;

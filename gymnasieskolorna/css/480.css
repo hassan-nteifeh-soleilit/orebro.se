@@ -720,6 +720,11 @@
     .or-stor-bild-text-tv > div:nth-child(2) h1, .or-program-heading-container h1.heading {
         font-size: 16px;
         margin-top: 0px !important;
+        margin-bottom: 2px !important;
+    }
+
+    .or-program-heading-container {
+        min-height: auto;
     }
 
     .or-topp-section-school .or-stor-bild-text-actions .or-school-top-image {
@@ -729,6 +734,20 @@
     .or-stor-bild-text-actions > div:nth-child(1) {
         height: 280px;
         min-height: 280px;
+    }
+
+    .diagram-list {
+        display: block;
+    }
+    
+    #myChart {
+        width: 240px!important;
+        height: 240px!important;
+    }
+    .diagram-list > div {
+        flex: 1;
+        display: flex;
+        justify-content: center;
     }
 
     .or-instagram-container {

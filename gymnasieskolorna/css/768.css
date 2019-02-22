@@ -750,6 +750,18 @@ td.sv-text-align-right p {
   background-position: 0px 0px;
 }
 
+.or-school-footer-info {
+  padding: 27px 19px;
+}
+
+.or-school-footer-info .poem span {
+  font-size: 26px;
+}
+
+.or-school-footer-info span {
+  font-size: 14px;
+}
+
 .or-school-footer-info > div:nth-child(1){
 width: 100%;
 }
