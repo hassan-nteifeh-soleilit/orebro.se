@@ -6666,6 +6666,8 @@ div.or-synpunkt-action .or-action-content span:after {
 	width: 100% !important;
 	height: 205px !important;
 	overflow: hidden;
+    background-size: cover!important;
+    background-repeat: no-repeat!important;
 }
 
 /*
@@ -7914,6 +7916,7 @@ label.or-fieldlabelhelpus {
 	margin-top: 0px !important;
 }
 
+
 .or-school-advantages-container .or-school-col:first-child .or-school-col .or-school-advantages-header {
 	border-left: 0;
 }
@@ -8819,19 +8822,4 @@ input[type="file" i]::-webkit-file-upload-button:hover {
 	box-sizing: border-box;
 	width: 100%;
 	margin: 0;
-}
-@media (max-width: 767px) {
-	.or-row > div {
-		-ms-flex: 0 0 50%;
-		flex: 0 0 50%;
-		max-width: 50%;
-	}
-}
-
-@media (max-width: 480px) {
-	.or-row > div {
-		-ms-flex: 0 0 100%;
-		flex: 0 0 100%;
-		max-width: 100%;
-	}
 }

@@ -35,6 +35,15 @@
     .logo.orebrotoplogo {
     }
 
+    .or-row > div {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .or-school-advantages-header h3 {
+        font-size: 14px!important;
+    }
     .sende {
         margin-top: 20px;
         margin-left: 7px;

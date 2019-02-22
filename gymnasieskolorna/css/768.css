@@ -968,6 +968,22 @@ width: 100%;
   border-right: 0px;
 }
 
+.or-school-advantages-header h3 {
+  font-size: 12px!important;
+}
+
+/* Row */
+.or-row {
+  margin-right: -10px;
+  margin-left: -10px;
+
+}
+.or-row > div {
+  padding-right: 10px!important;
+  padding-left: 10px!important;
+
+}
+
 .or-school-col{
   float:none !important; 
   padding-right:0px !important;
