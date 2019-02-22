@@ -7946,9 +7946,10 @@ label.or-fieldlabelhelpus {
 }
 
 .or-programpoang {
-	margin-top: -3px;
+	margin-top: -1px;
 	display: inline-block;
 	float: right;
+	margin-bottom: 3px;
 }
 
 /* Faktabox */

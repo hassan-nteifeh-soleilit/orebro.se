@@ -1720,10 +1720,6 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
     margin-top: 30px;
 }
 
-.or-blogg-width > div:last-child .or-plus-box-header.or-plus-box-program {
-    margin-bottom: 30px;
-}
-
 
 /* Responsiv anpassning av plusboxar start */
 
@@ -1785,8 +1781,8 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
     }
     
     #myChart {
-        width: 240px;
-        height: 240px;
+        width: 240px!important;
+        height: 240px!important;
     }
 }
 @media (max-width: 480px) {
@@ -1800,10 +1796,6 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
         justify-content: center;
     }
     
-    #myChart {
-        width: 240px;
-        height: 240px;
-    }
 }
 
 
