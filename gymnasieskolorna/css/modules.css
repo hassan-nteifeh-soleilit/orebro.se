@@ -1716,7 +1716,11 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
     font-size: 20px;
 }
 
-.or-blogg-width .sv-text-portlet:last-child .or-plus-box-header.or-plus-box-program {
+.or-blogg-width > div:first-child .or-plus-box-header.or-plus-box-program {
+    margin-top: 30px;
+}
+
+.or-blogg-width > div:last-child .or-plus-box-header.or-plus-box-program {
     margin-bottom: 30px;
 }
 

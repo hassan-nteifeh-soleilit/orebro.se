@@ -7491,6 +7491,9 @@ label.or-fieldlabelhelpus {
 	letter-spacing: 0.04em;
 	text-transform: uppercase;
 	text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .or-puff-program div.sv-text-portlet:nth-child(3) p.normal, .or-inriktning div:nth-child(1) div:nth-child(2) div p.normal {
@@ -7943,7 +7946,7 @@ label.or-fieldlabelhelpus {
 }
 
 .or-programpoang {
-	margin-top: 3px;
+	margin-top: -3px;
 	display: inline-block;
 	float: right;
 }
