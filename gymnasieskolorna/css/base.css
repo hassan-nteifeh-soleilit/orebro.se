@@ -165,6 +165,14 @@ p.ingress{
 	}
 }
 
+/* Google translate */
+.goog-te-banner-frame.skiptranslate {
+   display: none !important;
+} 
+body {
+   top: 0px !important; 
+}
+
 .w-input:-moz-placeholder,
 .w-select:-moz-placeholder {
 	color: #3f3e3e;
