@@ -50,8 +50,11 @@
 
 /* Google translate */
 .goog-te-banner-frame.skiptranslate {
-    display: none !important;
+   display: none !important;
 } 
+body {
+   top: 0px !important; 
+}
 
 /* Avdelare */
 .or-divider-dotted {
