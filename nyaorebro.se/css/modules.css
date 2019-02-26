@@ -47,6 +47,12 @@
     text-align: center;
 }
 
+
+/* Google translate */
+.goog-te-banner-frame.skiptranslate {
+    display: none !important;
+} 
+
 /* Avdelare */
 .or-divider-dotted {
     margin-top: 10px;
