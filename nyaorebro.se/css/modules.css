@@ -2617,7 +2617,7 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
     margin-top: -2px;  
 }
 
-.tabs-plusbox .or-plus-box-diskret-header.or-plus-box-active .plusboxxrubrik,
+/*.tabs-plusbox .or-plus-box-diskret-header.or-plus-box-active .plusboxxrubrik,
 .tabs-plusbox .or-plus-box-header:hover .plusboxxrubrik {
     color: #E83C23;
 }
@@ -2630,7 +2630,7 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
 .tabs-plusbox .or-plus-box-active .plusboxxrubrik .fa-teckensprak *,
 .tabs-plusbox .or-plus-box-header:hover .fa-teckensprak * {
     stroke: #E83C23;
-}
+}*/
 
 .tabs-plusbox:not(.sv-editable-layout) {
     flex-direction: row;
