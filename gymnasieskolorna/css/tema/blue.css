@@ -264,8 +264,12 @@ color:#fff;
   color: #0081A2;
 }
 
-.tabs-plusbox .or-plus-box-header.or-plus-box-active .plusboxxrubrik{
+.tabs-plusbox .or-plus-box-header.or-plus-box-active .plusboxxrubrik {
 	color: #0081A2;
+}
+
+.tabs-plusbox .or-plus-box-header.or-plus-box-active .plusboxxrubrik * {
+  stroke: #0081A2;
 }
 
 

@@ -1866,11 +1866,6 @@ body:not(.sv-editing-mode) .or-plus-box-program.or-plus-box-content caption, bod
     background-color: #fff;
 }
 
-.tabs-plusbox .or-plus-box-diskret-header .plusboxxrubrik {
-    color: #000;
-    font-size: 14px;
-}
-
 .tabs-plusbox .plusboxxrubrik svg {
     width: 20px;
     height: 18px;
