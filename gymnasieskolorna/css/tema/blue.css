@@ -268,13 +268,16 @@ color:#fff;
   color: #0081A2;
 }
 
-.tabs-plusbox .or-plus-box-header:hover .plusboxxrubrik * {
-  color: #0081A2;
+.tabs-plusbox .or-plus-box-header:hover .plusboxxrubrik .fa-lattlast *,
+.tabs-plusbox .or-plus-box-header.or-plus-box-active .plusboxxrubrik .fa-lattlast * {
+  fill: #0081A2;
 }
 
-.tabs-plusbox .or-plus-box-header.or-plus-box-active .plusboxxrubrik * {
+.tabs-plusbox .or-plus-box-header:hover .plusboxxrubrik .fa-teckensprak *,
+.tabs-plusbox .or-plus-box-header.or-plus-box-active .plusboxxrubrik .fa-teckensprak * {
   stroke: #0081A2;
 }
+
 
 
 .or-plus-box-active:not(.or-plus-box-diskret-header):hover .plusboxxrubrik{

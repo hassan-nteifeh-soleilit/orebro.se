@@ -270,19 +270,19 @@ h4.plusboxxrubrik.or-plus-box-active {
   color: #fff;
 }
 
-
 .tabs-plusbox .or-plus-box-header.or-plus-box-active .plusboxxrubrik {
   color: #D63823;
 }
 
-.tabs-plusbox .or-plus-box-header:hover .plusboxxrubrik * {
-  color: #D63823;
+.tabs-plusbox .or-plus-box-header:hover .plusboxxrubrik .fa-lattlast *,
+.tabs-plusbox .or-plus-box-header.or-plus-box-active .plusboxxrubrik .fa-lattlast * {
+  fill: #D63823;
 }
 
-.tabs-plusbox .or-plus-box-header.or-plus-box-active .plusboxxrubrik * {
+.tabs-plusbox .or-plus-box-header:hover .plusboxxrubrik .fa-teckensprak *,
+.tabs-plusbox .or-plus-box-header.or-plus-box-active .plusboxxrubrik .fa-teckensprak * {
   stroke: #D63823;
 }
-
 
 
 

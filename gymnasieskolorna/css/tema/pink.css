@@ -274,11 +274,13 @@ li.sol_step.active:hover {
   color: #A95D89;
 }
 
-.tabs-plusbox .or-plus-box-header:hover .plusboxxrubrik * {
-  color: #A95D89;
+.tabs-plusbox .or-plus-box-header:hover .plusboxxrubrik .fa-lattlast *,
+.tabs-plusbox .or-plus-box-header.or-plus-box-active .plusboxxrubrik .fa-lattlast * {
+  fill: #A95D89;
 }
 
-.tabs-plusbox .or-plus-box-header.or-plus-box-active .plusboxxrubrik * {
+.tabs-plusbox .or-plus-box-header:hover .plusboxxrubrik .fa-teckensprak *,
+.tabs-plusbox .or-plus-box-header.or-plus-box-active .plusboxxrubrik .fa-teckensprak * {
   stroke: #A95D89;
 }
 
