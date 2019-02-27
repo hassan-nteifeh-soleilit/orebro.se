@@ -265,6 +265,24 @@ li.sol_step.active:hover {
 	color: #fff;
 }
 
+
+.or-plus-box-header.or-plus-box-active .plusboxxrubrik {
+  color: #fff;
+}
+
+.tabs-plusbox .or-plus-box-header.or-plus-box-active .plusboxxrubrik {
+  color: #A95D89;
+}
+
+.tabs-plusbox .or-plus-box-header:hover .plusboxxrubrik * {
+  color: #A95D89;
+}
+
+.tabs-plusbox .or-plus-box-header.or-plus-box-active .plusboxxrubrik * {
+  stroke: #A95D89;
+}
+
+
 .or-programpoang {
 	border-color: #F4E4F4;
 	color: #A95D89;

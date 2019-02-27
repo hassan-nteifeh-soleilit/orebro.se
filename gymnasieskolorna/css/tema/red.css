@@ -271,6 +271,20 @@ h4.plusboxxrubrik.or-plus-box-active {
 }
 
 
+.tabs-plusbox .or-plus-box-header.or-plus-box-active .plusboxxrubrik {
+  color: #D63823;
+}
+
+.tabs-plusbox .or-plus-box-header:hover .plusboxxrubrik * {
+  color: #D63823;
+}
+
+.tabs-plusbox .or-plus-box-header.or-plus-box-active .plusboxxrubrik * {
+  stroke: #D63823;
+}
+
+
+
 
 
 

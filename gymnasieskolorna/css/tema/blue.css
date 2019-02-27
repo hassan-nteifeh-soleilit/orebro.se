@@ -265,7 +265,11 @@ color:#fff;
 }
 
 .tabs-plusbox .or-plus-box-header.or-plus-box-active .plusboxxrubrik {
-	color: #0081A2;
+  color: #0081A2;
+}
+
+.tabs-plusbox .or-plus-box-header:hover .plusboxxrubrik * {
+  color: #0081A2;
 }
 
 .tabs-plusbox .or-plus-box-header.or-plus-box-active .plusboxxrubrik * {
