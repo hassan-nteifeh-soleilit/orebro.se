@@ -5951,7 +5951,7 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
     height: 25px;
     border-radius: 50%;
     text-align: center;
-    line-height: 25px;
+    line-height: 25px!important;
     vertical-align: middle;
     padding: 2px;
     color:#fff;
