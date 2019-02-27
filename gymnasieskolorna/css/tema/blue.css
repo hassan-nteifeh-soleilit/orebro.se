@@ -261,8 +261,13 @@ color:#fff;
 }
 
 .or-plus-box-header:hover .plusboxxrubrik{
+  color: #0081A2;
+}
+
+.tabs-plusbox .or-plus-box-header.or-plus-box-active .plusboxxrubrik{
 	color: #0081A2;
 }
+
 
 .or-plus-box-active:not(.or-plus-box-diskret-header):hover .plusboxxrubrik{
 	color: #fff;
