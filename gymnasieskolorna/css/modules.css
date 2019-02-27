@@ -1469,7 +1469,7 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
     height: 25px;
     border-radius: 50%;
     text-align: center;
-    line-height: 25px;
+    line-height: 25px!important;
     vertical-align: middle;
     padding: 2px;
     color:#fff;
