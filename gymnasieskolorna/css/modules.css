@@ -1879,6 +1879,7 @@ body:not(.sv-editing-mode) .or-plus-box-program.or-plus-box-content caption, bod
     margin-top: -2px;  
 }
 
+/*
 .tabs-plusbox .or-plus-box-diskret-header.or-plus-box-active .plusboxxrubrik,
 .tabs-plusbox .or-plus-box-header:hover .plusboxxrubrik {
     color: #D63823;
@@ -1893,6 +1894,7 @@ body:not(.sv-editing-mode) .or-plus-box-program.or-plus-box-content caption, bod
 .tabs-plusbox .or-plus-box-header:hover .fa-teckensprak * {
     stroke: #D63823;
 }
+*/
 
 .tabs-plusbox:not(.sv-editable-layout) {
     flex-direction: row;
