@@ -1167,7 +1167,7 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
 .or-language-modal {
     padding:30px;
    /* margin:0 auto;*/
-   margin:-40px 200px;
+   margin:-40px -120px;
     max-width:400px;
     background:#fff;
     box-shadow: 0 0 6px -2px rgba(0,0,0,0.8);
