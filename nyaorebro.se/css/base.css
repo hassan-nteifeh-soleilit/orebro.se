@@ -409,6 +409,15 @@ section.or-breadcrumbs-area
 	position:relative;
 }
 
+/* Google translate */
+.goog-te-banner-frame.skiptranslate {
+   display: none !important;
+} 
+body {
+   top: 0px !important; 
+}
+
+
 /* Pilavdelare på sida */
 .or-arrow-box
 {
