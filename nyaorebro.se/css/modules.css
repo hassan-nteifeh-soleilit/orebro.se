@@ -47,18 +47,9 @@
     text-align: center;
 }
 
-
-/* Google translate */
-.goog-te-banner-frame.skiptranslate {
-   display: none !important;
-} 
-body {
-   top: 0px !important; 
-}
-
 /* Avdelare */
 .or-divider-dotted {
-    margin-top: 10px;
+    margin-top: 35px;
     margin-bottom: 10px;
     border-top: 2px dotted #D1D1D1;
     border-bottom: 2px dotted #D1D1D1;
@@ -93,7 +84,7 @@ form.or-search-field input {
     border: 1px solid #ccc;
     border-style: solid;
     border-width: 1px;
-    border-color: #857672;
+    border-color: #817370;
     border-color: rgba(133,118,114,0.2);
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
@@ -125,7 +116,7 @@ form.or-search-field button {
     cursor: pointer;
     color: #fff;
     text-align: center;
-    background-color: #E83C23;
+    background-color: #D63823;
     -webkit-transition: all 500ms ease;
     -moz-transition: all 500ms ease;
     -o-transition: all 500ms ease;
@@ -133,7 +124,7 @@ form.or-search-field button {
 }
 
 form.or-search-field button:hover {
-    background-color: #857672;
+    background-color: #817370;
 }
 
 .or-search-button-wrapper {
@@ -154,7 +145,7 @@ form.or-search-field button:hover {
 
     /* menyknapp*/
 .or-menu-button-container .fa {
-    background: #E83C23;
+    background: #D63823;
     -moz-border-radius: 40px;
     -webkit-border-radius: 40px;
     border-radius: 40px;
@@ -169,7 +160,7 @@ form.or-search-field button:hover {
 }
 
 .or-menu-button-container .fa:hover {
-    background-color: #857672;
+    background-color: #817370;
 }
 
 .or-menu-button-container .fa :before {
@@ -222,7 +213,7 @@ form.or-search-field button:hover {
     height: 22px;
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
-    background-color: #e83c23;
+    background-color: #D63823;
     font-family: futura-pt,sans-serif;
     color: #fff;
     font-size: 13px;
@@ -252,7 +243,7 @@ form.or-search-field button:hover {
     margin-left: auto;
     padding-top: 3px;
     float: none;
-    border-top: 1px dotted #857672;
+    border-top: 1px dotted #817370;
     border-top: 1px dotted rgba(133,118,114,0.2);
     font-size: 11px;
     line-height: 11px;
@@ -347,13 +338,13 @@ form.or-search-field button:hover {
     -moz-transition: all 500ms ease;
     -o-transition: all 500ms ease;
     transition: all 500ms ease;
-    color: #857672;
+    color: #817370;
     font-weight: 400;
     text-align: center;
 }
 
 .or-month-container:hover {
-    color: #e83c23;
+    color: #D63823;
 }
 
 .or-calendar-filter-container {
@@ -364,12 +355,12 @@ form.or-search-field button:hover {
     border-radius: 1px;
     -moz-border-radius: 1px;
     -webkit-border-radius: 1px;
-    background-color: #e83c23;
+    background-color: #D63823;
 }
 
 /* Rubrik rad */
 .or-week-row.or-day-row {
-    background-color: #e83c23;
+    background-color: #D63823;
     color: #fff;
 }
 
@@ -391,7 +382,7 @@ form.or-search-field button:hover {
     font-family: futura-pt,sans-serif;
     font-size: 15px;
     text-align: center;
-	box-sizing: border-box;
+    box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
 }
@@ -400,13 +391,13 @@ form.or-search-field button:hover {
 .or-calendar-columns.or-week-column {
     border-right-color: rgba(255,255,255,0.34);
     border-bottom-color: rgba(255,255,255,0.34);
-    background-color: #e83c23;
+    background-color: #D63823;
     color: #fff;
 }
 
 .or-week-text:hover {
     background-color: rgba(255,255,255,0.78);
-    color: #e83c23;
+    color: #D63823;
 }
 
 .or-week-text:hover a {
@@ -481,7 +472,7 @@ form.or-search-field button:hover {
     border-radius: 20px;
     -moz-border-radius: 20px;
     -webkit-border-radius: 20px;
-    background-color: #e83c23;
+    background-color: #D63823;
     -webkit-transition: all 300ms ease;
     -moz-transition: all 3100ms ease;
     -o-transition: all 3100ms ease;
@@ -493,7 +484,7 @@ form.or-search-field button:hover {
 }
 
 .or-calendar-text-active-event:hover {
-    background-color: #f28c00;
+    background-color: #DB7E02;
 }
 
 /* Dag med händelse */
@@ -529,7 +520,7 @@ form.or-search-field button:hover {
 .or-month-text,.or-month-text a {
     margin-right: 6px;
     margin-left: 6px;
-    color: #857672;
+    color: #817370;
 }
 
 .or-month-text,.or-month-text a {
@@ -545,11 +536,11 @@ form.or-search-field button:hover {
 
 .or-month-container .or-month-arrow {
     font-size: 16px;
-    color: #857672;
+    color: #817370;
 }
 
 .or-month-container .or-month-arrow:hover {
-    color: #E83C23;
+    color: #D63823;
 }
 
 /* Actions */
@@ -602,7 +593,7 @@ or-action-link {
     -khtml-opacity: .9;
     -moz-opacity: .9;
     -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
-    background-color: #E83C23;
+    background-color: #D63823;
     color: #FFF;
     display: inline-block;
     filter: alpha(opacity=90);
@@ -616,7 +607,7 @@ or-action-link {
 }
 
 .or-action-content span.fa {
-    background-color: #E83C23;
+    background-color: #D63823;
     color: #FFF;
     display: inline-block;
     font-size: 22px;
@@ -630,182 +621,27 @@ or-action-link {
     width: 48px;
 }
 
-/* PUFF ICON LINK START -----------------------------
 
-.or-puff-icon-link .ikonxorange{
-    font-size: 2em !important;
-    margin-left: 0.4em;
+/* Orange bakgrund för action "synpunkter och klagomål" */
+.or-actn__fa-info-circle .or-elmt-actn-row:after{
+    border-left-color: #F4A63B !important;
 }
 
-.or-puff-icon-link .normal{
-    font-size: 16px;
+.or-actn__fa-info-circle .or-elmt-actn-icon{
+    background-color: #F4A63B !important;
 }
 
-.or-puff-icon-link .rubrikx4{
-    font-size: 14px;
+/* Grå bakgrund för action "sök person" i Modalen Kontakta Örebro*/
+.or-modal-content .or-actn__fa-search .or-elmt-actn-icon {
+    background-color: gray !important;
 }
 
-.or-puff-link .or-puff-icon-link .sv-linkicon {
-    padding-left: 8px;
-}
-
-body .or-puff-link .or-puff-icon-link .normal a {
-    font-family: "leaguespartan webfont",sans-serif;
-    box-shadow: rgba(174,222,239,0.0)0px 0 0 0 inset;
-    color: #35383b;
-    font-size: 13px;
-    margin-bottom: 4px;
-    display: inline-block;
-}
-
-body .or-content-page-2 .or-puff-link .or-puff-icon-link {
-    background-color: #fff;
-}
-
-body .or-content-page-2 .or-puff-link .or-puff-icon-link .normal a {
-    color: #857672;
-}
-
-body .or-content-page-2 .or-puff-icon-link::before .or-puff-link::before {
-    border-right-color: #857672;
-    border-bottom-color: #857672;
-    bottom: -4px;
-    right: -4px;
-}
-
-body .or-content-page-2 .or-puff-icon-link::after .or-puff-link::after {
-    bottom: 1px;
-    right: 1px;
-}
-
-body .or-puff-link .or-puff-icon-link .normal a:hover {
-    box-shadow: rgba(174,222,239,0.0)0px 0 0 0 inset;
-    color: #35383b;
-}
-
-body .or-puff-link:hover .or-puff-icon-link:hover .normal a {
-    text-decoration: underline;
-    color: #35383b;
-}
-
-body .or-puff-link .or-puff-icon-link .normal {
-/*color: #e83c23;
-    color: #000;
-    margin-bottom: 0;
-}
-
-.or-puff-icon-link{
-    background-color: #fcf5ec;
-    border: 4px solid #fff;
-    box-shadow: 0 0 5px rgba(199,199,199,0.55);
-    border-radius: 2px;
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
-    width: 31%;
-    margin-bottom: 30px;
-    margin-right: 1%;
-    margin-left: 1%;
-    padding: 8px 20px 8px 13px;
-    position: relative;
-    min-height: 35px;
-    float: left;
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-}
-
-.or-puff-icon-link a {
-    text-decoration: none !important;
-}
-
- --- PUFF ICON LINK END -------------------------------*/
-
-
-
- /* Mindre Puffar på startsidan. Ikon, rubrik och länk.  */
-
-.or-puff-icon-link{
-    display: flex;
-    background-color: #fcf5ec;
-    border: 4px solid #fff;
-    box-shadow: 0 0 5px rgba(199,199,199,0.55);
-    border-radius: 2px;
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
-    width: 31%;
-    margin-bottom: 30px;
-    margin-right: 1%;
-    margin-left: 1%;
-    padding: 15px 20px 8px 13px;
-    position: relative;
-    min-height: 35px;
-    float: left;
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-}
-
-.or-puff-icon-link .normal .ikonxorange{
-    font-size: 2.3em !important;
-    margin-left: 0.4em;
-    padding-right: 0.3em; 
-}
-
-.or-puff-icon-link .normal{
-    font-size: 14px !important;
-    font-weight: 300;
-    line-height: normal;
-}
-
-.or-puff-icon-link .normal a{
-    font-size: 16px!important;
-}
-
-.or-puff-icon-link .rubrikx4{
-    font-size: 14px;
-    margin-top: 0;
-    margin-bottom: 2px;
-    -webkit-transition: color .3s ease-in;
-    -moz-transition: color .3s ease-in;
-    -o-transition: color .3s ease-in;
-    -ms-transition: color .3s ease-in;
-    transition: color .3s ease-in;
+.or-modal-content .or-actn__fa-search .or-elmt-actn-row:after{
+    border-left-color: gray !important;
 }
 
 
-.or-puff-icon-link:hover .rubrikx4{
-    color: #f28c00;
-}
-
-.or-puff-icon-link.or-wrapper-click:hover .normal a:link{
-    text-decoration: underline!important;
-}
-
-
-.or-puff-icon-link a {
-    text-decoration: none !important;
-    color: black;
-}
-
-.or-puff-icon-link a:active {
-    color: black!important;
-}
-
-.or-puff-icon-link a,
-.or-puff-icon-link a:visited,
-.or-puff-icon-link a:active,
-.or-puff-icon-link .normal a
-.or-puff-icon-link .normal:visited,
-.or-puff-icon-link .normal a:visited,
-.or-puff-icon-link .normal:hover,
-.or-puff-icon-link .normal:active{
-    color: black!important;
-}
-
-
-/* mindre puffar på startsidan slut */
-
-
+/* Puff */
 .or-puff-bild-text {
     width: 29.3333%;
     float: left;
@@ -825,7 +661,7 @@ body .or-wrapper-click.or-puff-bild-text:hover p {
 }
 
 body .or-wrapper-click.or-puff-bild-text h3 {
-    color: #F28C00;
+    color: #DB7E02;
     margin-top: 0;
     font-size: 15px;
     font-weight: 100;
@@ -857,7 +693,7 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3 {
 }
 
 .or-teaser-box .or-title {
-    background: #857672;
+    background: #817370;
     padding: 6px 15px 7px;
     min-height: 23px;
     border-top-left-radius: 2px;
@@ -865,7 +701,7 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3 {
 }
 
 .or-teaser-box.or-related-links .or-title {
-    background: #857672;
+    background: #817370;
 }
 
 .or-teaser-box .or-title span {
@@ -914,8 +750,8 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3 {
 
 /*Länkbox relaterade länkar*/
 .or-teaser-box.or-related-links .or-text-content .or-teaser-list li:hover .or-link-name {
-	text-decoration: underline;
-	color: #017cdb;
+    text-decoration: underline;
+    color: #0081A2;
 }
 
 .or-teaser-box.or-related-documents .or-text-content .or-teaser-list li {
@@ -927,7 +763,7 @@ body .or-wrapper-click.or-teaser-box.or-related-links h3 {
 }
 
 .or-teaser-box.or-related-documents .or-text-content .or-teaser-list li:hover .or-link-name {
-	color:#0b4a89
+    color:#0b4a89
 }
 
 ul.or-teaser-list {
@@ -959,7 +795,7 @@ ul.or-teaser-list {
 }
 
 .or-teaser-box .or-file-icon-container {
-    color: #857672;
+    color: #817370;
     font-size: 18px;
     text-align: left;
     line-height: 16px;
@@ -978,13 +814,13 @@ ul.or-teaser-list {
 }
 
 .or-file-icon{
-	width: 24px;
-	height: 24px;
+    width: 24px;
+    height: 24px;
 }
 
 body img.or-file-icon{
-	width: 24px;
-	height: 24px;
+    width: 24px;
+    height: 24px;
 }
 
 .or-teaser-box .or-file-size {
@@ -999,21 +835,21 @@ body img.or-file-icon{
 .or-teaser-box.or-related-links .or-text-content .or-teaser-list li a .or-link-name {
     top: 50%;
     margin-top: -13px;
-	text-decoration: underline;
-	color: #017cdb;
+    text-decoration: underline;
+    color: #0081A2;
     margin-right: 4px;
     font-size: 13px;
 }
 
 .or-teaser-box.or-related-links .or-text-content .or-teaser-list li a .or-link-name:hover {
-	color: #0b4a89;
+    color: #0b4a89;
 }
 
 .or-teaser-box.or-related-documents .or-text-content .or-teaser-list li a .or-link-name {
     top: 50%;
     margin-top: -13px;
-	text-decoration: underline;
-	color: #017cdb;
+    text-decoration: underline;
+    color: #0081A2;
     margin-right: 4px;
     font-size: 13px;
 }
@@ -1025,6 +861,31 @@ body img.or-file-icon{
 .or-teaser-box.or-related-documents .or-text-content .or-teaser-list li a .or-link-name:visited {
     color: #6b0771;
 }
+
+/* Sidor utförartjänster */ 
+.sv-table-type-utforare-servicetjanster thead th p {
+    color: #fff !important;
+}
+
+.sv-table-type-utforare-servicetjanster  tr td {
+    padding: 0.5em!important;
+}
+
+@media print {
+    #Ingressforetagetsprofilering  {
+        font-size: 12px !important; 
+        line-height: 12px!important; 
+    }
+
+    .sv-use-margins .ingress{
+        font-size: 12px !important; 
+    }
+}
+
+
+
+
+
 
 /* Hade du nytta av innehållet */
 .kontakta-ruta {
@@ -1077,7 +938,7 @@ body .or-update-date {
     font-size: 12px;
     display: block;
     margin-top: 9px;
-    color: #857672;
+    color: #817370;
 }
 
 .or-thumbup {
@@ -1088,7 +949,7 @@ body .or-update-date {
     -moz-transition: all 500ms ease;
     -o-transition: all 500ms ease;
     transition: all 500ms ease;
-    background-color: #857672;
+    background-color: #817370;
     border-bottom-color: rgba(255,255,255,0.09);
     border-bottom-style: solid;
     color: #FFF;
@@ -1112,7 +973,7 @@ body .or-update-date {
     -moz-transition: all 500ms ease;
     -o-transition: all 500ms ease;
     transition: all 500ms ease;
-    background-color: #857672;
+    background-color: #817370;
     border-bottom-color: rgba(255,255,255,0.09);
     border-bottom-style: solid;
     color: #fff!important;
@@ -1130,11 +991,11 @@ body .or-update-date {
 
 
 .or-thumbup.thumbdown.selected {
-    background-color: #e83c23;
+    background-color: #D63823;
 }
 
 #id-or-help-us-no:hover {
-    background-color: #E83C23;
+    background-color: #D63823;
 }
 
 .or-thumbup.or-thumbdown {
@@ -1144,7 +1005,7 @@ body .or-update-date {
 }
 
 .or-thumbup.or-thumbdown:hover, .or-thumbdown.selected {
-    background-color: #e83c23;
+    background-color: #D63823;
     background-position: 100% -26px;
 }
 
@@ -1161,7 +1022,7 @@ body .or-update-date {
     -khtml-opacity: .2;
     -moz-opacity: .2;
     -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=20);
-    background-color: #857672;
+    background-color: #817370;
     filter: alpha(opacity=20);
     opacity: .2;
 }
@@ -1200,7 +1061,7 @@ body .or-update-date {
 }
 #or-form__text-area__error-msg {
     display: none;
-    color: #e83c23;
+    color: #D63823;
 }
 
 .or-helpus,.or-helpyes {
@@ -1364,7 +1225,7 @@ label.or-fieldlabelhelpus {
     font-weight: 600;
     color: #fff;
     text-align: center;
-    background-color: #E83C23;
+    background-color: #D63823;
     padding-right: 5px;
 }
 
@@ -1402,12 +1263,12 @@ span.sol-hit-count {
     width: auto !important;
     display: inline !important;
     float: none;
-	text-decoration:underline;
+    text-decoration:underline;
     word-wrap: break-word;
 }
 
 .or-search-link a:hover {
-    color: #e83c23;
+    color: #D63823;
 }
 
 .or-search-content {
@@ -1527,11 +1388,11 @@ body .sol-search-hits .sol-doc-size p {
 }
 
 .sol-facetter ul > li:hover a {
-    color: #e83c23;
+    color: #D63823;
 }
 
 .sol-facetter .sol-selected-facet {
-    background: #e83c23;
+    background: #D63823;
     color: #FFF;
     border-bottom: 0 solid transparent;
     position: relative;
@@ -1545,7 +1406,7 @@ body .sol-search-hits .sol-doc-size p {
 }
 
 .sol-facetter .sol-selected-facet:hover {
-    background-color: #F28C00;
+    background-color: #DB7E02;
     color: #FFF;
     border-bottom: 0 solid transparent;
 }
@@ -1620,11 +1481,11 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
 .sol-facetter .subheading3 {
     font-size: 12px;
     margin-bottom: 15px !important;
-    color: #e83c23;
+    color: #D63823;
 }
 
 .sol-facetter .or-show-hiden-facet-items {
-    background-color: #857672;
+    background-color: #817370;
     border-bottom: 2px dotted transparent;
     color: #fff;
 }
@@ -1721,11 +1582,11 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
     color: #fff;
     padding: 5px 12px;
     font-size: 13px;
-    background: none repeat scroll 0 0 #e83c23;
+    background: none repeat scroll 0 0 #D63823;
     border-radius: 40px;
     -moz-border-radius: 40px;
     -webkit-border-radius: 40px;
-    border: 1px solid #e83c23;
+    border: 1px solid #D63823;
 }
 
 #or-paging-id .next {
@@ -1738,7 +1599,7 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
 
 .pagination .prev {
     background: none repeat scroll 0 0 transparent !important;
-    border: 0 solid #e83c23 !important;
+    border: 0 solid #D63823 !important;
 }
 
 .or-total-link a {
@@ -1770,7 +1631,7 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
     font-weight: bold;
 }
 .or-totalsearch-result__link a {
-    color: #017cdb;
+    color: #0081A2;
     text-decoration: underline;
 }
 .or-totalsearch-result__link a:visited {
@@ -1796,13 +1657,8 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
     }
 }
 .or-did-you-mean.normal, .or-hit-count {
-	margin-left: 15px !important;
+    margin-left: 15px !important;
 }
-.or-did-you-mean.normal, .or-hit-count {
-	margin-left: 15px !important;
-}
-
-
 
 
 
@@ -1919,7 +1775,7 @@ footer {
 .or-footer-icon-links a {
     font-family: "leaguespartan webfont",sans-serif;
     color: #35383b;
-	text-decoration:underline;
+    text-decoration:underline;
     margin-right: 50px;
     font-size: 12px;
     display: inline-block;
@@ -1931,7 +1787,7 @@ footer {
 }
 
 .or-footer-icon-links a:hover {
-	color: #e83c23;
+    color: #D63823;
 }
 
 .or-footer-icon-links i {
@@ -1998,7 +1854,7 @@ footer {
     width: 50px;
     font-weight: 700;
     font-size: 11px;
-    background-color: #e83c23;
+    background-color: #D63823;
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
     box-shadow: 3px 0 6px -3px rgba(0,0,0,0.4) inset;
@@ -2042,7 +1898,7 @@ footer {
 }
 
 .or-modal .or-kontakt-och-tyck-till h3 {
-    color: #e83c23;
+    color: #D63823;
     margin-top: 0;
 }
 
@@ -2089,7 +1945,7 @@ body .or-content-container .or-tir p,body .or-content-container .or-tir p a:link
     font-style: initial;
     font-size: 28px;
     vertical-align: middle;
-    color: #f28c00;
+    color: #DB7E02;
     position: absolute;
     left: 15px;
     top: 18px;
@@ -2097,7 +1953,7 @@ body .or-content-container .or-tir p,body .or-content-container .or-tir p a:link
 
 /* Ny action */
 .or-ny-action span.fa {
-    background-color: #E83C23;
+    background-color: #D63823;
     color: #fff;
     position: absolute;
     display: inline-block;
@@ -2184,12 +2040,12 @@ body .or-content-container .or-tir p,body .or-content-container .or-tir p a:link
 }
 
 .or-ny-action:hover .normal .or-action-text a:link {
-    color: #E83C23;
+    color: #D63823;
     text-decoration: underline;
 }
 
 .or-ny-action:hover .normal .or-action-text a {
-    color: #E83C23;
+    color: #D63823;
     text-decoration: underline;
 }
 
@@ -2271,7 +2127,7 @@ body .or-content-container .or-tir p,body .or-content-container .or-tir p a:link
 }
 
 body .sv-font-action-penna.or-wrapper-click:hover,body .sv-font-action-pil.or-wrapper-click:hover,body .sv-font-action-karta.or-wrapper-click:hover,body .sv-font-action-facebook.or-wrapper-click:hover,body .sv-font-action-twitter.or-wrapper-click:hover,.sv-font-action-instagram.or-wrapper-click:hover {
-    color: #E83C23;
+    color: #D63823;
     text-decoration: underline;
 }
 
@@ -2284,12 +2140,12 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
 }
 
 .sv-font-action-penna:hover a,.sv-font-action-pil:hover a,.sv-font-action-karta:hover a,.sv-font-action-facebook:hover a,.sv-font-action-twitter:hover a,.sv-font-action-instagram:hover a {
-    color: #E83C23;
+    color: #D63823;
     text-decoration: underline;
 }
 
 .sv-font-action-penna:before,.sv-font-action-pil:before,.sv-font-action-karta:before,.sv-font-action-facebook:before,.sv-font-action-twitter:before,.sv-font-action-instagram:before {
-    background-color: #E83C23;
+    background-color: #D63823;
     color: #fff;
     width: 45px;
     height: 100%;
@@ -2360,7 +2216,7 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
 }
 
 .or-plus-box-header:hover .plusboxxrubrik {
-    color: #E83C23;
+    color: #D63823;
     text-decoration: underline;
 }
 
@@ -2377,8 +2233,17 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
     margin-top: 0;
 }
 
+.or-plus-box-content .sv-video-wrapper {
+    width: 100%!important;
+}
+
+.or-plus-box-content .sv-video-wrapper iframe {
+    width: 100%;
+    height: 100%;
+}
+
 .or-plus-box-header.or-colorborder.or-wrapper-click.or-plus-box-header.or-plus-box-active {
-    background-color: #e83c23;
+    background-color: #D63823;
 }
 
 .or-colorborder.or-wrapper-click.or-plus-box-header.or-plus-box-active .plusboxxrubrik {
@@ -2386,7 +2251,7 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
 }
 
 .or-plus-box-header .or-collapse-button {
-    background-color: #E83C23;
+    background-color: #D63823;
 }
 
 .or-plus-box-header .or-collapse-button {
@@ -2406,7 +2271,7 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
 }
 
 .or-plus-box-active .or-icon-plus:before {
-    color: #857672;
+    color: #817370;
 }
 
 .or-collapse-button {
@@ -2455,13 +2320,13 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
 .or-plus-box-diskret-header .plusboxxrubrik {
     padding-top: 8px;
     padding-bottom: 8px;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .or-plus-box-diskret-header .or-icon-plus::before {
     content: "\f067";
     font-family: FontAwesome;
-    color: #857672;
+    color: #817370;
     font-size: 15px;
     top: -1px;
 }
@@ -2479,7 +2344,7 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
 }
 
 .or-plus-box-diskret-header.or-plus-box-active .or-collapse-button {
-    background-color: #857672;
+    background-color: #817370;
 }
 
 .or-plus-box-diskret-header.or-plus-box-active .or-collapse-button .or-icon-plus:before {
@@ -2487,11 +2352,11 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
 }
 
 .or-colorborder.or-wrapper-click.or-plus-box-header.or-plus-box-diskret-header.or-plus-box-active .plusboxxrubrik {
-    color: #E83C23;
+    color: #D63823;
 }
 
 .or-plus-box-diskret-header .or-collapse-button.or-colorbg.or-plus-box-active {
-    background-color: #857672;
+    background-color: #817370;
 }
 
 .or-plus-box-diskret-header .or-plus-box-active .or-icon-plus:before {
@@ -2510,7 +2375,7 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
 /* Plusbox Kontakter */
 .or-plusbox-kontakter .plusboxxrubrik {
     width: 100%;
-    color: #E83C23;
+    color: #D63823;
     background-color: #FCF5EC;
     margin-top: 2px;
     margin-bottom: 2px;
@@ -2521,7 +2386,7 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
     background-color: #fff;
 }
 .or-plusbox-kontakter .or-icon-plus:before {
-    color: #E83C23;
+    color: #D63823;
 }
 .or-plusbox-kontakter .or-collapse-button {
     background-color: #fff;
@@ -2531,15 +2396,22 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
     width: 43px;
 }
 .or-plusbox-kontakter i.fa {
-    color: #E83C23;
+    color: #D63823;
     font-size: 1.3em;
     margin-right: 0.2em;
 }
 .or-colorborder.or-wrapper-click.or-plus-box-header.or-plus-box-active .or-plusbox-kontakter .plusboxxrubrik {
-    color: #E83C23;
+    color: #D63823;
 }
 .or-colorborder.or-wrapper-click.or-plus-box-header.or-plus-box-active .or-plusbox-kontakter .or-icon-area {
 }
+
+
+
+
+/* Responsiv anpassning av plusboxar slut */ 
+
+
 
 /* Kontaktpersoner */
 .or-kontaktpersoner-container {
@@ -2550,19 +2422,19 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
 }
 .or-kontaktpersoner-container h1, .or-kontaktpersoner-container h2, .or-kontaktpersoner-container h3,
 .or-kontaktpersoner-container h4, .or-kontaktpersoner-container h5, .or-kontaktpersoner-container h6 {
-	font-size: 16px !important;
-	font-weight: bold;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: 1.4em;
-	margin-top: 0!important;
-	margin-bottom: 0 !important;
+    font-size: 16px !important;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.4em;
+    margin-top: 0!important;
+    margin-bottom: 0 !important;
 }
 
 .or-kontaktpersoner-container:after {
     content: "\f086";
     font-family: FontAwesome;
-    color: #f28c00;
+    color: #DB7E02;
     position: absolute;
     top: 17px;
     left: 19px;
@@ -2570,14 +2442,14 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
     line-height: 22.4px;
 }
 .or-kontaktpersoner-container .normal {
-	font-size: 16px !important;
-	font-weight: normal;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: 1.43;
-	letter-spacing: normal;
-	text-align: left;
-	color: #35383b;
+    font-size: 16px !important;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: left;
+    color: #35383b;
     line-height: 1.6em;
 }
 
@@ -2617,20 +2489,22 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
     margin-top: -2px;  
 }
 
-/*.tabs-plusbox .or-plus-box-diskret-header.or-plus-box-active .plusboxxrubrik,
+/*
+.tabs-plusbox .or-plus-box-diskret-header.or-plus-box-active .plusboxxrubrik,
 .tabs-plusbox .or-plus-box-header:hover .plusboxxrubrik {
-    color: #E83C23;
+    color: #D63823;
 }
 
 .tabs-plusbox .or-plus-box-active .plusboxxrubrik .fa-lattlast,
 .tabs-plusbox .or-plus-box-header:hover .plusboxxrubrik .fa-lattlast {
-    fill: #E83C23;
+    fill: #D63823;
 }
 
 .tabs-plusbox .or-plus-box-active .plusboxxrubrik .fa-teckensprak *,
 .tabs-plusbox .or-plus-box-header:hover .fa-teckensprak * {
-    stroke: #E83C23;
-}*/
+    stroke: #D63823;
+}
+*/
 
 .tabs-plusbox:not(.sv-editable-layout) {
     flex-direction: row;
@@ -2642,7 +2516,7 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
 .tabs-plusbox:not(.sv-editable-layout) > div:not(.tabs-plusbox-content) {
     display: inline-block;
     max-width: 240px;
-    width: 50%;
+    width: 100%;
     flex: 1;
     margin: 0 10px;
 }
@@ -2687,11 +2561,16 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
     }
 }
 @media (max-width: 480px) {
+    .tabs-plusbox:not(.sv-editable-layout) .or-plus-box-header {
+        padding-right: 40px;
+        padding-left: 7px;
+    }
     .tabs-plusbox:not(.sv-editable-layout) {
         margin: 20px -3px;
     }
     .tabs-plusbox:not(.sv-editable-layout) > div:not(.tabs-plusbox-content) {
-        margin: 0 3px;
+        padding: 0 3px;
+        margin: 0 -1px;
     }
     .tabs-plusbox:not(.sv-editable-layout) .tabs-plusbox-content {
         margin: 0 3px;
@@ -2735,7 +2614,7 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
 /* Kontakt och tyck till */
 .or-element-kontaktpersoner__item-info a,
 a.kontaktaxossxxxbrodtext,.kontaktaxossxxxbrodtext a,a.kontaktaxossxxxbrodtext:link,.kontaktaxossxxxbrodtext a:link,a.kontaktaxossxxxbrodtext:visited,.kontaktaxossxxxbrodtext a:visited,a.kontaktaxossxxxbrodtext:active,.kontaktaxossxxxbrodtext a:active {
-    color: #017cdb;
+    color: #0081A2;
     text-decoration: underline;
     line-height: normal;
     cursor: pointer;
@@ -2743,18 +2622,18 @@ a.kontaktaxossxxxbrodtext,.kontaktaxossxxxbrodtext a,a.kontaktaxossxxxbrodtext:l
 
 .or-element-kontaktpersoner__item-info a:visited,
 body a.kontaktaxossxxxbrodtext:visited,body .kontaktaxossxxxbrodtext a:visited {
-	color: #6b0771;
+    color: #6b0771;
 }
 
 .or-element-kontaktpersoner__item-info a:hover,
 body a.kontaktaxossxxxbrodtext:hover,body .kontaktaxossxxxbrodtext a:hover {
-	color:#0b4a89;
+    color:#0b4a89;
 }
 
 .or-element-kontaktpersoner__item-info a:focus,
 body a.kontaktaxossxxxbrodtext:focus,body .kontaktaxossxxxbrodtext a:focus {
-	color:#890b0b;
-	background-color:#ddd;
+    color:#890b0b;
+    background-color:#ddd;
 }
 
 .or-sok-person-action > div,.or-felanmalan-action > div,.or-synpunkter-action > div {
@@ -2833,7 +2712,7 @@ ul > li.kontaktaxossxxxbrodtext:last-child {
 
 /* formulär */
 .sv-defaultFormTheme{
-	 background-color: rgba(177, 177, 176, 0.17);
+     background-color: rgba(177, 177, 176, 0.17);
     padding: 5px 15px;
     border-radius: 3px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
@@ -2935,7 +2814,7 @@ ul > li.kontaktaxossxxxbrodtext:last-child {
     display: inline-block;
     font-family: "leaguespartan webfont",sans-serif;
     margin-top: 10px;
-	line-height: 1.3em;
+    line-height: 1.3em;
 }
 
 .sv-formFieldRow,.sv-formField {
@@ -3076,7 +2955,7 @@ input[type="file" i]::-webkit-file-upload-button:hover {
 }
 
 .or-news-filter .or-plus-box-header.or-plus-box-diskret-header.or-colorborder.or-wrapper-click.or-plus-box-header.or-plus-box-active {
-    background-color: #E83C23;
+    background-color: #D63823;
 }
 
 .or-news-filter .or-colorborder.or-wrapper-click.or-plus-box-header.or-plus-box-diskret-header.or-plus-box-active .plusboxxrubrik {
@@ -3084,7 +2963,7 @@ input[type="file" i]::-webkit-file-upload-button:hover {
 }
 
 .or-news-filter .or-plus-box-diskret-header.or-plus-box-active .or-collapse-button {
-    background-color: #E83C23;
+    background-color: #D63823;
     border-left: 1px solid rgba(255,255,255,0.3);
 }
 
@@ -3120,7 +2999,7 @@ input[type="file" i]::-webkit-file-upload-button:hover {
 }
 
 .or-year.or-parent.or-expanded .or-toggle-icon {
-    background-color: #857672;
+    background-color: #817370;
 }
 
 .or-year.or-parent.or-expanded .or-toggle-icon:before {
@@ -3144,7 +3023,7 @@ input[type="file" i]::-webkit-file-upload-button:hover {
 
 .or-category li:hover {
     text-decoration: underline;
-    color: #e83c23;
+    color: #D63823;
 }
 
 .or-daterange .or-year.or-parent.or-expanded .or-month {
@@ -3156,13 +3035,13 @@ input[type="file" i]::-webkit-file-upload-button:hover {
 
 .or-daterange .or-year.or-parent.or-expanded .or-month:hover {
     text-decoration: underline;
-    color: #e83c23;
+    color: #D63823;
 }
 
 .or-daterange .or-year.or-parent.or-expanded .or-month.selected {
     font-weight: 700;
     color: #fff;
-    background-color: #e83c23;
+    background-color: #D63823;
     position: relative;
     -webkit-transition: all 100ms ease;
     -moz-transition: all 100ms ease;
@@ -3171,7 +3050,7 @@ input[type="file" i]::-webkit-file-upload-button:hover {
 }
 
 .or-daterange .or-year.or-parent.or-expanded .or-month.selected:hover {
-    background-color: #F28C00;
+    background-color: #DB7E02;
 }
 
 .or-daterange .or-year.or-parent.or-expanded .or-month.selected:hover:after {
@@ -3192,7 +3071,7 @@ input[type="file" i]::-webkit-file-upload-button:hover {
 .or-category .or-category-item.selected {
     font-weight: 700;
     color: #fff;
-    background-color: #e83c23;
+    background-color: #D63823;
     position: relative;
     -webkit-transition: all 100ms ease;
     -moz-transition: all 100ms ease;
@@ -3202,7 +3081,7 @@ input[type="file" i]::-webkit-file-upload-button:hover {
 
 .or-category .or-category-item.selected:hover {
     text-decoration: none;
-    background-color: #F28C00;
+    background-color: #DB7E02;
 }
 
 .or-category .or-category-item.selected:hover:after {
@@ -3223,7 +3102,7 @@ input[type="file" i]::-webkit-file-upload-button:hover {
 
 .or-category li:hover {
     text-decoration: underline;
-    color: #e83c23;
+    color: #D63823;
 }
 
 .or-news-list li {
@@ -3244,7 +3123,7 @@ input[type="file" i]::-webkit-file-upload-button:hover {
 }
 
 .or-news-list li:hover h3 a {
-	color:#e83c23;
+    color:#D63823;
 }
 
 .or-news-list li:hover p {
@@ -3254,11 +3133,11 @@ input[type="file" i]::-webkit-file-upload-button:hover {
 .or-news-list h3 a {
     font-family: "leaguespartan webfont",sans-serif;
     font-size: 16px;
-	text-decoration:underline;
+    text-decoration:underline;
 }
 
 .or-news-list h3 a:hover {
-    color:#e83c23;
+    color:#D63823;
 }
 
 .or-news-list h3,.portlet-section-subheader,.subheading3 {
@@ -3340,7 +3219,7 @@ input[type="file" i]::-webkit-file-upload-button:hover {
     margin-top: 75px;
     font-size: 12px;
     margin-bottom: 15px;
-    color: #e83c23;
+    color: #D63823;
 }
 
 .or-news-filter .or-category,.or-news-filter .or-daterange {
@@ -3388,7 +3267,7 @@ input[type="file" i]::-webkit-file-upload-button:hover {
 }
 
 .or-category .or-toggle-icon:before,.or-daterange .or-toggle-icon:before {
-    color: #857672;
+    color: #817370;
 }
 
 /*  Fildelningsmodul  */
@@ -3509,7 +3388,7 @@ input[type="file" i]::-webkit-file-upload-button:hover {
 }
 
 .sv-text-portlet table thead {
-    background-color: #e83c23;
+    background-color: #D63823;
 }
 
 .sv-text-portlet table thead th {
@@ -3519,7 +3398,7 @@ input[type="file" i]::-webkit-file-upload-button:hover {
 
 .sv-text-portlet table.sv-standard th {
     text-align: left;
-    background-color: #e83c23;
+    background-color: #D63823;
     border-bottom: solid 2px rgba(255,255,255,0.25);
     padding-left: 6px;
     font-family: "leaguespartan webfont",sans-serif;
@@ -3555,7 +3434,7 @@ body .sv-text-portlet table.sv-standard td p,body .sv-text-portlet table.sv-stan
 body .sv-text-portlet table.sv-standard td p span {
     font-size: 11px;
     font-weight: 300;
-    color: #857672;
+    color: #817370;
     display: block;
     margin-top: 3px;
 }
@@ -3568,7 +3447,12 @@ body .sv-text-portlet table.sv-standard td p span {
 }
 
 .sv-text-portlet table p {
-    font-size: 13px;
+    /*font-size: 13px;*/
+    font-size: 16px;
+}
+
+.sv-text-portlet table td{
+    vertical-align: top !important;
 }
 
 .sv-text-portlet table tbody tr:nth-child(2n) {
@@ -3582,7 +3466,7 @@ body .sv-text-portlet table.sv-standard td p span {
 }
 
 body .sv-text-portlet table.sv-standard .sv-responsiveTable--stacked__headRow {
-    background-color: #E83C23 !important;
+    background-color: #D63823 !important;
     color: #fff;
     line-height: 1.3em;
     font-family: "leaguespartan webfont",sans-serif;
@@ -3592,7 +3476,7 @@ body .sv-text-portlet table.sv-standard .sv-responsiveTable--stacked__headRow {
 }
 
 body .sv-responsiveTable--stacked__headRow--main {
-    background-color: #E83C23 !important;
+    background-color: #D63823 !important;
 }
 
 body .or-article-main .sv-responsiveTable--stacked__headRow th p {
@@ -3721,7 +3605,7 @@ section.or-bg-one {
 }
 
 .or-openhours-contact td p strong {
-    color: #857672;
+    color: #817370;
     position: relative;
     padding-left: 13px;
     font-weight: 400 !important;
@@ -3785,7 +3669,7 @@ section.or-bg-one {
 }
 
 .or-openhours-contact .sv-text-portlet table.sv-kontakt thead th p {
-    color: #F28C00;
+    color: #DB7E02;
     font-size: 12px !important;
 }
 
@@ -3848,7 +3732,7 @@ section.or-bg-one {
     border: 0 solid #ecebe6;
     border-left-width: 5px;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.15);
-	border-radius: 3px;
+    border-radius: 3px;
 }
 .driftstorningar-container li a::after {
     position: absolute;
@@ -3875,7 +3759,7 @@ section.or-bg-one {
     right: 3px;
 }
 .driftstorningar-container li a {
-	box-sizing: border-box;
+    box-sizing: border-box;
     padding-right: 25px;
 }
 .driftstorningar-container li a:focus {
@@ -3886,7 +3770,7 @@ section.or-bg-one {
 }
 .driftstorningar-container li a:link:hover span{
     text-decoration: underline;
-	color:#35383b;
+    color:#35383b;
 }
 .driftstorningar-container li:nth-child(odd) {
     margin-right: 10px;
@@ -3933,7 +3817,7 @@ section.or-bg-one {
     padding-top: 11px;
     padding-bottom: 13px;
     margin-bottom: 0;
-    */padding-top: 16px;
+    padding-top: 16px;
     padding-bottom: 16px;
     margin-bottom: 0;
 }
@@ -3988,7 +3872,7 @@ section.or-bg-one {
 }
 
 .or-red-header-box .sv-font-action-pil:before {
-    background-color: #857672;
+    background-color: #817370;
     font: normal normal normal 12px/34px FontAwesome;
     width: 31px;
 }
@@ -4061,7 +3945,7 @@ section.or-bg-one {
 }
 
 .open .or-oh-label {
-    background-color: #7d9c41;
+    background-color: #55830E;
 }
 
 .closed .or-oh-label {
@@ -4149,7 +4033,7 @@ section.or-bg-one {
 }
 
 .or-start-bottom-tabs ul li:hover a {
-    color: #e83c23;
+    color: #D63823;
     text-decoration: underline;
 }
 
@@ -4195,7 +4079,7 @@ section.or-bg-one {
 }
 
 .visa-fler-driftstorningar:hover {
-    color: #e83c23;
+    color: #D63823;
     text-decoration: underline;
 }
 
@@ -4332,11 +4216,13 @@ body .or-start-heading-divider .normal {
     padding: 20px;
 }
 
+
+
 .ikonxorange {
     font-weight: 400;
     font-style: normal;
     font-size: 100%;
-    color: #f28c00;
+    color: #DB7E02;
     line-height: normal;
 }
 
@@ -4387,7 +4273,7 @@ body .or-start-heading-divider .normal {
     border: 2px solid rgba(133,118,114,0.3);
     font-family: "leaguespartan webfont",sans-serif;
     font-size: 12px;
-    color: #857672;
+    color: #817370;
     float: none;
     margin-top: 5px;
     display: inline-block;
@@ -4395,7 +4281,7 @@ body .or-start-heading-divider .normal {
 }
 
 .or-news-list.or-small .or-more-news:hover {
-    background-color: #857672;
+    background-color: #817370;
     color: #fff;
 }
 
@@ -4406,9 +4292,9 @@ body .or-start-heading-divider .normal {
 
 /* Startsida puffar */
 .or-puff-startpage-footer {
-    background-color: rgba(255,255,255,0.4);
+    background-color: #FAFAFA;
     padding-top: 45px;
-    border-top: 6px solid #F6F4F2;
+    border-top: 6px solid #FAFAFA;
 }
 
 .or-puff-startpage-footer .or-puff-link .normal {
@@ -4437,7 +4323,7 @@ body .or-start-heading-divider .normal {
 .or-sok-politiker {
     background-color: #fff;
     border: solid 1px #f3dcd0;
-    border-top: solid 5px #E83C23;
+    border-top: solid 5px #D63823;
     margin-bottom: 25px;
 }
 
@@ -4468,12 +4354,12 @@ body .or-start-heading-divider .normal {
 }
 
 .or-sok-politiker ul li a[shape="rect"], .or-sok-politiker ul li a:hover[shape="rect"]  {
-	box-shadow: rgba(174,222,239,0)0px -15px 0 -11px inset;
-	margin: 0px;
+    box-shadow: rgba(174,222,239,0)0px -15px 0 -11px inset;
+    margin: 0px;
 }
 
 .or-sok-politiker ul li:hover {
-    background-color: #e83c23;
+    background-color: #D63823;
 }
 
 .or-sok-politiker ul li:hover a {
@@ -4483,7 +4369,7 @@ body .or-start-heading-divider .normal {
 .or-sok-politiker ul li a {
     text-align: center;
     padding: 0 11px;
-    color: #E83C23;
+    color: #D63823;
     font-family: "leaguespartan webfont",sans-serif;
     font-size: 12px !important;
 }
@@ -4496,7 +4382,7 @@ body .or-start-heading-divider .normal {
     font-family: "open sans",sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #017cdb;
+    color: #0081A2;
     text-decoration: underline;
     line-height: normal;
     cursor: pointer;
@@ -4513,8 +4399,8 @@ body .or-start-heading-divider .normal {
 }
 
 .or-sokt-politiker p{
-	font-size: 15px;
-	line-height: 1.6em;
+    font-size: 15px;
+    line-height: 1.6em;
 }
 
 .or-sokt-politiker .or-sok-politiker tr td div strong {
@@ -4536,17 +4422,17 @@ body .or-start-heading-divider .normal {
     font-style: normal;
     font-size: 14px;
     color: #35383b;
-	text-decoration: underline;
-	color: #017cdb;
+    text-decoration: underline;
+    color: #0081A2;
     line-height: 1.6em;
 }
 
 .or-sokt-politiker .or-sok-politiker b a:hover {
-	color:#0b4a89;
+    color:#0b4a89;
 }
 
 .or-sokt-politiker .or-sok-politiker b a:visited{
-	color:#6b0771;
+    color:#6b0771;
 }
 
 .or-sokt-politiker .or-sok-politiker b {
@@ -4562,7 +4448,7 @@ body .or-start-heading-divider .normal {
 }
 
 .or-sokt-politiker .or-sok-politiker div a {
-    background-color: #857672;
+    background-color: #817370;
     display: inline-block;
     padding: 8px 20px 6px;
     margin-bottom: 0;
@@ -4604,8 +4490,8 @@ body .or-start-heading-divider .normal {
 }
 
 .or-sokt-politiker .or-sok-politiker div a:hover {
-	box-shadow: rgba(174,222,239,0) 0 -41px 0 -23px inset;
-	}
+    box-shadow: rgba(174,222,239,0) 0 -41px 0 -23px inset;
+    }
 
 .or-sokt-politiker .or-sok-politiker td {
     padding-left: 0;
@@ -4658,7 +4544,7 @@ body .or-start-heading-divider .normal {
     border: 0 1px 1px 1px solid #ccc;
     border-style: solid;
     border-width: 1px;
-    border-color: #857672;
+    border-color: #817370;
     border-color: rgba(133,118,114,0.2);
     border-radius: 2px;
     -moz-border-radius: 2px;
@@ -4677,7 +4563,7 @@ body .or-start-heading-divider .normal {
 }
 
 .or-sok-politiker form input[type="submit"] {
-    background-color: #857672;
+    background-color: #817370;
     display: inline-block;
     padding: 8px 20px 6px;
     margin-bottom: 0;
@@ -4736,7 +4622,7 @@ body .or-start-heading-divider .normal {
     border: 1px solid #ccc;
     border-style: solid;
     border-width: 1px;
-    border-color: #857672;
+    border-color: #817370;
     border-color: rgba(133,118,114,0.2);
     border-radius: 2px;
     -moz-border-radius: 2px;
@@ -4784,7 +4670,7 @@ body .or-start-heading-divider .normal {
 .or-ny-sokning {
     visibility: visible;
     display: block;
-    background-color: #857672;
+    background-color: #817370;
     padding: 8px 20px 6px;
     margin-bottom: 0;
     font-weight: 400;
@@ -4821,13 +4707,387 @@ body .or-start-heading-divider .normal {
 }
 
 .or-ny-sokning:hover{
-	 background-color: #5e5e5e;
-	 border-color: #000;
+     background-color: #5e5e5e;
+     border-color: #000;
 }
 
 .or-sokt-politiker a.or-ny-sokning {
     visibility: hidden;
 }
+
+/* Uppdaterad sök politker - ny kod under */
+.or-sokt-politiker .form-horizontal .control-group{
+    margin-bottom: 10px!important
+}
+
+.or-sokt-politiker .or-sok-politiker h1{
+  margin-left:0!important;
+}
+.or-sok-politiker td {
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 2.4em;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.or-sok-politiker tbody tr {
+    background-color: transparent;
+}
+.or-sok-politiker {
+    background-color: #fff;
+    border: solid 1px #f3dcd0;
+    border-top: solid 5px #D63823;
+    margin-bottom: 25px;
+}
+
+.or-sok-politiker ul {
+    padding-top: 16px;
+}
+
+.or-sok-politiker ul li:before {
+    display: none;
+}
+
+.or-sok-politiker ul li {
+    float: left;
+    max-width: 70%;
+    margin-right: 10px;
+    list-style: none;
+    background-color: #fff;
+    border: solid 2px #f3dcd0;
+    margin-bottom: 17px;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    padding: 3px 0 5px;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.or-sok-politiker ul li a[shape="rect"], .or-sok-politiker ul li a:hover[shape="rect"]  {
+    box-shadow: rgba(174,222,239,0)0px -15px 0 -11px inset;
+    margin: 0px;
+}
+
+.or-sok-politiker ul li:hover {
+    background-color: #D63823;
+}
+
+.or-sok-politiker ul li:hover a {
+    color: #fff;
+}
+
+.or-sok-politiker ul li a {
+    text-align: center;
+    padding: 0 11px;
+    color: #D63823;
+    font-family: "leaguespartan webfont",sans-serif;
+    font-size: 12px !important;
+}
+
+.or-sok-politiker strong {
+    margin-top: 20px;
+}
+
+.or-sok-politiker a[shape="rect"] {
+    font-family: "open sans",sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #35383b;
+    text-decoration: none;
+    line-height: normal;
+    -webkit-transition: all 100ms ease;
+    -moz-transition: all 100ms ease;
+    -o-transition: all 100ms ease;
+    transition: all 100ms ease;
+    cursor: pointer;
+    box-shadow: rgba(174,222,239,0.65)0px -15px 0 -11px inset;
+    margin-bottom: 8px;
+}
+
+.or-sok-politiker a:hover[shape="rect"] {
+    box-shadow: rgba(174,222,239,0.65) 0 -41px 0 -23px inset;
+}
+
+.or-sokt-politiker h1 {
+    margin-left: 1.2em;
+}
+
+.or-sokt-politiker p{
+    font-size: 15px;
+    line-height: 1.6em;
+}
+.or-sokt-politiker .or-sok-politiker tr td div strong {
+    display: none;
+}
+
+.or-sokt-politiker .or-sok-politiker hr {
+    background-color: rgba(133,118,114,0.2);
+    position: relative;
+    top: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin-left: -1.8em;
+}
+
+.or-sokt-politiker .or-sok-politiker b a {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #35383b;
+    text-decoration: none;
+    line-height: 1.6em;
+    box-shadow: rgba(174,222,239,0.65)0px -14px 0 -10px inset;
+    display: inline-block;
+    margin-bottom: 10px;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.or-sokt-politiker .or-sok-politiker b a:hover {
+    box-shadow: rgba(174,222,239,0.65)0px -16px 0 1px inset;
+}
+
+.or-sokt-politiker .or-sok-politiker b {
+    color: #000;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    color: #35383b;
+    text-decoration: none;
+    line-height: 16px;
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+.or-sokt-politiker .or-sok-politiker div a {
+    background-color: transparent!important;
+    display: inline-block;
+    padding: 0;
+    margin-bottom: 0;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 0 solid #ccc;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    color: #0b4a89;
+    border-color: transparent;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0;
+    text-transform: none;
+    border-bottom: 0 solid #5E5E5E;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    margin-top: 11px;
+    margin-bottom: 1px;
+    position: inherit;
+    bottom: 20px;
+    left: 0;
+    margin-top: 0;
+    box-shadow: rgba(0,0,0,0) 0 0 0 0 inset!important;
+}
+
+
+.or-sokt-politiker .or-sok-politiker div a:hover {
+  /*ta bort nedan*/
+    box-shadow: rgba(0,0,0,0) 0 inset!important;
+  text-decoration:underline;
+    }
+
+.or-sokt-politiker .or-sok-politiker td {
+    padding-left: 0;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 1.6em;
+/*font-family: sans-serif;
+  font-family: ;*/
+}
+
+.or-utsokt-politiker .or-sok-politiker td li a {
+    box-shadow: none;
+}
+
+.or-sokt-politiker .or-sok-politiker {
+    position: relative;
+    padding-bottom: 50px;
+    padding-left: 1.7em;
+    color: #000;
+}
+
+.or-sok-politiker div,.or-sok-politiker table {
+    color: #000;
+}
+
+.or-sokt-politiker .or-sok-politiker tr {
+    display: table-row;
+    margin-top: -20px;
+}
+
+.or-sok-politiker hr {
+    margin-left: -2.2em;
+    height: 1px;
+    border: none;
+    background-color: rgba(133,118,114,0.2);
+    margin-bottom: 23px;
+}
+
+/* wrapper runt formulären */
+.or-sok-politiker form {
+    padding-bottom: 20px;
+    margin-bottom: 14px;
+}
+
+.or-sok-politiker form input[type="text"] {
+    width: 80%;
+    padding: 10px 55px 10px 5px;
+    margin-bottom: -14px;
+    line-height: 1.428571429;
+    border: 0 1px 1px 1px solid #ccc;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #817370;
+    border-color: rgba(133,118,114,0.2);
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    vertical-align: middle;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    color: #454545;
+    -webkit-appearance: none;
+    letter-spacing: .01em;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+/*font-family: "open sans",sans-serif; */
+}
+
+.or-sok-politiker form input[type="submit"] {
+    background-color: #817370;
+    display: inline-block;
+    padding: 8px 20px 6px;
+    margin-bottom: 0;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 0 solid #ccc;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    color: #fff;
+    background-color: #35383B;
+    border-color: transparent;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    border-bottom: 4px solid #5E5E5E;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    margin-top: 11px;
+    margin-bottom: 1px;
+    font-family: "open sans",sans-serif;
+}
+
+.or-sok-politiker form input[type="submit"]:hover {
+    background-color: #5E5E5E;
+    border-color: #000;
+}
+
+/* sök namn + och/eller välj ort*/
+.or-sok-politiker form strong {
+    display: block;
+    font-size: 13px;
+    margin-bottom: -5px;
+    font-family: "leaguespartan webfont",sans-serif;
+    line-height: 1.2em;
+}
+
+.or-sok-politiker select {
+    width: 80%;
+    padding: 10px 55px 10px 12px;
+    margin-bottom: 10px;
+    line-height: 1.428571429;
+    border: 1px solid #ccc;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #817370;
+    border-color: rgba(133,118,114,0.2);
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    vertical-align: middle;
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    color: #717171;
+    letter-spacing: .01em;
+}
+
+.or-sok-politiker div a {
+  background-color:transparent!important;
+  box-shadow:rgba(0,0,0,0) 0 0 0 0 !important;
+}
+.or-sokt-politiker div a:hover{
+    background-color:transparent!important;
+  box-shadow:rgba(0,0,0,0) 0 0 0 0 !important;
+}
+
+.or-sok-politiker table th{
+  padding:0px 11px 11px 0px;
+  font-size:14px;
+}
+.or-sok-politiker{
+  font-family:"open sans",sans-serif!important;
+}
+.form-horizontal .control-label{
+  width:20%!important;
+}
+.or-sok-politiker header a{
+  height:60px!important;
+}
+/** Ny kod slut**/
+
+
+
+
+
+
+
+
 
 /* Driftstörningsnyheter */
 .or-news-newslist {
@@ -4855,11 +5115,95 @@ body .or-start-heading-divider .normal {
     -moz-box-sizing: border-box;
 }
 
-.or-puff-link .sv-linkicon {
+
+/* Mindre Puffar på startsidan. Ikon, rubrik och länk.  */
+
+.or-puff-icon-link{
+    display: flex;
+    background-color: #fcf5ec;
+    border: 4px solid #fff;
+    box-shadow: 0 0 5px rgba(199,199,199,0.55);
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    width: 31%;
+    margin-bottom: 30px;
+    margin-right: 1%;
+    margin-left: 1%;
+    padding: 15px 20px 8px 13px;
+    position: relative;
+    min-height: 35px;
+    float: left;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.or-puff-icon-link .normal .ikonxorange{
+    font-size: 2.3em !important;
+    margin-left: 0.4em;
+    padding-right: 0.3em; 
+}
+
+.or-puff-icon-link .normal{
+    font-size: 14px !important;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.or-puff-icon-link .normal a{
+    font-size: 16px!important;
+}
+
+.or-puff-icon-link .rubrikx4{
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 2px;
+    -webkit-transition: color .3s ease-in;
+    -moz-transition: color .3s ease-in;
+    -o-transition: color .3s ease-in;
+    -ms-transition: color .3s ease-in;
+    transition: color .3s ease-in;
+}
+
+
+.or-puff-icon-link:hover .rubrikx4{
+    color: #DB7E02;
+}
+
+.or-puff-icon-link.or-wrapper-click:hover .normal a:link{
+    text-decoration: underline!important;
+}
+
+
+.or-puff-icon-link a {
+    text-decoration: none !important;
+    color: black;
+}
+
+.or-puff-icon-link a:active {
+    color: black!important;
+}
+
+.or-puff-icon-link a,
+.or-puff-icon-link a:visited,
+.or-puff-icon-link a:active,
+.or-puff-icon-link .normal a
+.or-puff-icon-link .normal:visited,
+.or-puff-icon-link .normal a:visited,
+.or-puff-icon-link .normal:hover,
+.or-puff-icon-link .normal:active{
+    color: black!important;
+}
+
+
+/* mindre puffar på startsidan slut */
+
+.or-puff-link .or-puff-icon-link .sv-linkicon {
     padding-left: 8px;
 }
 
-body .or-puff-link .normal a {
+body .or-puff-link .or-puff-icon-link .normal a {
     font-family: "leaguespartan webfont",sans-serif;
     box-shadow: rgba(174,222,239,0.0)0px 0 0 0 inset;
     color: #35383b;
@@ -4868,38 +5212,38 @@ body .or-puff-link .normal a {
     display: inline-block;
 }
 
-body .or-content-page-2 .or-puff-link {
+body .or-content-page-2 .or-puff-link .or-puff-icon-link {
     background-color: #fff;
 }
 
-body .or-content-page-2 .or-puff-link .normal a {
-    color: #857672;
+body .or-content-page-2 .or-puff-link .or-puff-icon-link .normal a {
+    color: #817370;
 }
 
-body .or-content-page-2 .or-puff-link::before {
-    border-right-color: #857672;
-    border-bottom-color: #857672;
+body .or-content-page-2 .or-puff-icon-link::before .or-puff-link::before {
+    border-right-color: #817370;
+    border-bottom-color: #817370;
     bottom: -4px;
     right: -4px;
 }
 
-body .or-content-page-2 .or-puff-link::after {
+body .or-content-page-2 .or-puff-icon-link::after .or-puff-link::after {
     bottom: 1px;
     right: 1px;
 }
 
-body .or-puff-link .normal a:hover {
+body .or-puff-link .or-puff-icon-link .normal a:hover {
     box-shadow: rgba(174,222,239,0.0)0px 0 0 0 inset;
     color: #35383b;
 }
 
-body .or-puff-link:hover .normal a {
+body .or-puff-link:hover .or-puff-icon-link:hover .normal a {
     text-decoration: underline;
     color: #35383b;
 }
 
-body .or-puff-link .normal {
-/*color: #e83c23;*/
+body .or-puff-link .or-puff-icon-link .normal {
+/*color: #D63823;*/
     color: #000;
     margin-bottom: 0;
 }
@@ -4922,9 +5266,10 @@ body .or-puff-link .normal {
     border-color: transparent;
     border-style: solid;
     border-width: 17px;
-    border-right-color: #f28c00;
-    border-bottom-color: #f28c00;
+    border-right-color: #DB7E02;
+    border-bottom-color: #DB7E02;
 }
+
 
 /* Puff med ikon, rubrik och textyta */
 .or-puff-icon-header-text {
@@ -4947,8 +5292,8 @@ body .or-puff-link .normal {
 }
 .or-puff-icon-header-text .normal a:link,body .or-puff-icon-header-text .normal, .or-puff-icon-header-text .normal a:visited, .or-puff-icon-header-text .normal a:focus {
     /*box-shadow: rgba(255,255,255,0)0px 0 0 0 inset;*/
-	color:#35383b;
-	text-decoration:none;
+    color:#35383b;
+    text-decoration:none;
     font-weight: 300;
     font-size: 15px;
     line-height: normal;
@@ -4956,7 +5301,7 @@ body .or-puff-link .normal {
 }
 
 .or-puff-icon-header-text .normal a:hover{
-	color:#35383b;
+    color:#35383b;
 }
 
 
@@ -4978,8 +5323,8 @@ body .or-puff-link .normal {
     border-color: transparent;
     border-style: solid;
     border-width: 17px;
-    border-right-color: #F28C00;
-    border-bottom-color: #F28C00;
+    border-right-color: #DB7E02;
+    border-bottom-color: #DB7E02;
 }
 
 .or-puff-icon-header-text > div:first-of-type {
@@ -5001,17 +5346,17 @@ body .or-puff-link .normal {
     -o-transition: color .3s ease-in;
     -ms-transition: color .3s ease-in;
     transition: color .3s ease-in;
-	box-shadow: rgba(174,222,239,0.0)0px -14px 0 -10px inset;
+    box-shadow: rgba(174,222,239,0.0)0px -14px 0 -10px inset;
 }
 
 
 .or-puff-icon-header-text.or-wrapper-click:hover .rubrikx4{
-    color: #f28c00;
+    color: #DB7E02;
 }
 
 .or-puff-icon-header-text.or-wrapper-click:hover .normal a:link {
     text-decoration: underline;
-	box-shadow: rgba(255,255,255,0)0px 0 0 0 inset;
+    box-shadow: rgba(255,255,255,0)0px 0 0 0 inset;
 }
 
 .or-puff-icon-header-text > div:last-of-type {
@@ -5019,7 +5364,7 @@ body .or-puff-link .normal {
     float: left;
 }
 
-.or-puff-icon-header-text .ikonxorange {
+.or-puff-icon-header-text .ikonxorange  {
     font-size: 40px;
     display: block;
     margin: 10px;
@@ -5032,7 +5377,7 @@ body .or-puff-link .normal {
 }
 
 .sv-responsive .pagecontent .sv-image-portlet img{
-	margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 /* Badvattenkvalitet */
@@ -5065,7 +5410,7 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
 }
 
 .or-bath-water-icon-green {
-    color: #7D9C41;
+    color: #55830E;
 }
 
 .or-bath-water-icon-yellow {
@@ -5155,7 +5500,7 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
     border: 1px solid #ccc;
     border-style: solid;
     border-width: 1px;
-    border-color: #857672;
+    border-color: #817370;
     border-color: rgba(133,118,114,0.2);
     border-radius: 2px;
     -moz-border-radius: 2px;
@@ -5185,7 +5530,7 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
     cursor: pointer;
     color: #fff;
     text-align: center;
-    background-color: #E83C23;
+    background-color: #D63823;
     padding: 0;
 }
 
@@ -5265,7 +5610,7 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
 
 .livsmedelsrapport .search-results table tr th {
     font-family: "leaguespartan webfont",sans-serif;
-    background-color: #e83c23;
+    background-color: #D63823;
     font-style: normal;
     text-align: left;
     padding: 4px 8px;
@@ -5282,21 +5627,21 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
 }
 
 .livsmedelsrapport td a:link{
-    color: #017cdb;
+    color: #0081A2;
     text-decoration: underline;
 }
 
 .livsmedelsrapport td a:visited {
-	color:#6b0771;
+    color:#6b0771;
 }
 
 .livsmedelsrapport td a:hover {
-	color:#0b4a89;
+    color:#0b4a89;
 }
 
 .livsmedelsrapport td a:focus, .livsmedelsrapport td a:active  {
-	color:#890b0b;
-	background-color:#ddd;
+    color:#890b0b;
+    background-color:#ddd;
 }
 
 .livsmedelsrapport .odd td {
@@ -5320,7 +5665,7 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
 
 #PanelReportList table thead tr th {
     font-family: "leaguespartan webfont",sans-serif;
-    background-color: #e83c23;
+    background-color: #D63823;
     font-style: normal;
     text-align: left;
     padding: 4px 8px;
@@ -5331,7 +5676,7 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
 
 .oversight-matters table thead tr th {
     font-family: "leaguespartan webfont",sans-serif;
-    background-color: #e83c23;
+    background-color: #D63823;
     font-style: normal;
     text-align: left;
     padding: 4px 8px;
@@ -5453,7 +5798,7 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
 }
 
 .or-social-media-content .or-header {
-    color: #857672;
+    color: #817370;
     font-size: 12px;
     font-weight: 300;
     margin-bottom: 7px;
@@ -5469,7 +5814,7 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
 }
 
 .or-social-media-content .or-header .fa-clock-o {
-    color: #857672;
+    color: #817370;
     margin-left: 5px;
 }
 
@@ -5482,7 +5827,7 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    color: #857672;
+    color: #817370;
     display: block;
     float: left;
     font-family: "leaguespartan webfont",sans-serif;
@@ -5533,7 +5878,7 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
 }
 
 .or-media-close {
-    background-color: #e83c23;
+    background-color: #D63823;
     border-bottom-left-radius: 3px;
     border-top-right-radius: 0;
     box-shadow: 3px 0 6px -3px rgba(0,0,0,0.4) inset;
@@ -5597,7 +5942,7 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
 }
 .or-social-media-follow-startpage a:hover {
     /*box-shadow: rgba(174,222,239,0.65) 0 -41px 0 -23px inset;*/
-	color:#e83c23;
+    color:#D63823;
 }
 
 .social-bg-circle {
@@ -5723,7 +6068,7 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
 }
 
 .sol-tab-button-container .sol-tab-button:hover {
-    color: #e83c23;
+    color: #D63823;
 }
 
 .sol-tab-button.sol-tab-active:hover {
@@ -5735,7 +6080,7 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
 }
 
 .sol-tab-button.sol-tab-active {
-    background: #e83c23;
+    background: #D63823;
     border-bottom: 0;
     border-left: 0;
     border-right: 0;
@@ -5748,7 +6093,7 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
     border-bottom: 1px solid rgba(232,60,35,0.20);
     border-left: 1px solid rgba(232,60,35,0.2);
     border-right: 1px solid rgba(232,60,35,0.2);
-    border-top: 5px solid #e83c23;
+    border-top: 5px solid #D63823;
     padding: 12px;
 }
 
@@ -5829,7 +6174,7 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
 }
 
 .or-alert-icon .fa-circle {
-    color: #e83c23;
+    color: #D63823;
 }
 
 .or-alert-icon .fa-exclamation-triangle {
@@ -5891,6 +6236,14 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
 }
 
 .or-alert-button:active {
+}
+
+/* Google translate */
+.goog-te-banner-frame.skiptranslate {
+   display: none !important;
+} 
+body {
+   top: 0px !important; 
 }
 
 .cookieAlert {
@@ -6058,7 +6411,7 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
 }
 
 .antaltraffar strong {
-    color: #857672;
+    color: #817370;
 }
 
 .portlet-section-header.antaltraffar {
@@ -6126,7 +6479,7 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
     font-weight: 400;
     font-style: normal;
     font-size: 24px;
-    color: #F28C00;
+    color: #DB7E02;
     line-height: 1.2em;
     font-weight: 700;
 }
@@ -6136,7 +6489,7 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
     line-height: 1.3em;
     font-family: "leaguespartan webfont",sans-serif;
     font-size: 12px;
-    background-color: #F28C00;
+    background-color: #DB7E02;
 }
 
 .or-lediga-jobb .sv-text-portlet table.sv-standard td {
@@ -6180,7 +6533,7 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
 }
 
 .or-lediga-jobb a.button.apply,.or-lediga-jobb .fbutton,.or-lediga-jobb .addbutton,.or-lediga-jobb .button-big,.or-lediga-jobb .button-med {
-    background-color: #857672;
+    background-color: #817370;
     display: inline-block;
     padding: 8px 20px 6px;
     margin-bottom: 0;
@@ -6244,7 +6597,7 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
     border: 0 1px 1px 1px solid #ccc;
     border-style: solid;
     border-width: 1px;
-    border-color: #857672;
+    border-color: #817370;
     border-color: rgba(133,118,114,0.2);
     border-radius: 2px;
     -moz-border-radius: 2px;
@@ -6266,7 +6619,7 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
     border: 1px solid #ccc;
     border-style: solid;
     border-width: 1px;
-    border-color: #857672;
+    border-color: #817370;
     border-color: rgba(133,118,114,0.2);
     border-radius: 2px;
     -moz-border-radius: 2px;
@@ -6323,11 +6676,11 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
 }
 
 .or-tillstand-restaurang .FlikValdBg {
-    background: #e83c23;
+    background: #D63823;
 }
 
 .or-tillstand-restaurang .FlikValdBg:first-child {
-    background: #e83c23;
+    background: #D63823;
     border-bottom: 0;
     border-left: 0;
     border-right: 0;
@@ -6348,7 +6701,7 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
 
 .or-tillstand-restaurang .FlikEjValdBg a:hover {
     cursor: pointer;
-    color: #e83c23;
+    color: #D63823;
     text-decoration: none;
 }
 
@@ -6359,7 +6712,7 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
     border: 0 1px 1px 1px solid #ccc;
     border-style: solid;
     border-width: 1px;
-    border-color: #857672;
+    border-color: #817370;
     border-color: rgba(133,118,114,0.2);
     border-radius: 2px;
     -moz-border-radius: 2px;
@@ -6385,7 +6738,7 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
     border: 1px solid #ccc;
     border-style: solid;
     border-width: 1px;
-    border-color: #857672;
+    border-color: #817370;
     border-color: rgba(133,118,114,0.2);
     border-radius: 2px;
     -moz-border-radius: 2px;
@@ -6399,7 +6752,7 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
 }
 
 .or-tillstand-restaurang form input[type="submit"] {
-    background-color: #857672;
+    background-color: #817370;
     display: inline-block;
     padding: 8px 20px 6px;
     margin-bottom: 0;
@@ -6460,7 +6813,7 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
 }
 
 .or-tillstand-restaurang .flik,.or-tillstand-restaurang .inforutaRam #Table3 {
-    border-top: 5px solid #e83c23;
+    border-top: 5px solid #D63823;
     padding: 5px 15px;
     margin-bottom: 10px;
     box-shadow: 0 0 5px rgba(0,0,0,0.15);
@@ -6522,7 +6875,7 @@ body .inforutaRubrik {
 
 body .SokIngetResultat {
     font-size: 17px;
-    color: #e83c23;
+    color: #D63823;
 }
 
 /* Translate popup */
@@ -6534,7 +6887,7 @@ body .SokIngetResultat {
    box-shadow: 0 0 6px -2px rgba(0,0,0,0.8);
    border-radius:2px;
    display:none;
-	position:absolute;
+    position:absolute;
    margin-top:-150px;
    margin-bottom:50px;
    z-index:12;
@@ -6549,27 +6902,105 @@ body .SokIngetResultat {
     width: 50px;
     font-weight: 700;
     font-size: 11px;
-    background-color: #e83c23;
+    background-color: #D63823;
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
     box-shadow: -3px 0 6px -3px rgba(0,0,0,0.4) inset;
     text-align: center;
     color: #fff;
 }
+
 .or-language-modal-close .fa-close {
-   color: #FFF;
-   font-size: 17px;
-	width: 100%;
-	text-align: center;
-   padding-top: 5px;
+    padding-top: 5px;
+    width: 100%;
+    color: #FFF;
+    font-size: 17px;
+    text-align: center;
 }
+
 .or-language-modal-close:hover {
-	background-color:#333;
+    background-color: #333;
 }
 
 /*videoklipp*/
 .sv-responsive .sv-video-container{
-	margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 
+/* Puff row 2 startpage */
+.or-widget-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.or-widget {
+    padding: 0 25px 16px 65px;
+    width: 31%;
+    margin-left: 1%;
+    margin-right: 1%;    
+    border: solid 3px #ffffff;
+    box-shadow: 0 0 5px 0 rgba(218, 218, 218, 0.5);
+}
 
+.or-widget-txt-icon-wrapper{
+    display: flex;
+    position: relative;
+}
+
+.or-widget__icon-wrapper{
+    position: absolute;
+    left: -3em;
+    justify-content: center;
+}
+
+.or-widget__txt-wrapper{
+    align-items: center; 
+}
+
+.or-widget__orange {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5em;
+    color: #DB7E02;
+    line-height: normal;
+    margin-top: 0.4em;
+}
+
+.or-widget__title {
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: left;
+    color: #35383b;
+    transition: all .3s ease;
+}
+
+.or-widget__text {
+    margin-top: -0.7em;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #35383b;
+    transition: all .3s ease;
+}
+
+.or-widget--beige {
+    background-color:  #fcf5ec;
+    box-shadow: 0 0 5px 0 rgba(218, 218, 218, 0.5);
+}
+
+.or-widget--beige:hover .or-widget__title {
+    color: #DB7E02
+}
+.or-widget--beige:hover .or-widget__text {
+    text-decoration: underline;
+}
