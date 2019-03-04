@@ -2,7 +2,7 @@
 /* Grunddesign */
 
 body{
-	background-color: #f6f4f2!important;
+	background-color: #FAFAFA!important;
 /*	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: subpixel-antialiased;
 font-smoothing: subpixel-antialiased;*/
@@ -58,7 +58,7 @@ a.sv-portlet-primary-paragraph:link, a.normal:link, .portlet-font a:link, .portl
 .portlet-menu-description a:link, 
 .sv-portlet-image-caption a:link, .sv-portlet-link-description a:link, .sv-portlet-primary-paragraph a:link, td a:link, td body a:link, td a:link, .or-personsok-person a:link, .or-personsok-address a:link{
 	text-decoration: underline;
-	color: #017cdb;
+	color: #0066B0;
 	cursor: pointer;
 }
 
@@ -120,7 +120,7 @@ a.ingress:link, .ingress a:link {
     font-style: normal;
     font-size: 20px;
     text-decoration: underline;
-	color: #017cdb;
+	color: #0066B0;
     line-height: normal;
     display: inline;
     padding-right: 1px;
@@ -154,7 +154,7 @@ a.ingress:active, .ingress a:active, a.ingress:focus, .ingress a:focus{
     font-style: normal;
     line-height: normal;
     text-decoration: underline;
-	color: #017cdb;
+	color: #0066B0;
 }
 
 .sv-linklist-portlet table.sv-standard td p a:visited, .sv-blog-portlet table.sv-standard td p a:visited, .sv-archive-portlet table.sv-standard td p a:visited, .sv-text-portlet table.sv-standard td p a:visited {
@@ -246,7 +246,7 @@ h2 a,h3 a,h4 a,h2 a:link,h3 a:link,h4 a:link{
 }*/
 
 h2 a:hover, h2 a:hover, h3 a:hover, h3 a:hover, h4 a:hover{
-	color:#e83c23;
+	color:#D63823;
 }
 
 h2 a:focus, h2 a:focus, h3 a:focus, h3 a:focus, h4 a:focus, h2 a:active, h2 a:active, h3 a:active, h3 a:active, h4 a:active{
@@ -267,7 +267,7 @@ h4 {
 	content: "\f061";
     font-family: FontAwesome;
     padding-right: 6px;
-    color: #857672;
+    color: #817370;
     position: relative;
     top: 3px;
     left: -18px;
@@ -298,7 +298,7 @@ header .or-logo {
 
 
 .or-header-topptext{
-    color: #E83C23;
+    color: #D63823;
     margin-bottom: 0px;
     display: block;
     font-size: 19px;
@@ -328,7 +328,7 @@ header .or-logo {
 }
 
 .or-header-bottomtext{
-	color: #E83C23;
+	color: #D63823;
 	display: block;
 	margin-top: -1px;
 	margin-bottom: 0px;
@@ -353,7 +353,7 @@ header .or-logo {
 {
 	border-bottom-left-radius:3px;
 	border-bottom-right-radius:3px;
-	border-right:2px solid #f6f4f2;
+	border-right:2px solid #FAFAFA;
 	float:right;
 	font-size:10px;
 	font-weight:600;
@@ -367,23 +367,23 @@ header .or-logo {
 
 .or-tool-area a:first-child
 {
-	border-right:0 solid #f6f4f2;
+	border-right:0 solid #FAFAFA;
 }
 
 .or-tool-area a:hover
 {
-	color:#e83c23;
+	color:#D63823;
 	text-decoration:underline;
 }
 
 .or-tool-area a:hover i:before
 {
-	color:#857672;
+	color:#817370;
 }
 
 .or-tool-area a i
 {
-	color:#f28c00;
+	color:#DB7E02;
 	display:block;
 	float:left;
 	margin-bottom:5px;
@@ -501,7 +501,7 @@ section.or-top-img-area {
 }
 
 body section.or-top-img-area .or-top-img-text-area h1 {
-    color: #E83C23;
+    color: #D63823;
     margin-top: 0px;
     font-size: 24px;
     margin-bottom: 0px;
@@ -765,7 +765,7 @@ ul.or-nav-list li .or-list-wrapper:hover p {
 ul.or-nav-list li .or-list-wrapper .or-title
 {
 	border-bottom:2px dotted #dad6d4;
-	color:#e83c23;
+	color:#D63823;
 	font-size:18px;
 	padding-bottom:10px;
 }
@@ -828,7 +828,7 @@ nav.or-breadcrumbs li .or-path-divider
 
 nav.or-breadcrumbs li:last-child span
 {
-	color: #E83C23;
+	color: #D63823;
 }
 
 
@@ -919,7 +919,7 @@ body p.sv-portlet-image-caption {
 .or-article-main ul.normal li:before {
     content: "\f111";
     font-family: FontAwesome;
-    color: #857672;
+    color: #817370;
     padding-right: 10px;
     font-size: 10px;
     top: -2px;
@@ -985,7 +985,7 @@ body p.sv-portlet-image-caption {
 	display: table-row;
 	font-weight: bold;
 	text-align: left;
-	background-color: #e83c23;
+	background-color: #D63823;
 }
 .or-tb-row
 {
@@ -1027,7 +1027,7 @@ body p.sv-portlet-image-caption {
 .or-tb-row > div a {
     position: relative;
 	text-decoration: underline;
-	color: #017cdb;
+	color: #0066B0;
     /*box-shadow: rgba(174, 222, 239, 0.65)0px -16px 0px -11px inset;
     transition: all 100ms ease;*/
 }
@@ -1099,7 +1099,7 @@ body p.sv-portlet-image-caption {
 }
 
 .or-sort-box.sorting-by i{
-	color: #E83C23;
+	color: #D63823;
 }
 
 .or-sortable .or-tb-row:nth-child(even) {
@@ -1301,7 +1301,7 @@ nav.or-secondary .or-content ul li a:focus {
 
 
 nav.or-secondary .or-content ul li a h3 {
-    color: #e83c23;
+    color: #D63823;
     margin-bottom: 4px;
     font-size: 18px;
     transition: all 0.3s ease-out;
