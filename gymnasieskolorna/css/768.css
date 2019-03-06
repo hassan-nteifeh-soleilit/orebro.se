@@ -1,7 +1,7 @@
 @media all and (max-width: 767px){
 
 body {
-    padding-top: 55px;
+  padding-top: 55px;
 }
 
 /*header*/
@@ -29,213 +29,255 @@ header {
 	display: none;
 }
 
-	/* från base */
-  .stacktable.large-only { display: none; }
-  .stacktable.small-only { display: table; }
+/* från base */
+.stacktable.large-only { 
+  display: none; 
+}
+
+.stacktable.small-only { 
+  display: table;
+}
   
-  .or-menu-button-container{ 
-    display: none;  
-  }      
+.or-menu-button-container{ 
+  display: none;  
+}      
 
-  .or-stor-bild-text-2 > div:nth-child(1) {
-		float: none;
-		max-width: 100%;
-		width: inherit !important;
-	}
+.or-stor-bild-text-2 > div:nth-child(1) {
+	float: none;
+	max-width: 100%;
+	width: inherit !important;
+}
 
-	.or-stor-bild-text-2 > div:nth-child(2) {
-		float: none;
-		max-width: 100%;
-		padding-bottom: 30px;
-	}	
+.or-stor-bild-text-2 > div:nth-child(2) {
+	float: none;
+	max-width: 100%;
+	padding-bottom: 30px;
+}	
 
-  p {
-    text-align: left;
-  }
-  .breadcrumpssection {
-    padding-right: 15px;
-    padding-left: 15px;
-  }
-  .headercontainer {
-    padding-right: 20px;
-    padding-left: 20px;
-  }
-  .circlebutton {
-    right: 10px;
-    width: 45px;
-    height: 45px;
-    margin-top: 60px;
-    background-size: 24px;
-  }
-  .circlebutton.w--open {
-    right: 10px;
-  }
-  .navcontainer {
-    display: inline-block;
-    width: 60px;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
-  }
-  .navbar {
-    display: inline-block;
-    width: 60px;
-    margin-top: 0px;
-    float: right;
-    background-color: transparent;
-  }
-  .navmenu {
-    position: absolute;
-    right: -21px;
-  }
-  .menutext {
-    right: 10px;
-  }
-  .contentcontainer {
-    margin-top: 15px;
-  }
-  .bgheading {
-    margin-left: 10px;
-  }
-  .ingress {
-    font-size: 18px;
-    line-height: 32px;
-  }
-  .headersection {
-    padding-top: 15px;
-    padding-bottom: 10px;
-  }
-  .rightcolumn {
-    margin-top: 25px;
-    padding-left: 10px;
-  }
-  .newsitemwrapper {
-    width: 100%;
-  }
-  .newsfeedimage {
-    width: 100%;
-  }
-  .newsfeedcontent {
-    width: 100%;
-  }
-  .date {
-    margin-top: 16px;
-    text-align: left;
-  }
-  .newsheading {
-    margin-top: 20px;
-    text-align: left;
-  }
-  .column1header {
-    width: 63%;
-  }
-  .column3header {
-    position: fixed;
-    top: 0px;
-    float: right;
-  }
-  .column3header.menytest {
-    position: absolute;
-    top: 15px;
-  }
-  .newsfeedcontainer {
-    text-align: center;
-  }
+p {
+  text-align: left;
+}
+
+.breadcrumpssection {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.headercontainer {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.circlebutton {
+  right: 10px;
+  width: 45px;
+  height: 45px;
+  margin-top: 60px;
+  background-size: 24px;
+}
+
+.circlebutton.w--open {
+  right: 10px;
+}
+
+.navcontainer {
+  display: inline-block;
+  width: 60px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.navbar {
+  display: inline-block;
+  width: 60px;
+  margin-top: 0px;
+  float: right;
+  background-color: transparent;
+}
+
+.navmenu {
+  position: absolute;
+  right: -21px;
+}
+
+.menutext {
+  right: 10px;
+}
+
+.contentcontainer {
+  margin-top: 15px;
+}
+
+.bgheading {
+  margin-left: 10px;
+}
+
+.ingress {
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.headersection {
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.rightcolumn {
+  margin-top: 25px;
+  padding-left: 10px;
+}
+
+.newsitemwrapper {
+  width: 100%;
+}
+
+.newsfeedimage {
+  width: 100%;
+}
+
+.newsfeedcontent {
+  width: 100%;
+}
+
+.date {
+  margin-top: 16px;
+  text-align: left;
+}
+
+.newsheading {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.column1header {
+  width: 63%;  
+}
+
+.column3header {
+  position: fixed;
+  top: 0px;
+  float: right;
+}
+
+.column3header.menytest {
+  position: absolute;
+  top: 15px;
+}
+
+.newsfeedcontainer {
+  text-align: center;
+}
   
-  .scrollnav {
-    top: 16px;
-    right: -2px;
-  }
-  .footerrightcolumn {
-    text-align: left;
-  }
-  .footerlogo {
-    text-align: left;
-  }
-  .cardbg {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-  }
-  .herosectiontext {
-    padding-right: 20px;
-    padding-left: 20px;
-  }
-  .commentbubble {
-    top: 10px;
-  }
-  .leftcolumn {
-    padding-right: 10px;
-  }
-  .menubt {
-    width: 44px;
-    height: 44px;
-  }
-  .bloggcontent {
-    width: 94%;
-  }
-  .commentsfavicon {
-    width: 65px;
-    height: 65px;
-  }
-  .commentstext {
-    width: 74%;
-  }
-  .slideshowtext {
-    margin-bottom: 20px;
-  }
-  .calenderfeedcontent {
-    width: 71%;
-  }
-  .calenderfeedcontent.no-image {
-    width: 76%;
-  }
-  .factcalender {
-    position: relative;
-    display: inline-block;
-    width: 90%;
-    margin-top: 20px;
-    margin-right: auto;
-    margin-left: auto;
-    float: none;
-    text-align: left;
-  }
-  .calenderdate {
-    box-shadow: none;
-  }
-  .herobloggh1 {
-    margin-top: 5%;
-  }
+.scrollnav {
+  top: 16px;
+  right: -2px;
+}
 
-  .quoteimgcolumn {
-    display: block;
-    margin-right: auto;
-    margin-bottom: 13px;
-    margin-left: auto;
-    float: none;
-  }
-  .quoteinfocolumn {
-    width: 100%;
-  }
+.footerrightcolumn {
+  text-align: left;
+}
+
+.footerlogo {
+  text-align: left;
+}
+
+.cardbg {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.herosectiontext {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.commentbubble {
+  top: 10px;
+}
+
+.leftcolumn {
+  padding-right: 10px;
+}
+
+.menubt {
+  width: 44px;
+  height: 44px;
+}
+
+.bloggcontent {
+  width: 94%;
+}
+
+.commentsfavicon {
+  width: 65px;
+  height: 65px;
+}
+
+.commentstext {
+  width: 74%;
+}
+
+.slideshowtext {
+  margin-bottom: 20px;
+}
+
+.calenderfeedcontent {
+  width: 71%;
+}
+
+.calenderfeedcontent.no-image {
+  width: 76%;
+}
+
+.factcalender {
+  position: relative;
+  display: inline-block;
+  width: 90%;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  float: none;
+  text-align: left;
+}
+
+.calenderdate {
+  box-shadow: none;
+}
+
+.herobloggh1 {
+  margin-top: 5%;
+}
+
+.quoteimgcolumn {
+  display: block;
+  margin-right: auto;
+  margin-bottom: 13px;
+  margin-left: auto;
+  float: none;
+}
+
+.quoteinfocolumn {
+  width: 100%;
+}
   
-  .or-social-link {
-   display: block;
-   float: none;
-  }
+.or-social-link {
+  display: block;
+  float: none;
+}
 
 /* från base slut */
 	
 	
-   .or-col-logo-header {
-       width: 100%;
-   }
+.or-col-logo-header {
+  width: 100%;
+}
    	
-   .or-w-button {
-       width: auto;
-       float: left;
-   }
-
-
+.or-w-button {
+  width: auto;
+  float: left;
+}
 
 .or-support-nav {
   margin-left: 20px;
@@ -332,9 +374,9 @@ h2.subheading {
 
 /*puffar*/
 .or-puff-program {
-    width: 92%;
-    margin-right: 1%;
-    margin-left: 1%;
+  width: 92%;
+  margin-right: 1%;
+  margin-left: 1%;
 }
 
 .or-stor-text-actions > div:nth-child(1),
@@ -371,13 +413,13 @@ h2.subheading {
 }
 
 .or-stor-bild-text-2 > div:nth-child(2) {
-    float: right;
-    max-width: 100%;
-    padding-bottom: 30px;
+  float: right;
+  max-width: 100%;
+  padding-bottom: 30px;
 }
 
 .or-startpage-extra .or-stor-bild-text-actions > div:nth-child(2) {
-    padding: 20px 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
 }
 
 .toppxxrubrikxinverteradxtext {
@@ -411,17 +453,16 @@ h2.subheading {
 }
 
 .or-stor-bild-text-tv > div:nth-child(2) h2{
-font-size: 20px;
-line-height: 24px;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .topp-storbild-textblock h1.heading {
-    margin-top: 20%;
-    font-size: 20px;
-    line-height: 24px;
-    text-align: left;
+  margin-top: 20%;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: left;
 }
-
 
 .or-puff-text-bild-lanklista,
 .or-puff-text-icon-lanklista,
@@ -452,48 +493,35 @@ line-height: 24px;
   margin-left: 10px;
 }
 
-
 .sol-facetter .c100{
 	margin-bottom: 10px;
 }
 
 .or-search-link a {
-    font-size: 17px;
-    line-height: 19px !important;
-    margin-bottom: 0px!important;
+  font-size: 17px;
+  line-height: 19px !important;
+  margin-bottom: 0px!important;
 }
-
 
 /* kontakt toppen */
-.lyssna{
-	
-}
-.teckensprak{
-	
-}
-.lattlast{
-	
-}
-.dela{
-	
-}
+
 .kontakta{
 	display: none;	
 }
 
 .or-grid-12-col, .or-grid-12-col .sv-row [class*="sv-column-"], .or-grid-12-col.sv-fluid-grid [class*="sv-row"] [class*="sv-column-"] h2{
-    padding-right: 5px;
-    padding-left: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
 }
 
 #id-or-useful-no {
-    position: relative;
+  position: relative;
 }
 
 p.or-close-text {
-    position: absolute;
-    right: 0px;
-    top: 10px;
+  position: absolute;
+  right: 0px;
+  top: 10px;
 }
 
 .submitformbt.helpusbt.redbt {
