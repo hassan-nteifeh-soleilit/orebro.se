@@ -348,7 +348,7 @@
   }
 
   .st-head-row{
-    background-color: #D63823;
+    background-color: #E83C23;;
     text-align: left;
     border-bottom: 1px solid #fff;
   }
@@ -735,20 +735,8 @@
     background-position: 0px 0px;
   }
 
-  .or-school-footer-info {
-    padding: 27px 19px;
-  }
-
-  .or-school-footer-info .poem span {
-    font-size: 26px;
-  }
-
-  .or-school-footer-info span {
-    font-size: 14px;
-  }
-
   .or-school-footer-info > div:nth-child(1){
-    width: 100%;
+    width: 65%;
   }
 
   .or-wide-content,
@@ -905,7 +893,7 @@
   }
 
   .or-mobile-nav-column.or-colorbg{
-    background-color: #D63823;
+    background-color: #E83C23;
     color: #fff;
     position: relative;
   }
@@ -917,7 +905,7 @@
     height: 0;
     border-style: solid;
     border-width: 10px 12px 0 12px;
-    border-color: #D63823 transparent transparent transparent;
+    border-color: #E83C23 transparent transparent transparent;
     bottom: -9px;
     left: 50%;
     margin-left: -12px;
@@ -942,7 +930,7 @@
     position: absolute;
     pointer-events: none;
     border-color: rgba(136, 183, 213, 0);
-    border-top-color: #D63823;
+    border-top-color: #E83C23;
     border-width: 12px;
     margin-left: -12px;
     display: none;
@@ -956,21 +944,6 @@
 
   .or-school-advantages-header {
     border-right: 0px;
-  }
-
-  .or-school-advantages-header h3 {
-    font-size: 12px!important;
-  }
-
-  /* Row */
-  .or-row {
-    margin-right: -10px;
-    margin-left: -10px;
-  }
-
-  .or-row > div {
-    padding-right: 10px!important;
-    padding-left: 10px!important;
   }
 
   .or-school-col{
