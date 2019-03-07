@@ -2019,6 +2019,18 @@ body:not(.sv-editing-mode) .or-plus-box-program.or-plus-box-content caption, bod
     padding: 17px 55px;
     position: relative;
 }
+
+.or-kontaktpersoner-container h1, .or-kontaktpersoner-container h2, .or-kontaktpersoner-container h3,
+.or-kontaktpersoner-container h4, .or-kontaktpersoner-container h5, .or-kontaktpersoner-container h6 {
+    font-size: 16px !important;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.4em;
+    margin-top: 0!important;
+    margin-bottom: 0 !important;
+}
+
 .or-kontaktpersoner-container:after {
     content: "\f086";
     font-family: FontAwesome;
@@ -2026,7 +2038,7 @@ body:not(.sv-editing-mode) .or-plus-box-program.or-plus-box-content caption, bod
     position: absolute;
     top: 17px;
     left: 19px;
-    font-size: 30px;
+    font-size: 23px;
     line-height: 22.4px;
 }
 
