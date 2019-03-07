@@ -1451,6 +1451,7 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active {
 li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
     content: "\F067";
     font-family: "Font Awesome 5 free";
+    font-weight: 900;
     font-style: initial;
     font-size: 15px;
     vertical-align: middle;
@@ -1459,6 +1460,7 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
 .sol-icon-facet-active:after {
     content: "\F00C";
     font-family: "Font Awesome 5 free";
+    font-weight: 900;
     font-style: normal;
     font-size: 15px;
     vertical-align: middle;
@@ -1524,6 +1526,7 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
 .sol-icon-more-facet:after {
     content: "\F067";
     font-family: "Font Awesome 5 free";
+    font-weight: 900;
     font-style: initial;
     font-size: 18px;
     vertical-align: middle;
@@ -1532,6 +1535,7 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
 .sol-icon-more-facet-selected:after {
     content: "\F068";
     font-family: "Font Awesome 5 free";
+    font-weight: 900;
     font-style: initial;
     font-size: 18px;
     vertical-align: middle;
@@ -1942,6 +1946,7 @@ body .or-content-container .or-tir p,body .or-content-container .or-tir p a:link
 .or-tir:before {
     content: "\F05A";
     font-family: "Font Awesome 5 free";
+    font-weight: 900;
     font-style: initial;
     font-size: 28px;
     vertical-align: middle;
@@ -2150,7 +2155,8 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
     width: 45px;
     height: 100%;
     position: absolute;
-    font: normal normal normal 18px/32px "Font Awesome 5 free";
+    font: 900 18px/32px "Font Awesome 5 free";
+    font-weight: 900;
     left: 0;
     top: 0;
     text-align: center;
@@ -2187,7 +2193,8 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
     width: 41px;
     height: 100%;
     position: absolute;
-    font: normal normal normal 17px/50px "Font Awesome 5 free";
+    font: 900 17px/50px "Font Awesome 5 free";
+    font-weight: 900;
     right: 0;
     top: 0;
     text-align: center;
@@ -2291,6 +2298,7 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
 .or-icon-plus:before {
     content: "\f067";
     font-family: "Font Awesome 5 free";
+    font-weight: 900;
     color: #fff;
     position: relative;
 }
@@ -2301,7 +2309,8 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
 
 .or-icon-plus {
     display: table-cell;
-    font: normal normal normal 20px/1 "Font Awesome 5 free";
+    font: 900 20px/1 "Font Awesome 5 free";
+    font-weight: 900;
     text-align: center;
     vertical-align: middle;
     transition: transform 500ms;
@@ -2326,6 +2335,7 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
 .or-plus-box-diskret-header .or-icon-plus::before {
     content: "\f067";
     font-family: "Font Awesome 5 free";
+    font-weight: 900;
     color: #817370;
     font-size: 15px;
     top: -1px;
@@ -2430,6 +2440,7 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
 .or-kontaktpersoner-container:after {
     content: "\f086";
     font-family: "Font Awesome 5 free";
+    font-weight: 900;
     color: #DB7E02;
     position: absolute;
     top: 17px;
@@ -2685,6 +2696,7 @@ ul > li.kontaktaxossxxxbrodtext:last-child {
 .or-more-news p.normal:before {
     content: "\F060";
     font-family: "Font Awesome 5 free";
+    font-weight: 900;
     font-style: initial;
     font-size: 14px;
     vertical-align: middle;
@@ -2927,6 +2939,7 @@ input[type="file" i]::-webkit-file-upload-button:hover {
 
 .or-news-filter .or-toggle-icon:before {
     font-family: "Font Awesome 5 free";
+    font-weight: 900;
     font-size: 13px;
     content: '\f067';
     color: #fff;
@@ -3051,6 +3064,7 @@ input[type="file" i]::-webkit-file-upload-button:hover {
 .or-daterange .or-year.or-parent.or-expanded .or-month.selected:after {
     content: "\f00d";
     font-family: "Font Awesome 5 free";
+    font-weight: 900;
     font-style: initial;
     font-size: 13px;
     vertical-align: middle;
@@ -3078,11 +3092,13 @@ input[type="file" i]::-webkit-file-upload-button:hover {
 .or-category .or-category-item.selected:hover:after {
     content: "\f00d";
     font-family: "Font Awesome 5 free";
+    font-weight: 900;
 }
 
 .or-category .or-category-item.selected:after {
     content: "\f00c";
     font-family: "Font Awesome 5 free";
+    font-weight: 900;
     font-style: initial;
     font-size: 13px;
     vertical-align: middle;
@@ -3609,6 +3625,7 @@ section.or-bg-one {
 .or-openhours-contact td p strong:before {
     content: "\f05a";
     font-family: "Font Awesome 5 free";
+    font-weight: 900;
     position: absolute;
     left: 0;
     top: 0;
@@ -3744,6 +3761,7 @@ section.or-bg-one {
     font-size: 10px;
     content: "\f061";
     font-family: "Font Awesome 5 free";
+    font-weight: 900;
     color: #7E7E7E;
     z-index: 1;
     bottom: 5px;
@@ -3864,7 +3882,8 @@ section.or-bg-one {
 
 .or-red-header-box .sv-font-action-pil:before {
     background-color: #817370;
-    font: normal normal normal 18px/32px "Font Awesome 5 free";
+    font: 900 18px/32px "Font Awesome 5 free";
+    font-weight: 900;
     width: 31px;
 }
 
@@ -5242,6 +5261,7 @@ body .or-puff-link .or-puff-icon-link .normal {
 .or-puff-link::after {
     content: "\f061";
     font-family: "Font Awesome 5 free";
+    font-weight: 900;
     color: #fff;
     position: absolute;
     bottom: 4px;
@@ -5299,6 +5319,7 @@ body .or-puff-link .or-puff-icon-link .normal {
 .or-puff-icon-header-text.or-wrapper-click::after {
     content: "\f061";
     font-family: "Font Awesome 5 free";
+    font-weight: 900;
     color: #fff;
     position: absolute;
     bottom: 3px;
@@ -5526,7 +5547,8 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
 }
 
 .livsmedelsrapport .search-field-submit.form-button:before {
-    font: normal normal normal 14px/1 "Font Awesome 5 free";
+    font: 900 14px/1 "Font Awesome 5 free";
+    font-weight: 900;
     content: "\f002";
     color: #000;
     left: 0;
@@ -5537,7 +5559,8 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
 }
 
 .livsmedelsrapport .search-field-submit.form-button:after {
-    font: normal normal normal 14px/1 "Font Awesome 5 free";
+    font: 900 14px/1 "Font Awesome 5 free";
+    font-weight: 900;
     content: "\f16a";
     color: #000;
     left: 0;
@@ -5548,7 +5571,8 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
 }
 
 .livsmedelsrapport .search-field-submit:before {
-    font: normal normal normal 14px/1 "Font Awesome 5 free";
+    font: 900 14px/1 "Font Awesome 5 free";
+    font-weight: 900;
     content: "\f002";
     color: #000;
     left: 0;
@@ -5559,7 +5583,8 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
 }
 
 .livsmedelsrapport .search-field-submit:after {
-    font: normal normal normal 14px/1 "Font Awesome 5 free";
+    font: 900 14px/1 "Font Awesome 5 free";
+    font-weight: 900;
     content: "\f16a";
     color: #000;
     left: 0;
@@ -5739,7 +5764,8 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
     box-shadow: 0 0 6px 2px rgba(0,0,0,0.2);
     color: #C83E30;
     content: "\f16a";
-    font: normal normal normal 35px/.7 "Font Awesome 5 free";
+    font: 900 35px/.7 "Font Awesome 5 free";
+    font-weight: 900;
     height: 23px;
     left: 50%;
     margin-left: -27px;
@@ -5830,7 +5856,8 @@ table.or-bath-water td:not(:first-child),table.or-bath-water th:not(:first-child
 }
 
 .or-social-media-content .or-stats .fa {
-    font: normal normal normal 14px/1 "Font Awesome 5 free";
+    font: 900 14px/1 "Font Awesome 5 free";
+    font-weight: 900;
     margin-left: 15px;
     margin-right: 5px;
 }

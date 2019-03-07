@@ -1124,7 +1124,8 @@ nav.or-secondary .or-content ul li a h3 {
 
 nav.or-secondary .or-content ul li a:before {
     content: "\f061";
-    font-family: FontAwesome;
+    font-family: "Font Awesome 5 free";
+    font-weight: 900;
     padding-right: 6px;
     color: #dad6d4;
     position: absolute;

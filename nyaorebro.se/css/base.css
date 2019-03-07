@@ -264,7 +264,8 @@ h4 {
 
 /*h3 a:before{
 	content: "\f061";
-    font-family: FontAwesome;
+ 	font-family: "Font Awesome 5 free";
+    font-weight: 900;
     padding-right: 6px;
     color: #817370;
     position: relative;
@@ -703,7 +704,8 @@ section.or-nav-content-section .sv-fluid-grid.or-wider ul.or-nav-list li a .or-t
 {
 	color: #dad6d4;
     content: "\f061";
-    font-family: FontAwesome;
+    font-family: "Font Awesome 5 free";
+    font-weight: 900;
     padding-right: 6px;
     position: absolute;
     top: -1px;
@@ -767,7 +769,8 @@ ul.or-nav-list li .or-list-wrapper .or-title:before
 {
 	color:#dad6d4;
 	content:"\f061";
-	font-family:FontAwesome;
+	font-family: "Font Awesome 5 free";
+	font-weight: 900;
 	padding-right:6px;
 	position:relative;
 	top:-1px;
@@ -829,7 +832,8 @@ nav.or-breadcrumbs li:first-child a:before
 {
 	color:#35383b;
 	content:"\f015";
-	font-family:FontAwesome;
+	font-family: "Font Awesome 5 free";
+	font-weight: 900;
 	padding-right:10px;
 }
 
@@ -911,7 +915,8 @@ body p.sv-portlet-image-caption {
 
 .or-article-main ul.normal li:before {
     content: "\f111";
-    font-family: FontAwesome;
+    font-family: "Font Awesome 5 free";
+    font-weight: 900;
     color: #817370;
     padding-right: 10px;
     font-size: 10px;
