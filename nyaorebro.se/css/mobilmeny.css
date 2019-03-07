@@ -153,7 +153,7 @@ MENY
 }
 
 .or-tree .or-toggle-icon:before {
-    font-family: "Font Awesome 5 free";
+    font-family: "Font Awesome 5 free"!important;
     font-weight: 900;
     font-size: 13px;
     content: '\f067';
