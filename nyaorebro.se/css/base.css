@@ -375,8 +375,8 @@ header .or-logo {
 {
 	border-bottom-left-radius:3px;
 	border-bottom-right-radius:3px;
-	/*border-right:2px solid #f6f4f2;
-	float:right;*/
+	/*border-right:2px solid #f6f4f2;*/
+	/*float:right;*/
 	font-size:10px;
 	font-weight:600;
 	line-height:1.1em;
@@ -389,7 +389,7 @@ header .or-logo {
 /*
 .or-tool-area a:first-child
 {
-	border-right:0 solid #FAFAFA;
+	border-right:0 solid #f6f4f2;
 }*/
 
 .or-tool-area a:hover
