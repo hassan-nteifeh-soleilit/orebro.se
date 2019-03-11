@@ -2487,6 +2487,15 @@ ol {
 	margin-left: auto;
 }
 
+.bloggcontent .ingress {
+	font-size: 25px;
+	margin-bottom: 23px;
+}
+
+.bloggcontent p {
+	font-size: 19px;
+}
+
 .or-blogg-width {
 	max-width: 700px;
 	margin-left: auto;
@@ -3809,6 +3818,17 @@ Additional
 	.sv-text-portlet li {
 		font-size: 21px;
 	}
+
+	.or-school-advantages-header h3 {
+		font-size: 16px!important;
+		letter-spacing: 1.23px;
+	}
+	.or-school-footer-info span {
+		font-size: 21px;
+		line-height: 33px;
+	}
+
+
 }
 
 @media (max-width: 768px) {
@@ -3863,7 +3883,7 @@ Additional
 }
 
 .bloggcontent .kontakta-ruta {
-	width: 86%;
+	width: 100%;
 	margin: 20px auto 35px;
 	float: none;
 }
@@ -4136,6 +4156,8 @@ li.or-comment {
 	margin-bottom: 10px;
 	border-top: 2px dotted #D1D1D1;
 	border-bottom: 2px dotted #D1D1D1;
+	display: inline-block;
+	width: 100%;
 }
 
 .or-divider-dotted p.normal {
@@ -5908,6 +5930,11 @@ body a.kontaktaxossxxxbrodtext:focus, body .kontaktaxossxxxbrodtext a:focus, bod
 	color: #D63823;
 }
 
+.or-elmt-actn-link {
+	font-size: 14px;
+	padding: 17px 0 17px 19px;
+}
+
 .or-elmt-actn-icon i {
 	color: #FFF;
 }
@@ -6900,6 +6927,8 @@ div.or-synpunkt-action .or-action-content span:after {
 		font-size: 18px !important;
 	}
 
+
+
 }
 
 .or-puff-bild-text li a:link {
@@ -7065,7 +7094,7 @@ div.or-synpunkt-action .or-action-content span:after {
 	-moz-border-radius: 2px;
 	-webkit-border-radius: 2px;
 	background-color: #fff;
-	padding: 18px 20px 18px 20px;
+	padding: 13px 20px 18px 20px;
 	margin-top: 20px;
 	margin-bottom: 35px;
 }
@@ -7799,15 +7828,25 @@ label.or-fieldlabelhelpus {
 /* Program inriktningar */
 /* se även program puff */
 .or-inriktning {
-	padding-top: 4px;
-	padding-bottom: 9px;
-	display: block;
+	padding-top: 5px;
+	padding-bottom: 6px;
 	margin-right: auto;
 	margin-bottom: 20px;
 	margin-left: auto;
 	padding-left: 10px;
 	background-color: white;
     border-top: 1px solid #E4E4E4;
+
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-moz-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
 }
 
 .or-inriktning div:nth-child(2) div div p.normal {
@@ -7817,7 +7856,7 @@ label.or-fieldlabelhelpus {
 	color: black;
 	font-size: 12px;
 	margin-right: 10px;
-	margin-top: 10px;
+	margin-top: 0;
 	margin-bottom: 0;
 	margin-left: 0px;
 	line-height: 15px;
@@ -7922,8 +7961,8 @@ label.or-fieldlabelhelpus {
 }
 
 .or-school-advantages-header h3 {
-	font-size: 16px!important;
-	letter-spacing: 0.04em;
+	font-size: 14px!important;
+	letter-spacing: 1.08px;
 	text-transform: uppercase;
 	margin-top: 0px !important;
 }
@@ -7971,7 +8010,7 @@ label.or-fieldlabelhelpus {
 .or-school-footer-info {
 	background-color: #f7e4f2;
 	margin-bottom: 30px;
-	padding: 36px 67px;
+	padding: 36px 66px;
 }
 
 .or-school-footer-info a:link {
@@ -7991,8 +8030,8 @@ label.or-fieldlabelhelpus {
 }
 
 .or-school-footer-info span {
-	font-size: 21px;
-	line-height: 33px;
+	font-size: 14px;
+	line-height: 19px;
 }
 
 .or-school-footer-info .sv-text-portlet-content {
@@ -8186,7 +8225,7 @@ label.or-fieldlabelhelpus {
 	text-align: center;
 	letter-spacing: 0.04em;
 	text-transform: uppercase;
-	margin-right: 10px;
+	margin: 0 6px;
 }
 
 .or-sketch-text-campaign {
