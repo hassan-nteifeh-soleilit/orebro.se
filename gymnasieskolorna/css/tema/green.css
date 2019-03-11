@@ -145,7 +145,7 @@ h1.heading,
 }
 
 input:focus, select:focus, textarea:focus {
-    border-color: #dbe7c4);
+    border-color: #dbe7c4;
     outline: 0px none;
     box-shadow: none;
 }
@@ -233,11 +233,11 @@ color: #fff;
 }
 
 .or-plus-box-active:not(.or-plus-box-diskret-header)  .or-icon-plus::before {
-	color: #60930f;
+	color: #55830e;
 }
 
 .or-plus-box-header:hover .plusboxxrubrik{
-	color: #60930f;
+	color: #55830e;
 }
 
 .or-plus-box-active:not(.or-plus-box-diskret-header):hover .plusboxxrubrik{
@@ -524,8 +524,8 @@ li.sol-selected-facet:hover {
 }
 
 .pagination .current {
-    background-color: #60930F ;
-		border-color: #60930F ;
+    background-color: #55830E ;
+		border-color: #55830E ;
 }
 
 #or-paging-id a:hover {
@@ -538,17 +538,17 @@ li.sol-selected-facet:hover {
 }
 
 .sol-tab-button.sol-tab-active {
- background: #60930F;
+ background: #55830E; 
  border-top: 5px solid #C0DA92;
 }
 
 .sol-tab-button-container .sol-tab-button:not(.sol-tab-active):hover {
-    color: #60930F;    
+    color: #55830E; 
 }
 
 .sol-accordion-heading.sol-tab-active {
- background-color: #60930F;
- border: 2px solid #60930F;
+ background-color: #55830E;
+ border: 2px solid #55830E;
 }
 
 .sol-accordion-heading {
