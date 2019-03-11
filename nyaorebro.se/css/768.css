@@ -1,4 +1,4 @@
-@media all and (max-width: 768px){
+@media all and (max-width: 767px){
     
 /*base*/
 
@@ -887,7 +887,7 @@ body section.or-top-img-area .brodtextxxfetx {
     position: absolute;
     pointer-events: none;
     border-color: rgba(136, 183, 213, 0);
-    border-top-color: #e83c23;;
+    border-top-color: #e83c23;
     border-width: 12px;
     margin-left: -12px;
     display: none;
