@@ -2492,7 +2492,7 @@ ol {
 	margin-bottom: 23px;
 }
 
-.bloggcontent p {
+.normal {
 	font-size: 19px;
 }
 
@@ -3828,6 +3828,9 @@ Additional
 		line-height: 33px;
 	}
 
+	.or-puff-text-bild-lanklista {
+	    margin-bottom: -30px!important;
+	}
 
 }
 
@@ -7836,17 +7839,7 @@ label.or-fieldlabelhelpus {
 	padding-left: 10px;
 	background-color: white;
     border-top: 1px solid #E4E4E4;
-
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-align: center;
-	-webkit-align-items: center;
-	-moz-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
+    display: block;
 }
 
 .or-inriktning div:nth-child(2) div div p.normal {
@@ -7861,6 +7854,13 @@ label.or-fieldlabelhelpus {
 	margin-left: 0px;
 	line-height: 15px;
 	border-right: 1px solid #E4E4E4;
+    top: 1px;
+    position: relative;
+}
+.or-inriktning div:nth-child(2) div:last-child div p.normal {
+    padding-right: 0;
+    border: 0;
+    margin-right: 0;
 }
 
 @media (max-width: 480px) {

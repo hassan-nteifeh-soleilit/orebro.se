@@ -57,6 +57,10 @@
   p {
     text-align: left;
   }
+  .normal {
+    font-size: 16px;
+    line-height: 25px;
+  }
 
   .breadcrumpssection {
     padding-right: 15px;
@@ -288,7 +292,8 @@
   }
 
   h2.subheading {  
-    font-size: 19px;
+    font-size: 15px;
+    line-height: 33px;
   }
 
   .bloggcontent {
@@ -296,7 +301,7 @@
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    padding-top: 15px;
+    padding-top: 0;
   }
 
   .or-comment-button {
@@ -696,7 +701,7 @@
 
   .or-plus-box-header.or-plus-box-program,
   .or-plus-box-content.or-plus-box-program {
-    width:95%;
+    width:100%;
   }
 
   th.sv-text-align-right p,
@@ -736,7 +741,15 @@
   }
 
   .or-school-footer-info > div:nth-child(1){
-    width: 65%;
+    width: 100%;
+  }
+
+  .or-school-footer-info .poem {
+    padding: 0!important;
+  }
+
+  .or-elmt-actn-link {
+    font-size: 12px!important;
   }
 
   .or-wide-content,
