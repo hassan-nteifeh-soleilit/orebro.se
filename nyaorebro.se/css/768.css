@@ -1,7 +1,5 @@
 @media all and (max-width: 768px){
-    .driftstorningar-container li::before {
-        bottom: 2px;
-    }
+    
 /*base*/
 
 body {
@@ -177,6 +175,69 @@ header.or-search-mobile .sv-row:first-of-type  > div:nth-of-type(2n)  {
 body section.or-nav-content-section .or-grid-12-col.or-wider h2 {
     font-size: 12px;
 }
+
+   /* PUFF IKON OCH LÄNK START --------------------
+.or-puff-icon-link{
+    width: 97%;
+    margin-bottom: 16px;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+    max-width: 590px;
+}
+
+.or-puff-icon-link .ikonxorange{
+    float: left;
+}
+
+.or-puff-icon-link .rubrikx4 {
+    margin-left: 4em; 
+    font-size: 14px;
+    text-decoration: none; 
+    color: black;
+    float: none !important;
+}
+
+.or-puff-icon-link .kontaktaxossxxxbrodtext{
+    margin-left: 4em;
+}
+
+
+/* PUFF IKON OCH LÄNK SLUT ------------------------*/
+   
+   /* PUFF IKON OCH LÄNK START --------------------*/
+   .or-puff-icon-link{
+    width: 94%;
+    margin-bottom: 16px;
+    margin-right: 3%;
+    margin-left: 3%;
+    float: none;
+    
+}
+
+
+
+.or-puff-icon-link .rubrikx4 {
+    
+    font-size: 14px;
+    text-decoration: none; 
+    color: black;
+    float: none !important;
+}
+
+.or-puff-icon-link .normal .ikonxorange{
+    font-size: 2.5em !important;
+    margin-left: 0;
+}
+
+.or-puff-icon-link .normal a {
+    font-size: 14px!important;
+    line-height: normal;
+}
+
+
+/* PUFF IKON OCH LÄNK SLUT ------------------------*/
+   
 
 
 /* footer */
@@ -403,7 +464,7 @@ section.or-bg-one {
 
 /* Öppettider/kontakt */
 body .or-article-main .or-openhours-contact .sv-responsiveTable--stacked__headRow th p{
-	color:#DB7E02!important;
+	color:#F28C00!important;
 	font-size: 12px!important;
 }
 
@@ -483,69 +544,6 @@ body section.or-top-header .sv-use-margins h2{
 }
 
 
-/* PUFF IKON OCH LÄNK START --------------------
-.or-puff-icon-link{
-    width: 97%;
-    margin-bottom: 16px;
-    margin-right: auto;
-    margin-left: auto;
-    float: none;
-    max-width: 590px;
-}
-
-.or-puff-icon-link .ikonxorange{
-    float: left;
-}
-
-.or-puff-icon-link .rubrikx4 {
-    margin-left: 4em; 
-    font-size: 14px;
-    text-decoration: none; 
-    color: black;
-    float: none !important;
-}
-
-.or-puff-icon-link .kontaktaxossxxxbrodtext{
-    margin-left: 4em;
-}
-
-
-/* PUFF IKON OCH LÄNK SLUT ------------------------*/
-
-/* PUFF IKON OCH LÄNK START --------------------*/
-.or-puff-icon-link{
-    width: 94%;
-    margin-bottom: 16px;
-    margin-right: 3%;
-    margin-left: 3%;
-    float: none;
-    
-}
-
-
-
-.or-puff-icon-link .rubrikx4 {
-    
-    font-size: 14px;
-    text-decoration: none; 
-    color: black;
-    float: none !important;
-}
-
-.or-puff-icon-link .normal .ikonxorange{
-    font-size: 2.5em !important;
-    margin-left: 0;
-}
-
-.or-puff-icon-link .normal a {
-    font-size: 14px!important;
-    line-height: normal;
-}
-
-
-/* PUFF IKON OCH LÄNK SLUT ------------------------*/
-
-
 /* Standarsida toppbild */
 
 body section.or-top-img-area .or-top-img-text-area h1 {
@@ -616,7 +614,7 @@ body section.or-top-img-area .brodtextxxfetx {
     height: 0;
     border-style: solid;
     border-width: 9px 9px 0 9px;
-    border-color: #D63823 transparent transparent transparent;
+    border-color: #e83c23 transparent transparent transparent;
     position: absolute;
     bottom: -8px;
     left: 15px;
@@ -656,7 +654,7 @@ body section.or-top-img-area .brodtextxxfetx {
 
 .or-red-header-box .box-header {
     padding: 6px 8px 7px 10px;
-    background-color: #D63823;
+    background-color: #e83c23;
 }
 
 .or-red-header-box .box-header {
@@ -837,7 +835,7 @@ body section.or-top-img-area .brodtextxxfetx {
 }
 
 .or-mobile-nav-column i.fa{
-    color: #D63823;
+    color: #e83c23;
     font-size: 24px;
     margin-bottom: 6px;
 }
@@ -850,7 +848,7 @@ body section.or-top-img-area .brodtextxxfetx {
 }
 
 .or-mobile-nav-column.or-colorbg{
-	background-color: #D63823;
+	background-color: #E83C23;
 	color: #fff;
 	position: relative;
 }
@@ -862,7 +860,7 @@ body section.or-top-img-area .brodtextxxfetx {
     height: 0;
     border-style: solid;
     border-width: 10px 12px 0 12px;
-    border-color: #D63823 transparent transparent transparent;
+    border-color: #e83c23 transparent transparent transparent;
     bottom: -9px;
     left: 50%;
     margin-left: -12px;
@@ -889,7 +887,7 @@ body section.or-top-img-area .brodtextxxfetx {
     position: absolute;
     pointer-events: none;
     border-color: rgba(136, 183, 213, 0);
-    border-top-color: #D63823;
+    border-top-color: #e83c23;;
     border-width: 12px;
     margin-left: -12px;
     display: none;
@@ -994,7 +992,7 @@ ul.or-nav-list li .or-list-wrapper {
 
 ul.or-nav-list li .or-list-wrapper .or-title {
     border-bottom: 0px dotted transparent;
-    color: #D63823;
+    color: #e83c23;
     padding-bottom: 0px;
 }
 
