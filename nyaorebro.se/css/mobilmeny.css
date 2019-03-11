@@ -69,7 +69,7 @@ MENY
   overflow-x: hidden;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   position: fixed;     
-  background: #D63823;
+  background: #e83c23;
   box-shadow: -3px 0px 10px 0px rgba(0, 0, 0, 0.4);
 }
 
@@ -80,7 +80,7 @@ MENY
     color: #fff;
     line-height: 15px;
     letter-spacing: 0.02em;
-    background-color: #D63823;    
+    background-color: #e83c23;     
     padding-left: 15px;
     padding-right: 45px;
     display: block;
@@ -133,15 +133,15 @@ MENY
 }
 
 .or-tree .or-depth-1 .or-parent .or-toggle-icon:before{
-    color: #D63823;
+    color: #e83c23;
 }
 
 .or-tree .or-depth-2 .or-parent .or-toggle-icon:before{
-    color: #D63823;
+    color: #e83c23;
 }
 
 .or-tree .or-depth-3 .or-parent .or-toggle-icon:before{
-    color: #D63823;
+    color: #e83c23;
 }
 
 .or-tree .or-depth-4 .or-parent .or-toggle-icon:before{
@@ -149,7 +149,7 @@ MENY
 }
 
 .or-tree .or-depth-5 .or-parent .or-toggle-icon:before{
-    color: #D63823;
+    color: #e83c23;
 }
 
 .or-tree .or-toggle-icon:before {
@@ -203,7 +203,7 @@ input.or-toggle-btn {
 }
 
 .or-tree .or-expanded > a {
-	background-color: #817370;
+	background-color: #857672;
 }
 
 .or-tree .or-current a {
@@ -245,13 +245,13 @@ input.or-toggle-btn {
 .or-depth-1 li.or-current a {
     background-color: #f8f8f8;
     border-bottom: 1px solid #EAEAEA;
-    border-left: 4px solid #D63823;
+    border-left: 4px solid #e83c23;
     border-bottom: 0px;
     font-weight: 700;
 }
 
 .or-tree .or-depth-1 .or-toggle-panel:before{
-	color: #D63823;
+	color: #e83c23;
 }
 
 .or-tree .or-depth-2 > li a{
@@ -358,11 +358,11 @@ input.or-toggle-btn {
 }
 
 .or-mobile-nav-bar > a:hover{
-	color: #D63823;
+	color: #e83c23;
 }
 
 .or-mobile-nav-bar a.or-menu-title {
-    color: #817370;
+    color: #857672;
     font-size: 15px;
     font-family: "leaguespartan webfont",sans-serif;
     width: 100%;
@@ -379,7 +379,7 @@ input.or-toggle-btn {
 }
 
 .or-mobile-nav-bar .or-push-nav-btn {
-    background-color: #D63823;
+    background-color: #e83c23;
     position: absolute;
     right: 0px;
     top: 0px;
