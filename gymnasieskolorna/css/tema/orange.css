@@ -3,7 +3,7 @@
 /* ny mobilmeny */
 
 .or-mobile-nav-bar a.or-menu-title {
-    color: #f28c00;
+    color: #DB7E02;
 }
 
 .or-mobile-nav-bar .or-push-nav-btn {
@@ -118,9 +118,9 @@ footer i.or-social-icon-fg {
 }
 
 .or-forms input[type="submit"] {
-  border-top-color: #f28c00;
+  border-top-color: #DB7E02;
   border-bottom-color: #d06b02;
-  background-color: #f28c00;
+  background-color: #DB7E02;
 }
 
 .or-forms input:hover[type="submit"] {
@@ -131,8 +131,8 @@ footer i.or-social-icon-fg {
 
 .or-forms input:active[type="submit"] {
   border-top-color: #d17b02;
-  border-bottom-color: #f28c00;
-  background-color: #f28c00;
+  border-bottom-color: #DB7E02;
+  background-color: #DB7E02;
 }
 
 .or-formicon {
