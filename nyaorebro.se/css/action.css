@@ -1,0 +1,41 @@
+/* Orange bakgrund för action "synpunkter och klagomål" */
+.or-actn__fa-info-circle .or-elmt-actn-row:after{
+    border-left-color: #F4A63B !important;
+}
+
+.fa-info-circle .or-elmt-actn-icon{
+    background-color: #F4A63B !important;
+}
+
+/* Grå bakgrund för action "sök person" i Modalen Kontakta Örebro*/
+.or-modal-content .or-actn__fa-search .or-elmt-actn-icon {
+    background-color: gray !important;
+}
+
+.or-modal-content .or-actn__fa-search .or-elmt-actn-row:after{
+    border-left-color: gray !important;
+}
+
+.or-elmt-actn-icon .fa-info-circle{
+   background-color: #F4A63B!important;
+}
+
+.or-elmt-actn-row .fa-info-circle:after {
+   left: 48px;
+   top: 50%;
+   border: solid transparent;
+   content: " ";
+   height: 0;
+   width: 0;
+   position: absolute;
+   pointer-events: none;
+   border-color: rgb(255, 255, 255);    
+   border-color: rgba(136, 183, 213, 0) rgba(136, 183, 213, 0) rgba(136, 183, 213, 0) ;
+   border-left-color: #F4A63B;
+   border-width: 10px;
+   margin-top: -10px;
+}
+
+.or-synpunkter-action span.fa {
+    background-color: #F4A63B;
+}
