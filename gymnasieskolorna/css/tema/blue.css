@@ -197,7 +197,7 @@ li.or-comment.or-colorborder {
 /* Färger för processverktyg */
 
 .sol_process_flow_container {
-    border-color: #0098BD;
+    border-color: #0081A2;;
 }
 
 ul.sol_steps.clearfix {
@@ -270,7 +270,7 @@ color:#fff;
 
 .or-programpoang {
 	border-color: #D0E9F2 ;
-	color: #0098BD;
+	color: #0081A2;
 }
 
 /* Kontakta oss fristående */
@@ -404,12 +404,12 @@ color: #0081A2;
 
 /* fakta */
 .or-facts-block {
-    border-color: #0098BD;
+    border-color: #0081A2;
     background-color: #FFF;
 }
 
 .or-facts-block h4, h3, h2 {
-    color: #0098BD;
+    color: #0081A2;
 }
 
 
@@ -472,12 +472,12 @@ body .mm-menu.mm-vertical .mm-list li.mm-opened.mm-selected > a, body .mm-menu.m
 /* Söksida */
 .sol-facetter p
 {
-	color:#0098BD;
+	color:#0081A2;
 }
 
 li#sol-selected-facet
 {
-	background-color:#0098BD;
+	background-color:#0081A2;
 }
 
 li.sol-selected-facet:hover
@@ -496,7 +496,7 @@ li.sol-selected-facet:hover
 
 .sol-sok-ruta input.normal:last-child
 {
-	background-color:#0098BD;
+	background-color:#0081A2;
 }
 
 .sol-sok-ruta input.normal:last-child:hover
@@ -507,16 +507,16 @@ li.sol-selected-facet:hover
 
 .or-hidden-facet-items-selected
 {
-	background-color:#0098BD!important;
-	border-bottom-color:#0098BD!important;
+	background-color:#0081A2!important;
+	border-bottom-color:#0081A2!important;
 	color:#fff;
 	transition:all 500ms ease 0;
 }
 
 .pagination .current
 {
-	background-color:#0098BD;
-	border-color:#0098BD;
+	background-color:#0081A2;
+	border-color:#0081A2;
 }
 
 #or-paging-id a:hover
@@ -532,18 +532,18 @@ li.sol-selected-facet:hover
 
 .sol-tab-button.sol-tab-active
 {
-	background:#0098BD;
+	background:#0081A2;
 	border-top:5px solid #AEDEEF;
 }
 
 .sol-tab-button-container .sol-tab-button:not(.sol-tab-active):hover {
-    color: #0098BD;    
+    color: #0081A2; 
 }
 
 .sol-accordion-heading.sol-tab-active
 {
-	background-color:#0098BD;
-	border:2px solid #0098BD;
+	background-color:#0081A2;
+	border:2px solid #0081A2;
 }
 
 .sol-accordion-heading
