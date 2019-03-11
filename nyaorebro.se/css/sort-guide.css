@@ -1,0 +1,118 @@
+#sort-search,
+#sort-search fieldset {margin:0 0 1em;}
+#sort-search .radio,
+#sort-search .text,
+#sort-search .submit-area {display:inline;}
+#sort-search .text label {display:block;}
+#sort-search .text input {width:350px;}
+.sort-results {margin:0 0 1.5em;}
+
+.sort-results caption {
+    padding-top:1em;
+    font-size:1.2em;
+    text-align:left;
+}
+
+.sort-results th,td {
+    vertical-align:top;
+    text-align:left;
+    padding: .5em 1em !important;
+    margin-top: .5em !important;    
+}
+   
+.sort-results th {background:#fff;color:#e83c23;border-bottom:solid 1px #c0c0c0;}
+.sort-results td {padding-bottom:1em;}
+.sort-results h3 {margin-top:0;}
+.waste-list p,
+.sort-results p {margin:0 !important;}
+p.heading {
+   font-weight:bold !important;
+   color:#35383b;
+   font-size:16px;
+   line-height:1.6em; 
+}
+.notstrong {}
+.waste-index .waste-list,
+.waste-list ul {
+    padding:0;
+    list-style:none;
+}
+.waste-list .sort-results {margin:0;}
+.waste-list .sort-results td {padding:0;}
+.waste-list .sort-results caption {
+    margin:0;
+    padding:0 0 0.5em;
+    color:#35383b;
+    font-size:1em;
+}
+.groups {
+    margin-left:0;
+    padding:0;
+    list-style:none;
+    overflow:hidden;
+}
+.groups li {
+    float:left;
+    width:1.305em;
+    margin:0;
+    padding:0;
+}
+.groups li a {
+    color:#666;
+    font-weight:bold;
+    font-size:0.857143em;
+    font-family:Tahoma,Verdana,sans-serif;
+    text-decoration:none;
+}
+.groups li a:hover,
+.groups li a:focus,
+.groups li a:active {text-decoration:underline;}
+.waste-index .waste-list li {
+    padding-bottom:1.4em;
+    border-bottom:1px solid #ccc;
+}
+.waste-index h2 {
+    margin:0.214286em 0 0.285714em;
+    font-size:2em;
+    line-height:1;
+}
+.waste-index h3 {
+    margin:1em 0 0.5em;
+    font-size:1.4em;
+    line-height:1.07143;
+}
+.waste-index h4 {
+    margin:1.5em 0 0;
+    font-size:1em;
+    line-height:1.5;
+    letter-spacing:0.05em;
+}
+.sorteringsguidesokruta
+{
+     font-size:2em;
+}
+
+.sorteringsguidesokknapp
+{
+     font-size:2em;
+}
+.info
+{
+    line-height:1.2727;
+}
+
+.ess-result{
+   width:auto;
+}
+.ess-result h2.antaltraffar{
+    font-size: 16px;
+    font-family: "open sans",sans-serif;
+    font-weight: 400;
+    color: #35383b;
+}
+.sv-siteseeker-search-portlet {
+	background-color:#fff;	
+   border: 0;
+	border-top: solid 5px #E83C23;
+	margin-bottom: 25px;
+}
