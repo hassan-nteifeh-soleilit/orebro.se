@@ -1684,6 +1684,7 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
 }
 
 .or-plus-box-program p.normal {  
+    margin-top: 10px;    
     margin-bottom: 10px;    
     font-weight: 400;
     list-style-type: disc;
