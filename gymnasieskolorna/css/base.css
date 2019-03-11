@@ -3834,20 +3834,6 @@ Additional
 
 }
 
-@media (max-width: 768px) {
-	.sv-text-portlet li {
-		font-size: 16px;
-		line-height: 1.4em;
-	}
-
-	.or-school-footer-info {
-		padding: 30px;
-	}
-	.or-school-footer-info span {
-	    font-size: 14px;
-	    line-height: 20px;
-	}
-}
 
 .sv-text-portlet li a {
 	font-size: inherit;
