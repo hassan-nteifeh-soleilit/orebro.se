@@ -1194,13 +1194,14 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
     box-shadow: -3px 0 6px -3px rgba(0,0,0,0.4) inset;
     text-align: center;
     color: #fff;
+    text-decoration: none; 
 }
 .or-language-modal-close .fa-close {
     color: #FFF!important;
     font-size: 17px;
     width: 100%;
     text-align: center;
-    padding-top: 5px;   
+    padding-top: 5px;  
 }
 .or-language-modal-close:hover {
     background-color:#333!important;
