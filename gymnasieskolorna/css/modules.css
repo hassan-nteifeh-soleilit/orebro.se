@@ -1200,7 +1200,8 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
     font-size: 17px;
     width: 100%;
     text-align: center;
-    padding-top: 5px;   
+    padding-top: 5px;  
+    text-decoration: none; 
 }
 .or-language-modal-close:hover {
     background-color:#333!important;
