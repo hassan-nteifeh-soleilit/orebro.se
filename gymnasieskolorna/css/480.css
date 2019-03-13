@@ -35,6 +35,12 @@
     .logo.orebrotoplogo {
     }
 
+    .bloggcontent .ingress {
+        font-size: 16px;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+
     .or-row > div {
         -ms-flex: 0 0 100%;
         flex: 0 0 100%;

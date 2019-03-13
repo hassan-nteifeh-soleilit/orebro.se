@@ -124,11 +124,11 @@
   width: 90%;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 15px;
+  margin-top: 15px;
 }
 
 .bloggcontent .kontakta-ruta {
-  width: 86%;
+  width: 100%;
   margin: 20px auto 35px auto;
 }
 
@@ -250,7 +250,7 @@ line-height: 24px;
 
 /* Steg för Steg puff */
 .or-school-advantages-container {
-width:100%;
+width:90%;
 }
 .sv-grid-utanxmellanrum.sv-fixed-fluid-grid .sv-column-4.or-school-col {
   width: 33.3333% !important;

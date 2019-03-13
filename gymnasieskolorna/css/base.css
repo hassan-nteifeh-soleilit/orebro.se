@@ -2494,6 +2494,7 @@ ol {
 
 .normal {
 	font-size: 19px;
+    line-height: 30px;
 }
 
 .or-blogg-width {
@@ -2501,6 +2502,7 @@ ol {
 	margin-left: auto;
 	margin-right: auto;
 	width: auto;
+  	margin-bottom: 30px;
 }
 
 .bigbloggimage {
@@ -3806,32 +3808,6 @@ Additional
 	text-align: left;
 	font-size: 17px;
 	line-height: 1.4em;
-}
-
-@media (min-width: 1350px) and (max-width: 1649px) {
-	.sv-text-portlet li {
-		font-size: 19px;
-	}
-}
-
-@media (min-width: 1650px) {
-	.sv-text-portlet li {
-		font-size: 21px;
-	}
-
-	.or-school-advantages-header h3 {
-		font-size: 16px!important;
-		letter-spacing: 1.23px;
-	}
-	.or-school-footer-info span {
-		font-size: 21px;
-		line-height: 33px;
-	}
-
-	.or-puff-text-bild-lanklista {
-	    margin-bottom: -30px!important;
-	}
-
 }
 
 
@@ -8015,7 +7991,7 @@ label.or-fieldlabelhelpus {
     -webkit-box-decoration-break: clone;
 }
 
-.or-school-footer-info span {
+.or-school-footer-info p {
 	font-size: 14px;
 	line-height: 19px;
 }
@@ -8859,4 +8835,37 @@ input[type="file" i]::-webkit-file-upload-button:hover {
 	box-sizing: border-box;
 	width: 100%;
 	margin: 0;
+}
+
+
+
+@media (min-width: 1350px) and (max-width: 1649px) {
+	.sv-text-portlet li {
+		font-size: 19px;
+	}
+}
+
+@media (min-width: 1650px) {
+	.sv-text-portlet li {
+		font-size: 21px;
+	}
+
+	.or-school-advantages-header h3 {
+		font-size: 16px!important;
+		letter-spacing: 1.23px;
+	}
+	.or-school-footer-info span {
+		font-size: 21px;
+		line-height: 33px;
+	}
+
+	.or-puff-text-bild-lanklista {
+	    margin-bottom: -30px!important;
+	}
+
+	.normal {
+		font-size: 21px;
+		line-height: 33px;
+	}
+	
 }
