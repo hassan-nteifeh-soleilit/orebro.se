@@ -2487,11 +2487,22 @@ ol {
 	margin-left: auto;
 }
 
+.bloggcontent .ingress {
+	font-size: 25px;
+	margin-bottom: 23px;
+}
+
+.normal {
+	font-size: 19px;
+    line-height: 30px;
+}
+
 .or-blogg-width {
 	max-width: 700px;
 	margin-left: auto;
 	margin-right: auto;
 	width: auto;
+  	margin-bottom: 30px;
 }
 
 .bigbloggimage {
@@ -3799,32 +3810,6 @@ Additional
 	line-height: 1.4em;
 }
 
-@media (min-width: 1350px) and (max-width: 1649px) {
-	.sv-text-portlet li {
-		font-size: 19px;
-	}
-}
-
-@media (min-width: 1650px) {
-	.sv-text-portlet li {
-		font-size: 21px;
-	}
-}
-
-@media (max-width: 768px) {
-	.sv-text-portlet li {
-		font-size: 16px;
-		line-height: 1.4em;
-	}
-
-	.or-school-footer-info {
-		padding: 30px;
-	}
-	.or-school-footer-info span {
-	    font-size: 14px;
-	    line-height: 20px;
-	}
-}
 
 .sv-text-portlet li a {
 	font-size: inherit;
@@ -3863,7 +3848,7 @@ Additional
 }
 
 .bloggcontent .kontakta-ruta {
-	width: 86%;
+	width: 100%;
 	margin: 20px auto 35px;
 	float: none;
 }
@@ -4136,6 +4121,8 @@ li.or-comment {
 	margin-bottom: 10px;
 	border-top: 2px dotted #D1D1D1;
 	border-bottom: 2px dotted #D1D1D1;
+	display: inline-block;
+	width: 100%;
 }
 
 .or-divider-dotted p.normal {
@@ -5908,6 +5895,11 @@ body a.kontaktaxossxxxbrodtext:focus, body .kontaktaxossxxxbrodtext a:focus, bod
 	color: #D63823;
 }
 
+.or-elmt-actn-link {
+	font-size: 14px;
+	padding: 17px 0 17px 19px;
+}
+
 .or-elmt-actn-icon i {
 	color: #FFF;
 }
@@ -6900,6 +6892,8 @@ div.or-synpunkt-action .or-action-content span:after {
 		font-size: 18px !important;
 	}
 
+
+
 }
 
 .or-puff-bild-text li a:link {
@@ -7065,7 +7059,7 @@ div.or-synpunkt-action .or-action-content span:after {
 	-moz-border-radius: 2px;
 	-webkit-border-radius: 2px;
 	background-color: #fff;
-	padding: 18px 20px 18px 20px;
+	padding: 13px 20px 18px 20px;
 	margin-top: 20px;
 	margin-bottom: 35px;
 }
@@ -7799,15 +7793,15 @@ label.or-fieldlabelhelpus {
 /* Program inriktningar */
 /* se även program puff */
 .or-inriktning {
-	padding-top: 4px;
-	padding-bottom: 9px;
-	display: block;
+	padding-top: 5px;
+	padding-bottom: 6px;
 	margin-right: auto;
 	margin-bottom: 20px;
 	margin-left: auto;
 	padding-left: 10px;
 	background-color: white;
     border-top: 1px solid #E4E4E4;
+    display: block;
 }
 
 .or-inriktning div:nth-child(2) div div p.normal {
@@ -7817,11 +7811,18 @@ label.or-fieldlabelhelpus {
 	color: black;
 	font-size: 12px;
 	margin-right: 10px;
-	margin-top: 10px;
+	margin-top: 0;
 	margin-bottom: 0;
 	margin-left: 0px;
 	line-height: 15px;
 	border-right: 1px solid #E4E4E4;
+    top: 1px;
+    position: relative;
+}
+.or-inriktning div:nth-child(2) div:last-child div p.normal {
+    padding-right: 0;
+    border: 0;
+    margin-right: 0;
 }
 
 @media (max-width: 480px) {
@@ -7922,8 +7923,8 @@ label.or-fieldlabelhelpus {
 }
 
 .or-school-advantages-header h3 {
-	font-size: 16px!important;
-	letter-spacing: 0.04em;
+	font-size: 14px!important;
+	letter-spacing: 1.08px;
 	text-transform: uppercase;
 	margin-top: 0px !important;
 }
@@ -7971,7 +7972,7 @@ label.or-fieldlabelhelpus {
 .or-school-footer-info {
 	background-color: #f7e4f2;
 	margin-bottom: 30px;
-	padding: 36px 67px;
+	padding: 36px 66px;
 }
 
 .or-school-footer-info a:link {
@@ -7990,9 +7991,9 @@ label.or-fieldlabelhelpus {
     -webkit-box-decoration-break: clone;
 }
 
-.or-school-footer-info span {
-	font-size: 21px;
-	line-height: 33px;
+.or-school-footer-info p {
+	font-size: 14px;
+	line-height: 19px;
 }
 
 .or-school-footer-info .sv-text-portlet-content {
@@ -8186,7 +8187,7 @@ label.or-fieldlabelhelpus {
 	text-align: center;
 	letter-spacing: 0.04em;
 	text-transform: uppercase;
-	margin-right: 10px;
+	margin: 0 6px;
 }
 
 .or-sketch-text-campaign {
@@ -8834,4 +8835,37 @@ input[type="file" i]::-webkit-file-upload-button:hover {
 	box-sizing: border-box;
 	width: 100%;
 	margin: 0;
+}
+
+
+
+@media (min-width: 1350px) and (max-width: 1649px) {
+	.sv-text-portlet li {
+		font-size: 19px;
+	}
+}
+
+@media (min-width: 1650px) {
+	.sv-text-portlet li {
+		font-size: 21px;
+	}
+
+	.or-school-advantages-header h3 {
+		font-size: 16px!important;
+		letter-spacing: 1.23px;
+	}
+	.or-school-footer-info span {
+		font-size: 21px;
+		line-height: 33px;
+	}
+
+	.or-puff-text-bild-lanklista {
+	    margin-bottom: -30px!important;
+	}
+
+	.normal {
+		font-size: 21px;
+		line-height: 33px;
+	}
+	
 }

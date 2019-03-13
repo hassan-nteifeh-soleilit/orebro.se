@@ -1684,6 +1684,7 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
 }
 
 .or-plus-box-program p.normal {  
+    margin-top: 10px;    
     margin-bottom: 10px;    
     font-weight: 400;
     list-style-type: disc;
@@ -1769,7 +1770,9 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
     flex: 1;
 }
 #myChart {
-  margin-top: 1.5em;
+    margin-top: 1.5em;
+    height: 249px;
+    width: 249px;
 }
 
 
