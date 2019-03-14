@@ -303,10 +303,6 @@
     }
 
 
-    .normal a:link {
-        font-size: 16px;
-    }
-
     .sv-text-portlet li {
         margin-bottom: 9px;
         font-size: 16px !important;
@@ -610,7 +606,7 @@
 
     .or-programpoang {
         display: block;
-        margin-top: 6px;
+        margin-top: 0;
         width: 90px;
         text-align: center;
     }
