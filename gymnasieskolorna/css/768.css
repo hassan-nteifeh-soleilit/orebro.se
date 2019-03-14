@@ -779,6 +779,11 @@
     line-height: 20px;
   }
 
+  #myChart {
+    height: 249px!important;
+    width: 249px!important;
+  }
+
   /* kampanjmall */ 
   .or-sketch-text-campaign {
     display:none;
