@@ -2505,6 +2505,10 @@ ol {
   	margin-bottom: 30px;
 }
 
+.or-blogg-width .sv-use-margins p.normal {
+  margin-bottom: 20px;
+}
+
 .bigbloggimage {
 	width: 100%;
 	margin-bottom: 20px;
@@ -6141,7 +6145,7 @@ div.or-synpunkt-action .or-action-content span:after {
 
 .sv-table-portlet table,
 .sv-text-portlet table.sv-standard {
-	width: 101%;
+	width: 100%;
 	border-collapse: collapse;
 }
 
@@ -7793,8 +7797,8 @@ label.or-fieldlabelhelpus {
 /* Program inriktningar */
 /* se även program puff */
 .or-inriktning {
-	padding-top: 5px;
-	padding-bottom: 6px;
+	padding-top: 7px;
+	padding-bottom: 10px;
 	margin-right: auto;
 	margin-bottom: 20px;
 	margin-left: auto;

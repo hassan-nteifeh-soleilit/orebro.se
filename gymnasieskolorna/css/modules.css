@@ -1772,8 +1772,8 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
 }
 #myChart {
     margin-top: 1.5em;
-    height: 249px;
-    width: 249px;
+    height: 295px!important;
+    width: 295px!important;
 }
 
 
