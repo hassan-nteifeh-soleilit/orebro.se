@@ -250,7 +250,7 @@ line-height: 24px;
 
 /* Steg för Steg puff */
 .or-school-advantages-container {
-width:90%;
+  width:90%!important;
 }
 .sv-grid-utanxmellanrum.sv-fixed-fluid-grid .sv-column-4.or-school-col {
   width: 33.3333% !important;

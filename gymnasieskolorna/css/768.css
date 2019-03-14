@@ -966,6 +966,7 @@
   .or-school-advantages-container {
     border-right: 0px;
     float:none!important;
+      width: calc(100% - 30px) !important;
   }
 
   .or-school-advantages-header {

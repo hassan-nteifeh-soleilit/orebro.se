@@ -7904,6 +7904,7 @@ label.or-fieldlabelhelpus {
 	margin-top: 20px;
 	text-align: center;
 	border: 1px solid #FFF484;
+	width: calc(100% - 30px) !important;
 }
 
 .or-school-advantages-block {
@@ -7973,6 +7974,12 @@ label.or-fieldlabelhelpus {
 	background-color: #f7e4f2;
 	margin-bottom: 30px;
 	padding: 36px 66px;
+	max-width: 100%!important;
+	width: 100%!important;
+}
+
+.or-school-footer-info > div {
+	width: 100%!important;
 }
 
 .or-school-footer-info a:link {
