@@ -29,6 +29,11 @@
     display: none;
   }
 
+  .or-inriktning {
+    padding-top: 5px;
+    padding-bottom: 7px;
+  }
+
   /* från base */
   .stacktable.large-only { 
     display: none; 
@@ -758,6 +763,7 @@
     width: 97%;
     margin-right: auto;
     margin-left: auto;
+    padding: 0 15px!important;
   }
 
   .sv-text-portlet li {

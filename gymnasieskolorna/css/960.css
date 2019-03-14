@@ -246,10 +246,10 @@ line-height: 24px;
     min-height: 325px;
 }
 
-
 .or-blogg-width {
   margin-left: 0;
   margin-right: 0;
+  padding: 0!important;
 }
 
 /* Steg för Steg puff */
