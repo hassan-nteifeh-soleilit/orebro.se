@@ -6320,6 +6320,11 @@ div.or-synpunkt-action .or-action-content span:after {
 	.or-puff-img .normal {
 		line-height: 18px;
 	}
+
+	.or-inriktning {
+		padding-top: 7px;
+		padding-bottom: 10px;
+	}
 }
 
 /*TOPP STOR BILD MED TEXT BILD HELA YTAN */
@@ -7796,8 +7801,8 @@ label.or-fieldlabelhelpus {
 /* Program inriktningar */
 /* se även program puff */
 .or-inriktning {
-	padding-top: 7px;
-	padding-bottom: 10px;
+	padding-top: 3px;
+	padding-bottom: 4px;
 	margin-right: auto;
 	margin-bottom: 20px;
 	margin-left: auto;
@@ -7987,6 +7992,7 @@ label.or-fieldlabelhelpus {
 
 .or-school-footer-info a:link {
 	text-decoration: underline;
+	color: #35383B;;
 }
 
 .or-school-footer-info .poem span {
