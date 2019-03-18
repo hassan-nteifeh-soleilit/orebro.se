@@ -130,6 +130,10 @@ p.ingress{
 }
 
 /*Länkar footer*/
+.or-site-facts a {
+	text-decoration:underline;
+	border-bottom:none;
+}
 .or-site-facts a:link {
 	color: #0066B0;
 }
