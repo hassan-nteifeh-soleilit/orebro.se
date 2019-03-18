@@ -1178,6 +1178,10 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
    /* top: 100%;*/
     left: 0;
 }
+
+.or-language-modal .goog-logo-link{
+    border-bottom:none!important;
+}
 .or-language-modal-close{
     position: absolute;
     top: 20px;
