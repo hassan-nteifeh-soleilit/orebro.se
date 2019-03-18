@@ -1208,6 +1208,14 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
     background-color:#333!important;
     color:#fff!important;
 }
+.or-language-modal h2{
+    font-size: 20px!important;
+    color: #35383b!important;
+}
+.or-language-modal p{
+    font-size: 17px!important;
+    color: #35383b!important;
+}
 
 /* social media */
 .or-social-media-content .or-social-media-content .or-header {
