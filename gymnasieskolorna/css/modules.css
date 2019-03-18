@@ -1210,6 +1210,7 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
 }
 .or-language-modal h2{
     font-size: 20px!important;
+    font-weight:bold!important;
     color: #35383b!important;
 }
 .or-language-modal p{
