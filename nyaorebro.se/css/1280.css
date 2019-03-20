@@ -290,7 +290,7 @@ nav.or-secondary .or-content ul li a {
 }
 
 .or-puff-startpage-footer .or-puff-link .normal {
-    font-size: 16px;
+    font-size: 15px;
 }
 
 or-start-bottom-tabs ul li a {
@@ -337,7 +337,11 @@ body .or-wrapper-click.or-puff-bild-text h3 {
 }
 
 body .or-puff-link .normal a {
-    font-size: 14px;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #35383b;
+    font-family: "leaguespartan webfont",sans-serif;
 }
 
 /* tjäntepuff */
