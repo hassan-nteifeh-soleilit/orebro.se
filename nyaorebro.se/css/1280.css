@@ -338,13 +338,16 @@ body .or-wrapper-click.or-puff-bild-text h3 {
 
 body .or-puff-link .normal a {
     font-size: 13px;
-    font-weight: bold;
+    font-weight: 700;
     text-decoration: none;
     color: #35383b;
+    line-height: normal;
     font-family: "leaguespartan webfont",sans-serif;
 }
 body .or-puff-link .normal a:hover{
     color: #db7e02;
+    text-decoration: none;
+
 }
 
 /* tjäntepuff */
