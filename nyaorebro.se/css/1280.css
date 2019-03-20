@@ -344,10 +344,9 @@ body .or-puff-link .normal a {
     line-height: normal;
     font-family: "leaguespartan webfont",sans-serif;
 }
-body .or-puff-link .normal a:hover{
-    color: #db7e02;
-    text-decoration: none;
-
+body .or-puff-link:hover .normal a{
+   text-decoration: none!important;
+   color:#db7e02;
 }
 
 /* tjäntepuff */
