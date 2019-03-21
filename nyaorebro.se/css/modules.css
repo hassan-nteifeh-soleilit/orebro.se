@@ -4312,9 +4312,8 @@ body .or-start-heading-divider .normal {
     font-size: 15px;
     line-height: 1.3em;
 }
-
-.or-puff-startpage-footer .or-puff-link:hover .normal {
-    text-decoration: underline;
+.or-puff-link:hover > div > div:nth-child(2) p.normal {
+  text-decoration: underline;
 }
 
 /* Sök politiker */
