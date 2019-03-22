@@ -5678,8 +5678,8 @@ div.sol-search-icon-wrapper > img {
 .or-comment-heading-container {
 	position: relative;
 	min-height: 47px;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	border-top: 2px dotted #dbdbdb;
