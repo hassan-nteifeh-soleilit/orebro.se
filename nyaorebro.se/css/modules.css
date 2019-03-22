@@ -7004,3 +7004,21 @@ body .SokIngetResultat {
 .or-widget--beige:hover .or-widget__text {
     text-decoration: underline;
 }
+
+/* Orange bakgrund för action "synpunkter och klagomål" */
+.or-synpunkter-action .or-elmt-actn-row:after{
+    border-left-color: #F4A63B !important;
+}
+
+.or-synpunkter-action .or-elmt-actn-icon{
+    background-color: #F4A63B !important;
+}
+
+/* Grå bakgrund för action "sök person" i Modalen Kontakta Örebro*/
+.or-modal-content .or-sok-person-action .or-elmt-actn-icon {
+    background-color: gray !important;
+}
+
+.or-modal-content .or-sok-person-action .or-elmt-actn-row:after{
+    border-left-color: gray !important;
+}
