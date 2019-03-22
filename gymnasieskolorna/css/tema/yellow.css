@@ -517,7 +517,7 @@ li.sol_step.active:hover {
 }
 
 .or-facts-block h4, h3, h2, h1 {
-    color: #35383B;
+    color: #35383B !important;
 }
 
 /* steg för steg program */
