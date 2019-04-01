@@ -2459,7 +2459,7 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
     margin-right: 6px;
 }
 
-.tabs-plusbox .or-plus-box-diskret-header .plusboxxrubrik {
+.tabs-plusbox .plusboxxrubrik {
     width: 100%;
     white-space: nowrap;
     overflow: hidden;
@@ -2467,6 +2467,7 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
     display: flex;
     flex-direction: row;
     font-size: 14px;
+    color: #000;
 }
 
 .tabs-plusbox .or-plus-box-header {
@@ -2474,11 +2475,6 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
 }
 .tabs-plusbox .or-plus-box-header.or-plus-box-active {
     background-color: #fff;
-}
-
-.tabs-plusbox .or-plus-box-diskret-header .plusboxxrubrik {
-    color: #000;
-    font-size: 14px;
 }
 
 .tabs-plusbox .plusboxxrubrik svg {
