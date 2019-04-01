@@ -2476,6 +2476,13 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
    background-color: #fff;
 }
 
+.tabs-plusbox .or-plus-box-header.or-plus-box-active .plusboxxrubrik svg {
+   fill: #fff;
+}
+.tabs-plusbox .or-plus-box-header.or-plus-box-active .plusboxxrubrik path {
+   stroke: #fff;
+}
+
 .tabs-plusbox .plusboxxrubrik svg {
    width: 20px;
    height: 18px;
@@ -2483,23 +2490,6 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
    display: flex;
    margin-top: -2px;  
 }
-
-/*
-.tabs-plusbox .or-plus-box-diskret-header.or-plus-box-active .plusboxxrubrik,
-.tabs-plusbox .or-plus-box-header:hover .plusboxxrubrik {
-color: #D63823;
-}
-
-.tabs-plusbox .or-plus-box-active .plusboxxrubrik .fa-lattlast,
-.tabs-plusbox .or-plus-box-header:hover .plusboxxrubrik .fa-lattlast {
-fill: #D63823;
-}
-
-.tabs-plusbox .or-plus-box-active .plusboxxrubrik .fa-teckensprak *,
-.tabs-plusbox .or-plus-box-header:hover .fa-teckensprak * {
-stroke: #D63823;
-}
-*/
 
 .tabs-plusbox:not(.sv-editable-layout) {
    flex-direction: row;

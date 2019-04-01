@@ -1904,6 +1904,13 @@ body:not(.sv-editing-mode) .or-plus-box-program.or-plus-box-content caption, bod
    background-color: #fff;
 }
 
+.tabs-plusbox .or-plus-box-header.or-plus-box-active .plusboxxrubrik svg {
+   fill: #fff;
+}
+.tabs-plusbox .or-plus-box-header.or-plus-box-active .plusboxxrubrik path {
+   stroke: #fff;
+}
+
 .tabs-plusbox .plusboxxrubrik svg {
    width: 20px;
    height: 18px;
