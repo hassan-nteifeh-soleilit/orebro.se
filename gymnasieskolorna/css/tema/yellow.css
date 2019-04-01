@@ -291,6 +291,14 @@ li.sol_step.active:hover {
     color: #000;	
 }
 
+.tabs-plusbox .or-plus-box-header.or-plus-box-active .plusboxxrubrik svg {
+    fill: #000;
+}
+.tabs-plusbox .or-plus-box-header.or-plus-box-active .plusboxxrubrik path {
+    fill: #000;
+}
+
+
 .or-programpoang {
     border-color:  #35383b;
     color:  #35383b;
