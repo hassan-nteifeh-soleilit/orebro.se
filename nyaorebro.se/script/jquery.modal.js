@@ -50,7 +50,7 @@
     function init (selector) {
 			$(selector).wrap('<div class="or-modal-content" ></div>');      
 			$('.or-modal-content').wrap('<div class="or-modal" style="display:none;"></div>');
-			$('.or-modal-content').before('<a href="#" class="or-modal-close"><i class="fa fa-close"></i> Stäng</a>');
+			$('.or-modal-content').before('<a href="#" class="or-modal-close"><i class="fa fa-times"></i> Stäng</a>');
 			$(selector).show();   
 			add_block_page();
 			add_popup_box();

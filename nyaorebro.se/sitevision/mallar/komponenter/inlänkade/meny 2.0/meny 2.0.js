@@ -115,7 +115,7 @@ var createMenu = function() {
         LinkRenderer.setText(siteName);
         LinkRenderer.setFontClass("or-menu-title");
         out.println(LinkRenderer.render());	        
-        out.println('<a href="#" class="or-push-nav-btn"><i class="fa fa-close"></i>STÄNG</a>');
+        out.println('<a href="#" class="or-push-nav-btn"><i class="fa fa-times"></i>STÄNG</a>');
         out.println('</div>');
 
         out.println('  <ul class="or-depth-' + startDeepth + '">');

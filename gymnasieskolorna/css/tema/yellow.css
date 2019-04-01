@@ -295,7 +295,7 @@ li.sol_step.active:hover {
     fill: #000;
 }
 .tabs-plusbox .or-plus-box-header.or-plus-box-active .plusboxxrubrik path {
-    fill: #000;
+    stroke: #000;
 }
 
 

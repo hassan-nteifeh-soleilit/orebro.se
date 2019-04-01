@@ -1879,7 +1879,7 @@ body:not(.sv-editing-mode) .or-plus-box-program.or-plus-box-content caption, bod
     font-size: 14px;
 }
 
-.plusboxxrubrik .or-plus-box-header .or-collapse-button {
+.tabs-plusbox .or-plus-box-header .or-collapse-button {
     width: 35px;
 }
 

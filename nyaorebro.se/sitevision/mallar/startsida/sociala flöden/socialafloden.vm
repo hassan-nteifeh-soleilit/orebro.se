@@ -18,7 +18,7 @@
    #if($sm.type == "YTUBE")
    <div class="or-content">         
       <div class="or-media-popup" id="or-id-media-popup">
-        <div class="or-media-close"><i class="fa fa-close"></i> Stäng</div>
+        <div class="or-media-close"><i class="fa fa-times"></i> Stäng</div>
         <iframe width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
     	</div>
    	<div class="or-social-image" data-media="//$sm.permalink">
