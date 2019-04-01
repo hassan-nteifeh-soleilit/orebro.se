@@ -2456,75 +2456,74 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
 
 /* Plusbox med ikon - Gäller Alla*/
 .plusboxxrubrik .fa {
-    margin-right: 6px;
+   margin-right: 6px;
 }
 
 .tabs-plusbox .plusboxxrubrik {
-    width: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: flex;
-    flex-direction: row;
-    font-size: 14px;
-    color: #000;
+   width: 100%;
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: flex;
+   flex-direction: row;
+   font-size: 14px;
 }
 
 .tabs-plusbox .or-plus-box-header {
-    border-color: #edeaea;
+   border-color: #edeaea;
 }
 .tabs-plusbox .or-plus-box-header.or-plus-box-active {
-    background-color: #fff;
+   background-color: #fff;
 }
 
 .tabs-plusbox .plusboxxrubrik svg {
-    width: 20px;
-    height: 18px;
-    line-height: 18px;
-    display: flex;
-    margin-top: -2px;  
+   width: 20px;
+   height: 18px;
+   line-height: 18px;
+   display: flex;
+   margin-top: -2px;  
 }
 
 /*
 .tabs-plusbox .or-plus-box-diskret-header.or-plus-box-active .plusboxxrubrik,
 .tabs-plusbox .or-plus-box-header:hover .plusboxxrubrik {
-    color: #D63823;
+color: #D63823;
 }
 
 .tabs-plusbox .or-plus-box-active .plusboxxrubrik .fa-lattlast,
 .tabs-plusbox .or-plus-box-header:hover .plusboxxrubrik .fa-lattlast {
-    fill: #D63823;
+fill: #D63823;
 }
 
 .tabs-plusbox .or-plus-box-active .plusboxxrubrik .fa-teckensprak *,
 .tabs-plusbox .or-plus-box-header:hover .fa-teckensprak * {
-    stroke: #D63823;
+stroke: #D63823;
 }
 */
 
 .tabs-plusbox:not(.sv-editable-layout) {
-    flex-direction: row;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 30px -10px;
+   flex-direction: row;
+   display: flex;
+   flex-wrap: wrap;
+   margin: 30px -10px;
 }
 
 .tabs-plusbox:not(.sv-editable-layout) > div:not(.tabs-plusbox-content) {
-    display: inline-block;
-    max-width: 240px;
-    width: 100%;
-    flex: 1;
-    margin: 0 10px;
+   display: inline-block;
+   max-width: 240px;
+   width: 50%;
+   flex: 1;
+   margin: 0 10px;
 }
 
 .tabs-plusbox:not(.sv-editable-layout) .or-plus-box-header {
-    margin-top: 0;
+   margin-top: 0;
 }
 
 .tabs-plusbox:not(.sv-editable-layout) .tabs-plusbox-content {
-    order: 1;
-    width: 100%;
-    margin: 0 10px;
+   order: 1;
+   width: 100%;
+   margin: 0 10px;
 }
 
 .tabs-plusbox:not(.sv-editable-layout) :not(.tabs-plusbox-content) .or-plus-box-content {
@@ -2536,47 +2535,74 @@ body .sv-font-action-penna a:link,body .sv-font-action-pil a:link,body .sv-font-
    margin: 0;
 }
 .tabs-plusbox.sv-editable-layout .tabs-plusbox-content {
-    display: none!important;
+   display: none!important;
 }
 .tabs-plusbox .or-plus-box-diskret-content {
-    padding: 24px 15px;
+   padding: 24px 15px;
+}
+.tabs-plusbox .or-plus-box-header {
+   min-height: 35px;
+   padding-left: 13px;
+   padding-right: 42px;
+}
+
+.tabs-plusbox .plusboxxrubrik {
+   padding-top: 8px;
+   padding-bottom: 8px;
+}
+
+.tabs-plusbox span::before {
+   font-size: 16px;
+   top: -1px;
+}
+
+.tabs-plusbox:not(.sv-editable-layout) > div:not(.tabs-plusbox-content) {
+  display: inline-block;
+  max-width: 240px;
+  width: 100%;
+  flex: 1;
+  margin: 0 10px;
 }
 
 @media (min-width: 768px) {
-    .tabs-plusbox:not(.sv-editable-layout) > div:first-child {
-        margin-right: 40px;
-    }
+   .tabs-plusbox:not(.sv-editable-layout) > div:first-child {
+      margin-right: 40px;
+   }
 }
 
 @media (max-width: 768px) {
-    .tabs-plusbox .or-plus-box-diskret-header .plusboxxrubrik {
-        font-size: 12px;
-    }
-    .tabs-plusbox .or-plus-box-diskret-content {
-        padding: 18px 15px;
-    }
+   .tabs-plusbox .plusboxxrubrik {
+      font-size: 12px;
+   }
+   .tabs-plusbox .or-plus-box-diskret-content {
+      padding: 18px 15px;
+   }
+   .tabs-plusbox span::before {
+      font-size: 14px;
+      top: -1px;
+   }
 }
 @media (max-width: 480px) {
-    .tabs-plusbox:not(.sv-editable-layout) .or-plus-box-header {
-        padding-right: 40px;
-        padding-left: 7px;
-    }
-    .tabs-plusbox:not(.sv-editable-layout) {
-        margin: 20px -3px;
-    }
-    .tabs-plusbox:not(.sv-editable-layout) > div:not(.tabs-plusbox-content) {
-        padding: 0 3px;
-        margin: 0 -1px;
-    }
-    .tabs-plusbox:not(.sv-editable-layout) .tabs-plusbox-content {
-        margin: 0 3px;
-    }
-    .tabs-plusbox .plusboxxrubrik svg {
-        width: 16px;
-        height: 15px;
-        margin-top: 0;
-    }
+   .tabs-plusbox:not(.sv-editable-layout) {
+      margin: 20px -3px;
+   }
+   .tabs-plusbox:not(.sv-editable-layout) > div:not(.tabs-plusbox-content) {
+      padding: 0 3px;
+      margin: 0 -1px;
+   }
+   .tabs-plusbox:not(.sv-editable-layout) .tabs-plusbox-content {
+      margin: 0 3px;
+   }
+   .tabs-plusbox .plusboxxrubrik svg {
+      width: 16px;
+      height: 15px;
+      margin-top: 0;
+   }
+    .tabs-plusbox .or-plus-box-header {
+      padding-left: 10px;
+   }
 }
+
 
 
 @media (min-width: 768px) and (max-width: 1350px) {
