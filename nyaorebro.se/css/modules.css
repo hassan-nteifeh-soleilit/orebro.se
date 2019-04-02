@@ -133,8 +133,8 @@ form.or-search-field button:hover {
     left: 15px;
 }
 
-.or-search-button-wrapper .fa-search,#or-id-search-icon {
-    font-size: 35px;
+.or-search-button-wrapper .fa-search, #or-id-search-icon {
+    font-size: 33px;
     color: #fff;
 }
 
@@ -157,6 +157,7 @@ form.or-search-field button:hover {
     -o-transition: all 500ms ease;
     transition: all 500ms ease;
     cursor: pointer;
+    font-size: 33px;
 }
 
 .or-menu-button-container .fa:hover {
