@@ -293,7 +293,7 @@ section.or-nav-content-section .or-puff-icon-header-text .sv-use-margins .rubrik
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    background-color: #e83c23;
+    background-color: #D63823;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
 }
@@ -306,7 +306,7 @@ section.or-nav-content-section .or-puff-icon-header-text .sv-use-margins .rubrik
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    background-color: #e83c23;
+    background-color: #D63823;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
 }
@@ -329,7 +329,7 @@ body .or-start-heading-divider .normal {
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    background-color: #e83c23;
+    background-color: #D63823;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
     padding: 9px 10px 8px;
@@ -343,7 +343,7 @@ body .or-start-heading-divider .normal {
     height: 0;
     border-style: solid;
     border-width: 9px 9px 0 9px;
-    border-color:  #e83c23 transparent transparent transparent;
+    border-color:  #D63823 transparent transparent transparent;
     position: absolute;
     bottom: -8px;
     left: 15px;
@@ -366,7 +366,7 @@ body .or-start-heading-divider .normal {
 
 
 .or-red-header-box .box-header {
-    background-color: #e83c23;
+    background-color: #D63823;
     position: relative;
 }
 
@@ -511,7 +511,7 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
 /* processteg */
 body .sol-accordion-heading {
     background-color: #fff;
-    color: #e83c23;
+    color: #D63823;
     border-top: 3px solid #F4F3F1;
     margin: 0 0 5px;
     padding: 8px 35px 8px 10px;
@@ -530,7 +530,7 @@ body .sol-accordion-heading {
     content: "\f067";
     font-family: FontAwesome;
     padding-right: 6px;
-    color: #e83c23;
+    color: #D63823;
     position: absolute;
     right: 35px;
     font-size: 18px;
@@ -548,9 +548,9 @@ body .sol-accordion-heading {
 }
 
 .sol-accordion-heading.sol-tab-active {
-    background-color: #e83c23;
+    background-color: #D63823;
     color: #fff;
-    border: 0px solid #e83c23;
+    border: 0px solid #D63823;
     border-top: 5px solid #cf311a;
     padding-bottom: 8px;
 }
