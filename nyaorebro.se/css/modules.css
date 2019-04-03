@@ -6920,7 +6920,12 @@ body .SokIngetResultat {
     color: #fff;
 }
 
-.or-language-modal-close .fa-close {
+.or-language-modal h2{
+  font-family:"leaguespartan webfont",sans-serif!important;
+  font-size:20px;
+}
+
+.or-language-modal-close i {
     padding-top: 5px;
     width: 100%;
     color: #FFF;
