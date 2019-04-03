@@ -87,10 +87,8 @@ footer a:hover {
 
 footer .or-rss a, 
 footer .or-site-facts a {
-    font-family: 'Leaguespartan webfont', sans-serif;
     font-size: 14px;
     line-height: 17px;
-    font-weight: 700;
 }
 
 .contentlinks.linkblue {
@@ -123,8 +121,8 @@ footer .or-site-facts p {
 
 
 footer i.or-social-icon-bg { 
-    color: transparent!important;
-    font-style:normal
+    color: #35383b !important;
+    font-style: normal;
 }
 
 footer i.or-social-icon-fg { 
