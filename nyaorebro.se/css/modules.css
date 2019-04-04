@@ -4321,7 +4321,7 @@ body .or-start-heading-divider .normal {
   color:#db7e02;
 }
 
-.or-puff-link .normal a:link:hover .normal a{
+.or-puff-link .normal a:link:hover{
   color:#db7e02!important;
 }
 
