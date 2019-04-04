@@ -4310,14 +4310,14 @@ body .or-start-heading-divider .normal {
 .or-puff-link:hover > div > div:nth-child(2) p.normal {
   text-decoration: underline;
 }
-.or-puffar-startsida .or-puff-link a{
+.or-puff-link a{
   font-size:13px;
   font-weight:bold;
   text-decoration:none;
   color:#35383b;
   font-family:"leaguespartan webfont",sans-serif;
 }
-.or-puffar-startsida .or-puff-link:hover a{
+.or-puff-link:hover a{
   color:#db7e02;
 }
 
