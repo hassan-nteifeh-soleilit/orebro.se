@@ -76,8 +76,9 @@ body .or-content-container .or-tir p {
 /* mobilmeny */
 
 .or-mobile-nav-column i.fa {
-    font-size: 18px;
+    font-size: 17px;
     margin-bottom: 7px;
+    padding-top: 0px;
 }
 
 .or-mobile-nav-column.search-column {

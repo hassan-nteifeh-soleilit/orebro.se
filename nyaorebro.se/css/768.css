@@ -824,8 +824,9 @@ body section.or-top-img-area .brodtextxxfetx {
 
 .or-mobile-nav-column i.fa{
     color: #D63823;
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 6px;
+    padding-top: 4px;
 }
 
 .or-mobile-nav-text {
