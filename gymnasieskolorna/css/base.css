@@ -4126,7 +4126,7 @@ li.or-comment {
 	border-top: 2px dotted #D1D1D1;
 	border-bottom: 2px dotted #D1D1D1;
 	display: inline-block;
-	width: 100%;
+	width: 100%!important;
 }
 
 .or-divider-dotted p.normal {
