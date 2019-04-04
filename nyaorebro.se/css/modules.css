@@ -4321,6 +4321,9 @@ body .or-start-heading-divider .normal {
   color:#db7e02;
 }
 
+.or-puff-link .normal a:link:hover .normal a{
+  color:#db7e02!important;
+}
 
 /* Sök politiker */
 .or-sok-politiker td {
