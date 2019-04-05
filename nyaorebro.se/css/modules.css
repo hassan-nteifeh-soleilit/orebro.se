@@ -4310,7 +4310,7 @@ body .or-start-heading-divider .normal {
 .or-puff-link:hover > div > div:nth-child(2) p.normal {
   text-decoration: underline;
 }
-.or-puff-link a{
+.or-puff-link .normal a{
   font-size:13px;
   font-weight:bold;
   text-decoration:none;
