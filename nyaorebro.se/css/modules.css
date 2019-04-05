@@ -4311,7 +4311,7 @@ body .or-start-heading-divider .normal {
   text-decoration: underline;
 }
 .or-puff-link .normal a{
-  font-size:13px;
+  font-size:13px!important;
   font-weight:bold;
   text-decoration:none;
   color:#35383b;
