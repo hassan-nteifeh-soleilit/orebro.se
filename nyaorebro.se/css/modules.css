@@ -1750,7 +1750,7 @@ footer {
 .or-social-icon i {
     float: left;
     color: #fff;
-    font-size: 21px;
+    font-size: 20px;
     margin: 12px 12px 0;
 }
 
@@ -3906,10 +3906,10 @@ section.or-bg-one {
 
 /* Öppettider startsida */
 .or-red-header-box .box-content .fa {
-    font-size: 24px;
+    font-size: 22px;
     padding: 5px;
     position: relative;
-    top: 3px;
+    top: 2px;
 }
 
 .or-red-header-box .box-content .fa.fa-envelope-o {
