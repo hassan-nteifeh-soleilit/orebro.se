@@ -255,11 +255,9 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
 }
 
 .or-blogg-width {
-    max-width: 100%!important;
-    padding: 0 15px!important;
     width: 100%!important;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .sv-use-margins .normal{
@@ -274,11 +272,8 @@ body .sv-font-action-penna a:link, body .sv-font-action-pil a:link, body .sv-fon
 
 }  /* end 1650 */
 
-
-.or-blogg-width {
-    max-width: 100%!important;
-    padding: 0 15px!important;
-    width: 100%!important;
-    margin-left: 0;
-    margin-right: 0;
+@media (min-width: 1350px) {
+    .or-blogg-width {
+        max-width: 800px !important;
+    }
 }

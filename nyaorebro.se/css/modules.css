@@ -1750,7 +1750,7 @@ footer {
 .or-social-icon i {
     float: left;
     color: #fff;
-    font-size: 21px;
+    font-size: 20px;
     margin: 12px 12px 0;
 }
 
@@ -3906,10 +3906,10 @@ section.or-bg-one {
 
 /* Öppettider startsida */
 .or-red-header-box .box-content .fa {
-    font-size: 24px;
+    font-size: 22px;
     padding: 5px;
     position: relative;
-    top: 3px;
+    top: 2px;
 }
 
 .or-red-header-box .box-content .fa.fa-envelope-o {
@@ -5158,7 +5158,7 @@ body .or-start-heading-divider .normal {
 }
 
 .or-puff-icon-link .normal .ikonxorange{
-    font-size: 2.3em !important;
+    font-size: 1.8em !important;
     margin-left: 0.4em;
     padding-right: 0.3em; 
 }
@@ -5385,7 +5385,7 @@ body .or-puff-link .or-puff-icon-link .normal {
 }
 
 .or-puff-icon-header-text .ikonxorange  {
-    font-size: 40px;
+    font-size: 36px;
     display: block;
     margin: 10px;
     text-align: center;
