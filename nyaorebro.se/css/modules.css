@@ -7027,6 +7027,8 @@ body .SokIngetResultat {
     text-decoration: underline;
 }
 
+
+/* Karta */
 .fa-map-marker:before {
-    content: "\f3c5";
+   content: "\f3c5";
 }
