@@ -7026,3 +7026,7 @@ body .SokIngetResultat {
 .or-widget--beige:hover .or-widget__text {
     text-decoration: underline;
 }
+
+.fa-map-marker:before {
+    content: "\f3c5";
+}
