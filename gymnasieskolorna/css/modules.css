@@ -2059,4 +2059,7 @@ body:not(.sv-editing-mode) .or-plus-box-program.or-plus-box-content caption, bod
     margin-bottom: 15px;
 }
 
-
+/* Karta */
+.fa-map-marker:before {
+   content: "\f3c5";
+}
