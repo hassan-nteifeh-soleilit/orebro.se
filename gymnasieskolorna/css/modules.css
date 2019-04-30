@@ -1737,7 +1737,14 @@ li.sol-selected-facet:hover > i.sol-icon-facet-active:after {
 .or-blogg-width > div:first-child .or-plus-box-header.or-plus-box-program {
     margin-top: 30px;
 }
+.or-blogg-width:first-child {
+    margin-bottom: 0;
+}
 
+.bloggcontent .ingress {
+    font-size: 25px;
+    line-height: 1.5em;
+}
 
 /* Responsiv anpassning av plusboxar start */
 
