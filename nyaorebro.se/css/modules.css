@@ -7026,3 +7026,9 @@ body .SokIngetResultat {
 .or-widget--beige:hover .or-widget__text {
     text-decoration: underline;
 }
+
+
+/* Karta */
+.fa-map-marker:before {
+   content: "\f3c5";
+}
